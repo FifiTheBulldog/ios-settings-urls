@@ -41,6 +41,9 @@
 - General → Date & Time: `prefs:root=General&path=DATE_AND_TIME`
 - General → Keyboard: `prefs:root=General&path=Keyboard`
 - General → Keyboard → Keyboards: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- General ⇾ Keyboard ⇾ Hardware Keyboard: `prefs:root=General&path=Keyboard/Hardware%20Keyboard`
+- General ⇾ Keyboard ⇾ Text Replacement: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- General ⇾ Keyboard ⇾ One Handed Keyboard: `prefs:root=General&path=Keyboard/ReachableKeyboard`
 - General → Language & Region: `prefs:root=General&path=INTERNATIONAL`
 - General → Language & Region → Device Language: `prefs:root=General&path=INTERNATIONAL/DEVICE_LANGUAGE`
 - General → Language & Region → Calendar: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
@@ -170,6 +173,7 @@
 - Music → Optimize Storage: `prefs:root=MUSIC&path=com.apple.Music:OptimizeStorage`
 - Music → EQ: `prefs:root=MUSIC&path=com.apple.Music:EQ`
 - Music → Volume Limit: `prefs:root=MUSIC&path=com.apple.Music:VolumeLimit`
+- TV: `prefs:root=TVAPP`
 - Photos: `prefs:root=Photos`
 - Camera: `prefs:root=CAMERA`
 - Camera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
