@@ -1,4 +1,5 @@
-# iOS 13 Settings URLs
+# Main list of Settings URLs
+
 - iCloud: `prefs:root=CASTLE`
 - iCloud Backup: `prefs:root=CASTLE&path=BACKUP`
 - Wi-Fi: `prefs:root=WIFI`
@@ -37,7 +38,6 @@
 - General → CarPlay: `prefs:root=General&path=CARPLAY`
 - General → Background App Refresh: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
 - General → Background App Refresh → Background App Refresh: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD/AUTO_CONTENT_DOWNLOAD`
-- General → Multitasking (iPad-only): `prefs:root=General&path=MULTITASKING`
 - General → Date & Time: `prefs:root=General&path=DATE_AND_TIME`
 - General → Keyboard: `prefs:root=General&path=Keyboard`
 - General → Keyboard → Keyboards: `prefs:root=General&path=Keyboard/KEYBOARDS`
@@ -61,17 +61,19 @@
 - Accessibility: `prefs:root=ACCESSIBILITY`
 - Accessibility → Display & Text Size: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
 - Accessibility → Display & Text Size → Larger Text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Larger%20Text`
-- Accessibility → Display & Text Size → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Color%20Filters`
+- Accessibility → Keyboards: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Accessibility → Keyboards → Full Keyboard Access: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/Full%20Keyboard%20Access`
+- Accessibility → Keyboards → Key Repeat: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- Accessibility → Keyboards → Sticky Keys: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- Accessibility → Keyboards → Slow Keys: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
 - Accessibility → RTT: `prefs:root=ACCESSIBILITY&path=RTT`
 - Accessibility→ Subtitles & Captioning: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
 - Wallpaper: `prefs:root=Wallpaper`
 - Siri: `prefs:root=SIRI`
 - Siri → (specific app): `prefs:root=SIRI&path=bundle.id.here`
-- Apple Pencil (iPad-only): `prefs:root=Pencil`
 - Face ID/Touch ID & Passcode: `prefs:root=PASSCODE`
 - Emergency SOS: `prefs:root=EMERGENCY_SOS`
 - Battery: `prefs:root=BATTERY_USAGE`
-- Battery → Battery Health (iPhone-only): `prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH`
 - Privacy: `prefs:root=Privacy`
 - Privacy → Location Services: `prefs:root=Privacy&path=LOCATION`
 - Privacy → Location Services → Share My Location: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
@@ -93,6 +95,7 @@
 - App Store → Video Autoplay: `prefs:root=STORE&path=Video%20Autoplay`
 - Wallet: `prefs:root=PASSBOOK`
 - Wallet → Add Card: `prefs:root=PASSBOOK&path=Add%20Card`
+- Passwords (iOS 14): `prefs:root=PASSWORDS`
 - Passwords & Accounts: `prefs:root=ACCOUNTS_AND_PASSWORDS`
 - Passwords & Accounts → Add Account: `prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT`
 - Passwords & Accounts → Add Account → iCloud: `prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/iCloud`
@@ -147,7 +150,8 @@
 - Compass: `prefs:root=COMPASS`
 - Measure: `prefs:root=MEASURE`
 - Safari: `prefs:root=SAFARI`
-- Safari → Content Blockers: `prefs://root=SAFARI&path=CONTENT_BLOCKERS`
+- Safari → AutoFill: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Content Blockers: `prefs:root=SAFARI&path=CONTENT_BLOCKERS`
 - Safari → Downloads: `prefs:root=SAFARI&path=DOWNLOADS`
 - Safari → Close Tabs: `prefs:root=SAFARI&path=Close%20Tabs`
 - Safari → Page Zoom: `prefs:root=SAFARI&path=Page%20Zoom`
