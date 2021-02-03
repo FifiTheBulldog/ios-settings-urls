@@ -73,6 +73,7 @@
 - Accessibility→ Subtitles & Captioning: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
 - Wallpaper: `prefs:root=Wallpaper`
 - Siri: `prefs:root=SIRI`
+- Siri → Siri & Dictation History: `prefs:root=SIRI&path=HISTORY`
 - Siri → (specific app): `prefs:root=SIRI&path=bundle.id.here`
 - Face ID/Touch ID & Passcode: `prefs:root=PASSCODE`
 - Emergency SOS: `prefs:root=EMERGENCY_SOS`
