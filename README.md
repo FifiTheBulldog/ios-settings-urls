@@ -38,3 +38,4 @@ New updates to the MacStories list will be added to this list as well.
 - [u/Setnof](https://www.reddit.com/user/Setnof) for Privacy → Tracking
 - [u/BertCrawford](https://www.reddit.com/user/BertCrawford) for Safari → AutoFill
 - [u/OnlyForShortcuts](https://www.reddit.com/user/OnlyForShortcuts), [u/CosmicLatteeee](https://www.reddit.com/user/CosmicLatteeee), and [u/KelNishi](https://www.reddit.com/user/KelNishi) for Passwords (iOS 14)
+- [u/Jacopeste](https://www.reddit.com/user/Jacopeste) for Safari → Clear History and Website Data
