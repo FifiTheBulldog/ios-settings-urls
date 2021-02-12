@@ -1,0 +1,556 @@
+{
+    "Apple ID": {
+        "(root)": "prefs:root=APPLE_ACCOUNT",
+        "Name, Phone Numbers, Email": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+        "Password & Security": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+        "Payment & Shipping": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+        "Subscriptions": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS"
+    },
+    "iCloud": {
+        "(root)": [
+            "prefs:root=CASTLE",
+            "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE"
+        ],
+        "Keychain": [
+            "prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync",
+            "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync"
+        ],
+        "iCloud Backup": [
+            "prefs:root=CASTLE&path=BACKUP",
+            "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP"
+        ],
+        "Find My": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+        "Family Sharing": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+    },
+    "Wi-Fi": "prefs:root=WIFI",
+    "Bluetooth": "prefs:root=Bluetooth",
+    "Cellular": {
+        "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+        "Cellular Data Options": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+        "Personal Hotspot": {
+            "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING",
+            "Wi-Fi Password": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Wi-Fi%20Password",
+            "Family Sharing": {
+                "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing",
+                "[Family Member Name]": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing/[URL-encoded Family Member Name]"
+            }
+        },
+        "System Services": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=System%20Services"
+    },
+    "Personal Hotspot": {
+        "(root)": "prefs:root=INTERNET_TETHERING",
+        "Wi-Fi Password": "prefs:root=INTERNET_TETHERING&path=Wi-Fi%20Password",
+        "Family Sharing": {
+            "(root)": "prefs:root=INTERNET_TETHERING&path=Family%20Sharing",
+            "[Family Member Name]": "prefs:root=INTERNET_TETHERING&path=Family%20Sharing/[URL-encoded Family Member Name]"
+        }
+    },
+    "VPN": {
+        "(root)": "prefs:root=VPN",
+        "[VPN configuration]": {
+            "(root)": "prefs:root=VPN&path=[URL-encoded VPN Configuration Name]",
+            "Delete VPN": "prefs:root=VPN&path=[URL-encoded VPN Configuration Name]/Delete%20VPN"
+        },
+        "Add VPN Configuration…": "prefs:root=VPN&path=Add%20VPN%20Configuration%E2%80%A6"
+    },
+    "Notifications": {
+        "(root)": "prefs:root=NOTIFICATIONS_ID",
+        "App Name": "prefs:root=NOTIFICATIONS_ID&path=App%20Bundle%20ID",
+        "Siri Suggestions": "prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions"
+    },
+    "Sounds": {
+        "(root)": "prefs:root=Sounds",
+        "Ringtone": "prefs:root=Sounds&path=Ringtone",
+        "Text Tone": "prefs:root=Sounds&path=Text_Messages",
+        "New Voicemail": "prefs:root=Sounds&path=Voicemail",
+        "New Mail": "prefs:root=Sounds&path=NEW_MAIL",
+        "Sent Mail": "prefs:root=Sounds&path=SENT_MAIL",
+        "Calendar Alerts": "prefs:root=Sounds&path=Calendar%20Alarm",
+        "Reminder Alerts": "prefs:root=Sounds&path=Reminder%20Alerts",
+        "AirDrop": "prefs:root=Sounds&path=AIRDROP"
+    },
+    "Do Not Disturb": {
+        "(root)": "prefs:root=DO_NOT_DISTURB",
+        "Allow Calls From": "prefs:root=DO_NOT_DISTURB&path=Allow%20Calls%20From",
+        "Auto-Reply To": "prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY",
+        "Auto-Reply": "prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY_MESSAGE"
+    },
+    "Screen Time": {
+        "(root)": "prefs:root=SCREEN_TIME",
+        "Turn On Screen Time": "prefs:root=SCREEN_TIME&path=Turn%20On%20Screen%20Time",
+        "See All Activity": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+        "Downtime": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+        "App Limits": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+        "Always Allowed": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+        "Communication Limits": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+        "Content & Privacy Restrictions": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY"
+    },
+    "General": {
+        "(root)": "prefs:root=General",
+        "About": {
+            "(root)": "prefs:root=General&path=About",
+            "SEID": "prefs:root=General&path=About/SEID",
+            "Certificate Trust Settings": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+        },
+        "Software Update": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+        "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+        "AirPlay & Handoff": "prefs:root=General&path=CONTINUITY_SPEC",
+        "CarPlay": "prefs:root=General&path=CARPLAY",
+        "iPhone/iPad Storage": {
+            "(root)": "prefs:root=General&path=STORAGE_MGMT",
+            "[App Name]": "prefs:root=General&path=STORAGE_MGMT/[App Bundle ID]"
+        },
+        "Background App Refresh": {
+            "(root)": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+            "Background App Refresh": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD/AUTO_CONTENT_DOWNLOAD"
+        },
+        "Date & Time": "prefs:root=General&path=DATE_AND_TIME",
+        "Keyboard": {
+            "(root)": "prefs:root=General&path=Keyboard",
+            "Keyboards": "prefs:root=General&path=Keyboard/KEYBOARDS",
+            "Hardware Keyboard": "prefs:root=General&path=Keyboard/Hardware%20Keyboard",
+            "Text Replacement": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+            "One Handed Keyboard": "prefs:root=General&path=Keyboard/ReachableKeyboard"
+        },
+        "Language & Region": {
+            "(root)": "prefs:root=General&path=INTERNATIONAL",
+            "Device Language": "prefs:root=General&path=INTERNATIONAL/DEVICE_LANGUAGE",
+            "Region": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+            "Calendar": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+            "Numbers": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+            "Temperature Unit": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+        },
+        "Dictionary": "prefs:root=General&path=DICTIONARY",
+        "VPN": {
+            "(root)": "prefs:root=General&path=VPN",
+            "[VPN Configuration Name]": {
+                "(root)": "prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]",
+                "Delete VPN": "prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]/Delete%20VPN"
+            },
+            "Add VPN Configuration…": "prefs:root=General&path=VPN/Add%20VPN%20Configuration%E2%80%A6",
+            "DNS": "prefs:root=General&path=VPN/DNS"
+        },
+        "Profiles": {
+            "(root)": "prefs:root=General&path=ManagedConfigurationList",
+            "Install Profile": "prefs:root=General&path=ManagedConfigurationList/PurgatoryInstallRequested"
+        },
+        "Legal & Regulatory": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+        "Reset": "prefs:root=General&path=Reset"
+    },
+    "Control Center": {
+        "(root)": "prefs:root=ControlCenter",
+        "Customize Controls": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+    },
+    "Display": {
+        "(root)": "prefs:root=DISPLAY",
+        "Options": "prefs:root=DISPLAY&path=APPEARANCE_OPTIONS",
+        "Night Shift": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+        "Auto Lock": "prefs:root=DISPLAY&path=AUTOLOCK",
+        "Text Size": "prefs:root=DISPLAY&path=TEXT_SIZE"
+    },
+    "Home Screen (iPhone)": "prefs:root=HOME_SCREEN",
+    "Home Screen & Dock (iPad)": {
+        "(root)": "prefs:root=HOME_SCREEN_DOCK",
+        "Multitasking": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING"
+    },
+    "Accessibility": {
+        "(root)": "prefs:root=ACCESSIBILITY",
+        "VoiceOver": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+            "Speech": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/SPEECH_TITLE",
+            "Braille": {
+                "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE",
+                "Output": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayOutput",
+                "Input": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayInput",
+                "Braille Screen Input": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleGesturesInput",
+                "Braille Tables": {
+                    "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier",
+                    "Language": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier/DefaultLanguage"
+                },
+                "Status Cells": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/STATUS_CELL",
+                "Verbosity": {
+                    "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY",
+                    "Punctuation": {
+                        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY/voiceOverPunctuationGroup",
+                        "Media Descriptions": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY/voiceOverMediaDescriptions"
+                    }
+                }
+            },
+            "Audio": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/AUDIO_TITLE",
+            "Commands": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CUSTOMIZE_COMMANDS",
+            "Activities": {
+                "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES",
+                "Programming": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES/Programming",
+                "Add Activity…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES/New"
+            },
+            "Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/WEB_ROTOR",
+            "Rotor Actions": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ROTOR_ACTIONS",
+            "Typing": {
+                "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS",
+                "Typing Style": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Typing%20Style",
+                "Phonetic Feedback": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Phonetic%20Feedback",
+                "Modifier Keys": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Modifier%20Keys",
+                "Keyboard Interaction Time": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Keyboard%20Interaction%20Time"
+            },
+            "Navigate Images": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/INCLUDE_UNLABELED_IMAGES_TITLE",
+            "Double-tap Timeout": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE"
+        },
+        "Zoom": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+            "Keyboard Shortcuts": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+            "Zoom Controller": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug",
+            "Zoom Filter": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter"
+        },
+        "Magnifier": "prefs:root=ACCESSIBILITY&path=MAGNIFIER_TITLE",
+        "Display & Text Size": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+            "Larger Text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Larger%20Text"
+        },
+        "Motion": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+        "Spoken Content": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+            "Speech Controller": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+            "Customize Mouse Buttons": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/CustomizeMouseButtons",
+            "Highlight Content": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight",
+            "Typing Feedback": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+            "Voices": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents"
+        },
+        "Audio Descriptions": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+        "Touch": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+            "AssistiveTouch": {
+                "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+                "Customize Top Level Menu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+                "Single-Tap": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Single-Tap",
+                "Idle Opacity": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity",
+                "Devices": {
+                    "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+                    "Bluetooth Devices…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/Bluetooth%20Devices%E2%80%A6"
+                },
+                "Mouse Keys": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys",
+                "Pointer Style": {
+                    "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+                    "Color": {
+                        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color",
+                        "Customize Mouse Buttons": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color/CustomizeMouseButtons"
+                    },
+                    "Auto-Hide": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Auto-Hide"
+                },
+                "Movement Tolerance": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Movement%20Tolerance"
+            },
+            "Force/Haptic Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch",
+            "Touch Accommodations": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Touch%20Accommodations",
+            "Call Audio Routing": {
+                "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING",
+                "Auto-Answer Calls": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer"
+            },
+            "Back Tap": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Back%20Tap"
+        },
+        "Switch Control": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+            "Switches": {
+                "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier",
+                "Bluetooth Devices…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier"
+            },
+            "Scanning Style": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Scanning%20Style",
+            "Pause on First Item": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Pause%20on%20First%20Item",
+            "Move Repeat": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Move%20Repeat",
+            "Long Press": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Long%20Press",
+            "Tap Behavior": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Tap%20Behavior",
+            "Focused Item After Tap": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Focused%20Item%20After%20Tap",
+            "Hold Duration": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Hold%20Duration",
+            "Ignore Repeat": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Ignore%20Repeat",
+            "Gliding Cursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Gliding%20Cursor",
+            "Head Tracking": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch",
+            "Speech": {
+                "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier",
+                "Voices": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier/VoicesIdentifier"
+            },
+            "Menu Items": {
+                "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier",
+                "Top Level": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Top%20Level",
+                "Gestures": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures",
+                "Device": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device",
+                "Settings": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings",
+                "Media Controls": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Media%20Controls"
+            },
+            "Saved Gestures": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier"
+        },
+        "Voice Control": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+            "Language": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/LANGUAGE",
+            "Customize Commands": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/CUSTOMIZE_COMMANDS",
+            "Vocabulary": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/VOCABULARY",
+            "Overlay": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY"
+        },
+        "Home Button": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+        "Apple TV Remote": "prefs:root=ACCESSIBILITY&path=Apple%20TV%20Remote",
+        "Keyboards": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+            "Full Keyboard Access": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/Full%20Keyboard%20Access",
+            "Key Repeat": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT",
+            "Sticky Keys": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS",
+            "Slow Keys": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS"
+        },
+        "Hearing Devices": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+        "Sound Recognition": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+            "Sounds": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds"
+        },
+        "RTT": "prefs:root=ACCESSIBILITY&path=RTT",
+        "Audio/Visual": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+        "Subtitles & Captioning": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+        "Guided Access": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+            "Passcode Settings": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList",
+            "Time Limits": {
+                "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList",
+                "Sound": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE"
+            },
+            "Display Auto-Lock": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime"
+        },
+        "Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+        "Accessibility Shortcut": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE"
+    },
+    "Wallpaper": "prefs:root=Wallpaper",
+    "Siri": {
+        "(root)": [
+            "prefs:root=SIRI",
+            "prefs-siri-shortcuts:root"
+        ],
+        "Language": "prefs:root=SIRI&path=LANGUAGE_ID",
+        "Voice": "prefs:root=SIRI&path=VOICE_ID",
+        "Siri Responses": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+        "Siri & Dictation History": "prefs:root=SIRI&path=HISTORY",
+        "[App Name]": "prefs:root=SIRI&path=[App Bundle ID]"
+    },
+    "Apple Pencil": "prefs:root=Pencil",
+    "Face/Touch ID & Passcode": {
+        "(root)": "prefs:root=PASSCODE",
+        "Require Passcode": "prefs:root=PASSCODE&path=PASSCODE_REQ"
+    },
+    "Emergency SOS": "prefs:root=EMERGENCY_SOS",
+    "Exposure Notifications": "prefs:root=EXPOSURE_NOTIFICATION",
+    "Battery": {
+        "(root)": "prefs:root=BATTERY_USAGE",
+        "Battery Health": "prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH"
+    },
+    "Privacy": {
+        "(root)": "prefs:root=Privacy",
+        "Location Services": {
+            "(root)": "prefs:root=Privacy&path=LOCATION",
+            "Share My Location": {
+                "(root)": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING",
+                "[Family Member Name]": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING/[URL-encoded Family Member Name]"
+            },
+            "[App Name]": "prefs:root=Privacy&path=LOCATION/[App Bundle ID]",
+            "System Services": "prefs:root=Privacy&path=LOCATION/SYSTEM_SERVICES"
+        },
+        "Tracking": "prefs:root=Privacy&path=USER_TRACKING",
+        "Contacts": "prefs:root=Privacy&path=CONTACTS",
+        "Calendars": "prefs:root=Privacy&path=CALENDARS",
+        "Reminders": "prefs:root=Privacy&path=REMINDERS",
+        "Photos": {
+            "(root)": "prefs:root=Privacy&path=PHOTOS",
+            "[App Name]": "prefs:root=Privacy&path=PHOTOS/[App Bundle ID]"
+        },
+        "Bluetooth": "prefs:root=Privacy&path=BT_PERIPHERAL",
+        "Local Network": "prefs:root=Privacy&path=LOCAL_NETWORK",
+        "Microphone": "prefs:root=Privacy&path=MICROPHONE",
+        "Speech Recognition": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+        "Camera": "prefs:root=Privacy&path=CAMERA",
+        "Health": "prefs:root=Privacy&path=HEALTH",
+        "HomeKit": "prefs:root=Privacy&path=WILLOW",
+        "Media & Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+        "Motion & Fitness": "prefs:root=Privacy&path=MOTION",
+        "Analytics & Improvements": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+        "Advertising": "prefs:root=Privacy&path=ADVERTISING"
+    },
+    "App Store": {
+        "(root)": "prefs:root=STORE",
+        "App Downloads": "prefs:root=STORE&path=App%20Downloads",
+        "Video Autoplay": "prefs:root=STORE&path=Video%20Autoplay"
+    },
+    "Wallet": {
+        "(root)": "prefs:root=PASSBOOK",
+        "Add Card": "prefs:root=PASSBOOK&path=Add%20Card"
+    },
+    "Passwords (iOS 14)": "prefs:root=PASSWORDS",
+    "Passwords & Accounts": {
+        "(root)": "prefs:root=ACCOUNTS_AND_PASSWORDS",
+        "Add Account": {
+            "(root)": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT",
+            "iCloud": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/iCloud",
+            "Google": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/Gmail",
+            "AOL": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/AOL",
+            "Outlook": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/Outlook",
+            "Other": {
+                "(root)": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER",
+                "Add Mail Account": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20Mail%20Account",
+                "Add LDAP Account": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20LDAP%20Account",
+                "Add CardDAV Account": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20CardDAV%20Account",
+                "Add CalDAV Account": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20CalDAV%20Account",
+                "Add Subscribed Calendar": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20Subscribed%20Calendar"
+            }
+        },
+        "Fetch New Data": "prefs:root=ACCOUNTS_AND_PASSWORDS&path=FETCH_NEW_DATA"
+    },
+    "Mail": {
+        "(root)": "prefs:root=MAIL",
+        "Notifications": "prefs:root=MAIL&path=NOTIFICATIONS",
+        "Preview": "prefs:root=MAIL&path=Preview",
+        "Swipe Options": {
+            "(root)": "prefs:root=MAIL&path=Swipe%20Options",
+            "Swipe Left": "prefs:root=MAIL&path=Swipe%20Options/Swipe%20Left",
+            "Swipe Right": "prefs:root=MAIL&path=Swipe%20Options/Swipe%20Right"
+        },
+        "Blocked": "prefs:root=MAIL&path=Blocked",
+        "Muted Thread Action": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+        "Blocked Sender Options": "prefs:root=MAIL&path=Blocked%20Sender%20Options",
+        "Mark Addresses": "prefs:root=MAIL&path=Mark%20Addresses",
+        "Increase Quote Level": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+        "Include Attachments with Replies": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+        "Signature": "prefs:root=MAIL&path=Signature",
+        "Default Account": "prefs:root=MAIL&path=Default%20Account"
+    },
+    "Contacts": {
+        "(root)": "prefs:root=CONTACTS",
+        "Siri & Search": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+        "Sort Order": "prefs:root=CONTACTS&path=ContactsSortOrder",
+        "Display Order": "prefs:root=CONTACTS&path=PersonNameOrder",
+        "Short Name": "prefs:root=CONTACTS&path=PersonShortName",
+        "My Info": "prefs:root=CONTACTS&path=MeCard"
+    },
+    "Calendar": {
+        "(root)": "prefs:root=CALENDAR",
+        "Siri & Search": "prefs:root=CALENDAR&path=SIRI_AND_SEARCH",
+        "Time Zone Override": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+        "Alternate Calendars": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+        "Sync": "prefs:root=CALENDAR&path=Sync",
+        "Default Alert Times": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+        "Start Week On": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+        "Default Calendar": "prefs:root=CALENDAR&path=Default%20Calendar"
+    },
+    "Notes": {
+        "(root)": "prefs:root=NOTES",
+        "Siri & Search": "prefs:root=NOTES&path=SIRI_AND_SEARCH",
+        "Default Account": "prefs:root=NOTES&path=Default%20Account",
+        "Password": "prefs:root=NOTES&path=Password",
+        "Sort Notes By": "prefs:root=NOTES&path=Sort%20Notes%20By",
+        "New Notes Start With": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+        "Sort Checked Items": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+        "Lines & Grids": "prefs:root=NOTES&path=Lines%20%26%20Grids",
+        "Note Backgrounds": "prefs:root=NOTES&path=Note%20Backgrounds",
+        "Access Notes from Lock Screen": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+    },
+    "Reminders": {
+        "(root)": "prefs:root=REMINDERS",
+        "Siri & Search": "prefs:root=REMINDERS&path=SIRI_AND_SEARCH",
+        "Default List": "prefs:root=REMINDERS&path=DEFAULT_LIST"
+    },
+    "Voice Memos": {
+        "(root)": "prefs:root=VOICE_MEMOS",
+        "Siri & Search": "prefs:root=VOICE_MEMOS&path=SIRI_AND_SEARCH",
+        "Clear Deleted": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+        "Audio Quality": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey"
+    },
+    "Phone": {
+        "(root)": "prefs:root=Phone",
+        "Respond with Text": "prefs:root=Phone&path=Respond%20with%20Text"
+    },
+    "Messages": "prefs:root=MESSAGES",
+    "FaceTime": {
+        "(root)": "prefs:root=FACETIME",
+        "Siri & Search": "prefs:root=FACETIME&path=SIRI_AND_SEARCH"
+    },
+    "Safari": {
+        "(root)": "prefs:root=SAFARI",
+        "AutoFill": "prefs:root=SAFARI&path=AUTO_FILL",
+        "Content Blockers": "prefs:root=SAFARI&path=CONTENT_BLOCKERS",
+        "Downloads": "prefs:root=SAFARI&path=DOWNLOADS",
+        "Close Tabs": "prefs:root=SAFARI&path=Close%20Tabs",
+        "Clear History and Website Data": "prefs:root=SAFARI&path=CLEAR_HISTORY_AND_DATA",
+        "Page Zoom": "prefs:root=SAFARI&path=Page%20Zoom",
+        "Request Desktop Website": "prefs:root=SAFARI&path=Request%20Desktop%20Website",
+        "Reader": "prefs:root=SAFARI&path=Reader",
+        "Camera": "prefs:root=SAFARI&path=Camera",
+        "Microphone": "prefs:root=SAFARI&path=Microphone",
+        "Location": "prefs:root=SAFARI&path=Location",
+        "Advanced": "prefs:root=SAFARI&path=ADVANCED"
+    },
+    "News": {
+        "(root)": "prefs:root=NEWS",
+        "Acknowledgements": "prefs:root=NEWS&path=Acknowledgements"
+    },
+    "Translate": "prefs:root=TRANSLATE",
+    "Maps": {
+        "(root)": "prefs:root=MAPS",
+        "Driving": "prefs:root=MAPS&path=Driving",
+        "Walking (iPhone)": "prefs:root=MAPS&path=Walking",
+        "Transit": "prefs:root=MAPS&path=Transit",
+        "Cycling": "prefs:root=MAPS&path=Cycling"
+    },
+    "Compass": "prefs:root=COMPASS",
+    "Measure": {
+        "(root)": "prefs:root=MEASURE",
+        "Siri & Search": "prefs:root=MEASURE&path=SIRI_AND_SEARCH"
+    },
+    "Shortcuts": {
+        "(root)": "prefs:root=SHORTCUTS",
+        "Legal Notices": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+    },
+    "Health": {
+        "(root)": "prefs:root=HEALTH",
+        "Siri & Search": "prefs:root=HEALTH&path=SIRI_AND_SEARCH"
+    },
+    "Home": "prefs:root=HOMEKIT",
+    "Music": {
+        "(root)": "prefs:root=MUSIC",
+        "Cellular Data": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+        "Optimize Storage": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+        "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+        "Volume Limit": "prefs:root=MUSIC&path=com.apple.Music%3AVolumeLimit"
+    },
+    "TV": {
+        "(root)": "prefs:root=TVAPP",
+        "Cellular": "prefs:root=TVAPP&path=com.apple.videos%3AVideosPlaybackQualityCellularSetting",
+        "Wi-Fi": "prefs:root=TVAPP&path=com.apple.videos%3AVideosPlaybackQualitySetting",
+        "Siri & Search": "prefs:root=TVAPP&path=SIRI_AND_SEARCH",
+        "Video Definition": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution"
+    },
+    "Photos": {
+        "(root)": "prefs:root=Photos",
+        "Cellular Data": "prefs:root=Photos&path=CellularDataLinkList"
+    },
+    "Camera": {
+        "(root)": "prefs:root=CAMERA",
+        "Formats": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+        "Record Video": "prefs:root=CAMERA&path=Record%20Video",
+        "Record Slo-mo": "prefs:root=CAMERA&path=Record%20Slo-mo",
+        "Preserve Settings": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch"
+    },
+    "Books": {
+        "(root)": "prefs:root=IBOOKS",
+        "Siri & Search": "prefs:root=IBOOKS&path=SIRI_AND_SEARCH",
+        "Skip Forward": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+        "Skip Back": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+        "Acknowledgements": "prefs:root=IBOOKS&path=Acknowledgements"
+    },
+    "Podcasts": "prefs:root=com.apple.podcasts",
+    "Game Center": {
+        "(root)": "prefs:root=GAMECENTER",
+        "Add Friends": "prefs:root=GAMECENTER&path=Add%20Friends",
+        "Terms and Conditions": "prefs:root=GAMECENTER&path=Terms%20and%20Conditions"
+    },
+    "TV Provider": "prefs:root=VIDEO_SUBSCRIBER",
+    "Developer": {
+        "(root)": "prefs:root=DEVELOPER_SETTINGS",
+        "Instruments/Logging": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+        "Network Link Conditioner": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+        "Multipath Networking": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+        "Fill Rate": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+        "Ad Refresh Rate": "prefs:root=DEVELOPER_SETTINGS&path=AD_REFRESH_RATE",
+        "TV Provider": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings"
+    },
+    "Settings For App…": "prefs:root=[App Bundle ID]"
+}
