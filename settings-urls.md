@@ -29,6 +29,10 @@
 - Personal Hotspot → Wi-Fi Password: `prefs:root=INTERNET_TETHERING&path=Wi-Fi%20Password`
 - Personal Hotspot → Family Sharing: `prefs:root=INTERNET_TETHERING&path=Family%20Sharing`
 - Personal Hotspot → Family Sharing → [Family Member Name]: `prefs:root=INTERNET_TETHERING&path=Family%20Sharing/[URL encoded family member name]`
+- VPN: `prefs:root=VPN`
+- VPN → [VPN configuration]: `prefs:root=VPN&path=[URL encoded VPN configuration name]`
+- VPN → [VPN configuration] → Delete VPN: `prefs:root=VPN&path=[URL encoded VPN configuration name]/Delete%20VPN`
+- VPN → Add VPN Configuration...: `prefs:root=VPN&path=Add%20VPN%20Configuration%E2%80%A6`
 - Notifications: `prefs:root=NOTIFICATIONS_ID`
 - Notifications → specific app: `prefs:root=NOTIFICATIONS_ID&path=bundle.id.here`
 - Notifications → Siri Suggestions: `prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions`
@@ -68,12 +72,14 @@
 - General → Date & Time: `prefs:root=General&path=DATE_AND_TIME`
 - General → Keyboard: `prefs:root=General&path=Keyboard`
 - General → Keyboard → Keyboards: `prefs:root=General&path=Keyboard/KEYBOARDS`
-- General ⇾ Keyboard ⇾ Hardware Keyboard: `prefs:root=General&path=Keyboard/Hardware%20Keyboard`
-- General ⇾ Keyboard ⇾ Text Replacement: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
-- General ⇾ Keyboard ⇾ One Handed Keyboard: `prefs:root=General&path=Keyboard/ReachableKeyboard`
+- General → Keyboard → Hardware Keyboard: `prefs:root=General&path=Keyboard/Hardware%20Keyboard`
+- General → Keyboard → Text Replacement: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- General → Keyboard → One Handed Keyboard: `prefs:root=General&path=Keyboard/ReachableKeyboard`
 - General → Language & Region: `prefs:root=General&path=INTERNATIONAL`
 - General → Language & Region → Device Language: `prefs:root=General&path=INTERNATIONAL/DEVICE_LANGUAGE`
+- General → Language & Region → Region: `prefs:root=General&path=INTERNATIONAL/LOCALE`
 - General → Language & Region → Calendar: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- General → Language & Region → Numbers: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
 - General → Language & Region → Temperature Unit: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
 - General → Dictionary: `prefs:root=General&path=DICTIONARY`
 - General → VPN: `prefs:root=General&path=VPN`
@@ -83,6 +89,7 @@
 - General → VPN → DNS: `prefs:root=General&path=VPN/DNS`
 - General → Profiles: `prefs:root=General&path=ManagedConfigurationList`
 - General → Profiles → Install Profile: `prefs:root=General&path=ManagedConfigurationList/PurgatoryInstallRequested`
+- General → Legal & Regulatory: `prefs:root=General&path=LEGAL_AND_REGULATORY`
 - General → Reset: `prefs:root=General&path=Reset`
 - Control Center: `prefs:root=ControlCenter`
 - Control Center → Customize Controls: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
@@ -154,7 +161,6 @@
 - Accessibility → Touch → Call Audio Routing: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
 - Accessibility → Touch → Call Audio Routing → Auto-Answer Calls: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
 - Accessibility → Touch → Back Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Back%20Tap`
-- Accessibility → Face ID & Attention: `prefs:root=ACCESSIBILITY&path=Face%20ID%20%26%20Attention`
 - Accessibility → Switch Control: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
 - Accessibility → Switch Control → Switches: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
 - Accessibility → Switch Control → Switches → Bluetooth Devices...: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
@@ -167,7 +173,7 @@
 - Accessibility → Switch Control → Hold Duration: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Hold%20Duration`
 - Accessibility → Switch Control → Ignore Repeat: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Ignore%20Repeat`
 - Accessibility → Switch Control → Gliding Cursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Gliding%20Cursor`
-- Accessibility → Switch Control → [unidentified item]: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- Accessibility → Switch Control → Head Tracking: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
 - Accessibility → Switch Control → Speech: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
 - Accessibility → Switch Control → Speech → Voices: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier/VoicesIdentifier`
 - Accessibility → Switch Control → Menu Items: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
@@ -306,6 +312,7 @@
 - Voice Memos → Clear Deleted: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
 - Voice Memos → Audio Quality: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
 - Phone: `prefs:root=Phone`
+- Phone → Respond with Text: `prefs:root=Phone&path=Respond%20with%20Text`
 - Messages: `prefs:root=MESSAGES`
 - FaceTime: `prefs:root=FACETIME`
 - FaceTime → Siri & Search: `prefs:root=FACETIME&path=SIRI_AND_SEARCH`
@@ -314,18 +321,22 @@
 - Safari → Content Blockers: `prefs:root=SAFARI&path=CONTENT_BLOCKERS`
 - Safari → Downloads: `prefs:root=SAFARI&path=DOWNLOADS`
 - Safari → Close Tabs: `prefs:root=SAFARI&path=Close%20Tabs`
+- Safari → Clear History and Website Data: `prefs:root=SAFARI&path=CLEAR_HISTORY_AND_DATA`
 - Safari → Page Zoom: `prefs:root=SAFARI&path=Page%20Zoom`
 - Safari → Request Desktop Website: `prefs:root=SAFARI&path=Request%20Desktop%20Website`
 - Safari → Reader: `prefs:root=SAFARI&path=Reader`
 - Safari → Camera: `prefs:root=SAFARI&path=Camera`
 - Safari → Microphone: `prefs:root=SAFARI&path=Microphone`
 - Safari → Location: `prefs:root=SAFARI&path=Location`
+- Safari → Advanced: `prefs:root=SAFARI&path=ADVANCED`
 - News: `prefs:root=NEWS`
 - News → Acknowledgements: `prefs:root=NEWS&path=Acknowledgements`
 - Translate: `prefs:root=TRANSLATE`
 - Maps: `prefs:root=MAPS`
-- Maps → Driving & Navigation: `prefs:root=MAPS&path=Driving%20%26%20Navigation`
+- Maps → Driving: `prefs:root=MAPS&path=Driving`
+- Maps → Walking (iPhone): `prefs:root=MAPS&path=Walking`
 - Maps → Transit: `prefs:root=MAPS&path=Transit`
+- Maps → Cycling: `prefs:root=MAPS&path=Cycling`
 - Compass: `prefs:root=COMPASS`
 - Measure: `prefs:root=MEASURE`
 - Measure → Siri & Search: `prefs:root=MEASURE&path=SIRI_AND_SEARCH`
