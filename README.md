@@ -16,6 +16,8 @@ The list is also available in JSON form, which may be helpful for creating short
 - [In the same order that they appear in the Markdown-formatted list](https://github.com/FifiTheBulldog/ios-settings-urls/blob/master/settings-urls.json)
 - [Sorted alphabetically](https://github.com/FifiTheBulldog/ios-settings-urls/blob/master/settings-urls-sorted.json)
 
+[@alombi](https://github.com/alombi) has built a web app to make searching this list easier: https://ios-settings-urls.netlify.app
+
 ## The Settings URL scheme
 
 The URL scheme to open pages in the iOS Settings app seems to be inconsistent across apps.
