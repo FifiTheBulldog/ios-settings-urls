@@ -11,12 +11,17 @@ For a long time, I’ve relied on MacStories’ research for Settings URLs, whic
 - [The full list](/settings-urls.md), which contains all the URLs that should work on the latest version of iOS (though some have not been tested on the latest version).
 - [Deprecated URLs](/deprecated.md), which worked on older versions of iOS but not the current one (at least when I tested them).
 
+The list is also available in JSON form, which may be helpful for creating shortcuts:
+
+- [In the same order that they appear in the Markdown-formatted list](https://github.com/FifiTheBulldog/ios-settings-urls/blob/master/settings-urls.json)
+- [Sorted alphabetically](https://github.com/FifiTheBulldog/ios-settings-urls/blob/master/settings-urls-sorted.json)
+
 ## The Settings URL scheme
 
 The URL scheme to open pages in the iOS Settings app seems to be inconsistent across apps.
 
 - For the Shortcuts app, the only URL scheme that seems to work properly with the paths is `prefs:`.
-- For other apps, such as [Scriptable](https://scriptable.app), the correct scheme is `App-prefs:`. (Note the capital `A`.)
+- For other apps, such as [Scriptable](https://scriptable.app), the correct scheme is `App-prefs:`. (Note the capital `A`.) **Important:** this actually doesn't seem to work when developing apps in Swift. All you can do by URL is open the main page of the Settings app. You can also open your own app's settings with the [official API](https://developer.apple.com/documentation/uikit/uiapplication/1623042-opensettingsurlstring) for doing so.
 
 As this list was built primarily for Shortcuts users, all URLs presented here use the `prefs:` URL scheme. When you use the `App-prefs:` scheme, the rest of the URL stays the same; the scheme is the only thing that changes.
 
@@ -34,6 +39,8 @@ New updates to the MacStories list will be added to this list as well.
 
 - [Federico Viticci](https://www.macstories.net/author/viticci/), for his extensive research putting together the efforts of many other users and discovering plenty of URLs on his own. His list on MacStories was the starting point for this one.
 - [u/ZJ_Adram](https://www.reddit.com/user/ZJ_Adram) for scouring the file system on his jailbroken device for several SettingsSearchManifest plists, and assembling a list of URLs from those in [this post](https://www.reddit.com/r/shortcuts/comments/lfe5d3/complete_settings_links_list/). This discovery included a treasure trove of previously undocumented URLs, which enabled me to add the majority of the Apple ID and Accessibility URLs, as well as several other previously unknown ones.
+- [@atnbueno](https://github.com/atnbueno) for converting this list to JSON and checking several of the other URLs.
+- [u/gluebyte](https://www.reddit.com/user/gluebyte) for going through and pointing out a few URLs from ZJ_Adram's list that I had missed.
 - [u/catmilley](https://www.reddit.com/user/catmilley) for the Accessibility → Keyboards URLs
 - [u/Setnof](https://www.reddit.com/user/Setnof) for Privacy → Tracking
 - [u/BertCrawford](https://www.reddit.com/user/BertCrawford) for Safari → AutoFill
