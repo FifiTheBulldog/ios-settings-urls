@@ -27,6 +27,7 @@
     "Cellular": {
         "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
         "Cellular Data Options": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+        "Cellular Data (for devices with two SIMs)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=MOBILE_DATA_SETTINGS",
         "Personal Hotspot": {
             "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING",
             "Wi-Fi Password": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Wi-Fi%20Password",
