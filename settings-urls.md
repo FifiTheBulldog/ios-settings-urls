@@ -14,6 +14,7 @@
 - Bluetooth: `prefs:root=Bluetooth`
 - Cellular → (root): `prefs:root=MOBILE_DATA_SETTINGS_ID`
 - Cellular → Cellular Data Options: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Cellular → Cellular Data (for devices with two SIMs): `prefs:root=MOBILE_DATA_SETTINGS_ID&path=MOBILE_DATA_SETTINGS`
 - Cellular → Personal Hotspot → (root): `prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING`
 - Cellular → Personal Hotspot → Wi-Fi Password: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Wi-Fi%20Password`
 - Cellular → Personal Hotspot → Family Sharing → (root): `prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing`
