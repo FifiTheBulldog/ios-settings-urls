@@ -376,7 +376,10 @@
         "(root)": "prefs:root=PASSBOOK",
         "Add Card": "prefs:root=PASSBOOK&path=Add%20Card"
     },
-    "Passwords (iOS 14)": "prefs:root=PASSWORDS",
+    "Passwords (iOS 14)": {
+        "(root)": "prefs:root=PASSWORDS",
+        "[Search Term]": "prefs:root=PASSWORDS&search=[Search Term]"
+    },
     "Passwords & Accounts": {
         "(root)": "prefs:root=ACCOUNTS_AND_PASSWORDS",
         "Add Account": {

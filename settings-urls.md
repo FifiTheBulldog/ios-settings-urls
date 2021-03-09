@@ -245,7 +245,8 @@
 - App Store → Video Autoplay: `prefs:root=STORE&path=Video%20Autoplay`
 - Wallet → (root): `prefs:root=PASSBOOK`
 - Wallet → Add Card: `prefs:root=PASSBOOK&path=Add%20Card`
-- Passwords (iOS 14): `prefs:root=PASSWORDS`
+- Passwords (iOS 14) → (root): `prefs:root=PASSWORDS`
+- Passwords (iOS 14) → [Search Term]: `prefs:root=PASSWORDS&search=[Search Term]`
 - Passwords & Accounts → (root): `prefs:root=ACCOUNTS_AND_PASSWORDS`
 - Passwords & Accounts → Add Account → (root): `prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT`
 - Passwords & Accounts → Add Account → iCloud: `prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/iCloud`

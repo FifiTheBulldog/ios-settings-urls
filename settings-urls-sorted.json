@@ -400,7 +400,10 @@
         "App Name": "prefs:root=NOTIFICATIONS_ID&path=App%20Bundle%20ID",
         "Siri Suggestions": "prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions"
     },
-    "Passwords (iOS 14)": "prefs:root=PASSWORDS",
+    "Passwords (iOS 14)": {
+        "(root)": "prefs:root=PASSWORDS",
+        "[Search Term]": "prefs:root=PASSWORDS&search=[Search Term]"
+    },
     "Passwords & Accounts": {
         "(root)": "prefs:root=ACCOUNTS_AND_PASSWORDS",
         "Add Account": {

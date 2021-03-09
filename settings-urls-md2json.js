@@ -37,10 +37,10 @@ fs.readFile('settings-urls.md', 'utf8', function(err, data) {
     });
 
     // save cleaned up Markdown
-    fs.writeFile('settings-urls-clean.md', data, function(err) {
-        if (err) return console.log(err);
-        console.log('Markdown cleaned up and saved to "settings-urls-clean.md"');
-    });
+    // fs.writeFile('settings-urls-clean.md', data, function(err) {
+    //     if (err) return console.log(err);
+    //     console.log('Markdown cleaned up and saved to "settings-urls-clean.md"');
+    // });
 
     // assemble settings object
     const itemRE = /- ([^:]+): `(.+)`/ig;
