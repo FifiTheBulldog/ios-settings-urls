@@ -18,6 +18,11 @@ The list is also available in JSON form, which may be helpful for creating short
 
 [@alombi](https://github.com/alombi) has built a web app to make searching this list easier: https://ios-settings-urls.netlify.app
 
+There are also two lists that have not yet been added to the Markdown and JSON lists, but contain plenty of URLs and come in handy. In particular, many of these URLs include fragments, which mean that opening them scrolls to a specific item on a Settings page. These URLs were dumped from system files by @nyuszika7h. I have not yet written a reliable method to automatically pull them from the system and include them in the main list, but that will be coming soon.
+
+- [Large list](/preference-manifest-dump.txt), from /System/Library/PreferenceManifestsInternal
+- [Secondary list](/dyld-shared-cache-dump.txt), dumped from the [dyld_shared_cache](https://iphonedev.wiki/index.php/Dyld_shared_cache) - contains some of the same URLs as the large list, but also some unique ones.
+
 ## The Settings URL scheme
 
 The URL scheme to open pages in the iOS Settings app seems to be inconsistent across apps.
@@ -42,6 +47,7 @@ New updates to the MacStories list will be added to this list as well.
 - [Federico Viticci](https://www.macstories.net/author/viticci/), for his extensive research putting together the efforts of many other users and discovering plenty of URLs on his own. His list on MacStories was the starting point for this one.
 - [u/ZJ_Adram](https://www.reddit.com/user/ZJ_Adram) for scouring the file system on his jailbroken device for several SettingsSearchManifest plists, and assembling a list of URLs from those in [this post](https://www.reddit.com/r/shortcuts/comments/lfe5d3/complete_settings_links_list/). This discovery included a treasure trove of previously undocumented URLs, which enabled me to add the majority of the Apple ID and Accessibility URLs, as well as several other previously unknown ones.
 - [@atnbueno](https://github.com/atnbueno) for converting this list to JSON and checking several of the other URLs.
+- [@nyuszika7h](https://github.com/nyuszika7h) for dumping URls from /System/Library/PreferenceManifestsInternal/ and dyld_shared_cache.
 - [u/gluebyte](https://www.reddit.com/user/gluebyte) for going through and pointing out a few URLs from ZJ_Adram's list that I had missed.
 - [u/catmilley](https://www.reddit.com/user/catmilley) for the Accessibility → Keyboards URLs
 - [u/Setnof](https://www.reddit.com/user/Setnof) for Privacy → Tracking
