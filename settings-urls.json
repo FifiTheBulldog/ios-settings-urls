@@ -460,7 +460,8 @@
     },
     "Phone": {
         "(root)": "prefs:root=Phone",
-        "Respond with Text": "prefs:root=Phone&path=Respond%20with%20Text"
+        "Respond with Text": "prefs:root=Phone&path=Respond%20with%20Text",
+        "Silence Unknown Callers": "prefs:root=Phone&path=SILENCE_CALLS"
     },
     "Messages": "prefs:root=MESSAGES",
     "FaceTime": {
