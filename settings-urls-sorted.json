@@ -202,6 +202,7 @@
     },
     "Cellular": {
         "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+        "[plan name]": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=[plan name]",
         "Cellular Data (for devices with two SIMs)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=MOBILE_DATA_SETTINGS",
         "Cellular Data Options": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
         "Personal Hotspot": {

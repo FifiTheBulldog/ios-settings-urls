@@ -36,7 +36,8 @@
                 "[Family Member Name]": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing/[URL-encoded Family Member Name]"
             }
         },
-        "System Services": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=System%20Services"
+        "System Services": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=System%20Services",
+        "[plan name]": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=[plan name]"
     },
     "Personal Hotspot": {
         "(root)": "prefs:root=INTERNET_TETHERING",
