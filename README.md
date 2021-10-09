@@ -18,6 +18,8 @@ The list is also available in JSON form, which may be helpful for creating short
 
 [@alombi](https://github.com/alombi) has built a web app to make searching this list easier: https://ios-settings-urls.netlify.app
 
+[@atnbueno](https://github.com/atnbueno) has built a shortcut to browse this list and make it easy to use, test, and report issues with these URLs: https://routinehub.co/shortcut/5436/
+
 There are also two lists that have not yet been added to the Markdown and JSON lists, but contain plenty of URLs and come in handy. In particular, many of these URLs include fragments, which mean that opening them scrolls to a specific item on a Settings page. These URLs were dumped from system files by @nyuszika7h. I have not yet written a reliable method to automatically pull them from the system and include them in the main list, but that will be coming soon.
 
 - [Large list](/preference-manifest-dump.txt), from /System/Library/PreferenceManifestsInternal
