@@ -241,6 +241,7 @@
 - Privacy → Motion & Fitness: `prefs:root=Privacy&path=MOTION`
 - Privacy → Analytics & Improvements: `prefs:root=Privacy&path=PROBLEM_REPORTING`
 - Privacy → Advertising: `prefs:root=Privacy&path=ADVERTISING`
+- Privacy → Record App Activity: `prefs:root=Privacy&path=PRIVACY_REPORT`
 - App Store → (root): `prefs:root=STORE`
 - App Store → App Downloads: `prefs:root=STORE&path=App%20Downloads`
 - App Store → Video Autoplay: `prefs:root=STORE&path=Video%20Autoplay`
