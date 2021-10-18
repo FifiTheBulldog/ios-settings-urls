@@ -469,6 +469,7 @@
             "(root)": "prefs:root=Privacy&path=PHOTOS",
             "[App Name]": "prefs:root=Privacy&path=PHOTOS/[App Bundle ID]"
         },
+        "Record App Activity": "prefs:root=Privacy&path=PRIVACY_REPORT",
         "Reminders": "prefs:root=Privacy&path=REMINDERS",
         "Speech Recognition": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
         "Tracking": "prefs:root=Privacy&path=USER_TRACKING"

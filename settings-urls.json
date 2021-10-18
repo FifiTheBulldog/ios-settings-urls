@@ -366,7 +366,8 @@
         "Media & Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
         "Motion & Fitness": "prefs:root=Privacy&path=MOTION",
         "Analytics & Improvements": "prefs:root=Privacy&path=PROBLEM_REPORTING",
-        "Advertising": "prefs:root=Privacy&path=ADVERTISING"
+        "Advertising": "prefs:root=Privacy&path=ADVERTISING",
+        "Record App Activity": "prefs:root=Privacy&path=PRIVACY_REPORT"
     },
     "App Store": {
         "(root)": "prefs:root=STORE",
