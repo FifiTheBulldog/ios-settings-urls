@@ -10,6 +10,7 @@
 - iCloud → iCloud Backup: `prefs:root=CASTLE&path=BACKUP` or `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
 - iCloud → Find My: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
 - iCloud → Family Sharing: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- iCloud → Hide My Email: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 - Wi-Fi: `prefs:root=WIFI`
 - Bluetooth: `prefs:root=Bluetooth`
 - Cellular → (root): `prefs:root=MOBILE_DATA_SETTINGS_ID`
