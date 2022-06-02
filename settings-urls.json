@@ -20,7 +20,8 @@
             "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP"
         ],
         "Find My": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
-        "Family Sharing": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+        "Family Sharing": "prefs:root=APPLE_ACCOUNT&path=FAMILY",
+        "Hide My Email": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE"
     },
     "Wi-Fi": "prefs:root=WIFI",
     "Bluetooth": "prefs:root=Bluetooth",
@@ -378,7 +379,7 @@
         "(root)": "prefs:root=PASSBOOK",
         "Add Card": "prefs:root=PASSBOOK&path=Add%20Card"
     },
-    "Passwords (iOS 14)": {
+    "Passwords": {
         "(root)": "prefs:root=PASSWORDS",
         "[Search Term]": "prefs:root=PASSWORDS&search=[Search Term]"
     },
@@ -514,8 +515,10 @@
     "Music": {
         "(root)": "prefs:root=MUSIC",
         "Cellular Data": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
-        "Optimize Storage": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+        "Dolby Atmos": "prefs:root=MUSIC&path=com.apple.Music%3AAtmos",
+        "Audio Quality": "prefs:root=MUSIC&path=com.apple.Music%3AAudioQuality",
         "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+        "Optimize Storage": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
         "Volume Limit": "prefs:root=MUSIC&path=com.apple.Music%3AVolumeLimit"
     },
     "TV": {

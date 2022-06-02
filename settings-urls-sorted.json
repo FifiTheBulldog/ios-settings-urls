@@ -334,6 +334,7 @@
         ],
         "Family Sharing": "prefs:root=APPLE_ACCOUNT&path=FAMILY",
         "Find My": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+        "Hide My Email": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE",
         "iCloud Backup": [
             "prefs:root=CASTLE&path=BACKUP",
             "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP"
@@ -375,7 +376,9 @@
     "Messages": "prefs:root=MESSAGES",
     "Music": {
         "(root)": "prefs:root=MUSIC",
+        "Audio Quality": "prefs:root=MUSIC&path=com.apple.Music%3AAudioQuality",
         "Cellular Data": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+        "Dolby Atmos": "prefs:root=MUSIC&path=com.apple.Music%3AAtmos",
         "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
         "Optimize Storage": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
         "Volume Limit": "prefs:root=MUSIC&path=com.apple.Music%3AVolumeLimit"
@@ -401,7 +404,7 @@
         "App Name": "prefs:root=NOTIFICATIONS_ID&path=App%20Bundle%20ID",
         "Siri Suggestions": "prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions"
     },
-    "Passwords (iOS 14)": {
+    "Passwords": {
         "(root)": "prefs:root=PASSWORDS",
         "[Search Term]": "prefs:root=PASSWORDS&search=[Search Term]"
     },

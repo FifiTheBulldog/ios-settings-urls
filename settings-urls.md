@@ -345,8 +345,10 @@
 - Home: `prefs:root=HOMEKIT`
 - Music → (root): `prefs:root=MUSIC`
 - Music → Cellular Data: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
-- Music → Optimize Storage: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Music → Dolby Atmos: `prefs:root=MUSIC&path=com.apple.Music%3AAtmos`
+- Music → Audio Quality: `prefs:root=MUSIC&path=com.apple.Music%3AAudioQuality`
 - Music → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Music → Optimize Storage: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
 - Music → Volume Limit: `prefs:root=MUSIC&path=com.apple.Music%3AVolumeLimit`
 - TV → (root): `prefs:root=TVAPP`
 - TV → Cellular: `prefs:root=TVAPP&path=com.apple.videos%3AVideosPlaybackQualityCellularSetting`
