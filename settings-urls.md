@@ -22,6 +22,7 @@
 - Cellular → Personal Hotspot → Family Sharing → [Family Member Name]: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing/[URL-encoded Family Member Name]`
 - Cellular → System Services: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=System%20Services`
 - Cellular → [plan name]: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=[plan name]`
+- Cellular → Reset Statistics: `prefs:root=MOBILE_DATA_SETTINGS_ID#Reset%20Statistics`
 - Personal Hotspot → (root): `prefs:root=INTERNET_TETHERING`
 - Personal Hotspot → Wi-Fi Password: `prefs:root=INTERNET_TETHERING&path=Wi-Fi%20Password`
 - Personal Hotspot → Family Sharing → (root): `prefs:root=INTERNET_TETHERING&path=Family%20Sharing`

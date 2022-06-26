@@ -1,0 +1,174 @@
+{
+  "items": [
+    {
+      "searchURL": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "label": "TAPTIC_CHIMES"
+    },
+    {
+      "searchURL": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "label": "WAKE_SCREEN"
+    },
+    {
+      "searchURL": "bridge:root=com.apple.HeartRateSettings",
+      "label": "HEART_RATE_SETTINGS"
+    },
+    {
+      "searchURL": "prefs:root=APPLE_ACCOUNT",
+      "label": "APPLE_ACCOUNT"
+    },
+    {
+      "searchURL": "prefs:root=General&path=STORAGE_MGMT",
+      "label": "STORAGE_MGMT"
+    },
+    {
+      "searchURL": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "label": "SCREEM_TIME_SUMMARY"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+      "label": "VOICEOVER_SPEECH"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+      "label": "VOICEOVER_VERBOSITY"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+      "label": "VOICEOVER_VERBOSITY_MEDIA_DESCRIPTIONS"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+      "label": "VOICEOVER_BRAILLE"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+      "label": "VOICEOVER_BRAILLE_OUTPUT"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+      "label": "VOICEOVER_BRAILLE_INPUT"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+      "label": "VOICEOVER_BRAILLE_SCREEN_INPUT"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+      "label": "VOICEOVER_BRAILLE_TABLES"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+      "label": "VOICEOVER_BRAILLE_STATUS_CELL"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+      "label": "VOICEOVER_AUDIO"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+      "label": "VOICEOVER_ACTIVITIES"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+      "label": "VOICEOVER_ROTOR_ACTIONS"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+      "label": "VOICEOVER_TYPING_OPTIONS"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+      "label": "VOICEOVER_TYPING_MODE"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+      "label": "VOICEOVER_TYPING_STYLE"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+      "label": "VOICEOVER_PHONETICS"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+      "label": "MODIFIER_KEYS"
+    },
+    {
+      "searchURL": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+      "label": "INCLUDE_UNLABELED_IMAGES"
+    }
+  ],
+  "strings": {
+    "TAPTIC_CHIMES": {
+      "en": "Taptic Chimes"
+    },
+    "WAKE_SCREEN": {
+      "en": "Wake Screen"
+    },
+    "HEART_RATE_SETTINGS": {
+      "en": "Heart Rate"
+    },
+    "APPLE_ACCOUNT": {
+      "en": "Apple ID"
+    },
+    "STORAGE_MGMT": {
+      "en": "iPhone/iPad Storage"
+    },
+    "SCREEN_TIME_SUMMARY": {
+      "en": "See All Activity"
+    },
+    "VOICEOVER_SPEECH": {
+      "en": "Speech"
+    },
+    "VOICEOVER_VERBOSITY": {
+      "en": "Verbosity"
+    },
+    "VOICEOVER_VERBOSITY_MEDIA_DESCRIPTIONS": {
+      "en": "Media Descriptions"
+    },
+    "VOICEOVER_BRAILLE": {
+      "en": "Braille"
+    },
+    "VOICEOVER_BRAILLE_OUTPUT": {
+      "en": "Output"
+    },
+    "VOICEOVER_BRAILLE_INPUT": {
+      "en": "Input"
+    },
+    "VOICEOVER_BRAILLE_SCREEN_INPUT": {
+      "en": "Braille Screen Input"
+    },
+    "VOICEOVER_BRAILLE_TABLES": {
+      "en": "Tables"
+    },
+    "VOICEOVER_BRAILLE_STATUS_CELL": {
+      "en": "Status Cell"
+    },
+    "VOICEOVER_AUDIO": {
+      "en": "Audio"
+    },
+    "VOICEOVER_ACTIVITIES": {
+      "en": "Activities"
+    },
+    "VOICEOVER_ROTOR_ACTIONS": {
+      "en": "Rotor Actions"
+    },
+    "VOICEOVER_TYPING_OPTIONS": {
+      "en": "Typing"
+    },
+    "VOICEOVER_TYPING_MODE": {
+      "en": "Typing Mode"
+    },
+    "VOICEOVER_TYPING_STYLE": {
+      "en": "Typing Style"
+    },
+    "VOICEOVER_PHONETICS": {
+      "en": "Phonetic Feedback"
+    },
+    "MODIFIER_KEYS": {
+      "en": "Modifier Keys"
+    },
+    "INCLUDE_UNLABELED_IMAGES": {
+      "en": "Include Unlabeled Images"
+    }
+  }
+}

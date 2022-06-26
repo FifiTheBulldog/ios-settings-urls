@@ -38,7 +38,8 @@
             }
         },
         "System Services": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=System%20Services",
-        "[plan name]": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=[plan name]"
+        "[plan name]": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=[plan name]",
+        "Reset Statistics": "prefs:root=MOBILE_DATA_SETTINGS_ID#Reset Statistics"
     },
     "Personal Hotspot": {
         "(root)": "prefs:root=INTERNET_TETHERING",

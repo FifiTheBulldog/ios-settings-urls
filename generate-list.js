@@ -36,11 +36,13 @@ Output:
 */
 
 const fs = require("fs");
-const { basename, extname, join, dirname } = require("path");
+const { basename, extname, join, resolve } = require("path");
 const plist = require("simple-plist");
 
 const ROOT_STR = "(root)";
 const SSM = "SettingsSearchManifest";
+const OVERRIDES_PATH = resolve(".", "overrides.json");
+
 /**
  * Path to the iOS simulator in Xcode on macOS.
  */
@@ -77,6 +79,8 @@ const DIRS = [
 ];
 
 let mainPath = join("/", "System", "Library");
+
+const overrides = require(OVERRIDES_PATH);
 let iosVersion = "";
 
 switch (process.platform) {
@@ -89,8 +93,7 @@ switch (process.platform) {
     mainPath = join("/", "mnt", mainPath);
     break;
   default:
-    console.error("Unsupported platform: " + process.platform);
-    process.exit(1);
+    throw new Error("Unsupported platform: " + process.platform);
 }
 
 // Adjust the /System/Library/ path to point to the iOS simulator's filesystem
@@ -110,18 +113,26 @@ switch (systemVersion.ProductName) {
     iosVersion = systemVersion.ProductVersion;
     break;
   default:
-    console.error("Unsupported system: " + systemVersion.ProductName);
-    process.exit(1);
+    throw new Error("Unsupported platform: " + process.platform);
 }
 
 /**
  * Strings to localize all of the Settings URLs.
+ * 
+ * Structure:
+ * {
+ *   LOCALE_NAME: {
+ *     FILE_ID: {
+ *       LABEL_NAME: STRING
+ *     }
+ *   }
+ * }
  * @type {Object.<string, Object.<string, Object.<string, string>>>}
  */
 const locales = {};
 
 /**
- * URL items read from manifests, grouped by manifest ID.
+ * URL items read from manifests.
  * @type {UrlItem[]}
  */
 const urlItems = [];
@@ -144,35 +155,6 @@ const readDirectory = (path) => fs.readdirSync(path, {
 });
 
 /**
- * Extracts a bundle/file ID from a file name.
- * 
- * For example, parsing the file name `SettingsSearchManifest-com.apple.castlesettings.plist` returns `com.apple.castlesettings`.
- * @param {string} name The name to extract an identifier from.
- * @param {string} fallbackPath The path to use for a fallback identifier in case no unique ID can be found in the file name.
- * @param {?boolean} isLproj Whether the file is a .lproj. Assume it's a manifest otherwise.
- * @returns {string} The identifier from the file name.
- */
-const getFileId = (name, fallbackPath, isLproj) => {
-  const extRemoved = removeExtension(name);
-  const fileId = extRemoved.substring(extRemoved.indexOf("-") + 1) || extRemoved;
-  if (fileId === SSM) {
-    console.log("bad id: " + fileId)
-    console.log("fallbackPath: " + fallbackPath)
-    const e = join(fallbackPath, "..")
-    console.log("better: " + e)
-    console.log()
-    return e
-    //fallbackPath = join(fallbackPath "..");
-    //console.log("Bad ID:" + fileId);
-    //console.log("fallbackPath: " + fallbackPath)
-    //const potentialFallback = join(dirname(fallbackPath), basename(fallbackPath));
-    //console.log("Potential fallback:" + potentialFallback)
-    //return fallbackPath//potentialFallback;
-  }
-  return fileId;
-}
-
-/**
  * An object containing all of the relevant data for a URL dumped from a SettingsSearchManifest.
  */
 class UrlItem {
@@ -186,7 +168,7 @@ class UrlItem {
     this.url = item.searchURL;
     const settingsUrl = new URL(item.searchURL);
     const params = new URLSearchParams(settingsUrl.pathname);
-    this.id = getFileId(basename(manifestPath), manifestPath);
+    this.id = removeExtension(manifestPath);
     this.pathComponents = [settingsUrl.protocol, params.get("root")];
     const urlPath = params.get("path");
     if (urlPath) {
@@ -216,11 +198,13 @@ const readManifest = (manifestPath) => {
  */
 const scanLproj = (lprojPath) => {
   const localeName = removeExtension(basename(lprojPath));
-  if (!(localeName in locales)) locales[localeName] = {};
+  if (!(localeName in locales)) {
+    locales[localeName] = {};
+  }
   for (const f of readDirectory(lprojPath)) {
     if (!f.isDirectory() && f.name.startsWith(SSM) && extname(f.name) === ".strings") {
       // item is a .strings file
-      let fileId = getFileId(f.name, lprojPath, true);
+      let fileId = resolve(lprojPath, "..", removeExtension(f.name));
       locales[localeName][fileId] = plist.readFileSync(join(lprojPath, f.name));
     }
   }
@@ -243,7 +227,7 @@ const scanBundle = (bundlePath) => {
 
 /**
  * Scans a directory for Settings URLs.
- * @param {string} dirName The name of the directory to scan.
+ * @param {string} dirPath The name of the directory to scan.
  */
 const scanDir = (dirPath) => {
   for (const f of readDirectory(dirPath)) {
@@ -264,6 +248,23 @@ for (const name of DIRS) {
 }
 scanBundle(join(mainPath, "PrivateFrameworks", "PBBridgeSupport.framework"));
 
+// Add in overrides
+// URL items
+for (const item of overrides.items) {
+  urlItems.push(new UrlItem(item, OVERRIDES_PATH));
+}
+
+// Strings
+for (const labelId in overrides.strings) {
+  const labelItem = overrides.strings[labelId];
+  for (const localeName in labelItem) {
+    if (!locales[localeName][OVERRIDES_PATH]) {
+      locales[localeName][OVERRIDES_PATH] = {};
+    }
+    locales[localeName][OVERRIDES_PATH] = labelItem[localeName];
+  }
+}
+
 // Sort the URLs into a template list that can then be used to create localized
 // JSON and possibly Markdown lists. This list shall have a similar structure
 // to what's in the localized versions, but with different keys and a lot more
@@ -272,10 +273,10 @@ scanBundle(join(mainPath, "PrivateFrameworks", "PBBridgeSupport.framework"));
 /**
  * Adds a UrlItem to the master dictionary.
  * @param {UrlItem} urlItem The URL item to insert into the master dictionary of URLs.
- * @param {number} pathIndex The index of urlItem's path components to check.
  * @param {Object.<string, object>} urlsObj The master dictionary of URLs, or a subdictionary of the master dictionary.
+ * @param {number=} pathIndex The index of urlItem's path components to check.
  */
-const addUrlItemToMasterDict = (urlItem, pathIndex, urlsObj) => {
+const addUrlItemToMasterDict = (urlItem, urlsObj, pathIndex = 0) => {
   const urlKey = urlItem.pathComponents[pathIndex];
   if (pathIndex === urlItem.pathComponents.length - 1) {
     // This is the last item in the path, no need for further checks
@@ -301,59 +302,52 @@ const addUrlItemToMasterDict = (urlItem, pathIndex, urlsObj) => {
       children: {}
     };
   }
-  addUrlItemToMasterDict(urlItem, pathIndex + 1, urlsObj[urlKey].children);
+  addUrlItemToMasterDict(urlItem, urlsObj[urlKey].children, pathIndex + 1);
 }
 
 const urlsMasterDict = {};
 for (const urlItem of urlItems) {
-  addUrlItemToMasterDict(urlItem, 0, urlsMasterDict);
+  addUrlItemToMasterDict(urlItem, urlsMasterDict);
 }
+/**/
+const defaultLocale = "en";
+let locale;
 
-// For now this will be English-only.
-// Support for other locales is planned, which is where some of the excess code comes from.
-// This will be a `let` in that case. But for now, stick with "en" since it's easiest.
-const locale = "en";
-//console.log(Object.keys(locales.en))
+const getLocaleItem = (fileId, labelName) => {
+  return locales?.[locale]?.[fileId]?.[labelName]
+         ?? locales?.[defaultLocale]?.[fileId]?.[labelName];
+}
 
 /**
  * Builds a localized object of URL items (for distribution).
  * @param {UrlItem|object} obj Object to use as the master dictionary.
- * @returns {[string, object]} The label and the localized object.
  */
-const buildLocalizedObject = (obj, fileId) => {
-  // If we've reached the maximum nesting depth, then return the URL.
-  // Otherwise, Gilbert, please continue.
-  //console.log(obj)
-  if (obj instanceof UrlItem) {
-    
-    console.log(obj);
-    return [
-      locales[locale][obj.id][obj.label],
-      obj.url
-    ];
-  }
+const buildLocalizedObject = (item) => {
   const result = {};
-  if (obj.rootItem) {
-    result[ROOT_STR] = obj.rootItem.url;
-  }
-  if (obj.children) {
-    for (const key in obj.children) {
-      //console.log(key)
-      const [localizedKey, localizedObj] = buildLocalizedObject(obj.children[key], fileId);
-      result[localizedKey] = localizedObj;
+  for (const [key, child] of Object.entries(item)) {
+    if (child instanceof UrlItem) {
+      result[getLocaleItem(child.id, child.label)] = child.url;
+    } else {
+      const { rootItem } = child;
+      const deeperResult = {};
+      if (rootItem) {
+        deeperResult[ROOT_STR] = rootItem.url;
+        result[getLocaleItem(rootItem?.id, rootItem?.label)] = deeperResult;
+      } else {
+        console.log(child);
+        throw new Error("Manual addition needed");
+      }
+      Object.assign(deeperResult, buildLocalizedObject(child.children));
     }
   }
-  return [
-    locales[locale][fileId][obj?.rootItem?.label], 
-    result
-  ];
+  return result;
 };
-//console.log(urlsMasterDict["bridge:"])
+
 const schemes = {
   "prefs:": "Settings",
   "bridge:": "Watch"
 };
-/* */
+/* *
 for (const scheme in urlsMasterDict) {
   const localizedSubJson = {};
   for (const sectionRoot in urlsMasterDict[scheme].children) {
@@ -366,16 +360,9 @@ for (const scheme in urlsMasterDict) {
 
 /* ===== ALL MAIN CODE GOES ABOVE THIS LINE ===== */
 /* ===== TEST COMPONENTS BELOW THIS LINE ===== */
-//console.log(urlsMasterDict["prefs:"].children[" HOME_SCREEN_DOCK"])
-//console.log(Object.keys(locales))
 
-console.log(locales[locale]["/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PBBridgeSupport.framework"])
 
-console.log(JSON.stringify(buildLocalizedObject(urlsMasterDict["prefs:"].children.ACCESSIBILITY, urlsMasterDict["prefs:"].children.ACCESSIBILITY.rootItem.id), null, 2))
 
-//console.log(urlItems.filter(u=>u.url==="prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList"))
-
-//console.log(process.memoryUsage())
-//const used = process.memoryUsage().heapUsed / 1024 / 1024;
-//console.log(`The script uses approximately ${Math.round(used * 100) / 100} MB`);
-/**/
+console.log(buildLocalizedObject(urlsMasterDict["prefs:"].children))
+console.log(Object.keys(locales))
+//console.log(urlItems.filter(u => u.url.includes( "prefs:root=APPLE_ACCOUNT")))

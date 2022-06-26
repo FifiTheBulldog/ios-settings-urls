@@ -213,6 +213,7 @@
             },
             "Wi-Fi Password": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Wi-Fi%20Password"
         },
+        "Reset Statistics": "prefs:root=MOBILE_DATA_SETTINGS_ID#Reset Statistics",
         "System Services": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=System%20Services"
     },
     "Compass": "prefs:root=COMPASS",
