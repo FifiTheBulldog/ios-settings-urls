@@ -60,6 +60,7 @@
     "Notifications": {
         "(root)": "prefs:root=NOTIFICATIONS_ID",
         "App Name": "prefs:root=NOTIFICATIONS_ID&path=App%20Bundle%20ID",
+        "Show Previews": "prefs:root=NOTIFICATIONS_ID&path=SHOW_PREVIEW_GROUP_ID",
         "Siri Suggestions": "prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions"
     },
     "Sounds": {
