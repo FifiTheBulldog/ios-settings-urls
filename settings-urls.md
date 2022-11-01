@@ -33,6 +33,7 @@
 - VPN → Add VPN Configuration…: `prefs:root=VPN&path=Add%20VPN%20Configuration%E2%80%A6`
 - Notifications → (root): `prefs:root=NOTIFICATIONS_ID`
 - Notifications → App Name: `prefs:root=NOTIFICATIONS_ID&path=App%20Bundle%20ID`
+- Notifications → Show Previews: `prefs:root=NOTIFICATIONS_ID&path=SHOW_PREVIEW_GROUP_ID` (credit to: [u/AnthoPak](https://www.reddit.com/r/shortcuts/comments/xsx8j7/does_anyone_know_url_scheme_for_ios_notification/iqoy4lm/))
 - Notifications → Siri Suggestions: `prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions`
 - Sounds → (root): `prefs:root=Sounds`
 - Sounds → Ringtone: `prefs:root=Sounds&path=Ringtone`
