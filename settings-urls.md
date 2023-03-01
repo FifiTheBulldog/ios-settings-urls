@@ -382,3 +382,4 @@
 - Developer → Ad Refresh Rate: `prefs:root=DEVELOPER_SETTINGS&path=AD_REFRESH_RATE`
 - Developer → TV Provider: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
 - Settings For App…: `prefs:root=[App Bundle ID]`
+- Find My -> Items: 'findmy://items'
