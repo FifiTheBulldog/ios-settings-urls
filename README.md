@@ -57,3 +57,4 @@ New updates to the MacStories list will be added to this list as well.
 - [u/OnlyForShortcuts](https://www.reddit.com/user/OnlyForShortcuts), [u/CosmicLatteeee](https://www.reddit.com/user/CosmicLatteeee), and [u/KelNishi](https://www.reddit.com/user/KelNishi) for Passwords (iOS 14)
 - [u/Jacopeste](https://www.reddit.com/user/Jacopeste) for Safari → Clear History and Website Data
 - [u/wowanBlya](https://www.reddit.com/user/wowanBlya) for Passwords → [Search Term]
+- [elif-data](https://github.com/elif-data) for Safari → Hide IP Address

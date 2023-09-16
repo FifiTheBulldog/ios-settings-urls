@@ -321,6 +321,7 @@
 - Safari → Content Blockers: `prefs:root=SAFARI&path=CONTENT_BLOCKERS`
 - Safari → Downloads: `prefs:root=SAFARI&path=DOWNLOADS`
 - Safari → Close Tabs: `prefs:root=SAFARI&path=Close%20Tabs`
+- Safari → Hide IP Address: `prefs:root=SAFARI&path=Hide%20IP%20Address`
 - Safari → Clear History and Website Data: `prefs:root=SAFARI&path=CLEAR_HISTORY_AND_DATA`
 - Safari → Page Zoom: `prefs:root=SAFARI&path=Page%20Zoom`
 - Safari → Request Desktop Website: `prefs:root=SAFARI&path=Request%20Desktop%20Website`

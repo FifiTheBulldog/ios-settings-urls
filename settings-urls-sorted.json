@@ -493,6 +493,7 @@
         "Close Tabs": "prefs:root=SAFARI&path=Close%20Tabs",
         "Content Blockers": "prefs:root=SAFARI&path=CONTENT_BLOCKERS",
         "Downloads": "prefs:root=SAFARI&path=DOWNLOADS",
+        "Hide IP Address": "prefs:root=SAFARI&path=Hide%20IP%20Address",
         "Location": "prefs:root=SAFARI&path=Location",
         "Microphone": "prefs:root=SAFARI&path=Microphone",
         "Page Zoom": "prefs:root=SAFARI&path=Page%20Zoom",

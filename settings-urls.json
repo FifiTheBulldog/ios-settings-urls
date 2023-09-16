@@ -479,6 +479,7 @@
         "Content Blockers": "prefs:root=SAFARI&path=CONTENT_BLOCKERS",
         "Downloads": "prefs:root=SAFARI&path=DOWNLOADS",
         "Close Tabs": "prefs:root=SAFARI&path=Close%20Tabs",
+        "Hide IP Address": "prefs:root=SAFARI&path=Hide%20IP%20Address",
         "Clear History and Website Data": "prefs:root=SAFARI&path=CLEAR_HISTORY_AND_DATA",
         "Page Zoom": "prefs:root=SAFARI&path=Page%20Zoom",
         "Request Desktop Website": "prefs:root=SAFARI&path=Request%20Desktop%20Website",
