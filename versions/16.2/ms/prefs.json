@@ -1,0 +1,1152 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "Storan iCloud": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Foto": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Kenalan": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Kalendar": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Peringatan": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Nota": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Sandaran": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Kesihatan": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Kata Laluan & Rantai Kunci": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Geganti Peribadi": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Kongsi Lokasi Saya": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Cari iPhone Saya": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Nama, Nombor Telefon, E-mel": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Kata Laluan & Keselamatan": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Bayaran & Penghantaran": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Langganan": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Keluarga": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Privasi & Keselamatan": {
+    "(root)": "prefs:root=Privacy",
+    "Semakan Keselamatan": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Lokasi": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Kongsi Lokasi Saya": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Kenalan": "prefs:root=Privacy&path=CONTACTS",
+    "Kalendar": "prefs:root=Privacy&path=CALENDARS",
+    "Peringatan": "prefs:root=Privacy&path=REMINDERS",
+    "Foto": "prefs:root=Privacy&path=PHOTOS",
+    "Perkongsian Bluetooth": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Mikrofon": "prefs:root=Privacy&path=MICROPHONE",
+    "Pengecaman Pertuturan": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Kamera": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Media & Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Analitis": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Pengiklanan": "prefs:root=Privacy&path=ADVERTISING",
+    "Fail dan Folder": "prefs:root=Privacy&path=FILEACCESS",
+    "Penjejakan": "prefs:root=Privacy&path=USER_TRACKING",
+    "Laporan Privasi App": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Mod Penyekatan": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Kesihatan": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Fokus": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Status Fokus": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Umum": {
+    "(root)": "prefs:root=General",
+    "VPN & Pengurusan Peranti": "prefs:root=General&path=ManagedConfigurationList",
+    "Gambar dalam Gambar": "prefs:root=General&path=PiP_SPEC",
+    "Trackpad & Tetikus": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Perihal": {
+      "(root)": "prefs:root=General&path=About",
+      "Sijil Dipercayai": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Undang-undang & Kawal Selia": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Kemas Kini Perisian": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Butang Utama": "prefs:root=General&path=HOME_BUTTON",
+    "Gerak Isyarat": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Suis Sisi": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Segar Semula App Latar": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Tarikh & Masa": "prefs:root=General&path=DATE_AND_TIME",
+    "TV Keluar": "prefs:root=General&path=TV_OUT",
+    "Kawal Selia": "prefs:root=General&path=REGULATORY",
+    "Reset": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Reset Semua Seting": "prefs:root=General&path=Reset#settingsErase",
+      "Padam Semua Kandungan dan Seting": "prefs:root=General&path=Reset#fullErase",
+      "Reset Seting Rangkaian": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Keluarkan Semua Pelan Data Selular": "prefs:root=General&path=Reset#cellularErase",
+      "Khidmat Pelanggan": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Reset Kamus Papan Kekunci": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Reset Tataletak Skrin Utama": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Reset Lokasi & Privasi": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Tutup": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay & Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Pindahkan ke HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "AirPlay Secara Automatik ke TV": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Kamera Kesinambungan": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Kamus": "prefs:root=General&path=DICTIONARY",
+    "Bahasa & Rantau": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Bahasa Lain…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Tertib Bahasa Pilihan": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Tambah Bahasa…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Rantau": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Nombor": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Kalendar": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Unit Suhu": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Papan Kekunci": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Papan Kekunci": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Penggantian Teks": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Huruf Besar Auto": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Pembetulan Auto": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Semak Ejaan": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Dayakan Caps Lock": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Pintasan": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Ramalan": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Tanda Baca Pintar": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Papan Kekunci Terpisah": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Dayakan Kuisan Kekunci": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Pratonton Aksara": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "Pintasan “.”": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Luncur untuk taip": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Dayakan Perencanaan": "prefs:root=General&path=Keyboard#Dictation",
+      "Tanda Baca Auto": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Storan": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Keluarkan App Tak Diguna": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Pemberitahuan": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Ringkasan Berjadual": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Wallet & Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Kad Bayaran": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Tambah Kad": "prefs:root=PASSBOOK#Add%20Card",
+    "Dwiklik Butang Sisi": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Penjejakan Pesanan": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Masa Skrin": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Hari Ini": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Minggu": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Masa Henti": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Had App": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Had Komunikasi": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Keselamatan Komunikasi": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Sentiasa Dibenarkan": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Pengehadan Kandungan & Privasi": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Kawalan Ibu Bapa": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Kebolehcapaian": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Penglihatan": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Kadar Percakapan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Pertuturan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Suara": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Bahasa Berjela": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Tanda Baca": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Pengepala Jadual": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Perihalan Media": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Tak Aktif": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Pertuturan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Pertuturan dan Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Braille Enam Titik Bukan Singkat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Braille Lapan Titik Bukan Singkat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Braille Singkat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Braille Enam Titik Bukan Singkat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Braille Lapan Titik Bukan Singkat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Braille Singkat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Terjemahan Automatik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Input Skrin Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Braille Enam Titik Bukan Singkat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Braille Lapan Titik Bukan Singkat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Braille Singkat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Terbalikkan Kedudukan Titik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Jadual Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Tambah Jadual Braille…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Sel Status": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Kedudukan Sel Status": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Kiri": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Kanan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Tunjukkan Status Umum": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Tunjukkan Status Teks": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Persamaan guna Kod Nemeth": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Tunjuk Kekunci Atas Skrin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Selak Halaman Ketika Sorot": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Balut Perkataan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Mesej Isyarat Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Abaikan Tempoh Kord": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Tempoh Maju Auto": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Peredaman Audio": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Pilih Auto Speaker dalam Panggilan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Hantar ke HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Perintah": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Aktiviti": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Pemprograman": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Tambah Aktiviti…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Tindakan Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Edit App pada Skrin Utama": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "App Sentuhan Terus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Penaipan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Gaya Penaipan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Penaipan Standard": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Penaipan Sentuhan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Penaipan Sentuhan Terus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Maklum Balas Fonetik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Tak Aktif": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Aksara dan Fonetik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Fonetik Sahaja": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Maklum Balas Penaipan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Kekunci Pengubah Suai": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Control + Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Caps Lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Masa Interaksi Papan Kekunci": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Navigasi Imej": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Sentiasa": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Dengan perihalan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Jangan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Kursor Besar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Panel Kapsyen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Tamat Masa Dwiketik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Tamat Masa Dwiketik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Gaya Navigasi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Seting Cepat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Bunyi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Peredaman Audio": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Kelantangan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Kadar Percakapan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Pembayang": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Gaya Navigasi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Gaya Penaipan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Luncur untuk Taip": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Aktiviti": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Sentiasa Sebut Notis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Mesej Isyarat Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Maju Auto Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Input Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Output Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Jadual Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Panel Kapsyen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Sentuhan Terus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Arah Gerak Isyarat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Maklum Balas Penaipan Perkakasan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Bahasa": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Kursor Besar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Perihalan Media": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Navigasi Imej": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Maklum Balas Fonetik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Perubahan Pic": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Tanda Baca": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Hantar ke HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Maklum Balas Penaipan Perisian": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Sebut Pengesahan Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Perihalan Imej": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Pengecaman Skrin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "Pengecaman VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Perihalan Imej": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Pengecaman Skrin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Zum": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Zum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Ikut Fokus": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Penaipan Pintar": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Pintasan Papan Kekunci": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Pintasan Papan Kekunci": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Laraskan Paras Zum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Togol Zum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Gerakkan Tetingkap Zum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Saiz Semula Tetingkap Zum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Tukar Kawasan Zum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Togol Zum Buat Sementara": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Zum dengan Roda Skrol": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Pengawal Zum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Kawasan Zum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Zum Skrin Penuh": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Zum Tetingkap": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Paras zum maksimum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Penapis Zum": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Tunjukkan semasa Pencerminan": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Teks Terapung": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Paparan & Saiz Teks": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Teks Tebal": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Teks Lebih Besar": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Bentuk Butang": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Label Aktif/Tak Aktif": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Kurangkan Kelutsinaran": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Tingkatkan Kontras": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Bezakan Tanpa Warna": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Terbalikkan Pintar": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Terbalikkan Klasik": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Penapis Warna": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Penapis Warna": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Kurangkan Titik Putih": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Kecerahan Auto": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Pergerakan": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Kurangkan Pergerakan": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Main Auto Kesan Mesej": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Main Auto Pratonton Video": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Kandungan Dituturkan": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Sebut Pilihan": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Sebut Skrin": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Pengawal Pertuturan": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Sesuaikan Butang Tetikus": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Serlahkan Kandungan": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Maklum Balas Penaipan": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Maklum Balas Aksara": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Aksara": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Pembayang Aksara": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Sebut Perkataan": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Sebut Teks Auto": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Tahan untuk Sebut Ramalan": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Suara": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Bahasa Lalai": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Kesan Bahasa": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Kadar Percakapan": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Sebutan": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Perihalan Audio": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Perihalan Audio": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Fizikal dan Motor": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Sentuhan": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Sesuaikan Menu Peringkat Atas": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Ketik ikon untuk menukar:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Reset…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Tindakan Tersuai": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Ketik Sekali": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Dwiketik": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Tamat Masa Dwiketik": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Tekan Lama": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Tempoh Tekan Lama": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Gerak Isyarat Tersuai": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Cipta Gerak Isyarat Baharu…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Kelegapan Melahu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Peranti Penuding": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Peranti": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Peranti Bluetooth…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Kekunci Tetikus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Gaya Penuding": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Saiz": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Visual": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Warna": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Sesuaikan Butang Tetikus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Sembunyi Auto": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_816": {
+            "Sembunyi Auto": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Tunjuk Kekunci Atas Skrin": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Sentiasa Tunjukkan Menu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Kawalan Inap": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Had Pergerakan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Kesensitifan Penjejakan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Tindakan Kembali": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Sudut Pantas": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Gunakan Pengawal Permainan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "Sentuhan 3D & Haptik": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_817": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "Kesensitifan 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Tempoh Sentuhan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Laju": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Perlahan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Ujian Kesensitifan dan Tempoh Sentuhan 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Penyesuaian Sentuhan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_818": {
+        "Penyesuaian Sentuhan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Tempoh Penahanan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Abaikan Ulangan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Bantuan Ketik": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Tak Aktif": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Gunakan Lokasi Sentuhan Awal": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Gunakan Lokasi Sentuhan Akhir": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Ketik untuk Bangun": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Ketik atau Leret untuk Bangun": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Goncang untuk Buat Asal": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Getaran": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Elakkan Kunci untuk Menamatkan Panggilan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Penghalaan Audio Panggilan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_819": {
+        "Automatik": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Headset Bluetooth": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Speaker": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Jawab Auto Panggilan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID & Perhatian": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Perlukan Perhatian untuk Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Ciri Kesedaran Perhatian": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Haptik": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Haptik semasa Pengesahan Berjaya": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Kawalan Suis": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Kawalan Suis": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Suis": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_820": {
+        "Tambah Suis Baharu…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Peranti Bluetooth…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Prosedur": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Gaya Imbasan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_821": {
+        "Imbasan Auto": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Imbasan Manual": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Imbasan Langkah Suis Tunggal": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Pemasaan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Masa Imbasan Auto": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_822": {
+        "Masa Imbasan Auto": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Jeda pada Item Pertama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_823": {
+        "Jeda pada Item Pertama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Ulang Pergerakan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_824": {
+        "Ulang Pergerakan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Tekan Lama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_825": {
+        "Tekan Lama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Kelakuan Ketik": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_826": {
+        "Lalai": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Ketik Auto": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Sentiasa Ketik": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Item Fokus Selepas Ketik": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_827": {
+        "Item Pertama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Item Semasa": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Papan Kekunci": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Ketik & Imbas Kekunci Sama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Sentiasa Ketik Papan Kekunci": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Ramalan Lanjutan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Penstabilan Suis": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Tempoh Penahanan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_828": {
+        "Tempoh Penahanan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Abaikan Ulangan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_829": {
+        "Abaikan Ulangan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Imbasan Titik": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Kursor Meluncur": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_830": {
+        "Mod Pilihan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Tunggal": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Diperincikan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Tepat": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Kelajuan Kursor Meluncur": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Penjejakan Kepala": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_831": {
+        "Penjejakan Kepala": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Audio": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Kesan Bunyi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Pertuturan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_832": {
+        "Suara": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Kadar Percakapan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Item Menu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Kumpulkan Item": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Visual": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Kursor Besar": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Gerak Isyarat Disimpan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_833": {
+        "Cipta Gerak Isyarat Baharu…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Warna Kursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Kawalan Suara": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Sediakan Kawalan Suara": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Bahasa": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_834": {
+        "Inggeris (Amerika Syarikat)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Sesuaikan Perintah": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Kosa Kata": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Maklum Balas Perintah": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Tunjukkan Pengesahan": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Mainkan Bunyi": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Tunjukkan Pembayang": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Tindihan Berterusan": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Tindihan": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_835": {
+        "Tiada": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Nombor Item": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Nama Item": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Grid Bernombor": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Kesedaran Perhatian": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Butang Sisi": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Kelajuan Klik": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Lalai": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Perlahan": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Paling Perlahan": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Tekan dan tahan untuk bercakap": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Kawalan Suara Klasik": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Tak Aktif": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Butang Berarah": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Skrin Jauh Apple Watch": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Papan Kekunci": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Akses Papan Kekunci Penuh": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_836": {
+        "Akses Papan Kekunci Penuh": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Visual": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Sembunyi Auto": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Gelang Fokus Besar": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Warna": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Ulangan Kekunci": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_837": {
+        "Ulangan Kekunci": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Selang Ulangan Kekunci": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Tunda Sehingga Ulang": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Kekunci Lekat": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_838": {
+        "Kekunci Lekat": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Togol Dengan Kekunci Shift": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Bunyi": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Kekunci Perlahan": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_839": {
+        "Kekunci Perlahan": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Papan Kekunci Perisian": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Tunjuk Kekunci Huruf Kecil": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Pendengaran": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Peranti Pendengaran": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "Peranti Pendengaran MFi": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Keserasian Alat Bantu Dengar": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Pengecaman Bunyi": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Bunyi": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "TTY Perisian": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "TTY Perkakasan": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Audio & Visual": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Audio": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Penyesuaian Fon Kepala": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_840": {
+        "Penyesuaian Fon Kepala": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Persediaan Audio Tersuai": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Bunyi Latar Belakang": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Audio Mono": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Pembatalan Bunyi Telefon": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Keseimbangan": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Visual": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "Denyar LED untuk Isyarat": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_841": {
+        "Denyar Semasa Dibuka Kunci": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Denyar dalam Mod Senyap": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Imbangan Stereo Kiri-Kanan": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Bunyi Kuasa Hidup & Mati": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Sari Kata & Kapsyen": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Gaya": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Kapsyen Tertutup + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Tunjukkan Transkripsi Audio": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_842": {
+      "Kapsyen Langsung (Beta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Kapsyen Langsung dalam FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Umum": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Akses Dibantu": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Akses Dibantu": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Seting Kod Laluan": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_843": {
+        "Setkan Kod Laluan Akses Dibantu": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Had Masa": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_844": {
+        "Penggera": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Bunyi": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Sebut": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Pintasan Kebolehcapaian": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Kunci Auto Paparan": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Mod Kebolehcapaian Tersuai": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Taip untuk Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Respons Dituturkan": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Respons Dituturkan Automatik": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Utamakan Respons Senyap": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Jangan Sebut dalam Mod Senyap": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Sentiasa Dengar untuk \"Hai Siri\"": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Pintasan Kebolehcapaian": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Kanta Pembesar": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Seting Mengikut App": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Kawal Peranti Berdekatan": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Paparan & Kecerahan": {
+    "(root)": "prefs:root=DISPLAY",
+    "Penampilan": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Dijadualkan": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Dayakan Sehingga Esok Secara Manual": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Suhu Warna": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Kunci Auto": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Angkat untuk Bangun": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Kunci / Buka Kunci": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Saiz Teks": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Teks Tebal": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Zum Paparan": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Paparan": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Notis Pendedahan": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_845": {
+    "Lencana Pemberitahuan": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "App Terbaru Dimuat Turun": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Skrin Utama & Berbilang Tugas": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_846": {
+      "Tunjukkan Pustaka App dalam Dock": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Tunjukkan App Cadangan dan Terbaharu dalam Dock": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Skrin Utama": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "App Terbaru Dimuat Turun": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Lencana Pemberitahuan": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID & Kod Laluan": {
+    "(root)": "prefs:root=PASSCODE",
+    "Nyahaktifkan Kod Laluan": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Tukar Kod Laluan": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Memerlukan Kod Laluan": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Dail Suara": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Benarkan Akses Apabila Dikunci": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Balas dengan Mesej": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Kawalan Rumah": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Wallet": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Balas Panggilan Tidak Dijawab": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Padam Data": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Buka Kunci dengan Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcast": "prefs:root=PODCASTS",
+  "SOS Kecemasan": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Panggil dengan Butang Sisi": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Panggilan Auto": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Kenalan Kecemasan": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Bunyi Kira Detik": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Bunyi": {
+    "(root)": "prefs:root=Sounds",
+    "Keselamatan Fon Kepala": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Penyesuai Lightning": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Pemberitahuan Fon Kepala": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Kurangkan Bunyi Kuat": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Kesan Bunyi": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Pendering dan Isyarat": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Tukar dengan Butang": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Bunyi dan Corak Getaran": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Nada Dering": "prefs:root=Sounds&path=Ringtone",
+    "Nada Teks": "prefs:root=Sounds&path=Text_Messages",
+    "Mel Suara Baharu": "prefs:root=Sounds&path=Voicemail",
+    "Mel Baharu": "prefs:root=Sounds&path=NEW_MAIL",
+    "Mel Dihantar": "prefs:root=Sounds&path=SENT_MAIL",
+    "Isyarat Kalendar": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Isyarat Peringatan": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Klik Papan Kekunci": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Bunyi Kunci": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Cuaca": "prefs:root=WEATHER",
+  "Kompas": {
+    "(root)": "prefs:root=COMPASS",
+    "Gunakan Utara Benar": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Pusat Kawalan": {
+    "(root)": "prefs:root=ControlCenter",
+    "Akses dalam App": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Sesuaikan Kawalan": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Pembangun": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Perangkaian Berbilang Laluan": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Perangkaian Berbilang Laluan": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Penampilan": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Penampilan Gelap": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Peranti Berpasangan": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Kosongkan Komputer Dipercayai": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Instrumen": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Pengelogan": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Automasi UI": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Perangkaian": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Penyesuai Pautan Rangkaian": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "Ujian App Pembangun iAd": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Kadar Isian": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Serlahkan Sepanduk Terpotong": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Paparan Iklan Tanpa Had": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "Ujian PassKit": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Pengelogan Tambahan": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Benarkan Perkhidmatan HTTP": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Nyahdayakan Pengehadan Kadar": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "Kunci Laluan NFC Pilihan": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Ujian Perkhidmatan Media": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "Cadangan AirPlay": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Reset Perkhidmatan Media": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "Ujian News": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Reset Data Setempat pada Pelancaran Seterusnya": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Ujian Rangka Kerja Pemain Media": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API Kandungan Boleh Main": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Ujian Penyedia TV": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "Penyedia TV": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "API ClassKit": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "Ujian CoreSpotlight": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Indeks Semula Semua Item": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Indeks Semula Semua Item dengan Pengecam": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Ujian Pintasan": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Paparkan Pintasan Terbaharu": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Paparkan Media Akan Datang": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Paparkan Derma pada Skrin Kunci": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Paksa Selaras Pintasan ke Jam": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "Ujian MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Dayakan MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Kesihatan": "prefs:root=HEALTH",
+  "Ukur": {
+    "(root)": "prefs:root=MEASURE",
+    "Unit Ukuran": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Imperial": "prefs:root=MEASURE#Imperial",
+    "Metrik": "prefs:root=MEASURE#Metric"
+  },
+  "Muzik": {
+    "(root)": "prefs:root=MUSIC",
+    "Tunjukkan Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Tambah Lagu Senarai Main": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Tunjukkan Penilaian Bintang": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Selaraskan Pustaka": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Data Selular": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Muzik Dimuat Turun": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Optimumkan Storan": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Muat Turun Automatik": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Periksa Bunyi": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Guna Sejarah Pendengaran": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Nota": {
+    "(root)": "prefs:root=NOTES",
+    "Akaun Lalai": "prefs:root=NOTES&path=Default%20Account",
+    "Kata Laluan": "prefs:root=NOTES&path=Password",
+    "Isih Nota Ikut": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Nota Baharu Bermula dengan": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Isih Item Ditanda": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Garis & Grid": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Simpan ke Foto": "prefs:root=NOTES#Save%20to%20Photos",
+    "Akses Nota daripada Skrin Kunci": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Mesej": "prefs:root=MESSAGES",
+  "Terjemah": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Mod Pada Peranti": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "Penyedia TV": "prefs:root=VIDEO_SUBSCRIBER",
+  "Memo Suara": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Kosongkan Memo Dipadam": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Kualiti Audio": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Nama Berdasarkan Lokasi": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Kamera": {
+    "(root)": "prefs:root=CAMERA",
+    "Format": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_847": {
+      "Video HDR": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Kekalkan Seting": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Mod Kamera": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Grid": "prefs:root=CAMERA#CameraGridSwitch",
+    "Imbas Kod QR": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Peta": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Kenalan": {
+    "(root)": "prefs:root=CONTACTS",
+    "Benarkan Kenalan Mengakses": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri & Carian": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Tertib Isih": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Tertib Paparan": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Nama Pendek": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Nama Pendek": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Utamakan Nama Panggilan": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Info Saya": "prefs:root=CONTACTS&path=MeCard",
+    "Import Kenalan SIM": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Buku": {
+    "(root)": "prefs:root=IBOOKS",
+    "Kandungan Dalam Talian": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "PENYELARASAN": "prefs:root=IBOOKS#SYNCING",
+    "Sedang Dibaca": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "MEMBACA": "prefs:root=IBOOKS#READING",
+    "Penjajaran Penuh": "prefs:root=IBOOKS#BKFullJustification",
+    "Tanda Sempang Auto": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Maju Kedua-dua Margin": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Matlamat Membaca": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Kosongkan Data Matlamat Membaca": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "MENCARI": "prefs:root=IBOOKS#SEARCHING",
+    "Kedai Buku": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "BUKU AUDIO": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Langkau ke Depan": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Langkau ke Belakang": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "KAWALAN LUARAN": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Seterusnya/Sebelumnya": "prefs:root=IBOOKS#Next/Previous",
+    "Langkau ke Depan/Belakang": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "PRIVASI": "prefs:root=IBOOKS#PRIVACY",
+    "Reset Pengecam": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Perakuan": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Kalendar": {
+    "(root)": "prefs:root=CALENDAR",
+    "Penggantian Zon Waktu": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Kalendar Alternatif": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Nombor Minggu": "prefs:root=CALENDAR#Week%20Numbers",
+    "Tunjuk Penolakan Jemputan": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Selaraskan": "prefs:root=CALENDAR&path=Sync",
+    "Masa Isyarat Lalai": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Mulakan Minggu Pada Hari": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Cadangan Lokasi": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Akaun": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Tambah Akaun": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Ambil Data Baharu": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Pratonton": "prefs:root=MAIL&path=Preview",
+    "Tunjukkan Label Kepada/Sk": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Pilihan Leretan": "prefs:root=MAIL&path=Swipe%20Options",
+    "Tanya Sebelum Padam": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Muatkan Imej Jauh": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Susun ikut Jaluran": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Runtuhkan Mesej Dibaca": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Mesej Terbaharu di Atas": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Jaluran Lengkap": "prefs:root=MAIL#Complete%20Threads",
+    "Tindakan Jaluran Diredamkan": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Abaikan Pengirim Disekat": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Disekat": "prefs:root=MAIL&path=Blocked",
+    "Sentiasa Skt Sendiri": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Tandakan Alamat": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Tambah Paras Petikan": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Sertakan Lampiran dengan Balasan": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Tandatangan": "prefs:root=MAIL&path=Signature"
+  },
+  "Telefon": {
+    "(root)": "prefs:root=Phone",
+    "Nombor Saya": "prefs:root=Phone&path=My%20Number",
+    "Panggilan Masuk": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Umumkan Panggilan": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Pelaporan SMS/Panggilan": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Balas dengan Teks": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Pemajuan Panggilan": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Pemajuan Panggilan": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Panggilan Menunggu": "prefs:root=Phone&path=Call%20Waiting",
+    "Tunjukkan ID Pemanggil Saya": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_848": {
+        "Tunjukkan ID Pemanggil Saya": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Pemanggil Tidak Dikenali": "prefs:root=Phone#SILENCE_CALLS",
+    "Kenalan Disekat": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Bantuan Pendailan": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Penyekat Kandungan": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Sekat Tetingkap Timbul": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Elak Penjejakan Silang Tapak": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Isi Auto": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Muat Turun": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Kata Laluan": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Isi Auto Kata Laluan": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Foto": {
+    "(root)": "prefs:root=Photos",
+    "Foto iCloud": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Optimumkan Storan": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Muat Turun dan Kekalkan Asal": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Strim Foto Saya": "prefs:root=Photos#PhotoStreamSwitch",
+    "Album Dikongsi": "prefs:root=Photos#SharedStreamsSwitch",
+    "Data Selular": "prefs:root=Photos&path=CellularDataLinkList",
+    "Main Auto Video": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Lihat HDR Penuh": "prefs:root=Photos#ImageModulationSwitch",
+    "Tunjukkan Peristiwa Percutian": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Pindah ke Mac atau PC": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Muat Turun Automatik": "prefs:root=STORE#Automatic%20Downloads",
+    "Kemas Kini App": "prefs:root=STORE#App%20Updates",
+    "Muat Turun App": "prefs:root=STORE&path=App%20Downloads",
+    "Main Auto Video": "prefs:root=STORE&path=Video%20Autoplay",
+    "Penilaian & Ulasan In-App": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Tunjukkan Pratonton Cerita": "prefs:root=NEWS#show_excerpt_mode",
+    "Hadkan Cerita dalam Hari Ini": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Privasi": "prefs:root=NEWS#Privacy",
+    "Reset Pengecam": "prefs:root=NEWS#reset_identifier",
+    "Perakuan": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_849": {
+    "Mod Pesawat": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Peringatan": {
+    "(root)": "prefs:root=REMINDERS",
+    "Senarai Lalai": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Peringatan": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Pemberitahuan Hari Ini": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Tunjukkan sebagai Lewat": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Bateri": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Mod Kuasa Rendah": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Kesihatan Bateri": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Pintasan": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "Penyelarasan iCloud": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Selaraskan Tertib Pintasan": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Notis Undang-undang": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri & Carian": {
+    "(root)": "prefs:root=SIRI",
+    "Benarkan Siri apabila Dikunci": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Bahasa": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Suara Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "Maklum Balas Suara": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Maklumat Saya": "prefs:root=SIRI&path=MY_INFO",
+    "Cadangan dalam Carian": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Cadangan dalam Rujuk": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Cadangan pada Skrin Kunci": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Saham": {
+    "(root)": "prefs:root=STOCKS",
+    "Privasi": "prefs:root=STOCKS#Privacy",
+    "Reset Pengecam": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Selular": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Pilihan Data Selular": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Mod Data Rendah": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Data Selular": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Data Selular untuk Main Balik": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Kualiti Main Balik": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Pembelian dan Sewaan": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Perkongsian Rumah": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Hias Latar": "prefs:root=Wallpaper"
+}

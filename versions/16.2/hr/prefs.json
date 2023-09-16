@@ -1,0 +1,1156 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud memorija": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Foto": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Kontakti": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Kalendar": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Podsjetnici": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Bilješke": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Sigurnosna kopija": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Zdravlje": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Lozinke i privjesak ključeva": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Privatni relej": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Dijeli moju lokaciju": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Nađi moj iPhone": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Ime, telefonski brojevi, e-mail": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Lozinka i sigurnost": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Plaćanje i isporuka": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Pretplate": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Obitelj": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Privatnost i sigurnost": {
+    "(root)": "prefs:root=Privacy",
+    "Sigurnosna provjera": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Lokacija": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Dijeli moju lokaciju": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Kontakti": "prefs:root=Privacy&path=CONTACTS",
+    "Kalendari": "prefs:root=Privacy&path=CALENDARS",
+    "Podsjetnici": "prefs:root=Privacy&path=REMINDERS",
+    "Foto": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth dijeljenje": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Mikrofon": "prefs:root=Privacy&path=MICROPHONE",
+    "Prepoznavanje govora": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Kamera": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Mediji i Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Analiza": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Oglašavanje": "prefs:root=Privacy&path=ADVERTISING",
+    "Datoteke i mape": "prefs:root=Privacy&path=FILEACCESS",
+    "Praćenje": "prefs:root=Privacy&path=USER_TRACKING",
+    "Izvještaj o privatnosti aplikacije": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Mod zaključavanja": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Zdravlje": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Fokus": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Status fokusa": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Općenito": {
+    "(root)": "prefs:root=General",
+    "VPN i upravljanje uređajem": "prefs:root=General&path=ManagedConfigurationList",
+    "Slika u slici": "prefs:root=General&path=PiP_SPEC",
+    "Dodirna površina i miš": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Više informacija": {
+      "(root)": "prefs:root=General&path=About",
+      "Pouzdani certifikati": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Pravne i regulatorne informacije": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Ažuriranje softvera": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Tipka Home": "prefs:root=General&path=HOME_BUTTON",
+    "Geste": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Bočni prekidač": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Osvježavanje aplikacija u pozadini": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Datum i vrijeme": "prefs:root=General&path=DATE_AND_TIME",
+    "TV izlaz": "prefs:root=General&path=TV_OUT",
+    "Regulatorne informacije": "prefs:root=General&path=REGULATORY",
+    "Resetiranje": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Resetiraj sve postavke": "prefs:root=General&path=Reset#settingsErase",
+      "Obriši sav sadržaj i postavke": "prefs:root=General&path=Reset#fullErase",
+      "Resetiraj mrežne postavke": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Ukloni sve podatkovne planove": "prefs:root=General&path=Reset#cellularErase",
+      "Pretplatničke usluge": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Resetiraj rječnik tipkovnice": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Resetiraj raspored početnog zaslona": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Resetiraj lokaciju i privatnost": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Isključi": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay i Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Prebaci na HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Automatski AirPlay na TV prijemnicima": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Kamera kontinuiteta": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Rječnik": "prefs:root=General&path=DICTIONARY",
+    "Jezik i regija": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Drugi jezici…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Preferirani redoslijed jezika": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Dodaj jezik…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Regija": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Brojevi": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Kalendar": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Jedinica za temperaturu": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Tipkovnica": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Tipkovnice": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Zamjena teksta": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Veliko početno slovo": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Auto ispravak": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Provjera pravopisa": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Omogući Caps Lock": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Prečaci": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Predviđanje": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Pametna interpunkcija": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Razdvoji tipkovnicu": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Omogući udarce tipki": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Pregled znakova": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "“.” prečac": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Povucite za tipkanje": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Omogući Diktat": "prefs:root=General&path=Keyboard#Dictation",
+      "Automatska interpunkcija": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Memorija": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Makni nekorištene aplikacije": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Obavijesti": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Zakazani sažetak": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Novčanik i Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Platne kartice": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Dodaj karticu": "prefs:root=PASSBOOK#Add%20Card",
+    "Pritisnite dvaput bočnu tipku": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Praćenje narudžbe": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Vrijeme uporabe zaslona": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Danas": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Tjedan": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Vrijeme isključenosti": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Ograničenja aplikacija": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Ograničenja komuniciranja": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Sigurnost komuniciranja": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Uvijek dozvoljeno": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Ograničenja sadržaja i privatnosti": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Roditeljske kontrole": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Pristupačnost": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Vid": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Brzina čitanja": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Čitanje": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Glas": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Rječitost": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Interpunkcija": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Zaglavlja tablica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Opisi medija": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Isključeno": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Čitanje": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Čitanje i brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Izlaz": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Široka šestočkasta brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Široka osmotočkasta brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Sužena brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Unos": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Široka šestočkasta brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Široka osmotočkasta brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Sužena brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Automatski prijevod": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Brajica na zaslonu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Široka šestočkasta brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Široka osmotočkasta brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Sužena brajica": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Obrni položaje točke": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Brajeve tablice": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Dodaj brajevu tablicu…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Ćelije statusa": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Položaj ćelija statusa": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Lijevo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Desno": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Prikaži općeniti status": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Prikaži status teksta": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Jednadžbe u Nemeth kodu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Prikaži tipkovnicu na zaslonu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Okreći stranice pomicanjem": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Omotaj riječi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Poruke alarma na brajici": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Ignoriraj trajanje uzorka": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Trajanje auto pomicanja": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Zvuk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Stišaj pozadinski zvuk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Auto odabir govornika u pozivu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Pošalji na HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Naredbe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Aktivnosti": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Programiranje": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Dodaj aktivnost…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Postupci rotora": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Uredi aplikacije na poč. zasl.": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Aplikacije izravnog dodira": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Tipkanje": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Stil tipkanja": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Standardno": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Dodirom": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Izravnim dodirom": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Fonetske informacije": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Isključeno": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Znak i fonetika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Samo fonetika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Povratna informacija tijekom tipkanja": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Modifikatori": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Control + Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Caps Lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Vrijeme interakcije tipkovnice": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Navigacija slika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Uvijek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "S opisima": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Nikad": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Veliki kursor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Prozor s titlovima": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Istek dvostrukog dodira": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Istek dvostrukog dodira": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Stil navigacije": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Brze postavke": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Zvukovi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Stišaj pozadinski zvuk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Glasnoća": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Brzina čitanja": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Savjeti": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Stil navigacije": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Stil tipkanja": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Povucite za tipkanje": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Aktivnosti": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Uvijek pročitaj obavijesti": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Poruke alarma na brajici": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Automatsko pomicanje za brajicu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Unos brajice": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Izlaz brajice": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Brajeve tablice": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Prozor s titlovima": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Izravan dodir": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Smjer geste": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Povratna informacija tijekom tipkanja na hardveru": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Jezik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Veliki kursor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Opisi medija": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Navigacija slika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Fonetske informacije": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Promjena visine tona": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Interpunkcija": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Pošalji na HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Povratna informacija tijekom tipkanja na softveru": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Pročitaj potvrde rotora": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Opisi slika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Prepoznavanje zaslona": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "Prepoznavanje pomoću VoiceOvera": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Opisi slika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Prepoznavanje zaslona": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Zumiranje": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Zumiranje": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Praćenje fokusa": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Pametno tipkanje": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Prečaci tipkovnice": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Prečaci tipkovnice": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Podesi razinu zumiranja": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Uključi/isključi zumiranje": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Pomakni prozor zumiranja": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Prilagodi prozor zumiranja": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Promijeni područje zumiranja": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Privremeno prebaci zumiranje": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Zumiranje kotačićem": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Kontroler zumiranja": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Područje zumiranja": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Zaslon": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Prozor": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Maksimalna razina zumiranja": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Filtar zumiranja": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Prikaži tijekom zrcaljenja": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Povećanje teksta kursorom": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Zaslon i veličina teksta": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Podebljaj tekst": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Veća slova": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Oblici tipki": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Oznake za uklj./isklj.": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Smanji prozirnost": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Povećaj kontrast": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Razgraniči bez boje": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Pametno obrtanje": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Klasično obrtanje": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Filtri boja": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Filtri boja": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Smanji bijelu točku": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Auto svjetlina": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Pomicanje": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Smanji pomicanje": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Odmah pokreni efekte poruka": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Automatski pregledi videa": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Pročitani sadržaj": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Pročitaj odabir": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Pročitaj zaslon": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Kontroler čitanja": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Prilagodi tipke miša": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Istakni sadržaj": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Povratna informacija tijekom tipkanja": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Povratna informacija za znakove": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Znakovi": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Savjeti za znakove": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Pročitaj riječi": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Pročitaj auto ispravke": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Zadržite za čitanje prijedloga": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Glasovi": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Standardni jezik": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Detektiraj jezike": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Brzina čitanja": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Izgovori": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Audio opisi": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Audio opisi": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Fizičke i motoričke sposobnosti": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Dodir": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Podesi izbornik gornje razine": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Dodirnite ikonu za promjenu:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Resetiranje…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Vlastiti postupci": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Jedan dodir": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Dvostruki dodir": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Istek dvostrukog dodira": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Dugi pritisak": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Trajanje dugog pritiska": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Vlastite geste": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Izradi novu gestu…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Neprozirnost kod neaktivnosti": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Pokazivački uređaji": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Uređaji": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth uređaji…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Tipke miša": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Stil pokazivača": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Veličina": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Vizualno": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Boja": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Prilagodi tipke miša": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Automatski sakrij": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_578": {
+            "Automatski sakrij": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Prikaži tipkovnicu na zaslonu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Uvijek prikaži izbornik": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Kontrola zadržavanja": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Tolerancija pokreta": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Osjetljivost praćenja": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Vraćanje postupka": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Aktivni kutovi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Koristi igraći kontroler": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D i dodir s vibracijom": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_579": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "Osjetljivost za 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Trajanje dodira": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Brzo": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Sporo": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Test osjetljivosti za 3D Touch i trajanja dodira": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Prilagodbe dodira": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_580": {
+        "Prilagodbe dodira": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Trajanje dodira": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Ignoriraj ponavljanje": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Asistirani dodir": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Isključeno": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Koristi lokaciju početnog dodira": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Koristi lokaciju završnog dodira": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Dodirnite za uključenje zaslona": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Dodirnite ili povucite za uključenje": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Poništi tresenjem": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Vibracija": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Spriječi dovršavanje poziva zaključavanjem": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Preusmjeri zvuk poziva": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_581": {
+        "Automatski": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth slušalice": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Zvučnik": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Automatsko javljanje": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID i pažnja": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Zahtijevaj pažnju za Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Značajke svjesne pažnje": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Vibracija": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Vibracija nakon uspješne autorizacije": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Kontrola prekidača": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Kontrola prekidača": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Prekidači": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_582": {
+        "Dodaj novi prekidač…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth uređaji…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Planovi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Stil skeniranja": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_583": {
+        "Automatsko skeniranje": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Ručno skeniranje": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Postepeno skeniranje (1 prekidač)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Pravovremenost": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Trajanje auto skeniranja": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_584": {
+        "Trajanje auto skeniranja": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Pauziraj na prvoj stavki": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_585": {
+        "Pauziraj na prvoj stavki": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Ponavljanje pomicanja": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_586": {
+        "Ponavljanje pomicanja": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Dugi pritisak": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_587": {
+        "Dugi pritisak": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Ponašanje dodira": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_588": {
+        "Standardno": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Automatski dodir": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Uvijek dodir": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Fokusirana stavka iza dodira": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_589": {
+        "Prva stavka": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Trenutačna stavka": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Tipkovnica": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Skeniraj istu tipku iza dodira": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Uvijek dodirni tipke tipkovnice": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Prošireni prijedlozi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Stabilizacija prekidača": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Trajanje dodira": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_590": {
+        "Trajanje dodira": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Ignoriraj ponavljanje": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_591": {
+        "Ignoriraj ponavljanje": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Skeniranje točaka": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Klizni kursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_592": {
+        "Način odabira": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Jedan": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Precizno": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Preciznije": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Brzina kliznog kursora": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Praćenje glave": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_593": {
+        "Praćenje glave": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Zvuk": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Zvučni efekti": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Čitanje": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_594": {
+        "Glasovi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Brzina čitanja": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Stavke izbornika": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Grupiraj stavke": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Vizualno": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Veliki kursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Spremljene geste": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_595": {
+        "Izradi novu gestu…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Boja kursora": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Upravljanje glasom": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Podesi upravljanje glasom": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Jezik": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_596": {
+        "Engleski (Sjedinjene Američke Države)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Prilagodi naredbe": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Vokabular": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Povratna informacija za naredbu": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Prikaži potvrdu": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Reproduciraj zvuk": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Prikaži natuknice": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Kontinuirani nadsloj": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Nadsloj": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_597": {
+        "Bez": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Brojevi stavki": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Nazivi stavki": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Numerirana rešetka": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Svjesno pažnje": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Bočna tipka": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Brzina pritiskanja": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Standardno": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Sporo": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Najsporije": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Pritiskanje i zadržavanje za govor": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Klasično upravljanje glasom": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Isključeno": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Tipke za usmjeravanje": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Udaljeni zaslon Apple Watcha": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Tipkovnice": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Puni pristup putem tipkovnice": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_598": {
+        "Puni pristup putem tipkovnice": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Vizualni efekti": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Automatski sakrij": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Veliki krug fokusa": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Boja": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Ponavljanje tipke": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_599": {
+        "Ponavljanje tipke": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Interval ponavljanja tipke": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Odgoda prije ponavljanja": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Vezane tipke": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_600": {
+        "Vezane tipke": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Promjena pomoću tipke Shift": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Zvuk": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Spore tipke": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_601": {
+        "Spore tipke": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Softverske tipkovnice": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Prikaži tipke malih slova": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Sluh": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Slušni aparati": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi slušni aparati": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Komp. slušnog pomagala": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Prepoznavanje zvuka": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Zvukovi": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Softverski TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Hardverski TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Audio i vizualno": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Zvuk": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Prilagodbe slušalica": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_602": {
+        "Prilagodbe slušalica": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Prilagođeno podešavanje zvuka": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Pozadinski zvukovi": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Mono zvuk": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Poništavanje pozadinske buke": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Ravnoteža": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Vizualno": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "LED bljeskalica za alarme": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_603": {
+        "Bljeskaj kad je otključan": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Bljeskaj kad je isključen zvuk": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Stereo ravnoteža lijevo-desno": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Zvukovi uključenja i isključenja": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Titlovi i opisi": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Stil": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Prošireni titlovi + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Prikaži transkripte audio zapisa": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_604": {
+      "Opisi uživo (beta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Opisi uživo u FaceTimeu": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Općenito": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Vođeni pristup": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Vođeni pristup": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Postavke šifre": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_605": {
+        "Podesite šifru za vođeni pristup": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Vremenska ograničenja": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_606": {
+        "Alarm": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Zvuk": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Pročitaj": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Prečac pristupačnosti": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Auto zaključavanje zaslona": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Mod prilagođene pristupačnosti": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Koristite Siri tipkanjem": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Izgovoreni odgovori": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Automatski izgovoreni odgovori": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Preferiraj tihe odgovore": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Nemoj čitati u tihom načinu rada": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Uvijek reagiraj na \"Hey Siri”": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Prečac pristupačnosti": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Povećalo": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Postavke po aplikaciji": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Upravljanje obližnjim uređajima": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Zaslon i svjetlina": {
+    "(root)": "prefs:root=DISPLAY",
+    "Izgled": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Zakazano": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Ručno uključi do sutra": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Temperatura boje": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Auto zaključavanje": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Podignite za uključenje": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Otključavanje / zaključavanje": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Veličina teksta": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Podebljani tekst": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Zumiranje zaslona": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Prikaz": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Obavijesti o izloženosti": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_607": {
+    "Bedževi obavijesti": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Novopreuzete aplikacije": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Početni zaslon i Višezadaćnost": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_608": {
+      "Prikaži medijateku aplikacija u Docku": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Prikaži predložene i nedavne aplikacije u Docku": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Početni zaslon": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Novopreuzete aplikacije": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Bedževi obavijesti": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID i šifra": {
+    "(root)": "prefs:root=PASSCODE",
+    "Isključi šifru": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Promijeni šifru": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Traži šifru": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Glasovno biranje": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Dozvoli pristup kad je uređaj zaključan": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Odgovori porukom": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Upravljanje domom": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Novčanik": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Uzvrati propuštene pozive": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Obriši podatke": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Otključaj pomoću Apple Watcha": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcasti": "prefs:root=PODCASTS",
+  "Hitan poziv": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Pozivanje bočnom tipkom": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Automatski poziv": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Hitni kontakti": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Zvuk odbrojavanja": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Zvukovi": {
+    "(root)": "prefs:root=Sounds",
+    "Sigurna uporaba slušalica": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning adapteri": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Obavijesti o slušalicama": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Stišaj glasne zvukove": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Zvučni efekti": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Zvono i alarmi": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Promijeni tipkama": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Zvukovi i uzorci vibracije": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Melodija zvona": "prefs:root=Sounds&path=Ringtone",
+    "Zvuk poruke": "prefs:root=Sounds&path=Text_Messages",
+    "Nova govorna poruka": "prefs:root=Sounds&path=Voicemail",
+    "Novi e-mail": "prefs:root=Sounds&path=NEW_MAIL",
+    "Poslani e-mail": "prefs:root=Sounds&path=SENT_MAIL",
+    "Alarmi kalendara": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Alarmi podsjetnika": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Klik tipkovnice": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Zvuk zaključavanja": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Vrijeme": "prefs:root=WEATHER",
+  "Kompas": {
+    "(root)": "prefs:root=COMPASS",
+    "Koristi stvarni sjever": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Kontrolni centar": {
+    "(root)": "prefs:root=ControlCenter",
+    "Pristup unutar aplikacija": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Prilagodi kontrole": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Developer": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Umrežavanje kroz više putanja": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Umrežavanje kroz više putanja": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Izgled": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Tamni izgled": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Upareni uređaji": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Očisti pouzdana računala": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Instrumenti": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Izrada log zapisa": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Automatizacija sučelja": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Umrežavanje": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Održavanje veze s mrežom": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "Testiranje iAd aplikacije developera": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Brzina ispune": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Istakni odrezane bannere": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Neograničena prezentacija oglasa": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "Testiranje PassKita": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Dodatno prijavljivanje": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Dozvoli HTTP usluge": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Onemogući ograničavanje brzine": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "Opcionalni NFC ključ za prolaz": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Testiranje medijskih usluga": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "AirPlay prijedlozi": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Resetiraj medijske usluge": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "Testiranje aplikacije News": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Resetiraj lokalne podatke prilikom sljedećeg pokretanja": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Testiranje okruženja aplikacije za medije": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API sadržaja koji se može reproducirati": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Testiranje TV operatera": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "TV operateri": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "Testiranje CoreSpotlighta": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Ponovno indeksiraj sve stavke": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Ponovno indeksiraj sve stavke s identifikatorima": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Testiranje prečaca": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Prikaži nedavne prečace": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Prikaži nadolazeće medije": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Prikaži donacije na zaključanom zaslonu": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Prisilno sinkroniziraj prečace za gledanje": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "Testiranje značajke MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Omogući MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Zdravlje": "prefs:root=HEALTH",
+  "Mjerenje": {
+    "(root)": "prefs:root=MEASURE",
+    "Mjerne jedinice": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Imperijalne": "prefs:root=MEASURE#Imperial",
+    "Metričke": "prefs:root=MEASURE#Metric"
+  },
+  "Glazba": {
+    "(root)": "prefs:root=MUSIC",
+    "Prikaži Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Dodaj pjesme s liste": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Ocjenjivanje zvjezdicama": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Sinkroniziraj medijateku": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Mobilni podaci": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Preuzeta glazba": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Optimiziraj memoriju": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Automatska preuzimanja": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Uskladi glasnoću": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Koristi povijest slušanja": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Bilješke": {
+    "(root)": "prefs:root=NOTES",
+    "Standardni račun": "prefs:root=NOTES&path=Default%20Account",
+    "Lozinka": "prefs:root=NOTES&path=Password",
+    "Razvrstaj prema": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Započni bilješke": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Razvrstaj označene stavke": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Linije i rešetke": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Spremi u Foto": "prefs:root=NOTES#Save%20to%20Photos",
+    "Pristup sa zaključanog zaslona": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Poruke": "prefs:root=MESSAGES",
+  "Prijevod": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Mod prijevoda na uređaju": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "TV operater": "prefs:root=VIDEO_SUBSCRIBER",
+  "Diktafon": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Očisti obrisano": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Kvaliteta zvuka": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Naziv baziran na lokaciji": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Kamera": {
+    "(root)": "prefs:root=CAMERA",
+    "Formati": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_609": {
+      "HDR video": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Sačuvaj postavke": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Mod kamere": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Rešetka": "prefs:root=CAMERA#CameraGridSwitch",
+    "Skeniraj QR kodove": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Karte": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Kontakti": {
+    "(root)": "prefs:root=CONTACTS",
+    "Dozvoli Kontaktima pristup": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri i pretraživanje": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Razvrstavanje": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Redoslijed prikaza": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Kratko ime": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Kratko ime": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Preferiraj nadimke": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Moje informacije": "prefs:root=CONTACTS&path=MeCard",
+    "Importiraj SIM kontakte": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Knjige": {
+    "(root)": "prefs:root=IBOOKS",
+    "Online sadržaj": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "SINKRONIZIRANJE": "prefs:root=IBOOKS#SYNCING",
+    "Sad čitate": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "ČITANJE": "prefs:root=IBOOKS#READING",
+    "Poravnate obje strane": "prefs:root=IBOOKS#BKFullJustification",
+    "Auto rastavljanje riječi": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Listanje s obje margine": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Ciljevi čitanja": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Očisti podatke cilja čitanja": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "PRETRAŽIVANJE": "prefs:root=IBOOKS#SEARCHING",
+    "Book Store": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "AUDIO KNJIGE": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Preskoči unaprijed": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Preskoči unatrag": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "VANJSKE KONTROLE": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Sljedeće/prethodno": "prefs:root=IBOOKS#Next/Previous",
+    "Preskoči unaprijed/unatrag": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "PRIVATNOST": "prefs:root=IBOOKS#PRIVACY",
+    "Resetiraj identifikator": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Priznanja": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Kalendar": {
+    "(root)": "prefs:root=CALENDAR",
+    "Druga vremenska zona": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Alternativni kalendari": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Brojevi tjedana": "prefs:root=CALENDAR#Week%20Numbers",
+    "Prikaži odbačene pozivnice": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Sinkroniziraj": "prefs:root=CALENDAR&path=Sync",
+    "Standardno vrijeme alarma": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Prvi dan tjedna": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Prijedlozi za lokacije": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Računi": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Dodaj račun": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Dohvati nove podatke": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Pregled": "prefs:root=MAIL&path=Preview",
+    "Prikaži oznake \"Prima\" i \"Cc\"": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Opcije povlačenja": "prefs:root=MAIL&path=Swipe%20Options",
+    "Pitaj prije brisanja": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Učitaj slike": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Organiziraj prema nizu": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Sažmi pročitane poruke": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Najnovije poruke na vrh": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Sve poruke niza": "prefs:root=MAIL#Complete%20Threads",
+    "Postupak utišanog niza": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Ignoriraj blokirane pošiljatelje": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Blokirani": "prefs:root=MAIL&path=Blocked",
+    "Uvijek Bcc sebi": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Označi adrese": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Povećaj razinu uvlake": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Dodaj privitke odgovorima": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Potpis": "prefs:root=MAIL&path=Signature"
+  },
+  "Telefon": {
+    "(root)": "prefs:root=Phone",
+    "Moj broj": "prefs:root=Phone&path=My%20Number",
+    "Dolazni pozivi": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Najavi pozive": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Prijavljivanje SMS-a/poziva": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Odgovori porukom": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Prosljeđivanje poziva": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Prosljeđivanje poziva": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Poziv na čekanju": "prefs:root=Phone&path=Call%20Waiting",
+    "Pokaži moj ID pozivatelja": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_610": {
+        "Pokaži moj ID pozivatelja": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Utišaj nepoznate pozivatelje": "prefs:root=Phone#SILENCE_CALLS",
+    "Blokirani kontakti": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Pomoć pri biranju": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Blokada sadržaja": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Blokiraj skočne prozore": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Spriječi praćenje na više mj.": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Auto ispuna": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Preuzimanja": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Lozinke": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Auto ispuna lozinki": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Foto": {
+    "(root)": "prefs:root=Photos",
+    "iCloud fotografije": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Optimiziraj memoriju": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Preuzmi i zadrži originale": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Moj Foto stream": "prefs:root=Photos#PhotoStreamSwitch",
+    "Dijeljeni albumi": "prefs:root=Photos#SharedStreamsSwitch",
+    "Mobilni podaci": "prefs:root=Photos&path=CellularDataLinkList",
+    "Automatski reproduciraj videozapise": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Prikaz u Full HDR-u": "prefs:root=Photos#ImageModulationSwitch",
+    "Prikaži blagdanske događaje": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Prijenos na Mac ili PC": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Automatska preuzimanja": "prefs:root=STORE#Automatic%20Downloads",
+    "Ažuriranja aplikacija": "prefs:root=STORE#App%20Updates",
+    "Preuzimanje aplikacija": "prefs:root=STORE&path=App%20Downloads",
+    "Auto reprodukcija videozapisa": "prefs:root=STORE&path=Video%20Autoplay",
+    "Ocjene i osvrti u aplikaciji": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Pokaži preglede članaka": "prefs:root=NEWS#show_excerpt_mode",
+    "Ograniči članke u Danas": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Privatnost": "prefs:root=NEWS#Privacy",
+    "Resetiraj identifikator": "prefs:root=NEWS#reset_identifier",
+    "Priznanja": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_611": {
+    "Zrakoplovni mod": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Podsjetnici": {
+    "(root)": "prefs:root=REMINDERS",
+    "Standardni popis": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Podsjetnici": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Današnja obavijest": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Prikaži kao prekoračeno": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Baterija": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Mod slabog napajanja": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Zdravlje baterije": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Prečaci": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "Sinkroniziraj putem iClouda": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Sink. redoslijed prečaca": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Pravne napomene": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri i pretraživanje": {
+    "(root)": "prefs:root=SIRI",
+    "Dozvoli Siri kad je uređaj zaklj.": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Jezik": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Glas za Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "Glasovni odgovori": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Moje informacije": "prefs:root=SIRI&path=MY_INFO",
+    "Prijedlozi u pretragama": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Prijedlozi u funkciji Potraži": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Prijedlozi na zaklj. zaslonu": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Dionice": {
+    "(root)": "prefs:root=STOCKS",
+    "Privatnost": "prefs:root=STOCKS#Privacy",
+    "Resetiraj identifikator": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Mobilni podaci": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Opcije pod. plana": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Mod niske uporabe podataka": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Mobilni podaci": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Koristi mobilne podatke za reprodukciju": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Kvaliteta reprodukcije": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Kupljene i posuđene stavke": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Dijeljenje unutar doma": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Pozadina": "prefs:root=Wallpaper"
+}

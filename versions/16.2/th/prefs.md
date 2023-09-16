@@ -1,0 +1,854 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → พื้นที่จัดเก็บข้อมูล iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → รูปภาพ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → เมล: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → รายชื่อ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → ปฏิทิน: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → เตือนความจำ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → โน้ต: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → ข่าว: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → ข้อมูลสำรอง: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → สุขภาพ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → รหัสผ่านและพวงกุญแจ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Private Relay: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → แชร์ตำแหน่งที่ตั้งของฉัน: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → แชร์ตำแหน่งที่ตั้งของฉัน → ค้นหา iPhone ของฉัน: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → ชื่อ เบอร์โทรศัพท์ อีเมล: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → รหัสผ่านและความปลอดภัย: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → การชำระเงินและการจัดส่ง: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → การสมัครรับ: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → ครอบครัว: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- ความเป็นส่วนตัวและความปลอดภัย: `prefs:root=Privacy`
+- ความเป็นส่วนตัวและความปลอดภัย → การตรวจสอบด้านความปลอดภัย: `prefs:root=Privacy&path=SAFETY_CHECK`
+- ความเป็นส่วนตัวและความปลอดภัย → ตำแหน่งที่ตั้ง: `prefs:root=Privacy&path=LOCATION`
+- ความเป็นส่วนตัวและความปลอดภัย → ตำแหน่งที่ตั้ง → แชร์ตำแหน่งที่ตั้งของฉัน: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- ความเป็นส่วนตัวและความปลอดภัย → รายชื่อ: `prefs:root=Privacy&path=CONTACTS`
+- ความเป็นส่วนตัวและความปลอดภัย → ปฏิทิน: `prefs:root=Privacy&path=CALENDARS`
+- ความเป็นส่วนตัวและความปลอดภัย → เตือนความจำ: `prefs:root=Privacy&path=REMINDERS`
+- ความเป็นส่วนตัวและความปลอดภัย → รูปภาพ: `prefs:root=Privacy&path=PHOTOS`
+- ความเป็นส่วนตัวและความปลอดภัย → การแชร์บลูทูธ: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- ความเป็นส่วนตัวและความปลอดภัย → ไมโครโฟน: `prefs:root=Privacy&path=MICROPHONE`
+- ความเป็นส่วนตัวและความปลอดภัย → การจำเสียงพูด: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- ความเป็นส่วนตัวและความปลอดภัย → กล้อง: `prefs:root=Privacy&path=CAMERA`
+- ความเป็นส่วนตัวและความปลอดภัย → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- ความเป็นส่วนตัวและความปลอดภัย → สื่อและ Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- ความเป็นส่วนตัวและความปลอดภัย → การวิเคราะห์: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- ความเป็นส่วนตัวและความปลอดภัย → การโฆษณา: `prefs:root=Privacy&path=ADVERTISING`
+- ความเป็นส่วนตัวและความปลอดภัย → ไฟล์และโฟลเดอร์: `prefs:root=Privacy&path=FILEACCESS`
+- ความเป็นส่วนตัวและความปลอดภัย → การติดตาม: `prefs:root=Privacy&path=USER_TRACKING`
+- ความเป็นส่วนตัวและความปลอดภัย → รายงานความเป็นส่วนตัวของแอป: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- ความเป็นส่วนตัวและความปลอดภัย → โหมดล็อคดาวน์: `prefs:root=Privacy#LOCKDOWN_MODE`
+- ความเป็นส่วนตัวและความปลอดภัย → สุขภาพ: `prefs:root=Privacy&path=HEALTH`
+- โฟกัส: `prefs:root=DO_NOT_DISTURB`
+- โฟกัส → สถานะโฟกัส: `prefs:root=DO_NOT_DISTURB&path=status`
+- ทั่วไป: `prefs:root=General`
+- ทั่วไป → การจัดการ VPN และอุปกรณ์: `prefs:root=General&path=ManagedConfigurationList`
+- ทั่วไป → หน้าต่างย่อยในหน้าต่างหลัก: `prefs:root=General&path=PiP_SPEC`
+- ทั่วไป → แทร็คแพดและเมาส์: `prefs:root=General&path=POINTERS`
+- ทั่วไป → NFC: `prefs:root=General&path=NFC_LINK`
+- ทั่วไป → VPN: `prefs:root=General&path=VPN`
+- ทั่วไป → CarPlay: `prefs:root=General&path=CARPLAY`
+- ทั่วไป → เกี่ยวกับ: `prefs:root=General&path=About`
+- ทั่วไป → เกี่ยวกับ → ใบรับรองที่เชื่อถือแล้ว: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- ทั่วไป → กฏหมายและระเบียบข้อบังคับ: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- ทั่วไป → รายการอัปเดตซอฟต์แวร์: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- ทั่วไป → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- ทั่วไป → ปุ่มโฮม: `prefs:root=General&path=HOME_BUTTON`
+- ทั่วไป → คำสั่งนิ้ว: `prefs:root=General#Multitasking_Gesture_Switch`
+- ทั่วไป → สวิตช์ด้านข้าง: `prefs:root=General#Rotation_Switch_Action_Group`
+- ทั่วไป → ดึงข้อมูลแอปอยู่เบื้องหลัง: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- ทั่วไป → วันที่และเวลา: `prefs:root=General&path=DATE_AND_TIME`
+- ทั่วไป → สัญญาณทีวีออก: `prefs:root=General&path=TV_OUT`
+- ทั่วไป → ระเบียบข้อบังคับ: `prefs:root=General&path=REGULATORY`
+- ทั่วไป → รีเซ็ต: `prefs:root=General&path=Reset`
+- ทั่วไป → รีเซ็ต → รีเซ็ตการตั้งค่าทั้งหมด: `prefs:root=General&path=Reset#settingsErase`
+- ทั่วไป → รีเซ็ต → ลบข้อมูลและการตั้งค่าทั้งหมด: `prefs:root=General&path=Reset#fullErase`
+- ทั่วไป → รีเซ็ต → รีเซ็ตการตั้งค่าเครือข่าย: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- ทั่วไป → รีเซ็ต → เอาแผนบริการข้อมูลเซลลูลาร์ทั้งหมดออก: `prefs:root=General&path=Reset#cellularErase`
+- ทั่วไป → รีเซ็ต → บริการบอกรับผู้สมัคร: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- ทั่วไป → รีเซ็ต → รีเซ็ตพจนานุกรมแป้นพิมพ์: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- ทั่วไป → รีเซ็ต → รีเซ็ตการจัดเรียงไอคอนบนหน้าจอโฮม: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- ทั่วไป → รีเซ็ต → รีเซ็ตตำแหน่งที่ตั้งและความเป็นส่วนตัว: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- ทั่วไป → ปิดเครื่อง: `prefs:root=General#SHUTDOWN_LABEL`
+- ทั่วไป → AirPlay และ Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- ทั่วไป → AirPlay และ Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- ทั่วไป → AirPlay และ Handoff → ย้ายไปบน HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- ทั่วไป → AirPlay และ Handoff → AirPlay ไปยังทีวีโดยอัตโนมัติ: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- ทั่วไป → AirPlay และ Handoff → ความต่อเนื่องของกล้อง: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- ทั่วไป → พจนานุกรม: `prefs:root=General&path=DICTIONARY`
+- ทั่วไป → ภาษาและภูมิภาค: `prefs:root=General&path=INTERNATIONAL`
+- ทั่วไป → ภาษาและภูมิภาค → ภาษาอื่น…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- ทั่วไป → ภาษาและภูมิภาค → ลำดับภาษาที่ต้องการ: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- ทั่วไป → ภาษาและภูมิภาค → เพิ่มภาษา…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- ทั่วไป → ภาษาและภูมิภาค → ภูมิภาค: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- ทั่วไป → ภาษาและภูมิภาค → ตัวเลข: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- ทั่วไป → ภาษาและภูมิภาค → ปฏิทิน: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- ทั่วไป → ภาษาและภูมิภาค → หน่วยวัดอุณหภูมิ: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- ทั่วไป → แป้นพิมพ์: `prefs:root=General&path=Keyboard`
+- ทั่วไป → แป้นพิมพ์ → แป้นพิมพ์: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- ทั่วไป → แป้นพิมพ์ → การแทนที่ข้อความ: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- ทั่วไป → แป้นพิมพ์ → ตัวพิมพ์ใหญ่อัตโนมัติ: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- ทั่วไป → แป้นพิมพ์ → แก้ไขคำผิดอัตโนมัติ: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- ทั่วไป → แป้นพิมพ์ → ตรวจสอบการสะกด: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- ทั่วไป → แป้นพิมพ์ → เปิดใช้งานปุ่ม Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- ทั่วไป → แป้นพิมพ์ → คำสั่งลัด: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- ทั่วไป → แป้นพิมพ์ → การคาดเดา: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- ทั่วไป → แป้นพิมพ์ → เครื่องหมายวรรคตอนอัจฉริยะ: `prefs:root=General&path=Keyboard#SmartTyping`
+- ทั่วไป → แป้นพิมพ์ → แป้นพิมพ์แยกออก: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- ทั่วไป → แป้นพิมพ์ → เปิดใช้งานการตวัดปุ่ม: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- ทั่วไป → แป้นพิมพ์ → แสดงตัวอย่างอักขระ: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- ทั่วไป → แป้นพิมพ์ → ปุ่มลัด “.”: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- ทั่วไป → แป้นพิมพ์ → ลากนิ้วเพื่อป้อน: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- ทั่วไป → แป้นพิมพ์ → เปิดใช้งานการป้อนตามคำบอก: `prefs:root=General&path=Keyboard#Dictation`
+- ทั่วไป → แป้นพิมพ์ → เครื่องหมายวรรคตอนอัตโนมัติ: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- ทั่วไป → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- ทั่วไป → iPhone/iPad Storage → พื้นที่จัดเก็บข้อมูล: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- ทั่วไป → iPhone/iPad Storage → เอาแอปที่ไม่ได้ใช้ออก: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- การแจ้งเตือน: `prefs:root=NOTIFICATIONS_ID`
+- การแจ้งเตือน → กำหนดเวลาส่งสรุป: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- กระเป๋าสตางค์และ Apple Pay: `prefs:root=PASSBOOK`
+- กระเป๋าสตางค์และ Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- กระเป๋าสตางค์และ Apple Pay → บัตรชำระเงิน: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- กระเป๋าสตางค์และ Apple Pay → เพิ่มบัตร: `prefs:root=PASSBOOK#Add%20Card`
+- กระเป๋าสตางค์และ Apple Pay → กดปุ่มด้านข้างสองครั้ง: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- กระเป๋าสตางค์และ Apple Pay → การติดตามคำสั่งซื้อ: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- เวลาหน้าจอ: `prefs:root=SCREEN_TIME`
+- เวลาหน้าจอ → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- เวลาหน้าจอ → See All Activity → วันนี้: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- เวลาหน้าจอ → See All Activity → สัปดาห์: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- เวลาหน้าจอ → เวลาไม่ใช้งาน: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- เวลาหน้าจอ → การจำกัดการใช้แอป: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- เวลาหน้าจอ → การจำกัดการสื่อสาร: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- เวลาหน้าจอ → ความปลอดภัยในการสื่อสาร: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- เวลาหน้าจอ → อนุญาตเสมอ: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- เวลาหน้าจอ → จำกัดเนื้อหาและความเป็นส่วนตัว: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- เวลาหน้าจอ → การควบคุมโดยผู้ปกครอง: `prefs:root=SCREEN_TIME#FAMILY`
+- การช่วยการเข้าถึง: `prefs:root=ACCESSIBILITY`
+- การช่วยการเข้าถึง → การมองเห็น: `prefs:root=ACCESSIBILITY#VISION`
+- การช่วยการเข้าถึง → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- การช่วยการเข้าถึง → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- การช่วยการเข้าถึง → VoiceOver → ความเร็วการอ่านออกเสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- การช่วยการเข้าถึง → VoiceOver → เสียงพูด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- การช่วยการเข้าถึง → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- การช่วยการเข้าถึง → VoiceOver → Speech → เสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- การช่วยการเข้าถึง → VoiceOver → การแสดงรายละเอียด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- การช่วยการเข้าถึง → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- การช่วยการเข้าถึง → VoiceOver → Verbosity → เครื่องหมายวรรคตอน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- การช่วยการเข้าถึง → VoiceOver → Verbosity → หัวตาราง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- การช่วยการเข้าถึง → VoiceOver → Verbosity → คำบรรยายสื่อ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- การช่วยการเข้าถึง → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- การช่วยการเข้าถึง → VoiceOver → Verbosity → Media Descriptions → ปิด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- การช่วยการเข้าถึง → VoiceOver → Verbosity → Media Descriptions → เสียงพูด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- การช่วยการเข้าถึง → VoiceOver → Verbosity → Media Descriptions → อักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- การช่วยการเข้าถึง → VoiceOver → Verbosity → Media Descriptions → เสียงพูดและอักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- การช่วยการเข้าถึง → VoiceOver → อักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- การช่วยการเข้าถึง → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → การแสดงผล: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Output → อักษรเบรลล์อย่างเต็มแบบหกจุด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Output → อักษรเบรลล์อย่างเต็มแบบแปดจุด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Output → อักษรเบรลล์ย่อ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → การป้อน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Input → อักษรเบรลล์อย่างเต็มแบบหกจุด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Input → อักษรเบรลล์อย่างเต็มแบบแปดจุด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Input → อักษรเบรลล์ย่อ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Input → การแปลอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- การช่วยการเข้าถึง → VoiceOver → Braille → สัญญาณเข้าจอแสดงผลอักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Braille Screen Input → อักษรเบรลล์อย่างเต็มแบบหกจุด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Braille Screen Input → อักษรเบรลล์อย่างเต็มแบบแปดจุด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Braille Screen Input → อักษรเบรลล์ย่อ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Braille Screen Input → กลับด้านตำแหน่งจุด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- การช่วยการเข้าถึง → VoiceOver → Braille → ตารางอักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Tables → เพิ่มตารางอักษรเบรลล์…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- การช่วยการเข้าถึง → VoiceOver → Braille → เซลล์สถานะ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Status Cell → ตำแหน่งเซลล์สถานะ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Status Cell → ซ้าย: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Status Cell → ขวา: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Status Cell → แสดงสถานะทั่วไป: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- การช่วยการเข้าถึง → VoiceOver → Braille → Status Cell → แสดงสถานะข้อความ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- การช่วยการเข้าถึง → VoiceOver → Braille → สมการใช้รหัส Nemeth: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- การช่วยการเข้าถึง → VoiceOver → Braille → แสดงแป้นพิมพ์บนหน้าจอ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- การช่วยการเข้าถึง → VoiceOver → Braille → พลิกหน้าเมื่อเลื่อนดูผ่านหน้า: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- การช่วยการเข้าถึง → VoiceOver → Braille → การตัดคำ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- การช่วยการเข้าถึง → VoiceOver → Braille → ข้อความเตือนอักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- การช่วยการเข้าถึง → VoiceOver → Braille → ไม่สนใจระยะเวลาห่างระหว่างปุ่มกด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- การช่วยการเข้าถึง → VoiceOver → Braille → ระยะการเลื่อนดูถัดไปโดยอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- การช่วยการเข้าถึง → VoiceOver → เสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- การช่วยการเข้าถึง → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- การช่วยการเข้าถึง → VoiceOver → Audio → การหลบเสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- การช่วยการเข้าถึง → VoiceOver → Audio → เลือกลำโพงอัตโนมัติขณะใช้สาย: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- การช่วยการเข้าถึง → VoiceOver → Audio → ส่งแบบ HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- การช่วยการเข้าถึง → VoiceOver → คำสั่ง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- การช่วยการเข้าถึง → VoiceOver → กิจกรรม: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- การช่วยการเข้าถึง → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- การช่วยการเข้าถึง → VoiceOver → Activities → เขียนโปรแกรม: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- การช่วยการเข้าถึง → VoiceOver → Activities → เพิ่มกิจกรรม…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- การช่วยการเข้าถึง → VoiceOver → ตัวหมุน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- การช่วยการเข้าถึง → VoiceOver → การทำงานของตัวหมุน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- การช่วยการเข้าถึง → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- การช่วยการเข้าถึง → VoiceOver → Rotor Actions → แก้ไขแอปบนหน้าจอโฮม: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- การช่วยการเข้าถึง → VoiceOver → Rotor Actions → แอปการแตะโดยตรง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- การช่วยการเข้าถึง → VoiceOver → การป้อน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- การช่วยการเข้าถึง → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- การช่วยการเข้าถึง → VoiceOver → Typing → ลักษณะการป้อน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Typing Mode → ป้อนแบบมาตรฐาน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Typing Style → ป้อนแบบสัมผัส: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Typing Style → ป้อนแบบสัมผัสโดยตรง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- การช่วยการเข้าถึง → VoiceOver → Typing → เสียงพูดการออกเสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Phonetic Feedback → ปิด: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Phonetic Feedback → อักขระและการออกเสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Phonetic Feedback → การออกเสียงเท่านั้น: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- การช่วยการเข้าถึง → VoiceOver → Typing → เสียงอ่านขณะป้อน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- การช่วยการเข้าถึง → VoiceOver → Typing → ปุ่มปรับค่า: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Modifier Keys → ปุ่ม Control + ปุ่ม Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- การช่วยการเข้าถึง → VoiceOver → Typing → Modifier Keys → ปุ่ม Caps Lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- การช่วยการเข้าถึง → VoiceOver → Typing → ระยะเวลาโต้ตอบกับแป้นพิมพ์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- การช่วยการเข้าถึง → VoiceOver → นำทางรูปภาพ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- การช่วยการเข้าถึง → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- การช่วยการเข้าถึง → VoiceOver → Include Unlabeled Images → ตลอดเวลา: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- การช่วยการเข้าถึง → VoiceOver → Include Unlabeled Images → พร้อมคำบรรยาย: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- การช่วยการเข้าถึง → VoiceOver → Include Unlabeled Images → ไม่เลย: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- การช่วยการเข้าถึง → VoiceOver → เคอร์เซอร์ใหญ่: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- การช่วยการเข้าถึง → VoiceOver → แผงคำบรรยาย: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- การช่วยการเข้าถึง → VoiceOver → ช่วงเวลาแตะสองครั้ง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- การช่วยการเข้าถึง → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- การช่วยการเข้าถึง → VoiceOver → Double-tap Timeout → ช่วงเวลาแตะสองครั้ง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- การช่วยการเข้าถึง → VoiceOver → ลักษณะการนำทาง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- การช่วยการเข้าถึง → VoiceOver → การตั้งค่าอย่างเร็ว: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → เสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → การหลบเสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ระดับเสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ความเร็วการอ่านออกเสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → คำอธิบาย: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ลักษณะการนำทาง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ลักษณะการป้อน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ลากเพื่อป้อน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → กิจกรรม: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → อ่านออกเสียงการแจ้งเตือนเสมอ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ข้อความเตือนอักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → การเลื่อนดูอักษรเบรลล์ถัดไปโดยอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → การป้อนอักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → การแสดงผลอักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ตารางอักษรเบรลล์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → แผงคำบรรยาย: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → สัมผัสโดยตรง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ทิศทางคำสั่งนิ้ว: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → เสียงอ่านขณะป้อนสำหรับฮาร์ดแวร์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ภาษา: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → เคอร์เซอร์ใหญ่: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → คำบรรยายสื่อ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → นำทางรูปภาพ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → เสียงพูดการออกเสียง: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → เปลี่ยนระดับเสียงสูงต่ำ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → เครื่องหมายวรรคตอน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → ส่งแบบ HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → เสียงอ่านขณะป้อนสำหรับซอฟต์แวร์: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → อ่านออกเสียงการยืนยันตัวหมุน: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → คำอธิบายภาพ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- การช่วยการเข้าถึง → VoiceOver → Quick Settings → การเรียนรู้หน้าจอ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- การช่วยการเข้าถึง → VoiceOver → การเรียนรู้ VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- การช่วยการเข้าถึง → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- การช่วยการเข้าถึง → VoiceOver → VoiceOver Recognition → คำอธิบายภาพ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- การช่วยการเข้าถึง → VoiceOver → VoiceOver Recognition → การเรียนรู้หน้าจอ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- การช่วยการเข้าถึง → ซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- การช่วยการเข้าถึง → ซูม → ซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- การช่วยการเข้าถึง → ซูม → ตามโฟกัส: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- การช่วยการเข้าถึง → ซูม → การป้อนแบบอัจฉริยะ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- การช่วยการเข้าถึง → ซูม → ปุ่มลัดแป้นพิมพ์: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- การช่วยการเข้าถึง → ซูม → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- การช่วยการเข้าถึง → ซูม → Keyboard Shortcuts → ปุ่มลัดแป้นพิมพ์: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- การช่วยการเข้าถึง → ซูม → Keyboard Shortcuts → ปรับระดับซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- การช่วยการเข้าถึง → ซูม → Keyboard Shortcuts → สลับระหว่างซูมหรือไม่ซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- การช่วยการเข้าถึง → ซูม → Keyboard Shortcuts → ย้ายหน้าต่างซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- การช่วยการเข้าถึง → ซูม → Keyboard Shortcuts → เปลี่ยนขนาดหน้าต่างซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- การช่วยการเข้าถึง → ซูม → Keyboard Shortcuts → เปลี่ยนลักษณะบริเวณซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- การช่วยการเข้าถึง → ซูม → Keyboard Shortcuts → สลับระหว่างซูมหรือไม่ซูมชั่วคราว: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- การช่วยการเข้าถึง → ซูม → Keyboard Shortcuts → ซูมด้วยลูกกลิ้ง: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- การช่วยการเข้าถึง → ซูม → ตัวควบคุมการซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- การช่วยการเข้าถึง → ซูม → บริเวณซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- การช่วยการเข้าถึง → ซูม → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- การช่วยการเข้าถึง → ซูม → Zoom Region → ซูมแบบโหมดเต็มหน้าจอ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- การช่วยการเข้าถึง → ซูม → Zoom Region → ซูมแบบหน้าต่าง: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- การช่วยการเข้าถึง → ซูม → ระดับซูมสูงสุด: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- การช่วยการเข้าถึง → ซูม → ฟิลเตอร์การซูม: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- การช่วยการเข้าถึง → ซูม → แสดงในระหว่างการสะท้อนภาพ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- การช่วยการเข้าถึง → อยู่เหนือข้อความ: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → ข้อความตัวหนา: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → ข้อความตัวใหญ่: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → รูปร่างปุ่ม: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → สัญลักษณ์เปิดหรือปิด: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → ลดความโปร่งใส: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → เพิ่มความต่างระดับสี: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → แยกความแตกต่างโดยไม่ใช้สี: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → การกลับสีแบบอัจฉริยะ: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → การกลับสีแบบคลาสสิก: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → ฟิลเตอร์สี: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → Color Filters → ฟิลเตอร์สี: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → ลดแสงขาว: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- การช่วยการเข้าถึง → จอภาพและขนาดข้อความ → ปรับความสว่างอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- การช่วยการเข้าถึง → การเคลื่อนไหว: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- การช่วยการเข้าถึง → การเคลื่อนไหว → ลดการเคลื่อนไหว: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- การช่วยการเข้าถึง → การเคลื่อนไหว → เล่นเอฟเฟ็กต์ข้อความอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- การช่วยการเข้าถึง → การเคลื่อนไหว → เล่นตัวอย่างวิดีโออัตโนมัติ: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → อ่านออกเสียงสิ่งที่เลือก: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → อ่านออกเสียงหน้าจอ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → ตัวควบคุมเสียงพูด: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → Speech Controller → กำหนดปุ่มเมาส์เอง: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → ไฮไลท์เนื้อหา: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → เสียงอ่านขณะป้อน: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → Typing Feedback → เสียงอ่านอักขระ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → Typing Feedback → อักขระ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → Typing Feedback → คำอธิบายอักขระเบื้องต้น: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → Typing Feedback → อ่านออกเสียงเป็นคำ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → Typing Feedback → อ่านออกเสียงข้อความอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → Typing Feedback → แตะค้างเพื่ออ่านคำคาดเดา: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → เสียง: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → ภาษาเริ่มต้น: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → ตรวจหาภาษา: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → ความเร็วการอ่านออกเสียง: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- การช่วยการเข้าถึง → การอ่านเนื้อหา → การออกเสียง: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- การช่วยการเข้าถึง → คำบรรยายเสียง: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- การช่วยการเข้าถึง → คำบรรยายเสียง → คำบรรยายเสียง: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- การช่วยการเข้าถึง → กายภาพและการเคลื่อนไหว: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- การช่วยการเข้าถึง → สัมผัส: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → กำหนดเมนูระดับบนสุดเอง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → Customize Top Level Menu → แตะไอคอนเพื่อเปลี่ยน:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → Customize Top Level Menu → รีเซ็ต…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → กำหนดการทำงานเอง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → แตะหนึ่งครั้ง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → แตะสองครั้ง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → Double-Tap → ช่วงเวลาแตะสองครั้ง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → กดค้าง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → Long Press → ช่วงเวลาที่ต้องกดค้าง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → กำหนดคำสั่งนิ้วเอง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → สร้างคำสั่งนิ้วใหม่…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ความทึบเมื่อไม่ได้ใช้งาน: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → อุปกรณ์ตัวชี้: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → อุปกรณ์: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → Devices → อุปกรณ์บลูทูธ…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ปุ่มเมาส์: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ลักษณะตัวชี้: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ลักษณะตัวชี้ → ขนาด: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ลักษณะตัวชี้ → ภาพ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ลักษณะตัวชี้ → สี: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ลักษณะตัวชี้ → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ลักษณะตัวชี้ → SOMETHING IDK → กำหนดปุ่มเมาส์เอง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ลักษณะตัวชี้ → ซ่อนอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ลักษณะตัวชี้ → NEEDS_OVERRIDE_1156 → ซ่อนอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → แสดงแป้นพิมพ์บนหน้าจอ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → แสดงเมนูตลอดเวลา: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → การควบคุมการอยู่นิ่ง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ขีดจำกัดการเคลื่อนที่: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ความไวการเลื่อนตัวชี้: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → การทำงานรองรับ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → มุมด่วน: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → AssistiveTouch → ใช้อุปกรณ์ควบคุมเกม: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- การช่วยการเข้าถึง → สัมผัส → 3D Touch และการแตะค้างแบบสั่น: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1157 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1157 → ความไวของการกดแบบ 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1157 → ระยะเวลากดค้าง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1157 → เร็ว: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1157 → ช้า: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1157 → ความไวของการกดแบบ 3D Touch และการทดสอบระยะเวลาแตะค้าง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- การช่วยการเข้าถึง → สัมผัส → การช่วยปรับการสัมผัส: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1158 → การช่วยปรับการสัมผัส: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1158 → ระยะเวลากดค้าง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1158 → ไม่สนใจการกดซ้ำ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1158 → การช่วยเหลือการแตะ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1158 → ปิด: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1158 → ใช้ตำแหน่งสัมผัสแรก: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1158 → ใช้ตำแหน่งสัมผัสสุดท้าย: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- การช่วยการเข้าถึง → สัมผัส → แตะเพื่อปลุก: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- การช่วยการเข้าถึง → สัมผัส → แตะหรือปัดเพื่อปลุก: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- การช่วยการเข้าถึง → สัมผัส → เขย่าเพื่อเลิกทำ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- การช่วยการเข้าถึง → สัมผัส → การสั่น: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- การช่วยการเข้าถึง → สัมผัส → ป้องกันการกดปุ่มล็อคเพื่อวางสาย: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- การช่วยการเข้าถึง → สัมผัส → ปลายทางการโทร: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1159 → อัตโนมัติ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1159 → หูฟังบลูทูธ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1159 → ลำโพง: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- การช่วยการเข้าถึง → สัมผัส → NEEDS_OVERRIDE_1159 → การรับสายอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- การช่วยการเข้าถึง → Face ID และการตั้งใจมอง: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- การช่วยการเข้าถึง → Face ID และการตั้งใจมอง → ต้องตั้งใจมองเพื่อใช้ Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- การช่วยการเข้าถึง → Face ID และการตั้งใจมอง → คุณสมบัติการตั้งใจมอง: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- การช่วยการเข้าถึง → Face ID และการตั้งใจมอง → การสั่น: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- การช่วยการเข้าถึง → Face ID และการตั้งใจมอง → การสั่นเมื่อตรวจสอบสิทธิ์สำเร็จ: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → การควบคุมสวิตช์: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → สวิตช์: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1160 → เพิ่มสวิตช์ใหม่…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1160 → อุปกรณ์บลูทูธ…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → สูตร: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → ลักษณะการสแกน: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1161 → การสแกนอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1161 → การสแกนด้วยตนเอง: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1161 → การสแกนที่ใช้สวิตช์เดียว: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → ระยะเวลา: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → ระยะเวลาสแกนอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1162 → ระยะเวลาสแกนอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → รอหลังรายการแรก: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1163 → รอหลังรายการแรก: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → ระยะเวลาที่ต้องรอก่อนไป: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1164 → ระยะเวลาที่ต้องรอก่อนไป: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → กดค้าง: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1165 → กดค้าง: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → การทำงานการแตะ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1166 → ค่าเริ่มต้น: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1166 → แตะโดยอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1166 → แตะเองเสมอ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → รายการที่โฟกัสหลังจากแตะ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1167 → รายการแรก: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1167 → รายการปัจจุบัน: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → แป้นพิมพ์: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → สแกนปุ่มเดิมหลังจากแตะ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → แตะปุ่มบนแป้นพิมพ์เองเสมอ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → การคาดเดาเพิ่มเติม: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → ความเสถียรของสวิตช์: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → ระยะเวลากดค้าง: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1168 → ระยะเวลากดค้าง: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → ไม่สนใจการกดซ้ำ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1169 → ไม่สนใจการกดซ้ำ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → การสแกนตามจุด: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → การลื่นไหลของเคอร์เซอร์: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1170 → โหมดการเลือก: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1170 → หนึ่งเดียว: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1170 → เพิ่มรายละเอียด: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1170 → แม่นยำ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1170 → ความเร็วการลื่นไหลของเคอร์เซอร์: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → การติดตามศีรษะ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1171 → การติดตามศีรษะ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → เสียง: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → เอฟเฟ็กต์เสียง: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → เสียงพูด: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1172 → เสียง: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1172 → ความเร็วการอ่านออกเสียง: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → รายการเมนู: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → กลุ่มรายการ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → ภาพ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → เคอร์เซอร์ใหญ่: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → คำสั่งนิ้วที่บันทึก: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → NEEDS_OVERRIDE_1173 → สร้างคำสั่งนิ้วใหม่…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- การช่วยการเข้าถึง → การควบคุมสวิตช์ → สีเคอร์เซอร์: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → ตั้งค่าการสั่งการด้วยเสียง: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → ภาษา: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → NEEDS_OVERRIDE_1174 → อังกฤษ (สหรัฐอเมริกา): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → กำหนดคำสั่งเอง: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → คำศัพท์: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → เสียงอ่านคำสั่ง: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → แสดงการยืนยัน: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → เล่นเสียง: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → แสดงคำแนะนำ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → ชื่อหรือหมายเลขซ้อนทับต่อเนื่อง: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → ชื่อหรือหมายเลขซ้อน: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → NEEDS_OVERRIDE_1175 → ไม่มี: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → NEEDS_OVERRIDE_1175 → หมายเลขรายการ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → NEEDS_OVERRIDE_1175 → ชื่อรายการ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → NEEDS_OVERRIDE_1175 → ช่องตารางที่มีหมายเลข: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- การช่วยการเข้าถึง → การสั่งการด้วยเสียง → การตั้งใจมอง: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- การช่วยการเข้าถึง → ปุ่มด้านข้าง: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- การช่วยการเข้าถึง → ปุ่มด้านข้าง → ความเร็วการกด: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- การช่วยการเข้าถึง → ปุ่มด้านข้าง → ค่าเริ่มต้น: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- การช่วยการเข้าถึง → ปุ่มด้านข้าง → ช้า: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- การช่วยการเข้าถึง → ปุ่มด้านข้าง → ช้าที่สุด: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- การช่วยการเข้าถึง → ปุ่มด้านข้าง → กดค้างไว้เพื่อพูด: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- การช่วยการเข้าถึง → ปุ่มด้านข้าง → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- การช่วยการเข้าถึง → ปุ่มด้านข้าง → การสั่งการด้วยเสียงแบบคลาสสิก: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- การช่วยการเข้าถึง → ปุ่มด้านข้าง → ปิด: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- การช่วยการเข้าถึง → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- การช่วยการเข้าถึง → Apple TV Remote → ปุ่มลูกศร: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- การช่วยการเข้าถึง → หน้าจอระยะไกล Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- การช่วยการเข้าถึง → แป้นพิมพ์: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → การควบคุมทั้งหมดโดยใช้แป้นพิมพ์: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1176 → การควบคุมทั้งหมดโดยใช้แป้นพิมพ์: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1176 → ภาพ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1176 → ซ่อนอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1176 → วงโฟกัสขนาดใหญ่: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1176 → สี: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → การกดปุ่มซ้ำ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1177 → การกดปุ่มซ้ำ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1177 → ช่วงเวลากดปุ่มซ้ำ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1177 → การหน่วงเวลาก่อนจะทำซ้ำ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → ปุ่มหนืด: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1178 → ปุ่มหนืด: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1178 → สลับระหว่างเปิดหรือปิดด้วยปุ่ม Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1178 → เสียง: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → ปุ่มช้า: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → NEEDS_OVERRIDE_1179 → ปุ่มช้า: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → แป้นพิมพ์แบบซอฟต์แวร์: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- การช่วยการเข้าถึง → แป้นพิมพ์ → แสดงปุ่มตัวพิมพ์เล็ก: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- การช่วยการเข้าถึง → การฟัง: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- การช่วยการเข้าถึง → อุปกรณ์รับฟัง: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- การช่วยการเข้าถึง → อุปกรณ์รับฟัง → อุปกรณ์รับฟัง MFi: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- การช่วยการเข้าถึง → อุปกรณ์รับฟัง → บลูทูธ: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- การช่วยการเข้าถึง → อุปกรณ์รับฟัง → ใช้งานร่วมกันได้กับอุปกรณ์ช่วยฟัง: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- การช่วยการเข้าถึง → การจำเสียง: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- การช่วยการเข้าถึง → การจำเสียง → เสียง: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- การช่วยการเข้าถึง → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- การช่วยการเข้าถึง → RTT/TTY → ซอฟต์แวร์ TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- การช่วยการเข้าถึง → RTT/TTY → ฮาร์ดแวร์ TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- การช่วยการเข้าถึง → เสียงและภาพ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- การช่วยการเข้าถึง → เสียงและภาพ → เสียง: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- การช่วยการเข้าถึง → เสียงและภาพ → การช่วยปรับหูฟัง: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- การช่วยการเข้าถึง → เสียงและภาพ → NEEDS_OVERRIDE_1180 → การช่วยปรับหูฟัง: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- การช่วยการเข้าถึง → เสียงและภาพ → NEEDS_OVERRIDE_1180 → การตั้งค่าการกำหนดเสียง: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- การช่วยการเข้าถึง → เสียงและภาพ → เสียงเบื้องหลัง: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- การช่วยการเข้าถึง → เสียงและภาพ → เสียงโมโน: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- การช่วยการเข้าถึง → เสียงและภาพ → การตัดเสียงรบกวนโทรศัพท์: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- การช่วยการเข้าถึง → เสียงและภาพ → ความสมดุล: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- การช่วยการเข้าถึง → เสียงและภาพ → ภาพ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- การช่วยการเข้าถึง → เสียงและภาพ → แฟลช LED สำหรับการเตือน: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- การช่วยการเข้าถึง → เสียงและภาพ → NEEDS_OVERRIDE_1181 → แฟลชในระหว่างไม่ได้ล็อค: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- การช่วยการเข้าถึง → เสียงและภาพ → NEEDS_OVERRIDE_1181 → แฟลชในโหมดปิดเสียง: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- การช่วยการเข้าถึง → เสียงและภาพ → เสียงสเตอริโอสมดุลกันทั้งซ้ายและขวา: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- การช่วยการเข้าถึง → เสียงและภาพ → เสียงขณะเปิดและปิดเครื่อง: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- การช่วยการเข้าถึง → คำบรรยายและคำบรรยายภาพ: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- การช่วยการเข้าถึง → คำบรรยายและคำบรรยายภาพ → ลักษณะ: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- การช่วยการเข้าถึง → คำบรรยายและคำบรรยายภาพ → คำบรรยายภาพ + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- การช่วยการเข้าถึง → คำบรรยายและคำบรรยายภาพ → แสดงข้อความถอดเสียง: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- การช่วยการเข้าถึง → NEEDS_OVERRIDE_1182 → คำบรรยายเสียงสด (รุ่นเบต้า): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- การช่วยการเข้าถึง → NEEDS_OVERRIDE_1182 → คำบรรยายเสียงสดใน FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- การช่วยการเข้าถึง → ทั่วไป: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด → การใช้งานเครื่องตามที่กำหนด: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด → การตั้งค่ารหัส: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด → NEEDS_OVERRIDE_1183 → ตั้งรหัสการใช้งานเครื่องตามที่กำหนด: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด → การจำกัดเวลา: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด → NEEDS_OVERRIDE_1184 → การเตือน: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด → NEEDS_OVERRIDE_1184 → เสียง: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด → NEEDS_OVERRIDE_1184 → อ่านออกเสียง: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด → ปุ่มลัดการช่วยการเข้าถึง: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- การช่วยการเข้าถึง → การใช้งานเครื่องตามที่กำหนด → ล็อคจอภาพอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- การช่วยการเข้าถึง → โหมดกำหนดการช่วยการเข้าถึง: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- การช่วยการเข้าถึง → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- การช่วยการเข้าถึง → Siri → พิมพ์โต้ตอบกับ Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- การช่วยการเข้าถึง → Siri → เสียงพูดโต้ตอบ: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- การช่วยการเข้าถึง → Siri → เสียงพูดโต้ตอบอัตโนมัติ: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- การช่วยการเข้าถึง → Siri → ต้องการการโต้ตอบแบบปิดเสียง: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- การช่วยการเข้าถึง → Siri → ไม่พูดเสียงโต้ตอบในโหมดปิดเสียง: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- การช่วยการเข้าถึง → Siri → รับฟัง "หวัดดี Siri" เสมอ: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- การช่วยการเข้าถึง → ปุ่มลัดการช่วยการเข้าถึง: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- การช่วยการเข้าถึง → ปุ่มลัดการช่วยการเข้าถึง → แว่นขยาย: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- การช่วยการเข้าถึง → การตั้งค่าเฉพาะแอป: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- การช่วยการเข้าถึง → ควบคุมอุปกรณ์ใกล้เคียง: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- จอภาพและความสว่าง: `prefs:root=DISPLAY`
+- จอภาพและความสว่าง → รูปแบบ: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- จอภาพและความสว่าง → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- จอภาพและความสว่าง → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- จอภาพและความสว่าง → Night Shift → กำหนดเวลา: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- จอภาพและความสว่าง → Night Shift → เปิดใช้งานจนถึงวันพรุ่งนี้: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- จอภาพและความสว่าง → Night Shift → อุณหภูมิสี: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- จอภาพและความสว่าง → ตั้งล็อคโดยอัตโนมัติ: `prefs:root=DISPLAY&path=AUTOLOCK`
+- จอภาพและความสว่าง → ยกขึ้นเพื่อปลุก: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- จอภาพและความสว่าง → ล็อคหรือปลดล็อค: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- จอภาพและความสว่าง → ขนาดข้อความ: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- จอภาพและความสว่าง → ข้อความตัวหนา: `prefs:root=DISPLAY#BOLD_TEXT`
+- จอภาพและความสว่าง → การซูมหน้าจอ: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- จอภาพและความสว่าง → มุมมอง: `prefs:root=DISPLAY&path=MAGNIFY`
+- การแจ้งเตือนการสัมผัสเชื้อ: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_1185 → ป้ายกำกับการแจ้งเตือน: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_1185 → แอปที่ดาวน์โหลดใหม่: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- หน้าจอโฮมและงานมัลติทาสก์: `prefs:root=HOME_SCREEN_DOCK`
+- หน้าจอโฮมและงานมัลติทาสก์ → NEEDS_OVERRIDE_1186 → แสดงคลังแอปบน Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- หน้าจอโฮมและงานมัลติทาสก์ → แสดงแอปที่แนะนำและแอปที่ใช้ล่าสุดบน Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- หน้าจอโฮม: `prefs:root=HOME_SCREEN`
+- หน้าจอโฮม → แอปที่ดาวน์โหลดใหม่: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- หน้าจอโฮม → ป้ายกำกับการแจ้งเตือน: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID และรหัส: `prefs:root=PASSCODE`
+- Touch ID และรหัส → ปิดการใช้รหัส: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID และรหัส → เปลี่ยนรหัส: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID และรหัส → ต้องใช้รหัส: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID และรหัส → โทรออกด้วยเสียง: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID และรหัส → อนุญาตให้เข้าถึงขณะล็อคอยู่: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID และรหัส → ตอบกลับเป็นข้อความ: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID และรหัส → ตัวควบคุมบ้าน: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID และรหัส → กระเป๋าสตางค์: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID และรหัส → โทรกลับสายที่ไม่ได้รับ: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID และรหัส → ลบข้อมูล: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID และรหัส → ปลดล็อคด้วย Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- พ็อดคาสท์: `prefs:root=PODCASTS`
+- SOS ฉุกเฉิน: `prefs:root=EMERGENCY_SOS`
+- SOS ฉุกเฉิน → โทรด้วยปุ่มด้านข้าง: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS ฉุกเฉิน → โทรอัตโนมัติ: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS ฉุกเฉิน → รายชื่อติดต่อฉุกเฉิน: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS ฉุกเฉิน → เสียงนับเวลา: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- เสียง: `prefs:root=Sounds`
+- เสียง → ความปลอดภัยหูฟัง: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- เสียง → ความปลอดภัยหูฟัง → อะแดปเตอร์แบบ Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- เสียง → ความปลอดภัยหูฟัง → การแจ้งเตือนหูฟัง: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- เสียง → ความปลอดภัยหูฟัง → ลดเสียงดัง: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- เสียง → เอฟเฟ็กต์เสียง: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- เสียง → เสียงเรียกเข้าและเสียงเตือน: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- เสียง → ปรับเปลี่ยนด้วยปุ่ม: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- เสียง → เสียงและรูปแบบลักษณะการสั่น: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- เสียง → เสียงเรียกเข้า: `prefs:root=Sounds&path=Ringtone`
+- เสียง → เสียงข้อความ: `prefs:root=Sounds&path=Text_Messages`
+- เสียง → วอยซ์เมลใหม่: `prefs:root=Sounds&path=Voicemail`
+- เสียง → เมลใหม่: `prefs:root=Sounds&path=NEW_MAIL`
+- เสียง → ส่งเมล: `prefs:root=Sounds&path=SENT_MAIL`
+- เสียง → เสียงเตือนปฏิทิน: `prefs:root=Sounds&path=Calendar%20Alarm`
+- เสียง → เสียงเตือนความจำ: `prefs:root=Sounds&path=Reminder%20Alerts`
+- เสียง → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- เสียง → เสียงกดแป้นพิมพ์: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- เสียง → เสียงล็อคหน้าจอ: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- สภาพอากาศ: `prefs:root=WEATHER`
+- เข็มทิศ: `prefs:root=COMPASS`
+- เข็มทิศ → ใช้ทิศเหนือจริง: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- ศูนย์ควบคุม: `prefs:root=ControlCenter`
+- ศูนย์ควบคุม → เข้าถึงจากภายในแอป: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- ศูนย์ควบคุม → กำหนดตัวควบคุมเอง: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- นักพัฒนา: `prefs:root=DEVELOPER_SETTINGS`
+- นักพัฒนา → เครือข่ายทางเดินข้อมูลหลายทาง: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- นักพัฒนา → เครือข่ายทางเดินข้อมูลหลายทาง → เครือข่ายทางเดินข้อมูลหลายทาง: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- นักพัฒนา → รูปแบบ: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- นักพัฒนา → แบบมืด: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- นักพัฒนา → อุปกรณ์ที่จับคู่: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- นักพัฒนา → ล้างรายการคอมพิวเตอร์ที่เชื่อถือแล้ว: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- นักพัฒนา → เครื่องดนตรี: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- นักพัฒนา → การเก็บบันทึกการใช้งาน: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- นักพัฒนา → UI ของการทำงานอัตโนมัติ: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- นักพัฒนา → ระบบเครือข่าย: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- นักพัฒนา → เงื่อนไขลิงก์เครือข่าย: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- นักพัฒนา → การทดสอบแอปของนักพัฒนา iAd: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- นักพัฒนา → อัตราการเติม: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- นักพัฒนา → ไฮไลท์ป้ายประกาศที่ถูกตัด: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- นักพัฒนา → การแสดงโฆษณาแบบไม่จำกัด: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- นักพัฒนา → การทดสอบ PassKit: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- นักพัฒนา → บันทึกการใช้งานเพิ่มเติม: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- นักพัฒนา → อนุญาตบริการ HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- นักพัฒนา → ปิดใช้งานการจำกัดอัตรา: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- นักพัฒนา → ตัวเลือกรหัสบัตร NFC: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- นักพัฒนา → การทดสอบบริการสื่อ: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- นักพัฒนา → คำแนะนำ AirPlay: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- นักพัฒนา → รีเซ็ตบริการสื่อ: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- นักพัฒนา → การทดสอบ News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- นักพัฒนา → รีเซ็ตข้อมูลภายในเครื่องในครั้งถัดไปที่เปิดใช้: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- นักพัฒนา → การทดสอบเฟรมเวิร์คเครื่องเล่นสื่อ: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- นักพัฒนา → API สำหรับเนื้อหาที่สามารถเล่นได้: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- นักพัฒนา → การทดสอบผู้ให้บริการทีวี: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- นักพัฒนา → ผู้ให้บริการทีวี: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- นักพัฒนา → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- นักพัฒนา → การทดสอบ CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- นักพัฒนา → จัดเรียงดัชนีทั้งหมดใหม่: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- นักพัฒนา → จัดเรียงดัชนีทั้งหมดตามข้อมูลจำเพาะ: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- นักพัฒนา → การทดสอบคำสั่งลัด: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- นักพัฒนา → แสดงคำสั่งลัดล่าสุด: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- นักพัฒนา → แสดงสื่อถัดไป: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- นักพัฒนา → แสดงการบริจาคบนหน้าจอล็อค: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- นักพัฒนา → บังคับเชื่อมข้อมูลคำสั่งลัดกับ Apple Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- นักพัฒนา → การทดสอบ MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- นักพัฒนา → เปิดใช้งาน MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- สุขภาพ: `prefs:root=HEALTH`
+- เครื่องมือวัด: `prefs:root=MEASURE`
+- เครื่องมือวัด → หน่วยวัด: `prefs:root=MEASURE#MEASURE_UNITS`
+- เครื่องมือวัด → ระบบอังกฤษ: `prefs:root=MEASURE#Imperial`
+- เครื่องมือวัด → เมตริก: `prefs:root=MEASURE#Metric`
+- เพลง: `prefs:root=MUSIC`
+- เพลง → แสดง Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- เพลง → เพิ่มเพลงจากเพลย์ลิสต์: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- เพลง → แสดงดาวจัดอันดับ: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- เพลง → คลังเชื่อมข้อมูล: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- เพลง → ข้อมูลเซลลูลาร์: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- เพลง → เพลงที่ดาวน์โหลดแล้ว: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- เพลง → ปรับขนาดพื้นที่จัดเก็บข้อมูล: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- เพลง → รายการดาวน์โหลดอัตโนมัติ: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- เพลง → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- เพลง → ปรับเสียงอัตโนมัติ: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- เพลง → ใช้ประวัติการฟัง: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- โน้ต: `prefs:root=NOTES`
+- โน้ต → บัญชีเริ่มต้น: `prefs:root=NOTES&path=Default%20Account`
+- โน้ต → รหัสผ่าน: `prefs:root=NOTES&path=Password`
+- โน้ต → เรียงโน้ตตาม: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- โน้ต → เริ่มโน้ตใหม่ด้วย: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- โน้ต → เรียงรายการที่เสร็จแล้ว: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- โน้ต → เส้นและตาราง: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- โน้ต → บันทึกไปยังแอปรูปภาพ: `prefs:root=NOTES#Save%20to%20Photos`
+- โน้ต → เข้าถึงโน้ตบนหน้าจอล็อค: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- ข้อความ: `prefs:root=MESSAGES`
+- แปลภาษา: `prefs:root=TRANSLATE`
+- แปลภาษา → โหมดบนอุปกรณ์: `prefs:root=TRANSLATE#OnDeviceOnly`
+- ผู้ให้บริการทีวี: `prefs:root=VIDEO_SUBSCRIBER`
+- เสียงบันทึก: `prefs:root=VOICE_MEMOS`
+- เสียงบันทึก → ล้างรายการที่ถูกลบ: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- เสียงบันทึก → คุณภาพเสียง: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- เสียงบันทึก → การตั้งชื่อตามตำแหน่งที่ตั้ง: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- กล้อง: `prefs:root=CAMERA`
+- กล้อง → รูปแบบ: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- กล้อง → รูปแบบ → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- กล้อง → NEEDS_OVERRIDE_1187 → วิดีโอ HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- กล้อง → รักษาการตั้งค่า: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- กล้อง → รักษาการตั้งค่า → โหมดกล้อง: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- กล้อง → เส้นตาราง: `prefs:root=CAMERA#CameraGridSwitch`
+- กล้อง → สแกนคิวอาร์โค้ด: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- แผนที่: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- รายชื่อ: `prefs:root=CONTACTS`
+- รายชื่อ → อนุญาตให้รายชื่อเข้าถึง: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- รายชื่อ → Siri และการค้นหา: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- รายชื่อ → ลำดับการเรียง: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- รายชื่อ → ลำดับแสดง: `prefs:root=CONTACTS&path=PersonNameOrder`
+- รายชื่อ → ชื่อย่อ: `prefs:root=CONTACTS&path=PersonShortName`
+- รายชื่อ → ชื่อย่อ → ชื่อย่อ: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- รายชื่อ → ชื่อย่อ → ต้องการใช้ชื่อเล่น: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- รายชื่อ → ข้อมูลของฉัน: `prefs:root=CONTACTS&path=MeCard`
+- รายชื่อ → นำเข้ารายชื่อซิม: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- หนังสือ: `prefs:root=IBOOKS`
+- หนังสือ → เนื้อหาออนไลน์: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- หนังสือ → การเชื่อมข้อมูล: `prefs:root=IBOOKS#SYNCING`
+- หนังสือ → กำลังอ่านอยู่: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- หนังสือ → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- หนังสือ → การอ่าน: `prefs:root=IBOOKS#READING`
+- หนังสือ → จัดขอบเอกสารแบบเสมอหน้า: `prefs:root=IBOOKS#BKFullJustification`
+- หนังสือ → ใส่เครื่องหมายขีดสั้นอัตโนมัติ: `prefs:root=IBOOKS#BKAutoHyphenation`
+- หนังสือ → ระยะขอบทั้งคู่: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- หนังสือ → เป้าหมายการอ่าน: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- หนังสือ → ล้างข้อมูลเป้าหมายการอ่าน: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- หนังสือ → การค้นหา: `prefs:root=IBOOKS#SEARCHING`
+- หนังสือ → ร้านหนังสือ: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- หนังสือ → หนังสือเสียง: `prefs:root=IBOOKS#AUDIOBOOKS`
+- หนังสือ → ข้ามไปข้างหน้า: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- หนังสือ → ข้ามไปข้างหลัง: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- หนังสือ → การควบคุมภายนอก: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- หนังสือ → ถัดไป/ก่อนหน้า: `prefs:root=IBOOKS#Next/Previous`
+- หนังสือ → ข้ามไปข้างหน้า/ข้างหลัง: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- หนังสือ → ความเป็นส่วนตัว: `prefs:root=IBOOKS#PRIVACY`
+- หนังสือ → รีเซ็ตข้อมูลจำเพาะ: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- หนังสือ → กิตติกรรมประกาศ: `prefs:root=IBOOKS&path=Acknowledgements`
+- ปฏิทิน: `prefs:root=CALENDAR`
+- ปฏิทิน → การกำหนดทับไทม์โซน: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- ปฏิทิน → ปฏิทินอื่น: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- ปฏิทิน → ตัวเลขสัปดาห์: `prefs:root=CALENDAR#Week%20Numbers`
+- ปฏิทิน → แสดงผู้รับเชิญที่ตอบปฏิเสธ: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- ปฏิทิน → เชื่อมข้อมูล: `prefs:root=CALENDAR&path=Sync`
+- ปฏิทิน → เวลาเตือนเริ่มต้น: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- ปฏิทิน → เริ่มต้นสัปดาห์ด้วย: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- ปฏิทิน → คำแนะนำสถานที่: `prefs:root=CALENDAR#Location%20Suggestions`
+- เมล: `prefs:root=MAIL`
+- เมล → บัญชี: `prefs:root=MAIL&path=ACCOUNTS`
+- เมล → บัญชี → เพิ่มบัญชี: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- เมล → บัญชี → ดึงข้อมูลใหม่: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- เมล → แสดงตัวอย่าง: `prefs:root=MAIL&path=Preview`
+- เมล → แสดงถึง/สำเนา: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- เมล → ตัวเลือกการปัด: `prefs:root=MAIL&path=Swipe%20Options`
+- เมล → ถามก่อนจะลบ: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- เมล → โหลดรูปภาพระยะไกล: `prefs:root=MAIL#Load%20Remote%20Images`
+- เมล → จัดกลุ่มตามชื่อเรื่อง: `prefs:root=MAIL#Organize%20by%20Thread`
+- เมล → ยุบข้อความที่อ่าน: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- เมล → ข้อความล่าสุดอยู่ด้านบนสุด: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- เมล → ข้อความทั้งหมดในชื่อเรื่อง: `prefs:root=MAIL#Complete%20Threads`
+- เมล → จัดการกลุ่มชื่อเรื่องที่ไม่แจ้งเตือน: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- เมล → ไม่สนใจผู้ส่งที่ถูกปิดกั้น: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- เมล → ปิดกั้นอยู่: `prefs:root=MAIL&path=Blocked`
+- เมล → สำเนาลับตัวเองเสมอ: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- เมล → ทำเครื่องหมายที่อยู่: `prefs:root=MAIL&path=Mark%20Addresses`
+- เมล → เพิ่มระดับย่อหน้าอ้างอิง: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- เมล → แนบไฟล์แนบกับการตอบกลับ: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- เมล → ลายเซ็น: `prefs:root=MAIL&path=Signature`
+- โทรศัพท์: `prefs:root=Phone`
+- โทรศัพท์ → เบอร์โทรของฉัน: `prefs:root=Phone&path=My%20Number`
+- โทรศัพท์ → สายโทรเข้า: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- โทรศัพท์ → การอ่านชื่อสายเรียกเข้า: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- โทรศัพท์ → การแจ้งเกี่ยวกับ SMS/สายโทร: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- โทรศัพท์ → ตอบกลับเป็นข้อความ: `prefs:root=Phone&path=Respond%20with%20Text`
+- โทรศัพท์ → การโอนสาย: `prefs:root=Phone&path=Call%20Forwarding`
+- โทรศัพท์ → การโอนสาย → การโอนสาย: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- โทรศัพท์ → สายเรียกซ้อน: `prefs:root=Phone&path=Call%20Waiting`
+- โทรศัพท์ → แสดง ID ของสายโทรของฉัน: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- โทรศัพท์ → แสดง ID ของสายโทรของฉัน → NEEDS_OVERRIDE_1188 → แสดง ID ของสายโทรของฉัน: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- โทรศัพท์ → ปิดเสียงผู้โทรที่ไม่รู้จัก: `prefs:root=Phone#SILENCE_CALLS`
+- โทรศัพท์ → รายชื่อที่ปิดกั้น: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- โทรศัพท์ → ผู้ช่วยเรียกสาย: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → ตัวปิดกั้นเนื้อหา: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → ปิดกั้นหน้าต่างที่แสดงขึ้น: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → ป้องกันการติดตามข้ามไซต์: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → การป้อนอัตโนมัติ: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → รายการดาวน์โหลด: `prefs:root=SAFARI&path=DOWNLOADS`
+- รหัสผ่าน: `prefs:root=PASSWORDS`
+- รหัสผ่าน → การป้อนรหัสผ่านอัตโนมัติ: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- รูปภาพ: `prefs:root=Photos`
+- รูปภาพ → รูปภาพ iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- รูปภาพ → ปรับขนาดพื้นที่จัดเก็บข้อมูล: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- รูปภาพ → ดาวน์โหลดและเก็บต้นฉบับไว้: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- รูปภาพ → การสตรีมรูปภาพของฉัน: `prefs:root=Photos#PhotoStreamSwitch`
+- รูปภาพ → การแชร์อัลบั้ม: `prefs:root=Photos#SharedStreamsSwitch`
+- รูปภาพ → ข้อมูลเซลลูลาร์: `prefs:root=Photos&path=CellularDataLinkList`
+- รูปภาพ → เล่นวิดีโอโดยอัตโนมัติ: `prefs:root=Photos#VideoAutoplaySwitch`
+- รูปภาพ → ดู HDR แบบเต็ม: `prefs:root=Photos#ImageModulationSwitch`
+- รูปภาพ → แสดงกิจกรรมวันหยุด: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- รูปภาพ → ถ่ายโอนไปยัง Mac หรือ PC: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → รายการดาวน์โหลดอัตโนมัติ: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → รายการอัปเดตแอป: `prefs:root=STORE#App%20Updates`
+- App Store → รายการดาวน์โหลดแอป: `prefs:root=STORE&path=App%20Downloads`
+- App Store → การเล่นวิดีโอโดยอัตโนมัติ: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → จัดอันดับและความเห็นในแอป: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → แสดงการแสดงตัวอย่างข่าว: `prefs:root=NEWS#show_excerpt_mode`
+- News → จำกัดข่าวในวันนี้: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → ความเป็นส่วนตัว: `prefs:root=NEWS#Privacy`
+- News → รีเซ็ตข้อมูลจำเพาะ: `prefs:root=NEWS#reset_identifier`
+- News → กิตติกรรมประกาศ: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_1189 → โหมดเครื่องบิน: `prefs:root=ROOT#AIRPLANE_MODE`
+- เตือนความจำ: `prefs:root=REMINDERS`
+- เตือนความจำ → ลิสต์เริ่มต้น: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- เตือนความจำ → ลิสต์เริ่มต้น → เตือนความจำ: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- เตือนความจำ → การแจ้งเตือนวันนี้: `prefs:root=REMINDERS#todayNotificationFireTime`
+- เตือนความจำ → แสดงเป็นเลยกำหนด: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- แบตเตอรี่: `prefs:root=BATTERY_USAGE`
+- แบตเตอรี่ → โหมดประหยัดพลังงาน: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- แบตเตอรี่ → สุขภาพแบตเตอรี่: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- บลูทูธ: `prefs:root=Bluetooth`
+- คำสั่งลัด: `prefs:root=SHORTCUTS`
+- คำสั่งลัด → การเชื่อมข้อมูล iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- คำสั่งลัด → เชื่อมข้อมูลลำดับคำสั่งลัด: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- คำสั่งลัด → ประกาศทางกฎหมาย: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri และการค้นหา: `prefs:root=SIRI`
+- Siri และการค้นหา → อนุญาต Siri ขณะล็อคอยู่: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri และการค้นหา → ภาษา: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri และการค้นหา → เสียง Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri และการค้นหา → เสียงพูดโต้ตอบ: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri และการค้นหา → ข้อมูลของฉัน: `prefs:root=SIRI&path=MY_INFO`
+- Siri และการค้นหา → คำแนะนำในการค้นหา: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri และการค้นหา → คำแนะนำในการค้นดู: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri และการค้นหา → คำแนะนำบนหน้าจอล็อค: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- หุ้น: `prefs:root=STOCKS`
+- หุ้น → ความเป็นส่วนตัว: `prefs:root=STOCKS#Privacy`
+- หุ้น → รีเซ็ตข้อมูลจำเพาะ: `prefs:root=STOCKS#reset_identifier`
+- เซลลูลาร์: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- เซลลูลาร์ → ตัวเลือกข้อมูลเซลลูลาร์: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- เซลลูลาร์ → ตัวเลือกข้อมูลเซลลูลาร์ → โหมดประหยัดข้อมูล: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- เซลลูลาร์ → ข้อมูลเซลลูลาร์: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → ใช้ข้อมูลเซลลูลาร์สำหรับการเล่น: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → คุณภาพการเล่น: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → สินค้าที่ซื้อและรายการเช่า: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → การแชร์ภายในพื้นที่: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- ภาพพื้นหลัง: `prefs:root=Wallpaper`

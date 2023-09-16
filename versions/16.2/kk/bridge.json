@@ -1,0 +1,561 @@
+{
+  "Әмбебап қол жеткізу": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Көру қабілеті": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Масштабтау": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Қалың қаріпті мәтін": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Қосу/өшіру белгілері": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Сұр түс реңктері": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Мөлдірлікті азайту": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Қозғалысты азайту": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Қоңырау үні": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Кесте": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Сағат сайын": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 минут": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 минут": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Дыбыстар": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Қоңыраулар": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Құстар": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Моторика": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Бүйірлік түймені басу жылдамдығы": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Басу жылдамдығы": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Әдепкі бойынша": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Баяу": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Аса баяу": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Түрту әрекетін бейімдеу": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Түрту әрекетін бейімдеу": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Ұстап тұру ұзақтығы": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Қайталауды елемеу": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Түрту бойынша көмек": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Өшірулі": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Бастапқы түрту орнын пайдалану": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Соңғы түрту орнын пайдалану": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "МҮГЕДЕКТЕР АРБАСЫНДАҒЫ ҚОЗҒАЛЫС": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Рация": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Сөйлесу үшін түртіңіз": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Есту": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Ретрансляция нөмірі": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Дереу жіберу": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Әдепкі жауаптар": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Әдепкі жауаптар": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Жауап қосу…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Моно-аудио": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Оң/cол жақ стереоарналар теңгерімі": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Құлаққап хабарландырулары": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Есту құрылғылары": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Кеңейтім": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Микрофонның дыбыс деңгейі": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Бағдарлама": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Тактильді уақыт жылдамдығы": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Әмбебап қол жеткізу пәрмені": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Жаңа сағатты жұптастыру": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Қолданба көрінісі": "bridge:root=APP_VIEW_ID",
+  "Жалпы": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Ақпарат": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Аты": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Шектеулі кепілдік": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Шектеулі кепілдік": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "КЕПІЛДІКТІҢ ҚОЛДАНЫЛУЫ ТУРАЛЫ МӘЛІМЕТТЕР": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Аппараттық жасақтамаға кепілдіктің қолданылуы": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Чат және телефонға қолдау көрсету": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Әндер": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Фотолар": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Қолданбалар": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Сыйымдылық": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Қолжетімді": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Нұсқа": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Ұялы байланыс операторы": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Модель": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Сериялық нөмірі": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi-Fi мекенжайы": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Құқықтық құжаттар": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Apple Watch пайдаланушы нұсқаулығын қараңыз ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "БЖ жаңартуы": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Қолданбаны автоматты түрде орнату": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Ұшақ режимі": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Зейін қою": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "iPhone құрылғысын қайталау": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Сағат бағдары": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Apple Watch сағатын тағу": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Сол жақ білек": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Оң жақ білек": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Сол жақтағы Digital Crown": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Оң жақтағы Digital Crown": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Мәтінді дауыспен енгізу функциясын қосу": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Handoff функциясын қосу": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Түнгі режим": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Скриншоттарды қосу": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Сақтау орны": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Диагностикалық журналдар": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Сағат аналитикасын көшіру": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Бастапқы күйге қайтару": "bridge:root=GENERAL_LINK&path=RESET",
+    "Су астында автоматты түрде іске қосу": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Аудиосы бар қолданбаларды автоматты түрде іске қосу": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Тіл және аймақ": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "iPhone құрылғысын қайталау": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Арнаулы": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "ЦИФЕРБЛАТҚА ОРАЛУ": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "ЦИФЕРБЛАТҚА ОРАЛУ": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Әрдайым": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "2 минуттан кейін": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "1 сағаттан кейін": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "ҚОЛДАНБАЛАР": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Қазір ойнатылуда": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Дисплей және жарықтылық": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Жарықтық": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Әрдайым қосулы": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Әрдайым қосулы": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "БІЛЕК ТӨМЕН ТҮСІРІЛГЕНДЕ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Хабарландыруларды көрсету": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Хабарландыруларды көрсету": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCH САҒАТЫНА АРНАЛҒАН ҚОЛДАНБАЛАР": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Қолданбаларды көрсету": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Қолданбаларды көрсету": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "ҚОЛДАНБАЛАР": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Мәтін өлшемі": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Қалың қаріпті мәтін": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "ҰЙҚЫ РЕЖИМІНЕН ШЫҒУ": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Білекті көтерген кезде ояну": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Дөңгелекшені айналдырған кезде ояну": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Ояну ұзақтығы": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "ТҮРТКЕННЕН КЕЙІН": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "15 секунд белсенді": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "70 секунд белсенді": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Дыбыстар мен жанасу сигналдары": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Дабылдың дыбыс деңгейі": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Дыбыссыз режим": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Құлаққаптың дыбысы": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Құлаққап қауіпсіздігі": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Құлаққап хабарландырулары": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Қатты дыбыстарды азайту": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Жанасу сигналдары": "bridge:root=SOUNDS_ID#Haptics",
+    "Тактильді ескертулер": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Тактильді дөңгелекше": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Жүйелік жанасу сигналдары": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Дыбысын өшіру үшін жабу": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "Төтенше қоңырау — SOS": "bridge:root=SOS_MODE_ID",
+  "Құпиялылық": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Жүрек соғу жиілігі": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Тыныс алу жиілігі": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Фитнесті қадағалау": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Фитнестің калибрлеу деректерін бастапқы күйге қайтару": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Айналадағы дыбысты өлшеу": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Құлаққаптың дыбыс өлшемдері": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "«Денсаулық» қолданбасында сақтау": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "8 күнге": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Жойғанға дейін": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Қандағы оттегі деңгейін өлшеулер": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Білек температурасы": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Экран уақыты": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Тереңдік": "bridge:root=com.apple.DepthCompanionSettings",
+  "Әрекет түймесі": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Авто жүктеп алулар": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Автоматты жаңартулар": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Денсаулық": "bridge:root=com.apple.BridgeHealthSettings",
+  "Пошта және күнтізбе": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Аккаунттар": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Google аккаунтын қосу...": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Алу": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Өшірулі": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Сағат сайын": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 мин": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 мин": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Қол жуу": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Хабарландыруды қосу": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Хабарландыру орталығына жіберу": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Хабарландырулар өшірулі": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Хабарландыруды топтастыру": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Қол жуу таймері": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Ұялы байланыс": "bridge:root=CELLULAR_ID",
+  "Кеңейтімдер": "bridge:root=COMPLICATIONS",
+  "Белсенділік": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Орындалу барысы туралы хабарлар": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Жоқ": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "2 сағат сайын": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "4 сағат сайын": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "6 сағат сайын": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "8 сағат сайын": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Жетістіктер": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Апталық жинақтама": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Күнделікті жаттығулар": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Орындалған мақсаттар": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Арнайы жарыстар": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Белсенділік деректерін бөлісуге қатысты хабарландырулар": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Жүрек": "bridge:root=com.apple.HeartRateSettings#1",
+    "Жүрек соғу жиілігі туралы хабарландырулар": "bridge:root=com.apple.HeartRateSettings#2",
+    "Жоғары жүрек соғу жиілігі": "bridge:root=com.apple.HeartRateSettings#3",
+    "Төмен жүрек соғу жиілігі": "bridge:root=com.apple.HeartRateSettings#4",
+    "Тұрақсыз ырғақ": "bridge:root=com.apple.HeartRateSettings#5",
+    "Жазылған ЭКГ-ны «Денсаулық» қолданбасында көру": "bridge:root=com.apple.HeartRateSettings#6",
+    "ЭКГ": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Хабарлар": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "iPhone құрылғысын қайталау": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Арнаулы": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Әдепкі жауаптар": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Әдепкі жауаптар": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Смарт жауаптар": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Жауап қосу…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Ескертулерді қайталау": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Аудио хабарлар": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Зерделілік": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Хабарландыруды қосу": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Хабарландыру орталығына жіберу": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Хабарландырулар өшірулі": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Зерделілік сеансы туралы еске салғыштар": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Күн басы": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Күн соңы": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Еске салғыш қосу…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Апталық жинақтама": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Дыбысын бүгінге өшіру": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Тыныс алу жиілігі": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "Минутына 4 рет тыныс алу": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "Минутына 5 рет тыныс алу": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "Минутына 6 рет тыныс алу": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "Минутына 7 рет тыныс алу": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "Минутына 8 рет тыныс алу": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "Минутына 9 рет тыныс алу": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "Минутына 10 рет тыныс алу": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Жанасу сигналдары": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Жоқ": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Минималды": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Сезілетін": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Ұйқы": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "«Денсаулық» қолданбасында «Ұйқы» функциясын баптау": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Аудиокітаптар": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Жүйеге кіру": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Күнтізбе": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "ХАБАРЛАНДЫРУЛАР": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "iPhone құрылғысын қайталау": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Арнаулы…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "КҮНТІЗБЕЛЕР": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Сағат": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24 сағаттық уақыт": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Қоңырау үні": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Дыбыстар": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Қоңыраулар": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Құстар": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Уақытты дауыстап айту": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Дыбыссыз режимде басқару": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Әрдайым дыбыстау": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Тактильді уақыт": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Тактильді уақыт": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Сандар": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Қысқа": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Морзе әліпбиі": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "iPhone құрылғысының Push ескертулері": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Хабарландыру индикаторы": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Монограмма": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Сағат циферблатының хабарландырулары": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Қалалардың қысқарған атауы": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Siri циферблатының дереккөздері": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Контактілер": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Сұрыптау реті": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Аты, тегі": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Тегі, аты": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Дисплей реттілігі": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Аты, тегі": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Тегі, аты": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Қысқа ат": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Қысқа ат": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Аты және тегінің инициалы": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Атының инициалы және тегі": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Тек аты": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Тек тегі": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Лақап аттар таңдау": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Пошта": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "iPhone құрылғысын қайталау": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Арнаулы": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Пошта реттеулері": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Аккаунттар": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Поштаны қосу": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Хабар миниатюрасы": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Жоқ": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 жол": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 жол": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Әдепкі жауаптар": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Әдепкі жауаптар": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Жауап қосу…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Қолтаңба": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Карталар": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Бұрылыстар туралы ескерту": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Көлік жүргізу": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "CarPlay арқылы жүргізу": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Жаяу жүру": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Велосипед тебу": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Навигацияны көрсету": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Қоғамдық көлік": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Құрастыру жинағы туралы ақпарат:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Музыка": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "ПЛЕЙЛИСТТЕР ЖӘНЕ АЛЬБОМДАР": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Музыка қосу…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Wallet және Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Картаны қосу": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Хабарландырулар": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "iPhone құрылғысын қайталау": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Арнаулы": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Фотолар": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Фотоларды синхрондау": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Естеліктер": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Естеліктерді синхрондау": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Фотолар топтамасы": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Фотолар топтамасын синхрондау": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Альбом": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Альбомды синхрондау": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Макс. фотолар саны": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Хабарландыру реттеулері": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "iPhone құрылғысын қайталау": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Арнаулы": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Шу": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Айналадағы дыбысты өлшеу": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Шу туралы хабарландырулар": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Шу деңгейінің шегі": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Өшірулі": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 децибел": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 децибел": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 децибел": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 децибел": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 децибел": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Хабарландыруды топтастыру": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Қандағы оттек": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Ұялы байланыс операторының реттеулері": "bridge:root=CARRIER_SETTINGS",
+  "Құпиякодты өшіру": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Құпиякодты қосу": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Құпиякодты өзгерту": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Қарапайым құпиякод": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "iPhone көмегімен құлпын ашу": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Деректерді өшіру": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Білекті анықтау": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Телефон": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Қоңыраулар": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Рингтон": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Дыбыс": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Жанасу сигналы": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Жаттығу": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Қуатты үнемдеу режимі": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Көрсеткіштерді көрсету": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Жаттығу көрінісі": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Авто кідірту": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Авто кідірту": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Жаттығуды бастауға қатысты еске салғыш": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Жаттығуды аяқтауға қатысты еске салғыш": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Кідірту үшін басыңыз": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Спорт жабдығын анықтау": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Қарқын/жылдамдық көрінісі": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Ағымдағы": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Орташа": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Жаттығулар плейлисті": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Жоқ": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Плейлисттер": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Басынан бастап ойнату": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Араластыру": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Өлшем бірліктері": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Калориялар": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Килокалория": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Килоджоуль": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Ярд": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Метр": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Миль": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Километр": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Дыбыстық пікір": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Жүру уақыты": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Сағатқа жаңа жаттығулар қосу": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Акциялар": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Кеңейтілген сағат циферблатында мыналар көрсетілген:": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Ағымдағы баға": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Пунктік өзгеріс": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Пайыздық өзгеріс": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Нарықтық капиталдандыру": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Siri циферблатында мынадай баға белгіленімі көрсетілген:": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Таңдалған акция": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Таңдалған акция": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Dock панелінде орналасуы": "bridge:root=DOCK#OrderingOptionGroup",
+    "Соңғылар": "bridge:root=DOCK#Recents",
+    "Таңдаулылар": "bridge:root=DOCK#Favorites"
+  },
+  "Подкасттар": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Siri көмекшісінен сұрау": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Жақындатып, сөйлеу": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Digital Crown дөңшелекшесін басу": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Дыбыстық пікір": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Әрдайым қосулы": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Дыбыссыз режимде басқару": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Тек құлаққап": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Дауыс деңгейі": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siri ұсыныстары": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Рация": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Хабарландыруды қосу": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Хабарландыру орталығына жіберу": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Хабарландырулар өшірулі": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Хабарландыруды топтастыру": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Достар": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Ауа райы": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Әдепкі қала": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Әдепкі қала": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Ағымдағы геолокация": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Оқылғаны туралы есептерді жіберу": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

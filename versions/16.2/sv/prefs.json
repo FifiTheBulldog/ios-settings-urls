@@ -1,0 +1,1156 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud-lagring": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Bilder": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Kontakter": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Kalender": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Påminnelser": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Anteckningar": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Säkerhetskopiering": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Hälsa": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Lösenord och nyckelring": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Privat reläservice": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Dela min platsinfo": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Hitta min iPhone": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Namn, telefon, e-post": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Lösenord och säkerhet": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Betalning och leverans": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Prenumerationer": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Familj": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Integritet och säkerhet": {
+    "(root)": "prefs:root=Privacy",
+    "Säkerhetskontroll": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Platstjänster": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Dela min platsinfo": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Kontakter": "prefs:root=Privacy&path=CONTACTS",
+    "Kalendrar": "prefs:root=Privacy&path=CALENDARS",
+    "Påminnelser": "prefs:root=Privacy&path=REMINDERS",
+    "Bilder": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth-delning": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Mikrofon": "prefs:root=Privacy&path=MICROPHONE",
+    "Röstigenkänning": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Kamera": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Medier och Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Analys": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Reklam": "prefs:root=Privacy&path=ADVERTISING",
+    "Filer och mappar": "prefs:root=Privacy&path=FILEACCESS",
+    "Spårning": "prefs:root=Privacy&path=USER_TRACKING",
+    "Rapport om appintegritet": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Låst läge": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Hälsa": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Fokus": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Fokusstatus": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Allmänt": {
+    "(root)": "prefs:root=General",
+    "VPN och enhetshantering": "prefs:root=General&path=ManagedConfigurationList",
+    "Bild-i-bild": "prefs:root=General&path=PiP_SPEC",
+    "Styrplatta och mus": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Om": {
+      "(root)": "prefs:root=General&path=About",
+      "Betrodda certifikat": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Juridik och regelverk": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Programuppdatering": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Hemknapp": "prefs:root=General&path=HOME_BUTTON",
+    "Gester": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Sidoknapp": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Appaktiviteter i bakgrunden": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Datum och tid": "prefs:root=General&path=DATE_AND_TIME",
+    "TV ut": "prefs:root=General&path=TV_OUT",
+    "Regelverk": "prefs:root=General&path=REGULATORY",
+    "Nollställ": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Nollställ alla inställningar": "prefs:root=General&path=Reset#settingsErase",
+      "Radera allt innehåll och alla inställningar": "prefs:root=General&path=Reset#fullErase",
+      "Nollställ nätverk": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Ta bort alla mobildataabonnemang": "prefs:root=General&path=Reset#cellularErase",
+      "Kundtjänster": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Nollställ tangentbordsordbok": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Nollställ hemskärmens layout": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Nollställ plats och integritet": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Stäng av": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay och Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Överför till HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Skicka automatiskt till TV-apparater med AirPlay": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Kontinuitetskamera": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Ordbok": "prefs:root=General&path=DICTIONARY",
+    "Språk och region": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Andra språk…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Föredragen språkordning": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Lägg till språk…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Region": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Siffror": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Kalender": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Temperaturenhet": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Tangentbord": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Tangentbord": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Textersättning": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Automatiska versaler": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Automatisk korrigering": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Kontrollera stavning": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Aktivera skiftlås": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Genvägar": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Förslag": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Smart interpunktion": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Delat tangentbord": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Aktivera tangentsvepningar": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Förhandsvisning av tecken": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "”.”-kortkommando": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Dra för att skriva": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Aktivera diktering": "prefs:root=General&path=Keyboard#Dictation",
+      "Automatiska skiljetecken": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Lagring": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Avlasta oanvända": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Notiser": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Schemalagd sammanfattning": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Plånbok och Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Betalkort": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Lägg till kort": "prefs:root=PASSBOOK#Add%20Card",
+    "Dubbelklicka på sidoknappen": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Beställningsspårning": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Skärmtid": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Idag": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Vecka": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Skärmfri tid": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Appbegränsningar": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Kommunikationsgränser": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Kommunikationssäkerhet": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Alltid tillåtna": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Begränsa innehåll/integritet": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Föräldrakontroll": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Hjälpmedel": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Syn": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Uppläsningshastighet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Tal": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Röst": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Utförlighet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Interpunktion": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Tabellrubriker": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Mediebeskrivningar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Av": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Tal": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Punktskrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Tal och punktskrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Punktskrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Utmatning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Fullskrift med sex punkter": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Fullskrift med åtta punkter": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Kortskrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Inmatning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Fullskrift med sex punkter": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Fullskrift med åtta punkter": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Kortskrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Automatisk översättning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Punktskrift på skärm": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Fullskrift med sex punkter": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Fullskrift med åtta punkter": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Kortskrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Omvända punktpositioner": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Punktskriftstabeller": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Lägg till punktskriftstabell…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Statusceller": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Position för statusceller": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Vänster": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Höger": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Visa allmän status": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Visa textstatus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Ekvationer med Nemeth-kod": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Visa tangentbord på skärmen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Vänd blad vid panorering": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Ordbrytning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Punktskriftsvarning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Tidslängd för att ignorera ackord": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Tidslängd för automatisk frammatning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Ljud": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Ljudduckning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Välj automatiskt högtalare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Skicka till HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Kommandon": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Aktiviteter": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Programmering": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Lägg till aktivitet…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Rotoråtgärder": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Ändra appar på hemskärmen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Direkttrycksappar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Tangenttryckning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Skrivmetod": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Pekfingermetod": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Touchmetod": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Direkt touchmetod": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Fonetisk feedback": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Av": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Tecken och fonetik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Endast fonetik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Tal vid skrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Specialtangenter": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Kontroll + alternativ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Skiftlås": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Tid för tangentbordsinteragering": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Navigera bilder": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Alltid": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Med beskrivningar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Aldrig": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Stor markör": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Textpanel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Två snabba tryck, tidsgräns": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Två snabba tryck, tidsgräns": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Navigeringsstil": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Snabbinställningar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Ljud": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Ljudduckning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Volym": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Uppläsningshastighet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Tips": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Navigeringsstil": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Skrivmetod": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Dra för att skriva": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Aktiviteter": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Läs alltid upp notiser": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Punktskriftsvarning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Automatisk frammatning för punktskrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Punktskriftsinmatning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Punktskriftsutmatning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Punktskriftstabeller": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Textpanel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Direkttryck": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Gestriktning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Tal vid skrift från maskinvara": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Språk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Stor markör": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Mediebeskrivningar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Navigera bilder": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Fonetisk feedback": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Tonändring": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Interpunktion": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Skicka till HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Tal vid skrift från programvara": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Läs upp rotorbekräftelse": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Bildbeskrivningar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Skärmigenkänning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "VoiceOver-igenkänning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Bildbeskrivningar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Skärmigenkänning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Zooma": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Zooma": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Följ fokus": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Smart tangentbord": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Kortkommandon": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Kortkommandon": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Justera zoomnivå": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Slå av eller på zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Flytta zoomfönster": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Ändra storlek på zoomfönstret": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Växla zoomområde": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Växla zoomning tillfälligt": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Zooma med rullningshjul": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Zoomreglage": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Zoomområde": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Zoom i helskärm": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Fönsterzoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Maximal zoomnivå": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Zoomfilter": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Visa vid skärmdubblering": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Text under pekaren": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Skärm och textstorlek": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Fet text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Större text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Knappformer": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Av-/På-etiketter": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Minska genomskinlighet": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Öka kontrast": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Differentiera utan färg": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Smart invertering": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Klassisk invertering": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Färgfilter": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Färgfilter": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Minska vitpunkt": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Automatisk ljusstyrka": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Rörelse": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Minska rörelse": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Spela upp effekter": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Spela upp förhandsvisningar": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Talat innehåll": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Läs upp markering": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Läs upp skärm": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Talreglage": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Anpassa musknappar": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Markera innehåll": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Tal vid skrift": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Teckenfeedback": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Tecken": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Teckentips": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Läs upp ord": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Läs upp autotext": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Håll för att höra förutsägelser": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Röster": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Förvalt språk": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Upptäck språk": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Uppläsningshastighet": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Uttal": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Syntolkning": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Syntolkning": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Fysik och motorik": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Tryck": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Anpassa överordnad meny": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Tryck på en symbol för att ändra:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Nollställ…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Anpassade åtgärder": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Enkelt tryck": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Tryck snabbt två gånger": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Två snabba tryck, tidsgräns": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Långt tryck": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Tidslängd för långt tryck": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Anpassade gester": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Skapa ny gest…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Synlighet vid inaktivitet": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Pekenheter": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Enheter": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth-enheter…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Mustangenter": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Pekarstil": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Storlek": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Visuellt": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Färg": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Anpassa musknappar": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Autogöm": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_1122": {
+            "Autogöm": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Visa tangentbord på skärmen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Visa alltid meny": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Fördröjningsstyrning": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Tolerans för rörelse": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Styrkänslighet": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Återgångsåtgärd": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Aktiva hörn": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Använd handkontroll": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D Touch och haptiskt tryck": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_1123": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "Känslighet för 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Trycktid": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Kort": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Långt": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Test av känslighet för 3D Touch och trycktid": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Pekhjälpmedel": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_1124": {
+        "Pekhjälpmedel": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Hålltid": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Ignorera upprepning": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Tryckhjälp": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Av": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Använd inledande beröring": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Använd slutberöring": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Tryck för att väcka": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Tryck eller svep för att väcka": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Skaka för att ångra": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Vibrering": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Förhindra Lås för att avsluta samtalet": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Röstsamtalshantering": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_1125": {
+        "Automatisk": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth-headset": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Högtalare": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Svara på samtal automatiskt": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID och uppmärksamhet": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Kräv uppmärksamhet för Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Uppmärksamhetsfunktioner": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Haptik": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Haptik vid lyckad autentisering": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Reglagestyrning": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Reglagestyrning": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Reglage": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_1126": {
+        "Lägg till nytt reglage…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth-enheter…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Manus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Skanningsstil": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_1127": {
+        "Autoskanning": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Manuell skanning": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Enkelt reglage för stegskanning": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Timing": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Autoskanningstid": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_1128": {
+        "Autoskanningstid": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Pausa på första objektet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_1129": {
+        "Pausa på första objektet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Upprepning av flytt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_1130": {
+        "Upprepning av flytt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Långt tryck": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_1131": {
+        "Långt tryck": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Tryckbeteende": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_1132": {
+        "Förval": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Autotryck": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Tryck alltid": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Objekt i fokus efter tryck": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_1133": {
+        "Första objekt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Aktuellt objekt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Tangentbord": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Skanna samma knapp igen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Tryck alltid på tangentbord": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Utökade förutsägelser": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Reglagestabilisering": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Hålltid": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_1134": {
+        "Hålltid": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Ignorera upprepning": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_1135": {
+        "Ignorera upprepning": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Punktskanning": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Glidande markör": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_1136": {
+        "Markeringsläge": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Enkelt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Finjusterat": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Exakt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Hastighet för glidande markör": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Huvudspårning": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_1137": {
+        "Huvudspårning": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Ljud": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Ljudeffekter": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Tal": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_1138": {
+        "Röster": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Uppläsningshastighet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Menyobjekt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Gruppera objekt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Visuellt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Stor markör": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Sparade gester": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_1139": {
+        "Skapa ny gest…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Markörfärg": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Röststyrning": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Ställ in röststyrning": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Språk": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_1140": {
+        "Engelska (USA)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Anpassa kommandon": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Vokabulär": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Kommandofeedback": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Visa bekräftelse": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Spela ljud": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Visa tips": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Kontinuerligt överlägg": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Överlägg": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_1141": {
+        "Ingen": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Objektnummer": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Objektnamn": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Numrerat rutnät": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Uppmärksamhet": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Sidoknapp": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Klickhastighet": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Förval": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Långt": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Längst": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Tryck och håll för att tala": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Klassisk röststyrning": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Av": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Riktningsknappar": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Extern Apple Watch-skärm": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Tangentbord": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Tangentbordstjänster": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_1142": {
+        "Tangentbordstjänster": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Bildeffekter": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Autogöm": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Stor fokusring": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Färg": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Upprepa tangent": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_1143": {
+        "Upprepa tangent": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Tid mellan tangentupprepningar": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Fördröjning innan upprepning": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Flertangentlås": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_1144": {
+        "Flertangentlås": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Växla med skifttangent": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Ljud": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Tröga tangenter": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_1145": {
+        "Tröga tangenter": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Virtuella tangentbord": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Visa gemena tangenter": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Hörsel": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Hörapparater": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi-hörapparater": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Hörapparatskompatibilitet": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Ljudigenkänning": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Ljud": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Programvara för TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Maskinvaru-TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Ljud och visuellt": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Ljud": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Anpassat ljud för hörlurar": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_1146": {
+        "Anpassat ljud för hörlurar": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Inställning av anpassat ljud": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Bakgrundsljud": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Mono-ljud": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Brusreducering": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Balans": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Visuellt": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "LED-blixt vid notiser": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_1147": {
+        "Blinka i upplåst läge": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Blinka i tyst läge": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Höger/vänster stereobalans": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Av/på-ljud": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Undertext och dold textning": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Stil": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Textning för hörselskadade": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Visa ljudtranskribering": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_1148": {
+      "Direkttextning (beta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Direkttextning i FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Allmänt": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Guidad åtkomst": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Guidad åtkomst": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Lösenkodsinställningar": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_1149": {
+        "Ställ in lösenkod för Guidad åtkomst": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Tidsgränser": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_1150": {
+        "Alarm": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Ljud": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Tal": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Hjälpmedels­genväg": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Skärmautolås": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Anpassat hjälpmedelsläge": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Skriv till Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Upplästa svar": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Automatiska upplästa svar": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Föredra tysta svar": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Tala inte i tyst läge": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Lyssna alltid efter ”Hej Siri”": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Hjälpmedels­genväg": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Förstorare": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Inställningar per app": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Styr enheter i närheten": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Visning och ljusstyrka": {
+    "(root)": "prefs:root=DISPLAY",
+    "Utseende": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Schemalagd": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Aktivera manuellt tills imorgon": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Färgtemperatur": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Autolås": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Håll upp för att väcka": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Lås/Lås upp": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Textstorlek": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Fet text": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Visningszoom": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Visa": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Exponeringsnotiser": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_1151": {
+    "Notisbrickor": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Senast hämtade appar": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Hemskärm och multitasking": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_1152": {
+      "Visa appbiblioteket i Dock": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Visa föreslagna och senaste appar i Dock": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Hemskärmen": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Senast hämtade appar": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Notisbrickor": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID och lösenkod": {
+    "(root)": "prefs:root=PASSCODE",
+    "Stäng av lösenkod": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Ändra lösenkod": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Kräv lösenkod": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Röststyrd uppringning": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Tillåt åtkomst från låst skärm": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Svara med meddelande": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Hemkontroll": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Plånbok": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Ring upp missade samtal": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Radera data": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Lås upp med Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcaster": "prefs:root=PODCASTS",
+  "Nödanrop SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Ring med sidoknappen": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Ring automatiskt": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Nödkontakter": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Nedräkningsljud": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Ljud": {
+    "(root)": "prefs:root=Sounds",
+    "Säkerhet med hörlurar": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning-adaptrar": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Notiser om hörlurar": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Minska starka ljud": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Ljudeffekter": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Ringsignal och påminnelser": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Ändra med knappar": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Ljud och vibreringsmönster": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Ringsignal": "prefs:root=Sounds&path=Ringtone",
+    "SMS-signal": "prefs:root=Sounds&path=Text_Messages",
+    "Nytt röstmeddelande": "prefs:root=Sounds&path=Voicemail",
+    "Nytt mejl": "prefs:root=Sounds&path=NEW_MAIL",
+    "Skickat brev": "prefs:root=Sounds&path=SENT_MAIL",
+    "Kalenderpåminnelser": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Påminnelseljud": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Tangentbordsljud": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Låsljud": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Väder": "prefs:root=WEATHER",
+  "Kompass": {
+    "(root)": "prefs:root=COMPASS",
+    "Använd geografisk nord": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Kontrollcenter": {
+    "(root)": "prefs:root=ControlCenter",
+    "Åtkomst inuti appar": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Anpassa reglage": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Utvecklare": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Multipath-nätverk": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Multipath-nätverk": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Utseende": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Mörkt utseende": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Parkopplade enheter": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Rensa betrodda datorer": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Instrument": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Loggning": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "UI-automatisering": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Nätverk": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Network Link Conditioner": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "Testning av iAd-utvecklarapp": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Fyllningsnivå": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Markera avklippta banderoller": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Obegränsad annonspresentation": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "PassKit-testning": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Ytterligare loggning": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Tillåt HTTP-tjänster": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Avaktivera begränsning för antal förfrågningar": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "NFC-nyckel (frivilligt)": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Testning av medietjänster": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "AirPlay-förslag": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Nollställ medietjänster": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "News-testning": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Nollställ lokala data vid nästa öppning": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Testning av ramverk för mediespelare": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API för uppspelningsbart innehåll": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "TV-leverantörstestning": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "TV-leverantörer": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit-API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "CoreSpotlight-testning": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Indexera om alla objekt": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Indexera om alla objekt med ID": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Genvägstestning": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Visa senaste genvägar": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Visa kommande medier": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Visa donationer på låsskärmen": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Tvinga synkronisering av genvägar till Apple Watch": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "MIDI-CI-testning": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Aktivera MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Hälsa": "prefs:root=HEALTH",
+  "Mätverktyg": {
+    "(root)": "prefs:root=MEASURE",
+    "Måttenheter": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Brittiska": "prefs:root=MEASURE#Imperial",
+    "Metriska": "prefs:root=MEASURE#Metric"
+  },
+  "Musik": {
+    "(root)": "prefs:root=MUSIC",
+    "Visa Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Lägg till spellistelåtar": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Visa betyg med stjärnor": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Synkronisera bibliotek": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Mobildata": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Hämtad musik": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Optimera lagring": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Automatiska hämtningar": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Ljudkontroll": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Använd lyssningshistorik": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Anteckningar": {
+    "(root)": "prefs:root=NOTES",
+    "Förvalt konto": "prefs:root=NOTES&path=Default%20Account",
+    "Lösenord": "prefs:root=NOTES&path=Password",
+    "Sortera efter": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Nya ant. börjar med": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Sortera avbockade objekt": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Linjer och rutnät": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Spara i Bilder": "prefs:root=NOTES#Save%20to%20Photos",
+    "Anteckningar från låsskärmen": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Meddelanden": "prefs:root=MESSAGES",
+  "Översätt": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Lokalt på enheten": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "TV-leverantör": "prefs:root=VIDEO_SUBSCRIBER",
+  "Röstmemon": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Rensa raderade": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Ljudkvalitet": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Platsbaserade namn": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Kamera": {
+    "(root)": "prefs:root=CAMERA",
+    "Format": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_1153": {
+      "HDR-video": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Förvalsinställningar": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Kameraläge": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Rutnät": "prefs:root=CAMERA#CameraGridSwitch",
+    "Skanna QR-koder": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Kartor": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Kontakter": {
+    "(root)": "prefs:root=CONTACTS",
+    "Ge Kontakter tillgång": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri och sökning": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Sorteringsordning": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Visa efter": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Kortnamn": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Kortnamn": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Föredra smeknamn": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Min info": "prefs:root=CONTACTS&path=MeCard",
+    "Importera SIM-kontakter": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Böcker": {
+    "(root)": "prefs:root=IBOOKS",
+    "Innehåll på internet": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "SYNKRONISERING": "prefs:root=IBOOKS#SYNCING",
+    "Läser nu": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "LÄSNING": "prefs:root=IBOOKS#READING",
+    "Marginaljustering": "prefs:root=IBOOKS#BKFullJustification",
+    "Avstavning": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Bläddra med båda marginaler": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Läsmål": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Rensa data för läsmål": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "SÖKER": "prefs:root=IBOOKS#SEARCHING",
+    "Bokhandel": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "LJUDBÖCKER": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Hoppa framåt": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Hoppa bakåt": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "EXTERNA REGLAGE": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Nästa/föregående": "prefs:root=IBOOKS#Next/Previous",
+    "Hoppa framåt/bakåt": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "INTEGRITET": "prefs:root=IBOOKS#PRIVACY",
+    "Nollställ ID": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Tillkännagivanden": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Kalender": {
+    "(root)": "prefs:root=CALENDAR",
+    "Fast tidszon": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Alternativa kalendrar": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Veckonummer": "prefs:root=CALENDAR#Week%20Numbers",
+    "Visa inbjudna som tackat nej": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Synka": "prefs:root=CALENDAR&path=Sync",
+    "Förvalda påminnelser": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Veckan börjar på": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Platsförslag": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Konton": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Lägg till konto": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Hämta nya data": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Förhandsvisning": "prefs:root=MAIL&path=Preview",
+    "Visa etiketter för Till/Kopia": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Svepalternativ": "prefs:root=MAIL&path=Swipe%20Options",
+    "Fråga före radering": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Visa bilder från server": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Ordna trådvis": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Minimera lästa mejl": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Senaste mejl högst upp": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Fullständiga trådar": "prefs:root=MAIL#Complete%20Threads",
+    "Åtgärd för tråd utan notiser": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Ignorera blockerade avsändare": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Blockerade": "prefs:root=MAIL&path=Blocked",
+    "Dold kopia till mig": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Markera adresser": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Öka citatnivån": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Inkludera bilagor med svar": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Signatur": "prefs:root=MAIL&path=Signature"
+  },
+  "Telefon": {
+    "(root)": "prefs:root=Phone",
+    "Mitt nummer": "prefs:root=Phone&path=My%20Number",
+    "Inkommande samtal": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Tillkännage samtal": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Rapportering av SMS och samtal": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Svara med meddelande": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Vidarekoppling": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Vidarekoppling": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Samtal väntar": "prefs:root=Phone&path=Call%20Waiting",
+    "Visa mitt nummer": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_1154": {
+        "Visa mitt nummer": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Tysta ned okända uppringare": "prefs:root=Phone#SILENCE_CALLS",
+    "Blockerade kontakter": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Ringassistans": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Innehållsblockerare": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Blockera popupfönster": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Spåra inte mellan webbplatser": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Autofyll": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Hämtningar": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Lösenord": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Autofyll lösenord": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Bilder": {
+    "(root)": "prefs:root=Photos",
+    "iCloud-bilder": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Optimera lagring": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Hämta och behåll original": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Min bildström": "prefs:root=Photos#PhotoStreamSwitch",
+    "Delade album": "prefs:root=Photos#SharedStreamsSwitch",
+    "Mobildata": "prefs:root=Photos&path=CellularDataLinkList",
+    "Spela upp videor automatiskt": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Visa fullständig HDR": "prefs:root=Photos#ImageModulationSwitch",
+    "Visa helgdagsaktiviteter": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Överför till Mac eller PC": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Automatiska hämtningar": "prefs:root=STORE#Automatic%20Downloads",
+    "Appuppdateringar": "prefs:root=STORE#App%20Updates",
+    "Apphämtningar": "prefs:root=STORE&path=App%20Downloads",
+    "Autouppspelning av video": "prefs:root=STORE&path=Video%20Autoplay",
+    "Betyg och recensioner i appar": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Visa förhandsvisning av artiklar": "prefs:root=NEWS#show_excerpt_mode",
+    "Begränsa artiklar i Idag": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Integritet": "prefs:root=NEWS#Privacy",
+    "Nollställ ID": "prefs:root=NEWS#reset_identifier",
+    "Tillkännagivanden": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_1155": {
+    "Flygplansläge": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Påminnelser": {
+    "(root)": "prefs:root=REMINDERS",
+    "Förvald lista": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Påminnelser": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Notis för idag": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Visa som försenade": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Batteri": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Strömsparläge": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Batterihälsa": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Genvägar": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "iCloud-synkronisering": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Synka genvägsordning": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Juridiska anmärkningar": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri och sökning": {
+    "(root)": "prefs:root=SIRI",
+    "Tillåt Siri när skärmen är låst": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Språk": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Siri-röst": "prefs:root=SIRI&path=VOICE_ID",
+    "Röst-feedback": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Min information": "prefs:root=SIRI&path=MY_INFO",
+    "Förslag i Sök": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Förslag i Slå upp": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Förslag på låsskärmen": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Aktier": {
+    "(root)": "prefs:root=STOCKS",
+    "Integritet": "prefs:root=STOCKS#Privacy",
+    "Nollställ ID": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Mobilnät": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Alternativ för mobildata": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Låg dataförbrukning": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Mobildata": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Uppspelning med mobildata": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Uppspelningskvalitet": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Inköp och hyrfilmer": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Hemmadelning": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Bakgrundsbild": "prefs:root=Wallpaper"
+}

@@ -1,0 +1,1156 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "Úložiště na iCloudu": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Fotky": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Kontakty": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Kalendář": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Připomínky": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Poznámky": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "Zprávy": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Záloha": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Zdraví": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Hesla a klíčenka": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Soukromý přenos": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Sdílet moji polohu": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Najít iPhone": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Jméno, telefonní čísla, e-mail": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Heslo a zabezpečení": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Platby a doručování": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Předplatná": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Rodina": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Soukromí a zabezpečení": {
+    "(root)": "prefs:root=Privacy",
+    "Bezpečnostní kontrola": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Poloha": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Sdílet moji polohu": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Kontakty": "prefs:root=Privacy&path=CONTACTS",
+    "Kalendáře": "prefs:root=Privacy&path=CALENDARS",
+    "Připomínky": "prefs:root=Privacy&path=REMINDERS",
+    "Fotky": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth sdílení": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Mikrofon": "prefs:root=Privacy&path=MICROPHONE",
+    "Rozpoznávání řeči": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Fotoaparát": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Média a Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Analýza": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Reklamy": "prefs:root=Privacy&path=ADVERTISING",
+    "Soubory a složky": "prefs:root=Privacy&path=FILEACCESS",
+    "Sledování": "prefs:root=Privacy&path=USER_TRACKING",
+    "Zpráva o soukromí v aplikacích": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Režim blokování": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Zdraví": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Režim soustředění": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Stav soustředění": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Obecné": {
+    "(root)": "prefs:root=General",
+    "VPN a správa zařízení": "prefs:root=General&path=ManagedConfigurationList",
+    "Obraz v obrazu": "prefs:root=General&path=PiP_SPEC",
+    "Trackpad a myš": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Informace": {
+      "(root)": "prefs:root=General&path=About",
+      "Důvěryhodné certifikáty": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Právní informace a standardy": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Aktualizace softwaru": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Tlačítko plochy": "prefs:root=General&path=HOME_BUTTON",
+    "Gesta": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Postranní přepínač": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Aktualizace aplikací na pozadí": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Datum a čas": "prefs:root=General&path=DATE_AND_TIME",
+    "TV výstup": "prefs:root=General&path=TV_OUT",
+    "Standardy": "prefs:root=General&path=REGULATORY",
+    "Resetovat": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Obnovit všechna nastavení": "prefs:root=General&path=Reset#settingsErase",
+      "Smazat data a nastavení": "prefs:root=General&path=Reset#fullErase",
+      "Obnovit nastavení sítě": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Odstranit všechny mobilní datové tarify": "prefs:root=General&path=Reset#cellularErase",
+      "Odběratelské služby": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Obnovit slovník klávesnice": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Obnovit uspořádání plochy": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Obnovit polohu a soukromí": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Vypnout": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay a Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Předat na HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Automatické AirPlay na TV": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Fotoaparát přes Kontinuitu": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Slovník": "prefs:root=General&path=DICTIONARY",
+    "Jazyk a oblast": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Další jazyky…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Preferované pořadí jazyků": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Přidat jazyk…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Oblast": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Čísla": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Kalendář": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Jednotky teploty": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Klávesnice": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Klávesnice": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Náhrada textu": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Auto velká písmena": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Auto korektura": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Zkontrolovat pravopis": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Povolit Caps Lock": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Zkratky": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Predikce": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Chytrá interpunkce": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Rozdělená klávesnice": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Zapnout Key Flicks": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Náhledy znaků": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "Klávesová zkratka \".\"": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Chcete‑li začít psát, přejeďte": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Zapnout diktování": "prefs:root=General&path=Keyboard#Dictation",
+      "Automatická interpunkce": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Úložiště": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Odložit nepoužívané": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Oznámení": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Naplánovaný souhrn": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Peněženka a Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Platební karty": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Přidat kartu": "prefs:root=PASSBOOK#Add%20Card",
+    "Dvojí stisknutí postranního tlačítka": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Sledování objednávek": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Čas u obrazovky": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Dnes": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Týden": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Klidový čas": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Limity pro aplikace": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Omezení komunikace": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Bezpečná komunikace": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Povoleno vždy": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Omezení obsahu a soukromí": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Rodičovský dohled": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Zpřístupnění": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Zrak": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Rychlost čtení": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Řeč": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Hlas": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Podrobnost": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Interpunkce": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Záhlaví tabulek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Popisy médií": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Vypnuto": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Řeč": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Braillovo písmo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Řeč a braillský řádek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Braillovo písmo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Výstup": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Šestibodový braillský plnopis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Osmibodový braillský plnopis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Zkratkopis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Vstup": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Šestibodový braillský plnopis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Osmibodový braillský plnopis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Zkratkopis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Automatický překlad": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Braillský vstup na displeji": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Šestibodový braillský plnopis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Osmibodový braillský plnopis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Zkratkopis": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Prohodit pozice bodů": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Braillovy tabulky": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Přidat Braillovu tabulku…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Stavové buňky": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Pozice stavových buněk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Vlevo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Vpravo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Zobrazit celkový stav": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Zobrazit stav textu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Nemethovo kódování rovnic": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Klávesnice na obrazovce": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Při posouvání otočit stránku": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Zalamování řádků": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Upozornění na řádku": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Prodleva ignorování akordů": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Prodleva automatického posouvání": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Zvuk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Audioducking": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Přepínat na reproduktor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Poslat na HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Příkazy": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Aktivity": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Programování": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Přidat aktivitu…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Akce na rotoru": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Upravit aplikace na ploše": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Aplikace využívající Přímý dotyk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Psaní": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Styl psaní": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Standardní psaní": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Dotykové psaní": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Psaní přímým dotykem": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Hláskování": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Vypnuto": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Znaky a hláskování": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Pouze hláskování": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Odezva psaní": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Modifikační klávesy": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Ctrl + Alt": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Caps lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Čas interakce s klávesnicí": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Navigovat v obrázcích": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Vždy": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "S popisy": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Nikdy": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Velký kurzor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Titulkový panel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Časový limit poklepání": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Časový limit poklepání": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Styl navigace": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Rychlé nastavení": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Zvuky": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Audioducking": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Hlasitost": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Rychlost čtení": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Nápovědy": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Styl navigace": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Styl psaní": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Přejet a psát": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Aktivity": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Vždy předčítat oznámení": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Upozornění na řádku": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Posouvání braillského řádku": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Braillský vstup": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Braillský výstup": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Braillovy tabulky": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Titulkový panel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Přímý dotyk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Směr gesta": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Odezva psaní na HW klávesnici": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Jazyk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Velký kurzor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Popisy médií": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Navigovat v obrázcích": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Hláskování": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Změna výšky": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Interpunkce": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Poslat na HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Odezva psaní na SW klávesnici": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Přečíst potvrzení nastavení na rotoru": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Popisy obrázků": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Rozpoznávání obsahu obrazovky": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "Inteligentní VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Popisy obrázků": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Rozpoznávání obsahu obrazovky": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Zvětšení": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Sledovat zaměření": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Chytré psaní": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Klávesové zkratky": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Klávesové zkratky": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Nastavení úrovně zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Přepnutí zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Přesouvání okna zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Změna velikosti okna zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Přepnutí oblasti zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Dočasné přepnutí zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Zvětšování kolečkem myši": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Ovladač zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Oblast zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Celá obrazovka": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "V okně": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Maximální přiblížení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Filtr zvětšení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Zobrazit při zrcadlení": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Text při podržení": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Displej a velikost textu": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Tučný text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Větší text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Tvary tlačítek": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Štítky Zapnuto/Vypnuto": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Snížit průhlednost": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Vyšší kontrast": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Odlišit bez barvy": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Chytrá inverze": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Klasická inverze": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Filtry barev": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Filtry barev": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Snížit bílý bod": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Automatický jas": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Pohyb": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Omezit pohyb": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Přehrávat efekty zpráv": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Přehrávat ukázky videí": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Předčítání obsahu": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Přečíst výběr": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Předčítat obsah obrazovky": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Ovladač čtení": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Přizpůsobit tlačítka myši": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Zvýraznit text": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Odezva psaní": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Odezva na znaky": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Znaky": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Hláskování znaků": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Číst slova": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Číst autokorektury": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Číst predikce při podržení": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Hlasy": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Výchozí jazyk": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Rozpoznávat jazyky": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Rychlost čtení": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Výslovnosti": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Zvukové popisy": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Zvukové popisy": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Mobilita a motorika": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Dotyk": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Upravit nejvyšší úroveň nabídky": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Klepněte na ikonu, kterou chcete změnit:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Resetovat…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Vlastní akce": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Klepnutí": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Poklepání": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Časový limit poklepání": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Dlouhé stisknutí": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Délka dlouhého stisknutí": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Vlastní gesta": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Vytvořit nové gesto…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Neprůhlednost v nečinnosti": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Polohovací zařízení": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Zařízení": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth zařízení…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Klávesy myši": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Styl ukazatele": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Velikost": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Zobrazení": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Barva": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Přizpůsobit tlačítka myši": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Automaticky skrývat": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_102": {
+            "Automaticky skrývat": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Klávesnice na obrazovce": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Vždy zobrazovat nabídku": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Ovládání setrvání": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Tolerance pohybu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Citlivost ukazatele": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Akce Návratu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Aktivní rohy": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Používat herní ovladač": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D a Haptic Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_103": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "Citlivost gest 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Délka dotyku": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Krátká": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Dlouhá": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Zkouška citlivosti gest 3D Touch a délky dotyku": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Přizpůsobení dotyků": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_104": {
+        "Přizpůsobení dotyků": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Délka dotyku": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Ignorovat opakování": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Asistence při klepnutí": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Vypnuto": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Použít místo prvního dotyku": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Použít místo posledního dotyku": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Klepnutí pro probuzení": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Probouzení klepnutím nebo přejetím": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Zpět zatřesením": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Vibrace": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Zabránit ukončení hovoru zamknutím": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Směrování hovorů": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_105": {
+        "Automaticky": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Náhlavní souprava Bluetooth": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Reproduktor": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Automatický příjem": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID a pozornost": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Vyžadovat pro Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Detekce pozornosti": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Haptika": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Haptika při úspěšném ověření": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Switch Control": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Switch Control": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Přepínače": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_106": {
+        "Přidat nový přepínač…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth zařízení…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Předpisy": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Způsob hledání": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_107": {
+        "Automatické hledání": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Ruční procházení": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Krokové hledání": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Časování": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Čas automatického hledání": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_108": {
+        "Čas automatického hledání": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Počkat na první položce": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_109": {
+        "Počkat na první položce": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Opakování přesunu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_110": {
+        "Opakování přesunu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Dlouhé stisknutí": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_111": {
+        "Dlouhé stisknutí": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Chování klepnutí": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_112": {
+        "Výchozí": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Automatické": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Vždy klepnout": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Klepnutí zaměří": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_113": {
+        "První položka": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Aktuální položku": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Klávesnice": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Po klepnutí stejná klávesa": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Vždy klepat na klávesy": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Rozšířit předvídání": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Stabilizace přepínače": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Délka dotyku": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_114": {
+        "Délka dotyku": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Ignorovat opakování": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_115": {
+        "Ignorovat opakování": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Hledání bodů": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Klouzavý kurzor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_116": {
+        "Režim výběru": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Jednoduchý": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Zpřesněný": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Vysoce přesný": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Rychlost klouzavého kurzoru": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Sledování hlavy": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_117": {
+        "Sledování hlavy": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Zvuk": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Zvukové efekty": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Řeč": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_118": {
+        "Hlasy": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Rychlost čtení": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Položky nabídky": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Seskupit položky": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Zobrazení": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Velký kurzor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Uložená gesta": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_119": {
+        "Vytvořit nové gesto…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Barva kurzoru": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Hlasové ovládání": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Nastavit hlasové ovládání": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Jazyk": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_120": {
+        "Angličtina (USA)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Přizpůsobit příkazy": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Slovník": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Odezva příkazu": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Zobrazit potvrzení": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Přehrát zvuk": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Zobrazit nápovědu": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Trvalý překryv": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Překryv": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_121": {
+        "Žádný": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Čísla položek": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Názvy položek": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Číslovaná mřížka": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Detekce pozornosti": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Postranní tlačítko": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Rychlost stisknutí": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Výchozí": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Dlouhá": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Nejdelší": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Stiskněte a podržte pro": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Klasické hlasové ovládání": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Vypnuto": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Směrová tlačítka": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Vzdálená obrazovka Apple Watch": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Klávesnice": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Plný přístup z klávesnice": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_122": {
+        "Plný přístup z klávesnice": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Vizuální prvky": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Automaticky skrývat": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Velký kroužek zaměření": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Barva": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Opakování kláves": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_123": {
+        "Opakování kláves": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Interval opakování kláves": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Prodleva opakování": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Přilnavé klávesy": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_124": {
+        "Přilnavé klávesy": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Přepnout klávesou Shift": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Zvuk": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Pomalé klávesy": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_125": {
+        "Pomalé klávesy": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Softwarové klávesnice": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Zobrazit malá písmena": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Sluch": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Sluchadla": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi sluchadla": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Kompatibilita sluchadel": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Rozpoznávání zvuku": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Zvuky": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Softwarové TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Hardwarové TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Zvuk a obraz": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Zvuk": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Přizpůsobení sluchátek": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_126": {
+        "Přizpůsobení sluchátek": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Vlastní nastavení zvuku": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Zvuky na pozadí": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Monofonní zvuk": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Odstraňování šumu v telefonu": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Vyvážení": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Zobrazení": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "Výstrahy bleskem LED": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_127": {
+        "Blikání při odemčení": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Blikání v tichém režimu": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Stereo vyvážení vlevo‑vpravo": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Zvuky vypnutí a zapnutí": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Titulky a skryté titulky": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Styl": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Skryté titulky + neslyšící": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Zobrazovat přepisy zvuku": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_128": {
+      "Živé titulky (beta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Živé titulky v hovorech FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Obecné": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Asistovaný přístup": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Asistovaný přístup": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Nastavení kódu": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_129": {
+        "Kód asistovaného přístupu": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Časová omezení": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_130": {
+        "Upozornění": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Zvuk": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Předčítat": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Zkratka zpřístupnění": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Zamykání displeje": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Vlastní režim zpřístupnění": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Zadávání textu pro Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Mluvené odpovědi": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Automatické mluvené odpovědi": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Preferovat tiché odpovědi": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Nepředčítat v tichém režimu": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Vždy čekat na vyslovení „Hey Siri“": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Zkratka zpřístupnění": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Lupa": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Nastavení na úrovni aplikací": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Ovládat zařízení v blízkosti": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Zobrazení a jas": {
+    "(root)": "prefs:root=DISPLAY",
+    "Vzhled": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Zapnout podle rozvrhu": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Ručně zapnout do zítřka": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Teplota barev": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Uzamčení": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Probudit zvednutím": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Zamknout/odemknout": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Velikost textu": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Tučný text": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Nastavení displeje": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Zobrazení": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Kontakty s nákazou": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_131": {
+    "Oznamovací odznaky": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Nově stažené aplikace": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Plocha a multitasking": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_132": {
+      "Zobrazit knihovnu aplikací v Docku": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Zobrazit doporučené a poslední aplikace": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Plocha": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Nově stažené aplikace": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Oznamovací odznaky": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID a kódový zámek": {
+    "(root)": "prefs:root=PASSCODE",
+    "Vypnout kódový zámek": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Změnit kód zámku": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Požadovat kód": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Hlasové vytáčení": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Povolit přístup při uzamčení": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Odpovědět zprávou": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Ovládání domova": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Peněženka": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Zmeškané hovory": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Smazat data": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Odemykání pomocí Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcasty": "prefs:root=PODCASTS",
+  "Tíseň SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Volání postranním tlačítkem": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Automaticky zavolat": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Nouzové kontakty": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Zvuk odpočtu": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Zvuk": {
+    "(root)": "prefs:root=Sounds",
+    "Bezpečnost sluchátek": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning adaptéry": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Oznámení o sluchátkách": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Tlumit hlasité zvuky": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Zvukové efekty": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Zvonění a výstrahy": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Měnit tlačítky": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Zvuky a vibrace": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Vyzvánění": "prefs:root=Sounds&path=Ringtone",
+    "Zvuk SMS": "prefs:root=Sounds&path=Text_Messages",
+    "Záznamník": "prefs:root=Sounds&path=Voicemail",
+    "Nová pošta": "prefs:root=Sounds&path=NEW_MAIL",
+    "Odeslaná pošta": "prefs:root=Sounds&path=SENT_MAIL",
+    "Zvuk kalendáře": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Zvuk připomínek": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Klapání klávesnice": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Zvuk zámku": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Počasí": "prefs:root=WEATHER",
+  "Kompas": {
+    "(root)": "prefs:root=COMPASS",
+    "Použít geografický sever": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Ovládací centrum": {
+    "(root)": "prefs:root=ControlCenter",
+    "Přístup v aplikacích": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Upravit ovládací prvky": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Vývojář": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Vícecestné zasíťování": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Vícecestné zasíťování": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Vzhled": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Tmavý vzhled": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Spárovaná zařízení": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Smazat důvěryhodné počítače": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Nástroje": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Protokolování": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Automatizace rozhraní": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Sítě": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Network Link Conditioner": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "Testování vývojářské aplikace pro iAd": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Měření výkonu": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Zvýraznit oříznuté bannery": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Neomezené reklamy": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "Testování PassKitu": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Dodatečné protokolování": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Povolit HTTP služby": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Vypnout omezení rychlosti": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "Nepovinný NFC Pass Key": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Testování mediálních služeb": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "Návrhy pro AirPlay": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Resetovat mediální služby": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "Testování News": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Při příštím spuštění resetovat místní data": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Testování Media Player Frameworku": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API přehratelného obsahu": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Testování poskytovatelů TV": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "Poskytovatelé TV": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "API ClassKitu": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "Testování CoreSpotlightu": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Reindexovat všechny položky": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Reindexovat položky s identifikátory": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Testování zkratek": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Zobrazit nedávno použité zkratky": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Zobrazit nadcházející média": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Zobrazit dodané zkratky na zamknuté obrazovce": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Vynutit synchronizaci zkratek do hodinek": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "Testování MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Zapnout MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Zdraví": "prefs:root=HEALTH",
+  "Měření": {
+    "(root)": "prefs:root=MEASURE",
+    "Měrné jednotky": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Imperiální": "prefs:root=MEASURE#Imperial",
+    "Metrické": "prefs:root=MEASURE#Metric"
+  },
+  "Hudba": {
+    "(root)": "prefs:root=MUSIC",
+    "Zobrazit Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Přidávat skladby z playlistů": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Zobrazit hodnocení": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Synchronizovat knihovnu": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Mobilní data": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Stažená hudba": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Optimalizovat úložiště": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Automatická stahování": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Vyrovnat hlasitost": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Použít historii přehrávání": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Poznámky": {
+    "(root)": "prefs:root=NOTES",
+    "Výchozí účet": "prefs:root=NOTES&path=Default%20Account",
+    "Heslo": "prefs:root=NOTES&path=Password",
+    "Řazení poznámek": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Nové poznámky začínají": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Řadit odškrtnuté položky": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Linky a mřížky": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Uložit do Fotek": "prefs:root=NOTES#Save%20to%20Photos",
+    "Přístup ze zamknuté obrazovky": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Zprávy": "prefs:root=MESSAGES",
+  "Přeložit": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Samostatný režim": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "Poskytovatel TV": "prefs:root=VIDEO_SUBSCRIBER",
+  "Diktafon": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Odstranit smazané": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Kvalita zvuku": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Polohově závislé názvy": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Fotoaparát": {
+    "(root)": "prefs:root=CAMERA",
+    "Formáty": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_133": {
+      "HDR video": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Zachovat nastavení": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Režim fotoaparátu": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Mřížka": "prefs:root=CAMERA#CameraGridSwitch",
+    "Skenovat QR kódy": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Mapy": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Kontakty": {
+    "(root)": "prefs:root=CONTACTS",
+    "Povolit Kontaktům přístup": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri a hledání": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Řazení": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Zobrazení": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Krátké jméno": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Krátké jméno": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Preferovat přezdívky": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Moje info": "prefs:root=CONTACTS&path=MeCard",
+    "Importovat kontakty ze SIM": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Knihy": {
+    "(root)": "prefs:root=IBOOKS",
+    "Online obsah": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "SYNCHRONIZACE": "prefs:root=IBOOKS#SYNCING",
+    "Rozečtené": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "ČETBA": "prefs:root=IBOOKS#READING",
+    "Oboustranné zarovnání": "prefs:root=IBOOKS#BKFullJustification",
+    "Automatické dělení slov": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Listovat na obou okrajích": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Čtenářské cíle": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Smazat data čtenářských cílů": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "HLEDÁNÍ": "prefs:root=IBOOKS#SEARCHING",
+    "Knihkupectví": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "AUDIOKNIHY": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Přeskočit vpřed": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Přeskočit zpět": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "EXTERNÍ OVLÁDACÍ PRVKY": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Další/předchozí": "prefs:root=IBOOKS#Next/Previous",
+    "Přeskočit vpřed/zpět": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "SOUKROMÍ": "prefs:root=IBOOKS#PRIVACY",
+    "Resetovat identifikátor": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Uznání": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Kalendář": {
+    "(root)": "prefs:root=CALENDAR",
+    "Přepsat časové pásmo": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Alternativní kalendáře": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Čísla týdnů": "prefs:root=CALENDAR#Week%20Numbers",
+    "Zobrazit odmítnutí pozvaných": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Synchronizace": "prefs:root=CALENDAR&path=Sync",
+    "Výchozí časy upozornění": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Začátek týdne": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Návrhy míst": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Pošta": {
+    "(root)": "prefs:root=MAIL",
+    "Účty": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Přidat účet": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Vyzvedávání dat": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Náhled": "prefs:root=MAIL&path=Preview",
+    "Zobrazit Pro mě/Kopie": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Volby přejetí": "prefs:root=MAIL&path=Swipe%20Options",
+    "Dotaz před smazáním": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Načíst obrázky": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Uspořádat do vláken": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Sbalit přečtené zprávy": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Nejnovější zprávy nahoře": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Úplná vlákna": "prefs:root=MAIL#Complete%20Threads",
+    "Umlčená": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Ignorovat zablokované": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Zablokováno": "prefs:root=MAIL&path=Blocked",
+    "Skrytá kopie sobě": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Označit adresy": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Zvýšit úroveň citace": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Přílohy v odpovědích": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Podpis": "prefs:root=MAIL&path=Signature"
+  },
+  "Telefon": {
+    "(root)": "prefs:root=Phone",
+    "Moje číslo": "prefs:root=Phone&path=My%20Number",
+    "Příchozí hovory": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Oznámení hovorů": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Oznamování SMS/hovorů": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Odpovědět zprávou": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Přesměrování hovoru": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Přesměrování hovoru": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Čekání hovoru": "prefs:root=Phone&path=Call%20Waiting",
+    "Zobrazit moje ID volanému": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_134": {
+        "Zobrazit moje ID volanému": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Umlčet neznámé volající": "prefs:root=Phone#SILENCE_CALLS",
+    "Zablokované kontakty": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Asistované vytáčení": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Blokátor obsahu": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Blokovat pop‑upy": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Nesledovat napříč stránkami": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Vyplňování": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Stahování": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Hesla": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Automatické vyplnění hesel": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Fotky": {
+    "(root)": "prefs:root=Photos",
+    "Fotky na iCloudu": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Optimalizovat úložiště": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Stáhnout a ponechat původní": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Můj fotostream": "prefs:root=Photos#PhotoStreamSwitch",
+    "Sdílená alba": "prefs:root=Photos#SharedStreamsSwitch",
+    "Mobilní data": "prefs:root=Photos&path=CellularDataLinkList",
+    "Automatické přehrávání videí": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Zobrazit úplné HDR": "prefs:root=Photos#ImageModulationSwitch",
+    "Zobrazit svátky": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Přenos na Mac nebo PC": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Automatická stahování": "prefs:root=STORE#Automatic%20Downloads",
+    "Aktualizace aplikací": "prefs:root=STORE#App%20Updates",
+    "Stahování aplikací": "prefs:root=STORE&path=App%20Downloads",
+    "Automatická videa": "prefs:root=STORE&path=Video%20Autoplay",
+    "Hodnocení a recenze": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Zobrazit náhledy článků": "prefs:root=NEWS#show_excerpt_mode",
+    "Omezit články v zobrazení Dnes": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Soukromí": "prefs:root=NEWS#Privacy",
+    "Resetovat identifikátor": "prefs:root=NEWS#reset_identifier",
+    "Uznání": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_135": {
+    "Letový režim": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Připomínky": {
+    "(root)": "prefs:root=REMINDERS",
+    "Výchozí seznam": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Připomínky": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Dnešní oznámení": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Zobrazit jako po termínu": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Baterie": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Režim nízké spotřeby": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Kondice baterie": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Zkratky": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "Synchronizace přes iCloud": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Synchronizovat pořadí": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Právní upozornění": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri a hledání": {
+    "(root)": "prefs:root=SIRI",
+    "Povolit Siri při uzamčení": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Jazyk": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Hlas Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "Hlasová odezva": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Moje údaje": "prefs:root=SIRI&path=MY_INFO",
+    "Návrhy v hledání": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Návrhy ve Vyhledávání": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Návrhy na zamčené obrazovce": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Akcie": {
+    "(root)": "prefs:root=STOCKS",
+    "Soukromí": "prefs:root=STOCKS#Privacy",
+    "Resetovat identifikátor": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Mobilní data": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Volby dat": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Režim malého objemu dat": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Mobilní data": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Přehrávat přes mobilní data": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Kvalita přehrávání": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Nákupy a výpůjčky": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Domácí sdílení": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Tapeta": "prefs:root=Wallpaper"
+}

@@ -1,0 +1,853 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → iCloud-tárhely: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Fotók: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Kontaktok: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Naptár: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Emlékeztetők: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Jegyzetek: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Biztonsági mentés: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Egészség: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Jelszavak és Kulcskarika: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Privát átjátszó: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Saját helyzet megosztása: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Saját helyzet megosztása → iPhone keresése: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Név, telefonszámok és e-mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Jelszó és biztonság: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Fizetés és szállítás: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Előfizetések: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Család: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Adatvédelem és biztonság: `prefs:root=Privacy`
+- Adatvédelem és biztonság → Biztonsági ellenőrzés: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Adatvédelem és biztonság → Helyzet: `prefs:root=Privacy&path=LOCATION`
+- Adatvédelem és biztonság → Helyzet → Saját helyzet megosztása: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Adatvédelem és biztonság → Kontaktok: `prefs:root=Privacy&path=CONTACTS`
+- Adatvédelem és biztonság → Naptárak: `prefs:root=Privacy&path=CALENDARS`
+- Adatvédelem és biztonság → Emlékeztetők: `prefs:root=Privacy&path=REMINDERS`
+- Adatvédelem és biztonság → Fotók: `prefs:root=Privacy&path=PHOTOS`
+- Adatvédelem és biztonság → Bluetooth-megosztás: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Adatvédelem és biztonság → Mikrofon: `prefs:root=Privacy&path=MICROPHONE`
+- Adatvédelem és biztonság → Beszédfelismerés: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Adatvédelem és biztonság → Kamera: `prefs:root=Privacy&path=CAMERA`
+- Adatvédelem és biztonság → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Adatvédelem és biztonság → Média és Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Adatvédelem és biztonság → Elemzés: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Adatvédelem és biztonság → Hirdetés: `prefs:root=Privacy&path=ADVERTISING`
+- Adatvédelem és biztonság → Fájlok és mappák: `prefs:root=Privacy&path=FILEACCESS`
+- Adatvédelem és biztonság → Követés: `prefs:root=Privacy&path=USER_TRACKING`
+- Adatvédelem és biztonság → Appok adatvédelmi jelentése: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Adatvédelem és biztonság → Zárt mód: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Adatvédelem és biztonság → Egészség: `prefs:root=Privacy&path=HEALTH`
+- Fókusz: `prefs:root=DO_NOT_DISTURB`
+- Fókusz → Fókusz állapota: `prefs:root=DO_NOT_DISTURB&path=status`
+- Általános: `prefs:root=General`
+- Általános → VPN- és eszközfelügyelet: `prefs:root=General&path=ManagedConfigurationList`
+- Általános → Kép a képben: `prefs:root=General&path=PiP_SPEC`
+- Általános → Trackpad és egér: `prefs:root=General&path=POINTERS`
+- Általános → NFC: `prefs:root=General&path=NFC_LINK`
+- Általános → VPN: `prefs:root=General&path=VPN`
+- Általános → CarPlay: `prefs:root=General&path=CARPLAY`
+- Általános → Névjegy: `prefs:root=General&path=About`
+- Általános → Névjegy → Megbízható tanúsítványok: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Általános → Jogi információk és szabályozás: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Általános → Szoftverfrissítés: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Általános → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Általános → Főgomb: `prefs:root=General&path=HOME_BUTTON`
+- Általános → Kézmozdulatok: `prefs:root=General#Multitasking_Gesture_Switch`
+- Általános → Oldalsó kapcsoló: `prefs:root=General#Rotation_Switch_Action_Group`
+- Általános → Appfrissítés a háttérben: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Általános → Dátum és idő: `prefs:root=General&path=DATE_AND_TIME`
+- Általános → Tv-kimenet: `prefs:root=General&path=TV_OUT`
+- Általános → Szabályozó: `prefs:root=General&path=REGULATORY`
+- Általános → Alaphelyzetbe állítás: `prefs:root=General&path=Reset`
+- Általános → Alaphelyzetbe állítás → Beállítások alaphelyzetbe állítása: `prefs:root=General&path=Reset#settingsErase`
+- Általános → Alaphelyzetbe állítás → Összes tartalom és beállítás törlése: `prefs:root=General&path=Reset#fullErase`
+- Általános → Alaphelyzetbe állítás → Hálózati beállítások alaphelyzetbe állítása: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Általános → Alaphelyzetbe állítás → Az összes adat-előfizetés eltávolítása: `prefs:root=General&path=Reset#cellularErase`
+- Általános → Alaphelyzetbe állítás → Előfizetői szolgáltatások: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Általános → Alaphelyzetbe állítás → Billentyűzet szótárának alaphelyzetbe állítása: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Általános → Alaphelyzetbe állítás → Főképernyő alaphelyzetbe állítása: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Általános → Alaphelyzetbe állítás → Helyzet- és adatvédelmi adatok alaphelyzetbe állítása: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Általános → Kikapcsolás: `prefs:root=General#SHUTDOWN_LABEL`
+- Általános → AirPlay és Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Általános → AirPlay és Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Általános → AirPlay és Handoff → Átirányítás a HomePodra: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Általános → AirPlay és Handoff → Automatikus AirPlay TV-kre: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Általános → AirPlay és Handoff → Folytonossági kamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Általános → Szótár: `prefs:root=General&path=DICTIONARY`
+- Általános → Nyelv és régió: `prefs:root=General&path=INTERNATIONAL`
+- Általános → Nyelv és régió → Egyéb nyelvek…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Általános → Nyelv és régió → Előnyben részesített nyelvek sorrendje: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Általános → Nyelv és régió → Nyelv hozzáadása…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Általános → Nyelv és régió → Régió: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Általános → Nyelv és régió → Számok: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Általános → Nyelv és régió → Naptár: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Általános → Nyelv és régió → Hőmérsékleti egység: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Általános → Billentyűzet: `prefs:root=General&path=Keyboard`
+- Általános → Billentyűzet → Billentyűzetek: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Általános → Billentyűzet → Szöveg cseréje: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Általános → Billentyűzet → Automatikus nagybetűk: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Általános → Billentyűzet → Automatikus javítás: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Általános → Billentyűzet → Helyesírás-ellenőrzés: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Általános → Billentyűzet → Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Általános → Billentyűzet → Parancsok: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Általános → Billentyűzet → Prediktív: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Általános → Billentyűzet → Intelligens írásjelek: `prefs:root=General&path=Keyboard#SmartTyping`
+- Általános → Billentyűzet → Osztott billentyűzet: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Általános → Billentyűzet → Billentyűpöccintések engedélyezése: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Általános → Billentyűzet → Karakter-előnézet: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Általános → Billentyűzet → „.” parancs: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Általános → Billentyűzet → Csúsztatva gépelés: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Általános → Billentyűzet → Diktálás engedélyezése: `prefs:root=General&path=Keyboard#Dictation`
+- Általános → Billentyűzet → Automatikus írásjelek: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Általános → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Általános → iPhone/iPad Storage → Tárhely: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Általános → iPhone/iPad Storage → Nem használt appok eltávolítása: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Értesítések: `prefs:root=NOTIFICATIONS_ID`
+- Értesítések → Ütemezett összegzés: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Tárca és Apple Pay: `prefs:root=PASSBOOK`
+- Tárca és Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Tárca és Apple Pay → Fizetési kártyák: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Tárca és Apple Pay → Kártya hozzáadása: `prefs:root=PASSBOOK#Add%20Card`
+- Tárca és Apple Pay → Oldalsó gomb dupla kattintása: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Tárca és Apple Pay → Rendelés nyomon követése: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Képernyőidő: `prefs:root=SCREEN_TIME`
+- Képernyőidő → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Képernyőidő → See All Activity → Ma: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Képernyőidő → See All Activity → Hét: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Képernyőidő → Nyugalmi idő: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Képernyőidő → App­korlátok: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Képernyőidő → Kommunikációs korlátok: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Képernyőidő → Kommunikációbiztonság: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Képernyőidő → Engedélyezés mindig: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Képernyőidő → Tartalmi és adatvédelmi korlátozások: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Képernyőidő → Szülői felügyelet: `prefs:root=SCREEN_TIME#FAMILY`
+- Kisegítő lehetőségek: `prefs:root=ACCESSIBILITY`
+- Kisegítő lehetőségek → Látás: `prefs:root=ACCESSIBILITY#VISION`
+- Kisegítő lehetőségek → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Kisegítő lehetőségek → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Kisegítő lehetőségek → VoiceOver → Beszédsebesség: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Kisegítő lehetőségek → VoiceOver → Beszéd: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Kisegítő lehetőségek → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Kisegítő lehetőségek → VoiceOver → Speech → Beszédhang: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Kisegítő lehetőségek → VoiceOver → Részletesség: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Kisegítő lehetőségek → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Kisegítő lehetőségek → VoiceOver → Verbosity → Írásjelek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Kisegítő lehetőségek → VoiceOver → Verbosity → Táblázatfejlécek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Kisegítő lehetőségek → VoiceOver → Verbosity → Médialeírások: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Kisegítő lehetőségek → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Kisegítő lehetőségek → VoiceOver → Verbosity → Media Descriptions → Ki: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Kisegítő lehetőségek → VoiceOver → Verbosity → Media Descriptions → Beszéd: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Kisegítő lehetőségek → VoiceOver → Verbosity → Media Descriptions → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Kisegítő lehetőségek → VoiceOver → Verbosity → Media Descriptions → Beszéd és Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Kimenet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Kisegítő lehetőségek → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Kisegítő lehetőségek → VoiceOver → Braille → Output → Nem összevont hatpontos Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Output → Nem összevont nyolcpontos Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Output → Rövidített Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Bemenet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Kisegítő lehetőségek → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Kisegítő lehetőségek → VoiceOver → Braille → Input → Nem összevont hatpontos Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Input → Nem összevont nyolcpontos Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Input → Rövidített Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Input → Automatikus fordítás: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Kisegítő lehetőségek → VoiceOver → Braille → Braille-képernyőbevitel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Kisegítő lehetőségek → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Kisegítő lehetőségek → VoiceOver → Braille → Braille Screen Input → Nem összevont hatpontos Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Braille Screen Input → Nem összevont nyolcpontos Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Braille Screen Input → Rövidített Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Kisegítő lehetőségek → VoiceOver → Braille → Braille Screen Input → Pontpozíciók megfordítása: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Kisegítő lehetőségek → VoiceOver → Braille → Braille-táblák: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Kisegítő lehetőségek → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Kisegítő lehetőségek → VoiceOver → Braille → Tables → Braille-tábla hozzáadása…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Kisegítő lehetőségek → VoiceOver → Braille → Állapotcellák: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Kisegítő lehetőségek → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Kisegítő lehetőségek → VoiceOver → Braille → Status Cell → Állapotcellák pozíciója: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Kisegítő lehetőségek → VoiceOver → Braille → Status Cell → Bal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Kisegítő lehetőségek → VoiceOver → Braille → Status Cell → Jobb: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Kisegítő lehetőségek → VoiceOver → Braille → Status Cell → Általános állapot megjelenítése: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Kisegítő lehetőségek → VoiceOver → Braille → Status Cell → Szövegállapot megjelenítése: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Kisegítő lehetőségek → VoiceOver → Braille → Egyenletek Németh-kóddal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Kisegítő lehetőségek → VoiceOver → Braille → Képernyő-billentyűzet megjelenítése: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Kisegítő lehetőségek → VoiceOver → Braille → Lapozás eltolásnál: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Kisegítő lehetőségek → VoiceOver → Braille → Szótörés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Kisegítő lehetőségek → VoiceOver → Braille → Braille figyelmeztető üzenetek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Kisegítő lehetőségek → VoiceOver → Braille → Akkord időtartamának figyelmen kívül hagyása: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Kisegítő lehetőségek → VoiceOver → Braille → Automatikus léptetés időtartama: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Kisegítő lehetőségek → VoiceOver → Hang: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- Kisegítő lehetőségek → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Kisegítő lehetőségek → VoiceOver → Audio → Hangerő automatikus csökkentése: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Kisegítő lehetőségek → VoiceOver → Audio → Automatikus híváskihangosítás: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Kisegítő lehetőségek → VoiceOver → Audio → Küldés HDMI-re: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Kisegítő lehetőségek → VoiceOver → Parancsok: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Kisegítő lehetőségek → VoiceOver → Tevékenységek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Kisegítő lehetőségek → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Kisegítő lehetőségek → VoiceOver → Activities → Programozás: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Kisegítő lehetőségek → VoiceOver → Activities → Tevékenység hozzáadása…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Kisegítő lehetőségek → VoiceOver → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Kisegítő lehetőségek → VoiceOver → Rotorműveletek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Kisegítő lehetőségek → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Kisegítő lehetőségek → VoiceOver → Rotor Actions → Appok szerkesztése a Főképernyőn: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Kisegítő lehetőségek → VoiceOver → Rotor Actions → Direct Touch-appok: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Kisegítő lehetőségek → VoiceOver → Gépelés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Kisegítő lehetőségek → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Kisegítő lehetőségek → VoiceOver → Typing → Gépelési stílus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Kisegítő lehetőségek → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Kisegítő lehetőségek → VoiceOver → Typing → Typing Mode → Normál gépelés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Kisegítő lehetőségek → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Kisegítő lehetőségek → VoiceOver → Typing → Typing Style → Tízujjas gépelés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Kisegítő lehetőségek → VoiceOver → Typing → Typing Style → Közvetlen érintéses gépelés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Kisegítő lehetőségek → VoiceOver → Typing → Fonetikai visszajelzés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Kisegítő lehetőségek → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Kisegítő lehetőségek → VoiceOver → Typing → Phonetic Feedback → Ki: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Kisegítő lehetőségek → VoiceOver → Typing → Phonetic Feedback → Karakter és fonetika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Kisegítő lehetőségek → VoiceOver → Typing → Phonetic Feedback → Csak fonetika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Kisegítő lehetőségek → VoiceOver → Typing → Gépelési visszajelzés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Kisegítő lehetőségek → VoiceOver → Typing → Módosítóbillentyűk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Kisegítő lehetőségek → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Kisegítő lehetőségek → VoiceOver → Typing → Modifier Keys → Control + Alt: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Kisegítő lehetőségek → VoiceOver → Typing → Modifier Keys → Caps Lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Kisegítő lehetőségek → VoiceOver → Typing → Billentyűzethasználati idő: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Kisegítő lehetőségek → VoiceOver → Képek navigálása: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Kisegítő lehetőségek → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Kisegítő lehetőségek → VoiceOver → Include Unlabeled Images → Mindig: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Kisegítő lehetőségek → VoiceOver → Include Unlabeled Images → Leírásokkal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Kisegítő lehetőségek → VoiceOver → Include Unlabeled Images → Soha: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Kisegítő lehetőségek → VoiceOver → Nagy kurzor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Kisegítő lehetőségek → VoiceOver → Feliratpanel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Kisegítő lehetőségek → VoiceOver → Dupla koppintás időtúllépése: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Kisegítő lehetőségek → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Kisegítő lehetőségek → VoiceOver → Double-tap Timeout → Dupla koppintás időtúllépése: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Kisegítő lehetőségek → VoiceOver → Navigáció stílusa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Kisegítő lehetőségek → VoiceOver → Gyorsbeállítások: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Hangok: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Hangerő automatikus csökkentése: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Hangerő: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Beszédsebesség: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Tippek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Navigáció stílusa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Gépelési stílus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Csúsztatva gépelés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Tevékenységek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Értesítések kimondása mindig: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Braille figyelmeztető üzenetek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Braille automatikus léptetés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Braille-bevitel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Braille-kimenet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Braille-táblák: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Feliratpanel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Közvetlen érintés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Kézmozdulat iránya: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Hardveres gépelésről szóló visszajelzés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Nyelv: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Nagy kurzor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Médialeírások: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Képek navigálása: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Fonetikai visszajelzés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Hangmagasság változása: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Írásjelek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Küldés HDMI-re: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Szoftveres gépelésről szóló visszajelzés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Rotorról szóló megerősítés beszéddel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Képleírások: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Kisegítő lehetőségek → VoiceOver → Quick Settings → Képernyő felismerése: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Kisegítő lehetőségek → VoiceOver → VoiceOver-felismerés: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Kisegítő lehetőségek → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Kisegítő lehetőségek → VoiceOver → VoiceOver Recognition → Képleírások: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Kisegítő lehetőségek → VoiceOver → VoiceOver Recognition → Képernyő felismerése: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Kisegítő lehetőségek → Nagyítás: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Kisegítő lehetőségek → Nagyítás → Nagyítás: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Kisegítő lehetőségek → Nagyítás → Fókusz követése: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Kisegítő lehetőségek → Nagyítás → Intelligens gépelés: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Kisegítő lehetőségek → Nagyítás → Billentyűparancsok: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Kisegítő lehetőségek → Nagyítás → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Kisegítő lehetőségek → Nagyítás → Keyboard Shortcuts → Billentyűparancsok: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Kisegítő lehetőségek → Nagyítás → Keyboard Shortcuts → Nagyítási szint beállítása: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Kisegítő lehetőségek → Nagyítás → Keyboard Shortcuts → Nagyítás be- és kikapcsolása: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Kisegítő lehetőségek → Nagyítás → Keyboard Shortcuts → Nagyítás ablak mozgatása: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Kisegítő lehetőségek → Nagyítás → Keyboard Shortcuts → A Nagyítás átméretezése: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Kisegítő lehetőségek → Nagyítás → Keyboard Shortcuts → Nagyítási terület átváltása: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Kisegítő lehetőségek → Nagyítás → Keyboard Shortcuts → A nagyítás ideiglenes be- és kikapcsolása: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Kisegítő lehetőségek → Nagyítás → Keyboard Shortcuts → Nagyítás a görgetőkerékkel: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Kisegítő lehetőségek → Nagyítás → Nagyításvezérlő: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Kisegítő lehetőségek → Nagyítás → Régió nagyítása: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Kisegítő lehetőségek → Nagyítás → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Kisegítő lehetőségek → Nagyítás → Zoom Region → Teljes képernyős nagyítás: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Kisegítő lehetőségek → Nagyítás → Zoom Region → Ablak nagyítása: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Kisegítő lehetőségek → Nagyítás → Maximális nagyítási szint: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Kisegítő lehetőségek → Nagyítás → Nagyításszűrő: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Kisegítő lehetőségek → Nagyítás → Megjelenítés tükrözéskor: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Kisegítő lehetőségek → Lebegő szöveg: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Kisegítő lehetőségek → Kijelző és szövegméret: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Félkövér szöveg: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Nagyobb szöveg: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Gombalakzatok: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Be/ki címkék: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Átlátszóság csökkentése: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Kontraszt növelése: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Differenciálás színek nélkül: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Intelligens invertálás: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Klasszikus invertálás: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Színszűrők: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Color Filters → Színszűrők: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Fehérpont csökkentése: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Kisegítő lehetőségek → Kijelző és szövegméret → Automatikus fényerő: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Kisegítő lehetőségek → Mozgás: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Kisegítő lehetőségek → Mozgás → Mozgás csökkentése: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Kisegítő lehetőségek → Mozgás → Üzeneteffektek automatikus lejátszása: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Kisegítő lehetőségek → Mozgás → Automatikus video-előnézet: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Kisegítő lehetőségek → Felolvasott tartalom: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Kisegítő lehetőségek → Felolvasott tartalom → Kijelölés kimondása: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Kisegítő lehetőségek → Felolvasott tartalom → Képernyő kimondása: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Kisegítő lehetőségek → Felolvasott tartalom → Beszédvezérlő: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Kisegítő lehetőségek → Felolvasott tartalom → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Kisegítő lehetőségek → Felolvasott tartalom → Speech Controller → Egérgombok testreszabása: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Kisegítő lehetőségek → Felolvasott tartalom → Tartalom kiemelése: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Kisegítő lehetőségek → Felolvasott tartalom → Gépelési visszajelzés: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Kisegítő lehetőségek → Felolvasott tartalom → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Kisegítő lehetőségek → Felolvasott tartalom → Typing Feedback → Karakter-visszajelzés: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Kisegítő lehetőségek → Felolvasott tartalom → Typing Feedback → Karakterek: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Kisegítő lehetőségek → Felolvasott tartalom → Typing Feedback → Karaktertippek: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Kisegítő lehetőségek → Felolvasott tartalom → Typing Feedback → Szavak kimondása: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Kisegítő lehetőségek → Felolvasott tartalom → Typing Feedback → Automatikus szöveg kimondása: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Kisegítő lehetőségek → Felolvasott tartalom → Typing Feedback → Javaslatok kimondatása: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Kisegítő lehetőségek → Felolvasott tartalom → Beszédhangok: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Kisegítő lehetőségek → Felolvasott tartalom → Alapértelmezett nyelv: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Kisegítő lehetőségek → Felolvasott tartalom → Nyelvek felismerése: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Kisegítő lehetőségek → Felolvasott tartalom → Beszédsebesség: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Kisegítő lehetőségek → Felolvasott tartalom → Kiejtések: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Kisegítő lehetőségek → Audioleírások: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Kisegítő lehetőségek → Audioleírások → Audioleírások: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Kisegítő lehetőségek → Fizikai és motoros funkciók: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Kisegítő lehetőségek → Érintés: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Legfelső szintű menü testreszabása: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Customize Top Level Menu → Koppintson egy ikonra a módosításhoz:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Customize Top Level Menu → Alaphelyzetbe állítás…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Egyéni műveletek: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Egyszeres koppintás: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Dupla koppintás: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Double-Tap → Dupla koppintás időtúllépése: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Hosszú megnyomás: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Long Press → Hosszú megnyomás időtartama: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Egyéni kézmozdulatok: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Új kézmozdulat…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Tétlenség átlátszósága: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mutatóeszközök: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Eszközök: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Devices → Bluetooth-eszközök…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Egérbillentyűk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mutató stílusa: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mutató stílusa → Méret: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mutató stílusa → Látványelem: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mutató stílusa → Szín: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mutató stílusa → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mutató stílusa → SOMETHING IDK → Egérgombok testreszabása: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mutató stílusa → Automatikus elrejtés: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mutató stílusa → NEEDS_OVERRIDE_612 → Automatikus elrejtés: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Képernyő-billentyűzet megjelenítése: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Menü megjelenítése: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Nyugalmi vezérlő: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Mozgás tűréshatára: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Követés érzékenysége: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Tartalék művelet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Aktív sarkok: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Kisegítő lehetőségek → Érintés → AssistiveTouch → Játékvezérlő használata: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Kisegítő lehetőségek → Érintés → 3D és haptikus érintés: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_613 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_613 → A 3D Touch érzékenysége: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_613 → Érintés időtartama: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_613 → Gyors: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_613 → Lassú: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_613 → A 3D Touch érzékenységének és érintési időtartamának tesztelése: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Kisegítő lehetőségek → Érintés → Érintési beállítások: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_614 → Érintési beállítások: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_614 → Érintés időtartama: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_614 → Ismétlés mellőzése: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_614 → Érintésasszisztencia: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_614 → Ki: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_614 → Az első érintés helyének használata: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_614 → Az utolsó érintés helyének használata: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Kisegítő lehetőségek → Érintés → Felébresztés koppintással: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Kisegítő lehetőségek → Érintés → Koppintás vagy legyintés a felébresztéshez: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Kisegítő lehetőségek → Érintés → Visszavonás megrázással: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Kisegítő lehetőségek → Érintés → Rezgés: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Kisegítő lehetőségek → Érintés → A hívás zárolás általi befejezésének megakadályozása: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Kisegítő lehetőségek → Érintés → Hanghívás-átirányítás: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_615 → Automatikus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_615 → Bluetooth-headset: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_615 → Hangszóró: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Kisegítő lehetőségek → Érintés → NEEDS_OVERRIDE_615 → Automatikus hívásfogadás: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Kisegítő lehetőségek → Face ID és figyelem: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Kisegítő lehetőségek → Face ID és figyelem → Figyelem szükséges a Face ID-hoz: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Kisegítő lehetőségek → Face ID és figyelem → Figyelemérzékelő funkciók: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Kisegítő lehetőségek → Face ID és figyelem → Haptikus jelzések: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Kisegítő lehetőségek → Face ID és figyelem → Haptikus jelzés sikeres hitelesítéskor: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Kisegítő lehetőségek → Kapcsolóvezérlés: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Kapcsolóvezérlés: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Kapcsolók: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_616 → Új kapcsoló hozzáadása…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_616 → Bluetooth-eszközök…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Sémák: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Beolvasási mód: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_617 → Automatikus beolvasás: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_617 → Kézi beolvasás: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_617 → Egykapcsolós léptető beolvasás: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Időzítés: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Automatikus beolvasás ideje: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_618 → Automatikus beolvasás ideje: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Szünet az első elemnél: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_619 → Szünet az első elemnél: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Mozgatás ismétlése: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_620 → Mozgatás ismétlése: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Hosszú megnyomás: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_621 → Hosszú megnyomás: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Koppintás viselkedése: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_622 → Alapértelmezett: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_622 → Automatikus koppintás: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_622 → Mindig koppintás: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Koppintás után a fókuszált elem: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_623 → Első elem: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_623 → Jelenlegi elem: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Billentyűzet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Megegyező billentyű szkennelése koppintás után: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Automatikus billentyűzetkoppintás: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Kibővített javaslatok: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Kapcsoló stabilizálása: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Érintés időtartama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_624 → Érintés időtartama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Ismétlés mellőzése: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_625 → Ismétlés mellőzése: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Pont beolvasása: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Csúszó kurzor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_626 → Kijelölési mód: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_626 → Egyszeres: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_626 → Finomított: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_626 → Pontos: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_626 → Csúszó kurzor sebessége: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Fejkövetés: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_627 → Fejkövetés: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Hang: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Hangeffektusok: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Beszéd: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_628 → Beszédhangok: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_628 → Beszédsebesség: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Menüpontok: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Elemek csoportosítása: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Látványelem: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Nagy kurzor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → Kézmozdulatok: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → NEEDS_OVERRIDE_629 → Új kézmozdulat…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Kisegítő lehetőségek → Kapcsolóvezérlés → A kurzor színe: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Kisegítő lehetőségek → Hangvezérlés: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Kisegítő lehetőségek → Hangvezérlés → Hangvezérlés beállítása: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Kisegítő lehetőségek → Hangvezérlés → Nyelv: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Kisegítő lehetőségek → Hangvezérlés → NEEDS_OVERRIDE_630 → Angol (Egyesült Államok): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Kisegítő lehetőségek → Hangvezérlés → Parancsok testreszabása: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Kisegítő lehetőségek → Hangvezérlés → Szójegyzék: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Kisegítő lehetőségek → Hangvezérlés → Parancsvisszajelzés: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Kisegítő lehetőségek → Hangvezérlés → Megerősítés megjelenítése: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Kisegítő lehetőségek → Hangvezérlés → Hang lejátszása: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Kisegítő lehetőségek → Hangvezérlés → Emlékeztetők megjelenítése: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Kisegítő lehetőségek → Hangvezérlés → Folyamatos rátét: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Kisegítő lehetőségek → Hangvezérlés → Rátét: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Kisegítő lehetőségek → Hangvezérlés → NEEDS_OVERRIDE_631 → Nincs: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Kisegítő lehetőségek → Hangvezérlés → NEEDS_OVERRIDE_631 → Elemszámok: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Kisegítő lehetőségek → Hangvezérlés → NEEDS_OVERRIDE_631 → Elemnevek: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Kisegítő lehetőségek → Hangvezérlés → NEEDS_OVERRIDE_631 → Számozott rács: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Kisegítő lehetőségek → Hangvezérlés → Figyelemérzékelő: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Kisegítő lehetőségek → Oldalsó gomb: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Kisegítő lehetőségek → Oldalsó gomb → Kattintási sebesség: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Kisegítő lehetőségek → Oldalsó gomb → Alapértelmezett: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Kisegítő lehetőségek → Oldalsó gomb → Lassú: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Kisegítő lehetőségek → Oldalsó gomb → Leglassabb: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Kisegítő lehetőségek → Oldalsó gomb → Lenyomva tartás beszédhez: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Kisegítő lehetőségek → Oldalsó gomb → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Kisegítő lehetőségek → Oldalsó gomb → Klasszikus hangvezérlés: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Kisegítő lehetőségek → Oldalsó gomb → Ki: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Kisegítő lehetőségek → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Kisegítő lehetőségek → Apple TV Remote → Iránymutató gombok: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Kisegítő lehetőségek → Apple Watch távoli képernyője: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Kisegítő lehetőségek → Billentyűzetek: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Kisegítő lehetőségek → Billentyűzetek → Teljes elérés billentyűzettel: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_632 → Teljes elérés billentyűzettel: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_632 → Látványelemek: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_632 → Automatikus elrejtés: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_632 → Nagy fókuszgyűrű: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_632 → Szín: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Kisegítő lehetőségek → Billentyűzetek → Billentyűismétlés: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_633 → Billentyűismétlés: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_633 → Billentyűismétlés intervalluma: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_633 → Ismétlés előtti késleltetés: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Kisegítő lehetőségek → Billentyűzetek → Beragadó billentyűk: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_634 → Beragadó billentyűk: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_634 → Be- vagy kikapcsolás a Shift billentyűvel: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_634 → Hang: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Kisegítő lehetőségek → Billentyűzetek → Lassú billentyűk: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Kisegítő lehetőségek → Billentyűzetek → NEEDS_OVERRIDE_635 → Lassú billentyűk: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Kisegítő lehetőségek → Billentyűzetek → Szoftveres billentyűzetek: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Kisegítő lehetőségek → Billentyűzetek → Kisbetűs billentyűk megjelenítése: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Kisegítő lehetőségek → Hallás: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Kisegítő lehetőségek → Hallókészülékek: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Kisegítő lehetőségek → Hallókészülékek → MFi-hallókészülékek: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Kisegítő lehetőségek → Hallókészülékek → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Kisegítő lehetőségek → Hallókészülékek → Hallókészülék-kompatibilitás: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Kisegítő lehetőségek → Hangfelismerés: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Kisegítő lehetőségek → Hangfelismerés → Hangok: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Kisegítő lehetőségek → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Kisegítő lehetőségek → RTT/TTY → Szoftver-TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Kisegítő lehetőségek → RTT/TTY → Hardver-TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Kisegítő lehetőségek → Hang és kép: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Kisegítő lehetőségek → Hang és kép → Hang: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Kisegítő lehetőségek → Hang és kép → Fejhallgató alkalmazkodása: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Kisegítő lehetőségek → Hang és kép → NEEDS_OVERRIDE_636 → Fejhallgató alkalmazkodása: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Kisegítő lehetőségek → Hang és kép → NEEDS_OVERRIDE_636 → Egyéni hang beállítása: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Kisegítő lehetőségek → Hang és kép → Háttérhangok: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Kisegítő lehetőségek → Hang és kép → Mono hang: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Kisegítő lehetőségek → Hang és kép → Telefon zajkioltása: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Kisegítő lehetőségek → Hang és kép → Balansz: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Kisegítő lehetőségek → Hang és kép → Látványelem: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Kisegítő lehetőségek → Hang és kép → LED villogása a jelzésekhez: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Kisegítő lehetőségek → Hang és kép → NEEDS_OVERRIDE_637 → Vaku használata zárolás feloldásakor: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Kisegítő lehetőségek → Hang és kép → NEEDS_OVERRIDE_637 → Vaku használata néma módban: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Kisegítő lehetőségek → Hang és kép → Bal-jobb sztereó balansz: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Kisegítő lehetőségek → Hang és kép → Be- és kikapcsolási hangok: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Kisegítő lehetőségek → Feliratok és szöveges átiratok: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Kisegítő lehetőségek → Feliratok és szöveges átiratok → Stílus: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Kisegítő lehetőségek → Feliratok és szöveges átiratok → Szöveges átiratok + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Kisegítő lehetőségek → Feliratok és szöveges átiratok → Audioátiratok megjelenítése: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Kisegítő lehetőségek → NEEDS_OVERRIDE_638 → Élő feliratok (béta): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Kisegítő lehetőségek → NEEDS_OVERRIDE_638 → Élő feliratok a FaceTime-ban: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Kisegítő lehetőségek → Általános: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Kisegítő lehetőségek → Irányított hozzáférés: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Kisegítő lehetőségek → Irányított hozzáférés → Irányított hozzáférés: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Kisegítő lehetőségek → Irányított hozzáférés → Jelkódbeállítások: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Kisegítő lehetőségek → Irányított hozzáférés → NEEDS_OVERRIDE_639 → Jelkód az Irányított hozzáféréshez: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Kisegítő lehetőségek → Irányított hozzáférés → Időkorlátok: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Kisegítő lehetőségek → Irányított hozzáférés → NEEDS_OVERRIDE_640 → Jelzés: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Kisegítő lehetőségek → Irányított hozzáférés → NEEDS_OVERRIDE_640 → Hang: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Kisegítő lehetőségek → Irányított hozzáférés → NEEDS_OVERRIDE_640 → Beszéd: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Kisegítő lehetőségek → Irányított hozzáférés → Kisegítő lehetőségek billentyűparancsa: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Kisegítő lehetőségek → Irányított hozzáférés → Kijelző automatikus zárolása: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Kisegítő lehetőségek → Egyéni kisegítő lehetőségek mód: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Kisegítő lehetőségek → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Kisegítő lehetőségek → Siri → Gépelés Sirihez: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Kisegítő lehetőségek → Siri → Beszédhangos válaszok: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Kisegítő lehetőségek → Siri → Automatikus kimondott válaszok: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Kisegítő lehetőségek → Siri → Csendes válaszok előnyben részesítése: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Kisegítő lehetőségek → Siri → Kimondás mellőzése néma módban: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Kisegítő lehetőségek → Siri → A „Hey Siri” mindig legyen felismerve: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Kisegítő lehetőségek → Kisegítő lehetőségek billentyűparancsa: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Kisegítő lehetőségek → Kisegítő lehetőségek billentyűparancsa → Nagyító: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Kisegítő lehetőségek → Apponkénti beállítások: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Kisegítő lehetőségek → Közeli eszközök vezérlése: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Kijelző és fényerő: `prefs:root=DISPLAY`
+- Kijelző és fényerő → Megjelenés: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Kijelző és fényerő → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Kijelző és fényerő → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Kijelző és fényerő → Night Shift → Ütemezett: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Kijelző és fényerő → Night Shift → Manuális engedélyezés holnapig: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Kijelző és fényerő → Night Shift → Színhőmérséklet: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Kijelző és fényerő → Automatikus zárolás: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Kijelző és fényerő → Emelés az ébresztéshez: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Kijelző és fényerő → Zárolás/feloldás: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Kijelző és fényerő → Szövegméret: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Kijelző és fényerő → Félkövér szöveg: `prefs:root=DISPLAY#BOLD_TEXT`
+- Kijelző és fényerő → Kijelzőnagyítás: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Kijelző és fényerő → Nézet: `prefs:root=DISPLAY&path=MAGNIFY`
+- Fertőzéskitettség-értesítés: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_641 → Értesítési jelvények: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_641 → Újonnan letöltött appok: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Főképernyő és multitasking: `prefs:root=HOME_SCREEN_DOCK`
+- Főképernyő és multitasking → NEEDS_OVERRIDE_642 → Appkönyvtár megjelenítése a Dockban: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Főképernyő és multitasking → Javasolt és legutóbbi appok a Dockban: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Főképernyő: `prefs:root=HOME_SCREEN`
+- Főképernyő → Újonnan letöltött appok: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Főképernyő → Értesítési jelvények: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID és jelkód: `prefs:root=PASSCODE`
+- Touch ID és jelkód → Jelkód kikapcsolása: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID és jelkód → Jelkód módosítása: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID és jelkód → Jelkód igénylése: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID és jelkód → Hangtárcsázás: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID és jelkód → Elérés engedélyezése zárolásnál: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID és jelkód → Válasz üzenettel: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID és jelkód → Otthonvezérlés: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID és jelkód → Tárca: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID és jelkód → Nem fogadott hívások visszahívása: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID és jelkód → Adatok törlése: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID és jelkód → Feloldás Apple Watchcsal: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Podcastok: `prefs:root=PODCASTS`
+- Vészhelyzet – SOS: `prefs:root=EMERGENCY_SOS`
+- Vészhelyzet – SOS → Hívás az oldalsó gombbal: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Vészhelyzet – SOS → Automatikus hívás: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Vészhelyzet – SOS → Fontos elérhetőségek: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Vészhelyzet – SOS → Visszaszámláláshang: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Hangok: `prefs:root=Sounds`
+- Hangok → Fejhallgató-biztonság: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Hangok → Fejhallgató-biztonság → Lightning-adapterek: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Hangok → Fejhallgató-biztonság → Fejhallgatóval kapcsolatos értesítések: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Hangok → Fejhallgató-biztonság → Hangerő-korlátozás: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Hangok → Hangeffektusok: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Hangok → Csengő és jelzések: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Hangok → Állítás a gombokkal: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Hangok → Hangok és rezgésminták: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Hangok → Csengőhang: `prefs:root=Sounds&path=Ringtone`
+- Hangok → SMS-hang: `prefs:root=Sounds&path=Text_Messages`
+- Hangok → Új hangposta: `prefs:root=Sounds&path=Voicemail`
+- Hangok → Új levél: `prefs:root=Sounds&path=NEW_MAIL`
+- Hangok → Elküldött levél: `prefs:root=Sounds&path=SENT_MAIL`
+- Hangok → Naptárjelzések: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Hangok → Emlékeztetőjelzések: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Hangok → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Hangok → Billentyűhangok: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Hangok → Zárolási hang: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Időjárás: `prefs:root=WEATHER`
+- Iránytű: `prefs:root=COMPASS`
+- Iránytű → Valódi észak használata: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Vezérlőközpont: `prefs:root=ControlCenter`
+- Vezérlőközpont → Hozzáférés appból: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Vezérlőközpont → Vezérlők testreszabása: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Fejlesztő: `prefs:root=DEVELOPER_SETTINGS`
+- Fejlesztő → Több útvonalas hálózat: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Fejlesztő → Több útvonalas hálózat → Több útvonalas hálózat: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Fejlesztő → Megjelenés: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Fejlesztő → Sötét megjelenés: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Fejlesztő → Párosított eszközök: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Fejlesztő → Megbízható számítógépek törlése: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Fejlesztő → Eszközök: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Fejlesztő → Naplózás: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Fejlesztő → Felhasználóifelület-automatizálás: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Fejlesztő → Hálózatkezelés: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Fejlesztő → Hálózatikapcsolat-kondicionáló: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Fejlesztő → iAd-fejlesztői apptesztelés: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Fejlesztő → Kitöltési arány: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Fejlesztő → Levágott szalagcímek kiemelése: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Fejlesztő → Korlátlan hirdetésmegjelenítés: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Fejlesztő → PassKit tesztelése: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Fejlesztő → További naplózás: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Fejlesztő → HTTP-szolgáltatások engedélyezése: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Fejlesztő → Gyakoriság korlátozásának letiltása: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Fejlesztő → Nem kötelező NFC-belépőkártya: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Fejlesztő → Médiaszolgáltatások tesztelése: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Fejlesztő → AirPlay-alkalmazásjavaslatok: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Fejlesztő → Médiaszolgáltatások alaphelyzetbe állítása: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Fejlesztő → A News tesztelése: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Fejlesztő → Helyi adatok alaphelyzetbe állítása a következő indításkor: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Fejlesztő → Médialejátszó-keretrendszer tesztelése: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Fejlesztő → Lejátszható tartalom API-ja: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Fejlesztő → Televíziószolgáltató tesztelése: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Fejlesztő → Televíziószolgáltatók: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Fejlesztő → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Fejlesztő → CoreSpotlight-tesztelés: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Fejlesztő → Összes elem újraindexelése: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Fejlesztő → Az azonosítóval rendelkező összes elem újraindexelése: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Fejlesztő → Parancsok tesztelése: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Fejlesztő → Legutóbbi parancsok megjelenítése: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Fejlesztő → Közelgő média megjelenítése: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Fejlesztő → Adományok megjelenítése a zárolási képernyőn: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Fejlesztő → A parancsok Watchra történő szinkronizálásának kényszerítése: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Fejlesztő → MIDI-CI-tesztelés: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Fejlesztő → MIDI-CI engedélyezése: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Egészség: `prefs:root=HEALTH`
+- Mérés: `prefs:root=MEASURE`
+- Mérés → Mértékegységek: `prefs:root=MEASURE#MEASURE_UNITS`
+- Mérés → Angolszász: `prefs:root=MEASURE#Imperial`
+- Mérés → Metrikus: `prefs:root=MEASURE#Metric`
+- Zene: `prefs:root=MUSIC`
+- Zene → Az Apple Music megjelenítése: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Zene → Lejátszásilista-dalok hozzáadása: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Zene → Csillagértékelések: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Zene → Könyvtár szinkronizálása: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Zene → Mobil adatforgalom: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Zene → Letöltött zene: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Zene → Tárhely optimalizálása: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Zene → Automatikus letöltések: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Zene → Hangszínszabályzó: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Zene → Normalizálás: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Zene → Hallgatási előzmények használata: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Jegyzetek: `prefs:root=NOTES`
+- Jegyzetek → Alapértelmezett fiók: `prefs:root=NOTES&path=Default%20Account`
+- Jegyzetek → Jelszó: `prefs:root=NOTES&path=Password`
+- Jegyzetek → A jegyzetek rendezése: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Jegyzetek → Az új jegyz. kezdete: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Jegyzetek → Bejelölt elemek rendezése: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Jegyzetek → Vonalak és rácsok: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Jegyzetek → Mentés a Fotókba: `prefs:root=NOTES#Save%20to%20Photos`
+- Jegyzetek → Jegyzetek a zárolási képernyőről: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Üzenetek: `prefs:root=MESSAGES`
+- Fordító: `prefs:root=TRANSLATE`
+- Fordító → Eszközön történő feldolgozás: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Televíziószolgáltató: `prefs:root=VIDEO_SUBSCRIBER`
+- Hangjegyzetek: `prefs:root=VOICE_MEMOS`
+- Hangjegyzetek → Töröltek eltávolítása: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Hangjegyzetek → Hangminőség: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Hangjegyzetek → Helyzetalapú elnevezés: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Formátumok: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Formátumok → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → NEEDS_OVERRIDE_643 → HDR-videó: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Beállítások megőrzése: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Beállítások megőrzése → Kameramód: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Rács: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → QR-kódok beolvasása: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Térképek: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Kontaktok: `prefs:root=CONTACTS`
+- Kontaktok → Hozzáférés engedélyezése a Kontaktok számára: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontaktok → Siri és keresés: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontaktok → Rendezési sorrend: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontaktok → Kijelzési sorrend: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontaktok → Rövid név: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontaktok → Rövid név → Rövid név: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontaktok → Rövid név → Becenevek előnyben részesítése: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontaktok → Saját információk: `prefs:root=CONTACTS&path=MeCard`
+- Kontaktok → SIM-kontaktok importálása: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Könyvek: `prefs:root=IBOOKS`
+- Könyvek → Online tartalom: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Könyvek → SZINKRONIZÁLÁS: `prefs:root=IBOOKS#SYNCING`
+- Könyvek → Most olvasott: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Könyvek → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Könyvek → OLVASÁS: `prefs:root=IBOOKS#READING`
+- Könyvek → Sorkizárás: `prefs:root=IBOOKS#BKFullJustification`
+- Könyvek → Automatikus elválasztás: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Könyvek → Lapozás mindkét margóval: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Könyvek → Olvasási célok: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Könyvek → Olvasási célok adatainak törlése: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Könyvek → KERESÉS: `prefs:root=IBOOKS#SEARCHING`
+- Könyvek → Book Store: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Könyvek → HANGOSKÖNYV: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Könyvek → Léptetés előre: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Könyvek → Visszaugrás: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Könyvek → KÜLSŐ VEZÉRLŐK: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Könyvek → Következő/előző: `prefs:root=IBOOKS#Next/Previous`
+- Könyvek → Léptetés előre/vissza: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Könyvek → ADATVÉDELEM: `prefs:root=IBOOKS#PRIVACY`
+- Könyvek → Azonosító alaphelyzetbe állítása: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Könyvek → Nyilatkozatok: `prefs:root=IBOOKS&path=Acknowledgements`
+- Naptár: `prefs:root=CALENDAR`
+- Naptár → Időzóna felülbírálása: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Naptár → Alternatív naptárak: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Naptár → Hetek száma: `prefs:root=CALENDAR#Week%20Numbers`
+- Naptár → Elutasított meghívások megjelenítése: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Naptár → Szinkronizálás: `prefs:root=CALENDAR&path=Sync`
+- Naptár → Alapértelmezett jelzésidő: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Naptár → Ekkor indul a hét: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Naptár → Javasolt helyek: `prefs:root=CALENDAR#Location%20Suggestions`
+- Mail: `prefs:root=MAIL`
+- Mail → Fiókok: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Fiókok → Fiók hozzáadása: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Fiókok → Új adatok begyűjtése: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Előnézet: `prefs:root=MAIL&path=Preview`
+- Mail → Címzett/Másolat: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Legyintés beállításai: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Kérdezés törlés előtt: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Képek betöltése: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Szálakra rendezés: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Olvasott üzenetek összecsukása: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Újabb üzenetek felül: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Teljes szálak megjelenítése: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Némítottszál-művelet: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Blokkolt küldők figyelmen kívül hagyása: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Letiltott: `prefs:root=MAIL&path=Blocked`
+- Mail → Bcc magamnak: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Címek megjelölése: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Idézetszint növelése: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Mellékletek válaszokba foglalása: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Aláírás: `prefs:root=MAIL&path=Signature`
+- Telefon: `prefs:root=Phone`
+- Telefon → Saját szám: `prefs:root=Phone&path=My%20Number`
+- Telefon → Bejövő hívások: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Hívások bejelentése: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → SMS-ek/hívások jelentése: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Válasz szöveges üzenettel: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Hívásátirányítás: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Hívásátirányítás → Hívásátirányítás: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Hívásvárakoztatás: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Hívószámkijelzés: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Hívószámkijelzés → NEEDS_OVERRIDE_644 → Hívószámkijelzés: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Ismeretlen hívók némítása: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Letiltott kontaktok: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Tárcsázási segítség: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → Tartalomblokkoló: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Felugrók blokkolása: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Nyomkövetés megelőzése: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Automatikus kitöltés: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Letöltések: `prefs:root=SAFARI&path=DOWNLOADS`
+- Jelszavak: `prefs:root=PASSWORDS`
+- Jelszavak → Jelszavak automatikus kitöltése: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Fotók: `prefs:root=Photos`
+- Fotók → iCloud-fotók: `prefs:root=Photos#iCloudPhotosSwitch`
+- Fotók → Tárhely optimalizálása: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Fotók → Letöltés és eredetik megőrzése: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Fotók → Saját fotóstream: `prefs:root=Photos#PhotoStreamSwitch`
+- Fotók → Megosztott albumok: `prefs:root=Photos#SharedStreamsSwitch`
+- Fotók → Mobil adatforgalom: `prefs:root=Photos&path=CellularDataLinkList`
+- Fotók → Videók automatikus lejátszása: `prefs:root=Photos#VideoAutoplaySwitch`
+- Fotók → Teljes HDR megtekintése: `prefs:root=Photos#ImageModulationSwitch`
+- Fotók → Ünnepnapra eső események: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Fotók → Átvitel Macre vagy PC-re: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Automatikus letöltések: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Appfrissítések: `prefs:root=STORE#App%20Updates`
+- App Store → Appletöltések: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Videó automatikus lejátszása: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Appon belüli értékelések és vélemények: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Sztori előnézetének megjelenítése: `prefs:root=NEWS#show_excerpt_mode`
+- News → Sztorik korlátozása a Mai nézetben: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Adatvédelem: `prefs:root=NEWS#Privacy`
+- News → Azonosító alaphelyzetbe állítása: `prefs:root=NEWS#reset_identifier`
+- News → Nyilatkozatok: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_645 → Repülőgép mód: `prefs:root=ROOT#AIRPLANE_MODE`
+- Emlékeztetők: `prefs:root=REMINDERS`
+- Emlékeztetők → Alapértelmezett lista: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Emlékeztetők → Alapértelmezett lista → Emlékeztetők: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Emlékeztetők → Mai értesítés: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Emlékeztetők → Megjelenítés lejártként: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Akkumulátor: `prefs:root=BATTERY_USAGE`
+- Akkumulátor → Alacsony töltöttségű mód: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Akkumulátor → Akku állapota: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Parancsok: `prefs:root=SHORTCUTS`
+- Parancsok → iCloud-szinkronizálás: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Parancsok → Parancssorrend szinkronizálása: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Parancsok → Jogi nyilatkozatok: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri és keresés: `prefs:root=SIRI`
+- Siri és keresés → Siri engedélyezése zárolásnál: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri és keresés → Nyelv: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri és keresés → Siri-beszédhang: `prefs:root=SIRI&path=VOICE_ID`
+- Siri és keresés → Beszédhangos visszajelzés: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri és keresés → Saját információk: `prefs:root=SIRI&path=MY_INFO`
+- Siri és keresés → Javaslatok a Keresésben: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri és keresés → Javaslatok a Definiálásban: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri és keresés → Zárolásiképernyő-javaslatok: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Részvények: `prefs:root=STOCKS`
+- Részvények → Adatvédelem: `prefs:root=STOCKS#Privacy`
+- Részvények → Azonosító alaphelyzetbe állítása: `prefs:root=STOCKS#reset_identifier`
+- Mobilhálózat: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilhálózat → Mobiladat-lehetőségek: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilhálózat → Mobiladat-lehetőségek → Alacsony adatforgalmú mód: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilhálózat → Mobil adatforgalom: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → Mobiladat-hálózat használata a lejátszáshoz: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → Lejátszás minősége: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → Vásárlások és kölcsönzések: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → Otthoni megosztás: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Háttérkép: `prefs:root=Wallpaper`

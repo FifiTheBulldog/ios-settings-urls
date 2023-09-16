@@ -1,0 +1,411 @@
+- Доступність: `bridge:root=ACCESSIBILITY`
+- Доступність → Зір: `bridge:root=ACCESSIBILITY#VISION`
+- Доступність → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Доступність → Зум: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Доступність → Жирний шрифт: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- Доступність → Мітки «Увімк./Вимк.»: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- Доступність → Монохромний: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- Доступність → Зменшення прозорості: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- Доступність → Зменшення руху: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- Доступність → Taptic Chimes: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- Доступність → Taptic Chimes → Дзвони: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- Доступність → Taptic Chimes → Розклад: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- Доступність → Taptic Chimes → Розклад → Погодинно: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- Доступність → Taptic Chimes → Розклад → 30 хвилин: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- Доступність → Taptic Chimes → Розклад → 15 хвилин: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- Доступність → Taptic Chimes → Звуки: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- Доступність → Taptic Chimes → Звуки → Дзвоники: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- Доступність → Taptic Chimes → Звуки → Птахи: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- Доступність → Мотор: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- Доступність → Темп клацання бічної кнопки: `bridge:root=ACCESSIBILITY&path=SideButton`
+- Доступність → Темп клацання бічної кнопки → Темп клацання: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- Доступність → Темп клацання бічної кнопки → Типово: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Доступність → Темп клацання бічної кнопки → Повільно: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Доступність → Темп клацання бічної кнопки → Найповільніше: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Доступність → Адаптації дотику: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- Доступність → Адаптації дотику → Адаптації дотику: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Доступність → Адаптації дотику → Тривалість тримання: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- Доступність → Адаптації дотику → Ігнорувати повтор: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- Доступність → Адаптації дотику → Асистент дотику: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- Доступність → Адаптації дотику → Вимкнено: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- Доступність → Адаптації дотику → Місце початку дотику: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Доступність → Адаптації дотику → Місце кінця дотику: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Доступність → АКТИВНІСТЬ НА ВІЗКУ: `bridge:root=ACCESSIBILITY#MOBILITY`
+- Доступність → Рація: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- Доступність → Торкни і говори: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- Доступність → Слух: `bridge:root=ACCESSIBILITY#HEARING`
+- Доступність → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- Доступність → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- Доступність → RTT → Номер шлюзу: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- Доступність → RTT → Відправити негайно: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- Доступність → RTT → Типові відповіді: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- Доступність → RTT → Типові відповіді → Типові відповіді: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- Доступність → RTT → Типові відповіді → Додати відповідь…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- Доступність → Монозвук: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- Доступність → Баланс стереозвуку: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- Доступність → Сповіщення навушників: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- Доступність → Слухові пристрої: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- Доступність → Функція циферблата: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- Доступність → Функція циферблата → Гучність мікрофона: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Доступність → Функція циферблата → Програма: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- Доступність → Швидкість Taptic-часу: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- Доступність → Спеціальне спрощення: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- undefined: `bridge:root=ActiveWatch`
+- undefined → Спарити новий годинник: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Подання: `bridge:root=APP_VIEW_ID`
+- Загальні: `bridge:root=GENERAL_LINK`
+- Загальні → Про пристрій: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Загальні → Про пристрій → Імʼя: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Загальні → Про пристрій → Обмежена гарантія: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- Загальні → Про пристрій → Обмежена гарантія → Обмежена гарантія: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- Загальні → Про пристрій → Обмежена гарантія → ДЕТАЛІ ПОКРИТТЯ: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- Загальні → Про пристрій → Обмежена гарантія → Гарантія на пристрій: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- Загальні → Про пристрій → Обмежена гарантія → Підтримка: телефон і чат: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- Загальні → Про пристрій → Пісні: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Загальні → Про пристрій → Фотографії: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Загальні → Про пристрій → Програми: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Загальні → Про пристрій → Місткість: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Загальні → Про пристрій → Доступно: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Загальні → Про пристрій → Версія: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Загальні → Про пристрій → Оператор: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Загальні → Про пристрій → Модель: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Загальні → Про пристрій → Серійний номер: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Загальні → Про пристрій → Адреса Wi-Fi: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID`
+- Загальні → Про пристрій → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Загальні → Про пристрій → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Загальні → Про пристрій → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Загальні → Про пристрій → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Загальні → Про пристрій → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Загальні → Про пристрій → Правовий текст: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- Загальні → Про пристрій → Посібник користувача Apple Watch : `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- Загальні → Оновлення ПЗ: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Загальні → Автоінсталювання програм: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Загальні → Режим польоту: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Загальні → Зосередження: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Загальні → Зосередження → Повторювати мій iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Загальні → Годинник ношу: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- Загальні → Годинник ношу → Ношу Apple Watch на: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- Загальні → Годинник ношу → на лівій руці: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- Загальні → Годинник ношу → на правій руці: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- Загальні → Годинник ношу → Коронка Digital Crown зліва: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- Загальні → Годинник ношу → Коронка Digital Crown справа: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- Загальні → Apple ID: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Загальні → Увімкнути Диктування: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Загальні → Увімкнути Handoff: `bridge:root=GENERAL_LINK#CONTINUITY`
+- Загальні → Нічник: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Загальні → Увімкнути знімки екрана: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Загальні → Сховище: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Загальні → Журнали діагностики: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Загальні → Скопіювати аналітику годинника: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Загальні → Скинути: `bridge:root=GENERAL_LINK&path=RESET`
+- Загальні → Автозапуск під час занурення: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Загальні → Автозапуск під час занурення → Автозапуск аудіопрограм: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- Загальні → Мова і регіон: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- Загальні → Мова і регіон → Повторювати мій iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- Загальні → Мова і регіон → Власні: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- Загальні → ПОВЕРТАТИСЯ ДО ЦИФЕРБЛАТА: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- Загальні → ПОВЕРТАТИСЯ ДО ЦИФЕРБЛАТА → ПОВЕРТАТИСЯ ДО ЦИФЕРБЛАТА: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- Загальні → ПОВЕРТАТИСЯ ДО ЦИФЕРБЛАТА → Завжди: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- Загальні → ПОВЕРТАТИСЯ ДО ЦИФЕРБЛАТА → Після 2 хвилин: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Загальні → ПОВЕРТАТИСЯ ДО ЦИФЕРБЛАТА → Після 1 години: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Загальні → ПОВЕРТАТИСЯ ДО ЦИФЕРБЛАТА → ПРОГРАМИ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- Загальні → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Загальні → Wake Screen → Зараз грає: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Дисплей і яскравість: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- Дисплей і яскравість → Яскравість: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- Дисплей і яскравість → Завжди ввімкнено: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- Дисплей і яскравість → Завжди ввімкнено → Завжди ввімкнено: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- Дисплей і яскравість → Завжди ввімкнено → РУКУ ОПУЩЕНО: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Дисплей і яскравість → Завжди ввімкнено → Показувати сповіщення: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- Дисплей і яскравість → Завжди ввімкнено → Показувати сповіщення → Показувати сповіщення: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Дисплей і яскравість → Завжди ввімкнено → Показувати сповіщення → ПРОГРАМИ ДЛЯ APPLE WATCH: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- Дисплей і яскравість → Завжди ввімкнено → Показати програми: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- Дисплей і яскравість → Завжди ввімкнено → Показати програми → Показати програми: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Дисплей і яскравість → Завжди ввімкнено → Показати програми → ПРОГРАМИ: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- Дисплей і яскравість → Розмір шрифту: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- Дисплей і яскравість → Жирний шрифт: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- Дисплей і яскравість → АКТИВНИЙ ЕКРАН: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- Дисплей і яскравість → Підняттям руки: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Дисплей і яскравість → Обертом коронки: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Дисплей і яскравість → Час активності екрана: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- Дисплей і яскравість → Час активності екрана → ЗА ДОТИКОМ: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- Дисплей і яскравість → Час активності екрана → Не спати 15 секунд: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- Дисплей і яскравість → Час активності екрана → Не спати 70 секунд: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- Звуки і гаптика: `bridge:root=SOUNDS_ID`
+- Звуки і гаптика → Гучність сигналів: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Звуки і гаптика → Режим тиші: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Звуки і гаптика → Аудіо навушників: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Звуки і гаптика → Безпечне користування навушниками: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Звуки і гаптика → Безпечне користування навушниками → Сповіщення навушників: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Звуки і гаптика → Безпечне користування навушниками → Приглушити гучні звуки: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Звуки і гаптика → Гаптика: `bridge:root=SOUNDS_ID#Haptics`
+- Звуки і гаптика → Гаптичні оповіщення: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- Звуки і гаптика → Гаптика коронки: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Звуки і гаптика → Системні вібросигнали: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Звуки і гаптика → Прикрити для тиші: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- Сигнал SOS: `bridge:root=SOS_MODE_ID`
+- Приватність: `bridge:root=PRIVACY_ID`
+- Приватність → Серцевий ритм: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- Приватність → Частота дихання: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- Приватність → Відстеження фітнесу: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- Приватність → Скинути дані калібрування фітнесу: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- Приватність → Заміри навколишнього звуку: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- Приватність → Заміри аудіо навушників: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- Приватність → Заміри аудіо навушників → Зберегти в програмі «Здоровʼя»: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- Приватність → Заміри аудіо навушників → На 8 днів: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- Приватність → Заміри аудіо навушників → До видалення мною: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- Приватність → Вимірювати насичення крові киснем: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- Приватність → Температура руки: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Екранний час: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Глибина: `bridge:root=com.apple.DepthCompanionSettings`
+- Кнопка дії: `bridge:root=STING_TITLE`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Автоматичні викачування: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Автооновлення: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Здоровʼя: `bridge:root=com.apple.BridgeHealthSettings`
+- Пошта і Календар: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Пошта і Календар → Облікові записи: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Пошта і Календар → Додати обліковий запис Google…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Пошта і Календар → Витягування: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Пошта і Календар → Витягування → Вимкнено: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Пошта і Календар → Витягування → Погодинно: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Пошта і Календар → Витягування → 30 хв: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Пошта і Календар → Витягування → 15 хв: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Миття рук: `bridge:root=com.apple.BrookBridgeSettings`
+- Миття рук → Дозволити сповіщення: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Миття рук → Слати в Центр сповіщень: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Миття рук → Сповіщення вимкнено: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Миття рук → Групування: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Миття рук → Таймер миття рук: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Стільник: `bridge:root=CELLULAR_ID`
+- Функції циферблата: `bridge:root=COMPLICATIONS`
+- Активність: `bridge:root=com.apple.HealthAppsSettings`
+- Активність → Прогрес-звіт: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Активність → Прогрес-звіт → Немає: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Активність → Прогрес-звіт → Що 2 години: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Активність → Прогрес-звіт → Що 4 години: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Активність → Прогрес-звіт → Що 6 годин: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Активність → Прогрес-звіт → Що 8 годин: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Активність → Досягнення: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Активність → Звіт за тиждень: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Активність → Щоденні настанови: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Активність → Досягнення цілей: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Активність → Особливі виклики: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Активність → Звіти обміну активністю: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Heart Rate: `bridge:root=com.apple.HeartRateSettings`
+- Heart Rate → Серце: `bridge:root=com.apple.HeartRateSettings#1`
+- Heart Rate → Сповіщення про серцевий ритм: `bridge:root=com.apple.HeartRateSettings#2`
+- Heart Rate → Високий серцевий ритм: `bridge:root=com.apple.HeartRateSettings#3`
+- Heart Rate → Низький серцевий ритм: `bridge:root=com.apple.HeartRateSettings#4`
+- Heart Rate → Порушення ритму: `bridge:root=com.apple.HeartRateSettings#5`
+- Heart Rate → Дивитися ЕКГ-записи в Здоровʼї: `bridge:root=com.apple.HeartRateSettings#6`
+- Heart Rate → ЕКГ: `bridge:root=com.apple.HeartRateSettings#7`
+- Повідомлення: `bridge:root=com.apple.MessagesBridgeSettings`
+- Повідомлення → Повторювати мій iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Повідомлення → Власні: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Повідомлення → Типові відповіді: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Повідомлення → Типові відповіді → Типові відповіді: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Повідомлення → Типові відповіді → Короткі відповіді: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Повідомлення → Типові відповіді → Додати відповідь…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Повідомлення → Повторювати оповістки: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Повідомлення → Аудіозвістки: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Усвідомленість: `bridge:root=com.apple.MindSettings`
+- Усвідомленість → Дозволити сповіщення: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Усвідомленість → Слати в Центр сповіщень: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Усвідомленість → Сповіщення вимкнено: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Усвідомленість → Нагадування про усвідомленість: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Усвідомленість → На початку дня: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Усвідомленість → У кінці дня: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Усвідомленість → Додати нагадування…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Усвідомленість → Звіт за тиждень: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Усвідомленість → Сьогодні тиша: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Усвідомленість → Темп: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Усвідомленість → Темп → 4 подихи за хвилину: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Усвідомленість → Темп → 5 подихів за хвилину: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Усвідомленість → Темп → 6 подихів за хвилину: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Усвідомленість → Темп → 7 подихів за хвилину: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Усвідомленість → Темп → 8 подихів за хвилину: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Усвідомленість → Темп → 9 подихів за хвилину: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Усвідомленість → Темп → 10 подихів за хвилину: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Усвідомленість → Гаптика: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Усвідомленість → Гаптика → Немає: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Усвідомленість → Гаптика → Мінімум: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Усвідомленість → Гаптика → Відчутно: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Сон: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Сон → Налаштування сну в програмі «Здоровʼя»: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Аудіокниги: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Аудіокниги → Увійти: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Календар: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Календар → СПОВІЩЕННЯ: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Календар → Повторювати мій iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Календар → Власне…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Календар → КАЛЕНДАРІ: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Годинник: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Годинник → 24-годинний формат: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Годинник → Дзвони: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Годинник → Звуки: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Годинник → Звуки → Дзвоники: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Годинник → Звуки → Птахи: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Годинник → Промовляти час: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Годинник → Керування в режимі тиші: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Годинник → Завжди промовляти: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Годинник → Taptic-час: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Годинник → Taptic-час → Taptic-час: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Годинник → Taptic-час → Цифри: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Годинник → Taptic-час → Коротко: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Годинник → Taptic-час → Азбука Морзе: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Годинник → Оповістки Push з iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Годинник → Індикатор сповіщень: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Годинник → Монограма: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Годинник → Сповіщення про циферблати: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Годинник → Абревіатури міст: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Годинник → Джерела даних облич Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Контакти: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Контакти → Сортувати: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Контакти → Сортувати → Імʼя, прізвище: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Контакти → Сортувати → Прізвище, імʼя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Контакти → Порядок виведення: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Контакти → Порядок виведення → Імʼя, прізвище: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Контакти → Порядок виведення → Прізвище, імʼя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Контакти → Коротке імʼя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Контакти → Коротке імʼя → Коротке імʼя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Контакти → Коротке імʼя → Імʼя та ініціал прізвища: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Контакти → Коротке імʼя → Ініціал імені та прізвище: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Контакти → Коротке імʼя → Тільки імʼя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Контакти → Коротке імʼя → Тільки прізвище: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Контакти → Коротке імʼя → Псевдоніми, якщо є: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Пошта: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Пошта → Повторювати мій iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Пошта → Власні: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Пошта → Параметри Пошти: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Пошта → Облікові записи: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Пошта → Включати пошту: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Пошта → Передогляд листа: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Пошта → Передогляд листа → Немає: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Пошта → Передогляд листа → 1 рядок: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Пошта → Передогляд листа → 2 рядки: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Пошта → Типові відповіді: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Пошта → Типові відповіді → Типові відповіді: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Пошта → Типові відповіді → Додати відповідь…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Пошта → Підпис: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Карти: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Карти → Попередження про повороти: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Карти → За кермом: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Карти → Водіння з CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Карти → Пішки: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Карти → Велосипедом: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Карти → Показ навігації: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Карти → Транспорт: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Карти → Інфо збірки:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Музика: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Музика → ПІДБІРКИ І АЛЬБОМИ: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Музика → Додати музику…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Гаманець і Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Гаманець і Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Гаманець і Apple Pay → Додати картку: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Гаманець і Apple Pay → Сповіщення: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Гаманець і Apple Pay → Повторювати мій iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Гаманець і Apple Pay → Власні: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Фотографії: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Фотографії → Синхронізувати фото: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Фотографії → Спогади: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Фотографії → Синхронізувати спогади: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Фотографії → Добірні фото: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Фотографії → Синхронізувати добірні фото: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Фотографії → Альбом: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Фотографії → Синхронізувати альбом: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Фотографії → Ліміт фото: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Фотографії → Параметри сповіщень: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Фотографії → Повторювати мій iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Фотографії → Власні: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Шум: `bridge:root=com.apple.Noise.settings`
+- Шум → Заміри навколишнього звуку: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Шум → Сповіщення про шум: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Шум → Поріг шуму: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Шум → Поріг шуму → Вимкнено: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Шум → Поріг шуму → 80 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Шум → Поріг шуму → 85 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Шум → Поріг шуму → 90 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Шум → Поріг шуму → 95 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Шум → Поріг шуму → 100 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Шум → Групування: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Кисень у крові: `bridge:root=com.apple.OxygenSaturationSettings`
+- Параметри оператора: `bridge:root=CARRIER_SETTINGS`
+- Вимкнути код допуску: `bridge:root=PASSCODE_ID`
+- Вимкнути код допуску → Увімкнути код допуску: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Вимкнути код допуску → Змінити код допуску: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Вимкнути код допуску → Простий код: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Вимкнути код допуску → Відмикати з iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Вимкнути код допуску → Стерти дані: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Вимкнути код допуску → Виявлення руки: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Телефон: `bridge:root=com.apple.PhoneBridgeSettings`
+- Телефон → Виклики: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Телефон → Мелодія: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Телефон → Звук: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Телефон → Гаптичний: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Тренування: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Тренування → Режим низького заряду: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Тренування → Метричні показники мети: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Тренування → На екрані: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Тренування → Автопауза: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Тренування → Автопауза → Автопауза: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Тренування → Нагадування про початок: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Тренування → Нагадування про кінець: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Тренування → Тисніть для паузи: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Тренування → Виявляти тренажери: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Тренування → Темп/швидкість: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Тренування → Темп/швидкість → Поточна: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Тренування → Темп/швидкість → Середнє: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Тренування → Підбірка для вправ: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Тренування → Підбірка для вправ → Немає: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Тренування → Підбірка для вправ → Підбірки: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Тренування → Почати з початку: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Тренування → Тасувати: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Тренування → Одиниці виміру: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Тренування → Одиниці виміру → Калорії: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Тренування → Одиниці виміру → Кілокалорії: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Тренування → Одиниці виміру → Кілоджоулі: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Тренування → Одиниці виміру → Ярди: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Тренування → Одиниці виміру → Метри: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Тренування → Одиниці виміру → Милі: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Тренування → Одиниці виміру → Кілометри: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Тренування → Голосовий відгук: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Тренування → Час прогулянки: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Тренування → Додавати нові тренування на годинник: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Біржі: `bridge:root=com.apple.StocksBridgeSettings`
+- Біржі → Показувати на циферблаті: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Біржі → Поточну ціну: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Біржі → Зміну в пунктах: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Біржі → Зміну у відсотках: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Біржі → Ринкову капіталізацію: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Біржі → Показувати на циферблаті Siri: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Біржі → Вибрані акції: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Біржі → Вибрані акції → Вибрані акції: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Dock: `bridge:root=DOCK`
+- Dock → Порядок у Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Недавні: `bridge:root=DOCK#Recents`
+- Dock → Улюблені: `bridge:root=DOCK#Favorites`
+- Подкасти: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Запити до Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → Піднеси й кажи: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Натискання Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Голосовий відгук: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Голосовий відгук → Завжди ввімкнено: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Голосовий відгук → Керування в режимі тиші: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Голосовий відгук → Лише навушники: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Гучність голосу: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Пропозиції Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Рація: `bridge:root=com.apple.tincan.settings`
+- Рація → Дозволити сповіщення: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Рація → Слати в Центр сповіщень: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Рація → Сповіщення вимкнено: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Рація → Групування: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Рація → Друзі: `bridge:root=com.apple.tincan.settings#Friends`
+- Погода: `bridge:root=com.apple.weatherbridgesettings`
+- Погода → Типове місто: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Погода → Типове місто → Типове місто: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Погода → Типове місто → Поточне місце: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Звіти про перегляд: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

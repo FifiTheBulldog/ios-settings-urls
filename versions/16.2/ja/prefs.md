@@ -1,0 +1,854 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → iCloudストレージ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → 写真: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → メール: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → 連絡先: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → カレンダー: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → リマインダー: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → メモ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → バックアップ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → ヘルスケア: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → パスワードとキーチェーン: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → プライベートリレー: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → 位置情報を共有: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → 位置情報を共有 → iPhoneを探す: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → 名前、電話番号、メール: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → パスワードとセキュリティ: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → お支払いと配送先: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → サブスクリプション: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → ファミリー: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- プライバシーとセキュリティ: `prefs:root=Privacy`
+- プライバシーとセキュリティ → 個人情報安全性チェック: `prefs:root=Privacy&path=SAFETY_CHECK`
+- プライバシーとセキュリティ → 位置情報: `prefs:root=Privacy&path=LOCATION`
+- プライバシーとセキュリティ → 位置情報 → 位置情報を共有: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- プライバシーとセキュリティ → 連絡先: `prefs:root=Privacy&path=CONTACTS`
+- プライバシーとセキュリティ → カレンダー: `prefs:root=Privacy&path=CALENDARS`
+- プライバシーとセキュリティ → リマインダー: `prefs:root=Privacy&path=REMINDERS`
+- プライバシーとセキュリティ → 写真: `prefs:root=Privacy&path=PHOTOS`
+- プライバシーとセキュリティ → Bluetooth共有: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- プライバシーとセキュリティ → マイク: `prefs:root=Privacy&path=MICROPHONE`
+- プライバシーとセキュリティ → 音声認識: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- プライバシーとセキュリティ → カメラ: `prefs:root=Privacy&path=CAMERA`
+- プライバシーとセキュリティ → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- プライバシーとセキュリティ → メディアとApple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- プライバシーとセキュリティ → 解析: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- プライバシーとセキュリティ → 広告: `prefs:root=Privacy&path=ADVERTISING`
+- プライバシーとセキュリティ → ファイルとフォルダ: `prefs:root=Privacy&path=FILEACCESS`
+- プライバシーとセキュリティ → トラッキング: `prefs:root=Privacy&path=USER_TRACKING`
+- プライバシーとセキュリティ → Appプライバシーレポート: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- プライバシーとセキュリティ → ロックダウンモード: `prefs:root=Privacy#LOCKDOWN_MODE`
+- プライバシーとセキュリティ → ヘルスケア: `prefs:root=Privacy&path=HEALTH`
+- 集中モード: `prefs:root=DO_NOT_DISTURB`
+- 集中モード → 集中モード状況: `prefs:root=DO_NOT_DISTURB&path=status`
+- 一般: `prefs:root=General`
+- 一般 → VPNとデバイス管理: `prefs:root=General&path=ManagedConfigurationList`
+- 一般 → ピクチャインピクチャ: `prefs:root=General&path=PiP_SPEC`
+- 一般 → トラックパッドとマウス: `prefs:root=General&path=POINTERS`
+- 一般 → NFC: `prefs:root=General&path=NFC_LINK`
+- 一般 → VPN: `prefs:root=General&path=VPN`
+- 一般 → CarPlay: `prefs:root=General&path=CARPLAY`
+- 一般 → 情報: `prefs:root=General&path=About`
+- 一般 → 情報 → Trusted Certificates, 信頼できる証明書: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- 一般 → 法律に基づく情報および認証: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- 一般 → ソフトウェアアップデート: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- 一般 → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- 一般 → ホームボタン: `prefs:root=General&path=HOME_BUTTON`
+- 一般 → ジェスチャ: `prefs:root=General#Multitasking_Gesture_Switch`
+- 一般 → サイドスイッチ: `prefs:root=General#Rotation_Switch_Action_Group`
+- 一般 → Appのバックグラウンド更新: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- 一般 → 日付と時刻: `prefs:root=General&path=DATE_AND_TIME`
+- 一般 → テレビ出力: `prefs:root=General&path=TV_OUT`
+- 一般 → 認証: `prefs:root=General&path=REGULATORY`
+- 一般 → リセット: `prefs:root=General&path=Reset`
+- 一般 → リセット → すべての設定をリセット: `prefs:root=General&path=Reset#settingsErase`
+- 一般 → リセット → すべてのコンテンツと設定を消去: `prefs:root=General&path=Reset#fullErase`
+- 一般 → リセット → ネットワーク設定をリセット: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- 一般 → リセット → モバイルデータ通信プランをすべて削除: `prefs:root=General&path=Reset#cellularErase`
+- 一般 → リセット → 加入中のサービス: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- 一般 → リセット → キーボードの変換学習をリセット: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- 一般 → リセット → ホーム画面のレイアウトをリセット: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- 一般 → リセット → 位置情報とプライバシーをリセット: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- 一般 → システム終了: `prefs:root=General#SHUTDOWN_LABEL`
+- 一般 → AirPlayとHandoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- 一般 → AirPlayとHandoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- 一般 → AirPlayとHandoff → HomePodに転送: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- 一般 → AirPlayとHandoff → 自動的にTVへAirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- 一般 → AirPlayとHandoff → 連係カメラ: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- 一般 → 辞書: `prefs:root=General&path=DICTIONARY`
+- 一般 → 言語と地域: `prefs:root=General&path=INTERNATIONAL`
+- 一般 → 言語と地域 → ほかの言語…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- 一般 → 言語と地域 → 使用する言語の優先順序: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- 一般 → 言語と地域 → 言語を追加…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- 一般 → 言語と地域 → 地域: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- 一般 → 言語と地域 → 数: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- 一般 → 言語と地域 → カレンダー: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- 一般 → 言語と地域 → 温度単位: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- 一般 → キーボード: `prefs:root=General&path=Keyboard`
+- 一般 → キーボード → キーボード: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- 一般 → キーボード → テキストの置き換え: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- 一般 → キーボード → 自動大文字入力: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- 一般 → キーボード → 自動修正: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- 一般 → キーボード → スペルチェック: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- 一般 → キーボード → Caps Lockの使用: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- 一般 → キーボード → ショートカット: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- 一般 → キーボード → 予測: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- 一般 → キーボード → スマート句読点: `prefs:root=General&path=Keyboard#SmartTyping`
+- 一般 → キーボード → キーボードを分割: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- 一般 → キーボード → キーフリックを使用: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- 一般 → キーボード → 文字プレビュー: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- 一般 → キーボード → ピリオドの簡易入力: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- 一般 → キーボード → なぞり入力: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- 一般 → キーボード → 音声入力を有効にする: `prefs:root=General&path=Keyboard#Dictation`
+- 一般 → キーボード → 自動句読点: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- 一般 → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- 一般 → iPhone/iPad Storage → ストレージ: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- 一般 → iPhone/iPad Storage → 非使用のAppを取り除く: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- 通知: `prefs:root=NOTIFICATIONS_ID`
+- 通知 → 時刻指定要約: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- ウォレットとApple Pay: `prefs:root=PASSBOOK`
+- ウォレットとApple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- ウォレットとApple Pay → 支払い用カード: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- ウォレットとApple Pay → カードを追加: `prefs:root=PASSBOOK#Add%20Card`
+- ウォレットとApple Pay → サイドボタンをダブルクリック: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- ウォレットとApple Pay → 注文の追跡: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- スクリーンタイム: `prefs:root=SCREEN_TIME`
+- スクリーンタイム → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- スクリーンタイム → See All Activity → 今日: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- スクリーンタイム → See All Activity → 週: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- スクリーンタイム → 休止時間: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- スクリーンタイム → App使用時間の制限: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- スクリーンタイム → 通信/通話の制限: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- スクリーンタイム → 通信/通話の安全性: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- スクリーンタイム → 常に許可: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- スクリーンタイム → コンテンツとプライバシーの制限: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- スクリーンタイム → ペアレンタルコントロール: `prefs:root=SCREEN_TIME#FAMILY`
+- アクセシビリティ: `prefs:root=ACCESSIBILITY`
+- アクセシビリティ → 視覚サポート: `prefs:root=ACCESSIBILITY#VISION`
+- アクセシビリティ → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- アクセシビリティ → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- アクセシビリティ → VoiceOver → 読み上げ速度: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- アクセシビリティ → VoiceOver → 読み上げ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- アクセシビリティ → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- アクセシビリティ → VoiceOver → Speech → 声: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- アクセシビリティ → VoiceOver → 詳細度: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- アクセシビリティ → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- アクセシビリティ → VoiceOver → Verbosity → 句読点および記号: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- アクセシビリティ → VoiceOver → Verbosity → 表のヘッダ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- アクセシビリティ → VoiceOver → Verbosity → メディア説明サービス: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- アクセシビリティ → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- アクセシビリティ → VoiceOver → Verbosity → Media Descriptions → オフ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- アクセシビリティ → VoiceOver → Verbosity → Media Descriptions → 読み上げ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- アクセシビリティ → VoiceOver → Verbosity → Media Descriptions → 点字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- アクセシビリティ → VoiceOver → Verbosity → Media Descriptions → スピーチと点字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- アクセシビリティ → VoiceOver → 点字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- アクセシビリティ → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- アクセシビリティ → VoiceOver → Braille → 出力: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- アクセシビリティ → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- アクセシビリティ → VoiceOver → Braille → Output → 1級英語点字（6点式）: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- アクセシビリティ → VoiceOver → Braille → Output → 1級英語点字（8点式）: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- アクセシビリティ → VoiceOver → Braille → Output → 2級英語点字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- アクセシビリティ → VoiceOver → Braille → 入力: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- アクセシビリティ → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- アクセシビリティ → VoiceOver → Braille → Input → 1級英語点字（6点式）: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- アクセシビリティ → VoiceOver → Braille → Input → 1級英語点字（8点式）: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- アクセシビリティ → VoiceOver → Braille → Input → 2級英語点字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- アクセシビリティ → VoiceOver → Braille → Input → 自動点訳: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- アクセシビリティ → VoiceOver → Braille → 点字画面入力: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- アクセシビリティ → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- アクセシビリティ → VoiceOver → Braille → Braille Screen Input → 1級英語点字（6点式）: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- アクセシビリティ → VoiceOver → Braille → Braille Screen Input → 1級英語点字（8点式）: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- アクセシビリティ → VoiceOver → Braille → Braille Screen Input → 2級英語点字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- アクセシビリティ → VoiceOver → Braille → Braille Screen Input → 点位置を反転: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- アクセシビリティ → VoiceOver → Braille → 点字表: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- アクセシビリティ → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- アクセシビリティ → VoiceOver → Braille → Tables → 点字表を追加…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- アクセシビリティ → VoiceOver → Braille → 状況セル: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- アクセシビリティ → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- アクセシビリティ → VoiceOver → Braille → Status Cell → 状況セルの位置: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- アクセシビリティ → VoiceOver → Braille → Status Cell → 左揃え: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- アクセシビリティ → VoiceOver → Braille → Status Cell → 右揃え: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- アクセシビリティ → VoiceOver → Braille → Status Cell → 一般的な状況を表示: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- アクセシビリティ → VoiceOver → Braille → Status Cell → テキストの状況を表示: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- アクセシビリティ → VoiceOver → Braille → 方程式でNemethコードを使用: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- アクセシビリティ → VoiceOver → Braille → オンスクリーンキーボード表示: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- アクセシビリティ → VoiceOver → Braille → パンでページめくり: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- アクセシビリティ → VoiceOver → Braille → 行折り返し: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- アクセシビリティ → VoiceOver → Braille → 点字警告メッセージ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- アクセシビリティ → VoiceOver → Braille → コードを無視する継続時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- アクセシビリティ → VoiceOver → Braille → 自動前進の継続時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- アクセシビリティ → VoiceOver → オーディオ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- アクセシビリティ → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- アクセシビリティ → VoiceOver → Audio → オーディオダッキング: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- アクセシビリティ → VoiceOver → Audio → 通話でスピーカーを自動選択: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- アクセシビリティ → VoiceOver → Audio → HDMIへ送信: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- アクセシビリティ → VoiceOver → コマンド: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- アクセシビリティ → VoiceOver → アクティビティ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- アクセシビリティ → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- アクセシビリティ → VoiceOver → Activities → プログラミング: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- アクセシビリティ → VoiceOver → Activities → アクティビティを追加…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- アクセシビリティ → VoiceOver → ローター: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- アクセシビリティ → VoiceOver → ローターアクション: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- アクセシビリティ → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- アクセシビリティ → VoiceOver → Rotor Actions → ホーム画面のAppを編集: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- アクセシビリティ → VoiceOver → Rotor Actions → ダイレクトタッチで操作するApp: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- アクセシビリティ → VoiceOver → 入力: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- アクセシビリティ → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- アクセシビリティ → VoiceOver → Typing → 入力モード: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- アクセシビリティ → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- アクセシビリティ → VoiceOver → Typing → Typing Mode → 標準入力モード: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- アクセシビリティ → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- アクセシビリティ → VoiceOver → Typing → Typing Style → タッチ入力モード: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- アクセシビリティ → VoiceOver → Typing → Typing Style → ダイレクトタッチ入力モード: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- アクセシビリティ → VoiceOver → Typing → 文字説明フィードバック: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- アクセシビリティ → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- アクセシビリティ → VoiceOver → Typing → Phonetic Feedback → オフ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- アクセシビリティ → VoiceOver → Typing → Phonetic Feedback → 文字および文字の説明: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- アクセシビリティ → VoiceOver → Typing → Phonetic Feedback → 文字の説明のみ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- アクセシビリティ → VoiceOver → Typing → 入力フィードバック: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- アクセシビリティ → VoiceOver → Typing → 修飾キー: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- アクセシビリティ → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- アクセシビリティ → VoiceOver → Typing → Modifier Keys → Control + Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- アクセシビリティ → VoiceOver → Typing → Modifier Keys → Caps Lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- アクセシビリティ → VoiceOver → Typing → キーボード操作時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- アクセシビリティ → VoiceOver → イメージをナビゲート: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- アクセシビリティ → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- アクセシビリティ → VoiceOver → Include Unlabeled Images → 常にする: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- アクセシビリティ → VoiceOver → Include Unlabeled Images → 説明付き: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- アクセシビリティ → VoiceOver → Include Unlabeled Images → しない: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- アクセシビリティ → VoiceOver → 大きいカーソルを使用: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- アクセシビリティ → VoiceOver → キャプションパネル: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- アクセシビリティ → VoiceOver → ダブルタップのタイムアウト: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- アクセシビリティ → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- アクセシビリティ → VoiceOver → Double-tap Timeout → ダブルタップのタイムアウト: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- アクセシビリティ → VoiceOver → ナビゲーションスタイル: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- アクセシビリティ → VoiceOver → クイック設定: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- アクセシビリティ → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- アクセシビリティ → VoiceOver → Quick Settings → サウンド: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- アクセシビリティ → VoiceOver → Quick Settings → オーディオダッキング: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- アクセシビリティ → VoiceOver → Quick Settings → 音量: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- アクセシビリティ → VoiceOver → Quick Settings → 読み上げ速度: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- アクセシビリティ → VoiceOver → Quick Settings → ヒント: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- アクセシビリティ → VoiceOver → Quick Settings → ナビゲーションスタイル: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- アクセシビリティ → VoiceOver → Quick Settings → 入力モード: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- アクセシビリティ → VoiceOver → Quick Settings → なぞり入力: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- アクセシビリティ → VoiceOver → Quick Settings → アクティビティ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- アクセシビリティ → VoiceOver → Quick Settings → 常に通知を読み上げる: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- アクセシビリティ → VoiceOver → Quick Settings → 点字警告メッセージ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- アクセシビリティ → VoiceOver → Quick Settings → 点字自動前進: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- アクセシビリティ → VoiceOver → Quick Settings → 点字入力: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- アクセシビリティ → VoiceOver → Quick Settings → 点字出力: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- アクセシビリティ → VoiceOver → Quick Settings → 点字表: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- アクセシビリティ → VoiceOver → Quick Settings → キャプションパネル: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- アクセシビリティ → VoiceOver → Quick Settings → ダイレクトタッチ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- アクセシビリティ → VoiceOver → Quick Settings → ジェスチャーの方向: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- アクセシビリティ → VoiceOver → Quick Settings → ハードウェアタイプ入力フィードバック: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- アクセシビリティ → VoiceOver → Quick Settings → 言語: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- アクセシビリティ → VoiceOver → Quick Settings → 大きいカーソルを使用: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- アクセシビリティ → VoiceOver → Quick Settings → メディア説明サービス: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- アクセシビリティ → VoiceOver → Quick Settings → イメージをナビゲート: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- アクセシビリティ → VoiceOver → Quick Settings → 文字説明フィードバック: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- アクセシビリティ → VoiceOver → Quick Settings → ピッチ変更: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- アクセシビリティ → VoiceOver → Quick Settings → 句読点および記号: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- アクセシビリティ → VoiceOver → Quick Settings → HDMIへ送信: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- アクセシビリティ → VoiceOver → Quick Settings → ソフトウェアタイプ入力フィードバック: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- アクセシビリティ → VoiceOver → Quick Settings → ローターで読み上げを確認: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- アクセシビリティ → VoiceOver → Quick Settings → 画像説明: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- アクセシビリティ → VoiceOver → Quick Settings → 画面認識: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- アクセシビリティ → VoiceOver → VoiceOver認識: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- アクセシビリティ → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- アクセシビリティ → VoiceOver → VoiceOver Recognition → 画像説明: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- アクセシビリティ → VoiceOver → VoiceOver Recognition → 画面認識: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- アクセシビリティ → ズーム: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- アクセシビリティ → ズーム → ズーム: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- アクセシビリティ → ズーム → カーソルに追従: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- アクセシビリティ → ズーム → スマート入力モード: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- アクセシビリティ → ズーム → キーボードショートカット: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- アクセシビリティ → ズーム → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- アクセシビリティ → ズーム → Keyboard Shortcuts → キーボードショートカット: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- アクセシビリティ → ズーム → Keyboard Shortcuts → ズームレベルを調整: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- アクセシビリティ → ズーム → Keyboard Shortcuts → ズーム機能のオン/オフ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- アクセシビリティ → ズーム → Keyboard Shortcuts → ズームウインドウを移動: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- アクセシビリティ → ズーム → Keyboard Shortcuts → ズームウインドウのサイズを変更: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- アクセシビリティ → ズーム → Keyboard Shortcuts → ズーム区域を切り替え: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- アクセシビリティ → ズーム → Keyboard Shortcuts → ズームを一時的に切り替え: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- アクセシビリティ → ズーム → Keyboard Shortcuts → スクロールホイールでズーム: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- アクセシビリティ → ズーム → ズームコントローラ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- アクセシビリティ → ズーム → ズーム領域: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- アクセシビリティ → ズーム → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- アクセシビリティ → ズーム → Zoom Region → フルスクリーンズーム: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- アクセシビリティ → ズーム → Zoom Region → ウインドウズーム: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- アクセシビリティ → ズーム → 最大ズームレベル: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- アクセシビリティ → ズーム → ズームフィルタ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- アクセシビリティ → ズーム → ミラーリング中に表示: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- アクセシビリティ → ポイントしたテキストの拡大: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- アクセシビリティ → 画面表示とテキストサイズ: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- アクセシビリティ → 画面表示とテキストサイズ → 文字を太くする: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- アクセシビリティ → 画面表示とテキストサイズ → さらに大きな文字: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- アクセシビリティ → 画面表示とテキストサイズ → ボタンの形: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- アクセシビリティ → 画面表示とテキストサイズ → オン/オフラベル: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- アクセシビリティ → 画面表示とテキストサイズ → 透明度を下げる: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- アクセシビリティ → 画面表示とテキストサイズ → コントラストを上げる: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- アクセシビリティ → 画面表示とテキストサイズ → カラー以外で区別: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- アクセシビリティ → 画面表示とテキストサイズ → 反転（スマート）: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- アクセシビリティ → 画面表示とテキストサイズ → 反転（クラシック）: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- アクセシビリティ → 画面表示とテキストサイズ → カラーフィルタ: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- アクセシビリティ → 画面表示とテキストサイズ → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- アクセシビリティ → 画面表示とテキストサイズ → Color Filters → カラーフィルタ: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- アクセシビリティ → 画面表示とテキストサイズ → ホワイトポイントを下げる: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- アクセシビリティ → 画面表示とテキストサイズ → 明るさの自動調節: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- アクセシビリティ → 動作: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- アクセシビリティ → 動作 → 視差効果を減らす: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- アクセシビリティ → 動作 → メッセージエフェクト自動再生: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- アクセシビリティ → 動作 → ビデオプレビューの自動再生: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- アクセシビリティ → 読み上げコンテンツ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- アクセシビリティ → 読み上げコンテンツ → 選択項目の読み上げ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- アクセシビリティ → 読み上げコンテンツ → 画面の読み上げ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- アクセシビリティ → 読み上げコンテンツ → 読み上げコントローラ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- アクセシビリティ → 読み上げコンテンツ → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- アクセシビリティ → 読み上げコンテンツ → Speech Controller → マウスボタンをカスタマイズ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- アクセシビリティ → 読み上げコンテンツ → 内容を強調表示: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- アクセシビリティ → 読み上げコンテンツ → 入力フィードバック: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- アクセシビリティ → 読み上げコンテンツ → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- アクセシビリティ → 読み上げコンテンツ → Typing Feedback → 文字フィードバック: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- アクセシビリティ → 読み上げコンテンツ → Typing Feedback → 文字: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- アクセシビリティ → 読み上げコンテンツ → Typing Feedback → 文字発音: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- アクセシビリティ → 読み上げコンテンツ → Typing Feedback → 単語を読み上げる: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- アクセシビリティ → 読み上げコンテンツ → Typing Feedback → 自動テキスト読み上げ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- アクセシビリティ → 読み上げコンテンツ → Typing Feedback → 押さえて予測変換を読み上げる: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- アクセシビリティ → 読み上げコンテンツ → 声: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- アクセシビリティ → 読み上げコンテンツ → デフォルトの言語: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- アクセシビリティ → 読み上げコンテンツ → 言語を検出: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- アクセシビリティ → 読み上げコンテンツ → 読み上げ速度: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- アクセシビリティ → 読み上げコンテンツ → 読みかた: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- アクセシビリティ → バリアフリー音声ガイド: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- アクセシビリティ → バリアフリー音声ガイド → バリアフリー音声ガイド: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- アクセシビリティ → 身体機能および操作: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- アクセシビリティ → タッチ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- アクセシビリティ → タッチ → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- アクセシビリティ → タッチ → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → 最上位メニューをカスタマイズ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- アクセシビリティ → タッチ → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- アクセシビリティ → タッチ → AssistiveTouch → Customize Top Level Menu → アイコンをタップして変更:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- アクセシビリティ → タッチ → AssistiveTouch → Customize Top Level Menu → リセット…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- アクセシビリティ → タッチ → AssistiveTouch → カスタムアクション: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → シングルタップ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → ダブルタップ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → Double-Tap → ダブルタップのタイムアウト: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → 長押し: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → Long Press → 長押し継続時間: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → カスタムジェスチャ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- アクセシビリティ → タッチ → AssistiveTouch → 新規ジェスチャを作成…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- アクセシビリティ → タッチ → AssistiveTouch → 待機状態時の不透明度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- アクセシビリティ → タッチ → AssistiveTouch → ポインティングデバイス: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- アクセシビリティ → タッチ → AssistiveTouch → デバイス: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- アクセシビリティ → タッチ → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- アクセシビリティ → タッチ → AssistiveTouch → Devices → Bluetoothデバイス…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- アクセシビリティ → タッチ → AssistiveTouch → マウスキー: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- アクセシビリティ → タッチ → AssistiveTouch → ポインタのスタイル: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- アクセシビリティ → タッチ → AssistiveTouch → ポインタのスタイル → サイズ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- アクセシビリティ → タッチ → AssistiveTouch → ポインタのスタイル → ビジュアル: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- アクセシビリティ → タッチ → AssistiveTouch → ポインタのスタイル → カラー: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- アクセシビリティ → タッチ → AssistiveTouch → ポインタのスタイル → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- アクセシビリティ → タッチ → AssistiveTouch → ポインタのスタイル → SOMETHING IDK → マウスボタンをカスタマイズ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- アクセシビリティ → タッチ → AssistiveTouch → ポインタのスタイル → 自動的に非表示: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- アクセシビリティ → タッチ → AssistiveTouch → ポインタのスタイル → NEEDS_OVERRIDE_714 → 自動的に非表示: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- アクセシビリティ → タッチ → AssistiveTouch → オンスクリーンキーボード表示: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- アクセシビリティ → タッチ → AssistiveTouch → メニューを常に表示: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- アクセシビリティ → タッチ → AssistiveTouch → 滞留コントロール: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → 動きの許容範囲: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → 軌跡の感度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- アクセシビリティ → タッチ → AssistiveTouch → フォールバックアクション: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → ホットコーナー: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- アクセシビリティ → タッチ → AssistiveTouch → ゲームコントローラを使用: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- アクセシビリティ → タッチ → 3D Touchおよび触覚タッチ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_715 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_715 → 3D Touchの感度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_715 → タッチの継続時間: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_715 → 速い: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_715 → 遅い: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_715 → 3D Touchの感度およびタッチ継続時間テスト: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- アクセシビリティ → タッチ → タッチ調整: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_716 → タッチ調整: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_716 → 保持継続時間: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_716 → 繰り返しを無視: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_716 → タップ補助: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_716 → オフ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_716 → タッチ開始位置を使用: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_716 → タッチ終了位置を使用: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- アクセシビリティ → タッチ → タップしてスリープ解除: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- アクセシビリティ → タッチ → タップかスワイプでスリープ解除: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- アクセシビリティ → タッチ → シェイクで取り消し: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- アクセシビリティ → タッチ → バイブレーション: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- アクセシビリティ → タッチ → ロックしたときに着信を終了しない: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- アクセシビリティ → タッチ → 通話オーディオルーティング: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_717 → 自動: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_717 → Bluetoothヘッドセット: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_717 → スピーカー: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- アクセシビリティ → タッチ → NEEDS_OVERRIDE_717 → 自動で電話に出る: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- アクセシビリティ → Face IDと注視: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- アクセシビリティ → Face IDと注視 → Face IDを使用するには注視が必要: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- アクセシビリティ → Face IDと注視 → 画面注視認識機能: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- アクセシビリティ → Face IDと注視 → 触覚: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- アクセシビリティ → Face IDと注視 → 認証に成功したら触覚を再生: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- アクセシビリティ → スイッチコントロール: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- アクセシビリティ → スイッチコントロール → スイッチコントロール: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- アクセシビリティ → スイッチコントロール → スイッチ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_718 → 新しいスイッチを追加…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_718 → Bluetoothデバイス…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- アクセシビリティ → スイッチコントロール → レシピ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- アクセシビリティ → スイッチコントロール → ハイライトのスタイル: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_719 → 自動ハイライト: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_719 → 手動ハイライト: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_719 → 単一スイッチステップハイライト: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- アクセシビリティ → スイッチコントロール → タイミング: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- アクセシビリティ → スイッチコントロール → 自動ハイライトの時間: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_720 → 自動ハイライトの時間: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- アクセシビリティ → スイッチコントロール → 最初の項目で一時停止: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_721 → 最初の項目で一時停止: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- アクセシビリティ → スイッチコントロール → 移動の繰り返し: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_722 → 移動の繰り返し: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- アクセシビリティ → スイッチコントロール → 長押し: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_723 → 長押し: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- アクセシビリティ → スイッチコントロール → タップの動作: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_724 → デフォルト: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_724 → 自動タップ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_724 → 常にタップ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- アクセシビリティ → スイッチコントロール → タップ後にフォーカスされる項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_725 → 最初の項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_725 → 現在の項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- アクセシビリティ → スイッチコントロール → キーボード: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- アクセシビリティ → スイッチコントロール → タップ後に同じキーをスキャン: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- アクセシビリティ → スイッチコントロール → キーボードのキーを常にタップ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- アクセシビリティ → スイッチコントロール → 拡張予測変換: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- アクセシビリティ → スイッチコントロール → スイッチ安定化: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- アクセシビリティ → スイッチコントロール → 保持継続時間: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_726 → 保持継続時間: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- アクセシビリティ → スイッチコントロール → 繰り返しを無視: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_727 → 繰り返しを無視: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- アクセシビリティ → スイッチコントロール → ポイントハイライト: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- アクセシビリティ → スイッチコントロール → グライドカーソル: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_728 → 選択モード: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_728 → シングル: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_728 → 微調整: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_728 → 正確: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_728 → グライドカーソルの速度: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- アクセシビリティ → スイッチコントロール → ヘッドトラッキング: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_729 → ヘッドトラッキング: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- アクセシビリティ → スイッチコントロール → オーディオ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- アクセシビリティ → スイッチコントロール → サウンドエフェクト: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- アクセシビリティ → スイッチコントロール → 読み上げ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_730 → 声: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_730 → 読み上げ速度: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- アクセシビリティ → スイッチコントロール → メニュー項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- アクセシビリティ → スイッチコントロール → 項目をグループ化: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- アクセシビリティ → スイッチコントロール → ビジュアル: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- アクセシビリティ → スイッチコントロール → 大きいカーソルを使用: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- アクセシビリティ → スイッチコントロール → 保存済みのジェスチャ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- アクセシビリティ → スイッチコントロール → NEEDS_OVERRIDE_731 → 新規ジェスチャを作成…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- アクセシビリティ → スイッチコントロール → カーソルの色: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- アクセシビリティ → 音声コントロール: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- アクセシビリティ → 音声コントロール → 音声コントロールを設定: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- アクセシビリティ → 音声コントロール → 言語: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- アクセシビリティ → 音声コントロール → NEEDS_OVERRIDE_732 → 英語（アメリカ）: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- アクセシビリティ → 音声コントロール → コマンドをカスタマイズ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- アクセシビリティ → 音声コントロール → 用語集: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- アクセシビリティ → 音声コントロール → コマンドフィードバック: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- アクセシビリティ → 音声コントロール → 確認を表示: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- アクセシビリティ → 音声コントロール → サウンドを再生: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- アクセシビリティ → 音声コントロール → ヒントを表示: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- アクセシビリティ → 音声コントロール → 持続的オーバーレイ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- アクセシビリティ → 音声コントロール → オーバーレイ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- アクセシビリティ → 音声コントロール → NEEDS_OVERRIDE_733 → なし: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- アクセシビリティ → 音声コントロール → NEEDS_OVERRIDE_733 → 項目番号: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- アクセシビリティ → 音声コントロール → NEEDS_OVERRIDE_733 → 項目名: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- アクセシビリティ → 音声コントロール → NEEDS_OVERRIDE_733 → 番号付きグリッド: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- アクセシビリティ → 音声コントロール → 画面注視認識: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- アクセシビリティ → サイドボタン: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- アクセシビリティ → サイドボタン → クリックの間隔: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- アクセシビリティ → サイドボタン → デフォルト: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- アクセシビリティ → サイドボタン → 遅い: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- アクセシビリティ → サイドボタン → 最も遅い: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- アクセシビリティ → サイドボタン → 押したままにして話す: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- アクセシビリティ → サイドボタン → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- アクセシビリティ → サイドボタン → 音声コントロール（クラシック）: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- アクセシビリティ → サイドボタン → オフ: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- アクセシビリティ → Apple TVリモコン: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- アクセシビリティ → Apple TVリモコン → 方向ボタン: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- アクセシビリティ → Apple Watchリモート画面: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- アクセシビリティ → キーボード: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- アクセシビリティ → キーボード → フルキーボードアクセス: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_734 → フルキーボードアクセス: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_734 → ビジュアル: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_734 → 自動的に非表示: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_734 → 大きなフォーカスリング: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_734 → カラー: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- アクセシビリティ → キーボード → キーのリピート: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_735 → キーのリピート: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_735 → キーのリピート間隔: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_735 → リピート入力認識までの時間: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- アクセシビリティ → キーボード → 複合キー: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_736 → 複合キー: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_736 → Shiftキーで切り替え: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_736 → サウンド: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- アクセシビリティ → キーボード → スローキー: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- アクセシビリティ → キーボード → NEEDS_OVERRIDE_737 → スローキー: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- アクセシビリティ → キーボード → ソフトウェアキーボード: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- アクセシビリティ → キーボード → 小文字キーを表示: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- アクセシビリティ → 聴覚サポート: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- アクセシビリティ → ヒアリングデバイス: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- アクセシビリティ → ヒアリングデバイス → MFiヒアリングデバイス: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- アクセシビリティ → ヒアリングデバイス → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- アクセシビリティ → ヒアリングデバイス → 補聴器の互換性: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- アクセシビリティ → サウンド認識: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- アクセシビリティ → サウンド認識 → サウンド: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- アクセシビリティ → RTT / TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- アクセシビリティ → RTT / TTY → ソフトウェアTTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- アクセシビリティ → RTT / TTY → ハードウェアTTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- アクセシビリティ → オーディオとビジュアル: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- アクセシビリティ → オーディオとビジュアル → オーディオ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- アクセシビリティ → オーディオとビジュアル → ヘッドフォン調整: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- アクセシビリティ → オーディオとビジュアル → NEEDS_OVERRIDE_738 → ヘッドフォン調整: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- アクセシビリティ → オーディオとビジュアル → NEEDS_OVERRIDE_738 → カスタムオーディオ設定: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- アクセシビリティ → オーディオとビジュアル → バックグラウンドサウンド: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- アクセシビリティ → オーディオとビジュアル → モノラルオーディオ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- アクセシビリティ → オーディオとビジュアル → 電話ノイズキャンセリング: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- アクセシビリティ → オーディオとビジュアル → バランス: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- アクセシビリティ → オーディオとビジュアル → ビジュアル: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- アクセシビリティ → オーディオとビジュアル → LEDフラッシュ通知: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- アクセシビリティ → オーディオとビジュアル → NEEDS_OVERRIDE_739 → ロックされていないときに点滅: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- アクセシビリティ → オーディオとビジュアル → NEEDS_OVERRIDE_739 → 消音モードのときに点滅: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- アクセシビリティ → オーディオとビジュアル → ステレオの左右のバランス: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- アクセシビリティ → オーディオとビジュアル → 電源オン/オフのサウンド: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- アクセシビリティ → 標準字幕とバリアフリー字幕: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- アクセシビリティ → 標準字幕とバリアフリー字幕 → スタイル: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- アクセシビリティ → 標準字幕とバリアフリー字幕 → クローズドキャプション+SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- アクセシビリティ → 標準字幕とバリアフリー字幕 → オーディオ発音表記を表示: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- アクセシビリティ → NEEDS_OVERRIDE_740 → ライブキャプション（ベータ版）: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- アクセシビリティ → NEEDS_OVERRIDE_740 → FaceTimeのライブキャプション: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- アクセシビリティ → 一般: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- アクセシビリティ → アクセスガイド: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- アクセシビリティ → アクセスガイド → アクセスガイド: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- アクセシビリティ → アクセスガイド → パスコード設定: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- アクセシビリティ → アクセスガイド → NEEDS_OVERRIDE_741 → アクセスガイドのパスコードを設定: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- アクセシビリティ → アクセスガイド → 時間制限: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- アクセシビリティ → アクセスガイド → NEEDS_OVERRIDE_742 → アラーム: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- アクセシビリティ → アクセスガイド → NEEDS_OVERRIDE_742 → サウンド: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- アクセシビリティ → アクセスガイド → NEEDS_OVERRIDE_742 → 読み上げる: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- アクセシビリティ → アクセスガイド → ショートカット: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- アクセシビリティ → アクセスガイド → 画面の自動ロック: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- アクセシビリティ → カスタムのアクセシビリティモード: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- アクセシビリティ → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- アクセシビリティ → Siri → Siriにタイプ入力: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- アクセシビリティ → Siri → 応答の読み上げ: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- アクセシビリティ → Siri → 自動的な応答の読み上げ: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- アクセシビリティ → Siri → 音声を使用しない応答を優先: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- アクセシビリティ → Siri → 消音モードでは読み上げない: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- アクセシビリティ → Siri → “Hey Siri”を常に聞き取る: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- アクセシビリティ → ショートカット: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- アクセシビリティ → ショートカット → 拡大鏡: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- アクセシビリティ → Appごとの設定: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- アクセシビリティ → 近くのデバイスを操作: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- 画面表示と明るさ: `prefs:root=DISPLAY`
+- 画面表示と明るさ → 外観モード: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- 画面表示と明るさ → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- 画面表示と明るさ → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- 画面表示と明るさ → Night Shift → 時間指定: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- 画面表示と明るさ → Night Shift → 手動で明日まで有効にする: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- 画面表示と明るさ → Night Shift → 色温度: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- 画面表示と明るさ → 自動ロック: `prefs:root=DISPLAY&path=AUTOLOCK`
+- 画面表示と明るさ → 手前に傾けてスリープ解除: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- 画面表示と明るさ → ロック/ロック解除: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- 画面表示と明るさ → テキストサイズを変更: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- 画面表示と明るさ → 文字を太くする: `prefs:root=DISPLAY#BOLD_TEXT`
+- 画面表示と明るさ → 拡大表示: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- 画面表示と明るさ → 表示: `prefs:root=DISPLAY&path=MAGNIFY`
+- 接触通知: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_743 → 通知バッジ: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_743 → 新規ダウンロードApp: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- ホーム画面とマルチタスク: `prefs:root=HOME_SCREEN_DOCK`
+- ホーム画面とマルチタスク → NEEDS_OVERRIDE_744 → AppライブラリをDockに表示: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- ホーム画面とマルチタスク → おすすめApp/最近使用したAppをDockに表示: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- ホーム画面: `prefs:root=HOME_SCREEN`
+- ホーム画面 → 新規ダウンロードApp: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- ホーム画面 → 通知バッジ: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch IDとパスコード: `prefs:root=PASSCODE`
+- Touch IDとパスコード → パスコードをオフにする: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch IDとパスコード → パスコードを変更: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch IDとパスコード → パスコードを要求: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch IDとパスコード → 音声ダイヤル: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch IDとパスコード → ロック中にアクセスを許可: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch IDとパスコード → メッセージで返信: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch IDとパスコード → ホームコントロール: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch IDとパスコード → ウォレット: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch IDとパスコード → 不在着信にかけ直す: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch IDとパスコード → データを消去: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch IDとパスコード → Apple Watchでロック解除: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- ポッドキャスト: `prefs:root=PODCASTS`
+- 緊急SOS: `prefs:root=EMERGENCY_SOS`
+- 緊急SOS → サイドボタンで通報: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- 緊急SOS → 自動通報: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- 緊急SOS → 緊急連絡先: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- 緊急SOS → カウントダウンで音を出す: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- サウンド: `prefs:root=Sounds`
+- サウンド → ヘッドフォンの安全性: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- サウンド → ヘッドフォンの安全性 → Lightningアダプタ: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- サウンド → ヘッドフォンの安全性 → ヘッドフォン通知: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- サウンド → ヘッドフォンの安全性 → 大きな音を抑える: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- サウンド → サウンドエフェクト: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- サウンド → 着信音と通知音: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- サウンド → ボタンで変更: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- サウンド → サウンドとバイブレーションのパターン: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- サウンド → 着信音: `prefs:root=Sounds&path=Ringtone`
+- サウンド → メッセージ: `prefs:root=Sounds&path=Text_Messages`
+- サウンド → 新着留守番電話: `prefs:root=Sounds&path=Voicemail`
+- サウンド → 新着メール: `prefs:root=Sounds&path=NEW_MAIL`
+- サウンド → メール送信: `prefs:root=Sounds&path=SENT_MAIL`
+- サウンド → カレンダーの通知音: `prefs:root=Sounds&path=Calendar%20Alarm`
+- サウンド → リマインダーの通知音: `prefs:root=Sounds&path=Reminder%20Alerts`
+- サウンド → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- サウンド → キーボードのクリック: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- サウンド → ロック時の音: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- 天気: `prefs:root=WEATHER`
+- コンパス: `prefs:root=COMPASS`
+- コンパス → 真北を使用: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- コントロールセンター: `prefs:root=ControlCenter`
+- コントロールセンター → App使用中のアクセス: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- コントロールセンター → コントロールをカスタマイズ: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- デベロッパ: `prefs:root=DEVELOPER_SETTINGS`
+- デベロッパ → マルチパスネットワーク: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- デベロッパ → マルチパスネットワーク → マルチパスネットワーク: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- デベロッパ → 外観モード: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- デベロッパ → ダーク: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- デベロッパ → ペアリング済みのデバイス: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- デベロッパ → 信頼するコンピュータを消去: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- デベロッパ → Instruments: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- デベロッパ → ログ記録: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- デベロッパ → UIオートメーション: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- デベロッパ → ネットワーク: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- デベロッパ → ネットワークリンク調節器: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- デベロッパ → iAdデベロッパAppテスト: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- デベロッパ → フィルレート: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- デベロッパ → 文字切れバナーをハイライト: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- デベロッパ → 無制限の広告プレゼンテーション: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- デベロッパ → PassKitテスト: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- デベロッパ → 追加ログ記録: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- デベロッパ → HTTPサービスを許可: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- デベロッパ → レート制限を無効: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- デベロッパ → NFCパスキー（オプション）: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- デベロッパ → メディアサービステスト: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- デベロッパ → AirPlayの提案: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- デベロッパ → メディアサービスをリセット: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- デベロッパ → Newsテスト: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- デベロッパ → 次回起動時にローカルデータをリセット: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- デベロッパ → Media Player Frameworkテスト: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- デベロッパ → 支払いコンテンツAPI: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- デベロッパ → TVプロバイダテスト: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- デベロッパ → TVプロバイダ: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- デベロッパ → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- デベロッパ → CoreSpotlightテスト: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- デベロッパ → 全項目を再インデックス: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- デベロッパ → 識別子を使用して全項目を再インデックス: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- デベロッパ → ショートカットテスト: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- デベロッパ → 最近使ったショートカットを表示: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- デベロッパ → 次のメディアを表示: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- デベロッパ → ロック画面にドネーションを表示: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- デベロッパ → ショートカットをWatchに強制同期: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- デベロッパ → MIDI-CIテスト: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- デベロッパ → MIDI-CIを有効: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- ヘルスケア: `prefs:root=HEALTH`
+- 計測: `prefs:root=MEASURE`
+- 計測 → 計測単位: `prefs:root=MEASURE#MEASURE_UNITS`
+- 計測 → ヤード/ポンド法: `prefs:root=MEASURE#Imperial`
+- 計測 → メートル法: `prefs:root=MEASURE#Metric`
+- ミュージック: `prefs:root=MUSIC`
+- ミュージック → Apple Musicを表示: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- ミュージック → プレイリストの曲を追加: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- ミュージック → 星印の評価を表示: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- ミュージック → ライブラリを同期: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- ミュージック → モバイルデータ通信: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- ミュージック → ダウンロード済み: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- ミュージック → ストレージを最適化: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- ミュージック → 自動ダウンロード: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- ミュージック → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- ミュージック → 音量を自動調整: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- ミュージック → 視聴履歴を使用: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- メモ: `prefs:root=NOTES`
+- メモ → デフォルトアカウント: `prefs:root=NOTES&path=Default%20Account`
+- メモ → パスワード: `prefs:root=NOTES&path=Password`
+- メモ → メモの表示順序: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- メモ → 新規メモ開始スタイル: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- メモ → チェックした項目を並べ替え: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- メモ → 罫線と方眼: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- メモ → “写真”に保存: `prefs:root=NOTES#Save%20to%20Photos`
+- メモ → ロック画面からメモにアクセス: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- メッセージ: `prefs:root=MESSAGES`
+- 翻訳: `prefs:root=TRANSLATE`
+- 翻訳 → オンデバイスモード: `prefs:root=TRANSLATE#OnDeviceOnly`
+- TVプロバイダ: `prefs:root=VIDEO_SUBSCRIBER`
+- ボイスメモ: `prefs:root=VOICE_MEMOS`
+- ボイスメモ → 削除したものを消去: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- ボイスメモ → オーディオの品質: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- ボイスメモ → 位置情報を録音名に使用: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- カメラ: `prefs:root=CAMERA`
+- カメラ → フォーマット: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- カメラ → フォーマット → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- カメラ → NEEDS_OVERRIDE_745 → HDRビデオ: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- カメラ → 設定を保持: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- カメラ → 設定を保持 → カメラモード: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- カメラ → グリッド: `prefs:root=CAMERA#CameraGridSwitch`
+- カメラ → QRコードをスキャン: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- マップ: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- 連絡先: `prefs:root=CONTACTS`
+- 連絡先 → “連絡先”にアクセスを許可: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- 連絡先 → Siriと検索: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- 連絡先 → 並べ替え順序: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- 連絡先 → 表示順序: `prefs:root=CONTACTS&path=PersonNameOrder`
+- 連絡先 → 略称: `prefs:root=CONTACTS&path=PersonShortName`
+- 連絡先 → 略称 → 略称: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- 連絡先 → 略称 → ニックネームを優先: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- 連絡先 → 自分の情報: `prefs:root=CONTACTS&path=MeCard`
+- 連絡先 → SIMの連絡先を読み込む: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- ブック: `prefs:root=IBOOKS`
+- ブック → オンラインコンテンツ: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- ブック → 同期: `prefs:root=IBOOKS#SYNCING`
+- ブック → 今すぐ読む: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- ブック → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- ブック → 読書: `prefs:root=IBOOKS#READING`
+- ブック → 両端揃え: `prefs:root=IBOOKS#BKFullJustification`
+- ブック → 自動行末ハイフン処理: `prefs:root=IBOOKS#BKAutoHyphenation`
+- ブック → 両方の余白で進む: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- ブック → 読書目標: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- ブック → 読書目標のデータを消去: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- ブック → 検索: `prefs:root=IBOOKS#SEARCHING`
+- ブック → ブックストア: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- ブック → オーディオブック: `prefs:root=IBOOKS#AUDIOBOOKS`
+- ブック → 順方向にスキップ: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- ブック → 逆方向にスキップ: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- ブック → 外部コントロール: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- ブック → 次/前: `prefs:root=IBOOKS#Next/Previous`
+- ブック → スキップして進む/戻る: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- ブック → プライバシー: `prefs:root=IBOOKS#PRIVACY`
+- ブック → 識別子をリセット: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- ブック → 謝辞: `prefs:root=IBOOKS&path=Acknowledgements`
+- カレンダー: `prefs:root=CALENDAR`
+- カレンダー → 時間帯を指定: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- カレンダー → 代わりの暦の表示: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- カレンダー → 週番号: `prefs:root=CALENDAR#Week%20Numbers`
+- カレンダー → 欠席者を表示: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- カレンダー → 同期: `prefs:root=CALENDAR&path=Sync`
+- カレンダー → デフォルトの通知の時間: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- カレンダー → 週の開始曜日: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- カレンダー → 場所の提案: `prefs:root=CALENDAR#Location%20Suggestions`
+- メール: `prefs:root=MAIL`
+- メール → アカウント: `prefs:root=MAIL&path=ACCOUNTS`
+- メール → アカウント → アカウントを追加: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- メール → アカウント → データの取得方法: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- メール → プレビュー: `prefs:root=MAIL&path=Preview`
+- メール → TO/CCラベルを表示: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- メール → スワイプオプション: `prefs:root=MAIL&path=Swipe%20Options`
+- メール → 削除前に確認: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- メール → サーバ上の画像を読み込む: `prefs:root=MAIL#Load%20Remote%20Images`
+- メール → スレッドにまとめる: `prefs:root=MAIL#Organize%20by%20Thread`
+- メール → 開封メッセージを閉じる: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- メール → 最新のメッセージを一番上へ: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- メール → スレッドを全部そろえる: `prefs:root=MAIL#Complete%20Threads`
+- メール → ミュートしたスレッドの操作: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- メール → 受信拒否の送信者を無視: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- メール → 受信拒否設定: `prefs:root=MAIL&path=Blocked`
+- メール → 常にBccに自分を追加: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- メール → アドレスをマーク: `prefs:root=MAIL&path=Mark%20Addresses`
+- メール → 引用のマークを増やす: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- メール → 返信に添付ファイルを含める: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- メール → 署名: `prefs:root=MAIL&path=Signature`
+- 電話: `prefs:root=Phone`
+- 電話 → 自分の番号: `prefs:root=Phone&path=My%20Number`
+- 電話 → 着信: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- 電話 → 音声で知らせる: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- 電話 → SMS/通話の報告: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- 電話 → テキストメッセージで返信: `prefs:root=Phone&path=Respond%20with%20Text`
+- 電話 → 自動電話転送: `prefs:root=Phone&path=Call%20Forwarding`
+- 電話 → 自動電話転送 → 自動電話転送: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- 電話 → 割込通話: `prefs:root=Phone&path=Call%20Waiting`
+- 電話 → 発信者番号通知: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- 電話 → 発信者番号通知 → NEEDS_OVERRIDE_746 → 発信者番号通知: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- 電話 → 不明な発信者を消音: `prefs:root=Phone#SILENCE_CALLS`
+- 電話 → 着信拒否した連絡先: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- 電話 → ダイヤルアシスト: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → コンテンツブロッカー: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → ポップアップブロック: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → サイト越えトラッキングを防ぐ: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → 自動入力: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → ダウンロード: `prefs:root=SAFARI&path=DOWNLOADS`
+- パスワード: `prefs:root=PASSWORDS`
+- パスワード → パスワードを自動入力: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- 写真: `prefs:root=Photos`
+- 写真 → iCloud写真: `prefs:root=Photos#iCloudPhotosSwitch`
+- 写真 → ストレージを最適化: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- 写真 → オリジナルをダウンロード: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- 写真 → マイフォトストリーム: `prefs:root=Photos#PhotoStreamSwitch`
+- 写真 → 共有アルバム: `prefs:root=Photos#SharedStreamsSwitch`
+- 写真 → モバイルデータ通信: `prefs:root=Photos&path=CellularDataLinkList`
+- 写真 → ビデオを自動再生: `prefs:root=Photos#VideoAutoplaySwitch`
+- 写真 → フルHDRで表示: `prefs:root=Photos#ImageModulationSwitch`
+- 写真 → 祝日イベントを表示: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- 写真 → MacまたはPCに転送: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → 自動ダウンロード: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Appのアップデート: `prefs:root=STORE#App%20Updates`
+- App Store → Appダウンロード: `prefs:root=STORE&path=App%20Downloads`
+- App Store → ビデオの自動再生: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → App内評価とレビュー: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → 記事のプレビューを表示: `prefs:root=NEWS#show_excerpt_mode`
+- News → Todayの記事を制限: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → プライバシー: `prefs:root=NEWS#Privacy`
+- News → 識別子をリセット: `prefs:root=NEWS#reset_identifier`
+- News → 謝辞: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_747 → 機内モード: `prefs:root=ROOT#AIRPLANE_MODE`
+- リマインダー: `prefs:root=REMINDERS`
+- リマインダー → デフォルトのリスト: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- リマインダー → デフォルトのリスト → リマインダー: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- リマインダー → 今日の通知: `prefs:root=REMINDERS#todayNotificationFireTime`
+- リマインダー → 期限超過として表示: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- バッテリー: `prefs:root=BATTERY_USAGE`
+- バッテリー → 低電力モード: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- バッテリー → バッテリーの状態: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- ショートカット: `prefs:root=SHORTCUTS`
+- ショートカット → iCloud同期: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- ショートカット → ショートカットの順序を同期: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- ショートカット → 法律に基づく情報: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siriと検索: `prefs:root=SIRI`
+- Siriと検索 → ロック中にSiriを許可: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siriと検索 → 言語: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siriと検索 → Siriの声: `prefs:root=SIRI&path=VOICE_ID`
+- Siriと検索 → 音声フィードバック: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siriと検索 → 自分の情報: `prefs:root=SIRI&path=MY_INFO`
+- Siriと検索 → 検索の候補: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siriと検索 → “調べる”の候補: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siriと検索 → ロック画面上での提案: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- 株価: `prefs:root=STOCKS`
+- 株価 → プライバシー: `prefs:root=STOCKS#Privacy`
+- 株価 → 識別子をリセット: `prefs:root=STOCKS#reset_identifier`
+- モバイル通信: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- モバイル通信 → 通信のオプション: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- モバイル通信 → 通信のオプション → 省データモード: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- モバイル通信 → モバイルデータ通信: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → 再生にモバイルデータ通信を使用: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → 再生画質: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → 購入とレンタル: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → ホームシェアリング: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- 壁紙: `prefs:root=Wallpaper`

@@ -1,0 +1,854 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → iCloud-tallennustila: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Kuvat: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Yhteystiedot: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Kalenteri: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Muistutukset: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Muistiinpanot: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Varmuuskopio: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Terveys: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Salasanat ja avainnippu: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Suojattu lähetys: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Jaa oma sijainti: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Jaa oma sijainti → Etsi iPhoneni: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Nimi, puhelin, sähköposti: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Salasana ja suojaus: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Maksu ja toimitus: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Tilaukset: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Perhe: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Tietosuoja ja suojaus: `prefs:root=Privacy`
+- Tietosuoja ja suojaus → Turvatarkastus: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Tietosuoja ja suojaus → Sijainti: `prefs:root=Privacy&path=LOCATION`
+- Tietosuoja ja suojaus → Sijainti → Jaa oma sijainti: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Tietosuoja ja suojaus → Yhteystiedot: `prefs:root=Privacy&path=CONTACTS`
+- Tietosuoja ja suojaus → Kalenterit: `prefs:root=Privacy&path=CALENDARS`
+- Tietosuoja ja suojaus → Muistutukset: `prefs:root=Privacy&path=REMINDERS`
+- Tietosuoja ja suojaus → Kuvat: `prefs:root=Privacy&path=PHOTOS`
+- Tietosuoja ja suojaus → Bluetooth-jako: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Tietosuoja ja suojaus → Mikrofoni: `prefs:root=Privacy&path=MICROPHONE`
+- Tietosuoja ja suojaus → Puheentunnistus: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Tietosuoja ja suojaus → Kamera: `prefs:root=Privacy&path=CAMERA`
+- Tietosuoja ja suojaus → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Tietosuoja ja suojaus → Media ja Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Tietosuoja ja suojaus → Analyysi: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Tietosuoja ja suojaus → Mainonta: `prefs:root=Privacy&path=ADVERTISING`
+- Tietosuoja ja suojaus → Tiedostot ja kansiot: `prefs:root=Privacy&path=FILEACCESS`
+- Tietosuoja ja suojaus → Seuranta: `prefs:root=Privacy&path=USER_TRACKING`
+- Tietosuoja ja suojaus → Appien tietosuoja­raportti: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Tietosuoja ja suojaus → Sulkutila: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Tietosuoja ja suojaus → Terveys: `prefs:root=Privacy&path=HEALTH`
+- Keskity: `prefs:root=DO_NOT_DISTURB`
+- Keskity → Keskity-tilan jakaminen: `prefs:root=DO_NOT_DISTURB&path=status`
+- Yleiset: `prefs:root=General`
+- Yleiset → VPN ja laitehallinta: `prefs:root=General&path=ManagedConfigurationList`
+- Yleiset → Kuva kuvassa: `prefs:root=General&path=PiP_SPEC`
+- Yleiset → Ohjauslevy ja hiiri: `prefs:root=General&path=POINTERS`
+- Yleiset → NFC: `prefs:root=General&path=NFC_LINK`
+- Yleiset → VPN: `prefs:root=General&path=VPN`
+- Yleiset → CarPlay: `prefs:root=General&path=CARPLAY`
+- Yleiset → Tietoja: `prefs:root=General&path=About`
+- Yleiset → Tietoja → Luotetut varmenteet: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Yleiset → Oikeudet ja merkinnät: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Yleiset → Ohjelmistopäivitys: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Yleiset → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Yleiset → Koti-painike: `prefs:root=General&path=HOME_BUTTON`
+- Yleiset → Eleet: `prefs:root=General#Multitasking_Gesture_Switch`
+- Yleiset → Sivukytkin: `prefs:root=General#Rotation_Switch_Action_Group`
+- Yleiset → Appien päivitys taustalla: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Yleiset → Päivä ja aika: `prefs:root=General&path=DATE_AND_TIME`
+- Yleiset → TV-lähtö: `prefs:root=General&path=TV_OUT`
+- Yleiset → Viralliset merkinnät: `prefs:root=General&path=REGULATORY`
+- Yleiset → Nollaa: `prefs:root=General&path=Reset`
+- Yleiset → Nollaa → Nollaa kaikki asetukset: `prefs:root=General&path=Reset#settingsErase`
+- Yleiset → Nollaa → Poista kaikki sisältö ja asetukset: `prefs:root=General&path=Reset#fullErase`
+- Yleiset → Nollaa → Nollaa verkkoasetukset: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Yleiset → Nollaa → Poista kaikki mobiilidataliittymät: `prefs:root=General&path=Reset#cellularErase`
+- Yleiset → Nollaa → Tilaajapalvelut: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Yleiset → Nollaa → Nollaa näppäimistön sanakirja: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Yleiset → Nollaa → Nollaa Koti-valikon asettelu: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Yleiset → Nollaa → Nollaa sijainti ja tietosuoja: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Yleiset → Sammuta: `prefs:root=General#SHUTDOWN_LABEL`
+- Yleiset → AirPlay ja Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Yleiset → AirPlay ja Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Yleiset → AirPlay ja Handoff → Siirrä HomePodiin: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Yleiset → AirPlay ja Handoff → Käytä AirPlayta TV:ihin: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Yleiset → AirPlay ja Handoff → Jatkuvuuskamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Yleiset → Sanakirja: `prefs:root=General&path=DICTIONARY`
+- Yleiset → Kieli ja alue: `prefs:root=General&path=INTERNATIONAL`
+- Yleiset → Kieli ja alue → Muut kielet…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Yleiset → Kieli ja alue → Ensisijainen kielijärjestys: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Yleiset → Kieli ja alue → Lisää kieli…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Yleiset → Kieli ja alue → Alue: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Yleiset → Kieli ja alue → Numerot: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Yleiset → Kieli ja alue → Kalenteri: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Yleiset → Kieli ja alue → Lämpötilayksikkö: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Yleiset → Näppäimistö: `prefs:root=General&path=Keyboard`
+- Yleiset → Näppäimistö → Näppäimistöt: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Yleiset → Näppäimistö → Tekstin korvaus: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Yleiset → Näppäimistö → Autom. isot alkukirjaimet: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Yleiset → Näppäimistö → Automaattinen korjaus: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Yleiset → Näppäimistö → Oikeinkirjoituksen tarkistus: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Yleiset → Näppäimistö → Salli caps lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Yleiset → Näppäimistö → Pikakomennot: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Yleiset → Näppäimistö → Ennakoiva: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Yleiset → Näppäimistö → Älykkäät välimerkit: `prefs:root=General&path=Keyboard#SmartTyping`
+- Yleiset → Näppäimistö → Jaettu näppäimistö: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Yleiset → Näppäimistö → Salli pyyhkäisynäppäimet: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Yleiset → Näppäimistö → Merkin esikatselu: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Yleiset → Näppäimistö → ”.”-oikotie: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Yleiset → Näppäimistö → Liukukirjoitus: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Yleiset → Näppäimistö → Ota sanelu käyttöön: `prefs:root=General&path=Keyboard#Dictation`
+- Yleiset → Näppäimistö → Automaattiset välimerkit: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Yleiset → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Yleiset → iPhone/iPad Storage → Tallennustila: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Yleiset → iPhone/iPad Storage → Poista käyttämättömät apit: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Ilmoitukset: `prefs:root=NOTIFICATIONS_ID`
+- Ilmoitukset → Ajastettu yhteenveto: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Lompakko ja Apple Pay: `prefs:root=PASSBOOK`
+- Lompakko ja Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Lompakko ja Apple Pay → Maksukortit: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Lompakko ja Apple Pay → Lisää kortti: `prefs:root=PASSBOOK#Add%20Card`
+- Lompakko ja Apple Pay → Kaksoispaina sivupainiketta: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Lompakko ja Apple Pay → Tilauksen seuranta: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Ruutuaika: `prefs:root=SCREEN_TIME`
+- Ruutuaika → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Ruutuaika → See All Activity → Tänään: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Ruutuaika → See All Activity → Viikko: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Ruutuaika → Käyttötauko: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Ruutuaika → Appirajoitukset: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Ruutuaika → Viestintärajoitukset: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Ruutuaika → Viestinnän turvallisuus: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Ruutuaika → Sallittu aina: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Ruutuaika → Sisältö ja yksityisyys: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Ruutuaika → Käyttörajoitukset: `prefs:root=SCREEN_TIME#FAMILY`
+- Käyttöapu: `prefs:root=ACCESSIBILITY`
+- Käyttöapu → Näkö: `prefs:root=ACCESSIBILITY#VISION`
+- Käyttöapu → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Käyttöapu → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Käyttöapu → VoiceOver → Puhenopeus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Käyttöapu → VoiceOver → Puhe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Käyttöapu → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Käyttöapu → VoiceOver → Speech → Puheääni: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Käyttöapu → VoiceOver → Monisanaisuus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Käyttöapu → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Käyttöapu → VoiceOver → Verbosity → Välimerkit: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Käyttöapu → VoiceOver → Verbosity → Taulukon otsakkeet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Käyttöapu → VoiceOver → Verbosity → Mediakuvaukset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Käyttöapu → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Käyttöapu → VoiceOver → Verbosity → Media Descriptions → Pois: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Käyttöapu → VoiceOver → Verbosity → Media Descriptions → Puhe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Käyttöapu → VoiceOver → Verbosity → Media Descriptions → Pistekirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Käyttöapu → VoiceOver → Verbosity → Media Descriptions → Puhe ja pistekirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Käyttöapu → VoiceOver → Pistekirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- Käyttöapu → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Käyttöapu → VoiceOver → Braille → Lähtö: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Käyttöapu → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Käyttöapu → VoiceOver → Braille → Output → Lyhentämätön 6-pisteinen kirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Käyttöapu → VoiceOver → Braille → Output → Lyhentämätön 8-pisteinen kirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Käyttöapu → VoiceOver → Braille → Output → Lyhennetty pistekirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Käyttöapu → VoiceOver → Braille → Syöttö: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Käyttöapu → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Käyttöapu → VoiceOver → Braille → Input → Lyhentämätön 6-pisteinen kirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Käyttöapu → VoiceOver → Braille → Input → Lyhentämätön 8-pisteinen kirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Käyttöapu → VoiceOver → Braille → Input → Lyhennetty pistekirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Käyttöapu → VoiceOver → Braille → Input → Automaattinen käännös: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Käyttöapu → VoiceOver → Braille → Pistesyöttö näytöllä: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Käyttöapu → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Käyttöapu → VoiceOver → Braille → Braille Screen Input → Lyhentämätön 6-pisteinen kirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Käyttöapu → VoiceOver → Braille → Braille Screen Input → Lyhentämätön 8-pisteinen kirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Käyttöapu → VoiceOver → Braille → Braille Screen Input → Lyhennetty pistekirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Käyttöapu → VoiceOver → Braille → Braille Screen Input → Käänteiset pisteiden paikat: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Käyttöapu → VoiceOver → Braille → Pistekirjoitustaulukot: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Käyttöapu → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Käyttöapu → VoiceOver → Braille → Tables → Lisää pistekirjoitustaulukko…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Käyttöapu → VoiceOver → Braille → Tilasolut: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Käyttöapu → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Käyttöapu → VoiceOver → Braille → Status Cell → Tilasolujen sijainti: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Käyttöapu → VoiceOver → Braille → Status Cell → Vasen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Käyttöapu → VoiceOver → Braille → Status Cell → Oikea: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Käyttöapu → VoiceOver → Braille → Status Cell → Näytä yleinen tila: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Käyttöapu → VoiceOver → Braille → Status Cell → Näytä tekstitila: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Käyttöapu → VoiceOver → Braille → Yhtälöt Nemethin koodilla: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Käyttöapu → VoiceOver → Braille → Näytä virtuaalinen näppäimistö: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Käyttöapu → VoiceOver → Braille → Käännä sivut vieritettäessä: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Käyttöapu → VoiceOver → Braille → Rivitys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Käyttöapu → VoiceOver → Braille → Pistekirjoituksen varoitukset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Käyttöapu → VoiceOver → Braille → Ohita yhteisnäppäinten kesto: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Käyttöapu → VoiceOver → Braille → Automaattisen etenemisen kesto: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Käyttöapu → VoiceOver → Ääni: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- Käyttöapu → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Käyttöapu → VoiceOver → Audio → Äänen vaimennus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Käyttöapu → VoiceOver → Audio → Käytä puheluihin kaiutinta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Käyttöapu → VoiceOver → Audio → Lähetä HDMI:hin: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Käyttöapu → VoiceOver → Komennot: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Käyttöapu → VoiceOver → Toiminnot: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Käyttöapu → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Käyttöapu → VoiceOver → Activities → Ohjelmointi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Käyttöapu → VoiceOver → Activities → Lisää toiminto…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Käyttöapu → VoiceOver → Roottori: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Käyttöapu → VoiceOver → Roottoritoiminnot: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Käyttöapu → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Käyttöapu → VoiceOver → Rotor Actions → Muokkaa appeja Koti-valikossa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Käyttöapu → VoiceOver → Rotor Actions → Suora kosketus -apit: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Käyttöapu → VoiceOver → Kirjoittaminen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Käyttöapu → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Käyttöapu → VoiceOver → Typing → Kirjoitustyyli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Käyttöapu → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Käyttöapu → VoiceOver → Typing → Typing Mode → Normaali kirjoitustyyli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Käyttöapu → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Käyttöapu → VoiceOver → Typing → Typing Style → Kosketuskirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Käyttöapu → VoiceOver → Typing → Typing Style → Suora kosketuskirjoitus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Käyttöapu → VoiceOver → Typing → Merkkipalaute: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Käyttöapu → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Käyttöapu → VoiceOver → Typing → Phonetic Feedback → Pois: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Käyttöapu → VoiceOver → Typing → Phonetic Feedback → Merkit ja radioaakkoset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Käyttöapu → VoiceOver → Typing → Phonetic Feedback → Vain radioaakkoset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Käyttöapu → VoiceOver → Typing → Kirjoitettaessa puhu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Käyttöapu → VoiceOver → Typing → Muuntonäppäimet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Käyttöapu → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Käyttöapu → VoiceOver → Typing → Modifier Keys → Ctrl-optio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Käyttöapu → VoiceOver → Typing → Modifier Keys → Caps lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Käyttöapu → VoiceOver → Typing → Näppäimistön käyttöviive: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Käyttöapu → VoiceOver → Siirry kuviin: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Käyttöapu → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Käyttöapu → VoiceOver → Include Unlabeled Images → Aina: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Käyttöapu → VoiceOver → Include Unlabeled Images → Kuvaustekstillisiin: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Käyttöapu → VoiceOver → Include Unlabeled Images → Ei koskaan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Käyttöapu → VoiceOver → Suuri kohdistin: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Käyttöapu → VoiceOver → Tekstityspaneeli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Käyttöapu → VoiceOver → Kaksoisnapautuksen aika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Käyttöapu → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Käyttöapu → VoiceOver → Double-tap Timeout → Kaksoisnapautuksen aika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Käyttöapu → VoiceOver → Navigointityyli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Käyttöapu → VoiceOver → Pika-asetukset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Käyttöapu → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Käyttöapu → VoiceOver → Quick Settings → Äänet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Käyttöapu → VoiceOver → Quick Settings → Äänen vaimennus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Käyttöapu → VoiceOver → Quick Settings → Äänenvoimakkuus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Käyttöapu → VoiceOver → Quick Settings → Puhenopeus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Käyttöapu → VoiceOver → Quick Settings → Vihjeet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Käyttöapu → VoiceOver → Quick Settings → Navigointityyli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Käyttöapu → VoiceOver → Quick Settings → Kirjoitustyyli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Käyttöapu → VoiceOver → Quick Settings → Kirjoita liu’uttamalla: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Käyttöapu → VoiceOver → Quick Settings → Toiminnot: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Käyttöapu → VoiceOver → Quick Settings → Puhu aina ilmoitukset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Käyttöapu → VoiceOver → Quick Settings → Pistekirjoituksen varoitukset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Käyttöapu → VoiceOver → Quick Settings → Pistekirjoituksen automaattinen eteneminen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Käyttöapu → VoiceOver → Quick Settings → Pistekirjoitussyöttö: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Käyttöapu → VoiceOver → Quick Settings → Pistekirjoitustulostus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Käyttöapu → VoiceOver → Quick Settings → Pistekirjoitustaulukot: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Käyttöapu → VoiceOver → Quick Settings → Tekstityspaneeli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Käyttöapu → VoiceOver → Quick Settings → Suora kosketus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Käyttöapu → VoiceOver → Quick Settings → Eleen suunta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Käyttöapu → VoiceOver → Quick Settings → Kirjoitettaessa puhu (laitteistototeutus): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Käyttöapu → VoiceOver → Quick Settings → Kieli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Käyttöapu → VoiceOver → Quick Settings → Suuri kohdistin: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Käyttöapu → VoiceOver → Quick Settings → Mediakuvaukset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Käyttöapu → VoiceOver → Quick Settings → Siirry kuviin: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Käyttöapu → VoiceOver → Quick Settings → Merkkipalaute: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Käyttöapu → VoiceOver → Quick Settings → Äänenkorkeuden muutos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Käyttöapu → VoiceOver → Quick Settings → Välimerkit: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Käyttöapu → VoiceOver → Quick Settings → Lähetä HDMI:hin: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Käyttöapu → VoiceOver → Quick Settings → Kirjoitettaessa puhu (ohjelmistototeutus): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Käyttöapu → VoiceOver → Quick Settings → Puhu roottorivahvistus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Käyttöapu → VoiceOver → Quick Settings → Kuvien kuvaukset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Käyttöapu → VoiceOver → Quick Settings → Näytöntunnistus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Käyttöapu → VoiceOver → VoiceOver-tunnistus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Käyttöapu → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Käyttöapu → VoiceOver → VoiceOver Recognition → Kuvien kuvaukset: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Käyttöapu → VoiceOver → VoiceOver Recognition → Näytöntunnistus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Käyttöapu → Zoomaus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Käyttöapu → Zoomaus → Zoomaus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Käyttöapu → Zoomaus → Seuraa kohdistusta: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Käyttöapu → Zoomaus → Älykäs kirjoitustapa: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Käyttöapu → Zoomaus → Näppäinoikotiet: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Käyttöapu → Zoomaus → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Käyttöapu → Zoomaus → Keyboard Shortcuts → Näppäinoikotiet: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Käyttöapu → Zoomaus → Keyboard Shortcuts → Säädä zoomaustasoa: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Käyttöapu → Zoomaus → Keyboard Shortcuts → Zoomaus päälle/pois: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Käyttöapu → Zoomaus → Keyboard Shortcuts → Siirrä zoomausikkunaa: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Käyttöapu → Zoomaus → Keyboard Shortcuts → Muuta zoomausikkunan kokoa: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Käyttöapu → Zoomaus → Keyboard Shortcuts → Vaihda zoomattua aluetta: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Käyttöapu → Zoomaus → Keyboard Shortcuts → Tilapäinen zoomaus päälle/pois: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Käyttöapu → Zoomaus → Keyboard Shortcuts → Zoomaa vierityspyörällä: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Käyttöapu → Zoomaus → Zoomausohjain: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Käyttöapu → Zoomaus → Zoomausalue: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Käyttöapu → Zoomaus → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Käyttöapu → Zoomaus → Zoom Region → Koko näyttö: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Käyttöapu → Zoomaus → Zoom Region → Zoomausikkuna: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Käyttöapu → Zoomaus → Suurin zoomaustaso: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Käyttöapu → Zoomaus → Zoomaussuodatin: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Käyttöapu → Zoomaus → Näytä käytettäessä peilausta: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Käyttöapu → Leijuva teksti: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Käyttöapu → Näyttö ja tekstin koko: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Käyttöapu → Näyttö ja tekstin koko → Lihavoi teksti: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Käyttöapu → Näyttö ja tekstin koko → Suurenna tekstiä: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Käyttöapu → Näyttö ja tekstin koko → Painikemuodot: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Käyttöapu → Näyttö ja tekstin koko → Näytä kytkinmerkit: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Käyttöapu → Näyttö ja tekstin koko → Vähennä läpinäkyvyyttä: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Käyttöapu → Näyttö ja tekstin koko → Lisää kontrastia: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Käyttöapu → Näyttö ja tekstin koko → Erottele ilman väriä: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Käyttöapu → Näyttö ja tekstin koko → Älykkäät käänteisvärit: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Käyttöapu → Näyttö ja tekstin koko → Klassiset käänteisvärit: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Käyttöapu → Näyttö ja tekstin koko → Värisuodattimet: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Käyttöapu → Näyttö ja tekstin koko → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Käyttöapu → Näyttö ja tekstin koko → Color Filters → Värisuodattimet: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Käyttöapu → Näyttö ja tekstin koko → Vähennä valkopistettä: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Käyttöapu → Näyttö ja tekstin koko → Automaattinen kirkkaus: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Käyttöapu → Liike: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Käyttöapu → Liike → Vähennä liikettä: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Käyttöapu → Liike → Toista viestitehosteet aina: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Käyttöapu → Liike → Toista videoesikatselut: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Käyttöapu → Puhuttu sisältö: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Käyttöapu → Puhuttu sisältö → Puhu valinnat: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Käyttöapu → Puhuttu sisältö → Puhu näyttö: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Käyttöapu → Puhuttu sisältö → Puheohjain: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Käyttöapu → Puhuttu sisältö → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Käyttöapu → Puhuttu sisältö → Speech Controller → Muokkaa hiiripainikkeita: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Käyttöapu → Puhuttu sisältö → Korosta sisältö: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Käyttöapu → Puhuttu sisältö → Kirjoitettaessa puhu: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Käyttöapu → Puhuttu sisältö → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Käyttöapu → Puhuttu sisältö → Typing Feedback → Merkkipalaute: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Käyttöapu → Puhuttu sisältö → Typing Feedback → Merkit: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Käyttöapu → Puhuttu sisältö → Typing Feedback → Merkkivihjeet: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Käyttöapu → Puhuttu sisältö → Typing Feedback → Puhu sanat: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Käyttöapu → Puhuttu sisältö → Typing Feedback → Puhu korjaukset: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Käyttöapu → Puhuttu sisältö → Typing Feedback → Puhu ehdotukset painamalla: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Käyttöapu → Puhuttu sisältö → Puheäänet: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Käyttöapu → Puhuttu sisältö → Oletuskieli: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Käyttöapu → Puhuttu sisältö → Tunnista kielet: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Käyttöapu → Puhuttu sisältö → Puhenopeus: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Käyttöapu → Puhuttu sisältö → Ääntämykset: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Käyttöapu → Kuvailutulkkaus: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Käyttöapu → Kuvailutulkkaus → Kuvailutulkkaus: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Käyttöapu → Fysiikka ja motoriikka: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Käyttöapu → Kosketus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Käyttöapu → Kosketus → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Käyttöapu → Kosketus → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Muokkaa ylätason valikkoa: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Käyttöapu → Kosketus → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Käyttöapu → Kosketus → AssistiveTouch → Customize Top Level Menu → Muuta napauttamalla kuvaketta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Käyttöapu → Kosketus → AssistiveTouch → Customize Top Level Menu → Nollaa…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Käyttöapu → Kosketus → AssistiveTouch → Muokatut toiminnot: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Kertanapautus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Kaksoisnapautus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Double-Tap → Kaksoisnapautuksen aika: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Pitkä painallus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Long Press → Pitkän painalluksen kesto: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Muokatut eleet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Käyttöapu → Kosketus → AssistiveTouch → Luo uusi ele…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Käyttöapu → Kosketus → AssistiveTouch → Peittävyys toimettomana: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Käyttöapu → Kosketus → AssistiveTouch → Osoitinlaitteet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Käyttöapu → Kosketus → AssistiveTouch → Laitteet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Käyttöapu → Kosketus → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Käyttöapu → Kosketus → AssistiveTouch → Devices → Bluetooth-laitteet…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Käyttöapu → Kosketus → AssistiveTouch → Näppäimet hiirenä: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Käyttöapu → Kosketus → AssistiveTouch → Osoittimen tyyli: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Käyttöapu → Kosketus → AssistiveTouch → Osoittimen tyyli → Koko: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Käyttöapu → Kosketus → AssistiveTouch → Osoittimen tyyli → Visuaalinen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Käyttöapu → Kosketus → AssistiveTouch → Osoittimen tyyli → Väri: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Käyttöapu → Kosketus → AssistiveTouch → Osoittimen tyyli → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Käyttöapu → Kosketus → AssistiveTouch → Osoittimen tyyli → SOMETHING IDK → Muokkaa hiiripainikkeita: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Käyttöapu → Kosketus → AssistiveTouch → Osoittimen tyyli → Kätke automaattisesti: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Käyttöapu → Kosketus → AssistiveTouch → Osoittimen tyyli → NEEDS_OVERRIDE_408 → Kätke automaattisesti: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Käyttöapu → Kosketus → AssistiveTouch → Näytä virtuaalinen näppäimistö: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Käyttöapu → Kosketus → AssistiveTouch → Näytä valikko aina: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Käyttöapu → Kosketus → AssistiveTouch → Viipymisohjaus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Liikkeen toleranssi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Seurannan herkkyys: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Käyttöapu → Kosketus → AssistiveTouch → Varatoiminto: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Aktivointikulmat: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Käyttöapu → Kosketus → AssistiveTouch → Käytä peliohjainta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Käyttöapu → Kosketus → 3D- ja värinäkosketus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_409 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_409 → 3D Touchin herkkyys: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_409 → Kosketuksen kesto: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_409 → Nopea: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_409 → Hidas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_409 → 3D Touchin herkkyyden ja kosketuksen keston testi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Käyttöapu → Kosketus → Kosketusten mukautus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_410 → Kosketusten mukautus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_410 → Pidon kesto: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_410 → Älä huomioi toistoa: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_410 → Napautusavustaja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_410 → Pois: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_410 → Käytä alkukosketuksen sijaintia: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_410 → Käytä loppukosketuksen sijaintia: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Käyttöapu → Kosketus → Herätä napauttamalla: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Käyttöapu → Kosketus → Herätä napauttamalla tai pyyhkäisemällä: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Käyttöapu → Kosketus → Peru ravistamalla: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Käyttöapu → Kosketus → Värinä: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Käyttöapu → Kosketus → Estä puhelun lopettaminen lukitsemalla: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Käyttöapu → Kosketus → Puheluiden äänireititys: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_411 → Automaattinen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_411 → Bluetooth-kuulokemikrofoni: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_411 → Kaiutin: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Käyttöapu → Kosketus → NEEDS_OVERRIDE_411 → Vastaa automaattisesti: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Käyttöapu → Face ID ja katsekontakti: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Käyttöapu → Face ID ja katsekontakti → Vaadi katsekontaktia Face ID:lle: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Käyttöapu → Face ID ja katsekontakti → Katsekontaktitoiminnot: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Käyttöapu → Face ID ja katsekontakti → Tuntopalaute: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Käyttöapu → Face ID ja katsekontakti → Vahvista todennus tuntopalautteella: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Käyttöapu → Kytkinohjaus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Käyttöapu → Kytkinohjaus → Kytkinohjaus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Käyttöapu → Kytkinohjaus → Kytkimet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_412 → Lisää uusi kytkin…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_412 → Bluetooth-laitteet…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Käyttöapu → Kytkinohjaus → Kaavat: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Käyttöapu → Kytkinohjaus → Askellustyyli: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_413 → Automaattinen askellus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_413 → Askellus käsin: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_413 → Yhden kytkimen askellus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Käyttöapu → Kytkinohjaus → Ajoitus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Käyttöapu → Kytkinohjaus → Autom. askelluksen aika: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_414 → Autom. askelluksen aika: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Käyttöapu → Kytkinohjaus → Pysähdy 1. kohteessa: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_415 → Pysähdy 1. kohteessa: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Käyttöapu → Kytkinohjaus → Siirtymisen toisto: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_416 → Siirtymisen toisto: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Käyttöapu → Kytkinohjaus → Pitkä painallus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_417 → Pitkä painallus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Käyttöapu → Kytkinohjaus → Napautustoiminto: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_418 → Oletus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_418 → Autom. napautus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_418 → Napauta aina: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Käyttöapu → Kytkinohjaus → Aktivoi seuraavaksi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_419 → Ensimmäinen kohde: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_419 → Nykyinen kohde: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Käyttöapu → Kytkinohjaus → Näppäimistö: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Käyttöapu → Kytkinohjaus → Skannaa näppäin uudelleen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Käyttöapu → Kytkinohjaus → Napauta aina näppäimiä: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Käyttöapu → Kytkinohjaus → Laajennetut ehdotukset: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Käyttöapu → Kytkinohjaus → Kytkimen vakautus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Käyttöapu → Kytkinohjaus → Pidon kesto: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_420 → Pidon kesto: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Käyttöapu → Kytkinohjaus → Älä huomioi toistoa: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_421 → Älä huomioi toistoa: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Käyttöapu → Kytkinohjaus → Pisteaskellus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Käyttöapu → Kytkinohjaus → Liukuva kohdistin: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_422 → Valintatila: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_422 → Yksivaiheinen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_422 → Tarkka: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_422 → Tarkin: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_422 → Liukuvan kohdistimen nopeus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Käyttöapu → Kytkinohjaus → Päänseuranta: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_423 → Päänseuranta: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Käyttöapu → Kytkinohjaus → Ääni: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Käyttöapu → Kytkinohjaus → Äänitehosteet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Käyttöapu → Kytkinohjaus → Puhe: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_424 → Puheäänet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_424 → Puhenopeus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Käyttöapu → Kytkinohjaus → Valikkokohteet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Käyttöapu → Kytkinohjaus → Ryhmitä kohteet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Käyttöapu → Kytkinohjaus → Visuaalinen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Käyttöapu → Kytkinohjaus → Suuri kohdistin: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Käyttöapu → Kytkinohjaus → Tallennetut eleet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Käyttöapu → Kytkinohjaus → NEEDS_OVERRIDE_425 → Luo uusi ele…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Käyttöapu → Kytkinohjaus → Kohdistimen väri: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Käyttöapu → Ääniohjaus: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Käyttöapu → Ääniohjaus → Ota ääniohjaus käyttöön: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Käyttöapu → Ääniohjaus → Kieli: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Käyttöapu → Ääniohjaus → NEEDS_OVERRIDE_426 → Englanti (Yhdysvallat): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Käyttöapu → Ääniohjaus → Muokkaa komentoja: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Käyttöapu → Ääniohjaus → Sanasto: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Käyttöapu → Ääniohjaus → Komentopalaute: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Käyttöapu → Ääniohjaus → Näytä vahvistus: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Käyttöapu → Ääniohjaus → Toista äänimerkki: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Käyttöapu → Ääniohjaus → Näytä vihjeet: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Käyttöapu → Ääniohjaus → Jatkuva peittokuva: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Käyttöapu → Ääniohjaus → Peittokuva: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Käyttöapu → Ääniohjaus → NEEDS_OVERRIDE_427 → Ei mitään: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Käyttöapu → Ääniohjaus → NEEDS_OVERRIDE_427 → Kohteiden numerot: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Käyttöapu → Ääniohjaus → NEEDS_OVERRIDE_427 → Kohteiden nimet: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Käyttöapu → Ääniohjaus → NEEDS_OVERRIDE_427 → Numeroitu ruudukko: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Käyttöapu → Ääniohjaus → Katsekontakti: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Käyttöapu → Sivupainike: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Käyttöapu → Sivupainike → Painallusnopeus: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Käyttöapu → Sivupainike → Oletus: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Käyttöapu → Sivupainike → Hidas: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Käyttöapu → Sivupainike → Hitain: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Käyttöapu → Sivupainike → Puhu pitämällä painettuna: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Käyttöapu → Sivupainike → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Käyttöapu → Sivupainike → Klassinen ääniohjaus: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Käyttöapu → Sivupainike → Pois: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Käyttöapu → Apple TV -kaukosäädin: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Käyttöapu → Apple TV -kaukosäädin → Suuntapainikkeet: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Käyttöapu → Apple Watchin etänäyttö: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Käyttöapu → Näppäimistöt: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Käyttöapu → Näppäimistöt → Täysi näppäimistökäyttö: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_428 → Täysi näppäimistökäyttö: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_428 → Visuaaliset: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_428 → Kätke automaattisesti: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_428 → Suuri tarkennusympyrä: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_428 → Väri: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Käyttöapu → Näppäimistöt → Näppäintoisto: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_429 → Näppäintoisto: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_429 → Näppäintoiston aikaväli: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_429 → Viive ennen toistoa: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Käyttöapu → Näppäimistöt → 1 sormen näppäimet: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_430 → 1 sormen näppäimet: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_430 → Päälle/pois vaihtonäppäimellä: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_430 → Ääni: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Käyttöapu → Näppäimistöt → Hitaat näppäimet: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Käyttöapu → Näppäimistöt → NEEDS_OVERRIDE_431 → Hitaat näppäimet: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Käyttöapu → Näppäimistöt → Näytön näppäimistöt: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Käyttöapu → Näppäimistöt → Näytä pikkukirjaimet: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Käyttöapu → Kuulo: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Käyttöapu → Kuulokojeet: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Käyttöapu → Kuulokojeet → MFi-kuulokojeet: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Käyttöapu → Kuulokojeet → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Käyttöapu → Kuulokojeet → Kuulolaitteen yhteensopivuus: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Käyttöapu → Äänentunnistus: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Käyttöapu → Äänentunnistus → Äänet: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Käyttöapu → RTT-/tekstipuhelu: `prefs:root=ACCESSIBILITY&path=RTT`
+- Käyttöapu → RTT-/tekstipuhelu → Tekstipuhelinohjelmisto: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Käyttöapu → RTT-/tekstipuhelu → Tekstipuhelinlaite: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Käyttöapu → Kuulo ja näkö: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Käyttöapu → Kuulo ja näkö → Ääni: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Käyttöapu → Kuulo ja näkö → Kuulokkeiden mukautus: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Käyttöapu → Kuulo ja näkö → NEEDS_OVERRIDE_432 → Kuulokkeiden mukautus: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Käyttöapu → Kuulo ja näkö → NEEDS_OVERRIDE_432 → Muokattu äänen käyttöönotto: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Käyttöapu → Kuulo ja näkö → Taustaäänet: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Käyttöapu → Kuulo ja näkö → Monoääni: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Käyttöapu → Kuulo ja näkö → Vastamelu: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Käyttöapu → Kuulo ja näkö → Balanssi: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Käyttöapu → Kuulo ja näkö → Visuaalinen: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Käyttöapu → Kuulo ja näkö → Ilmoita väläyttämällä LEDiä: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Käyttöapu → Kuulo ja näkö → NEEDS_OVERRIDE_433 → Väläytä, kun avattuna: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Käyttöapu → Kuulo ja näkö → NEEDS_OVERRIDE_433 → Väläytä, kun hiljaisessa tilassa: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Käyttöapu → Kuulo ja näkö → Stereotasapaino (vasen-oikea): `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Käyttöapu → Kuulo ja näkö → Käynnistys- ja sammutusäänet: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Käyttöapu → Tekstitys: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Käyttöapu → Tekstitys → Tyyli: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Käyttöapu → Tekstitys → Kuvaileva ja ohjelmatekstitys: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Käyttöapu → Tekstitys → Näytä äänen puhtaaksikirjoitukset: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Käyttöapu → NEEDS_OVERRIDE_434 → Live-tekstitys (beta): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Käyttöapu → NEEDS_OVERRIDE_434 → Live-tekstitys FaceTimessa: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Käyttöapu → Yleiset: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Käyttöapu → Ohjattu käyttö: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Käyttöapu → Ohjattu käyttö → Ohjattu käyttö: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Käyttöapu → Ohjattu käyttö → Pääsykoodiasetukset: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Käyttöapu → Ohjattu käyttö → NEEDS_OVERRIDE_435 → Aseta Ohjatulle käytölle pääsykoodi: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Käyttöapu → Ohjattu käyttö → Aikarajat: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Käyttöapu → Ohjattu käyttö → NEEDS_OVERRIDE_436 → Muistutus: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Käyttöapu → Ohjattu käyttö → NEEDS_OVERRIDE_436 → Ääni: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Käyttöapu → Ohjattu käyttö → NEEDS_OVERRIDE_436 → Puhu: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Käyttöapu → Ohjattu käyttö → Käyttöapu-oikotie: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Käyttöapu → Ohjattu käyttö → Näytön autom. lukitus: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Käyttöapu → Muokattu käyttöaputila: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Käyttöapu → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Käyttöapu → Siri → Syötä tekstiä Sirille: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Käyttöapu → Siri → Puhutut vastaukset: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Käyttöapu → Siri → Automaattiset puhutut vastaukset: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Käyttöapu → Siri → Ensisijaisesti hiljaiset vastaukset: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Käyttöapu → Siri → Älä puhu Hiljaisessa tilassa: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Käyttöapu → Siri → Reagoi aina Hei Siri ‑kutsuun: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Käyttöapu → Käyttöapu-oikotie: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Käyttöapu → Käyttöapu-oikotie → Suurennuslasi: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Käyttöapu → Appikohtaiset asetukset: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Käyttöapu → Hallitse lähellä olevia laitteita: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Näyttö ja kirkkaus: `prefs:root=DISPLAY`
+- Näyttö ja kirkkaus → Ulkoasu: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Näyttö ja kirkkaus → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Näyttö ja kirkkaus → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Näyttö ja kirkkaus → Night Shift → Ajastettu: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Näyttö ja kirkkaus → Night Shift → Aseta käsin huomiseen asti: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Näyttö ja kirkkaus → Night Shift → Värilämpötila: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Näyttö ja kirkkaus → Automaattilukitus: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Näyttö ja kirkkaus → Herätä nostamalla: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Näyttö ja kirkkaus → Lukitse/avaa: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Näyttö ja kirkkaus → Tekstin koko: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Näyttö ja kirkkaus → Tekstin lihavointi: `prefs:root=DISPLAY#BOLD_TEXT`
+- Näyttö ja kirkkaus → Näytön zoomaus: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Näyttö ja kirkkaus → Näkymä: `prefs:root=DISPLAY&path=MAGNIFY`
+- Altistusilmoitukset: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_437 → Ilmoitusmerkit: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_437 → Äskettäin ladatut apit: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Koti-valikko ja moniajo: `prefs:root=HOME_SCREEN_DOCK`
+- Koti-valikko ja moniajo → NEEDS_OVERRIDE_438 → Näytä appikirjasto Dockissa: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Koti-valikko ja moniajo → Näytä ehdotetut ja äskeiset apit Dockissa: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Koti-valikko: `prefs:root=HOME_SCREEN`
+- Koti-valikko → Äskettäin ladatut apit: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Koti-valikko → Ilmoitusmerkit: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID ja pääsykoodi: `prefs:root=PASSCODE`
+- Touch ID ja pääsykoodi → Poista pääsykoodi käytöstä: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID ja pääsykoodi → Vaihda pääsykoodi: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID ja pääsykoodi → Vaadi pääsykoodia: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID ja pääsykoodi → Äänivalinta: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID ja pääsykoodi → Salli käyttö, kun lukittuna: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID ja pääsykoodi → Vastaa viestillä: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID ja pääsykoodi → Kodin ohjaus: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID ja pääsykoodi → Lompakko: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID ja pääsykoodi → Soita vastaamattomiin puheluihin: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID ja pääsykoodi → Poista data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID ja pääsykoodi → Avaa lukitus Apple Watchilla: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Podcastit: `prefs:root=PODCASTS`
+- Hätätila SOS: `prefs:root=EMERGENCY_SOS`
+- Hätätila SOS → Soita sivupainikkeella: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Hätätila SOS → Automaattinen puhelu: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Hätätila SOS → ICE-yhteyshenkilöt: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Hätätila SOS → Käynnistyslaskennan ääni: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Äänet: `prefs:root=Sounds`
+- Äänet → Kuulokkeiden turvallisuus: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Äänet → Kuulokkeiden turvallisuus → Lightning-sovittimet: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Äänet → Kuulokkeiden turvallisuus → Kuulokeilmoitukset: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Äänet → Kuulokkeiden turvallisuus → Kovien äänten hiljennys: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Äänet → Äänitehosteet: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Äänet → Soitto- ja ilmoitusäänet: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Äänet → Muuta painikkeilla: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Äänet → Äänet ja värinäkuviot: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Äänet → Soittoääni: `prefs:root=Sounds&path=Ringtone`
+- Äänet → Viestiääni: `prefs:root=Sounds&path=Text_Messages`
+- Äänet → Uusi puheposti: `prefs:root=Sounds&path=Voicemail`
+- Äänet → Uusi sähköposti: `prefs:root=Sounds&path=NEW_MAIL`
+- Äänet → Lähetetty sähköposti: `prefs:root=Sounds&path=SENT_MAIL`
+- Äänet → Kalenteriäänet: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Äänet → Muistutusäänet: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Äänet → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Äänet → Näppäimistöäänet: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Äänet → Lukitusääni: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Sää: `prefs:root=WEATHER`
+- Kompassi: `prefs:root=COMPASS`
+- Kompassi → Käytä todellista pohjoista: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Ohjauskeskus: `prefs:root=ControlCenter`
+- Ohjauskeskus → Salli pääsy apeista: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Ohjauskeskus → Muokkaa säätimiä: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Kehittäjä: `prefs:root=DEVELOPER_SETTINGS`
+- Kehittäjä → Multipath-verkko: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Kehittäjä → Multipath-verkko → Multipath-verkko: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Kehittäjä → Ulkoasu: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Kehittäjä → Tumma ulkoasu: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Kehittäjä → Laiteparit: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Kehittäjä → Poista luotetut tietokoneet: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Kehittäjä → Instrumentit: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Kehittäjä → Kirjaaminen: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Kehittäjä → UI-automaatio: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Kehittäjä → Verkot: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Kehittäjä → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Kehittäjä → iAd-kehittäjäapin testaus: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Kehittäjä → Täytä taajuus: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Kehittäjä → Korosta leikkautuneet bannerit: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Kehittäjä → Rajoittamaton mainosesitys: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Kehittäjä → PassKit-testaus: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Kehittäjä → Lisäkirjaaminen: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Kehittäjä → Salli HTTP-palvelut: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Kehittäjä → Poista taajuusrajoitus käytöstä: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Kehittäjä → NFC Pass Key valinnainen: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Kehittäjä → Mediapalvelujen testaus: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Kehittäjä → AirPlay-ehdotukset: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Kehittäjä → Nollaa mediapalvelut: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Kehittäjä → News-testaus: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Kehittäjä → Nollaa paikallinen data seur. käynnistyksessä: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Kehittäjä → Mediasoittimen framework-testaus: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Kehittäjä → Toistettavan sisällön API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Kehittäjä → TV-palveluntarjoaja-testaus: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Kehittäjä → TV-palveluntarjoajat: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Kehittäjä → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Kehittäjä → CoreSpotlight-testaus: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Kehittäjä → Uudelleenindeksoi kaikki kohteet: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Kehittäjä → Uudelleenindeksoi kohteet, joissa tunniste: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Kehittäjä → Oikotiet-testaus: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Kehittäjä → Näytä äskeiset oikotiet: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Kehittäjä → Näytä tuleva media: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Kehittäjä → Näytä lahjoitukset lukitulla näytöllä: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Kehittäjä → Pakota Watchin Oikotiet-synkronointi: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Kehittäjä → MIDI-CI-testaus: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Kehittäjä → Ota MIDI-CI käyttöön: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Terveys: `prefs:root=HEALTH`
+- Mittanauha: `prefs:root=MEASURE`
+- Mittanauha → Mittayksiköt: `prefs:root=MEASURE#MEASURE_UNITS`
+- Mittanauha → Imperiaalinen: `prefs:root=MEASURE#Imperial`
+- Mittanauha → Metrinen: `prefs:root=MEASURE#Metric`
+- Musiikki: `prefs:root=MUSIC`
+- Musiikki → Näytä Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Musiikki → Lisää soittolistakappaleet: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Musiikki → Näytä tähtiarvioinnit: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Musiikki → Synkronoi kirjasto: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Musiikki → Mobiilidata: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Musiikki → Ladattu musiikki: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Musiikki → Optimoi tallennustila: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Musiikki → Automaattiset lataukset: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Musiikki → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Musiikki → Voimakkuuden tasaus: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Musiikki → Käytä kuunteluhistoriaa: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Muistiinpanot: `prefs:root=NOTES`
+- Muistiinpanot → Oletustili: `prefs:root=NOTES&path=Default%20Account`
+- Muistiinpanot → Salasana: `prefs:root=NOTES&path=Password`
+- Muistiinpanot → Järjestys: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Muistiinpanot → Uuden aloitustyyli: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Muistiinpanot → Järjestä tehdyt kohteet: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Muistiinpanot → Viivasto/ruudukko: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Muistiinpanot → Tallenna Kuviin: `prefs:root=NOTES#Save%20to%20Photos`
+- Muistiinpanot → Muistiinpanot lukitulta näytöltä: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Viestit: `prefs:root=MESSAGES`
+- Käännä: `prefs:root=TRANSLATE`
+- Käännä → Offline-käännös: `prefs:root=TRANSLATE#OnDeviceOnly`
+- TV-palveluntarjoaja: `prefs:root=VIDEO_SUBSCRIBER`
+- Sanelin: `prefs:root=VOICE_MEMOS`
+- Sanelin → Tyhjennä poistetut: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Sanelin → Äänenlaatu: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Sanelin → Sijaintipohjaiset nimet: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Tallennusmuodot: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Tallennusmuodot → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → NEEDS_OVERRIDE_439 → HDR-video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Säilytä asetukset: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Säilytä asetukset → Kameratila: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Ruudukko: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Skannaa QR-koodit: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kartat: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Yhteystiedot: `prefs:root=CONTACTS`
+- Yhteystiedot → Salli Yhteystietojen käyttää: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Yhteystiedot → Siri ja haku: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Yhteystiedot → Järjestys: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Yhteystiedot → Näyttöjärjestys: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Yhteystiedot → Lyhyt nimi: `prefs:root=CONTACTS&path=PersonShortName`
+- Yhteystiedot → Lyhyt nimi → Lyhyt nimi: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Yhteystiedot → Lyhyt nimi → Suosi lempinimiä: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Yhteystiedot → Omat tiedot: `prefs:root=CONTACTS&path=MeCard`
+- Yhteystiedot → Tuo SIM-yhteystiedot: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Kirjat: `prefs:root=IBOOKS`
+- Kirjat → Online-sisältö: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Kirjat → SYNKRONOINTI: `prefs:root=IBOOKS#SYNCING`
+- Kirjat → Luettavana: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Kirjat → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Kirjat → LUKEMINEN: `prefs:root=IBOOKS#READING`
+- Kirjat → Tasaa reunoihin: `prefs:root=IBOOKS#BKFullJustification`
+- Kirjat → Automaattinen tavutus: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Kirjat → Etene marginaaleista: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Kirjat → Lukutavoitteet: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Kirjat → Tyhjennä lukutavoitetiedot: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Kirjat → HAKU: `prefs:root=IBOOKS#SEARCHING`
+- Kirjat → Book Store: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Kirjat → ÄÄNIKIRJAT: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Kirjat → Siirry eteenpäin: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Kirjat → Siirry taaksepäin: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Kirjat → ULKOISET SÄÄTIMET: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Kirjat → Seuraava/edellinen: `prefs:root=IBOOKS#Next/Previous`
+- Kirjat → Hyppää eteen-/taaksepäin: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Kirjat → TIETOSUOJA: `prefs:root=IBOOKS#PRIVACY`
+- Kirjat → Nollaa tunniste: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Kirjat → Tekijänoikeustiedot: `prefs:root=IBOOKS&path=Acknowledgements`
+- Kalenteri: `prefs:root=CALENDAR`
+- Kalenteri → Kiinteä aikavyöhyke: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalenteri → Muut kalenterit: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalenteri → Viikkonumerot: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalenteri → Näytä kutsusta kieltäytyneet: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalenteri → Synkronointi: `prefs:root=CALENDAR&path=Sync`
+- Kalenteri → Oletushälytysajat: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalenteri → Viikon aloituspäivä: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Kalenteri → Paikkaehdotukset: `prefs:root=CALENDAR#Location%20Suggestions`
+- Mail: `prefs:root=MAIL`
+- Mail → Tilit: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Tilit → Lisää tili: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Tilit → Hae uudet tiedot: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Esikatselu: `prefs:root=MAIL&path=Preview`
+- Mail → Näytä To/Cc-merkit: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Pyyhkäisyvalinnat: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Kysy ennen poistoa: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Lataa etäkuvat: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Ketjuta viestit: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Pienennä luetut viestit: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Uusin viesti ylimpänä: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Kokoa ketjut: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Mykistetty ketju: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ohita estetyt lähettäjät: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Estetyt: `prefs:root=MAIL&path=Blocked`
+- Mail → Piilokopio itselle: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Merkitse osoitteet: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Lisää lainaussyvyyttä: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Sisällytä liitteet vastauksiin: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Allekirjoitus: `prefs:root=MAIL&path=Signature`
+- Puhelin: `prefs:root=Phone`
+- Puhelin → Oma numero: `prefs:root=Phone&path=My%20Number`
+- Puhelin → Tulevat puhelut: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Puhelin → Ilmoita puhelut: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Puhelin → Tekstiviesti-/puheluraportointi: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Puhelin → Vastaa viestillä: `prefs:root=Phone&path=Respond%20with%20Text`
+- Puhelin → Soitonsiirto: `prefs:root=Phone&path=Call%20Forwarding`
+- Puhelin → Soitonsiirto → Soitonsiirto: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Puhelin → Koputuspalvelu: `prefs:root=Phone&path=Call%20Waiting`
+- Puhelin → Näytä oma numero: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Puhelin → Näytä oma numero → NEEDS_OVERRIDE_440 → Näytä oma numero: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Puhelin → Hiljennä tuntemattomat soittajat: `prefs:root=Phone#SILENCE_CALLS`
+- Puhelin → Estetyt yhteystiedot: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Puhelin → Soittoapu: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → Sisällön estäjä: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Estä ponnahdusikkunat: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Estä seuranta sivustojen välillä: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Automaattinen täyttö: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Lataukset: `prefs:root=SAFARI&path=DOWNLOADS`
+- Salasanat: `prefs:root=PASSWORDS`
+- Salasanat → Täytä salasanat automaattisesti: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Kuvat: `prefs:root=Photos`
+- Kuvat → iCloud-kuvat: `prefs:root=Photos#iCloudPhotosSwitch`
+- Kuvat → Optimoi tallennustila: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Kuvat → Lataa ja pidä alkuperäiset: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Kuvat → Oma kuvavirta: `prefs:root=Photos#PhotoStreamSwitch`
+- Kuvat → Jaetut albumit: `prefs:root=Photos#SharedStreamsSwitch`
+- Kuvat → Mobiilidata: `prefs:root=Photos&path=CellularDataLinkList`
+- Kuvat → Toista videoita autom.: `prefs:root=Photos#VideoAutoplaySwitch`
+- Kuvat → Näytä koko HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Kuvat → Näytä juhlapäivätapahtumat: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Kuvat → Siirto Maciin tai PC:hen: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Automaattiset lataukset: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Appipäivitykset: `prefs:root=STORE#App%20Updates`
+- App Store → Appien lataukset: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Automaattinen videotoisto: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Arviot ja arvostelut apeissa: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Näytä juttujen esikatselut: `prefs:root=NEWS#show_excerpt_mode`
+- News → Rajoita juttuja Tänään-näkymässä: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Tietosuoja: `prefs:root=NEWS#Privacy`
+- News → Nollaa tunniste: `prefs:root=NEWS#reset_identifier`
+- News → Tekijänoikeustiedot: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_441 → Lentotila: `prefs:root=ROOT#AIRPLANE_MODE`
+- Muistutukset: `prefs:root=REMINDERS`
+- Muistutukset → Oletuslista: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Muistutukset → Oletuslista → Muistutukset: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Muistutukset → Tänään-ilmoitus: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Muistutukset → Näytä vanhentuneena: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Akku: `prefs:root=BATTERY_USAGE`
+- Akku → Alhaisen virran tila: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Akku → Akun kunto: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Pikakomennot: `prefs:root=SHORTCUTS`
+- Pikakomennot → iCloud-synkronointi: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Pikakomennot → Synkronoi oikoteiden järjestys: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Pikakomennot → Lakitiedot: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri ja haku: `prefs:root=SIRI`
+- Siri ja haku → Salli Siri, kun lukittuna: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri ja haku → Kieli: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri ja haku → Siri-ääni: `prefs:root=SIRI&path=VOICE_ID`
+- Siri ja haku → Puhepalaute: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri ja haku → Omat tiedot: `prefs:root=SIRI&path=MY_INFO`
+- Siri ja haku → Hakuehdotukset: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri ja haku → Katso lisää ‑ehdotukset: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri ja haku → Ehdotukset lukitulla näytöllä: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Pörssi: `prefs:root=STOCKS`
+- Pörssi → Tietosuoja: `prefs:root=STOCKS#Privacy`
+- Pörssi → Nollaa tunniste: `prefs:root=STOCKS#reset_identifier`
+- Mobiilidata: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobiilidata → Mobiilidatavalinnat: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobiilidata → Mobiilidatavalinnat → Datansäästö: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobiilidata → Mobiilidata: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → Toista käyttämällä mobiilidataa: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → Toistolaatu: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → Ostot ja vuokraukset: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → Kotijako: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Taustakuva: `prefs:root=Wallpaper`

@@ -1,0 +1,411 @@
+- Универсальный доступ: `bridge:root=ACCESSIBILITY`
+- Универсальный доступ → Зрение: `bridge:root=ACCESSIBILITY#VISION`
+- Универсальный доступ → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Универсальный доступ → Изменение масштаба: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Универсальный доступ → Жирный шрифт: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- Универсальный доступ → Этикетки Вкл./Выкл.: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- Универсальный доступ → Оттенки серого: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- Универсальный доступ → Понижение прозрачности: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- Универсальный доступ → Уменьшение движения: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- Универсальный доступ → Taptic Chimes: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- Универсальный доступ → Taptic Chimes → Перезвон: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- Универсальный доступ → Taptic Chimes → Расписание: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- Универсальный доступ → Taptic Chimes → Расписание → Ежечасно: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- Универсальный доступ → Taptic Chimes → Расписание → Через 30 минут: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- Универсальный доступ → Taptic Chimes → Расписание → Через 15 минут: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- Универсальный доступ → Taptic Chimes → Звуки: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- Универсальный доступ → Taptic Chimes → Звуки → Колокольчики: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- Универсальный доступ → Taptic Chimes → Звуки → Птицы: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- Универсальный доступ → Моторика: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- Универсальный доступ → Нажатие боковой кнопки: `bridge:root=ACCESSIBILITY&path=SideButton`
+- Универсальный доступ → Нажатие боковой кнопки → Скорость нажатия: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- Универсальный доступ → Нажатие боковой кнопки → По умолчанию: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Универсальный доступ → Нажатие боковой кнопки → Медленно: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Универсальный доступ → Нажатие боковой кнопки → Очень медленно: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Универсальный доступ → Адаптация касания: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- Универсальный доступ → Адаптация касания → Адаптация касания: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Универсальный доступ → Адаптация касания → Время фиксации: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- Универсальный доступ → Адаптация касания → Пропуск повтора: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- Универсальный доступ → Адаптация касания → Помощь при касании: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- Универсальный доступ → Адаптация касания → Выкл.: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- Универсальный доступ → Адаптация касания → Точка первого касания: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Универсальный доступ → Адаптация касания → Точка последнего касания: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Универсальный доступ → АКТИВНОСТЬ В КРЕСЛЕ-КОЛЯСКЕ: `bridge:root=ACCESSIBILITY#MOBILITY`
+- Универсальный доступ → Рация: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- Универсальный доступ → Коснитесь, чтобы говорить: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- Универсальный доступ → Слух: `bridge:root=ACCESSIBILITY#HEARING`
+- Универсальный доступ → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- Универсальный доступ → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- Универсальный доступ → RTT → Номер ретрансляции: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- Универсальный доступ → RTT → Отправлять немедленно: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- Универсальный доступ → RTT → Ответы по умолчанию: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- Универсальный доступ → RTT → Ответы по умолчанию → Ответы по умолчанию: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- Универсальный доступ → RTT → Ответы по умолчанию → Добавить ответ…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- Универсальный доступ → Моно-аудио: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- Универсальный доступ → Стереобаланс слева-справа: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- Универсальный доступ → Уведомления от наушников: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- Универсальный доступ → Слуховые устройства: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- Универсальный доступ → Расширение: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- Универсальный доступ → Расширение → Громкость микрофона: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Универсальный доступ → Расширение → Программа: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- Универсальный доступ → Скорость тактильного времени: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- Универсальный доступ → Быстрая команда: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- undefined: `bridge:root=ActiveWatch`
+- undefined → Пара с другими часами: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Вид приложений: `bridge:root=APP_VIEW_ID`
+- Основные: `bridge:root=GENERAL_LINK`
+- Основные → Об устройстве: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Основные → Об устройстве → Имя: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Основные → Об устройстве → Ограниченная гарантия: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- Основные → Об устройстве → Ограниченная гарантия → Ограниченная гарантия: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- Основные → Об устройстве → Ограниченная гарантия → СВЕДЕНИЯ О ДЕЙСТВИИ ГАРАНТИИ: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- Основные → Об устройстве → Ограниченная гарантия → Действие гарантии на устройство: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- Основные → Об устройстве → Ограниченная гарантия → Поддержка чата и телефона: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- Основные → Об устройстве → Песни: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Основные → Об устройстве → Фото: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Основные → Об устройстве → Приложения: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Основные → Об устройстве → Емкость: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Основные → Об устройстве → Доступно: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Основные → Об устройстве → Версия: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Основные → Об устройстве → Оператор: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Основные → Об устройстве → Модель: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Основные → Об устройстве → Серийный номер: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Основные → Об устройстве → Адрес Wi‑Fi: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID`
+- Основные → Об устройстве → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Основные → Об устройстве → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Основные → Об устройстве → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Основные → Об устройстве → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Основные → Об устройстве → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Основные → Об устройстве → Правовые документы: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- Основные → Об устройстве → Руководство пользователя: `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- Основные → Обновление ПО: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Основные → Автоустановка приложений: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Основные → Авиарежим: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Основные → Фокусирование: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Основные → Фокусирование → Повтор iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Основные → Положение часов: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- Основные → Положение часов → Где Вы будете носить Apple Watch: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- Основные → Положение часов → Левая рука: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- Основные → Положение часов → Правая рука: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- Основные → Положение часов → Digital Crown слева: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- Основные → Положение часов → Digital Crown справа: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- Основные → Apple ID: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Основные → Включение диктовки: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Основные → Включение Handoff: `bridge:root=GENERAL_LINK#CONTINUITY`
+- Основные → Ночной режим: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Основные → Снимки экрана: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Основные → Хранилище: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Основные → Журналы диагностики: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Основные → Добавить Аналитику часов: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Основные → Сброс: `bridge:root=GENERAL_LINK&path=RESET`
+- Основные → Автозапуск при погружении: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Основные → Автозапуск при погружении → Автозапуск приложений с аудио: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- Основные → Язык и регион: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- Основные → Язык и регион → Повтор iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- Основные → Язык и регион → Настройка: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- Основные → ВОЗВРАТ К ЦИФЕРБЛАТУ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- Основные → ВОЗВРАТ К ЦИФЕРБЛАТУ → ВОЗВРАТ К ЦИФЕРБЛАТУ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- Основные → ВОЗВРАТ К ЦИФЕРБЛАТУ → Всегда: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- Основные → ВОЗВРАТ К ЦИФЕРБЛАТУ → Через 2 мин: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Основные → ВОЗВРАТ К ЦИФЕРБЛАТУ → Через час: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Основные → ВОЗВРАТ К ЦИФЕРБЛАТУ → ПРИЛОЖЕНИЯ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- Основные → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Основные → Wake Screen → Исполняется: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Экран и яркость: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- Экран и яркость → Яркость: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- Экран и яркость → Всегда включено: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- Экран и яркость → Всегда включено → Всегда включено: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- Экран и яркость → Всегда включено → КОГДА ЗАПЯСТЬЕ ОПУЩЕНО: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Экран и яркость → Всегда включено → Показ уведомлений: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- Экран и яркость → Всегда включено → Показ уведомлений → Показ уведомлений: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Экран и яркость → Всегда включено → Показ уведомлений → ПРИЛОЖЕНИЯ НА APPLE WATCH: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- Экран и яркость → Всегда включено → Показ приложений: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- Экран и яркость → Всегда включено → Показ приложений → Показ приложений: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Экран и яркость → Всегда включено → Показ приложений → ПРИЛОЖЕНИЯ: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- Экран и яркость → Размер текста: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- Экран и яркость → Жирный шрифт: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- Экран и яркость → ВЫХОД ИЗ СНА: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- Экран и яркость → При подъеме запястья: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Экран и яркость → При повороте колесика: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Экран и яркость → Длительность выхода из сна: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- Экран и яркость → Длительность выхода из сна → ПОСЛЕ КАСАНИЯ: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- Экран и яркость → Длительность выхода из сна → Активен 15 секунд: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- Экран и яркость → Длительность выхода из сна → Активен 70 секунд: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- Звуки, тактильные сигналы: `bridge:root=SOUNDS_ID`
+- Звуки, тактильные сигналы → Громкость уведомления: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Звуки, тактильные сигналы → Бесшумный режим: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Звуки, тактильные сигналы → Аудио наушников: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Звуки, тактильные сигналы → Безопасность наушников: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Звуки, тактильные сигналы → Безопасность наушников → Уведомления от наушников: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Звуки, тактильные сигналы → Безопасность наушников → Громкие звуки тише: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Звуки, тактильные сигналы → Тактильные сигналы: `bridge:root=SOUNDS_ID#Haptics`
+- Звуки, тактильные сигналы → Тактильные оповещения: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- Звуки, тактильные сигналы → Тактильное колесико: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Звуки, тактильные сигналы → Системные тактильные: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Звуки, тактильные сигналы → Накрыть для выкл. звука: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- Экстренный вызов — SOS: `bridge:root=SOS_MODE_ID`
+- Конфиденциальность: `bridge:root=PRIVACY_ID`
+- Конфиденциальность → Пульс: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- Конфиденциальность → Частота дыхания: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- Конфиденциальность → Отслеживание фитнеса: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- Конфиденциальность → Сбросить калибровку фитнеса: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- Конфиденциальность → Оценка звукового воздействия: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- Конфиденциальность → Измерения звукового воздействия наушников: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- Конфиденциальность → Измерения звукового воздействия наушников → Сохранить в приложении «Здоровье»: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- Конфиденциальность → Измерения звукового воздействия наушников → На 8 дней: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- Конфиденциальность → Измерения звукового воздействия наушников → До удаления: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- Конфиденциальность → Измерения уровня кислорода в крови: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- Конфиденциальность → Температура запястья: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Экранное время: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Глубина: `bridge:root=com.apple.DepthCompanionSettings`
+- Кнопка действия: `bridge:root=STING_TITLE`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Автоматические загрузки: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Автообновление: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Здоровье: `bridge:root=com.apple.BridgeHealthSettings`
+- Почта и Календарь: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Почта и Календарь → Учетные записи: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Почта и Календарь → Добавить учетную запись Google…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Почта и Календарь → Выборка: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Почта и Календарь → Выборка → Выкл.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Почта и Календарь → Выборка → Ежечасно: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Почта и Календарь → Выборка → 30 мин: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Почта и Календарь → Выборка → 15 мин: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Мытье рук: `bridge:root=com.apple.BrookBridgeSettings`
+- Мытье рук → Допуск уведомлений: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Мытье рук → Отправка в Центр уведомлений: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Мытье рук → Уведомления выкл.: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Мытье рук → Группировка: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Мытье рук → Таймер мытья рук: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Сотовая связь: `bridge:root=CELLULAR_ID`
+- Расширения: `bridge:root=COMPLICATIONS`
+- Активность: `bridge:root=com.apple.HealthAppsSettings`
+- Активность → Сообщ. о прогрессе: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Активность → Сообщ. о прогрессе → Нет: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Активность → Сообщ. о прогрессе → Каждые 2 ч: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Активность → Сообщ. о прогрессе → Каждые 4 ч: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Активность → Сообщ. о прогрессе → Каждые 6 ч: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Активность → Сообщ. о прогрессе → Каждые 8 ч: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Активность → Достижения: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Активность → Сводка за неделю: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Активность → Ежедневные тренировки: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Активность → Выполненные цели: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Активность → Специальные вызовы: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Активность → Уведомления от друзей: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Heart Rate: `bridge:root=com.apple.HeartRateSettings`
+- Heart Rate → Сердце: `bridge:root=com.apple.HeartRateSettings#1`
+- Heart Rate → Уведомления о пульсе: `bridge:root=com.apple.HeartRateSettings#2`
+- Heart Rate → Высокий пульс: `bridge:root=com.apple.HeartRateSettings#3`
+- Heart Rate → Низкий пульс: `bridge:root=com.apple.HeartRateSettings#4`
+- Heart Rate → Нерегулярный ритм: `bridge:root=com.apple.HeartRateSettings#5`
+- Heart Rate → См. записанные ЭКГ в Здоровье: `bridge:root=com.apple.HeartRateSettings#6`
+- Heart Rate → ЭКГ: `bridge:root=com.apple.HeartRateSettings#7`
+- Сообщения: `bridge:root=com.apple.MessagesBridgeSettings`
+- Сообщения → Повтор iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Сообщения → Настройка: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Сообщения → Ответы по умолчанию: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Сообщения → Ответы по умолчанию → Ответы по умолчанию: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Сообщения → Ответы по умолчанию → Смарт-ответы: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Сообщения → Ответы по умолчанию → Добавить ответ…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Сообщения → Повтор уведомления: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Сообщения → Аудиосообщения: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Осознанность: `bridge:root=com.apple.MindSettings`
+- Осознанность → Допуск уведомлений: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Осознанность → Отправка в Центр уведомлений: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Осознанность → Уведомления выкл.: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Осознанность → Напоминания о сессиях осознанности: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Осознанность → Начало дня: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Осознанность → Конец дня: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Осознанность → Добавление напоминания…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Осознанность → Сводка за неделю: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Осознанность → Сегодня не уведомлять: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Осознанность → Частота дыхания: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Осознанность → Частота дыхания → 4 вдоха-выдоха/мин: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Осознанность → Частота дыхания → 5 вдохов-выдохов/мин: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Осознанность → Частота дыхания → 6 вдохов-выдохов/мин: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Осознанность → Частота дыхания → 7 вдохов-выдохов/мин: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Осознанность → Частота дыхания → 8 вдохов-выдохов/мин: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Осознанность → Частота дыхания → 9 вдохов-выдохов/мин: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Осознанность → Частота дыхания → 10 вдохов-выдохов/мин: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Осознанность → Тактильные сигналы: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Осознанность → Тактильные сигналы → Нет: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Осознанность → Тактильные сигналы → Минимум: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Осознанность → Тактильные сигналы → Ощутимо: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Сон: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Сон → Настроить функцию «Сон» в «Здоровье»: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Аудиокниги: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Аудиокниги → Войти: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Календарь: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Календарь → УВЕДОМЛЕНИЯ: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Календарь → Повтор iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Календарь → Другое…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Календарь → КАЛЕНДАРИ: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Часы: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Часы → 24-часовой формат: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Часы → Перезвон: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Часы → Звуки: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Часы → Звуки → Колокольчики: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Часы → Звуки → Птицы: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Часы → Время вслух: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Часы → Выкл. в бесшумном режиме: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Часы → Всегда произносить: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Часы → Время тактильно: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Часы → Время тактильно → Время тактильно: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Часы → Время тактильно → Цифры: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Часы → Время тактильно → Краткое: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Часы → Время тактильно → Азбука Морзе: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Часы → Push-уведомления c iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Часы → Индикатор уведомлений: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Часы → Монограмма: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Часы → Уведомления о циферблатах: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Часы → Сокращения названий городов: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Часы → Источники данных циферблата Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Контакты: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Контакты → Сортировка: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Контакты → Сортировка → Имя, фамилия: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Контакты → Сортировка → Фамилия, имя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Контакты → Отображение: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Контакты → Отображение → Имя, фамилия: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Контакты → Отображение → Фамилия, имя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Контакты → Краткое имя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Контакты → Краткое имя → Краткое имя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Контакты → Краткое имя → Имя и первая буква фамилии: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Контакты → Краткое имя → Инициал имени и фамилия: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Контакты → Краткое имя → Только имя: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Контакты → Краткое имя → Только фамилия: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Контакты → Краткое имя → Предпочитать псевдонимы: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Почта: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Почта → Повтор iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Почта → Настройка: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Почта → Настройки Почты: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Почта → Учетные записи: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Почта → Показ почты: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Почта → Миниатюра сообщения: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Почта → Миниатюра сообщения → Нет: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Почта → Миниатюра сообщения → 1 строка: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Почта → Миниатюра сообщения → 2 строки: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Почта → Ответы по умолчанию: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Почта → Ответы по умолчанию → Ответы по умолчанию: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Почта → Ответы по умолчанию → Добавить ответ…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Почта → Подпись: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Карты: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Карты → Уведомления о поворотах: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Карты → Автомобиль: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Карты → Вождение с CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Карты → Пешком: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Карты → Велосипед: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Карты → Показ навигации: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Карты → Общественный транспорт: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Карты → Сведения о сборке:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Музыка: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Музыка → ПЛЕЙЛИСТЫ И АЛЬБОМЫ: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Музыка → Добавить музыку…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Wallet и Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Wallet и Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Wallet и Apple Pay → Добавление карты: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Wallet и Apple Pay → Уведомления: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Wallet и Apple Pay → Повтор iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Wallet и Apple Pay → Настройка: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Фото: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Фото → Синхронизация фото: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Фото → Воспоминания: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Фото → Синхронизация воспоминаний: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Фото → Подборка фото: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Фото → Синхронизация подборки фото: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Фото → Альбом: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Фото → Синхронизация альбома: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Фото → Макс. кол-во фото: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Фото → Настройки уведомлений: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Фото → Повтор iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Фото → Настройка: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Шум: `bridge:root=com.apple.Noise.settings`
+- Шум → Оценка звукового воздействия: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Шум → Уведомления о шуме: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Шум → Порог шума: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Шум → Порог шума → Выкл.: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Шум → Порог шума → 80 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Шум → Порог шума → 85 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Шум → Порог шума → 90 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Шум → Порог шума → 95 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Шум → Порог шума → 100 децибел: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Шум → Группировка: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Кислород в крови: `bridge:root=com.apple.OxygenSaturationSettings`
+- Настройки оператора: `bridge:root=CARRIER_SETTINGS`
+- Выключить код‑пароль: `bridge:root=PASSCODE_ID`
+- Выключить код‑пароль → Включить код‑пароль: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Выключить код‑пароль → Изменить код‑пароль: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Выключить код‑пароль → Простой код‑пароль: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Выключить код‑пароль → Разблокировка с iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Выключить код‑пароль → Стирание данных: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Выключить код‑пароль → Распознавание запястья: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Телефон: `bridge:root=com.apple.PhoneBridgeSettings`
+- Телефон → Вызовы: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Телефон → Рингтон: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Телефон → Звук: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Телефон → Тактильный сигнал: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Тренировка: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Тренировка → Режим энергосбережения: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Тренировка → Отображение показателей: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Тренировка → Вид: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Тренировка → Автопауза: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Тренировка → Автопауза → Автопауза: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Тренировка → Начало тренировки: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Тренировка → Окончание тренировки: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Тренировка → Пауза нажатием: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Тренировка → Автообнаружение: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Тренировка → Вид темпа/скорости: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Тренировка → Вид темпа/скорости → Текущие: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Тренировка → Вид темпа/скорости → Среднее: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Тренировка → Плейлист для тренировок: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Тренировка → Плейлист для тренировок → Нет: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Тренировка → Плейлист для тренировок → Плейлисты: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Тренировка → Воспроизвести с начала: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Тренировка → Перемешать: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Тренировка → Единицы измерения: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Тренировка → Единицы измерения → Калории: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Тренировка → Единицы измерения → Килокалории: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Тренировка → Единицы измерения → Килоджоули: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Тренировка → Единицы измерения → Ярды: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Тренировка → Единицы измерения → Метры: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Тренировка → Единицы измерения → Мили: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Тренировка → Единицы измерения → Километры: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Тренировка → Аудиоотзыв: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Тренировка → Время ходить: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Тренировка → Добавление новых тренировок на часы: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Акции: `bridge:root=com.apple.StocksBridgeSettings`
+- Акции → В расширении на циферблатах отображается: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Акции → Текущая цена: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Акции → Изменения в пунктах: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Акции → Изменения в процентах: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Акции → Рын. капитализация: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Акции → На циферблате Siri показана котировка:: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Акции → Выбранная акция: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Акции → Выбранная акция → Выбранная акция: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Dock: `bridge:root=DOCK`
+- Dock → Расположение в Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Недавние: `bridge:root=DOCK#Recents`
+- Dock → Избранное: `bridge:root=DOCK#Favorites`
+- Подкасты: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Спросите Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → Поднести и говорить: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Нажать Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Аудиоотзыв: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Аудиоотзыв → Всегда включено: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Аудиоотзыв → Выкл. в бесшумном режиме: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Аудиоотзыв → Только наушники: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Громкость голоса: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Предложения Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Рация: `bridge:root=com.apple.tincan.settings`
+- Рация → Допуск уведомлений: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Рация → Отправка в Центр уведомлений: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Рация → Уведомления выкл.: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Рация → Группировка: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Рация → Друзья: `bridge:root=com.apple.tincan.settings#Friends`
+- Погода: `bridge:root=com.apple.weatherbridgesettings`
+- Погода → Город: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Погода → Город → Город: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Погода → Город → Текущая геопозиция: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Отчет о прочтении: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

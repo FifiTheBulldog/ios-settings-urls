@@ -1,0 +1,1155 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud Saklama Alanı": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Fotoğraflar": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Kişiler": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Takvim": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Anımsatıcılar": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Notlar": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Yedekleme": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Sağlık": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Parolalar ve Anahtar Zinciri": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Özel Geçiş": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Konumumu Paylaş": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "iPhone’umu Bul": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Ad, Telefon Numarası ve E-posta": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Parola ve Güvenlik": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Ödeme ve Teslimat": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Abonelikler": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Aile": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Gizlilik ve Güvenlik": {
+    "(root)": "prefs:root=Privacy",
+    "Güvenlik Denetimi": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Konum": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Konumumu Paylaş": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Kişiler": "prefs:root=Privacy&path=CONTACTS",
+    "Takvimler": "prefs:root=Privacy&path=CALENDARS",
+    "Anımsatıcılar": "prefs:root=Privacy&path=REMINDERS",
+    "Fotoğraflar": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth Paylaşma": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Mikrofon": "prefs:root=Privacy&path=MICROPHONE",
+    "Konuşma Tanıma": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Kamera": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Ortamlar ve Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Analiz": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Reklam": "prefs:root=Privacy&path=ADVERTISING",
+    "Dosyalar ve Klasörler": "prefs:root=Privacy&path=FILEACCESS",
+    "Takip Etme": "prefs:root=Privacy&path=USER_TRACKING",
+    "Uygulama Gizlilik Raporu": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Kilit Modu": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Sağlık": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Odak": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Odak Durumu": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Genel": {
+    "(root)": "prefs:root=General",
+    "VPN ve Aygıt Yönetimi": "prefs:root=General&path=ManagedConfigurationList",
+    "Resim İçinde Resim": "prefs:root=General&path=PiP_SPEC",
+    "İzleme Dörtgeni ve Fare": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Hakkında": {
+      "(root)": "prefs:root=General&path=About",
+      "Güvenilen Sertifikalar": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Yasal ve Mevzuat": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Yazılım Güncelleme": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Ana Ekran Düğmesi": "prefs:root=General&path=HOME_BUTTON",
+    "Hareketler": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Yan Düğme": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Arka Planda Uygulama Yenile": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Tarih ve Saat": "prefs:root=General&path=DATE_AND_TIME",
+    "TV Çıkışı": "prefs:root=General&path=TV_OUT",
+    "Mevzuat": "prefs:root=General&path=REGULATORY",
+    "Sıfırla": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Tüm Ayarları Sıfırla": "prefs:root=General&path=Reset#settingsErase",
+      "Tüm İçerikleri ve Ayarları Sil": "prefs:root=General&path=Reset#fullErase",
+      "Ağ Ayarlarını Sıfırla": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Hücresel Veri Planlarını Sil": "prefs:root=General&path=Reset#cellularErase",
+      "Abone Servisleri": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Klavye Sözlüğünü Sıfırla": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Ana Ekran Yerleşimini Sıfırla": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Konum ve Gizliliği Sıfırla": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Sistemi Kapat": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay ve Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "HomePod’a Aktar": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "TV’lere Otomatik AirPlay Yap": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Süreklilik Kamerası": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Sözlük": "prefs:root=General&path=DICTIONARY",
+    "Dil ve Bölge": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Diğer Diller…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Tercih Edilen Dil Sırası": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Dil Ekle…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Bölge": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Sayılar": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Takvim": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Sıcaklık Birimi": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Klavye": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Klavyeler": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Metin Değişimi": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Otomatik Büyük Harf": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Otomatik Düzeltme": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Yazım Denetimi Yap": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Büyük Harf Kilidi": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Kestirmeler": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Tahmin": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Akıllı Noktalama": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Ayrık Klavye": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Tuş Kaydırmayı Etkinleştir": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Karakter Önizlemesi": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "“.” Kestirmesi": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Kaydırarak yazdırın": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Dikte’yi Etkinleştir": "prefs:root=General&path=Keyboard#Dictation",
+      "Otomatik Noktalama": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Saklama Alanı": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Kullanılmayanları Kaldır": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Bildirimler": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Zamanlanmış Özet": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Cüzdan ve Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Ödeme Kartları": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Kart Ekle": "prefs:root=PASSBOOK#Add%20Card",
+    "Yan Düğmeye İki Kez Bas": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Sipariş Takibi": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Ekran Süresi": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Bugün": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Hafta": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Atıl Süre": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Uygulama Sınırları": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "İletişim Sınırları": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "İletişim Güvenliği": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Her Zaman İzin Verilen": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "İçerik ve Gizlilik Sınırlamaları": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Ebeveyn Denetimleri": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Erişilebilirlik": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Görme": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Konuşma Hızı": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Konuşma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Ses": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Ayrıntı Düzeyi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Noktalama": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Tablo Başlıkları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Ortam Açıklamaları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Kapalı": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Konuşma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Konuşma ve Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Çıkış": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Küçültülmemiş 6 Noktalı Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Küçültülmemiş 8 Noktalı Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Küçültülmüş Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Giriş": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Küçültülmemiş 6 Noktalı Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Küçültülmemiş 8 Noktalı Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Küçültülmüş Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Otomatik Çeviri": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Ekrandan Braille Girişi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Küçültülmemiş 6 Noktalı Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Küçültülmemiş 8 Noktalı Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Küçültülmüş Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Ters Nokta Konumları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Braille Tabloları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Braille Tablosu Ekle…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Durum Hücreleri": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Durum Hücreleri Konumu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Sol": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Sağ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Genel Durumu Göster": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Metin Durumunu Göster": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Denklemlerde Nemeth Kodu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Ekran Klavyesini Göster": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Kaydırırken Sayfaları Çevir": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Sözcük Sarma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Braille Uyarı İletileri": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Tuş Süresini Yok Say": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Otomatik İlerleme Süresi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Ses": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Ses Zayıflaması": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Aramada Hoparlörü Seç": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "HDMI’a Gönder": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Komutlar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Eylemler": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Programlama": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Eylem Ekle…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Rotor Eylemleri": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Uygulamaları Düzenle": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Doğrudan Dokunma Uygulamaları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Yazma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Yazma Stili": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Standart Yazma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Dokunarak Yazma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Doğrudan Dokunarak Yazma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Fonetik Geri Bildirim": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Kapalı": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Karakter ve Fonetik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Sadece Fonetik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Yazma Geri Bildirimi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Niteleme Tuşları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Kontrol + Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Büyük Harf Kilidi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Klavye Etkileşimi Süresi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Görüntüleri Dolaş": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Her Zaman": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Açıklamalarla": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Asla": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Büyük İmleç": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Altyazı Paneli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Çift Dokunma Zaman Aşımı": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Çift Dokunma Zaman Aşımı": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Dolaşma Stili": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Hızlı Ayarlar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Sesler": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Ses Zayıflaması": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Ses Yüksekliği": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Konuşma Hızı": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "İpuçları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Dolaşma Stili": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Yazma Stili": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Kaydırarak Yazma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Eylemler": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Bildirimleri Daima Seslendir": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Braille Uyarı İletileri": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Braille Otomatik İlerleme": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Braille Girişi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Braille Çıkışı": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Braille Tabloları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Altyazı Paneli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Doğrudan Dokunma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Hareket Yönü": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Donanım Yazma Geri Bildirimi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Dil": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Büyük İmleç": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Ortam Açıklamaları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Görüntüleri Dolaş": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Fonetik Geri Bildirim": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Perde Değişimi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Noktalama": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "HDMI’a Gönder": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Yazılım Yazma Geri Bildirimi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Konuşma Rotoru Doğrulama": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Görüntü Açıklamaları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Ekran Tanıma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "VoiceOver Tanıması": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Görüntü Açıklamaları": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Ekran Tanıma": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Büyütme": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Büyütme": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Odağı Takip Et": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Akıllı Yazma": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Klavye Kestirmeleri": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Klavye Kestirmeleri": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Büyütme Düzeyini Ayarla": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Büyütme’yi Aç/Kapat": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Büyütme Penceresini Taşı": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Büyütme Penceresinin Büyüklüğünü Değiştir": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Büyütülen Bölgeyi Değiştir": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Büyütmeyi Geçici Olarak Aç/Kapat": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Kaydırma Tekerleği ile Büyüt": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Büyütme Denetleyici": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Büyütme Alanı": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Tam Ekran Büyütme": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Pencere Büyütme": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Maksimum büyütme düzeyi": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Büyütme Filtresi": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Yansıtma Sırasında Göster": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Metin Üzerinde Tutma": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Ekran ve Metin Puntosu": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Kalın Metin": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Büyük Metin": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Düğme Şekilleri": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Açık/Kapalı Etiketleri": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Saydamlığı Azalt": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Kontrastı Artır": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Renk Olmadan Farklılaştır": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Akıllı Tersine Çevir": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Klasik Tersine Çevir": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Renk Filtreleri": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Renk Filtreleri": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Beyaz Noktayı Azalt": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Otomatik Parlaklık": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Hareket": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Hareketi Azalt": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Mesaj Efektlerini Oto. Oynat": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Video Önizlemelerini Oto. Oynat": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Seslendirilen İçerik": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Seçimi Seslendir": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Ekranı Seslendir": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Konuşma Denetleyici": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Fare Düğmelerini Özelleştir": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "İçeriği Vurgula": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Yazma Geri Bildirimi": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Karakter Geri Bildirimi": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Karakterler": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Karakter İpuçları": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Sözcükleri Seslendir": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Otomatik Metni Seslendir": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Tahminler İçin Basılı Tut": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Sesler": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Saptanmış Dil": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Dilleri Algıla": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Konuşma Hızı": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Telaffuz": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Sesli Betimleme": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Sesli Betimleme": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Fiziksel ve Devimsel": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Dokunma": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "En Üst Menüyü Özelleştir": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Değiştirilecek simgeye dokunun:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Sıfırla…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Özel Eylemler": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Tek Dokunma": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Çift Dokunma": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Çift Dokunma Zaman Aşımı": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Uzun Bas": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Uzun Basma Süresi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Özel Hareketler": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Yeni Hareket Yarat…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Boşken Opaklık": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "İmleç Aygıtları": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Aygıtlar": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth Aygıtları…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Fare Tuşları": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "İmleç Stili": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Büyüklük": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Görsel": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Renk": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Fare Düğmelerini Özelleştir": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Otomatik Gizle": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_1190": {
+            "Otomatik Gizle": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Ekran Klavyesini Göster": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Menüyü Hep Göster": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Duraklamayla Denetim": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Hareket Toleransı": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "İzleme Duyarlılığı": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Geri Çekme Eylemi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Sıcak Köşeler": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Oyun Kumandası Kullan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D ve Haptic Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_1191": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "3D Touch Duyarlılığı": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Dokunma Süresi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Hızlı": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Yavaş": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "3D Touch Duyarlılığı ve Dokunma Süresi Testi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Dokunma Kolaylıkları": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_1192": {
+        "Dokunma Kolaylıkları": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Tutma Süresi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Yinelemeyi Yok Say": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Dokunma Yardımı": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Kapalı": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "İlk Dokunma Konumunu Kullan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Son Dokunma Konumunu Kullan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Uyandırmak İçin Dokun": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Uyandırmak İçin Dokun veya Kaydır": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Geri Almak İçin Salla": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Titreşim": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Kilidin Aramayı Bitirmesini Önle": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Arama Ses Yolu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_1193": {
+        "Otomatik": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth Mikrofonlu Kulaklık Seti": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Hoparlör": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Aramaları Otomatik Yanıtla": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID ve Dikkat": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Face ID İçin Dikkat Gereksin": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Dikkat Farkındalığı Özellikleri": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Dokunuşlar": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Başarılı Kimlik Doğrulamada Dokunuş": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Anahtarla Denetim": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Anahtarla Denetim": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Anahtarlar": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_1194": {
+        "Yeni Anahtar Ekle…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth Aygıtları…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Tarifler": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Tarama Stili": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_1195": {
+        "Otomatik Tarama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Elle Tarama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Tek Anahtar Adımıyla Tarama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Zamanlama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Otomatik Tarama Süresi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_1196": {
+        "Otomatik Tarama Süresi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "İlk Öğede Duraklat": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_1197": {
+        "İlk Öğede Duraklat": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Gitmeyi Yinele": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_1198": {
+        "Gitmeyi Yinele": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Uzun Bas": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_1199": {
+        "Uzun Bas": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Dokunma Davranışı": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_1200": {
+        "Saptanmış": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Otomatik Dokunma": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Her Zaman Dokunma": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Dokunma Odak Öğesi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_1201": {
+        "İlk Öğe": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Şu Anki Öğe": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Klavye": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Dokun ve Aynı Tuşu Tara": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Hep Klavye Tuşlarına Dokun": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Genişletilmiş Tahminler": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Anahtar Stabilizasyonu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Tutma Süresi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_1202": {
+        "Tutma Süresi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Yinelemeyi Yok Say": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_1203": {
+        "Yinelemeyi Yok Say": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Nokta Tarama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Kayan İmleç": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_1204": {
+        "Seçim Modu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Tek": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Düzeltilmiş": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Hassas": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Kayan İmleç Hızı": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Kafa İzleme": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_1205": {
+        "Kafa İzleme": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Ses": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Ses Efektleri": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Konuşma": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_1206": {
+        "Sesler": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Konuşma Hızı": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Menü Öğeleri": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Öğeleri Grupla": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Görsel": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Büyük İmleç": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Kayıtlı Hareketler": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_1207": {
+        "Yeni Hareket Yarat…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "İmleç Rengi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Sesle Denetim": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Sesle Denetim’i Ayarla": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Dil": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_1208": {
+        "İngilizce (ABD)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Komutları Özelleştir": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Sözcük Hazinesi": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Komut Geri Bildirimi": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Onayı Göster": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Ses Çal": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "İpuçlarını Göster": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Sürekli Katman": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Katman": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_1209": {
+        "Yok": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Öğe Numaraları": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Öğe Adları": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Numaralı Izgara": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Dikkat Farkındalığı": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Yan Düğme": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Tıklama Hızı": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Saptanmış": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Yavaş": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "En Yavaş": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Konuşmak için basılı tutun": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Klasik Sesle Denetim": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Kapalı": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Yön Düğmeleri": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Apple Watch Kumanda Ekranı": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Klavyeler": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Tam Klavye Erişimi": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_1210": {
+        "Tam Klavye Erişimi": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Görseller": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Otomatik Gizle": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Büyük Odak Halkası": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Renk": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Tuş Yineleme": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_1211": {
+        "Tuş Yineleme": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Tuş Yineleme Aralığı": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Yineleme Öncesi Gecikme": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Yapışkan Tuşlar": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_1212": {
+        "Yapışkan Tuşlar": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Shift Tuşu ile Aç/Kapat": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Ses": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Yavaş Tuşlar": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_1213": {
+        "Yavaş Tuşlar": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Yazılım Klavyeleri": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Tuşları Küçük Harf Göster": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "İşitme": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "İşitme Cihazları": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi İşitme Cihazları": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "İşitme Cihazı Uyumluluğu": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Ses Tanıma": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Sesler": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Yazılım TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Donanım TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Ses ve Görsel": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Ses": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Kulaklık Kolaylıkları": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_1214": {
+        "Kulaklık Kolaylıkları": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Özel Ses Ayarları": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Arka Plan Sesleri": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Mono Ses": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Telefonda Gürültü Engelleme": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Denge": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Görsel": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "Uyarılar için LED Flaş": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_1215": {
+        "Kilitli Değilken Flaş": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Sessiz Modda Flaş": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Sol-Sağ Stereo Dengesi": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Açma ve Kapatma Sesleri": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Açıklamalı Altyazılar": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Stil": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Açıklamalı Altyazılar": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Sesli Dökümleri Göster": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_1216": {
+      "Canlı Altyazı (Beta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "FaceTime’da Canlı Altyazı": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Genel": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Denetimli Erişim": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Denetimli Erişim": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Parola Ayarları": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_1217": {
+        "Denetimli Erişim Parolası Ayarla": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Süre Sınırları": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_1218": {
+        "Alarm": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Ses": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Seslendir": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Erişilebilirlik Kestirmesi": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Otomatik Kilidi Görüntüle": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Özel Erişilebilirlik Modu": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Siri’ye Yaz": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Sesli Yanıtlar": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Otomatik Sesli Yanıtlar": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Sessiz Yanıtları Tercih Et": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Sessiz Modda Seslendirme": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Her Zaman “Hey Siri”yi Dinle": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Erişilebilirlik Kestirmesi": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Büyüteç": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Uygulamaya Özel Ayarlar": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Yakındaki Aygıtları Denetle": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Ekran ve Parlaklık": {
+    "(root)": "prefs:root=DISPLAY",
+    "Görünüş": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Zamanlanmış": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Yarına Kadar Açık Bırak": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Renk Sıcaklığı": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Otomatik Kilit": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Uyandırmak İçin Kaldır": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Kilitle/Kilidi Aç": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Metin Puntosu": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Kalın Metin": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Ekran Büyütme": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Görüntü": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Maruz Kalma Bildirimleri": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_1219": {
+    "Bildirim İşaretleri": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Yeni İndirilen Uygulamalar": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Ana Ekran ve Çoklu Görev": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_1220": {
+      "Uygulama Arşivi’ni Dock’ta Göster": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Önerilen ve Son Kullanılan Uygulamaları Dock’ta Göster": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Ana Ekran": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Yeni İndirilen Uygulamalar": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Bildirim İşaretleri": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID ve Parola": {
+    "(root)": "prefs:root=PASSCODE",
+    "Parolayı Kapat": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Parolayı Değiştir": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Parola Gereksin": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Sesle Arama": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Kilitliyken Erişime İzin Ver": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Mesaj ile Yanıtla": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Ev Denetimi": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Cüzdan": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Cevapsız Aramalara Geri Dön": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Verileri Sil": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Kilidi Apple Watch ile Aç": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcast’ler": "prefs:root=PODCASTS",
+  "Acil SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Yan Düğme ile Ara": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Otomatik Ara": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Acil Durum Kişileri": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Geri Sayım Sesi": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Sesler": {
+    "(root)": "prefs:root=Sounds",
+    "Kulaklık Güvenliği": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning Adaptörleri": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Kulaklık Bildirimleri": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Yüksek Sesleri Azalt": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Ses Efektleri": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Zil Sesi ve Uyarılar": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Düğmelerle Değiştir": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Sesler ve Titreşim Modelleri": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Zil Sesi": "prefs:root=Sounds&path=Ringtone",
+    "SMS Tonu": "prefs:root=Sounds&path=Text_Messages",
+    "Yeni Sesli Mesaj": "prefs:root=Sounds&path=Voicemail",
+    "Yeni Posta": "prefs:root=Sounds&path=NEW_MAIL",
+    "Giden Posta": "prefs:root=Sounds&path=SENT_MAIL",
+    "Takvim Uyarıları": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Anımsatıcı Uyarıları": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Klavye Tıklamaları": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Kilit Sesi": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Hava Durumu": "prefs:root=WEATHER",
+  "Pusula": {
+    "(root)": "prefs:root=COMPASS",
+    "Coğrafi Kuzeyi Kullan": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Denetim Merkezi": {
+    "(root)": "prefs:root=ControlCenter",
+    "Uygulama İçinden Erişim": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Denetimleri Özelleştir": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Geliştirici": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Çok Yollu Ağ": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Çok Yollu Ağ": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Görünüş": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Koyu Görünüş": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Eşlenmiş Aygıtlar": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Güvenilen Bilgisayarları Sil": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Müzik Aletleri": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Günlük": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Kullanıcı Arayüzü Otomasyonu": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Ağ": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Ağ Bağlantısı Düzeltici": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "iAd Geliştirici Uygulama Testi": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Doldurma Oranı": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Kesik Başlıkları Vurgula": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Sınırsız Reklam Sunumu": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "PassKit Testi": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Ek Günlük": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "HTTP Servislerine İzin Ver": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Derecelendirme Sınırlandırmayı Etkisizleştir": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "NFC Geçiş Tuşu İsteğe Bağlı": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Ortam Servisleri Testi": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "AirPlay Önerileri": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Ortam Servislerini Sıfırla": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "News Testi": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Bir Sonraki Başlatmada Yerel Verileri Sıfırla": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Ortam Oynatıcı Framework Testi": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "Oynatılabilir İçerik API": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "TV Sağlayıcı Testi": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "TV Sağlayıcıları": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "CoreSpotlight Testi": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Tüm Öğeleri Yeniden Diz": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Tanıtıcısı Olan Tüm Öğeleri Yeniden Diz": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Kestirmeler Testi": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Son Kullanılan Kestirmeleri Görüntüle": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Yakında Çıkacak Ortamları Görüntüle": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Bağışları Kilitli Ekranda Görüntüle": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Kestirmeleri Watch ile Eşzamanlamaya Zorla": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "MIDI-CI Testi": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "MIDI-CI’yi Etkinleştir": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Sağlık": "prefs:root=HEALTH",
+  "Ölçüm": {
+    "(root)": "prefs:root=MEASURE",
+    "Ölçü Birimleri": "prefs:root=MEASURE#MEASURE_UNITS",
+    "İmperial (İngiliz Ölçü Birimi)": "prefs:root=MEASURE#Imperial",
+    "Metrik": "prefs:root=MEASURE#Metric"
+  },
+  "Müzik": {
+    "(root)": "prefs:root=MUSIC",
+    "Apple Music’i Göster": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Liste Parçalarını Ekle": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Yıldızlı Puan Düzeyini Göster": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Arşiv’i Eşzamanla": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Hücresel Veri": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "İndirilen Müzik": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "En İyi Saklama": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Otomatik İndirmeler": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Ses Denetimi": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Dinleme Geçmişini Kullan": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Notlar": {
+    "(root)": "prefs:root=NOTES",
+    "Saptanmış Hesap": "prefs:root=NOTES&path=Default%20Account",
+    "Parola": "prefs:root=NOTES&path=Password",
+    "Notları Sırala": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Yeni Not Başlangıcı": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "İşaretlenen Öğeleri Düzenle": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Satır ve Izgara Çizgisi": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Fotoğraflar’a Kaydet": "prefs:root=NOTES#Save%20to%20Photos",
+    "Notlara Kilitli Ekrandan Erişim": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Mesajlar": "prefs:root=MESSAGES",
+  "Çeviri": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Aygıtta Çeviri Modu": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "TV Sağlayıcı": "prefs:root=VIDEO_SUBSCRIBER",
+  "Sesli Notlar": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Silineni Temizle": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Ses Kalitesi": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Konum Tabanlı Adlandırma": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Kamera": {
+    "(root)": "prefs:root=CAMERA",
+    "Biçimler": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_1221": {
+      "HDR Video": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Ayarları Koru": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Kamera Modu": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Izgara": "prefs:root=CAMERA#CameraGridSwitch",
+    "QR Kodlarını Tara": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Harita": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Kişiler": {
+    "(root)": "prefs:root=CONTACTS",
+    "Kişiler Erişebilsin": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri ve Arama": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Sıralama": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Görüntüleme Sırası": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Kısa Ad": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Kısa Ad": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Takma Adları Tercih Et": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Bilgilerim": "prefs:root=CONTACTS&path=MeCard",
+    "SIM’deki Kişileri Aktar": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Kitaplar": {
+    "(root)": "prefs:root=IBOOKS",
+    "Çevrimiçi İçerik": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "EŞZAMANLAMA": "prefs:root=IBOOKS#SYNCING",
+    "Şu An Okunan": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "OKUMA": "prefs:root=IBOOKS#READING",
+    "Tam Yaslama": "prefs:root=IBOOKS#BKFullJustification",
+    "Otomatik Tireleme": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Her İki Marj ile İlerletme": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Okuma Hedefleri": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Okuma Hedefi Verilerini Sil": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "ARAMA": "prefs:root=IBOOKS#SEARCHING",
+    "Kitapçı": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "SESLİ KİTAPLAR": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "İleriye Doğru Atla": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Geriye Doğru Atla": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "HARİCİ DENETİMLER": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Sonraki/Önceki": "prefs:root=IBOOKS#Next/Previous",
+    "İleriye/Geriye Atla": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "GİZLİLİK": "prefs:root=IBOOKS#PRIVACY",
+    "Tanıtıcıyı Sıfırla": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Teşekkürler": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Takvim": {
+    "(root)": "prefs:root=CALENDAR",
+    "Saat Dilimini Geçersiz Kıl": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Alternatif Takvimler": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Hafta Numaraları": "prefs:root=CALENDAR#Week%20Numbers",
+    "Reddeden Davetlileri Göster": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Eşzamanla": "prefs:root=CALENDAR&path=Sync",
+    "Saptanmış Uyarı Süresi": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Haftanın İlk Günü": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Konum Önerileri": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Hesaplar": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Hesap Ekle": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Yeni Verileri Al": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Önizleme": "prefs:root=MAIL&path=Preview",
+    "Kime/Bilgi Etiketlerini Göster": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Kaydırma Seçenekleri": "prefs:root=MAIL&path=Swipe%20Options",
+    "Silmeden Önce Sor": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Uzaktaki Görüntüleri Yükle": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Konu Grubuna Göre Düzenle": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Okunmuş İleti İçeriğini Gizle": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "En Son İleti En Üstte": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Tam Konu Grupları": "prefs:root=MAIL#Complete%20Threads",
+    "Bildirimi Kapalı Grup": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Engellenenleri Yok Say": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Engellenenler": "prefs:root=MAIL&path=Blocked",
+    "Kendime Gizli Kopya": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Adresleri İşaretle": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Alıntı Düzeyini Artır": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Yanıtlı İlişikleri Dahil Et": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Özel": "prefs:root=MAIL&path=Signature"
+  },
+  "Telefon": {
+    "(root)": "prefs:root=Phone",
+    "Numaram": "prefs:root=Phone&path=My%20Number",
+    "Gelen Aramalar": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Aramaları Duyur": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "SMS/Arama Raporu": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Mesajla Yanıtla": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Arama Yönlendirme": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Arama Yönlendirme": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Arama Bekletme": "prefs:root=Phone&path=Call%20Waiting",
+    "Numaramı Göster": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_1222": {
+        "Numaramı Göster": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Bilinmeyen Arayanları Sessize Al": "prefs:root=Phone#SILENCE_CALLS",
+    "Engellenen Kişiler": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Çevirme Yardımı": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "İçerik Engelleyici": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Pencereleri Engelle": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Siteler Arası Takibi Engelle": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Otomatik Doldur": "prefs:root=SAFARI&path=AUTO_FILL",
+    "İndirilenler": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Parolalar": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Parolaları Oto. Doldur": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Fotoğraflar": {
+    "(root)": "prefs:root=Photos",
+    "iCloud Fotoğrafları": "prefs:root=Photos#iCloudPhotosSwitch",
+    "En İyi Saklama": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "İndir ve Özgünleri Tut": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Fotoğraf Yayınım": "prefs:root=Photos#PhotoStreamSwitch",
+    "Paylaşılan Albümler": "prefs:root=Photos#SharedStreamsSwitch",
+    "Hücresel Veri": "prefs:root=Photos&path=CellularDataLinkList",
+    "Videoları Otomatik Oynat": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Full HDR Görüntüle": "prefs:root=Photos#ImageModulationSwitch",
+    "Tatil Günlerini Göster": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Mac’e veya PC’ye aktarma": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Otomatik İndirmeler": "prefs:root=STORE#Automatic%20Downloads",
+    "Güncellemeler": "prefs:root=STORE#App%20Updates",
+    "Uygulama İndirmeleri": "prefs:root=STORE&path=App%20Downloads",
+    "Otomatik Video Oynatma": "prefs:root=STORE&path=Video%20Autoplay",
+    "Uygulama İçi Puan ve Yorum": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Yazı Önizlemesini Göster": "prefs:root=NEWS#show_excerpt_mode",
+    "Bugün’de Yazıları Sınırla": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Gizlilik": "prefs:root=NEWS#Privacy",
+    "Tanıtıcıyı Sıfırla": "prefs:root=NEWS#reset_identifier",
+    "Teşekkürler": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_1223": {
+    "Uçak Modu": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Anımsatıcılar": {
+    "(root)": "prefs:root=REMINDERS",
+    "Saptanmış Liste": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Anımsatıcılar": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Bugün Bildirimi": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Gecikmiş Olarak Göster": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Pil": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Düşük Güç Modu": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Pil Sağlığı": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Kestirmeler": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "iCloud Eşzamanlama": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Kestirme Sırasını Eşzamanla": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Yasal Uyarılar": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri ve Arama": {
+    "(root)": "prefs:root=SIRI",
+    "Kilitliyken Siri’ye İzin Ver": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Dil": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Siri Sesi": "prefs:root=SIRI&path=VOICE_ID",
+    "Sesli Geri Bildirim": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Bilgilerim": "prefs:root=SIRI&path=MY_INFO",
+    "Arama Önerileri": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Araştır Önerileri": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Kilitli Ekran Önerileri": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Borsa": {
+    "(root)": "prefs:root=STOCKS",
+    "Gizlilik": "prefs:root=STOCKS#Privacy",
+    "Tanıtıcıyı Sıfırla": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Hücresel": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Seçenekler": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Düşük Veri Modu": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Hücresel Veri": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Oynatma için Hücresel Veri": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Oynatma Kalitesi": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Satın Alınanlar ve Kiralananlar": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Ev Paylaşımı": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Duvar Kâğıdı": "prefs:root=Wallpaper"
+}

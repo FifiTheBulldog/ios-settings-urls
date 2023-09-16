@@ -1,0 +1,561 @@
+{
+  "Zpřístupnění": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Zrak": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Přepnout velikost": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Tučný text": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Štítky Zapnuto/Vypnuto": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Stupně šedi": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Snížit průhlednost": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Omezit pohyb": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Odbíjení": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Rozvrh": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Po hodinách": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "Po 30 minutách": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "Po 15 minutách": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Zvuky": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Zvony": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Ptáci": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Motorické funkce": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Stisknutí postranního tlačítka": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Rychlost stisknutí": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Výchozí": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Pomalé": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Nejpomalejší": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Přizpůsobení dotyků": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Přizpůsobení dotyků": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Délka dotyku": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Ignorovat opakování": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Asistence při klepnutí": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Vypnuto": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Použít místo prvního dotyku": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Použít místo posledního dotyku": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "VOZÍČKÁŘSKÁ AKTIVITA": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Vysílačka": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Režim mluvení klepnutím": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Sluch": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Číslo prostředníka": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Hned posílat": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Výchozí odpovědi": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Výchozí odpovědi": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Přidat odpověď…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Monofonní zvuk": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Stereováha levá-pravá": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Oznámení o sluchátkách": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Sluchadla": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Komplikace": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Hlasitost mikrofonu": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Program": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Rychlost odklepávání času": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Zkratka zpřístupnění": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Spárovat další Apple Watch": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Zobrazení aplikací": "bridge:root=APP_VIEW_ID",
+  "Obecné": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Informace": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Název": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Omezená záruka": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Omezená záruka": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "PODROBNOSTI O KRYTÍ": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Krytí hardwaru": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Podpora chatu a telefonu": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Skladby": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Fotky": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Aplikace": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Kapacita": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "K dispozici": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Verze": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Operátor": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Model": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Sériové číslo": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Adresa Wi‑Fi": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Právní dokumenty": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Zobrazit příručku pro Apple Watch ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Aktualizace softwaru": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Automatická instalace aplikací": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Letový režim": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Soustředění": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Zrcadlit můj iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Orientace hodinek": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Apple Watch nosím:": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Na levém zápěstí": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Na pravém zápěstí": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown vlevo": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown vpravo": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Zapnout diktování": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Zapnout Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Režim nočního stolku": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Zapnout snímky obrazovky": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Úložiště": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Protokoly diagnostiky": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Zkopírovat analýzu hodinek": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Resetovat": "bridge:root=GENERAL_LINK&path=RESET",
+    "Automatické spouštění při ponoření": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Auto-spouštět audioaplikace": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Jazyk a oblast": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Zrcadlit můj iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Vlastní": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "NÁVRAT K CIFERNÍKU": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "NÁVRAT K CIFERNÍKU": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Vždy": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "Po 2 minutách": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "Po 1 hodině": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APLIKACE": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Právě hraje": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Zobrazení a jas": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Jas": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Vždy zapnuto": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Vždy zapnuto": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "PŘI SVĚŠENÍ ZÁPĚSTÍ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Zobrazit oznámení": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Zobrazit oznámení": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APLIKACE PRO APPLE WATCH": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Zobrazit aplikace": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Zobrazit aplikace": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APLIKACE": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Velikost textu": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Tučný text": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "PROBOUZENÍ": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Probudit zvednutím zápěstí": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Probudit otočením korunkou": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Délka probuzení": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "PŘI KLEPNUTÍ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Probudit na 15 sekund": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Probudit na 70 sekund": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Zvuky a haptika": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Hlasitost upozornění": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Tichý režim": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Zvuk ve sluchátkách": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Bezpečnost sluchátek": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Oznámení o sluchátkách": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Tlumit hlasité zvuky": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Haptika": "bridge:root=SOUNDS_ID#Haptics",
+    "Haptická upozornění": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Haptika korunky": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Systémová haptika": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Ztišit přikrytím": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "Tíseň SOS": "bridge:root=SOS_MODE_ID",
+  "Soukromí": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Tepová frekvence": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Dechová frekvence": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Sledování kondice": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Resetovat kalibrační data kondice": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Měření zvuku v okolí": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Měření zvuku ve sluchátkách": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Uložit do aplikace Zdraví": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "Na 8 dní": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Dokud je nesmažu": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Naměřené hodnoty saturace kyslíkem": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Teplota zápěstí": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Čas u obrazovky": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Hloubka": "bridge:root=com.apple.DepthCompanionSettings",
+  "Tlačítko Akce": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Automatická stahování": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Automatická aktualizace": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Zdraví": "bridge:root=com.apple.BridgeHealthSettings",
+  "Pošta a kalendář": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Účty": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Přidat účet Google…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Vyzvedávání": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Vypnuto": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Každou hodinu": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Mytí rukou": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Povolit oznámení": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Poslat do Oznamovacího centra": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Oznámení jsou vypnutá": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Seskupení": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Odpočet mytí rukou": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Mobilní data": "bridge:root=CELLULAR_ID",
+  "Komplikace": "bridge:root=COMPLICATIONS",
+  "Aktivita": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Aktualizace pokroků": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Žádné": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "Každé 2 hodiny": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "Každé 4 hodiny": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "Každých 6 hodin": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "Každých 8 hodin": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Úspěchy": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Týdenní přehled": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Denní koučink": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Dosažené cíle": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Speciální výzvy": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Oznámení o sdílení aktivity": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Srdce": "bridge:root=com.apple.HeartRateSettings#1",
+    "Oznámení o tepu": "bridge:root=com.apple.HeartRateSettings#2",
+    "Rychlá tepová frekvence": "bridge:root=com.apple.HeartRateSettings#3",
+    "Pomalá tepová frekvence": "bridge:root=com.apple.HeartRateSettings#4",
+    "Nepravidelný rytmus": "bridge:root=com.apple.HeartRateSettings#5",
+    "Zobrazit změřené EKG ve Zdraví": "bridge:root=com.apple.HeartRateSettings#6",
+    "EKG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Zprávy": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Zrcadlit můj iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Vlastní": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Výchozí odpovědi": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Výchozí odpovědi": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Chytré odpovědi": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Přidat odpověď…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Opakovat upozornění": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Zvukové zprávy": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Všímavost": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Povolit oznámení": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Poslat do Oznamovacího centra": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Oznámení jsou vypnutá": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Připomínky všímavosti": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Začátek dne": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Konec dne": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Přidat připomínku…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Týdenní přehled": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Pro dnešek vypnout": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Frekvence": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 dechy za minutu": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 dechů za minutu": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 dechů za minutu": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 dechů za minutu": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 dechů za minutu": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 dechů za minutu": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 dechů za minutu": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Haptika": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Žádná": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Minimální": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Výrazná": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Spánek": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Nastavit spánek v aplikaci Zdraví": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Audioknihy": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Přihlásit se": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Kalendář": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "OZNÁMENÍ": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Zrcadlit můj iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Vlastní…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "KALENDÁŘE": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Hodiny": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24hodinový čas": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Odbíjení": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Zvuky": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Zvony": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Ptáci": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Předčítat čas": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Podle tichého režimu": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Vždy": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Odklepávání času": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Odklepávání času": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Číslice": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Zkrácené": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Morseovka": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Přenášet upozornění z iPhonu": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Indikátor oznámení": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monogram": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Oznámení o cifernících": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Zkratky měst": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Zdroje dat pro ciferník Siri": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Kontakty": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Řazení": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Jméno, Příjmení": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Příjmení, Jméno": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Zobrazení": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Jméno, Příjmení": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Příjmení, Jméno": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Krátké jméno": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Krátké jméno": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Celé jméno a iniciálka příjmení": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Iniciálka jména a celé příjmení": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Jen jméno": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Pouze příjmení": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Preferovat přezdívky": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Zrcadlit můj iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Vlastní": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Nastavení Mailu": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Účty": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Zahrnout": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Náhled zprávy": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Žádné": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 řádek": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 řádky": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Výchozí odpovědi": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Výchozí odpovědi": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Přidat odpověď…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Podpis": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Mapy": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Upozornění na odbočky": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Autem": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Řízení s CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Pěšky": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Kolo": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Zobrazit navigaci": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Veřejnou dopravou": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Informace o sestavě:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Hudba": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "PLAYLISTY A ALBA": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Přidat hudbu…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Peněženka a Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Přidat kartu": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Oznámení": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Zrcadlit můj iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Vlastní": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Fotky": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Synchronizace fotek": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Vzpomínky": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Synchronizovat vzpomínky": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Doporučené fotografie": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Synchronizovat doporučené fotky": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Album": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Synchronizovat album": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Limit fotek": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Nastavení oznámení": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Zrcadlit můj iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Vlastní": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Hluk": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Měření zvuku v okolí": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Oznámení hluku": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Práh hlasitosti": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Vypnuto": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 decibelů": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 decibelů": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 decibelů": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 decibelů": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 decibelů": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Seskupení": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Saturace kyslíkem": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Nastavení operátora": "bridge:root=CARRIER_SETTINGS",
+  "Vypnout kód": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Zapnout kódový zámek": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Změnit kód": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Jednoduchý kód": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Odemykat z iPhonu": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Smazat data": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Detekce zápěstí": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Telefon": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Hovory": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Vyzvánění": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Zvuk": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Haptika": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Cvičení": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Režim nízké spotřeby": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Číselné zobrazení cílů": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Zobrazení cvičení": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Pozastavení": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Pozastavení": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Připomínka zahájení cvičení": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Připomínka ukončení cvičení": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Stisknutím pozastavíte": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Detekovat posilovací stroje": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Tempo/rychlost": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Aktuální": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Průměr": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Tréninkový playlist": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Žádné": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Playlisty": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Přehrát od začátku": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Náhodné pořadí": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Měrné jednotky": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Kalorie": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilokalorie": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilojouly": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Yardy": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Metry": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Míle": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilometry": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Hlasová odezva": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Čas na procházku": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Přidat do hodinek nová cvičení": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Akcie": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Na ciferníku hodinek se zobrazí": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Aktuální cena": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Změna v bodech": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Změna v procentech": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Tržní kapitalizace": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Na ciferníku Siri se zobrazuje kurz": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Vybrané akcie": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Vybrané akcie": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Uspořádání Docku": "bridge:root=DOCK#OrderingOptionGroup",
+    "Historie": "bridge:root=DOCK#Recents",
+    "Oblíbené": "bridge:root=DOCK#Favorites"
+  },
+  "Podcasty": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Požadavky na Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Zvednutí zápěstí": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Stisknutí Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Hlasová odezva": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Vždy zapnuto": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Podle tichého režimu": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Jen sluchátka": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Hlasitost": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Návrhy Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Vysílačka": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Povolit oznámení": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Poslat do Oznamovacího centra": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Oznámení jsou vypnutá": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Seskupení": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Přátelé": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Počasí": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Výchozí město": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Výchozí město": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Toto místo": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Potvrzení o přečtení": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

@@ -1,0 +1,1155 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "Dung lượng iCloud": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Ảnh": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Danh bạ": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Lịch": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Lời nhắc": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Ghi chú": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Sao lưu": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Sức khỏe": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Mật khẩu và chuỗi khóa": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Chuyển tiếp bảo mật": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Chia sẻ vị trí của tôi": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Tìm iPhone": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Tên, Số điện thoại, Email": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Mật khẩu & Bảo mật": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Thanh toán & Giao hàng": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Đăng ký": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Gia đình": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Quyền riêng tư & Bảo mật": {
+    "(root)": "prefs:root=Privacy",
+    "Kiểm tra an toàn": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Địa điểm": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Chia sẻ vị trí của tôi": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Danh bạ": "prefs:root=Privacy&path=CONTACTS",
+    "Lịch": "prefs:root=Privacy&path=CALENDARS",
+    "Lời nhắc": "prefs:root=Privacy&path=REMINDERS",
+    "Ảnh": "prefs:root=Privacy&path=PHOTOS",
+    "Chia sẻ qua Bluetooth": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Micrô": "prefs:root=Privacy&path=MICROPHONE",
+    "Nhận dạng lời nói": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Camera": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Phương tiện & Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Phân tích": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Quảng cáo": "prefs:root=Privacy&path=ADVERTISING",
+    "Tệp và thư mục": "prefs:root=Privacy&path=FILEACCESS",
+    "Theo dõi": "prefs:root=Privacy&path=USER_TRACKING",
+    "Báo cáo bảo mật ứng dụng": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Chế độ phong tỏa": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Sức khỏe": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Tập trung": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Trạng thái tập trung": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Cài đặt chung": {
+    "(root)": "prefs:root=General",
+    "Quản lý VPN & Thiết bị": "prefs:root=General&path=ManagedConfigurationList",
+    "Hình trong hình": "prefs:root=General&path=PiP_SPEC",
+    "Bàn di chuột & Chuột": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Giới thiệu": {
+      "(root)": "prefs:root=General&path=About",
+      "Chứng nhận được tin cậy": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Pháp lý & Quy định": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Cập nhật phần mềm": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Nút Home": "prefs:root=General&path=HOME_BUTTON",
+    "Cử chỉ": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Công tắc trượt": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Làm mới ứng dụng trong nền": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Ngày & Giờ": "prefs:root=General&path=DATE_AND_TIME",
+    "Đầu ra TV": "prefs:root=General&path=TV_OUT",
+    "Quy định": "prefs:root=General&path=REGULATORY",
+    "Đặt lại": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Đặt lại tất cả cài đặt": "prefs:root=General&path=Reset#settingsErase",
+      "Xóa tất cả nội dung và cài đặt": "prefs:root=General&path=Reset#fullErase",
+      "Đặt lại cài đặt mạng": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Xóa tất cả gói cước dữ liệu di động": "prefs:root=General&path=Reset#cellularErase",
+      "Dịch vụ của thuê bao": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Đặt lại từ điển bàn phím": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Đặt lại bố cục Màn hình chính": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Đặt lại vị trí & quyền riêng tư": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Tắt máy": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay & Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Chuyển sang HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Tự động phát AirPlay tới TV": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Camera thông suốt": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Từ điển": "prefs:root=General&path=DICTIONARY",
+    "Ngôn ngữ & Vùng": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Ngôn ngữ khác…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Thứ tự ngôn ngữ ưu tiên": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Thêm ngôn ngữ…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Vùng": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Số": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Lịch": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Đơn vị nhiệt độ": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Bàn phím": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Bàn phím": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Thay thế văn bản": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Tự động viết hoa": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Tự động sửa": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Kiểm tra chính tả": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Bật Caps Lock": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Phím tắt": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Dự đoán": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Dấu câu thông minh": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Chia bàn phím": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Bật Vuốt phím": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Xem trước ký tự": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "Phím tắt “.”": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Trượt để nhập": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Bật Đọc chính tả": "prefs:root=General&path=Keyboard#Dictation",
+      "Dấu câu tự động": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Dung lượng": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Gỡ bỏ ứng dụng ko dùng": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Thông báo": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Tóm tắt theo lịch trình": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Ví & Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Thẻ thanh toán": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Thêm thẻ": "prefs:root=PASSBOOK#Add%20Card",
+    "Bấm nút sườn hai lần": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Theo dõi đơn hàng": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Thời gian sử dụng": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Hôm nay": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Tuần": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Giờ nghỉ": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Giới hạn ứng dụng": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Giới hạn liên lạc": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Liên lạc an toàn": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Luôn cho phép": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Bật giới hạn": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Kiểm soát của phụ huynh": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Trợ năng": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Nhìn": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Tốc độ đọc": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Đọc văn bản": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Giọng nói": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Độ chi tiết": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Dấu câu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Tiêu đề bảng": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Mô tả phương tiện": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Tắt": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Đọc văn bản": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Đọc văn bản và Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Đầu ra": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Braille sáu chấm không rút gọn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Braille tám chấm không rút gọn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Braille rút gọn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Đầu vào": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Braille sáu chấm không rút gọn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Braille tám chấm không rút gọn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Braille rút gọn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Bản dịch tự động": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Đầu vào màn Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Braille sáu chấm không rút gọn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Braille tám chấm không rút gọn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Braille rút gọn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Đảo ngược vị trí dấu chấm": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Bảng Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Thêm bảng Braille…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Ô trạng thái": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Vị trí ô trạng thái": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Bên trái": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Bên phải": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Hiển thị trạng thái chung": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Hiển thị trạng thái văn bản": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "P.trình sử dụng mã Nemeth": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Hiển thị bàn phím ảo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Lật trang khi di chuyển": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Ngắt từ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Thông báo cảnh báo Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Bỏ qua thời lượng chuỗi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Thời gian tự động chuyển": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Âm thanh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Nhúng âm thanh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Tự chọn loa trong cuộc gọi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Gửi đến HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Lệnh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Hoạt động": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Lập trình": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Thêm hoạt động…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rô-to": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Tác vụ rô-to": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Sửa ứng dụng trên MH chính": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Ứng dụng Chạm trực tiếp": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Nhập liệu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Kiểu nhập": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Nhập tiêu chuẩn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Nhập chạm": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Nhập Chạm trực tiếp": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Phản hồi ngữ âm": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Tắt": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Ký tự và ngữ âm": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Chỉ ngữ âm": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Phản hồi khi nhập": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Phím bổ trợ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Control + Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Caps Lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Thời gian tương tác bàn phím": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Điều hướng hình ảnh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Luôn luôn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Có mô tả": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Không": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Con trỏ lớn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Bảng chú thích": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Thời gian chờ chạm hai lần": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Thời gian chờ chạm hai lần": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Kiểu điều hướng": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Cài đặt nhanh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Âm thanh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Nhúng âm thanh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Âm lượng": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Tốc độ đọc": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Gợi ý": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Kiểu điều hướng": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Kiểu nhập": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Trượt để nhập": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Hoạt động": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Luôn đọc thông báo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Thông báo cảnh báo Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Tự động chuyển Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Đầu vào Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Đầu ra Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Bảng Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Bảng chú thích": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Chạm trực tiếp": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Hướng cử chỉ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Phản hồi khi nhập bàn phím thực": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Ngôn ngữ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Con trỏ lớn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Mô tả phương tiện": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Điều hướng hình ảnh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Phản hồi ngữ âm": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Thay đổi cao độ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Dấu câu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Gửi đến HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Phản hồi khi nhập bàn phím ảo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Xác nhận đọc rô-to": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Mô tả hình ảnh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Nhận dạng màn hình": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "Nhận biết VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Mô tả hình ảnh": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Nhận dạng màn hình": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Thu phóng": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Thu phóng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Đi theo tiêu điểm": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Nhập thông minh": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Phím tắt": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Phím tắt": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Điều chỉnh mức thu phóng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Chuyển đổi thu phóng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Di chuyển Cửa sổ thu phóng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Định cỡ lại Cửa sổ thu phóng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Chuyển đổi vùng thu phóng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Tạm thời bật/tắt thu phóng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Thu phóng với bánh xe cuộn": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Bộ điều khiển thu phóng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Thu phóng vùng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Thu phóng toàn màn hình": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Thu phóng cửa sổ": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Độ thu phóng tối đa": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Bộ lọc thu phóng": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Hiển thị trong khi phản chiếu": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Phóng to văn bản": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Màn hình & Cỡ chữ": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Chữ đậm": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Chữ lớn hơn": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Hình dạng nút": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Nhãn Bật/Tắt": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Giảm độ trong suốt": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Tăng độ tương phản": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Phân biệt không cần màu": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Đảo ngược thông minh": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Đảo ngược cổ điển": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Bộ lọc màu": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Bộ lọc màu": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Giảm điểm trắng": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Độ sáng tự động": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Chuyển động": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Giảm chuyển động": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Tự phát hiệu ứng tin nhắn": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Tự phát video xem trước": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Nội dung được đọc": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Đọc lựa chọn": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Đọc màn hình": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Bộ điều khiển lời nói": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Tùy chỉnh các nút chuột": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Tô sáng nội dung": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Phản hồi khi nhập": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Phản hồi ký tự": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Ký tự": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Gợi ý ký tự": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Đọc từ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Đọc văn bản tự động": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Giữ để đọc dự đoán": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Giọng nói": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Ngôn ngữ mặc định": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Phát hiện ngôn ngữ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Tốc độ đọc": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Phát âm": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Mô tả âm thanh": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Mô tả âm thanh": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Thể chất và Vận động": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Cảm ứng": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Tùy chỉnh menu điều khiển": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Chạm vào biểu tượng để thay đổi:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Đặt lại…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Tác vụ tùy chỉnh": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Chạm một lần": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Chạm hai lần": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Thời gian chờ chạm hai lần": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Nhấn giữ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Khoảng thời gian nhấn giữ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Cử chỉ tùy chỉnh": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Tạo cử chỉ mới…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Độ mờ khi không dùng": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Thiết bị con trỏ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Thiết bị": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Thiết bị Bluetooth…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Phím chuột": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Kiểu con trỏ": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Kích cỡ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Hình ảnh": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Màu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Tùy chỉnh các nút chuột": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Tự động ẩn": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_1258": {
+            "Tự động ẩn": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Hiển thị bàn phím ảo": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Luôn hiển thị menu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Điều khiển giữ lâu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Dung sai di chuyển": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Độ nhạy di chuyển": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Phục hồi tác vụ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Góc nóng": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Sử dụng bộ điều khiển trò chơi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D & Haptic Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_1259": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "Độ nhạy 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Khoảng thời gian chạm": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Nhanh": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Chậm": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Kiểm tra Độ nhạy 3D Touch và Khoảng thời gian chạm": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Thích nghi cảm ứng": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_1260": {
+        "Thích nghi cảm ứng": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Thời gian giữ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Bỏ qua lặp lại": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Hỗ trợ chạm": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Tắt": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Sử dụng vị trí chạm ban đầu": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Sử dụng vị trí chạm cuối cùng": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Chạm để bật màn hình": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Chạm hoặc vuốt để bật màn hình": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Lắc để hoàn tác": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Rung": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Ngăn chặn Khóa để kết thúc cuộc gọi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Định tuyến âm thanh cuộc gọi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_1261": {
+        "Tự động": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Tai nghe Bluetooth": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Loa": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Tự động trả lời cuộc gọi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID & Sự chú ý": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Yêu cầu chú ý cho Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Tính năng nhận biết sự chú ý": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Cảm ứng": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Cảm ứng khi xác thực thành công": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Điều khiển công tắc": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Điều khiển công tắc": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Công tắc": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_1262": {
+        "Thêm công tắc mới…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Thiết bị Bluetooth…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Công thức": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Kiểu quét": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_1263": {
+        "Quét tự động": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Quét thủ công": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Quét bước một công tắc": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Định thời gian": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Thời gian quét tự động": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_1264": {
+        "Thời gian quét tự động": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Tạm dừng ở mục đầu tiên": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_1265": {
+        "Tạm dừng ở mục đầu tiên": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Lặp lại di chuyển": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_1266": {
+        "Lặp lại di chuyển": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Nhấn giữ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_1267": {
+        "Nhấn giữ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Hoạt động chạm": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_1268": {
+        "Mặc định": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Tự động chạm": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Luôn chạm": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Mục tập trung sau khi chạm": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_1269": {
+        "Mục đầu tiên": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Mục hiện tại": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Bàn phím": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Quét cùng phím sau khi chạm": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Luôn chạm trên bàn phím": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Dự đoán mở rộng": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Ổn định công tắc": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Thời gian giữ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_1270": {
+        "Thời gian giữ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Bỏ qua lặp lại": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_1271": {
+        "Bỏ qua lặp lại": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Quét điểm": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Con trỏ trượt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_1272": {
+        "Chế độ lựa chọn": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Đơn nhất": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Được tinh chỉnh": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Chính xác": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Tốc độ Con trỏ trượt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Theo dõi đầu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_1273": {
+        "Theo dõi đầu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Âm thanh": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Hiệu ứng âm thanh": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Đọc văn bản": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_1274": {
+        "Giọng nói": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Tốc độ đọc": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Mục menu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Nhóm các mục": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Hình ảnh": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Con trỏ lớn": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Cử chỉ đã lưu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_1275": {
+        "Tạo cử chỉ mới…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Màu con trỏ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Khẩu lệnh": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Thiết lập Khẩu lệnh": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Ngôn ngữ": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_1276": {
+        "Tiếng Anh (Mỹ)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Tùy chỉnh các lệnh": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Từ vựng": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Phản hồi lệnh": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Hiển thị xác nhận": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Phát âm thanh": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Hiển thị gợi ý": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Lớp phủ liên tục": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Lớp phủ": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_1277": {
+        "Không có": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Số mục": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Tên mục": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Lưới được đánh số": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Nhận biết sự chú ý": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Nút sườn": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Tốc độ bấm": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Mặc định": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Chậm": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Chậm nhất": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Nhấn và giữ để nói": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Khẩu lệnh cổ điển": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Tắt": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Nút chỉ hướng": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Màn hình Apple Watch từ xa": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Bàn phím": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Truy cập bàn phím đầy đủ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_1278": {
+        "Truy cập bàn phím đầy đủ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Hình ảnh": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Tự động ẩn": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Vòng tròn tiêu điểm lớn": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Màu": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Lặp lại phím": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_1279": {
+        "Lặp lại phím": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Khoảng thời gian lặp lại phím": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Khoảng trễ đến khi lặp lại": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Phím bấm liên tiếp": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_1280": {
+        "Phím bấm liên tiếp": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Chuyển đổi với phím Shift": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Âm thanh": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Phím bấm chậm": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_1281": {
+        "Phím bấm chậm": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Bàn phím ảo": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Hiển thị phím chữ thường": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Nghe": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Thiết bị nghe": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "Thiết bị nghe MFi": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Độ tương thích trợ thính": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Nhận biết âm thanh": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Âm thanh": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "TTY phần mềm": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "TTY phần cứng": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Âm thanh & Hình ảnh": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Âm thanh": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Thích nghi tai nghe": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_1282": {
+        "Thích nghi tai nghe": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Thiết lập âm thanh tùy chỉnh": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Âm thanh trong nền": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Đơn âm sắc": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Khử tiếng ồn điện thoại": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Cân bằng": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Hình ảnh": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "Đèn LED để cảnh báo": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_1283": {
+        "Nháy flash khi được mở khóa": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Nháy flash trong Chế độ im lặng": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Cân bằng stereo trái-phải": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Âm thanh bật & tắt nguồn": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Phụ đề & chú thích": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Kiểu": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Chú thích chi tiết + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Hiển thị bản chép lại âm thanh": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_1284": {
+      "Chú thích trực tiếp (Beta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Chú thích trực tiếp trong FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Cài đặt chung": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Truy cập được hướng dẫn": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Truy cập được hướng dẫn": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Cài đặt mật mã": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_1285": {
+        "Đặt mật mã Truy cập được HD": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Giới hạn thời gian": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_1286": {
+        "Cảnh báo": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Âm thanh": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Đọc": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Phím tắt trợ năng": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Tự động khóa màn hình": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Chế độ trợ năng tùy chỉnh": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Nhập liệu vào Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Phản hồi được nói": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Phản hồi được nói tự động": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Ưu tiên phản hồi yên lặng": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Không đọc khi ở Chế độ im lặng": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Luôn lắng nghe \"Hey Siri\"": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Phím tắt trợ năng": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Kính lúp": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Cài đặt theo ứng dụng": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Điều khiển thiết bị ở gần": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Màn hình & Độ sáng": {
+    "(root)": "prefs:root=DISPLAY",
+    "Giao diện": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Lịch dự kiến": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Bật thủ công đến ngày mai": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Nhiệt độ màu": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Tự động khóa": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Đưa lên để bật": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Khóa / Mở khóa": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Cỡ chữ": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Chữ đậm": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Thu phóng màn hình": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Xem": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Thông báo tiếp xúc": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_1287": {
+    "Biểu tượng thông báo": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Ứng dụng mới tải về": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Màn hình chính & Đa nhiệm": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_1288": {
+      "Hiển thị Thư viện ứng dụng trong Dock": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Hiển thị ứng dụng được gợi ý và gần đây trên Dock": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Màn hình chính": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Ứng dụng mới tải về": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Biểu tượng thông báo": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID & Mật mã": {
+    "(root)": "prefs:root=PASSCODE",
+    "Tắt mật mã": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Thay đổi mật mã": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Yêu cầu mật mã": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Quay số bằng giọng nói": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Cho phép truy cập khi bị khóa": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Trả lời bằng tin nhắn": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Điều khiển Nhà": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Ví": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Gọi lại cuộc gọi nhỡ": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Xóa dữ liệu": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Mở khóa bằng Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcast": "prefs:root=PODCASTS",
+  "SOS khẩn cấp": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Gọi bằng nút sườn": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Tự động gọi": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Liên hệ khẩn cấp": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Âm thanh đếm ngược": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Âm thanh": {
+    "(root)": "prefs:root=Sounds",
+    "An toàn tai nghe": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Bộ tiếp hợp Lightning": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Thông báo tai nghe": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Giảm âm thanh lớn": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Hiệu ứng âm thanh": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Chuông và âm báo": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Thay đổi bằng nút": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Kiểu âm thanh và rung": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Nhạc chuông": "prefs:root=Sounds&path=Ringtone",
+    "Âm báo tin nhắn": "prefs:root=Sounds&path=Text_Messages",
+    "Thư thoại mới": "prefs:root=Sounds&path=Voicemail",
+    "Thư mới": "prefs:root=Sounds&path=NEW_MAIL",
+    "Thư đã gửi": "prefs:root=Sounds&path=SENT_MAIL",
+    "Cảnh báo lịch": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Cảnh báo lời nhắc": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Bấm bàn phím": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Âm thanh khóa": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Thời tiết": "prefs:root=WEATHER",
+  "La bàn": {
+    "(root)": "prefs:root=COMPASS",
+    "Sử dụng hướng Bắc thực": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Trung tâm điều khiển": {
+    "(root)": "prefs:root=ControlCenter",
+    "Truy cập bên trong ứng dụng": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Tùy chỉnh điều khiển": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Nhà phát triển": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Kết nối mạng nhiều đường dẫn": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Kết nối mạng nhiều đường dẫn": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Giao diện": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Giao diện tối": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Thiết bị đã ghép đôi": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Xóa máy tính được tin cậy": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Phương tiện": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Ghi nhật ký": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Tự động hóa UI": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Kết nối mạng": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Bộ điều tiết liên kết mạng": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "Kiểm tra ứng dụng nhà phát triển iAd": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Tốc độ điền": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Tô sáng biểu ngữ bị cắt bớt": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Bài thuyết trình không giới hạn quảng cáo": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "Kiểm tra PassKit": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Ghi nhật ký bổ sung": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Cho phép dịch vụ HTTP": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Tắt giới hạn tốc độ": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "Khóa bảo mật NFC tùy chọn": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Kiểm tra dịch vụ phương tiện": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "Gợi ý AirPlay": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Đặt lại dịch vụ phương tiện": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "Kiểm tra News": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Đặt lại dữ liệu cục bộ trong lần khởi chạy tiếp theo": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Kiểm tra khung trình phát phương tiện": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API nội dung có thể phát": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Kiểm tra Nhà cung cấp TV": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "Nhà cung cấp TV": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "Kiểm tra CoreSpotlight": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Tạo lại chỉ mục tất cả các mục": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Tạo lại chỉ mục tất cả các mục có mã định danh": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Kiểm tra Phím tắt": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Hiển thị phím tắt gần đây": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Hiển thị phương tiện sắp tới": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Hiển thị tài trợ trên Màn hình khóa": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Bắt buộc đồng bộ hóa phím tắt với Watch": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "Kiểm tra MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Bật MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Sức khỏe": "prefs:root=HEALTH",
+  "Đo": {
+    "(root)": "prefs:root=MEASURE",
+    "Các đơn vị đo": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Hệ Anh": "prefs:root=MEASURE#Imperial",
+    "Hệ mét": "prefs:root=MEASURE#Metric"
+  },
+  "Nhạc": {
+    "(root)": "prefs:root=MUSIC",
+    "Hiển thị Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Thêm bài hát playlist": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Hiển thị xếp hạng sao": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Thư viện đồng bộ hóa": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Dữ liệu di động": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Nhạc đã tải về": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Tối ưu hóa dung lượng": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Tải về tự động": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Kiểm tra âm thanh": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Sử dụng lịch sử nghe": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Ghi chú": {
+    "(root)": "prefs:root=NOTES",
+    "Tài khoản mặc định": "prefs:root=NOTES&path=Default%20Account",
+    "Mật khẩu": "prefs:root=NOTES&path=Password",
+    "Sắp xếp ghi chú theo": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Ghi chú mới bắt đầu bằng": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Sắp xếp mục đã chọn": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Đường kẻ & lưới": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Lưu vào Ảnh": "prefs:root=NOTES#Save%20to%20Photos",
+    "Truy cập ghi chú từ Màn hình khóa": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Tin nhắn": "prefs:root=MESSAGES",
+  "Dịch thuật": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Chế độ trên thiết bị": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "Nhà cung cấp TV": "prefs:root=VIDEO_SUBSCRIBER",
+  "Ghi âm": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Xóa vĩnh viễn": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Chất lượng âm thanh": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Đặt tên dựa trên vị trí": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Camera": {
+    "(root)": "prefs:root=CAMERA",
+    "Định dạng": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_1289": {
+      "Video HDR": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Bảo lưu cài đặt": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Chế độ camera": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Lưới": "prefs:root=CAMERA#CameraGridSwitch",
+    "Quét mã QR": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Bản đồ": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Danh bạ": {
+    "(root)": "prefs:root=CONTACTS",
+    "Cho phép Danh bạ truy cập": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri & Tìm kiếm": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Thứ tự sắp xếp": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Thứ tự hiển thị": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Tên viết tắt": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Tên viết tắt": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Ưu tiên biệt danh": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Thông tin của tôi": "prefs:root=CONTACTS&path=MeCard",
+    "Nhập danh bạ trên SIM": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Sách": {
+    "(root)": "prefs:root=IBOOKS",
+    "Nội dung trực tuyến": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "ĐỒNG BỘ HÓA": "prefs:root=IBOOKS#SYNCING",
+    "Đang đọc": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "ĐỌC": "prefs:root=IBOOKS#READING",
+    "Căn đều hai lề": "prefs:root=IBOOKS#BKFullJustification",
+    "Tự động ngắt từ": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Sang trang từ cả hai lề": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Mục tiêu đọc": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Xóa dữ liệu mục tiêu đọc": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "TÌM KIẾM": "prefs:root=IBOOKS#SEARCHING",
+    "Book Store": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "SÁCH NÓI": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Tiến về phía trước": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Lùi về phía sau": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "ĐIỀU KHIỂN BÊN NGOÀI": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Tiếp theo/Trước đó": "prefs:root=IBOOKS#Next/Previous",
+    "Bỏ qua về phía trước/phía sau": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "QUYỀN RIÊNG TƯ": "prefs:root=IBOOKS#PRIVACY",
+    "Đặt lại mã định danh": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Công nhận": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Lịch": {
+    "(root)": "prefs:root=CALENDAR",
+    "Thay thế múi giờ": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Lịch thay thế": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Số tuần": "prefs:root=CALENDAR#Week%20Numbers",
+    "Hiển thị lời mời bị từ chối": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Đồng bộ hóa": "prefs:root=CALENDAR&path=Sync",
+    "Giờ báo mặc định": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Bắt đầu tuần vào": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Gợi ý vị trí": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Tài khoản": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Thêm tài khoản": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Tìm nạp dữ liệu mới": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Xem trước": "prefs:root=MAIL&path=Preview",
+    "Hiển thị nhãn Đến/Cc": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Tùy chọn vuốt": "prefs:root=MAIL&path=Swipe%20Options",
+    "Hỏi trước khi xóa": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Tải hình ảnh từ xa": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Sắp xếp theo luồng": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Thu gọn các thư đã đọc": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Thư gần đây nhất trên đầu": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Luồng hoàn chỉnh": "prefs:root=MAIL#Complete%20Threads",
+    "Tác vụ luồng đã tắt thông báo": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Bỏ qua người gửi bị chặn": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Bị chặn": "prefs:root=MAIL&path=Blocked",
+    "Luôn Bcc cho tôi": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Đánh dấu địa chỉ": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Tăng mức trích dẫn": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Giữ tệp đính kèm trong thư trả lời": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Chữ ký": "prefs:root=MAIL&path=Signature"
+  },
+  "Điện thoại": {
+    "(root)": "prefs:root=Phone",
+    "Số của tôi": "prefs:root=Phone&path=My%20Number",
+    "Cuộc gọi đến": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Thông báo cuộc gọi": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Báo cáo SMS/cuộc gọi": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Phản hồi bằng tin nhắn": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Chuyển cuộc gọi": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Chuyển cuộc gọi": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Chờ cuộc gọi": "prefs:root=Phone&path=Call%20Waiting",
+    "Hiện ID người gọi của tôi": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_1290": {
+        "Hiện ID người gọi của tôi": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Tắt tiếng cuộc gọi không rõ": "prefs:root=Phone#SILENCE_CALLS",
+    "Liên hệ bị chặn": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Hỗ trợ quay số": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Trình chặn nội dung": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Chặn cửa sổ bật lên": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Ngăn chặn theo dõi web chéo": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Tự động điền": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Tải về": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Mật khẩu": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Tự động điền mật khẩu": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Ảnh": {
+    "(root)": "prefs:root=Photos",
+    "Ảnh iCloud": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Tối ưu hóa dung lượng": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Tải về và giữ lại bản gốc": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Kho ảnh của tôi": "prefs:root=Photos#PhotoStreamSwitch",
+    "Album được chia sẻ": "prefs:root=Photos#SharedStreamsSwitch",
+    "Dữ liệu di động": "prefs:root=Photos&path=CellularDataLinkList",
+    "Tự động phát video": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Xem HDR đầy đủ": "prefs:root=Photos#ImageModulationSwitch",
+    "Hiển thị sự kiện Ngày lễ": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Chuyển đến máy Mac hoặc PC": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Tải về tự động": "prefs:root=STORE#Automatic%20Downloads",
+    "Cập nhật ứng dụng": "prefs:root=STORE#App%20Updates",
+    "Tải về ứng dụng": "prefs:root=STORE&path=App%20Downloads",
+    "Tự động phát video": "prefs:root=STORE&path=Video%20Autoplay",
+    "Xếp hạng & nhận xét in-app": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Hiển thị xem trước tin tức": "prefs:root=NEWS#show_excerpt_mode",
+    "Giới hạn tin tức trong Today": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Quyền riêng tư": "prefs:root=NEWS#Privacy",
+    "Đặt lại mã định danh": "prefs:root=NEWS#reset_identifier",
+    "Công nhận": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_1291": {
+    "Chế độ máy bay": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Lời nhắc": {
+    "(root)": "prefs:root=REMINDERS",
+    "Danh sách Mặc định": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Lời nhắc": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Thông báo hôm nay": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Hiển thị là quá hạn": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Pin": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Chế độ nguồn điện thấp": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Tình trạng pin": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Phím tắt": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "Đồng bộ hóa iCloud": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Đồng bộ hóa thứ tự phím tắt": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Thông báo pháp lý": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri & Tìm kiếm": {
+    "(root)": "prefs:root=SIRI",
+    "Cho phép Siri khi bị khóa": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Ngôn ngữ": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Giọng nói của Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "Phản hồi bằng giọng nói": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Thông tin của tôi": "prefs:root=SIRI&path=MY_INFO",
+    "Gợi ý trong Tìm kiếm": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Gợi ý trong Tra cứu": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Gợi ý trên Màn hình khóa": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Chứng khoán": {
+    "(root)": "prefs:root=STOCKS",
+    "Quyền riêng tư": "prefs:root=STOCKS#Privacy",
+    "Đặt lại mã định danh": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Di động": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Tùy chọn dữ liệu di động": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Chế độ dữ liệu thấp": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Dữ liệu di động": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Sử dụng dữ liệu di động cho phát lại": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Chất lượng phát lại": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Mua và Thuê": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Home Sharing": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Hình nền": "prefs:root=Wallpaper"
+}

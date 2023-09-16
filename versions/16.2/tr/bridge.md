@@ -1,0 +1,412 @@
+- Erişilebilirlik: `bridge:root=ACCESSIBILITY`
+- Erişilebilirlik → Görme: `bridge:root=ACCESSIBILITY#VISION`
+- Erişilebilirlik → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Erişilebilirlik → Büyüt/Küçült: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Erişilebilirlik → Kalın Metin: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- Erişilebilirlik → Açık/Kapalı Etiketleri: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- Erişilebilirlik → Gri Tonlu: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- Erişilebilirlik → Saydamlığı Azalt: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- Erişilebilirlik → Hareketi Azalt: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- Erişilebilirlik → Taptic Chimes: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- Erişilebilirlik → Taptic Chimes → Çanlar: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- Erişilebilirlik → Taptic Chimes → Program: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- Erişilebilirlik → Taptic Chimes → Program → Her saat başı: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- Erişilebilirlik → Taptic Chimes → Program → 30 dakika: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- Erişilebilirlik → Taptic Chimes → Program → 15 dakika: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- Erişilebilirlik → Taptic Chimes → Sesler: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- Erişilebilirlik → Taptic Chimes → Sesler → Çanlar: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- Erişilebilirlik → Taptic Chimes → Sesler → Kuşlar: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- Erişilebilirlik → Motor: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- Erişilebilirlik → Yan Düğme Tıklama Hızı: `bridge:root=ACCESSIBILITY&path=SideButton`
+- Erişilebilirlik → Yan Düğme Tıklama Hızı → Tıklama Hızı: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- Erişilebilirlik → Yan Düğme Tıklama Hızı → Saptanmış: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Erişilebilirlik → Yan Düğme Tıklama Hızı → Yavaş: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Erişilebilirlik → Yan Düğme Tıklama Hızı → En Yavaş: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Erişilebilirlik → Dokunma Kolaylıkları: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- Erişilebilirlik → Dokunma Kolaylıkları → Dokunma Kolaylıkları: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Erişilebilirlik → Dokunma Kolaylıkları → Tutma Süresi: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- Erişilebilirlik → Dokunma Kolaylıkları → Yinelemeyi Yok Say: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- Erişilebilirlik → Dokunma Kolaylıkları → Dokunma Yardımı: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- Erişilebilirlik → Dokunma Kolaylıkları → Kapalı: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- Erişilebilirlik → Dokunma Kolaylıkları → İlk Dokunma Konumunu Kullan: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Erişilebilirlik → Dokunma Kolaylıkları → Son Dokunma Konumunu Kullan: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Erişilebilirlik → TEKERLEKLİ SANDALYE AKTİVİTESİ: `bridge:root=ACCESSIBILITY#MOBILITY`
+- Erişilebilirlik → Walkie-Talkie: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- Erişilebilirlik → Konuşmak İçin Dokun: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- Erişilebilirlik → İşitme: `bridge:root=ACCESSIBILITY#HEARING`
+- Erişilebilirlik → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- Erişilebilirlik → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- Erişilebilirlik → RTT → Aktarma Numarası: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- Erişilebilirlik → RTT → Hemen Gönder: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- Erişilebilirlik → RTT → Saptanmış Yanıtlar: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- Erişilebilirlik → RTT → Saptanmış Yanıtlar → Saptanmış Yanıtlar: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- Erişilebilirlik → RTT → Saptanmış Yanıtlar → Yanıt ekle…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- Erişilebilirlik → Mono Ses: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- Erişilebilirlik → Sol-Sağ Stereo Dengesi: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- Erişilebilirlik → Kulaklık Bildirimleri: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- Erişilebilirlik → İşitme Cihazları: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- Erişilebilirlik → Komplikasyon: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- Erişilebilirlik → Komplikasyon → Mikrofon Ses Yüksekliği: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Erişilebilirlik → Komplikasyon → Program: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- Erişilebilirlik → Taptic Saat Hızı: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- Erişilebilirlik → Erişilebilirlik Kestirmesi: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- undefined: `bridge:root=ActiveWatch`
+- undefined → Yeni Saat Eşle: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Uygulama Görüntüsü: `bridge:root=APP_VIEW_ID`
+- Genel: `bridge:root=GENERAL_LINK`
+- Genel → Hakkında: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Genel → Hakkında → Ad: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Genel → Hakkında → Sınırlı Garanti: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- Genel → Hakkında → Sınırlı Garanti → Sınırlı Garanti: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- Genel → Hakkında → Sınırlı Garanti → GARANTİ KAPSAMI AYRINTILARI: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- Genel → Hakkında → Sınırlı Garanti → Donanım Garanti Kapsamı: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- Genel → Hakkında → Sınırlı Garanti → Sohbet ve Telefon Desteği: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- Genel → Hakkında → Parçalar: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Genel → Hakkında → Fotoğraflar: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Genel → Hakkında → Uygulamalar: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Genel → Hakkında → Kapasite: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Genel → Hakkında → Boş: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Genel → Hakkında → Sürüm: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Genel → Hakkında → Operatör: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Genel → Hakkında → Model: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Genel → Hakkında → Seri Numarası: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Genel → Hakkında → Wi-Fi Adresi: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID`
+- Genel → Hakkında → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Genel → Hakkında → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Genel → Hakkında → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Genel → Hakkında → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Genel → Hakkında → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Genel → Hakkında → Yasal: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- Genel → Hakkında → Kullanma Kılavuzu’nu Görüntüle : `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- Genel → Yazılım Güncelleme: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Genel → Otomatik Uygulama Yükleme: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Genel → Uçak Modu: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Genel → Odak: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Genel → Odak → iPhone’umu Yansıt: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Genel → Saat Yönü: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- Genel → Saat Yönü → Apple Watch Şurada Takılı: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- Genel → Saat Yönü → Sol Bilek: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- Genel → Saat Yönü → Sağ Bilek: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- Genel → Saat Yönü → Digital Crown Sol Tarafta: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- Genel → Saat Yönü → Digital Crown Sağ Tarafta: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- Genel → Apple Kimliği: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Genel → Dikte’yi Etkinleştir: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Genel → Handoff’u Etkinleştir: `bridge:root=GENERAL_LINK#CONTINUITY`
+- Genel → Baş Ucu Modu: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Genel → Ekran Resimlerini Etkinleştir: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Genel → Saklama Alanı: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Genel → Tanı Günlükleri: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Genel → Watch Analizi’ni Kopyala: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Genel → Sıfırla: `bridge:root=GENERAL_LINK&path=RESET`
+- Genel → Su Altındayken Otomatik Başlat: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Genel → Su Altındayken Otomatik Başlat → Ses Uygulamalarını Oto. Aç: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- Genel → Dil ve Bölge: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- Genel → Dil ve Bölge → iPhone’umu Yansıt: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- Genel → Dil ve Bölge → Özel: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- Genel → SAAT’E DÖN: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- Genel → SAAT’E DÖN → SAAT’E DÖN: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- Genel → SAAT’E DÖN → Her Zaman: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- Genel → SAAT’E DÖN → 2 Dakika Sonra: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Genel → SAAT’E DÖN → 1 Saat Sonra: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Genel → SAAT’E DÖN → UYGULAMALAR: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- Genel → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Genel → Wake Screen → Şu An Çalınan: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Ekran ve Parlaklık: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- Ekran ve Parlaklık → Parlaklık: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- Ekran ve Parlaklık → Hep Açık: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- Ekran ve Parlaklık → Hep Açık → Hep Açık: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- Ekran ve Parlaklık → Hep Açık → BİLEK AŞAĞIDA: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Ekran ve Parlaklık → Hep Açık → Bildirimleri Göster: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- Ekran ve Parlaklık → Hep Açık → Bildirimleri Göster → Bildirimleri Göster: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Ekran ve Parlaklık → Hep Açık → Bildirimleri Göster → APPLE WATCH UYGULAMALARI: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- Ekran ve Parlaklık → Hep Açık → Uygulamaları Göster: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- Ekran ve Parlaklık → Hep Açık → Uygulamaları Göster → Uygulamaları Göster: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Ekran ve Parlaklık → Hep Açık → Uygulamaları Göster → UYGULAMALAR: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- Ekran ve Parlaklık → Metin Puntosu: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- Ekran ve Parlaklık → Kalın Metin: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- Ekran ve Parlaklık → UYANDIR: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- Ekran ve Parlaklık → Kol Kaldırıldığında Uyandır: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Ekran ve Parlaklık → Crown’u Döndürerek Uyandır: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Ekran ve Parlaklık → Uyandırma Süresi: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- Ekran ve Parlaklık → Uyandırma Süresi → DOKUNULDUĞUNDA: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- Ekran ve Parlaklık → Uyandırma Süresi → 15 Saniyeliğine Uyandır: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- Ekran ve Parlaklık → Uyandırma Süresi → 70 Saniyeliğine Uyandır: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- Ses ve Dokunuş: `bridge:root=SOUNDS_ID`
+- Ses ve Dokunuş → Uyarı Ses Yüksekliği: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Ses ve Dokunuş → Sessiz Mod: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Ses ve Dokunuş → Kulaklık Sesi: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Ses ve Dokunuş → Kulaklık Güvenliği: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Ses ve Dokunuş → Kulaklık Güvenliği → Kulaklık Bildirimleri: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Ses ve Dokunuş → Kulaklık Güvenliği → Yüksek Sesleri Azalt: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Ses ve Dokunuş → Dokunuşlar: `bridge:root=SOUNDS_ID#Haptics`
+- Ses ve Dokunuş → Dokunuş Uyarıları: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- Ses ve Dokunuş → Crown Dokunuşları: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Ses ve Dokunuş → Sistem Dokunuşları: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Ses ve Dokunuş → Üzerini Kapatarak Sessize Al: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- Acil SOS: `bridge:root=SOS_MODE_ID`
+- Gizlilik: `bridge:root=PRIVACY_ID`
+- Gizlilik → Kalp Atış Hızı: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- Gizlilik → Solunum Hızı: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- Gizlilik → Fitness Takibi: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- Gizlilik → Fitness Ayarlama Verilerini Sıfırla: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- Gizlilik → Ortam Ses Ölçümleri: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- Gizlilik → Kulaklık Ses Ölçümleri: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- Gizlilik → Kulaklık Ses Ölçümleri → Sağlık’ta Kaydet: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- Gizlilik → Kulaklık Ses Ölçümleri → 8 Gün Boyunca: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- Gizlilik → Kulaklık Ses Ölçümleri → Ben Silene Kadar: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- Gizlilik → Kanda Oksijen Ölçümleri: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- Gizlilik → Bilekten Sıcaklık: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Ekran Süresi: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Derinlik: `bridge:root=com.apple.DepthCompanionSettings`
+- Eylem Düğmesi: `bridge:root=STING_TITLE`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Otomatik İndirmeler: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Otomatik Güncellemeler: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Sağlık: `bridge:root=com.apple.BridgeHealthSettings`
+- Mail ve Takvim: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail ve Takvim → Hesaplar: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail ve Takvim → Google Hesabı Ekle…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail ve Takvim → Al: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail ve Takvim → Al → Kapalı: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail ve Takvim → Al → Her saat başı: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail ve Takvim → Al → 30 dk.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail ve Takvim → Al → 15 dk.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- El Yıkama: `bridge:root=com.apple.BrookBridgeSettings`
+- El Yıkama → Bildirimlere İzin Ver: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- El Yıkama → Bildirim Merkezi’ne Gönder: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- El Yıkama → Bildirimler Kapalı: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- El Yıkama → Bildirim Gruplama: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- El Yıkama → El Yıkama Sayacı: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Hücresel: `bridge:root=CELLULAR_ID`
+- Komplikasyonlar: `bridge:root=COMPLICATIONS`
+- Aktivite: `bridge:root=com.apple.HealthAppsSettings`
+- Aktivite → İlerleme Güncellemeleri: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Aktivite → İlerleme Güncellemeleri → Yok: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Aktivite → İlerleme Güncellemeleri → 2 Saatte Bir: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Aktivite → İlerleme Güncellemeleri → 4 Saatte Bir: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Aktivite → İlerleme Güncellemeleri → 6 Saatte Bir: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Aktivite → İlerleme Güncellemeleri → 8 Saatte Bir: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Aktivite → Başarılar: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Aktivite → Haftalık Özet: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Aktivite → Günlük Antrenör: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Aktivite → Hedef Tamamlama: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Aktivite → Özel Hedefler: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Aktivite → Aktivite Paylaşma Bildirimleri: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Heart Rate: `bridge:root=com.apple.HeartRateSettings`
+- Heart Rate → Kalp: `bridge:root=com.apple.HeartRateSettings#1`
+- Heart Rate → Kalp Atış Hızı Bildirimleri: `bridge:root=com.apple.HeartRateSettings#2`
+- Heart Rate → Yüksek Kalp Atış Hızı: `bridge:root=com.apple.HeartRateSettings#3`
+- Heart Rate → Düşük Kalp Atış Hızı: `bridge:root=com.apple.HeartRateSettings#4`
+- Heart Rate → Düzensiz Ritim: `bridge:root=com.apple.HeartRateSettings#5`
+- Heart Rate → Sağlık’taki EKG’leri Görüntüle: `bridge:root=com.apple.HeartRateSettings#6`
+- Heart Rate → EKG: `bridge:root=com.apple.HeartRateSettings#7`
+- Mesajlar: `bridge:root=com.apple.MessagesBridgeSettings`
+- Mesajlar → iPhone’umu Yansıt: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mesajlar → Özel: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Mesajlar → Saptanmış Yanıtlar: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Mesajlar → Saptanmış Yanıtlar → Saptanmış Yanıtlar: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Mesajlar → Saptanmış Yanıtlar → Akıllı Yanıtlar: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Mesajlar → Saptanmış Yanıtlar → Yanıt ekle…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Mesajlar → Uyarıları Yinele: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Mesajlar → Sesli Mesajlar: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Farkındalık: `bridge:root=com.apple.MindSettings`
+- Farkındalık → Bildirimlere İzin Ver: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Farkındalık → Bildirim Merkezi’ne Gönder: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Farkındalık → Bildirimler Kapalı: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Farkındalık → Farkındalık Anımsatıcıları: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Farkındalık → Gün Başı: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Farkındalık → Gün Sonu: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Farkındalık → Anımsatıcı Ekle…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Farkındalık → Haftalık Özet: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Farkındalık → Bugün sessize al: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Farkındalık → Nefes Sıklığı: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Farkındalık → Nefes Sıklığı → Dakikada 4 nefes: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Farkındalık → Nefes Sıklığı → Dakikada 5 nefes: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Farkındalık → Nefes Sıklığı → Dakikada 6 nefes: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Farkındalık → Nefes Sıklığı → Dakikada 7 nefes: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Farkındalık → Nefes Sıklığı → Dakikada 8 nefes: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Farkındalık → Nefes Sıklığı → Dakikada 9 nefes: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Farkındalık → Nefes Sıklığı → Dakikada 10 nefes: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Farkındalık → Dokunuşlar: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Farkındalık → Dokunuşlar → Yok: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Farkındalık → Dokunuşlar → Minimal: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Farkındalık → Dokunuşlar → Dikkat Çekici: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Uyku: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Uyku → Uyku’yu Sağlık Uygulamasında Ayarla: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Sesli Kitaplar: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Sesli Kitaplar → Giriş Yap: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Takvim: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Takvim → BİLDİRİMLER: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Takvim → iPhone’umu Yansıt: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Takvim → Özel…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Takvim → TAKVİMLER: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Saat: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Saat → 24 Saat Biçimi: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Saat → Çanlar: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Saat → Sesler: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Saat → Sesler → Çanlar: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Saat → Sesler → Kuşlar: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Saat → Saati Seslendir: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Saat → Sessiz Mod ile Denetle: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Saat → Her Zaman Seslendir: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Saat → Taptic Saat: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Saat → Taptic Saat → Taptic Saat: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Saat → Taptic Saat → Basamaklar: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Saat → Taptic Saat → Kısa: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Saat → Taptic Saat → Mors Alfabesi: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Saat → iPhone’daki Uyarıları İlet: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Saat → Bildirim Göstergesi: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Saat → Monogram: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Saat → Saat Kadranı Bildirimleri: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Saat → Şehir Kısaltmaları: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Saat → Siri Kadranı Veri Kaynakları: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Kişiler: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Kişiler → Sıralama: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Kişiler → Sıralama → Ad, Soyad: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Kişiler → Sıralama → Soyad, Ad: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Kişiler → Görüntüleme Sırası: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Kişiler → Görüntüleme Sırası → Ad, Soyad: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Kişiler → Görüntüleme Sırası → Soyad, Ad: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Kişiler → Kısa Ad: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Kişiler → Kısa Ad → Kısa Ad: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Kişiler → Kısa Ad → Adın ve Soyadın Baş Harfi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Kişiler → Kısa Ad → Adın Baş Harfi ve Soyad: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Kişiler → Kısa Ad → Yalnızca Ad: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Kişiler → Kısa Ad → Yalnızca Soyad: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Kişiler → Kısa Ad → Takma Adları Tercih Et: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → iPhone’umu Yansıt: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Özel: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → MAIL AYARLARI: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Hesaplar: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → E-postaları Dahil Et: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → İleti Önizleme: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → İleti Önizleme → Yok: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → İleti Önizleme → 1 Satır: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → İleti Önizleme → 2 Satır: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Saptanmış Yanıtlar: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Saptanmış Yanıtlar → Saptanmış Yanıtlar: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Saptanmış Yanıtlar → Yanıt ekle…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → İmza: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Harita: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Harita → Dönüş Uyarıları: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Harita → Araba: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Harita → CarPlay ile Yolculuk: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Harita → Yürüme: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Harita → Bisiklet: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Harita → Navigasyonu Göster: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Harita → Toplu Taşıma: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Harita → Build Bilgisi:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Müzik: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Müzik → LİSTELER VE ALBÜMLER: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Müzik → Müzik Ekle…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Cüzdan ve Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Cüzdan ve Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Cüzdan ve Apple Pay → Kart Ekle: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Cüzdan ve Apple Pay → Bildirimler: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Cüzdan ve Apple Pay → iPhone’umu Yansıt: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Cüzdan ve Apple Pay → Özel: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Fotoğraflar: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Fotoğraflar → Fotoğraf Eşzamanlama: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Fotoğraflar → Anılar: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Fotoğraflar → Eşzamanlanmış Anılar: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Fotoğraflar → Öne Çıkan Fotoğraflar: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Fotoğraflar → Eşzamanlanmış Öne Çıkan Fotoğraflar: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Fotoğraflar → Albüm: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Fotoğraflar → Albümü Eşzamanla: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Fotoğraflar → Fotoğraf Sınırı: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Fotoğraflar → Bildirim Ayarları: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Fotoğraflar → iPhone’umu Yansıt: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Fotoğraflar → Özel: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Gürültü: `bridge:root=com.apple.Noise.settings`
+- Gürültü → Ortam Ses Ölçümleri: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Gürültü → Gürültü Bildirimleri: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Gürültü → Gürültü Eşiği: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Gürültü → Gürültü Eşiği → Kapalı: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Gürültü → Gürültü Eşiği → 80 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Gürültü → Gürültü Eşiği → 85 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Gürültü → Gürültü Eşiği → 90 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Gürültü → Gürültü Eşiği → 95 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Gürültü → Gürültü Eşiği → 100 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Gürültü → Bildirim Gruplama: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Kanda Oksijen: `bridge:root=com.apple.OxygenSaturationSettings`
+- Operatör Ayarları: `bridge:root=CARRIER_SETTINGS`
+- Parolayı Kapat: `bridge:root=PASSCODE_ID`
+- Parolayı Kapat → Parolayı Aç: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Parolayı Kapat → Parolayı Değiştir: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Parolayı Kapat → Basit Parola: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Parolayı Kapat → Kilidi iPhone
+ile Aç: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Parolayı Kapat → Verileri Sil: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Parolayı Kapat → Bilek Algılama: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Telefon: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefon → Aramalar: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefon → Zil Sesi: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefon → Ses: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefon → Dokunuş: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Antrenman: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Antrenman → Düşük Güç Modu: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Antrenman → Hedef Ölçüleri Göster: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Antrenman → Görünüm: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Antrenman → Otomatik Duraklatma: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Antrenman → Otomatik Duraklatma → Otomatik Duraklatma: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Antrenman → Başlatma Anımsatıcısı: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Antrenman → Bitirme Anımsatıcısı: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Antrenman → Duraklatmak İçin Bas: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Antrenman → Spor Salonu Ekipmanı Sapta: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Antrenman → Tempo/Hız Görüntüsü: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Antrenman → Tempo/Hız Görüntüsü → Şu Anki: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Antrenman → Tempo/Hız Görüntüsü → Ortalama: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Antrenman → Antrenman Listesi: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Antrenman → Antrenman Listesi → Yok: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Antrenman → Antrenman Listesi → Listeler: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Antrenman → Baştan oynat: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Antrenman → Karıştır: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Antrenman → Ölçü Birimleri: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Antrenman → Ölçü Birimleri → Kalori: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Antrenman → Ölçü Birimleri → Kilokalori: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Antrenman → Ölçü Birimleri → Kilojul: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Antrenman → Ölçü Birimleri → Yarda: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Antrenman → Ölçü Birimleri → Metre: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Antrenman → Ölçü Birimleri → Mil: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Antrenman → Ölçü Birimleri → Kilometre: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Antrenman → Sesli Geri Bildirim: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Antrenman → Yürüme Zamanı: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Antrenman → Yeni Antrenmanları Apple Watch’a Ekle: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Borsa: `bridge:root=com.apple.StocksBridgeSettings`
+- Borsa → Saat Kadranı Komplikasyonu Şunu Gösterir: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Borsa → Şu Anki Fiyat: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Borsa → Puan Değişimi: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Borsa → Yüzde Değişimi: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Borsa → Piyasa Değeri: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Borsa → Siri Kadranı Şu Verileri Gösterir: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Borsa → Seçili Hisse Senedi: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Borsa → Seçili Hisse Senedi → Seçili Hisse Senedi: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Dock: `bridge:root=DOCK`
+- Dock → Dock Sıralaması: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Kullanılanlar: `bridge:root=DOCK#Recents`
+- Dock → Hızlı Arama: `bridge:root=DOCK#Favorites`
+- Podcast’ler: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Siri’ye Sor: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → Konuşmak İçin Kaldır: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Digital Crown’a Bas: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Sesli Geri Bildirim: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Sesli Geri Bildirim → Hep Açık: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Sesli Geri Bildirim → Sessiz Mod ile Denetle: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Sesli Geri Bildirim → Yalnızca Kulaklık: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Ses Yüksekliği: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siri Önerileri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Walkie-Talkie: `bridge:root=com.apple.tincan.settings`
+- Walkie-Talkie → Bildirimlere İzin Ver: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Walkie-Talkie → Bildirim Merkezi’ne Gönder: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Walkie-Talkie → Bildirimler Kapalı: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Walkie-Talkie → Bildirim Gruplama: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Walkie-Talkie → Arkadaşlar: `bridge:root=com.apple.tincan.settings#Friends`
+- Hava Durumu: `bridge:root=com.apple.weatherbridgesettings`
+- Hava Durumu → Saptanmış Şehir: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Hava Durumu → Saptanmış Şehir → Saptanmış Şehir: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Hava Durumu → Saptanmış Şehir → Şu Anki Konum: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Okundu Bilgisi Gönder: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

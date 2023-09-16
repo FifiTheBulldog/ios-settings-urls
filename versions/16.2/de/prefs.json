@@ -1,0 +1,1155 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud-Speicher": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Fotos": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Kontakte": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Kalender": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Erinnerungen": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Notizen": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Backup": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Health": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Passwörter & Schlüsselbund": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Privat-Relay": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Standort teilen": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Mein iPhone suchen": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Name, Telefonnummern, E-Mail": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Passwort & Sicherheit": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Zahlung & Versand": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Abonnements": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Familie": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Datenschutz & Sicherheit": {
+    "(root)": "prefs:root=Privacy",
+    "Sicherheitsprüfung": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Standort": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Standort teilen": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Kontakte": "prefs:root=Privacy&path=CONTACTS",
+    "Kalender": "prefs:root=Privacy&path=CALENDARS",
+    "Erinnerungen": "prefs:root=Privacy&path=REMINDERS",
+    "Fotos": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth-Freigabe": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Mikrofon": "prefs:root=Privacy&path=MICROPHONE",
+    "Spracherkennung": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Kamera": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Medien & Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Analyse": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Werbung": "prefs:root=Privacy&path=ADVERTISING",
+    "Dateien und Ordner": "prefs:root=Privacy&path=FILEACCESS",
+    "Tracking": "prefs:root=Privacy&path=USER_TRACKING",
+    "App-Datenschutzbericht": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Blockierungsmodus": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Health": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Fokus": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Fokusstatus": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Allgemein": {
+    "(root)": "prefs:root=General",
+    "VPN und Geräteverwaltung": "prefs:root=General&path=ManagedConfigurationList",
+    "Bild-in-Bild": "prefs:root=General&path=PiP_SPEC",
+    "Trackpad & Maus": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Info": {
+      "(root)": "prefs:root=General&path=About",
+      "Vertrauenswürdige Zertifikate": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Rechtl. & Reg. Hinweise": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Softwareupdate": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Home-Taste": "prefs:root=General&path=HOME_BUTTON",
+    "Gesten": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Seitenschalter": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Hintergrundaktualisierung": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Datum & Uhrzeit": "prefs:root=General&path=DATE_AND_TIME",
+    "TV-Ausgang": "prefs:root=General&path=TV_OUT",
+    "Regulatorische Hinweise": "prefs:root=General&path=REGULATORY",
+    "Zurücksetzen": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Alle Einstellungen zurücksetzen": "prefs:root=General&path=Reset#settingsErase",
+      "Alle Inhalte & Einstellungen löschen": "prefs:root=General&path=Reset#fullErase",
+      "Netzwerkeinstellungen zurücksetzen": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Alle mobilen Datentarife entfernen": "prefs:root=General&path=Reset#cellularErase",
+      "Accountdienste": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Tastaturwörterbuch": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Home-Bildschirm": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Standort & Datenschutz": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Ausschalten": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay & Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Auf HomePod übertragen": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Autom. AirPlay auf TV": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Integrationskamera": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Lexikon": "prefs:root=General&path=DICTIONARY",
+    "Sprache & Region": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Andere Sprachen …": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Bevorzugte Sprachreihenfolge": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Sprache hinzufügen …": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Region": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Zahlen": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Kalender": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Temperatureinheit": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Tastatur": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Tastaturen": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Textersetzung": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Auto-Großschreibung": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Auto-Korrektur": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Rechtschreibprüfung": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Feststelltaste": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Kurzbefehle": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Vorschläge": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Intelligente Interpunktion": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Geteilte Tastatur": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Tastenstreichen aktivieren": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Zeichenvorschau": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "„.“-Kurzbefehl": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Zum Tippen streichen": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Diktierfunktion aktivieren": "prefs:root=General&path=Keyboard#Dictation",
+      "Automatische Interpunktion": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Speicher": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Apps auslagern": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Mitteilungen": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Geplante Übersicht": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Wallet & Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Zahlungskarten": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Karte hinzufügen": "prefs:root=PASSBOOK#Add%20Card",
+    "Seitentaste zweimal drücken": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Bestellungsverfolgung": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Bildschirmzeit": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Heute": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Wöchentlich": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Auszeit": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "App-Limits": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Kommunikations­limits": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Kommunikationssicherheit": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Immer erlaubt": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Inhalts- und Datenschutzbeschränkungen": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Kindersicherung": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Bedienungshilfen": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Sehen": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Sprechtempo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Sprachausgabe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Stimme": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Ausführlichkeit": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Satzzeichen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Tabellentitel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Medienbeschreibungen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Aus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Sprachausgabe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Brailleschrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Sprache und Brailleschrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Brailleschrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Ausgabe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "6-Punkt-Brailleschrift (nicht verkürzt)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "8-Punkt-Brailleschrift (nicht verkürzt)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Braillekurzschrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Eingabe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "6-Punkt-Brailleschrift (nicht verkürzt)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "8-Punkt-Brailleschrift (nicht verkürzt)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Braillekurzschrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Automatische Übersetzung": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Braillebildschirmeingabe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "6-Punkt-Brailleschrift (nicht verkürzt)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "8-Punkt-Brailleschrift (nicht verkürzt)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Braillekurzschrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Umgekehrte Punktpositionen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Brailletabellen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Braille-Tabelle hinzufügen …": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Statuszellen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Statuszellenposition": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Links": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Rechts": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Allgemeinen Status anzeigen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Textstatus einblenden": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Nemeth-Code für Gleichungen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Onscreen-Keyboard": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Beim Bewegen umblättern": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Wortumbruch": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Braillehinweise": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Chord-Dauer ignorieren": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Automatisch fortfahren (Dauer)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Audio-Ducking": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Automatisch zum Lautsprecher": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "An HDMI senden": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Befehle": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Aktivitäten": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Programmieren": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Aktivität hinzufügen …": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rotorliste": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Rotoraktionen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Home-Bildschirm bearbeiten": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Apps für „Direkte Berührung“": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Eingeben": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Eingabemodus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Zweifingersystem": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Zehnfingersystem": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Direkte Berührung (Eingabe)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Phonetisches Feedback": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Aus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Zeichen und Buchstabieralphabet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Nur Buchstabieralphabet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Eingabe vorlesen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Sondertasten": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Ctrl + Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Feststelltaste": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Interaktionszeit der Tastatur": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Bilder navigieren": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Immer": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Mit Beschreibungen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Nie": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Großer Cursor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Beschriftungsbereich": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Zeitraum zum Doppeltippen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Zeitraum zum Doppeltippen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Navigationsstil": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Schnelleinstellungen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Töne": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Audio-Ducking": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Lautstärke": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Sprechtempo": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Hinweise": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Navigationsstil": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Eingabemodus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Zum Tippen streichen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Aktivitäten": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Mitteilungen immer sprechen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Braillehinweise": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Automatisches Fortfahren bei Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Brailleeingabe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Brailleausgabe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Brailletabellen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Beschriftungsbereich": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Direkte Berührung": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Gestenrichtung": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Hardwareeingabe vorlesen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Sprache": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Großer Cursor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Medienbeschreibungen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Bilder navigieren": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Phonetisches Feedback": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Tonhöhenänderung": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Satzzeichen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "An HDMI senden": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Softwareeingabe vorlesen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Rotorbestätigung sprechen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Bildbeschreibungen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Bildschirmerkennung": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "VoiceOver-Erkennung": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Bildbeschreibungen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Bildschirmerkennung": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Zoom": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Fokus folgen": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Intelligente Eingabe": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Tastaturkurzbefehle": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Tastaturkurzbefehle": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Zoomstufe anpassen": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Zoomen ein/aus": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Zoomfenster bewegen": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Größe des Zoomfensters ändern": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Zoombereich wechseln": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Zoom vorübergehend ein-/ausschalten": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Mit Scrollrad zoomen": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Zoom-Controller": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Zoombereich": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Vollbildzoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Zoomfenster": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Maximale Zoomstufe": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Zoomfilter": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Beim Synchronisieren anzeigen": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Schwebender Text": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Anzeige & Textgröße": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Fetter Text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Größerer Text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Tastenformen": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Ein/Aus-Beschriftungen": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Transparenz reduzieren": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Kontrast erhöhen": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Ohne Farben differenzieren": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Umkehren - Intelligent": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Umkehren - Klassisch": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Farbfilter": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Farbfilter": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Weißpunkt reduzieren": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Auto-Helligkeit": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Bewegung": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Bewegung reduzieren": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Nachrichteneffekte ausführen": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Videovorschauen autom. wiedergeben": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Gesprochene Inhalte": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Auswahl sprechen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Bildschirminhalt sprechen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Sprach-Controller": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Maustasten anpassen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Inhalt hervorheben": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Eingabe vorlesen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Zeichen-Feedback": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Zeichen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Zeichenhinweise": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Wörter sprechen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Auto-Text sprechen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Vorschläge sprechen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Stimmen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Standardsprache": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Sprachen erkennen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Sprechtempo": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Aussprache": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Audiobeschreibungen": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Audiobeschreibungen": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Physisch und motorisch": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Berühren": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Hauptmenü anpassen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Zum Ändern auf ein Symbol tippen:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Zurücksetzen …": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Eigene Aktionen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Einfachtippen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Doppeltippen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Zeitraum zum Doppeltippen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Langes Drücken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Langes Drücken (Dauer)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Eigene Gesten": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Neue Geste erstellen …": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Deckkraft": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Zeigegeräte": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Geräte": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth-Geräte …": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Tastaturmaus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Zeigerstil": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Größe": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Visuell": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Farbe": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Maustasten anpassen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Automatisch ausblenden": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_170": {
+            "Automatisch ausblenden": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Onscreen-Keyboard": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Menü immer einblenden": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Verweilsteuerung": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Bewegungstoleranz": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Zeigerempfindlichkeit": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Fallback-Aktion": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Aktive Ecken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Spielecontroller verwenden": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D & Haptic Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_171": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "3D Touch-Empfindlichkeit": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Touch-Dauer": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Schnell": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Langsam": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Test der 3D Touch-Empfindlichkeit und -Haltedauer": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Touch-Anpassungen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_172": {
+        "Touch-Anpassungen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Haltedauer": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Wiederholung ignorieren": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Tipp-Assistent": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Aus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Ersten Berührungspunkt verwenden": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Letzten Berührungspunkt verwenden": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Zum Aufwecken tippen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Zum Aufwecken tippen oder streichen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Zum Widerrufen schütteln": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Vibration": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Beendigung von Anrufen durch Sperren verhindern": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Anrufaudioausgabe": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_173": {
+        "Automatisch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth-Headset": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Lautsprecher": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Anrufe automatisch annehmen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID & Aufmerksamkeit": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Aufmerksamkeitsprüfung für Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Aufmerksamkeitssensible Funktionen": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Haptik": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Haptisch bei erfolgr. Authentifizierung": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Schaltersteuerung": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Schaltersteuerung": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Schalter": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_174": {
+        "Neuen Schalter hinzufügen …": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth-Geräte …": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Abläufe": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Scanstil": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_175": {
+        "Automatisches Scannen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Manuell scannen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Schrittweise scannen (1 Schalter)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Zeitverhalten": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Dauer des autom. Scannens": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_176": {
+        "Dauer des autom. Scannens": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Beim 1. Objekt anhalten": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_177": {
+        "Beim 1. Objekt anhalten": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Bewegungswiederholung": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_178": {
+        "Bewegungswiederholung": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Langes Drücken": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_179": {
+        "Langes Drücken": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Tippverhalten": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_180": {
+        "Standard": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Automatisches Tippen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Immer tippen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Fokusobjekt nach Tippen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_181": {
+        "Erstes Objekt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Aktuelles Objekt": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Tastatur": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Nach Tippen Taste scannen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Tasten „Immer tippen“": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Erweiterte Vorschläge": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Schalterstabilisierung": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Haltedauer": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_182": {
+        "Haltedauer": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Wiederholung ignorieren": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_183": {
+        "Wiederholung ignorieren": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Punktscannen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Gleitauswahl": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_184": {
+        "Auswahlmodus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Einzeln": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Verfeinert": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Präzise": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Tempo der Gleitauswahl": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Kopferfassung": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_185": {
+        "Kopferfassung": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Audio": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Toneffekte": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Sprachausgabe": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_186": {
+        "Stimmen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Sprechtempo": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Menüobjekte": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Objekte gruppieren": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Visuell": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Großer Cursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Gesicherte Gesten": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_187": {
+        "Neue Geste erstellen …": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Auswahlfarbe": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Sprachsteuerung": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Sprachsteuerung konfigurieren": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Sprache": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_188": {
+        "Englisch (USA)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Befehle anpassen": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Vokabular": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Befehlsfeedback": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Bestätigung anzeigen": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Ton wiedergeben": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Merkhilfen einblenden": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Kontinuierliche Überlagerung": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Überlagerung": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_189": {
+        "Ohne": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Objektnummern": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Objektnamen": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Nummeriertes Raster": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Aufmerksamkeitssensibel": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Seitentaste": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Klickgeschwindigkeit": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Standard": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Langsam": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Am langsamsten": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Zum Sprechen gedrückt halten": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Klassische Sprachsteuerung": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Aus": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Richtungstasten": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Entfernter Bildschirm der Apple Watch": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Tastaturen": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Tastatursteuerung": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_190": {
+        "Tastatursteuerung": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Visuelle Effekte": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Automatisch ausblenden": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Großer Fokussierungsring": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Farbe": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Tastenwiederholung": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_191": {
+        "Tastenwiederholung": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Wiederholungsintervall": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Ansprechverzögerung": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Einfingerbedienung": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_192": {
+        "Einfingerbedienung": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Mit Umschalttaste ein/aus": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Ton": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Tastenverzögerung": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_193": {
+        "Tastenverzögerung": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Software-Tastaturen": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Tasten mit Kleinbuchstaben": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Hören": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Hörhilfen": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi-Hörhilfen": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Hörgerätkompatibilität": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Geräuscherkennung": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Töne": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Software-TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Hardware-TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Audio & Visuelles": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Audio": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Kopfhörer-Anpassungen": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_194": {
+        "Kopfhörer-Anpassungen": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Eigene Audiokonfiguration": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Hintergrundgeräusche": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Mono-Audio": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Geräuschunterdrückung": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Balance": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Visuell": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "LED-Blitz bei Hinweisen": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_195": {
+        "Beim Entsperren blinken": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Im Stummmodus blinken": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Stereobalance (links/rechts)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Töne beim Ein- & Ausschalten": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Untertitel & erweiterte Untertitel": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Stil": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Erweiterte Untertitel + UT": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Audiotranskriptionen einblenden": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_196": {
+      "Live-Untertitel (Beta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Live-Untertitel in FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Allgemein": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Geführter Zugriff": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Geführter Zugriff": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Codeeinstellungen": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_197": {
+        "Code für geführten Zugriff festlegen": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Zeitlimits": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_198": {
+        "Wecker": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Ton": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Sprechen": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Kurzbefehl": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Display autom. sperren": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Eigener Bedienungshilfenmodus": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Siri-Anfragen tippen": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Gesprochene Antworten": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Automatische gesprochene Antworten": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Geräuschlose Antworten bevorzugen": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Im Stummmodus nicht sprechen": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Immer auf „Hey Siri“ achten": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Kurzbefehl": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Lupe": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "App-spezifische Einstellungen": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Geräte in der Nähe steuern": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Anzeige & Helligkeit": {
+    "(root)": "prefs:root=DISPLAY",
+    "Erscheinungsbild": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Geplant": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Manuell bis morgen aktivieren": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Farbtemperatur": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Automatische Sperre": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Beim Anheben aktivieren": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Sperren / Entsperren": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Textgröße": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Fetter Text": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Anzeigezoom": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Anzeige": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Begegnungsmitteilungen": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_199": {
+    "Mitteilungs-Badges": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Kürzlich geladene Apps": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Home-Bildschirm & Multitasking": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_200": {
+      "App-Mediathek im Dock anzeigen": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Vorgeschlagene und letzte Apps im Dock anzeigen": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Home-Bildschirm": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Kürzlich geladene Apps": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Mitteilungs-Badges": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID & Code": {
+    "(root)": "prefs:root=PASSCODE",
+    "Code deaktivieren": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Code ändern": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Code anfordern": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Sprachwahl": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Im Sperrzustand Zugriff erlauben": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Mit Nachricht antworten": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Home-Steuerung": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Wallet": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Verpasste Anrufer zurückrufen": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Daten löschen": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Mit Apple Watch entsperren": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcasts": "prefs:root=PODCASTS",
+  "Notruf SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Mit Seitentaste anrufen": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Automatischer Anruf": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Notfallkontakte": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Countdown-Ton": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Töne": {
+    "(root)": "prefs:root=Sounds",
+    "Kopfhörersicherheit": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning-Adapter": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Kopfhörermitteilungen": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Laute Töne reduzieren": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Toneffekte": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Klingel- und Hinweistöne": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Mit Tasten ändern": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Töne und Vibrationsmuster": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Klingelton": "prefs:root=Sounds&path=Ringtone",
+    "Nachrichtenton": "prefs:root=Sounds&path=Text_Messages",
+    "Neue Voicemail": "prefs:root=Sounds&path=Voicemail",
+    "Neue E‑Mail": "prefs:root=Sounds&path=NEW_MAIL",
+    "E‑Mail gesendet": "prefs:root=Sounds&path=SENT_MAIL",
+    "Kalenderhinweis": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Erinnerungshinweise": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Tastaturanschläge": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Ton beim Sperren": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Wetter": "prefs:root=WEATHER",
+  "Kompass": {
+    "(root)": "prefs:root=COMPASS",
+    "Geografischer Norden": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Kontrollzentrum": {
+    "(root)": "prefs:root=ControlCenter",
+    "Zugriff in Apps erlauben": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Steuerelemente anpassen": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Entwickler": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Multipath-Netzwerk": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Multipath-Netzwerk": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Erscheinungsbild": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Dunkles Erscheinungsbild": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Gekoppelte Geräte": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Vertrauenswürdige Computer entfernen": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Instrumente": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Protokollierung": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "UI-Automatisierung": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Netzwerk": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Network Link Conditioner": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "iAd Developer App Testing": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Füllrate": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Abgeschnittene Banner hervorheben": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Unbegrenzte Ad-Präsentation": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "PassKit Testing": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Zusätzliche Protokollierung": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "HTTP-Dienste erlauben": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Ratenbegrenzung deaktivieren": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "NFC-Schlüssel (Optional)": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Media Services Testing": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "AirPlay-Vorschläge": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Mediendienste zurücksetzen": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "News Testing": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Lokale Daten beim nächsten Starten zurücksetzen": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Media Player Framework Testing": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "Playable Content-API": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "TV Provider Testing": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "TV-Anbieter": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit-API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "CoreSpotlight Testing": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Alle Objekte neu indexieren": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Alle Objekte mit Identifikatoren neu indexieren": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Shortcuts Testing": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Letzte Kurzbefehle anzeigen": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Anstehende Medien anzeigen": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Spenden auf dem Sperrbildschirm anzeigen": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Synchronisierung von Kurzbefehlen auf Watch erzwingen": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "MIDI-CI Testing": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "MIDI-CI aktivieren": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Health": "prefs:root=HEALTH",
+  "Maßband": {
+    "(root)": "prefs:root=MEASURE",
+    "Maßeinheiten": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Britisch": "prefs:root=MEASURE#Imperial",
+    "Metrisch": "prefs:root=MEASURE#Metric"
+  },
+  "Musik": {
+    "(root)": "prefs:root=MUSIC",
+    "Apple Music zeigen": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Playlisttitel hinzufügen": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Bewertungssterne einblenden": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Mediathek synchronisieren": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Mobile Daten": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Musikdownloads": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Speicher optimieren": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Automatische Downloads": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Lautstärke anpassen": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Hörverlauf verwenden": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Notizen": {
+    "(root)": "prefs:root=NOTES",
+    "Standardaccount": "prefs:root=NOTES&path=Default%20Account",
+    "Passwort": "prefs:root=NOTES&path=Password",
+    "Sortieren nach": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Neue Notizen beginnen mit": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Markierte Einträge sortieren": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Linien & Gitter": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "In „Fotos“ sichern": "prefs:root=NOTES#Save%20to%20Photos",
+    "Zugriff im Sperrbildschirm": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Nachrichten": "prefs:root=MESSAGES",
+  "Übersetzen": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Modus „Auf dem Gerät“": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "TV-Anbieter": "prefs:root=VIDEO_SUBSCRIBER",
+  "Sprachmemos": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Endgültig löschen": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Audioqualität": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Ortsabhängige Benennung": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Kamera": {
+    "(root)": "prefs:root=CAMERA",
+    "Formate": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_201": {
+      "HDR-Video": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Einstellungen beibehalten": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Kameramodus": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Gitter": "prefs:root=CAMERA#CameraGridSwitch",
+    "QR-Codes scannen": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Karten": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Kontakte": {
+    "(root)": "prefs:root=CONTACTS",
+    "„Kontakte“ Zugriff erlauben auf": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri & Suchen": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Sortierfolge": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Anzeigefolge": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Kurzname": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Kurzname": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Spitznamen bevorzugen": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Meine Infos": "prefs:root=CONTACTS&path=MeCard",
+    "SIM-Kontakte importieren": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Bücher": {
+    "(root)": "prefs:root=IBOOKS",
+    "Online-Inhalt": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "SYNCHRONISIEREN": "prefs:root=IBOOKS#SYNCING",
+    "Aktuelle Bücher": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "LESEN": "prefs:root=IBOOKS#READING",
+    "Blocksatz": "prefs:root=IBOOKS#BKFullJustification",
+    "Autom. Silbentrennung": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Nur vorwärts blättern": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Leseziele": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Lesezieldaten löschen": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "SUCHEN": "prefs:root=IBOOKS#SEARCHING",
+    "Book Store": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "HÖRBÜCHER": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Vorspringen": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Zurückspringen": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "EXTERNE STEUERELEMENTE": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Nächste/Vorherige": "prefs:root=IBOOKS#Next/Previous",
+    "Vor-/Zurückspringen": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "DATENSCHUTZ": "prefs:root=IBOOKS#PRIVACY",
+    "ID zurücksetzen": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Anmerkungen": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Kalender": {
+    "(root)": "prefs:root=CALENDAR",
+    "Feste Zeitzone": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Alternative Kalender": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Kalenderwochen": "prefs:root=CALENDAR#Week%20Numbers",
+    "Absagen anzeigen": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Synchr.": "prefs:root=CALENDAR&path=Sync",
+    "Standardhinweise": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Woche beginnt am": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Ortsvorschläge": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Accounts": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Konto hinzufügen": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Datenabgleich": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Vorschau": "prefs:root=MAIL&path=Preview",
+    "An/Kopie anzeigen": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Streichgesten": "prefs:root=MAIL&path=Swipe%20Options",
+    "Löschen bestätigen": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Entfernte Bilder laden": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Nach Konversation": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Gelesene Nachr. reduzieren": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Neueste Nachricht ganz oben": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Vollständige Konversationen": "prefs:root=MAIL#Complete%20Threads",
+    "Aktion „Stumme Konversation“": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Blockierte Absender ignorieren": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Blockiert": "prefs:root=MAIL&path=Blocked",
+    "Blindkopie an mich": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Adressen markieren": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Zitatebene erhöhen": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Anhänge in Antwort beibehalten": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Signatur": "prefs:root=MAIL&path=Signature"
+  },
+  "Telefon": {
+    "(root)": "prefs:root=Phone",
+    "Meine Nummer": "prefs:root=Phone&path=My%20Number",
+    "Eingehende Anrufe": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Anrufe ankündigen": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "SMS- und Anrufberichte": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Mit Nachricht antworten": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Rufweiterleitung": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Rufweiterleitung": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Anklopfen/Makeln": "prefs:root=Phone&path=Call%20Waiting",
+    "Meine Anrufer-ID senden": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_202": {
+        "Meine Anrufer-ID senden": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Unbekannte Anrufer stumm": "prefs:root=Phone#SILENCE_CALLS",
+    "Blockierte Kontakte": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Wählhilfe": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Inhalte blockieren": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Pop-Ups blockieren": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Cross-Sitetracking verhindern": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Automatisch ausfüllen": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Downloads": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Passwörter": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Automatisch ausfüllen": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Fotos": {
+    "(root)": "prefs:root=Photos",
+    "iCloud-Fotos": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Speicher optimieren": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Laden und Originale behalten": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Mein Fotostream": "prefs:root=Photos#PhotoStreamSwitch",
+    "Geteilte Alben": "prefs:root=Photos#SharedStreamsSwitch",
+    "Mobile Daten": "prefs:root=Photos&path=CellularDataLinkList",
+    "Videos autom. wiedergegeben": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Full-HDR anzeigen": "prefs:root=Photos#ImageModulationSwitch",
+    "Feiertagsereignisse einblenden": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Auf Mac oder PC übertragen": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Automatische Downloads": "prefs:root=STORE#Automatic%20Downloads",
+    "App-Updates": "prefs:root=STORE#App%20Updates",
+    "App-Downloads": "prefs:root=STORE&path=App%20Downloads",
+    "Automatische Videowiedergabe": "prefs:root=STORE&path=Video%20Autoplay",
+    "Bewertungen in Apps": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Story-Vorschauen zeigen": "prefs:root=NEWS#show_excerpt_mode",
+    "Storys in „Heute“ beschränken": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Datenschutz": "prefs:root=NEWS#Privacy",
+    "ID zurücksetzen": "prefs:root=NEWS#reset_identifier",
+    "Anmerkungen": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_203": {
+    "Flugmodus": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Erinnerungen": {
+    "(root)": "prefs:root=REMINDERS",
+    "Standardliste": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Erinnerungen": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Mitteilung heute": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Als überfällig anzeigen": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Batterie": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Stromsparmodus": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Batteriezustand": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Kurzbefehle": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "iCloud-Synchronisierung": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Kurzbefehlreihenfolge synchr.": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Rechtl. Hinweise": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri & Suchen": {
+    "(root)": "prefs:root=SIRI",
+    "Siri im Sperrzustand erlauben": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Sprache": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Siri-Stimme": "prefs:root=SIRI&path=VOICE_ID",
+    "Sprachfeedback": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Meine Informationen": "prefs:root=SIRI&path=MY_INFO",
+    "Beim Suchen": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Beim Nachschlagen": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Auf Sperrbildschirm": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Aktien": {
+    "(root)": "prefs:root=STOCKS",
+    "Datenschutz": "prefs:root=STOCKS#Privacy",
+    "ID zurücksetzen": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Mobilfunk": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Datenoptionen": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Datensparmodus": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Mobile Daten": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Mobile Daten für Wiedergabe": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Wiedergabequalität": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Käufe und Leihartikel": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Privatfreigabe": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Hintergrundbild": "prefs:root=Wallpaper"
+}

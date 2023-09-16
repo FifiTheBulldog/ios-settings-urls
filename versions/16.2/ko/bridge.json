@@ -1,0 +1,561 @@
+{
+  "손쉬운 사용": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "시각 지원": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "확대/축소": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "볼드체 텍스트": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "켬/끔 레이블": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "흑백 모드": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "투명도 줄이기": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "동작 줄이기": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "차임": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "시간 지정": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "매시간": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30분": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15분": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "소리": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "종": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "새": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "동작": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "측면 버튼 클릭 속도": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "클릭 속도": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "기본 설정": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "느리게": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "가장 느리게": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "터치 조절": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "터치 조절": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "대기 시간": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "반복 무시": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "탭 지원": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "끔": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "첫 번째 터치 위치 사용": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "마지막 터치 위치 사용": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "휠체어 활동": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "워키토키": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "탭하여 대화하기": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "듣기 지원": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "중계 번호": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "즉시 보내기": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "기본 응답": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "기본 응답": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "응답 추가…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "모노 오디오": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "좌-우 스테레오 균형": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "헤드폰 알림": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "보청 기기": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "컴플리케이션": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "마이크 음량": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "프로그램": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "탭틱 시간 속도": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "손쉬운 사용 단축키": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "새로운 시계 페어링": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "앱 보기": "bridge:root=APP_VIEW_ID",
+  "일반": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "정보": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "이름": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "제한 보증": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "제한 보증": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "적용 범위 세부사항": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "하드웨어 적용 범위": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "대화 및 전화 지원": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "노래": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "사진": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "응용 프로그램": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "용량": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "사용 가능": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "버전": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "이동통신사": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "모델": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "일련 번호": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi‑Fi 주소": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "법적 정보": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Apple Watch 사용 설명서 보기": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "소프트웨어 업데이트": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "자동으로 앱 설치": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "에어플레인 모드": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "집중 모드": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "나의 iPhone 미러링": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "시계 방향": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Apple Watch 착용": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "왼쪽 손목": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "오른쪽 손목": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "왼쪽에 Digital Crown": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "오른쪽에 Digital Crown": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "받아쓰기 활성화": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Handoff 활성화": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "탁상시계 모드": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "스크린샷 활성화": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "저장 공간": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "진단 로그": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Watch 분석 복사": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "재설정": "bridge:root=GENERAL_LINK&path=RESET",
+    "잠수하는 동안 자동 실행": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "오디오 앱 자동 실행": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "언어 및 지역": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "나의 iPhone 미러링": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "사용자화": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "시계로 돌아가기": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "시계로 돌아가기": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "항상": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "2분 후": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "1시간 후": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "앱": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "지금 재생 중": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "디스플레이 및 밝기": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "밝기": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "항상 켬": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "항상 켬": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "손목 내리기": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "알림 보기": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "알림 보기": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCH용 앱": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "앱 보기": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "앱 보기": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "앱": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "텍스트 크기": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "볼드체 텍스트": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "깨우기": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "손목 올려 깨우기": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "크라운 돌려 깨우기": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "깨우기 시간": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "탭할 때": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "15초 동안 켜져 있기": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "70초 동안 켜져 있기": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "사운드 및 햅틱": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "알림 음량": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "무음 모드": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "헤드폰 오디오": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "헤드폰 안전성": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "헤드폰 알림": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "큰 소리 줄이기": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "햅틱": "bridge:root=SOUNDS_ID#Haptics",
+    "햅틱 알림": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "크라운 햅틱": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "시스템 햅틱": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "가려서 소리 끄기": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "긴급 구조 요청": "bridge:root=SOS_MODE_ID",
+  "개인정보 보호": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "심박수": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "호흡수": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "피트니스 추적": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "피트니스 보정 데이터 재설정": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "주변 소리 측정": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "헤드폰 오디오 측정": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "건강 앱에 저장": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "8일 동안": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "삭제할 때까지": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "혈중 산소 측정": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "손목 온도": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "스크린 타임": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "수심": "bridge:root=com.apple.DepthCompanionSettings",
+  "동작 버튼": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "자동 다운로드": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "자동 업데이트": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "건강": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail 및 캘린더": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "계정": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Google 계정 추가...": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "가져오기": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "끔": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "매시간": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30분": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15분": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "손씻기": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "알림 허용": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "알림 센터에 보내기": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "알림 끔": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "알림 그룹 설정": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "손씻기 타이머": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "셀룰러": "bridge:root=CELLULAR_ID",
+  "컴플리케이션": "bridge:root=COMPLICATIONS",
+  "활동": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "진행 상황 업데이트": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "없음": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "2시간마다": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "4시간마다": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "6시간마다": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "8시간마다": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "목표 달성": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "주간 요약": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "일일 코칭": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "목표 완료": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "특별 도전 목표": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "활동 공유 알림": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "심장": "bridge:root=com.apple.HeartRateSettings#1",
+    "심박수 알림": "bridge:root=com.apple.HeartRateSettings#2",
+    "고심박수": "bridge:root=com.apple.HeartRateSettings#3",
+    "저심박수": "bridge:root=com.apple.HeartRateSettings#4",
+    "불규칙한 박동": "bridge:root=com.apple.HeartRateSettings#5",
+    "건강 앱에서 심전도 검사 기록 보기": "bridge:root=com.apple.HeartRateSettings#6",
+    "심전도": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "메시지": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "나의 iPhone 미러링": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "사용자화": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "기본 응답": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "기본 응답": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "스마트 응답": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "응답 추가…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "알림 반복": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "오디오 메시지": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "마음 챙기기": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "알림 허용": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "알림 센터에 보내기": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "알림 끔": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "마음 챙기기 미리 알림": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "하루의 시작": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "하루의 마무리": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "미리 알림 추가…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "주간 요약": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "오늘 하루 알림 끔": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "호흡수": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "분당 호흡수 4회": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "분당 호흡수 5회": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "분당 호흡수 6회": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "분당 호흡수 7회": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "분당 호흡수 8회": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "분당 호흡수 9회": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "분당 호흡수 10회": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "햅틱": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "없음": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "약하게": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "뚜렷하게": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "수면": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "건강 앱에서 수면 설정": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "오디오북": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "로그인": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "캘린더": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "알림": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "나의 iPhone 미러링": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "사용자화…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "캘린더": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "시계": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24시간제": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "차임": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "소리": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "종": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "새": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "시간 말하기": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "무음 모드로 제어": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "항상 말하기": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "탭틱 시간": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "탭틱 시간": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "숫자": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "간략하게": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "모스 부호": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "iPhone의 알림 푸시": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "알림 표시": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "모노그램": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "시계 페이스 알림": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "축약한 도시 이름": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Siri 페이스 데이터 소스": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "연락처": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "정렬 순서": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "이름, 성": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "성, 이름": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "표시 순서": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "이름, 성": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "성, 이름": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "줄인 이름": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "줄인 이름": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "이름 및 성 이니셜": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "이름 이니셜 및 성": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "이름만": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "성만": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "별명 사용": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "나의 iPhone 미러링": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "사용자화": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Mail 설정": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "계정": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Mail 포함": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "메시지 미리보기": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "없음": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1줄": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2줄": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "기본 응답": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "기본 응답": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "응답 추가…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "서명": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "지도": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "경로 알림": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "운전": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "CarPlay로 운전": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "도보": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "자전거": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "내비게이터 보기": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "대중교통": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "빌드 정보:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "음악": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "플레이리스트 및 앨범": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "음악 추가…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "지갑 및 Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "카드 추가": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "알림": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "나의 iPhone 미러링": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "사용자화": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "사진": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "사진 동기화": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "추억": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "추억 동기화": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "추천 사진": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "추천 사진 동기화": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "앨범": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "앨범 동기화": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "사진 제한": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "알림 설정": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "나의 iPhone 미러링": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "사용자화": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "소음": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "주변 소리 측정": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "소음 알림": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "소음 임계값": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "끔": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80데시벨": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85데시벨": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90데시벨": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95데시벨": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100데시벨": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "알림 그룹 설정": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "혈중 산소": "bridge:root=com.apple.OxygenSaturationSettings",
+  "이동통신사 설정": "bridge:root=CARRIER_SETTINGS",
+  "암호 끄기": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "암호 켜기": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "암호 변경": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "간단한 암호": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "iPhone으로 잠금 해제": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "데이터 지우기": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "손목 인식": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "전화": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "통화": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "벨소리": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "사운드": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "햅틱": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "운동": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "저전력 모드": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "목표 수치 보기": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "운동 보기": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "자동 일시 정지": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "자동 일시 정지": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "운동 시작 알림": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "운동 종료 알림": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "눌러서 일시 정지": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "운동 기구 감지": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "페이스/속도 보기": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "현재": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "평균": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "운동 플레이리스트": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "없음": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "플레이리스트": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "처음부터 재생": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "임의 재생": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "측정 단위": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "칼로리": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "킬로칼로리": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "킬로줄": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "야드": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "미터": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "마일": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "킬로미터": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "음성 피드백": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "걷기 시간": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Apple Watch에 새로운 운동 추가": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "주식": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "시계 페이스 컴플리케이션에 표시": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "현재가": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "포인트 변동": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "등락률": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "시가 총액": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Siri 페이스에 표시할 주식": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "선택된 주식": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "선택된 주식": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Dock 정렬": "bridge:root=DOCK#OrderingOptionGroup",
+    "최근 항목": "bridge:root=DOCK#Recents",
+    "즐겨찾기": "bridge:root=DOCK#Favorites"
+  },
+  "팟캐스트": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Siri에게 요청하기": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "들어서 말하기": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Digital Crown 누르기": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "음성 피드백": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "항상 켬": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "무음 모드로 제어": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "헤드폰에서만": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "음성 음량": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siri 제안": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "워키토키": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "알림 허용": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "알림 센터에 보내기": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "알림 끔": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "알림 그룹 설정": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "친구": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "날씨": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "기본 도시": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "기본 도시": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "현재 위치": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "읽음 확인 보내기": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

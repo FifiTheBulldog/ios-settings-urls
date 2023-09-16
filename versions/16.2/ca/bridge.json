@@ -1,0 +1,561 @@
+{
+  "Accessibilitat": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Visió": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Zoom": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Text en negreta": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Etiquetes I/O": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Escala de grisos": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Reduir transparència": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Reduir moviment": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Timbre": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Programació": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Cada hora": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 minuts": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 min": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Sons": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Campanes": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Ocells": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Motricitat": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Velocitat premuda lateral": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Velocitat de premuda": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Per omissió": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Lenta": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Molt lenta": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Facilitats tàctils": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Facilitats tàctils": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Mantenir premuda": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Ignorar la repetició": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Assistència de toc": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "No": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Utilitzar ubicació del toc inicial": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Utilitzar ubicació del toc final": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "ACTIVITAT AMB CADIRA DE RODES": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Walkie-talkie": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Tocar per parlar": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Audició": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Número de retransmissió": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Enviar immediatament": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Respostes per omissió": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Respostes per omissió": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Afegir resposta…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Àudio mono": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Equilibri estèreo esquerra-dreta": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Notificacions dels auriculars": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Audiòfons": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Complicació": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Volum del micròfon": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Programa": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Velocitat dels tocs per a l’hora": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Drecera d’accessibilitat": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Enllaçar un nou Apple Watch": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Disposició d’apps": "bridge:root=APP_VIEW_ID",
+  "General": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Informació": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Nom": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Garantia limitada": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Garantia limitada": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "DETALLS DE LA COBERTURA": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Cobertura del maquinari": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Assistència per telèfon i xat": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Cançons": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Fotos": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Aplicacions": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Capacitat": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Disponible": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Versió": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Operador": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Model": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Número de sèrie": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Adreça Wi‑Fi": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Avís legal": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Veure el manual d’ús de l’Apple Watch ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Actualització de programari": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Instal·lació automàtica": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Mode Avió": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Modes de concentració": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Duplicar amb l’iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Orientació del rellotge": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Portes l’Apple Watch al": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Canell esquerre": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Canell dret": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown a l’esquerra": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown a la dreta": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "ID d’Apple": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Activar el dictat": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Activar el Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Mode “Rellotge de taula”": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Activar captures de pantalla": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Emmagatzematge": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Registres de diagnòstic": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Copiar l’anàlisi de l’Apple Watch": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Restablir": "bridge:root=GENERAL_LINK&path=RESET",
+    "Obrir automàticament en submergir‑se": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Iniciar automàticament les apps d’àudio": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Idioma i regió": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Duplicar amb l’iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Personalitzar": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "TORNAR AL RELLOTGE": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "TORNAR AL RELLOTGE": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Sempre": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "2 minuts després": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "1 hora després": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APPS": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Ara sona": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Pantalla i brillantor": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Brillantor": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Sempre activades": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Sempre activades": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "EN ABAIXAR EL CANELL": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Mostrar les notificacions": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Mostrar les notificacions": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPS PER A L’APPLE WATCH": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Mostrar les apps": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Mostrar les apps": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPS": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Mida del text": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Text en negreta": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "PANTALLA ACTIVA": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "En alçar el canell": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Activar en girar la Digital Crown": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Durada de la pantalla activa": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "EN TOCAR": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Activar-se 15 segons": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Activar-se 70 segons": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Sons i vibracions": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Volum d’avís": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Mode de silenci": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Àudio dels auriculars": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Audició segura amb auriculars": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Notificacions dels auriculars": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Reducció de sons alts": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Vibració": "bridge:root=SOUNDS_ID#Haptics",
+    "Alertes amb vibració": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Vibració de la corona": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Vibracions del sistema": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Tapar per silenciar": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "Emergència SOS": "bridge:root=SOS_MODE_ID",
+  "Privacitat": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Freq. cardíaca": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Freqüència respiratòria": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Seguiment d’exercici": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Restablir dades calibratge exercici": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Registre del so ambiental": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Registre de l’àudio dels auriculars": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Desar‑los a l’app Salut": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "Durant vuit dies": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Fins que els elimini": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Mesuraments d’oxigen en sang": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Temperatura del canell": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Temps d’ús": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Profunditat": "bridge:root=com.apple.DepthCompanionSettings",
+  "Botó d’acció": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Descàrregues automàtiques": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Actualitzacions automàtiques": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Salut": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail i Calendari": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Comptes": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Afegir un compte Google…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Obtenir": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "No": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Cada hora": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Rentat de mans": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Permetre notificacions": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Enviar al centre de notificacions": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Notificacions desactivades": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Agrupar notificacions": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Temporitzador del rentat de mans": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Dades mòbils": "bridge:root=CELLULAR_ID",
+  "Complicacions": "bridge:root=COMPLICATIONS",
+  "Activitat": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Actualitzar progrés": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Cap": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "Cada 2 hores": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "Cada 4 hores": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "Cada 6 hores": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "Cada 8 hores": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Assoliments": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Resum setmanal": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Entrenament diari": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Objectius completats": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Reptes especials": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Notificacions de les amistats": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Cor": "bridge:root=com.apple.HeartRateSettings#1",
+    "Notificacions de freqüència cardíaca": "bridge:root=com.apple.HeartRateSettings#2",
+    "Freqüència cardíaca alta": "bridge:root=com.apple.HeartRateSettings#3",
+    "Freqüència cardíaca baixa": "bridge:root=com.apple.HeartRateSettings#4",
+    "Ritme irregular": "bridge:root=com.apple.HeartRateSettings#5",
+    "Veure els ECG a l’app Salut": "bridge:root=com.apple.HeartRateSettings#6",
+    "Electrocardiograma": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Missatges": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Duplicar amb l’iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Personalitzar": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Respostes per omissió": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Respostes per omissió": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Respostes intel·ligents": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Afegir resposta…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Repetir avisos": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Missatges d’àudio": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Atenció Plena": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Permetre notificacions": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Enviar al centre de notificacions": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Notificacions desactivades": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Recordatoris d’atenció plena": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Inici del dia": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Final del dia": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Afegir recordatori…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Resum setmanal": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Silenciar avui": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Freqüència respiratòria": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 respiracions per minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 respiracions per minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 respiracions per minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 respiracions per minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 respiracions per minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 respiracions per minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 respiracions per minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Vibració": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Cap": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Mínima": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Especial": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Dormir": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Configurar el mode de dormir a l’app Salut": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Audiollibres": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Iniciar sessió": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Calendari": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "NOTIFICACIONS": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Duplicar amb l’iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Personalitzat…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "CALENDARIS": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Rellotge": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "Rellotge de 24 hores": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Timbre": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Sons": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Campanes": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Ocells": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Escoltar l’hora": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Controlar amb el mode de silenci": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Llegir sempre": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Tocs per a l’hora": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Tocs per a l’hora": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Dígits": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Concís": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Codi Morse": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Avisos Push des de l’iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Indicador de notificacions": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monograma": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Notificacions d’esferes": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Abreviatures de ciutats": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Fonts de dades de l’esfera Siri": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Contactes": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Ordenar per": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Nom, cognoms": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Cognoms, nom": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Mostrar com": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Nom, cognoms": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Cognoms, nom": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Nom curt": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Nom curt": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Nom i inicial del cognom": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Inicial del nom i cognom": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Només el nom": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Només el cognom": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Preferir àlies": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Duplicar amb l’iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Personalitzar": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Configuració del Mail": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Comptes": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Incloure correu": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Previsualització missatge": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Cap": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 línia": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 línies": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Respostes per omissió": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Respostes per omissió": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Afegir resposta…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Signatura": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Mapes": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Avisos de gir": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "En cotxe": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "En cotxe amb el CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "A peu": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "En bici": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Mostrar la navegació": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "En transport públic": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Dades de la compilació:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Música": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "LLISTES I ÀLBUMS": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Afegir música…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Cartera i Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Afegir targeta": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Notificacions": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Duplicar amb l’iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Personalitzar": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Fotos": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Sincronitzar les fotos": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Records": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Sincronitzar els records": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Fotos destacades": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Sincronitzar les fotos destacades": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Àlbum": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Sincronitzar àlbum": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Límit de fotos": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Configuració de les notificacions": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Duplicar amb l’iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Personalitzar": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Soroll": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Registre del so ambiental": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Notificacions de soroll": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Llindar de soroll": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "No": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Agrupar notificacions": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Oxigen en Sang": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Configuració de l’operador": "bridge:root=CARRIER_SETTINGS",
+  "Desactivar codi": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Activar codi": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Canviar el codi": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Codi senzill": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Desbloquejar amb l’iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Esborrar dades": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Detecció de canell": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Telèfon": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Trucades": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "So de trucada": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "So": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Vibració": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Entrenament": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Mode de baix consum": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Veure els mesuraments": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Vista d’entrenament": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Pausa automàtica": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Pausa automàtica": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Recordatori a l’inici": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Recordatori al final": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Prémer per posar en pausa": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Detectar màquines del gimnàs": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Vista de ritme/velocitat": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Actual": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Mitjana": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Llista d’entrenament": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Cap": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Llistes": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Reproduir des del principi": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Aleatori": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Unitats de mesura": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Calories": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Quilocalories": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Quilojoules": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Iardes": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Metres": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Milles": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Quilòmetres": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Indicacions de veu": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Hora de caminar": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Afegir entrenaments nous a l’Apple Watch": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Borsa": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "La complicació mostra": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Preu actual": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Variació en punts": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Variació en percentatge": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Capitalització borsària": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "L’esfera Siri mostra la cotització de": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Valor seleccionat": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Valor seleccionat": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Ordre de les apps al Dock": "bridge:root=DOCK#OrderingOptionGroup",
+    "Recents": "bridge:root=DOCK#Recents",
+    "Favorits": "bridge:root=DOCK#Favorites"
+  },
+  "Podcasts": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Demanar a Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Alçar per parlar": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Prémer la Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Indicacions de veu": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Sempre activades": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Controlar amb el mode de silenci": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Només auriculars": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Volum de la veu": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Suggeriments de Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Walkie-talkie": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Permetre notificacions": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Enviar al centre de notificacions": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Notificacions desactivades": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Agrupar notificacions": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Amics": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Temps": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Ciutat per omissió": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Ciutat per omissió": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Ubicació actual": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Notificar lectura": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

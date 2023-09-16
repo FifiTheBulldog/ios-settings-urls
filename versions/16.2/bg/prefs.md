@@ -1,0 +1,854 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → iCloud Storage: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Снимки: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Поща: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Контакти: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Календар: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Напомняния: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Бележки: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Резервно копие: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Здраве: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Пароли и ключодържател: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Поверително пренасочване: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Сподели местоположението ми: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Сподели местоположението ми → Намери моя iPhone: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Име, телефонни номера, имейл: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Парола и сигурност: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Плащане и доставка: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Абонаменти: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Семейство: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Поверителност и сигурност: `prefs:root=Privacy`
+- Поверителност и сигурност → Проверка на сигурността: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Поверителност и сигурност → Местоположение: `prefs:root=Privacy&path=LOCATION`
+- Поверителност и сигурност → Местоположение → Сподели местоположението ми: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Поверителност и сигурност → Контакти: `prefs:root=Privacy&path=CONTACTS`
+- Поверителност и сигурност → Календар: `prefs:root=Privacy&path=CALENDARS`
+- Поверителност и сигурност → Напомняния: `prefs:root=Privacy&path=REMINDERS`
+- Поверителност и сигурност → Снимки: `prefs:root=Privacy&path=PHOTOS`
+- Поверителност и сигурност → Споделяне на Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Поверителност и сигурност → Микрофон: `prefs:root=Privacy&path=MICROPHONE`
+- Поверителност и сигурност → Разпознаване на говор: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Поверителност и сигурност → Камера: `prefs:root=Privacy&path=CAMERA`
+- Поверителност и сигурност → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Поверителност и сигурност → Медия и Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Поверителност и сигурност → Аналитични данни: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Поверителност и сигурност → Реклама: `prefs:root=Privacy&path=ADVERTISING`
+- Поверителност и сигурност → Файлове и папки: `prefs:root=Privacy&path=FILEACCESS`
+- Поверителност и сигурност → Проследяване: `prefs:root=Privacy&path=USER_TRACKING`
+- Поверителност и сигурност → Доклад за поверителност на приложение: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Поверителност и сигурност → Режим на блокиране: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Поверителност и сигурност → Здраве: `prefs:root=Privacy&path=HEALTH`
+- Фокус: `prefs:root=DO_NOT_DISTURB`
+- Фокус → Състояние на Фокус: `prefs:root=DO_NOT_DISTURB&path=status`
+- Основни: `prefs:root=General`
+- Основни → VPN и Управление на устройство: `prefs:root=General&path=ManagedConfigurationList`
+- Основни → Картина в картината: `prefs:root=General&path=PiP_SPEC`
+- Основни → Трaкпад и мишка: `prefs:root=General&path=POINTERS`
+- Основни → NFC: `prefs:root=General&path=NFC_LINK`
+- Основни → VPN: `prefs:root=General&path=VPN`
+- Основни → CarPlay: `prefs:root=General&path=CARPLAY`
+- Основни → За устройството: `prefs:root=General&path=About`
+- Основни → За устройството → Доверени сертификати: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Основни → Правнa информация и стандарти: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Основни → Обновяване на софтуер: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Основни → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Основни → Бутон Начало: `prefs:root=General&path=HOME_BUTTON`
+- Основни → Жестове: `prefs:root=General#Multitasking_Gesture_Switch`
+- Основни → Страничен превключвател: `prefs:root=General#Rotation_Switch_Action_Group`
+- Основни → Обновяване във фонов режим: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Основни → Дата и час: `prefs:root=General&path=DATE_AND_TIME`
+- Основни → TV изход: `prefs:root=General&path=TV_OUT`
+- Основни → Стандарти: `prefs:root=General&path=REGULATORY`
+- Основни → Нулирай: `prefs:root=General&path=Reset`
+- Основни → Нулирай → Нулиране на всички настройки: `prefs:root=General&path=Reset#settingsErase`
+- Основни → Нулирай → Изтриване на цялото съдържание и всички настройки: `prefs:root=General&path=Reset#fullErase`
+- Основни → Нулирай → Нулиране на мрежови настройки: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Основни → Нулирай → Премахни всички мобилни планове за данни: `prefs:root=General&path=Reset#cellularErase`
+- Основни → Нулирай → Абонаментни услуги: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Основни → Нулирай → Нулиране на речник на клавиатурата: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Основни → Нулирай → Нулирай Начален екран: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Основни → Нулирай → Нулиране на местоположение и поверителност: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Основни → Изключи: `prefs:root=General#SHUTDOWN_LABEL`
+- Основни → AirPlay и Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Основни → AirPlay и Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Основни → AirPlay и Handoff → Прехвърляне към HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Основни → AirPlay и Handoff → Автоматично AirPlay към телевизор: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Основни → AirPlay и Handoff → Функция Непрекъснатост на Камера: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Основни → Речник: `prefs:root=General&path=DICTIONARY`
+- Основни → Език и регион: `prefs:root=General&path=INTERNATIONAL`
+- Основни → Език и регион → Други езици…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Основни → Език и регион → Предпочитан ред на езиците: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Основни → Език и регион → Добавяне на език…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Основни → Език и регион → Регион: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Основни → Език и регион → Номера: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Основни → Език и регион → Календар: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Основни → Език и регион → Единица за температура: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Основни → Клавиатура: `prefs:root=General&path=Keyboard`
+- Основни → Клавиатура → Клавиатури: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Основни → Клавиатура → Замяна на текст: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Основни → Клавиатура → Автоматичното преобразуване в главна буква: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Основни → Клавиатура → Автоматично коригиране: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Основни → Клавиатура → Проверка на правописа: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Основни → Клавиатура → Активира само главни: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Основни → Клавиатура → Команди: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Основни → Клавиатура → Предсказващо въвеждане: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Основни → Клавиатура → Интелигентна пунктуация: `prefs:root=General&path=Keyboard#SmartTyping`
+- Основни → Клавиатура → Разделена клавиатура: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Основни → Клавиатура → Активиране на бързо плъзгане надолу върху клавиша: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Основни → Клавиатура → Преглед на символите: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Основни → Клавиатура → Бърза команда за „.“: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Основни → Клавиатура → Писане с плъзгане: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Основни → Клавиатура → Активирай диктовка: `prefs:root=General&path=Keyboard#Dictation`
+- Основни → Клавиатура → Автоматична пунктуация: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Основни → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Основни → iPhone/iPad Storage → Пространство за съхранение: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Основни → iPhone/iPad Storage → Освободи приложения: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Известия: `prefs:root=NOTIFICATIONS_ID`
+- Известия → Насрочено обобщение: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Портфейл и Apple Pay: `prefs:root=PASSBOOK`
+- Портфейл и Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Портфейл и Apple Pay → Карти за плащане: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Портфейл и Apple Pay → Добавяне на карта: `prefs:root=PASSBOOK#Add%20Card`
+- Портфейл и Apple Pay → Щракнете два пъти страничния бутон: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Портфейл и Apple Pay → Проследяване на поръчка: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Екранно време: `prefs:root=SCREEN_TIME`
+- Екранно време → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Екранно време → See All Activity → Днес: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Екранно време → See All Activity → Седмица: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Екранно време → Покой: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Екранно време → Ограничения на приложения: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Екранно време → Ограничения на комуникация: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Екранно време → Сигурност на комуникацията: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Екранно време → Винаги позволени: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Екранно време → Ограничения за съдържание и поверителност: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Екранно време → Родителски контрол: `prefs:root=SCREEN_TIME#FAMILY`
+- Улеснен достъп: `prefs:root=ACCESSIBILITY`
+- Улеснен достъп → Зрение: `prefs:root=ACCESSIBILITY#VISION`
+- Улеснен достъп → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Улеснен достъп → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Улеснен достъп → VoiceOver → Скорост на изговаряне: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Улеснен достъп → VoiceOver → Изговаряне: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Улеснен достъп → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Улеснен достъп → VoiceOver → Speech → Глас: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Улеснен достъп → VoiceOver → Детайлност: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Улеснен достъп → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Улеснен достъп → VoiceOver → Verbosity → Пунктуация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Улеснен достъп → VoiceOver → Verbosity → Заглавия на таблица: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Улеснен достъп → VoiceOver → Verbosity → Описания на медия: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Улеснен достъп → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Улеснен достъп → VoiceOver → Verbosity → Media Descriptions → Изкл.: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Улеснен достъп → VoiceOver → Verbosity → Media Descriptions → Изговаряне: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Улеснен достъп → VoiceOver → Verbosity → Media Descriptions → Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Улеснен достъп → VoiceOver → Verbosity → Media Descriptions → Изговаряне и Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Улеснен достъп → VoiceOver → Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- Улеснен достъп → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Улеснен достъп → VoiceOver → Braille → Изход: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Улеснен достъп → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Улеснен достъп → VoiceOver → Braille → Output → Несъкратен шест точков Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Улеснен достъп → VoiceOver → Braille → Output → Несъкратен 8-точков Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Улеснен достъп → VoiceOver → Braille → Output → Съкратен Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Улеснен достъп → VoiceOver → Braille → Въвеждане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Улеснен достъп → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Улеснен достъп → VoiceOver → Braille → Input → Несъкратен шест точков Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Улеснен достъп → VoiceOver → Braille → Input → Несъкратен 8-точков Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Улеснен достъп → VoiceOver → Braille → Input → Съкратен Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Улеснен достъп → VoiceOver → Braille → Input → Автоматичен превод: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Улеснен достъп → VoiceOver → Braille → Въвеждане на Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Улеснен достъп → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Улеснен достъп → VoiceOver → Braille → Braille Screen Input → Несъкратен шест точков Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Улеснен достъп → VoiceOver → Braille → Braille Screen Input → Несъкратен 8-точков Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Улеснен достъп → VoiceOver → Braille → Braille Screen Input → Съкратен Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Улеснен достъп → VoiceOver → Braille → Braille Screen Input → Обръщане на позициите на точките: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Улеснен достъп → VoiceOver → Braille → Брайлови таблици: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Улеснен достъп → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Улеснен достъп → VoiceOver → Braille → Tables → Добавяне на Брайлова таблица…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Улеснен достъп → VoiceOver → Braille → Клетки на състоянието: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Улеснен достъп → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Улеснен достъп → VoiceOver → Braille → Status Cell → Позиция на състояние на клетките: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Улеснен достъп → VoiceOver → Braille → Status Cell → Ляво: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Улеснен достъп → VoiceOver → Braille → Status Cell → Дясно: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Улеснен достъп → VoiceOver → Braille → Status Cell → Показване на общо състояние: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Улеснен достъп → VoiceOver → Braille → Status Cell → Показване на състояние на текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Улеснен достъп → VoiceOver → Braille → Изразите използват код на Немет: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Улеснен достъп → VoiceOver → Braille → Показване на екранна клавиатура: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Улеснен достъп → VoiceOver → Braille → Обръщане на страниците при придвижване: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Улеснен достъп → VoiceOver → Braille → Прехвърляне на дума на нов ред: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Улеснен достъп → VoiceOver → Braille → Брайлови предупредителни съобщения: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Улеснен достъп → VoiceOver → Braille → Продължителност за игнориране на акорда: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Улеснен достъп → VoiceOver → Braille → Продължителност на автоматично придвижване напред: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Улеснен достъп → VoiceOver → Аудио: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- Улеснен достъп → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Улеснен достъп → VoiceOver → Audio → Заглъхване на звука: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Улеснен достъп → VoiceOver → Audio → Автоматичен избор на говорител при обаждане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Улеснен достъп → VoiceOver → Audio → Изпрати до HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Улеснен достъп → VoiceOver → Команди: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Улеснен достъп → VoiceOver → Дейности: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Улеснен достъп → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Улеснен достъп → VoiceOver → Activities → Програмиране: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Улеснен достъп → VoiceOver → Activities → Добавяне на дейност…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Улеснен достъп → VoiceOver → Шайба: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Улеснен достъп → VoiceOver → Действия на шайбата: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Улеснен достъп → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Улеснен достъп → VoiceOver → Rotor Actions → Редактиране на приложения в Начален екран: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Улеснен достъп → VoiceOver → Rotor Actions → Приложения с директно докосване: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Улеснен достъп → VoiceOver → Въвеждане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Улеснен достъп → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Улеснен достъп → VoiceOver → Typing → Стил на въвеждане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Улеснен достъп → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Улеснен достъп → VoiceOver → Typing → Typing Mode → Стандартно въвеждане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Улеснен достъп → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Улеснен достъп → VoiceOver → Typing → Typing Style → Въвеждане с докосване: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Улеснен достъп → VoiceOver → Typing → Typing Style → Директно въвеждане с докосване: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Улеснен достъп → VoiceOver → Typing → Фонетична информация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Улеснен достъп → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Улеснен достъп → VoiceOver → Typing → Phonetic Feedback → Изкл.: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Улеснен достъп → VoiceOver → Typing → Phonetic Feedback → Символи и фонетика: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Улеснен достъп → VoiceOver → Typing → Phonetic Feedback → Само фонетика: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Улеснен достъп → VoiceOver → Typing → Обратна връзка за въвеждане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Улеснен достъп → VoiceOver → Typing → Функционални клавиши: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Улеснен достъп → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Улеснен достъп → VoiceOver → Typing → Modifier Keys → Control + Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Улеснен достъп → VoiceOver → Typing → Modifier Keys → Само главни: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Улеснен достъп → VoiceOver → Typing → Време за взаимодействие с клавиатурата: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Улеснен достъп → VoiceOver → Навигиране на изображения: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Улеснен достъп → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Улеснен достъп → VoiceOver → Include Unlabeled Images → Винаги: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Улеснен достъп → VoiceOver → Include Unlabeled Images → С описания: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Улеснен достъп → VoiceOver → Include Unlabeled Images → Никога: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Улеснен достъп → VoiceOver → Голям курсор: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Улеснен достъп → VoiceOver → Панел с надписи: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Улеснен достъп → VoiceOver → Изчакване за двукратно докосване: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Улеснен достъп → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Улеснен достъп → VoiceOver → Double-tap Timeout → Изчакване за двукратно докосване: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Улеснен достъп → VoiceOver → Стил на навигация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Улеснен достъп → VoiceOver → Бързи настройки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Улеснен достъп → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Улеснен достъп → VoiceOver → Quick Settings → Звуци: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Улеснен достъп → VoiceOver → Quick Settings → Заглъхване на звука: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Улеснен достъп → VoiceOver → Quick Settings → Сила на звука: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Улеснен достъп → VoiceOver → Quick Settings → Скорост на изговаряне: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Улеснен достъп → VoiceOver → Quick Settings → Съвети: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Улеснен достъп → VoiceOver → Quick Settings → Стил на навигация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Улеснен достъп → VoiceOver → Quick Settings → Стил на въвеждане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Улеснен достъп → VoiceOver → Quick Settings → Писане с плъзгане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Улеснен достъп → VoiceOver → Quick Settings → Дейности: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Улеснен достъп → VoiceOver → Quick Settings → Винаги изговаряне на известия: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Улеснен достъп → VoiceOver → Quick Settings → Брайлови предупредителни съобщения: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Улеснен достъп → VoiceOver → Quick Settings → Автоматично придвижване на Брайлов екран: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Улеснен достъп → VoiceOver → Quick Settings → Въвеждане на Брайлов код: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Улеснен достъп → VoiceOver → Quick Settings → Брайлов изход: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Улеснен достъп → VoiceOver → Quick Settings → Брайлови таблици: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Улеснен достъп → VoiceOver → Quick Settings → Панел с надписи: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Улеснен достъп → VoiceOver → Quick Settings → Директно докосване: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Улеснен достъп → VoiceOver → Quick Settings → Посока на жест: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Улеснен достъп → VoiceOver → Quick Settings → Обратна връзка за хардуерно въвеждане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Улеснен достъп → VoiceOver → Quick Settings → Език: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Улеснен достъп → VoiceOver → Quick Settings → Голям курсор: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Улеснен достъп → VoiceOver → Quick Settings → Описания на медия: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Улеснен достъп → VoiceOver → Quick Settings → Навигиране на изображения: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Улеснен достъп → VoiceOver → Quick Settings → Фонетична информация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Улеснен достъп → VoiceOver → Quick Settings → Промяна на тона: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Улеснен достъп → VoiceOver → Quick Settings → Пунктуация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Улеснен достъп → VoiceOver → Quick Settings → Изпрати до HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Улеснен достъп → VoiceOver → Quick Settings → Обратна връзка за софтуерно въвеждане: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Улеснен достъп → VoiceOver → Quick Settings → Изговаряне на потвърждение с шайбата: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Улеснен достъп → VoiceOver → Quick Settings → Описание на изображение: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Улеснен достъп → VoiceOver → Quick Settings → Разпознаване на екран: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Улеснен достъп → VoiceOver → VoiceOver разпознаване: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Улеснен достъп → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Улеснен достъп → VoiceOver → VoiceOver Recognition → Описание на изображение: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Улеснен достъп → VoiceOver → VoiceOver Recognition → Разпознаване на екран: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Улеснен достъп → Увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Улеснен достъп → Увеличаване → Увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Улеснен достъп → Увеличаване → Следване на фокуса: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Улеснен достъп → Увеличаване → Интелигентно въвеждане: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Улеснен достъп → Увеличаване → Клавишни комбинации: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Улеснен достъп → Увеличаване → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Улеснен достъп → Увеличаване → Keyboard Shortcuts → Клавишни комбинации: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Улеснен достъп → Увеличаване → Keyboard Shortcuts → Настройване на степен на увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Улеснен достъп → Увеличаване → Keyboard Shortcuts → Превключи Увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Улеснен достъп → Увеличаване → Keyboard Shortcuts → Преместване на прозорец за увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Улеснен достъп → Увеличаване → Keyboard Shortcuts → Промяна на размера на прозореца за увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Улеснен достъп → Увеличаване → Keyboard Shortcuts → Превключване към oбласт с увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Улеснен достъп → Увеличаване → Keyboard Shortcuts → Временно включване на увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Улеснен достъп → Увеличаване → Keyboard Shortcuts → Увеличаване със скролер: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Улеснен достъп → Увеличаване → Управление на мащаб: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Улеснен достъп → Увеличаване → Област на увеличаване/намаляване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Улеснен достъп → Увеличаване → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Улеснен достъп → Увеличаване → Zoom Region → Увеличаване на целия екран: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Улеснен достъп → Увеличаване → Zoom Region → Увеличаване на прозореца: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Улеснен достъп → Увеличаване → Максимална степен на увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Улеснен достъп → Увеличаване → Филтър за увеличаване: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Улеснен достъп → Увеличаване → Покажи при дублиране: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Улеснен достъп → Уголемен текст: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Улеснен достъп → Екран и Размер на текста: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Улеснен достъп → Екран и Размер на текста → Удебелен текст: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Улеснен достъп → Екран и Размер на текста → По-голям текст: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Улеснен достъп → Екран и Размер на текста → Форми на бутони: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Улеснен достъп → Екран и Размер на текста → Вкл./Изкл. Етикети: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Улеснен достъп → Екран и Размер на текста → Намали прозрачността: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Улеснен достъп → Екран и Размер на текста → Увеличаване на контраст: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Улеснен достъп → Екран и Размер на текста → Разграничаване без цвят: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Улеснен достъп → Екран и Размер на текста → Интелигентно инвертиране: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Улеснен достъп → Екран и Размер на текста → Класическо инвертиране: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Улеснен достъп → Екран и Размер на текста → Цветни филтри: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Улеснен достъп → Екран и Размер на текста → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Улеснен достъп → Екран и Размер на текста → Color Filters → Цветни филтри: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Улеснен достъп → Екран и Размер на текста → Намали бялата точка: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Улеснен достъп → Екран и Размер на текста → Автоматична яркост: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Улеснен достъп → Движение: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Улеснен достъп → Движение → Намали движението: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Улеснен достъп → Движение → Ефекти за автоматично възпроизвеждане на съобщения: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Улеснен достъп → Движение → Автоматично възпроизвеждане на видео откъси: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Улеснен достъп → Изговорено съдържание: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Улеснен достъп → Изговорено съдържание → Изговори избраното: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Улеснен достъп → Изговорено съдържание → Изговори екран: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Улеснен достъп → Изговорено съдържание → Управление на говор: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Улеснен достъп → Изговорено съдържание → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Улеснен достъп → Изговорено съдържание → Speech Controller → Персонализиране на бутоните на мишката: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Улеснен достъп → Изговорено съдържание → Маркирано съдържание: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Улеснен достъп → Изговорено съдържание → Обратна връзка за въвеждане: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Улеснен достъп → Изговорено съдържание → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Улеснен достъп → Изговорено съдържание → Typing Feedback → Обратна връзка за символ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Улеснен достъп → Изговорено съдържание → Typing Feedback → Символи: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Улеснен достъп → Изговорено съдържание → Typing Feedback → Съвети за символ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Улеснен достъп → Изговорено съдържание → Typing Feedback → Изговаряне на думи: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Улеснен достъп → Изговорено съдържание → Typing Feedback → Изговаряне на автоматичен текст: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Улеснен достъп → Изговорено съдържание → Typing Feedback → Задържане за изговаряне: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Улеснен достъп → Изговорено съдържание → Гласове: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Улеснен достъп → Изговорено съдържание → Език по подразбиране: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Улеснен достъп → Изговорено съдържание → Откриване на езици: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Улеснен достъп → Изговорено съдържание → Скорост на изговаряне: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Улеснен достъп → Изговорено съдържание → Произношения: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Улеснен достъп → Аудио описания: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Улеснен достъп → Аудио описания → Аудио описания: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Улеснен достъп → Физически ограничения и движение: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Улеснен достъп → Докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Улеснен достъп → Докосване → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Улеснен достъп → Докосване → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Персонализиране на менюто най-отгоре: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Улеснен достъп → Докосване → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Улеснен достъп → Докосване → AssistiveTouch → Customize Top Level Menu → Докоснете иконка, за да я промените:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Улеснен достъп → Докосване → AssistiveTouch → Customize Top Level Menu → Нулиране…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Улеснен достъп → Докосване → AssistiveTouch → Персонализирани действия: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Единично докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Двукратно докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Double-Tap → Изчакване за двукратно докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Продължително натискане: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Long Press → Време на продължително натискане: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Персонализиран жест: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Улеснен достъп → Докосване → AssistiveTouch → Създаване на нов жест…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Улеснен достъп → Докосване → AssistiveTouch → Видимост при неизползване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Улеснен достъп → Докосване → AssistiveTouch → Устройства с курсор: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Улеснен достъп → Докосване → AssistiveTouch → Устройства: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Улеснен достъп → Докосване → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Улеснен достъп → Докосване → AssistiveTouch → Devices → Bluetooth устройства…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Улеснен достъп → Докосване → AssistiveTouch → Клавиши на мишка: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Улеснен достъп → Докосване → AssistiveTouch → Стил на курсора: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Улеснен достъп → Докосване → AssistiveTouch → Стил на курсора → Размер: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Улеснен достъп → Докосване → AssistiveTouch → Стил на курсора → Визуално: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Улеснен достъп → Докосване → AssistiveTouch → Стил на курсора → Цвят: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Улеснен достъп → Докосване → AssistiveTouch → Стил на курсора → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Улеснен достъп → Докосване → AssistiveTouch → Стил на курсора → SOMETHING IDK → Персонализиране на бутоните на мишката: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Улеснен достъп → Докосване → AssistiveTouch → Стил на курсора → Автоматично скриване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Улеснен достъп → Докосване → AssistiveTouch → Стил на курсора → NEEDS_OVERRIDE_34 → Автоматично скриване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Улеснен достъп → Докосване → AssistiveTouch → Показване на екранна клавиатура: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Улеснен достъп → Докосване → AssistiveTouch → Винаги показване на меню: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Улеснен достъп → Докосване → AssistiveTouch → Управление на задържане: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Толеранс на движение: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Чувствителност за проследяване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Улеснен достъп → Докосване → AssistiveTouch → Резервно действие: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Активни ъгли: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Улеснен достъп → Докосване → AssistiveTouch → Използване на контролер за игри: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Улеснен достъп → Докосване → 3D Touch и докосване с осезание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_35 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_35 → Чувствителност на 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_35 → Продължителност на докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_35 → Бързо: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_35 → Бавно: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_35 → Чувствителност на 3D Touch и Тест за продължителността на натискане: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Улеснен достъп → Докосване → Улеснения за докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_36 → Улеснения за докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_36 → Време на задържане: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_36 → Игнорирай Повторение: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_36 → Помощ при докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_36 → Изкл.: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_36 → Използвай Начално място на докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_36 → Използвай Крайно място на докосване: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Улеснен достъп → Докосване → Докосване за активиране: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Улеснен достъп → Докосване → Докосване или плъзване за събуждане: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Улеснен достъп → Докосване → Разклащане за отмяна: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Улеснен достъп → Докосване → Вибрация: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Улеснен достъп → Докосване → Заключването не прекратява текущия разговор: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Улеснен достъп → Докосване → Пренасочване на звука на обаждания: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_37 → Автоматично: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_37 → Bluetooth слушалки: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_37 → Говорител: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Улеснен достъп → Докосване → NEEDS_OVERRIDE_37 → Автоматично приемане на обаждания: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Улеснен достъп → Face ID и внимание: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Улеснен достъп → Face ID и внимание → Изискване на внимание за Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Улеснен достъп → Face ID и внимание → Услуги, изискващи внимание: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Улеснен достъп → Face ID и внимание → Осезания: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Улеснен достъп → Face ID и внимание → Осезание при успешно разпознаване: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Улеснен достъп → Управление с превключвател: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Улеснен достъп → Управление с превключвател → Управление с превключвател: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Улеснен достъп → Управление с превключвател → Превключватели: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_38 → Добави нов превключвател…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_38 → Bluetooth устройства…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Улеснен достъп → Управление с превключвател → Предписания: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Улеснен достъп → Управление с превключвател → Стил на сканиране: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_39 → Автоматично сканиране: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_39 → Ръчно сканиране: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_39 → Единично стъпково сканиране: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Улеснен достъп → Управление с превключвател → Време: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Улеснен достъп → Управление с превключвател → Автоматично време за сканиране: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_40 → Автоматично време за сканиране: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Улеснен достъп → Управление с превключвател → Пауза на първи елемент: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_41 → Пауза на първи елемент: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Улеснен достъп → Управление с превключвател → Премести Повторение: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_42 → Премести Повторение: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Улеснен достъп → Управление с превключвател → Продължително натискане: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_43 → Продължително натискане: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Улеснен достъп → Управление с превключвател → Поведение на докосване: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_44 → По подразбиране: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_44 → Автоматично докосване: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_44 → Винаги докосване: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Улеснен достъп → Управление с превключвател → Фокусиран елемент след докосване: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_45 → Първи елемент: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_45 → Текущ елемент: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Улеснен достъп → Управление с превключвател → Клавиатура: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Улеснен достъп → Управление с превключвател → Сканирай същия клавиш след докосване: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Улеснен достъп → Управление с превключвател → Винаги докосвай клавишите на клавиатурата: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Улеснен достъп → Управление с превключвател → Разширени предположения: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Улеснен достъп → Управление с превключвател → Стабилизация на превключвателя: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Улеснен достъп → Управление с превключвател → Време на задържане: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_46 → Време на задържане: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Улеснен достъп → Управление с превключвател → Игнорирай Повторение: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_47 → Игнорирай Повторение: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Улеснен достъп → Управление с превключвател → Сканиране по позиция: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Улеснен достъп → Управление с превключвател → Плъзгащ се курсор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_48 → Режим на избиране: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_48 → Единично: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_48 → Подобрен: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_48 → Прецизно: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_48 → Скорост на плъзгащ се курсор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Улеснен достъп → Управление с превключвател → Следене на главата: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_49 → Следене на главата: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Улеснен достъп → Управление с превключвател → Аудио: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Улеснен достъп → Управление с превключвател → Звукови ефекти: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Улеснен достъп → Управление с превключвател → Изговаряне: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_50 → Гласове: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_50 → Скорост на изговаряне: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Улеснен достъп → Управление с превключвател → Елементи в менюто: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Улеснен достъп → Управление с превключвател → Групирай елементи: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Улеснен достъп → Управление с превключвател → Визуално: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Улеснен достъп → Управление с превключвател → Голям курсор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Улеснен достъп → Управление с превключвател → Запазени жестове: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Улеснен достъп → Управление с превключвател → NEEDS_OVERRIDE_51 → Създаване на нов жест…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Улеснен достъп → Управление с превключвател → Цвят на курсора: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Улеснен достъп → Управление с глас: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Улеснен достъп → Управление с глас → Настройване на Управление с глас: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Улеснен достъп → Управление с глас → Език: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Улеснен достъп → Управление с глас → NEEDS_OVERRIDE_52 → Английски (САЩ): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Улеснен достъп → Управление с глас → Персонализиране на команди: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Улеснен достъп → Управление с глас → Речник: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Улеснен достъп → Управление с глас → Обратна връзка за команда: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Улеснен достъп → Управление с глас → Показване на потвърждение: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Улеснен достъп → Управление с глас → Възпроизвеждане на звук: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Улеснен достъп → Управление с глас → Покажи съвети: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Улеснен достъп → Управление с глас → Непрекъснато препокриване: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Улеснен достъп → Управление с глас → Препокриване: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Улеснен достъп → Управление с глас → NEEDS_OVERRIDE_53 → Няма: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Улеснен достъп → Управление с глас → NEEDS_OVERRIDE_53 → Номера на елементи: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Улеснен достъп → Управление с глас → NEEDS_OVERRIDE_53 → Имена на елемент: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Улеснен достъп → Управление с глас → NEEDS_OVERRIDE_53 → Номерирана мрежа: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Улеснен достъп → Управление с глас → Изискване на внимание: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Улеснен достъп → Страничен бутон: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Улеснен достъп → Страничен бутон → Скорост на щракване: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Улеснен достъп → Страничен бутон → По подразбиране: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Улеснен достъп → Страничен бутон → Бавно: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Улеснен достъп → Страничен бутон → Най-бавно: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Улеснен достъп → Страничен бутон → Натиснете и задръжте за говорене: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Улеснен достъп → Страничен бутон → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Улеснен достъп → Страничен бутон → Класическо управление с глас: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Улеснен достъп → Страничен бутон → Изкл.: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Улеснен достъп → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Улеснен достъп → Apple TV Remote → Бутони за насочване: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Улеснен достъп → Отдалечен екран на Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Улеснен достъп → Клавиатури: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Улеснен достъп → Клавиатури → Пълен достъп до клавиатура: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_54 → Пълен достъп до клавиатура: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_54 → Визуални елементи: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_54 → Автоматично скриване: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_54 → Голям пръстен с фокус: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_54 → Цвят: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Улеснен достъп → Клавиатури → Повторение на клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_55 → Повторение на клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_55 → Интервал на повторение на клавиш: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_55 → Забавяне до повторение: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Улеснен достъп → Клавиатури → Допълнителни клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_56 → Допълнителни клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_56 → Превключи с клавиш Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_56 → Звук: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Улеснен достъп → Клавиатури → Бавни клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Улеснен достъп → Клавиатури → NEEDS_OVERRIDE_57 → Бавни клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Улеснен достъп → Клавиатури → Софтуерни клавиатури: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Улеснен достъп → Клавиатури → Показване на клавишите с малки букви: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Улеснен достъп → Слух: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Улеснен достъп → Слухови апарати: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Улеснен достъп → Слухови апарати → Слухови апарати MFi: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Улеснен достъп → Слухови апарати → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Улеснен достъп → Слухови апарати → Съвместимост със слухови апарати: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Улеснен достъп → Разпознаване на звук: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Улеснен достъп → Разпознаване на звук → Звуци: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Улеснен достъп → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Улеснен достъп → RTT/TTY → Софтуерен TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Улеснен достъп → RTT/TTY → Хардуерен TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Улеснен достъп → Аудио и визуални: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Улеснен достъп → Аудио и визуални → Аудио: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Улеснен достъп → Аудио и визуални → Настройки на слушалките: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Улеснен достъп → Аудио и визуални → NEEDS_OVERRIDE_58 → Настройки на слушалките: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Улеснен достъп → Аудио и визуални → NEEDS_OVERRIDE_58 → Персонализирани настройки на звука: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Улеснен достъп → Аудио и визуални → Звуци на заден фон: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Улеснен достъп → Аудио и визуални → Моно звук: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Улеснен достъп → Аудио и визуални → Заглушаване на шума при телефонен разговор: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Улеснен достъп → Аудио и визуални → Баланс: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Улеснен достъп → Аудио и визуални → Визуално: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Улеснен достъп → Аудио и визуални → LED присветване за предупреждения: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Улеснен достъп → Аудио и визуални → NEEDS_OVERRIDE_59 → Присветване при отключване: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Улеснен достъп → Аудио и визуални → NEEDS_OVERRIDE_59 → Присветване в тих режим: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Улеснен достъп → Аудио и визуални → Стерео баланс ляво-дясно: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Улеснен достъп → Аудио и визуални → Звуци при включване и изключване: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Улеснен достъп → Субтитри и надписи: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Улеснен достъп → Субтитри и надписи → Стил: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Улеснен достъп → Субтитри и надписи → Надписи + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Улеснен достъп → Субтитри и надписи → Показване на аудио транскрипции: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Улеснен достъп → NEEDS_OVERRIDE_60 → Субтитри на живо (Бета версия): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Улеснен достъп → NEEDS_OVERRIDE_60 → Субтитри на живо във FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Улеснен достъп → Основни: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Улеснен достъп → Контролиран достъп: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Улеснен достъп → Контролиран достъп → Контролиран достъп: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Улеснен достъп → Контролиран достъп → Настройки на код: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Улеснен достъп → Контролиран достъп → NEEDS_OVERRIDE_61 → Настройване на код с контролиран достъп: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Улеснен достъп → Контролиран достъп → Времеви ограничения: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Улеснен достъп → Контролиран достъп → NEEDS_OVERRIDE_62 → Аларма: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Улеснен достъп → Контролиран достъп → NEEDS_OVERRIDE_62 → Звук: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Улеснен достъп → Контролиран достъп → NEEDS_OVERRIDE_62 → Изговори: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Улеснен достъп → Контролиран достъп → Бърза команда за улеснен достъп: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Улеснен достъп → Контролиран достъп → Автоматично заключване на екрана: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Улеснен достъп → Специален режим на улеснен достъп: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Улеснен достъп → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Улеснен достъп → Siri → Въведете текст за Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Улеснен достъп → Siri → Гласови отговори: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Улеснен достъп → Siri → Автоматични гласови отговори: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Улеснен достъп → Siri → Предпочитам безшумни отговори: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Улеснен достъп → Siri → Без говор в тих режим: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Улеснен достъп → Siri → Винаги слушане за „Hey Siri“: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Улеснен достъп → Бърза команда за улеснен достъп: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Улеснен достъп → Бърза команда за улеснен достъп → Лупа: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Улеснен достъп → Настройки за отделни приложения: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Улеснен достъп → Контрол на устройства наблизо: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Екран и яркост: `prefs:root=DISPLAY`
+- Екран и яркост → Изглед: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Екран и яркост → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Екран и яркост → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Екран и яркост → Night Shift → Насрочено: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Екран и яркост → Night Shift → Активирай ръчно до утре: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Екран и яркост → Night Shift → Температура на цвета: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Екран и яркост → Автоматично заключване: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Екран и яркост → Вдигане за активиране: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Екран и яркост → Заключи/Отключи: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Екран и яркост → Размер на текст: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Екран и яркост → Удебелен текст: `prefs:root=DISPLAY#BOLD_TEXT`
+- Екран и яркост → Мащаб на екрана: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Екран и яркост → Преглед: `prefs:root=DISPLAY&path=MAGNIFY`
+- Известия за контакт: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_63 → Значки за известия: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_63 → Нови изтеглени приложения: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Начален екран и многозадачност: `prefs:root=HOME_SCREEN_DOCK`
+- Начален екран и многозадачност → NEEDS_OVERRIDE_64 → Покажи Библиотека с приложения в Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Начален екран и многозадачност → Покажи Предложени и скорошни приложения в Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Начален екран: `prefs:root=HOME_SCREEN`
+- Начален екран → Нови изтеглени приложения: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Начален екран → Значки за известия: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID и код: `prefs:root=PASSCODE`
+- Touch ID и код → Изключи код: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID и код → Промени кода: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID и код → Изисква се код: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID и код → Гласово набиране: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID и код → Разрешавай достъп при заключен екран: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID и код → Отговори със съобщение: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID и код → Управление на дома: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID и код → Портфейл: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID и код → Връщане на пропуснати обаждания: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID и код → Изтриване на данните: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID и код → Отключване с Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Подкасти: `prefs:root=PODCASTS`
+- SOS обаждане: `prefs:root=EMERGENCY_SOS`
+- SOS обаждане → Обаждане със страничния бутон: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS обаждане → Автоматично обаждане: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS обаждане → Контакти при спешни случаи: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS обаждане → Звук за обратно броене: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Звуци: `prefs:root=Sounds`
+- Звуци → Безопасна употреба: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Звуци → Безопасна употреба → Lightning адаптери: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Звуци → Безопасна употреба → Известия от слушалки: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Звуци → Безопасна употреба → Намаляване на шумни звуци: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Звуци → Звукови ефекти: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Звуци → Звънене и предупреждения: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Звуци → Промяна с бутони: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Звуци → Схеми за звуци и вибрации: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Звуци → Тон на звънене: `prefs:root=Sounds&path=Ringtone`
+- Звуци → Тон за текстово съобщение: `prefs:root=Sounds&path=Text_Messages`
+- Звуци → Ново гласово съобщение: `prefs:root=Sounds&path=Voicemail`
+- Звуци → Нова поща: `prefs:root=Sounds&path=NEW_MAIL`
+- Звуци → Изпратена поща: `prefs:root=Sounds&path=SENT_MAIL`
+- Звуци → Предупреждения за Календар: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Звуци → Напомнящи предупреждения: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Звуци → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Звуци → Щраквания на клавиатура: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Звуци → Звук при заключване: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Времето: `prefs:root=WEATHER`
+- Компас: `prefs:root=COMPASS`
+- Компас → Истински север: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Контролен център: `prefs:root=ControlCenter`
+- Контролен център → Достъп в приложенията: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Контролен център → Персонализиране на контроли: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Разработчик: `prefs:root=DEVELOPER_SETTINGS`
+- Разработчик → Многоканални мрежи: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Разработчик → Многоканални мрежи → Многоканални мрежи: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Разработчик → Изглед: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Разработчик → Тъмен режим на изгледа: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Разработчик → Сдвоени устройства: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Разработчик → Изчисти доверените компютри: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Разработчик → Инструменти: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Разработчик → Записване в регистъра: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Разработчик → Автоматизиране на интерфейса: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Разработчик → Мрежи: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Разработчик → Съгласуване на мрежовите връзки: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Разработчик → Тестване на приложения като iAd разработчик: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Разработчик → Ниво на запълване: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Разработчик → Маркиране на отрязаните банери: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Разработчик → Неограничено представяне на реклами: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Разработчик → Тестване на PassKit: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Разработчик → Допълнително записване в регистъра: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Разработчик → Разреши HTTP услуги: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Разработчик → Деактивиране ограничението на скоростта: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Разработчик → Ключ за достъп до NFC (по избор): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Разработчик → Тестване на медийните услуги: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Разработчик → Предложения от AirPlay: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Разработчик → Нулиране на медийните услуги: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Разработчик → Тестване на News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Разработчик → Нулиране на локалните данни при следващото стартиране: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Разработчик → Тестване на софтуерната рамка за медия плейър: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Разработчик → API за съдържание за възпроизвеждане: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Разработчик → Тестване на TV оператор: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Разработчик → TV доставчици: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Разработчик → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Разработчик → Тестване на CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Разработчик → Реиндексиране на всички елементи: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Разработчик → Реиндексиране на всички елементи с идентификатори: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Разработчик → Тестване на бързи команди: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Разработчик → Показване на последните бързи команди: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Разработчик → Показване на предстояща медия: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Разработчик → Показване на даренията на заключен екран: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Разработчик → Принудителна синхронизация с часовника: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Разработчик → Тестване на MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Разработчик → Активиране на MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Здраве: `prefs:root=HEALTH`
+- Измервания: `prefs:root=MEASURE`
+- Измервания → Мерни единици: `prefs:root=MEASURE#MEASURE_UNITS`
+- Измервания → Имперска система: `prefs:root=MEASURE#Imperial`
+- Измервания → Метрична система: `prefs:root=MEASURE#Metric`
+- Музика: `prefs:root=MUSIC`
+- Музика → Показване на Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Музика → Добавяне на списък с песни: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Музика → Показване на оценки със звезди: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Музика → Синхронизиране: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Музика → Мобилни данни: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Музика → Изтеглена музика: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Музика → Оптимизирай пространство: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Музика → Автоматични изтегляния: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Музика → Eквалайзер: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Музика → Проверка на звука: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Музика → Използвай историята: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Бележки: `prefs:root=NOTES`
+- Бележки → По подразбиране: `prefs:root=NOTES&path=Default%20Account`
+- Бележки → Парола: `prefs:root=NOTES&path=Password`
+- Бележки → Сортирай бележките по: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Бележки → Начало за новите бележки: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Бележки → Сортирай отметнати: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Бележки → Линии и клетки: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Бележки → Запази в Снимки: `prefs:root=NOTES#Save%20to%20Photos`
+- Бележки → Достъп до Бележки от заключен екран: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Съобщения: `prefs:root=MESSAGES`
+- Превод: `prefs:root=TRANSLATE`
+- Превод → Режим на обработка в устройството: `prefs:root=TRANSLATE#OnDeviceOnly`
+- TV оператор: `prefs:root=VIDEO_SUBSCRIBER`
+- Диктофон: `prefs:root=VOICE_MEMOS`
+- Диктофон → Изчисти изтритите: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Диктофон → Качество на аудио: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Диктофон → Имена според местоположението: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Камера: `prefs:root=CAMERA`
+- Камера → Формати: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Камера → Формати → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Камера → NEEDS_OVERRIDE_65 → HDR видео: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Камера → Запазване на настройките: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Камера → Запазване на настройките → Режим на камерата: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Камера → Решетка: `prefs:root=CAMERA#CameraGridSwitch`
+- Камера → Сканиране на QR кодове: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Карти: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Контакти: `prefs:root=CONTACTS`
+- Контакти → Разрешаване на достъп за Контакти: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Контакти → Siri и търсене: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Контакти → Ред на сортиране: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Контакти → Ред на показване: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Контакти → Кратко име: `prefs:root=CONTACTS&path=PersonShortName`
+- Контакти → Кратко име → Кратко име: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Контакти → Кратко име → Предпочитане на прякори: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Контакти → Моята информация: `prefs:root=CONTACTS&path=MeCard`
+- Контакти → Импортиране на контакти от SIM карта: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Книги: `prefs:root=IBOOKS`
+- Книги → Онлайн съдържание: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Книги → СИНХРОНИЗИРАНЕ: `prefs:root=IBOOKS#SYNCING`
+- Книги → Сега чета: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Книги → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Книги → ЧЕТЕНЕ: `prefs:root=IBOOKS#READING`
+- Книги → Пълно изравняване: `prefs:root=IBOOKS#BKFullJustification`
+- Книги → Автоматично сричкопренасяне: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Книги → Прелистване и с двете полета: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Книги → Цели за четене: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Книги → Изчисти данните на целите за четене: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Книги → ТЪРСЕНЕ: `prefs:root=IBOOKS#SEARCHING`
+- Книги → Книжарница: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Книги → АУДИО КНИГИ: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Книги → Пропусни напред: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Книги → Пропусни назад: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Книги → ВЪНШНИ КОНТРОЛИ: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Книги → Напред/Назад: `prefs:root=IBOOKS#Next/Previous`
+- Книги → Пропусни напред/назад: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Книги → ПОВЕРИТЕЛНОСТ: `prefs:root=IBOOKS#PRIVACY`
+- Книги → Нулиране на идентификатора: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Книги → Признания: `prefs:root=IBOOKS&path=Acknowledgements`
+- Календар: `prefs:root=CALENDAR`
+- Календар → Замяна на часовата зона: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Календар → Алтернативни календари: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Календар → Номера на седмиците: `prefs:root=CALENDAR#Week%20Numbers`
+- Календар → Показвай откази от поканените: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Календар → Синхронизирай: `prefs:root=CALENDAR&path=Sync`
+- Календар → Напомняния по подразбиране: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Календар → Начало на седмицата: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Календар → Възможни местоположения: `prefs:root=CALENDAR#Location%20Suggestions`
+- Поща: `prefs:root=MAIL`
+- Поща → Регистрации: `prefs:root=MAIL&path=ACCOUNTS`
+- Поща → Регистрации → Добави регистрация: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Поща → Регистрации → Извличане на нови данни: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Поща → Преглед: `prefs:root=MAIL&path=Preview`
+- Поща → Показване на полетата До/Копие до: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Поща → Опции за дълго плъзгане: `prefs:root=MAIL&path=Swipe%20Options`
+- Поща → Питай преди изтриване: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Поща → Зареждане на външни изображения: `prefs:root=MAIL#Load%20Remote%20Images`
+- Поща → Организирай по поредица: `prefs:root=MAIL#Organize%20by%20Thread`
+- Поща → Свий прочетени съобщения: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Поща → Най-скорошното съобщение отгоре: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Поща → Завършени поредици: `prefs:root=MAIL#Complete%20Threads`
+- Поща → Действие за скрита поредица: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Поща → Игнориране на блокираните податели: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Поща → Блокирани: `prefs:root=MAIL&path=Blocked`
+- Поща → Винаги скрито копие до мен: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Поща → Маркиране на адреси: `prefs:root=MAIL&path=Mark%20Addresses`
+- Поща → Увеличи нивото на цитата: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Поща → Включване на прикачените файлове с отговорите: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Поща → Подпис: `prefs:root=MAIL&path=Signature`
+- Телефон: `prefs:root=Phone`
+- Телефон → Моят номер: `prefs:root=Phone&path=My%20Number`
+- Телефон → Входящи обаждания: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Телефон → Оповестяване на обажданията: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Телефон → Докладване на обаждания/SMS съобщения: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Телефон → Отговори с текст: `prefs:root=Phone&path=Respond%20with%20Text`
+- Телефон → Разговорът се препраща: `prefs:root=Phone&path=Call%20Forwarding`
+- Телефон → Разговорът се препраща → Разговорът се препраща: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Телефон → Разговорът е на изчакване: `prefs:root=Phone&path=Call%20Waiting`
+- Телефон → Показвай индикатора ми за обаждания: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Телефон → Показвай индикатора ми за обаждания → NEEDS_OVERRIDE_66 → Показвай индикатора ми за обаждания: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Телефон → Заглушавай непознати обаждания: `prefs:root=Phone#SILENCE_CALLS`
+- Телефон → Блокирани контакти: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Телефон → Асистент за набиране: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → Ограничаване на съдържание: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Блокирай изскачащи менюта: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Предотвратяване на проследяване между сайтове: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Автоматично попълване: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Изтегляния: `prefs:root=SAFARI&path=DOWNLOADS`
+- Пароли: `prefs:root=PASSWORDS`
+- Пароли → Автопопълване на пароли: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Снимки: `prefs:root=Photos`
+- Снимки → iCloud снимки: `prefs:root=Photos#iCloudPhotosSwitch`
+- Снимки → Оптимизирай пространство: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Снимки → Изтегляне и запазване на оригиналите: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Снимки → Моят поток снимки: `prefs:root=Photos#PhotoStreamSwitch`
+- Снимки → Споделени албуми: `prefs:root=Photos#SharedStreamsSwitch`
+- Снимки → Мобилни данни: `prefs:root=Photos&path=CellularDataLinkList`
+- Снимки → Видео - автоматично: `prefs:root=Photos#VideoAutoplaySwitch`
+- Снимки → Преглед на пълен HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Снимки → Показване на празници: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Снимки → Прехвърляне към Mac или PC: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Автоматични изтегляния: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Обновявания на приложенията: `prefs:root=STORE#App%20Updates`
+- App Store → Изтегляне на приложения: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Автовъзпроизвеждане на видео: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Оценки/отзиви в приложения: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Показване на преглед на статиите: `prefs:root=NEWS#show_excerpt_mode`
+- News → Ограничаване на статиите в изгледа Днес: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Поверителност: `prefs:root=NEWS#Privacy`
+- News → Нулиране на идентификатора: `prefs:root=NEWS#reset_identifier`
+- News → Признания: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_67 → Режим Полет: `prefs:root=ROOT#AIRPLANE_MODE`
+- Напомняния: `prefs:root=REMINDERS`
+- Напомняния → Списък по подразбиране: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Напомняния → Списък по подразбиране → Напомняния: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Напомняния → Известие за деня: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Напомняния → Показване като просрочено: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Батерия: `prefs:root=BATTERY_USAGE`
+- Батерия → Пестене на енергия: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Батерия → Състояние на батерията: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Команди: `prefs:root=SHORTCUTS`
+- Команди → Синхронизиране с iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Команди → Ред за синхронизиране на бързите команди: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Команди → Правнa информация: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri и търсене: `prefs:root=SIRI`
+- Siri и търсене → Позволяване на Siri при заключен екран: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri и търсене → Език: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri и търсене → Глас на Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri и търсене → Гласова обратна връзка: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri и търсене → Моята информация: `prefs:root=SIRI&path=MY_INFO`
+- Siri и търсене → Предложения в Търсене: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri и търсене → Предложения в Провери: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri и търсене → Предложения при заключен екран: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Акции: `prefs:root=STOCKS`
+- Акции → Поверителност: `prefs:root=STOCKS#Privacy`
+- Акции → Нулиране на идентификатора: `prefs:root=STOCKS#reset_identifier`
+- Мобилна връзка: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Мобилна връзка → Опции за мобилни данни: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Мобилна връзка → Опции за мобилни данни → Режим Пестене на данни: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Мобилна връзка → Мобилни данни: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → Използване на мобилни дани за възпроизвеждане: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → Качество на възпроизвеждане: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → Покупки и наемания: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → Домашно споделяне: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Тапет: `prefs:root=Wallpaper`

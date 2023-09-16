@@ -1,0 +1,411 @@
+- Käyttöapu: `bridge:root=ACCESSIBILITY`
+- Käyttöapu → Näkö: `bridge:root=ACCESSIBILITY#VISION`
+- Käyttöapu → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Käyttöapu → Zoomaus: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Käyttöapu → Lihavoitu teksti: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- Käyttöapu → Näytä kytkinmerkit: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- Käyttöapu → Harmaasävy: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- Käyttöapu → Läpinäkyvyyden vähennys: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- Käyttöapu → Liikkeen vähennys: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- Käyttöapu → Taptic Chimes: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- Käyttöapu → Taptic Chimes → Sointi: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- Käyttöapu → Taptic Chimes → Ajastus: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- Käyttöapu → Taptic Chimes → Ajastus → Tunneittain: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- Käyttöapu → Taptic Chimes → Ajastus → 30 minuuttia: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- Käyttöapu → Taptic Chimes → Ajastus → 15 minuuttia: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- Käyttöapu → Taptic Chimes → Äänet: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- Käyttöapu → Taptic Chimes → Äänet → Kellot: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- Käyttöapu → Taptic Chimes → Äänet → Linnut: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- Käyttöapu → Motoriikka: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- Käyttöapu → Sivupainikkeen painallusnopeus: `bridge:root=ACCESSIBILITY&path=SideButton`
+- Käyttöapu → Sivupainikkeen painallusnopeus → Painallusnopeus: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- Käyttöapu → Sivupainikkeen painallusnopeus → Oletus: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Käyttöapu → Sivupainikkeen painallusnopeus → Hidas: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Käyttöapu → Sivupainikkeen painallusnopeus → Hitain: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Käyttöapu → Kosketusten mukautus: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- Käyttöapu → Kosketusten mukautus → Kosketusten mukautus: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Käyttöapu → Kosketusten mukautus → Pidon kesto: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- Käyttöapu → Kosketusten mukautus → Älä huomioi toistoa: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- Käyttöapu → Kosketusten mukautus → Napautusavustaja: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- Käyttöapu → Kosketusten mukautus → Pois: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- Käyttöapu → Kosketusten mukautus → Käytä alkukosketuksen sijaintia: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Käyttöapu → Kosketusten mukautus → Käytä loppukosketuksen sijaintia: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Käyttöapu → PYÖRÄTUOLIAKTIIVISUUS: `bridge:root=ACCESSIBILITY#MOBILITY`
+- Käyttöapu → Radiopuhelin: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- Käyttöapu → Puhu napauttamalla: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- Käyttöapu → Kuulo: `bridge:root=ACCESSIBILITY#HEARING`
+- Käyttöapu → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- Käyttöapu → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- Käyttöapu → RTT → Välitysnumero: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- Käyttöapu → RTT → Lähetä välittömästi: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- Käyttöapu → RTT → Oletusvastaukset: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- Käyttöapu → RTT → Oletusvastaukset → Oletusvastaukset: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- Käyttöapu → RTT → Oletusvastaukset → Lisää vastaus…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- Käyttöapu → Monoääni: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- Käyttöapu → Stereotasapaino (vasen-oikea): `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- Käyttöapu → Kuulokeilmoitukset: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- Käyttöapu → Kuulokojeet: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- Käyttöapu → Komplikaatio: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- Käyttöapu → Komplikaatio → Mikrofonin äänenvoimakkuus: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Käyttöapu → Komplikaatio → Ohjelma: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- Käyttöapu → Tuntoajan nopeus: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- Käyttöapu → Käyttöapu-oikotie: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- undefined: `bridge:root=ActiveWatch`
+- undefined → Tee uudesta Apple Watchista pari: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Appinäkymä: `bridge:root=APP_VIEW_ID`
+- Yleiset: `bridge:root=GENERAL_LINK`
+- Yleiset → Tietoja: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Yleiset → Tietoja → Nimi: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Yleiset → Tietoja → Rajoitettu takuu: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- Yleiset → Tietoja → Rajoitettu takuu → Rajoitettu takuu: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- Yleiset → Tietoja → Rajoitettu takuu → KATTAVUUSTIEDOT: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- Yleiset → Tietoja → Rajoitettu takuu → Laitteistokattavuus: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- Yleiset → Tietoja → Rajoitettu takuu → Chat ja puhelintuki: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- Yleiset → Tietoja → Kappaleita: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Yleiset → Tietoja → Kuvia: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Yleiset → Tietoja → Appeja: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Yleiset → Tietoja → Kapasiteetti: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Yleiset → Tietoja → Käytettävissä: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Yleiset → Tietoja → Versio: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Yleiset → Tietoja → Operaattori: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Yleiset → Tietoja → Malli: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Yleiset → Tietoja → Sarjanumero: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Yleiset → Tietoja → Wi-Fi-osoite: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID`
+- Yleiset → Tietoja → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Yleiset → Tietoja → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Yleiset → Tietoja → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Yleiset → Tietoja → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Yleiset → Tietoja → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Yleiset → Tietoja → Oikeudet: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- Yleiset → Tietoja → Näytä Apple Watchin käyttöopas: `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- Yleiset → Ohjelmistopäivitys: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Yleiset → Automaattinen asennus: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Yleiset → Lentotila: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Yleiset → Keskity-tila: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Yleiset → Keskity-tila → Peilaa iPhoneni: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Yleiset → Kellon suunta: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- Yleiset → Kellon suunta → Apple Watch -ranne: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- Yleiset → Kellon suunta → Vasen ranne: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- Yleiset → Kellon suunta → Oikea ranne: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- Yleiset → Kellon suunta → Digital Crown vasemmalla: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- Yleiset → Kellon suunta → Digital Crown oikealla: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- Yleiset → Apple ID: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Yleiset → Ota sanelu käyttöön: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Yleiset → Ota Handoff käyttöön: `bridge:root=GENERAL_LINK#CONTINUITY`
+- Yleiset → Yöpöytätila: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Yleiset → Ota näyttökuvat käyttöön: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Yleiset → Tallennustila: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Yleiset → Vianmäärityslokit: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Yleiset → Kopioi Watch-analyysi: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Yleiset → Nollaa: `bridge:root=GENERAL_LINK&path=RESET`
+- Yleiset → Käynnistä automaattisesti veteen upotettuna: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Yleiset → Käynnistä automaattisesti veteen upotettuna → Käynnistä ääniapit automaattisesti: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- Yleiset → Kieli ja alue: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- Yleiset → Kieli ja alue → Peilaa iPhoneni: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- Yleiset → Kieli ja alue → Muokkaa: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- Yleiset → PALAA KELLOON: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- Yleiset → PALAA KELLOON → PALAA KELLOON: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- Yleiset → PALAA KELLOON → Aina: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- Yleiset → PALAA KELLOON → 2 minuutin kuluttua: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Yleiset → PALAA KELLOON → Tunnin kuluttua: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Yleiset → PALAA KELLOON → APIT: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- Yleiset → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Yleiset → Wake Screen → Toistossa nyt: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Näyttö ja kirkkaus: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- Näyttö ja kirkkaus → Kirkkaus: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- Näyttö ja kirkkaus → Aina päällä: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- Näyttö ja kirkkaus → Aina päällä → Aina päällä: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- Näyttö ja kirkkaus → Aina päällä → RANNE ALHAALLA: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Näyttö ja kirkkaus → Aina päällä → Näytä ilmoitukset: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- Näyttö ja kirkkaus → Aina päällä → Näytä ilmoitukset → Näytä ilmoitukset: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Näyttö ja kirkkaus → Aina päällä → Näytä ilmoitukset → APPLE WATCH ‑APIT: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- Näyttö ja kirkkaus → Aina päällä → Näytä apit: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- Näyttö ja kirkkaus → Aina päällä → Näytä apit → Näytä apit: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Näyttö ja kirkkaus → Aina päällä → Näytä apit → APIT: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- Näyttö ja kirkkaus → Tekstin koko: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- Näyttö ja kirkkaus → Lihavoitu teksti: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- Näyttö ja kirkkaus → HERÄTYS: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- Näyttö ja kirkkaus → Herätä nostamalla rannetta: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Näyttö ja kirkkaus → Herätä kiertämällä nuppia: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Näyttö ja kirkkaus → Herätyksen kesto: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- Näyttö ja kirkkaus → Herätyksen kesto → NAPAUTUS: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- Näyttö ja kirkkaus → Herätyksen kesto → Herätä 15 sekunniksi: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- Näyttö ja kirkkaus → Herätyksen kesto → Herätä 70 sekunniksi: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- Äänet ja tuntopalaute: `bridge:root=SOUNDS_ID`
+- Äänet ja tuntopalaute → Ilmoitusten äänenvoimakkuus: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Äänet ja tuntopalaute → Hiljainen tila: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Äänet ja tuntopalaute → Kuulokkeiden ääni: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Äänet ja tuntopalaute → Kuulokkeiden turvallisuus: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Äänet ja tuntopalaute → Kuulokkeiden turvallisuus → Kuulokeilmoitukset: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Äänet ja tuntopalaute → Kuulokkeiden turvallisuus → Kovien äänten hiljennys: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Äänet ja tuntopalaute → Tuntopalaute: `bridge:root=SOUNDS_ID#Haptics`
+- Äänet ja tuntopalaute → Ilmoitukset tuntopalautteella: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- Äänet ja tuntopalaute → Nupin tuntopalaute: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Äänet ja tuntopalaute → Järjestelmän tuntopalaute: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Äänet ja tuntopalaute → Mykistä peittämällä: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- Hätätila SOS: `bridge:root=SOS_MODE_ID`
+- Tietosuoja: `bridge:root=PRIVACY_ID`
+- Tietosuoja → Syke: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- Tietosuoja → Hengitys­tiheys: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- Tietosuoja → Kuntoseuranta: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- Tietosuoja → Nollaa kuntoilun kalibrointidata: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- Tietosuoja → Ympäristön äänimittaukset: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- Tietosuoja → Kuulokkeiden äänimittaukset: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- Tietosuoja → Kuulokkeiden äänimittaukset → Tallenna Terveys-appiin: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- Tietosuoja → Kuulokkeiden äänimittaukset → 8 päivää: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- Tietosuoja → Kuulokkeiden äänimittaukset → Kunnes poistan: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- Tietosuoja → Veren happitason mittaus: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- Tietosuoja → Rannelämpö: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Ruutuaika: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Syvyys: `bridge:root=com.apple.DepthCompanionSettings`
+- Toiminto-painike: `bridge:root=STING_TITLE`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Automaattiset lataukset: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Päivitä automaattisesti: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Terveys: `bridge:root=com.apple.BridgeHealthSettings`
+- Mail ja Kalenteri: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail ja Kalenteri → Tilit: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail ja Kalenteri → Lisää Google-tili…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail ja Kalenteri → Hae: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail ja Kalenteri → Hae → Pois: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail ja Kalenteri → Hae → Tunneittain: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail ja Kalenteri → Hae → 30 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail ja Kalenteri → Hae → 15 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Käsienpesu: `bridge:root=com.apple.BrookBridgeSettings`
+- Käsienpesu → Salli ilmoitukset: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Käsienpesu → Lähetä Ilmoituskeskukseen: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Käsienpesu → Ilmoitukset pois: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Käsienpesu → Ilmoitusten ryhmitys: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Käsienpesu → Käsien­pesu­ajastin: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Mobiiliverkko: `bridge:root=CELLULAR_ID`
+- Komplikaatiot: `bridge:root=COMPLICATIONS`
+- Aktiivisuus: `bridge:root=com.apple.HealthAppsSettings`
+- Aktiivisuus → Edistymispäivitykset: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Aktiivisuus → Edistymispäivitykset → Ei mitään: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Aktiivisuus → Edistymispäivitykset → Joka 2. tunti: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Aktiivisuus → Edistymispäivitykset → Joka 4. tunti: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Aktiivisuus → Edistymispäivitykset → Joka 6. tunti: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Aktiivisuus → Edistymispäivitykset → Joka 8. tunti: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Aktiivisuus → Saavutukset: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Aktiivisuus → Viikoittainen yhteenveto: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Aktiivisuus → Päivittäinen valmennus: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Aktiivisuus → Tavoitteiden täyttymiset: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Aktiivisuus → Erikoishaasteet: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Aktiivisuus → Aktiivisuusjakoilmoitukset: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Heart Rate: `bridge:root=com.apple.HeartRateSettings`
+- Heart Rate → Sydän: `bridge:root=com.apple.HeartRateSettings#1`
+- Heart Rate → Sykeilmoitukset: `bridge:root=com.apple.HeartRateSettings#2`
+- Heart Rate → Korkea syke: `bridge:root=com.apple.HeartRateSettings#3`
+- Heart Rate → Matala syke: `bridge:root=com.apple.HeartRateSettings#4`
+- Heart Rate → Epäsäännöllinen rytmi: `bridge:root=com.apple.HeartRateSettings#5`
+- Heart Rate → Katso tallennetut EKG:t Terveydessä: `bridge:root=com.apple.HeartRateSettings#6`
+- Heart Rate → EKG: `bridge:root=com.apple.HeartRateSettings#7`
+- Viestit: `bridge:root=com.apple.MessagesBridgeSettings`
+- Viestit → Peilaa iPhoneni: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Viestit → Muokkaa: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Viestit → Oletusvastaukset: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Viestit → Oletusvastaukset → Oletusvastaukset: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Viestit → Oletusvastaukset → Älykkäät vastaukset: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Viestit → Oletusvastaukset → Lisää vastaus…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Viestit → Toista ilmoitukset: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Viestit → Ääniviestit: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Mindfulness: `bridge:root=com.apple.MindSettings`
+- Mindfulness → Salli ilmoitukset: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Mindfulness → Lähetä Ilmoituskeskukseen: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Mindfulness → Ilmoitukset pois: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Mindfulness → Mindfulness-muistutukset: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Mindfulness → Päivän alku: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Mindfulness → Päivän loppu: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Mindfulness → Lisää muistutus…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Mindfulness → Viikoittainen yhteenveto: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Mindfulness → Mykistä tänään: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Mindfulness → Hengitysnopeus: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Mindfulness → Hengitysnopeus → 4 hengitystä/min: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Mindfulness → Hengitysnopeus → 5 hengitystä/min: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Mindfulness → Hengitysnopeus → 6 hengitystä/min: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Mindfulness → Hengitysnopeus → 7 hengitystä/min: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Mindfulness → Hengitysnopeus → 8 hengitystä/min: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Mindfulness → Hengitysnopeus → 9 hengitystä/min: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Mindfulness → Hengitysnopeus → 10 hengitystä/min: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Mindfulness → Tuntopalaute: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Mindfulness → Tuntopalaute → Ei mitään: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Mindfulness → Tuntopalaute → Vähäinen: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Mindfulness → Tuntopalaute → Hyvin erottuva: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Uni: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Uni → Ota Uni käyttöön Terveys-apissa: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Äänikirjat: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Äänikirjat → Kirjaudu sisään: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Kalenteri: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Kalenteri → ILMOITUKSET: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Kalenteri → Peilaa iPhoneni: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Kalenteri → Muokattu…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Kalenteri → KALENTERIT: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Kello: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Kello → 24 tunnin kello: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Kello → Sointi: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Kello → Äänet: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Kello → Äänet → Kellot: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Kello → Äänet → Linnut: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Kello → Puhu aika: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Kello → Huomioi hiljainen tila: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Kello → Puhu aina: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Kello → Tuntoaika: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Kello → Tuntoaika → Tuntoaika: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Kello → Tuntoaika → Numerot: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Kello → Tuntoaika → Tiheä: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Kello → Tuntoaika → Morsetus: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Kello → Push-ilmoitukset iPhonesta: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Kello → Ilmoitusten ilmaisin: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Kello → Monogrammi: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Kello → Kellotaulu­ilmoitukset: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Kello → Kaupunkien lyhenteet: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Kello → Siri-kellotaulun tietolähteet: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Yhteystiedot: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Yhteystiedot → Järjestys: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Yhteystiedot → Järjestys → Etu-, sukunimi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Yhteystiedot → Järjestys → Suku-, etunimi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Yhteystiedot → Näyttöjärjestys: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Yhteystiedot → Näyttöjärjestys → Etu-, sukunimi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Yhteystiedot → Näyttöjärjestys → Suku-, etunimi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Yhteystiedot → Lyhyt nimi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Yhteystiedot → Lyhyt nimi → Lyhyt nimi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Yhteystiedot → Lyhyt nimi → Etunimi ja sukunimen 1. kirjain: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Yhteystiedot → Lyhyt nimi → Etunimen 1. kirjain ja sukunimi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Yhteystiedot → Lyhyt nimi → Vain etunimi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Yhteystiedot → Lyhyt nimi → Vain sukunimi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Yhteystiedot → Lyhyt nimi → Suosi lempinimiä: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Peilaa iPhoneni: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Muokkaa: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Mail-asetukset: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Tilit: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Sisällytä postit: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Viestin esikatselu: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Viestin esikatselu → Ei mitään: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Viestin esikatselu → 1 rivi: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Viestin esikatselu → 2 riviä: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Oletusvastaukset: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Oletusvastaukset → Oletusvastaukset: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Oletusvastaukset → Lisää vastaus…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Allekirjoitus: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Kartat: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Kartat → Käännösilmoitukset: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Kartat → Ajo: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Kartat → Ajaminen CarPlaylla: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Kartat → Kävely: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Kartat → Pyöräily: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Kartat → Näytä navigointi: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Kartat → Julkiset: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Kartat → Buildin tiedot:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Musiikki: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Musiikki → SOITTOLISTAT JA ALBUMIT: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Musiikki → Lisää musiikkia…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Lompakko ja Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Lompakko ja Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Lompakko ja Apple Pay → Lisää kortti: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Lompakko ja Apple Pay → Ilmoitukset: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Lompakko ja Apple Pay → Peilaa iPhoneni: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Lompakko ja Apple Pay → Muokkaa: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Kuvat: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Kuvat → Kuvien synkronointi: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Kuvat → Muistot: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Kuvat → Synkronoi muistot: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Kuvat → Esittelyssä olevat kuvat: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Kuvat → Synkronoi esittelyssä olevat kuvat: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Kuvat → Albumi: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Kuvat → Synkronoi albumi: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Kuvat → Kuvien rajoitus: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Kuvat → Ilmoitusasetukset: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Kuvat → Peilaa iPhoneni: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Kuvat → Muokkaa: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Melu: `bridge:root=com.apple.Noise.settings`
+- Melu → Ympäristön äänimittaukset: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Melu → Meluvaroitukset: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Melu → Melun kynnystaso: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Melu → Melun kynnystaso → Pois: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Melu → Melun kynnystaso → 80 desibeliä: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Melu → Melun kynnystaso → 85 desibeliä: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Melu → Melun kynnystaso → 90 desibeliä: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Melu → Melun kynnystaso → 95 desibeliä: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Melu → Melun kynnystaso → 100 desibeliä: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Melu → Ilmoitusten ryhmitys: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Veren happitaso: `bridge:root=com.apple.OxygenSaturationSettings`
+- Operaattoriasetukset: `bridge:root=CARRIER_SETTINGS`
+- Laita pääsykoodi pois päältä: `bridge:root=PASSCODE_ID`
+- Laita pääsykoodi pois päältä → Laita pääsykoodi päälle: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Laita pääsykoodi pois päältä → Vaihda pääsykoodi: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Laita pääsykoodi pois päältä → Yksinkertainen pääsykoodi: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Laita pääsykoodi pois päältä → Avaa iPhonella: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Laita pääsykoodi pois päältä → Poista tiedot: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Laita pääsykoodi pois päältä → Ranteentunnistus: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Puhelin: `bridge:root=com.apple.PhoneBridgeSettings`
+- Puhelin → Puhelut: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Puhelin → Soittoääni: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Puhelin → Äänet: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Puhelin → Tuntopalaute: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Treeni: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Treeni → Alhaisen virran tila: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Treeni → Näytä tavoitetiedot: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Treeni → Treeninäkymä: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Treeni → Autom. keskeytys: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Treeni → Autom. keskeytys → Autom. keskeytys: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Treeni → Aloita treeni -muistutus: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Treeni → Lopeta treeni -muistutus: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Treeni → Keskeytä painamalla: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Treeni → Tunnista kuntosalilaite: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Treeni → Vauhti-/nopeusnäkymä: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Treeni → Vauhti-/nopeusnäkymä → Nykyinen: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Treeni → Vauhti-/nopeusnäkymä → Keskiarvo: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Treeni → Treenisoittolista: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Treeni → Treenisoittolista → Ei mitään: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Treeni → Treenisoittolista → Soittolistat: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Treeni → Toista alusta: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Treeni → Sekoitus: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Treeni → Mittayksiköt: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Treeni → Mittayksiköt → Kalorit: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Treeni → Mittayksiköt → Kilokalorit: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Treeni → Mittayksiköt → Kilojoulet: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Treeni → Mittayksiköt → Jaardit: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Treeni → Mittayksiköt → Metrit: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Treeni → Mittayksiköt → Mailit: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Treeni → Mittayksiköt → Kilometrit: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Treeni → Puhepalaute: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Treeni → Aika kävellä: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Treeni → Lisää uudet treenit Apple Watchiin: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Pörssi: `bridge:root=com.apple.StocksBridgeSettings`
+- Pörssi → Kellotaulun komplikaatiossa näkyy: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Pörssi → Nykyinen hinta: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Pörssi → Pistemuutos: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Pörssi → Prosenttimuutos: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Pörssi → Markkina-arvo: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Pörssi → Siri-kellotaulu näyttää kurssin: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Pörssi → Valittu osake: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Pörssi → Valittu osake → Valittu osake: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Dock: `bridge:root=DOCK`
+- Dock → Dockin järjestys: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Äskeiset: `bridge:root=DOCK#Recents`
+- Dock → Suosikit: `bridge:root=DOCK#Favorites`
+- Podcastit: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Kysy Siriltä: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → Nosta ja puhu: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Paina Digital Crownia: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Puhepalaute: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Puhepalaute → Aina päällä: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Puhepalaute → Huomioi hiljainen tila: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Puhepalaute → Vain kuulokkeet: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Puheen voimakkuus: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siri-ehdotukset: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Radiopuhelin: `bridge:root=com.apple.tincan.settings`
+- Radiopuhelin → Salli ilmoitukset: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Radiopuhelin → Lähetä Ilmoituskeskukseen: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Radiopuhelin → Ilmoitukset pois: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Radiopuhelin → Ilmoitusten ryhmitys: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Radiopuhelin → Ystävät: `bridge:root=com.apple.tincan.settings#Friends`
+- Sää: `bridge:root=com.apple.weatherbridgesettings`
+- Sää → Oletuskaupunki: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Sää → Oletuskaupunki → Oletuskaupunki: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Sää → Oletuskaupunki → Nykyinen sijainti: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Lähetä lukukuittaukset: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

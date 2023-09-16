@@ -1,0 +1,854 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → Сховище iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Фото: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Пошта: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Контакти: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Календар: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Нагадування: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Нотатки: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → Новини: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Архівація: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Здоровʼя: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Паролі та Вʼязка: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Приват-реле: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Моя геопозиція: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Моя геопозиція → Де iPhone: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Імʼя, телефони, е-пошта: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Пароль і безпека: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Оплата і доставка: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Підписки: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Родина: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Приватність і Безпека: `prefs:root=Privacy`
+- Приватність і Безпека → Перевірка безпеки: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Приватність і Безпека → Місце: `prefs:root=Privacy&path=LOCATION`
+- Приватність і Безпека → Місце → Поширювати геопозицію: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Приватність і Безпека → Контакти: `prefs:root=Privacy&path=CONTACTS`
+- Приватність і Безпека → Календарі: `prefs:root=Privacy&path=CALENDARS`
+- Приватність і Безпека → Нагадування: `prefs:root=Privacy&path=REMINDERS`
+- Приватність і Безпека → Фотографії: `prefs:root=Privacy&path=PHOTOS`
+- Приватність і Безпека → Bluetooth-обмін: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Приватність і Безпека → Мікрофон: `prefs:root=Privacy&path=MICROPHONE`
+- Приватність і Безпека → Розпізнавання мовлення: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Приватність і Безпека → Камера: `prefs:root=Privacy&path=CAMERA`
+- Приватність і Безпека → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Приватність і Безпека → Медіавміст і Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Приватність і Безпека → Аналітика: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Приватність і Безпека → Реклама: `prefs:root=Privacy&path=ADVERTISING`
+- Приватність і Безпека → Файли та папки: `prefs:root=Privacy&path=FILEACCESS`
+- Приватність і Безпека → Відстеження: `prefs:root=Privacy&path=USER_TRACKING`
+- Приватність і Безпека → Звіт про приватність програм: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Приватність і Безпека → Режим карантину: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Приватність і Безпека → Здоровʼя: `prefs:root=Privacy&path=HEALTH`
+- Зосередження: `prefs:root=DO_NOT_DISTURB`
+- Зосередження → Статус зосередження: `prefs:root=DO_NOT_DISTURB&path=status`
+- Загальні: `prefs:root=General`
+- Загальні → VPN і керування пристроями: `prefs:root=General&path=ManagedConfigurationList`
+- Загальні → Кадр у кадрі: `prefs:root=General&path=PiP_SPEC`
+- Загальні → Трекпед і миша: `prefs:root=General&path=POINTERS`
+- Загальні → NFC: `prefs:root=General&path=NFC_LINK`
+- Загальні → VPN: `prefs:root=General&path=VPN`
+- Загальні → CarPlay: `prefs:root=General&path=CARPLAY`
+- Загальні → Про пристрій: `prefs:root=General&path=About`
+- Загальні → Про пристрій → Довірені сертифікати: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Загальні → Право та нормативи: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Загальні → Оновлення ПЗ: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Загальні → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Загальні → Кнопка Початок: `prefs:root=General&path=HOME_BUTTON`
+- Загальні → Жести: `prefs:root=General#Multitasking_Gesture_Switch`
+- Загальні → Бічний перемикач: `prefs:root=General#Rotation_Switch_Action_Group`
+- Загальні → Фонове оновлювання: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Загальні → Дата і час: `prefs:root=General&path=DATE_AND_TIME`
+- Загальні → ТВ-вихід: `prefs:root=General&path=TV_OUT`
+- Загальні → Нормативні акти: `prefs:root=General&path=REGULATORY`
+- Загальні → Скинути: `prefs:root=General&path=Reset`
+- Загальні → Скинути → Скинути всі параметри: `prefs:root=General&path=Reset#settingsErase`
+- Загальні → Скинути → Стерти весь вміст і параметри: `prefs:root=General&path=Reset#fullErase`
+- Загальні → Скинути → Скинути параметри мережі: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Загальні → Скинути → Вилучити всі плани стільникових даних: `prefs:root=General&path=Reset#cellularErase`
+- Загальні → Скинути → Абонентські послуги: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Загальні → Скинути → Скинути словник клавіатури: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Загальні → Скинути → Скинути схему Початкового екрана: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Загальні → Скинути → Скинути Геопозицію та Приватність: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Загальні → Вимкнути: `prefs:root=General#SHUTDOWN_LABEL`
+- Загальні → AirPlay і Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Загальні → AirPlay і Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Загальні → AirPlay і Handoff → Передати на HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Загальні → AirPlay і Handoff → AirPlay-трансляція на ТВ автоматом: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Загальні → AirPlay і Handoff → Неперервна камера: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Загальні → Словник: `prefs:root=General&path=DICTIONARY`
+- Загальні → Мова і регіон: `prefs:root=General&path=INTERNATIONAL`
+- Загальні → Мова і регіон → Інші мови…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Загальні → Мова і регіон → Бажаний порядок мов: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Загальні → Мова і регіон → Додати мову…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Загальні → Мова і регіон → Регіон: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Загальні → Мова і регіон → Нумерація: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Загальні → Мова і регіон → Календар: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Загальні → Мова і регіон → Градуси: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Загальні → Клавіатура: `prefs:root=General&path=Keyboard`
+- Загальні → Клавіатура → Клавіатури: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Загальні → Клавіатура → Замінення тексту: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Загальні → Клавіатура → З великої букви: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Загальні → Клавіатура → Автовиправлення: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Загальні → Клавіатура → Перевіряти правопис: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Загальні → Клавіатура → Підтримка Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Загальні → Клавіатура → Швидкі команди: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Загальні → Клавіатура → Випереджально: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Загальні → Клавіатура → Динамічна пунктуація: `prefs:root=General&path=Keyboard#SmartTyping`
+- Загальні → Клавіатура → Розділена клавіатура: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Загальні → Клавіатура → Увімкнути фінти клавіш: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Загальні → Клавіатура → Передогляд символу: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Загальні → Клавіатура → Спрощення «.»: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Загальні → Клавіатура → Ковзання для вводу: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Загальні → Клавіатура → Увімкнути Диктування: `prefs:root=General&path=Keyboard#Dictation`
+- Загальні → Клавіатура → Автопунктуація: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Загальні → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Загальні → iPhone/iPad Storage → Сховище: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Загальні → iPhone/iPad Storage → Усувати невикористані програми: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Сповіщення: `prefs:root=NOTIFICATIONS_ID`
+- Сповіщення → Звіт за розкладом: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Гаманець і Apple Pay: `prefs:root=PASSBOOK`
+- Гаманець і Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Гаманець і Apple Pay → Платіжні картки: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Гаманець і Apple Pay → Додання картки: `prefs:root=PASSBOOK#Add%20Card`
+- Гаманець і Apple Pay → Двічі натисніть бічну кнопку: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Гаманець і Apple Pay → Відстеження замовлень: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Екранний час: `prefs:root=SCREEN_TIME`
+- Екранний час → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Екранний час → See All Activity → Сьогодні: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Екранний час → See All Activity → Тиждень: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Екранний час → Перерва: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Екранний час → Ліміти програм: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Екранний час → Ліміти спілкування: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Екранний час → Безпека спілкування: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Екранний час → Завжди дозволено: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Екранний час → Вміст і приватність: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Екранний час → Батьківський контроль: `prefs:root=SCREEN_TIME#FAMILY`
+- Доступність: `prefs:root=ACCESSIBILITY`
+- Доступність → Зір: `prefs:root=ACCESSIBILITY#VISION`
+- Доступність → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Доступність → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Доступність → VoiceOver → Темп мовлення: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Доступність → VoiceOver → Мовлення: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Доступність → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Доступність → VoiceOver → Speech → Голос: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Доступність → VoiceOver → Детальність: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Доступність → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Доступність → VoiceOver → Verbosity → Пунктуація: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Доступність → VoiceOver → Verbosity → Заголовки таблиць: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Доступність → VoiceOver → Verbosity → Описи медіавмісту: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Доступність → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Доступність → VoiceOver → Verbosity → Media Descriptions → Вимкнено: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Доступність → VoiceOver → Verbosity → Media Descriptions → Мовлення: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Доступність → VoiceOver → Verbosity → Media Descriptions → Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Доступність → VoiceOver → Verbosity → Media Descriptions → Голос і брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Доступність → VoiceOver → Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- Доступність → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Доступність → VoiceOver → Braille → Вивід: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Доступність → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Доступність → VoiceOver → Braille → Output → Неспрощений брайль (6 крапок): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Доступність → VoiceOver → Braille → Output → Неспрощений брайль (8 крапок): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Доступність → VoiceOver → Braille → Output → Спрощений брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Доступність → VoiceOver → Braille → Ввід: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Доступність → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Доступність → VoiceOver → Braille → Input → Неспрощений брайль (6 крапок): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Доступність → VoiceOver → Braille → Input → Неспрощений брайль (8 крапок): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Доступність → VoiceOver → Braille → Input → Спрощений брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Доступність → VoiceOver → Braille → Input → Автоматичний переклад: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Доступність → VoiceOver → Braille → Ввід брайля з екрана: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Доступність → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Доступність → VoiceOver → Braille → Braille Screen Input → Неспрощений брайль (6 крапок): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Доступність → VoiceOver → Braille → Braille Screen Input → Неспрощений брайль (8 крапок): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Доступність → VoiceOver → Braille → Braille Screen Input → Спрощений брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Доступність → VoiceOver → Braille → Braille Screen Input → Зворотні позиції точок: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Доступність → VoiceOver → Braille → Брайль-таблиці: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Доступність → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Доступність → VoiceOver → Braille → Tables → Додати брайль-таблицю…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Доступність → VoiceOver → Braille → Клітинки стану: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Доступність → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Доступність → VoiceOver → Braille → Status Cell → Положення клітинок стану: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Доступність → VoiceOver → Braille → Status Cell → Зліва: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Доступність → VoiceOver → Braille → Status Cell → Справа: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Доступність → VoiceOver → Braille → Status Cell → Показати загальний стан: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Доступність → VoiceOver → Braille → Status Cell → Показати стан тексту: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Доступність → VoiceOver → Braille → Код Немета примусово: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Доступність → VoiceOver → Braille → Екранна клавіатура: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Доступність → VoiceOver → Braille → Гортати за посуванням: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Доступність → VoiceOver → Braille → Перенос слів: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Доступність → VoiceOver → Braille → Попередження Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Доступність → VoiceOver → Braille → Ігнорувати тривалість акорду: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Доступність → VoiceOver → Braille → Тривалість автопросування: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Доступність → VoiceOver → Аудіювання: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- Доступність → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Доступність → VoiceOver → Audio → Аудіозанурення: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Доступність → VoiceOver → Audio → Автоперехід на динамік: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Доступність → VoiceOver → Audio → Слати на HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Доступність → VoiceOver → Команди: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Доступність → VoiceOver → Дії: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Доступність → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Доступність → VoiceOver → Activities → Програмування: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Доступність → VoiceOver → Activities → Додати дію…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Доступність → VoiceOver → Ротор: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Доступність → VoiceOver → Дії на роторі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Доступність → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Доступність → VoiceOver → Rotor Actions → Упорядковувати програми: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Доступність → VoiceOver → Rotor Actions → Безпосередній дотик у програмах: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Доступність → VoiceOver → Набір: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Доступність → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Доступність → VoiceOver → Typing → Тип набору тексту: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Доступність → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Доступність → VoiceOver → Typing → Typing Mode → Звичайний набір: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Доступність → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Доступність → VoiceOver → Typing → Typing Style → Сліпий набір: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Доступність → VoiceOver → Typing → Typing Style → Набір безпосереднім дотиком: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Доступність → VoiceOver → Typing → Фонетичний супровід: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Доступність → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Доступність → VoiceOver → Typing → Phonetic Feedback → Вимкнено: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Доступність → VoiceOver → Typing → Phonetic Feedback → Символ і фонетика: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Доступність → VoiceOver → Typing → Phonetic Feedback → Тільки фонетика: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Доступність → VoiceOver → Typing → Відзвук вводу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Доступність → VoiceOver → Typing → Клавіші-модифікатори: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Доступність → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Доступність → VoiceOver → Typing → Modifier Keys → Control + Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Доступність → VoiceOver → Typing → Modifier Keys → Верхній регістр: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Доступність → VoiceOver → Typing → Час до взаємодії з клавіатурою: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Доступність → VoiceOver → Зображення: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Доступність → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Доступність → VoiceOver → Include Unlabeled Images → Завжди: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Доступність → VoiceOver → Include Unlabeled Images → З описами: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Доступність → VoiceOver → Include Unlabeled Images → Ніколи: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Доступність → VoiceOver → Великий курсор: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Доступність → VoiceOver → Панель написів: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Доступність → VoiceOver → Час на подвійний дотик: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Доступність → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Доступність → VoiceOver → Double-tap Timeout → Час на подвійний дотик: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Доступність → VoiceOver → Стиль навігації: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Доступність → VoiceOver → Швидкі параметри: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Доступність → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Доступність → VoiceOver → Quick Settings → Звуки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Доступність → VoiceOver → Quick Settings → Аудіозанурення: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Доступність → VoiceOver → Quick Settings → Гучність: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Доступність → VoiceOver → Quick Settings → Темп мовлення: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Доступність → VoiceOver → Quick Settings → Підказки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Доступність → VoiceOver → Quick Settings → Стиль навігації: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Доступність → VoiceOver → Quick Settings → Тип набору тексту: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Доступність → VoiceOver → Quick Settings → Ковзання для вводу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Доступність → VoiceOver → Quick Settings → Дії: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Доступність → VoiceOver → Quick Settings → Сповіщення завжди вголос: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Доступність → VoiceOver → Quick Settings → Попередження Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Доступність → VoiceOver → Quick Settings → Автопросування брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Доступність → VoiceOver → Quick Settings → Ввід брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Доступність → VoiceOver → Quick Settings → Вивід брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Доступність → VoiceOver → Quick Settings → Брайль-таблиці: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Доступність → VoiceOver → Quick Settings → Панель написів: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Доступність → VoiceOver → Quick Settings → Безпосередній дотик: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Доступність → VoiceOver → Quick Settings → Напрям жесту: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Доступність → VoiceOver → Quick Settings → Апаратний відзвук вводу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Доступність → VoiceOver → Quick Settings → Мова: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Доступність → VoiceOver → Quick Settings → Великий курсор: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Доступність → VoiceOver → Quick Settings → Описи медіавмісту: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Доступність → VoiceOver → Quick Settings → Зображення: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Доступність → VoiceOver → Quick Settings → Фонетичний супровід: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Доступність → VoiceOver → Quick Settings → Зміна тону: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Доступність → VoiceOver → Quick Settings → Пунктуація: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Доступність → VoiceOver → Quick Settings → Слати на HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Доступність → VoiceOver → Quick Settings → Програмний відзвук вводу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Доступність → VoiceOver → Quick Settings → Підтвердження ротора голосом: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Доступність → VoiceOver → Quick Settings → Описи зображень: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Доступність → VoiceOver → Quick Settings → Розпізнавання екрана: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Доступність → VoiceOver → Розпізнавання через нейронний VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Доступність → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Доступність → VoiceOver → VoiceOver Recognition → Описи зображень: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Доступність → VoiceOver → VoiceOver Recognition → Розпізнавання екрана: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Доступність → Зум: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Доступність → Зум → Зум: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Доступність → Зум → Рухати за фокусом: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Доступність → Зум → Зручний набір: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Доступність → Зум → Клавіатурні скорочення: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Доступність → Зум → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Доступність → Зум → Keyboard Shortcuts → Клавіатурні скорочення: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Доступність → Зум → Keyboard Shortcuts → Зміна рівня зуму: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Доступність → Зум → Keyboard Shortcuts → Перемкнути зум: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Доступність → Зум → Keyboard Shortcuts → Переміщення Вікна зуму: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Доступність → Зум → Keyboard Shortcuts → Зміна розміру Вікна зуму: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Доступність → Зум → Keyboard Shortcuts → Перемикання Області зуму: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Доступність → Зум → Keyboard Shortcuts → Тимчасове перемикання зуму: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Доступність → Зум → Keyboard Shortcuts → Зум коліщам прокручування: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Доступність → Зум → Зум-контролер: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Доступність → Зум → Область зуму: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Доступність → Зум → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Доступність → Зум → Zoom Region → Зум на весь екран: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Доступність → Зум → Zoom Region → Зум у вікні: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Доступність → Зум → Максимальний зум: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Доступність → Зум → Фільтр зуму: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Доступність → Зум → Показувати під час відеодублювання: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Доступність → Текстова лінза: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Доступність → Дисплей і розмір тексту: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Доступність → Дисплей і розмір тексту → Жирний шрифт: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Доступність → Дисплей і розмір тексту → Збільшити шрифт: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Доступність → Дисплей і розмір тексту → Форми кнопок: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Доступність → Дисплей і розмір тексту → Мітки «Увімк./Вимк.»: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Доступність → Дисплей і розмір тексту → Зменшити прозорість: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Доступність → Дисплей і розмір тексту → Збільшення контрасту: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Доступність → Дисплей і розмір тексту → Відрізняти без кольору: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Доступність → Дисплей і розмір тексту → Динамічна інверсія: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Доступність → Дисплей і розмір тексту → Класична інверсія: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Доступність → Дисплей і розмір тексту → Колірні фільтри: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Доступність → Дисплей і розмір тексту → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Доступність → Дисплей і розмір тексту → Color Filters → Колірні фільтри: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Доступність → Дисплей і розмір тексту → Зменшення точки білого: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Доступність → Дисплей і розмір тексту → Автояскравість: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Доступність → Рух: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Доступність → Рух → Зменшення руху: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Доступність → Рух → Автозапуск ефектів звісток: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Доступність → Рух → Відеопередогляди автоматом: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Доступність → Усний вміст: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Доступність → Усний вміст → Промовляти вибране: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Доступність → Усний вміст → Промовляти з екрана: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Доступність → Усний вміст → Контролер мовлення: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Доступність → Усний вміст → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Доступність → Усний вміст → Speech Controller → Налаштувати кнопки миші: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Доступність → Усний вміст → Виділяти вміст: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Доступність → Усний вміст → Відзвук вводу: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Доступність → Усний вміст → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Доступність → Усний вміст → Typing Feedback → Відзвук символів: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Доступність → Усний вміст → Typing Feedback → Символи: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Доступність → Усний вміст → Typing Feedback → Підказки символів: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Доступність → Усний вміст → Typing Feedback → Промовляти слова: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Доступність → Усний вміст → Typing Feedback → Промовляти автотекст: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Доступність → Усний вміст → Typing Feedback → Тримати і чути варіанти: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Доступність → Усний вміст → Голоси: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Доступність → Усний вміст → Основна мова: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Доступність → Усний вміст → Виявляти мови: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Доступність → Усний вміст → Темп мовлення: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Доступність → Усний вміст → Вимова: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Доступність → Аудіоописи: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Доступність → Аудіоописи → Аудіоописи: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Доступність → Рухомість і Моторика: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Доступність → Дотик: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Доступність → Дотик → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Доступність → Дотик → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Доступність → Дотик → AssistiveTouch → Налаштувати верхнє меню: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Доступність → Дотик → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Доступність → Дотик → AssistiveTouch → Customize Top Level Menu → Торкніть іконку, щоб змінити:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Доступність → Дотик → AssistiveTouch → Customize Top Level Menu → Скинути…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Доступність → Дотик → AssistiveTouch → Власні дії: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Доступність → Дотик → AssistiveTouch → Одинарний дотик: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Доступність → Дотик → AssistiveTouch → Подвійний дотик: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Доступність → Дотик → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Доступність → Дотик → AssistiveTouch → Double-Tap → Час на подвійний дотик: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Доступність → Дотик → AssistiveTouch → Довге натискання: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Доступність → Дотик → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Доступність → Дотик → AssistiveTouch → Long Press → Час довгого натискання: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Доступність → Дотик → AssistiveTouch → Власні жести: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Доступність → Дотик → AssistiveTouch → Створити новий жест…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Доступність → Дотик → AssistiveTouch → Пасивна непрозорість: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Доступність → Дотик → AssistiveTouch → Вказівні пристрої: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Доступність → Дотик → AssistiveTouch → Пристрої: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Доступність → Дотик → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Доступність → Дотик → AssistiveTouch → Devices → Bluetooth-пристрої…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Доступність → Дотик → AssistiveTouch → Клавіші миші: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Доступність → Дотик → AssistiveTouch → Тип курсора: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Доступність → Дотик → AssistiveTouch → Тип курсора → Розмір: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Доступність → Дотик → AssistiveTouch → Тип курсора → Візуалізація: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Доступність → Дотик → AssistiveTouch → Тип курсора → Колір: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Доступність → Дотик → AssistiveTouch → Тип курсора → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Доступність → Дотик → AssistiveTouch → Тип курсора → SOMETHING IDK → Налаштувати кнопки миші: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Доступність → Дотик → AssistiveTouch → Тип курсора → Автоприховання: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Доступність → Дотик → AssistiveTouch → Тип курсора → NEEDS_OVERRIDE_1224 → Автоприховання: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Доступність → Дотик → AssistiveTouch → Екранна клавіатура: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Доступність → Дотик → AssistiveTouch → Закріпити меню: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Доступність → Дотик → AssistiveTouch → Керування затримкою: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Доступність → Дотик → AssistiveTouch → Допускова межа руху: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Доступність → Дотик → AssistiveTouch → Чутливість пересування: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Доступність → Дотик → AssistiveTouch → Дія відкочення: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Доступність → Дотик → AssistiveTouch → Активні кути: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Доступність → Дотик → AssistiveTouch → Використовувати ігровий контролер: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Доступність → Дотик → 3D Touch і Гаптичний дотик: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Доступність → Дотик → NEEDS_OVERRIDE_1225 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Доступність → Дотик → NEEDS_OVERRIDE_1225 → Чутливість 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Доступність → Дотик → NEEDS_OVERRIDE_1225 → Тривалість дотику: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Доступність → Дотик → NEEDS_OVERRIDE_1225 → Швидко: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Доступність → Дотик → NEEDS_OVERRIDE_1225 → Повільно: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Доступність → Дотик → NEEDS_OVERRIDE_1225 → Тест чутливості 3D Touch і тривалості дотику: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Доступність → Дотик → Адаптації дотику: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Доступність → Дотик → NEEDS_OVERRIDE_1226 → Адаптації дотику: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Доступність → Дотик → NEEDS_OVERRIDE_1226 → Тривалість тримання: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Доступність → Дотик → NEEDS_OVERRIDE_1226 → Ігнорувати повтор: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Доступність → Дотик → NEEDS_OVERRIDE_1226 → Асистент дотику: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Доступність → Дотик → NEEDS_OVERRIDE_1226 → Вимкнено: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Доступність → Дотик → NEEDS_OVERRIDE_1226 → Місце початку дотику: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Доступність → Дотик → NEEDS_OVERRIDE_1226 → Місце кінця дотику: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Доступність → Дотик → Будити доторком: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Доступність → Дотик → Торкніть чи посуньте, щоб розбудити: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Доступність → Дотик → Трусити для відміни: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Доступність → Дотик → Вібрація: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Доступність → Дотик → Заборонити завершення викликів кнопкою замкнення: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Доступність → Дотик → Спрямування викликів: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Доступність → Дотик → NEEDS_OVERRIDE_1227 → Авто: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Доступність → Дотик → NEEDS_OVERRIDE_1227 → Bluetooth-гарнітура: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Доступність → Дотик → NEEDS_OVERRIDE_1227 → Динамік: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Доступність → Дотик → NEEDS_OVERRIDE_1227 → Автовідповідь: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Доступність → Face ID та увага: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Доступність → Face ID та увага → Вимагати уваги для Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Доступність → Face ID та увага → Функції, пильні до уваги: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Доступність → Face ID та увага → Вібросигнали: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Доступність → Face ID та увага → Гаптика за успішної автентифікації: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Доступність → Пульт перемикачів: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Доступність → Пульт перемикачів → Пульт перемикачів: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Доступність → Пульт перемикачів → Перемикачі: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1228 → Додати новий перемикач…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1228 → Bluetooth-пристрої…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Доступність → Пульт перемикачів → Набори команд: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Доступність → Пульт перемикачів → Сканування: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1229 → Автосканування: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1229 → Сканування вручну: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1229 → Одиночне покрокове сканування: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Доступність → Пульт перемикачів → Хронометраж: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Доступність → Пульт перемикачів → Час автосканування: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1230 → Час автосканування: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Доступність → Пульт перемикачів → Пауза на 1 обʼєкті: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1231 → Пауза на 1 обʼєкті: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Доступність → Пульт перемикачів → Повтор руху: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1232 → Повтор руху: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Доступність → Пульт перемикачів → Довге натискання: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1233 → Довге натискання: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Доступність → Пульт перемикачів → Поведінка дотику: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1234 → Типовий: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1234 → Автоторкання: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1234 → Завжди торкати: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Доступність → Пульт перемикачів → Обʼєкт у фокусі після дотику: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1235 → Перший обʼєкт: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1235 → Поточний обʼєкт: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Доступність → Пульт перемикачів → Клавіатура: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Доступність → Пульт перемикачів → Сканувати клавішу ще раз: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Доступність → Пульт перемикачів → Завжди торкати клавіші: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Доступність → Пульт перемикачів → Розширені варіанти: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Доступність → Пульт перемикачів → Стабілізація перемикача: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Доступність → Пульт перемикачів → Тривалість тримання: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1236 → Тривалість тримання: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Доступність → Пульт перемикачів → Ігнорувати повтор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1237 → Ігнорувати повтор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Доступність → Пульт перемикачів → Точкове сканування: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Доступність → Пульт перемикачів → Плавний курсор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1238 → Режим вибирання: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1238 → Одинарний: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1238 → Уточнений: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1238 → Точний: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1238 → Темп ковзання курсора: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Доступність → Пульт перемикачів → Відстеження голови: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1239 → Відстеження голови: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Доступність → Пульт перемикачів → Аудіювання: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Доступність → Пульт перемикачів → Звукові ефекти: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Доступність → Пульт перемикачів → Мовлення: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1240 → Голоси: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1240 → Темп мовлення: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Доступність → Пульт перемикачів → Елементи меню: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Доступність → Пульт перемикачів → Групувати обʼєкти: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Доступність → Пульт перемикачів → Візуалізація: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Доступність → Пульт перемикачів → Великий курсор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Доступність → Пульт перемикачів → Збережені жести: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Доступність → Пульт перемикачів → NEEDS_OVERRIDE_1241 → Створити новий жест…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Доступність → Пульт перемикачів → Колір курсора: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Доступність → Керування голосом: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Доступність → Керування голосом → Налаштувати Керування голосом: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Доступність → Керування голосом → Мова: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Доступність → Керування голосом → NEEDS_OVERRIDE_1242 → Англійська (США): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Доступність → Керування голосом → Налаштувати команди: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Доступність → Керування голосом → Лексикон: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Доступність → Керування голосом → Відгук команд: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Доступність → Керування голосом → Показати підтвердження: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Доступність → Керування голосом → Відтворити звук: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Доступність → Керування голосом → Показувати Підказки: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Доступність → Керування голосом → Неперервний шар: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Доступність → Керування голосом → Шар: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Доступність → Керування голосом → NEEDS_OVERRIDE_1243 → Немає: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Доступність → Керування голосом → NEEDS_OVERRIDE_1243 → Числа елементів: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Доступність → Керування голосом → NEEDS_OVERRIDE_1243 → Назви елементів: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Доступність → Керування голосом → NEEDS_OVERRIDE_1243 → Нумерована сітка: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Доступність → Керування голосом → Пильність до уваги: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Доступність → Бічна кнопка: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Доступність → Бічна кнопка → Темп клацання: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Доступність → Бічна кнопка → Типовий: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Доступність → Бічна кнопка → Повільно: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Доступність → Бічна кнопка → Найповільніше: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Доступність → Бічна кнопка → Тисніть, тримайте і говоріть: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Доступність → Бічна кнопка → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Доступність → Бічна кнопка → Класичне керування голосом: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Доступність → Бічна кнопка → Вимкнено: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Доступність → Пульт Apple TV: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Доступність → Пульт Apple TV → Напрямні кнопки: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Доступність → Віддалений екран Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Доступність → Клавіатури: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Доступність → Клавіатури → Повний доступ клавіатури: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1244 → Повний доступ клавіатури: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1244 → Візуалізації: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1244 → Автоприховання: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1244 → Велике фокусне кільце: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1244 → Колір: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Доступність → Клавіатури → Повторення клавіш: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1245 → Повторення клавіш: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1245 → Інтервал повторень клавіш: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1245 → Затримка перед повторенням: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Доступність → Клавіатури → Залипальні клавіші: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1246 → Залипальні клавіші: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1246 → Перемикати клавішею Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1246 → Звук: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Доступність → Клавіатури → Повільні клавіші: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Доступність → Клавіатури → NEEDS_OVERRIDE_1247 → Повільні клавіші: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Доступність → Клавіатури → Екранні клавіатури: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Доступність → Клавіатури → Показувати нижній регістр: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Доступність → Слух: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Доступність → Слухові пристрої: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Доступність → Слухові пристрої → Слухові пристрої MFi: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Доступність → Слухові пристрої → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Доступність → Слухові пристрої → Режим сумісності: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Доступність → Розпізнавання звуку: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Доступність → Розпізнавання звуку → Звуки: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Доступність → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Доступність → RTT/TTY → Програмний TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Доступність → RTT/TTY → Апаратний TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Доступність → Аудіювання і візуалізація: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Доступність → Аудіювання і візуалізація → Аудіювання: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Доступність → Аудіювання і візуалізація → Адаптації навушників: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Доступність → Аудіювання і візуалізація → NEEDS_OVERRIDE_1248 → Адаптації навушників: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Доступність → Аудіювання і візуалізація → NEEDS_OVERRIDE_1248 → Власні аудіоналаштування: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Доступність → Аудіювання і візуалізація → Фонові звуки: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Доступність → Аудіювання і візуалізація → Монозвук: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Доступність → Аудіювання і візуалізація → Шумогасіння для телефону: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Доступність → Аудіювання і візуалізація → Баланс: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Доступність → Аудіювання і візуалізація → Візуалізація: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Доступність → Аудіювання і візуалізація → Спалах для оповісток: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Доступність → Аудіювання і візуалізація → NEEDS_OVERRIDE_1249 → Спалах, коли відімкнено: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Доступність → Аудіювання і візуалізація → NEEDS_OVERRIDE_1249 → Спалах у режимі тиші: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Доступність → Аудіювання і візуалізація → Баланс стереозвуку: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Доступність → Аудіювання і візуалізація → Звуки під час увімкнення і вимкнення: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Доступність → Субтитри і підписи: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Доступність → Субтитри і підписи → Стиль: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Доступність → Субтитри і підписи → Приховані субтитри + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Доступність → Субтитри і підписи → Показ аудіотранскрипцій: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Доступність → NEEDS_OVERRIDE_1250 → Субтитри наживо (бета-версія): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Доступність → NEEDS_OVERRIDE_1250 → Субтитри наживо під час викликів FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Доступність → Загальні: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Доступність → Керований доступ: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Доступність → Керований доступ → Керований доступ: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Доступність → Керований доступ → Параметри коду допуску: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Доступність → Керований доступ → NEEDS_OVERRIDE_1251 → Код допуску для Керованого доступу: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Доступність → Керований доступ → Часові ліміти: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Доступність → Керований доступ → NEEDS_OVERRIDE_1252 → Будильник: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Доступність → Керований доступ → NEEDS_OVERRIDE_1252 → Звук: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Доступність → Керований доступ → NEEDS_OVERRIDE_1252 → Промовляти: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Доступність → Керований доступ → Спеціальне спрощення: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Доступність → Керований доступ → Автозамикання дисплея: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Доступність → Власний режим доступності: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Доступність → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Доступність → Siri → Текст для Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Доступність → Siri → Промовляти відповіді: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Доступність → Siri → Автоматично промовляти відповіді: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Доступність → Siri → Віддавати перевагу беззвучним відповідям: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Доступність → Siri → Не говорити в режимі тиші: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Доступність → Siri → Завжди чекати «Hey Siri»: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Доступність → Спеціальне спрощення: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Доступність → Спеціальне спрощення → Лупа: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Доступність → Параметри програм: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Доступність → Контроль пристроїв поблизу: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Дисплей і яскравість: `prefs:root=DISPLAY`
+- Дисплей і яскравість → Вигляд: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Дисплей і яскравість → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Дисплей і яскравість → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Дисплей і яскравість → Night Shift → Заплановано: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Дисплей і яскравість → Night Shift → Увімкнути вручну до завтра: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Дисплей і яскравість → Night Shift → Температура кольору: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Дисплей і яскравість → Автозамикання: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Дисплей і яскравість → Будити піднесенням: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Дисплей і яскравість → Замкнути / відімкнути: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Дисплей і яскравість → Розмір тексту: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Дисплей і яскравість → Жирний шрифт: `prefs:root=DISPLAY#BOLD_TEXT`
+- Дисплей і яскравість → Зум дисплея: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Дисплей і яскравість → Вид: `prefs:root=DISPLAY&path=MAGNIFY`
+- Сповіщення про контакт: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_1253 → Значки сповіщення: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_1253 → Нові викачані програми: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Початковий екран і багатозадачність: `prefs:root=HOME_SCREEN_DOCK`
+- Початковий екран і багатозадачність → NEEDS_OVERRIDE_1254 → Показувати Бібліотеку програм на панелі Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Початковий екран і багатозадачність → Пропоновані та недавні програми в Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Початковий екран: `prefs:root=HOME_SCREEN`
+- Початковий екран → Нові викачані програми: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Початковий екран → Значки сповіщення: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID і код допуску: `prefs:root=PASSCODE`
+- Touch ID і код допуску → Вимкнути код допуску: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID і код допуску → Змінити код допуску: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID і код допуску → Вимагати код: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID і код допуску → Голос. набір: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID і код допуску → Дозволити доступ під замком: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID і код допуску → Відповіді повідомленням: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID і код допуску → Керування Домом: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID і код допуску → Гаманець: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID і код допуску → Набирати пропущені: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID і код допуску → Стерти дані: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID і код допуску → Відмикання з Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Подкасти: `prefs:root=PODCASTS`
+- Сигнал SOS: `prefs:root=EMERGENCY_SOS`
+- Сигнал SOS → Виклик бічною кнопкою: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Сигнал SOS → Автовиклик: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Сигнал SOS → Екстрені контакти: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Сигнал SOS → Звук відліку: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Звуки: `prefs:root=Sounds`
+- Звуки → Безпечне користування навушниками: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Звуки → Безпечне користування навушниками → Адаптери Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Звуки → Безпечне користування навушниками → Сповіщення від навушників: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Звуки → Безпечне користування навушниками → Приглушити гучні звуки: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Звуки → Звукові ефекти: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Звуки → Дзвінок і оповістки: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Звуки → Змінювати кнопками: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Звуки → Звуки і Вібросигнали: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Звуки → Мелодія: `prefs:root=Sounds&path=Ringtone`
+- Звуки → Сигнал: `prefs:root=Sounds&path=Text_Messages`
+- Звуки → Нова голосова пошта: `prefs:root=Sounds&path=Voicemail`
+- Звуки → Нова пошта: `prefs:root=Sounds&path=NEW_MAIL`
+- Звуки → Пошту відіслано: `prefs:root=Sounds&path=SENT_MAIL`
+- Звуки → Оповістки календаря: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Звуки → Нагадування: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Звуки → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Звуки → Клацання клавіш: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Звуки → Звук замикання: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Погода: `prefs:root=WEATHER`
+- Компас: `prefs:root=COMPASS`
+- Компас → Справжня північ: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Центр керування: `prefs:root=ControlCenter`
+- Центр керування → Доступ у програмах: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Центр керування → Налаштувати засоби керування: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Розробник: `prefs:root=DEVELOPER_SETTINGS`
+- Розробник → Багатошляхові мережі: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Розробник → Багатошляхові мережі → Багатошляхові мережі: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Розробник → Вигляд: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Розробник → Темний вигляд: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Розробник → Спарені пристрої: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Розробник → Очистити довірені компʼютери: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Розробник → Інструменти: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Розробник → Журналювання: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Розробник → Автоматизація КІ: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Розробник → Мережа: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Розробник → Стабілізатор мережевого зʼєднання: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Розробник → Тестування Програми розробника iAd: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Розробник → Частота заповнення: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Розробник → Виділяти банери в обріз: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Розробник → Необмежений показ реклами: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Розробник → Тестування PassKit: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Розробник → Додаткове журналювання: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Розробник → Дозволити HTTP-сервіси: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Розробник → Вимкнути обмежування частоти: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Розробник → NFC-ключ допуску (опція): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Розробник → Тестування медіаслужб: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Розробник → Пропозиції AirPlay: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Розробник → Скинути медійні служби: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Розробник → Тестування News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Розробник → Скинути локальні дані після перезапуску: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Розробник → Тестування середовища медіапрогравача: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Розробник → ППІ відтвірного контенту: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Розробник → Тестування ТБ‑провайдера: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Розробник → ТБ‑провайдери: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Розробник → ППІ ClassKit: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Розробник → Тестування CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Розробник → Переіндексувати всі елементи: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Розробник → Переіндексувати всі елементи з ідентифікаторами: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Розробник → Тестування швидких команд: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Розробник → Показувати недавні швидкі команди: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Розробник → Показувати наступний медіавміст: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Розробник → Показувати пожертви на Замкненому екрані: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Розробник → Швидкі команди на годинник примусом: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Розробник → Тестування MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Розробник → Увімкнути MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Здоровʼя: `prefs:root=HEALTH`
+- Мірило: `prefs:root=MEASURE`
+- Мірило → Одиниці міри: `prefs:root=MEASURE#MEASURE_UNITS`
+- Мірило → Британські: `prefs:root=MEASURE#Imperial`
+- Мірило → Метричні: `prefs:root=MEASURE#Metric`
+- Музика: `prefs:root=MUSIC`
+- Музика → Показувати Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Музика → Додавати пісні підбірок: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Музика → Показувати зірки: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Музика → Синхронізувати бібліотеку: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Музика → Стільникові дані: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Музика → Викачана музика: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Музика → Оптимізувати сховище: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Музика → Автоматичні викачування: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Музика → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Музика → Корекція гучності: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Музика → Історія слухання: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Нотатки: `prefs:root=NOTES`
+- Нотатки → Основний запис: `prefs:root=NOTES&path=Default%20Account`
+- Нотатки → Пароль: `prefs:root=NOTES&path=Password`
+- Нотатки → Сортування нотаток: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Нотатки → Нові нотатки починати з: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Нотатки → Позначені в кінець списку: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Нотатки → Лінії та сітки: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Нотатки → До Фотографій: `prefs:root=NOTES#Save%20to%20Photos`
+- Нотатки → Нотатки на замкненому екрані: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Повідомлення: `prefs:root=MESSAGES`
+- Переклад: `prefs:root=TRANSLATE`
+- Переклад → Переклад на пристрої: `prefs:root=TRANSLATE#OnDeviceOnly`
+- ТБ‑провайдер: `prefs:root=VIDEO_SUBSCRIBER`
+- Диктофон: `prefs:root=VOICE_MEMOS`
+- Диктофон → Очистити видалене: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Диктофон → Якість аудіо: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Диктофон → Іменування за місцем: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Камера: `prefs:root=CAMERA`
+- Камера → Формати: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Камера → Формати → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Камера → NEEDS_OVERRIDE_1255 → Відео HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Камера → Опції утримання режиму: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Камера → Опції утримання режиму → Режим камери: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Камера → Сітка: `prefs:root=CAMERA#CameraGridSwitch`
+- Камера → Сканувати QR-коди: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Карти: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Контакти: `prefs:root=CONTACTS`
+- Контакти → Надавати Контактам доступ до: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Контакти → Siri і Пошук: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Контакти → Сортувати: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Контакти → Порядок виведення: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Контакти → Коротке імʼя: `prefs:root=CONTACTS&path=PersonShortName`
+- Контакти → Коротке імʼя → Коротке імʼя: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Контакти → Коротке імʼя → Псевдоніми, якщо є: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Контакти → Мої відомості: `prefs:root=CONTACTS&path=MeCard`
+- Контакти → Імпортувати контакти з SIM: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Книги: `prefs:root=IBOOKS`
+- Книги → Онлайн-вміст: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Книги → СИНХРОНІЗУВАННЯ: `prefs:root=IBOOKS#SYNCING`
+- Книги → Читаю зараз: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Книги → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Книги → ЧИТАННЯ: `prefs:root=IBOOKS#READING`
+- Книги → Текст за шириною: `prefs:root=IBOOKS#BKFullJustification`
+- Книги → Автоперенесення: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Книги → Рух в обидва боки: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Книги → Цілі читання: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Книги → Очистити дані цілей читання: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Книги → ТРИВАЄ ПОШУК: `prefs:root=IBOOKS#SEARCHING`
+- Книги → Книгарня: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Книги → АУДІОКНИГИ: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Книги → Пропуск вперед: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Книги → Пропуск назад: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Книги → ЗОВНІШНІ ПУЛЬТИ: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Книги → Наступний/попередній: `prefs:root=IBOOKS#Next/Previous`
+- Книги → Пропуск вперед/назад: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Книги → ПРИВАТНІСТЬ: `prefs:root=IBOOKS#PRIVACY`
+- Книги → Скинути ідентифікатор: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Книги → Визнання: `prefs:root=IBOOKS&path=Acknowledgements`
+- Календар: `prefs:root=CALENDAR`
+- Календар → Обхід місцевого часу: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Календар → Інші календарі: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Календар → Номери тижнів: `prefs:root=CALENDAR#Week%20Numbers`
+- Календар → Відмови запрошених: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Календар → Так: `prefs:root=CALENDAR&path=Sync`
+- Календар → Типовий час для оповісток: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Календар → Початок тижня: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Календар → Можливі місця: `prefs:root=CALENDAR#Location%20Suggestions`
+- Пошта: `prefs:root=MAIL`
+- Пошта → Облікові записи: `prefs:root=MAIL&path=ACCOUNTS`
+- Пошта → Облікові записи → Додати обліковий запис: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Пошта → Облікові записи → Витяг. нових даних: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Пошта → Передогляд: `prefs:root=MAIL&path=Preview`
+- Пошта → Мітки Мені/Копія: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Пошта → Опції посування: `prefs:root=MAIL&path=Swipe%20Options`
+- Пошта → Питати перед видаленням: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Пошта → Зовнішні зображення: `prefs:root=MAIL#Load%20Remote%20Images`
+- Пошта → Групувати за гілкою: `prefs:root=MAIL#Organize%20by%20Thread`
+- Пошта → Згортати прочитані листи: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Пошта → Нещодавній лист вгорі: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Пошта → Гілки цілком: `prefs:root=MAIL#Complete%20Threads`
+- Пошта → Приглушені гілки: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Пошта → Ігнорувати блокованих: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Пошта → Блоковані: `prefs:root=MAIL&path=Blocked`
+- Пошта → Таємна копія собі: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Пошта → Позначення адрес: `prefs:root=MAIL&path=Mark%20Addresses`
+- Пошта → Збільшити рівень цитати: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Пошта → Відповіді з вкладеннями: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Пошта → Підпис: `prefs:root=MAIL&path=Signature`
+- Телефон: `prefs:root=Phone`
+- Телефон → Мій номер: `prefs:root=Phone&path=My%20Number`
+- Телефон → Вхідні виклики: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Телефон → Анонс викликів: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Телефон → Скарги на SMS/виклики: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Телефон → Відповісти повідомленням: `prefs:root=Phone&path=Respond%20with%20Text`
+- Телефон → Переадресація: `prefs:root=Phone&path=Call%20Forwarding`
+- Телефон → Переадресація → Переадресація: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Телефон → Очікування викликів: `prefs:root=Phone&path=Call%20Waiting`
+- Телефон → Мій ID абонента: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Телефон → Мій ID абонента → NEEDS_OVERRIDE_1256 → Мій ID абонента: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Телефон → Стишувати невідомих абонентів: `prefs:root=Phone#SILENCE_CALLS`
+- Телефон → Блоковані контакти: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Телефон → Асистент набору: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → Блокувальник вмісту: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Блокувати спливні вікна: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Не стежити між сайтами: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Автозаповнення: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Викачування: `prefs:root=SAFARI&path=DOWNLOADS`
+- Паролі: `prefs:root=PASSWORDS`
+- Паролі → Автозаповнення паролів: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Фотографії: `prefs:root=Photos`
+- Фотографії → Фото iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Фотографії → Оптимізувати сховище: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Фотографії → Залишати оригінали: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Фотографії → Мій Фотопотік: `prefs:root=Photos#PhotoStreamSwitch`
+- Фотографії → Спільні альбоми: `prefs:root=Photos#SharedStreamsSwitch`
+- Фотографії → Стільникові дані: `prefs:root=Photos&path=CellularDataLinkList`
+- Фотографії → Автовідтворення відео: `prefs:root=Photos#VideoAutoplaySwitch`
+- Фотографії → Перегляд повного HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Фотографії → Святкові події: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Фотографії → Передавати на Mac чи ПК: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Автоматичні викачування: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Оновлення програм: `prefs:root=STORE#App%20Updates`
+- App Store → Викачування програм: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Автопоказ відео: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Оцінки/відгуки в програмах: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Передогляди статей: `prefs:root=NEWS#show_excerpt_mode`
+- News → Обмежити статті в Сьогодні: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Приватність: `prefs:root=NEWS#Privacy`
+- News → Скинути ідентифікатор: `prefs:root=NEWS#reset_identifier`
+- News → Визнання: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_1257 → Режим польоту: `prefs:root=ROOT#AIRPLANE_MODE`
+- Нагадування: `prefs:root=REMINDERS`
+- Нагадування → Стандартний список: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Нагадування → Стандартний список → Нагадування: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Нагадування → Сповіщення у списку «Сьогодні»: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Нагадування → Показувати як прострочені: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Акумулятор: `prefs:root=BATTERY_USAGE`
+- Акумулятор → Режим низького заряду: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Акумулятор → Справність акумулятора: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Швидкі команди: `prefs:root=SHORTCUTS`
+- Швидкі команди → Синхронізація iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Швидкі команди → Тотожний порядок команд: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Швидкі команди → Правові зауваження: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri і Пошук: `prefs:root=SIRI`
+- Siri і Пошук → Дозволити Siri під замком: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri і Пошук → Мова: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri і Пошук → Голос Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri і Пошук → Голосовий відгук: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri і Пошук → Моя інформація: `prefs:root=SIRI&path=MY_INFO`
+- Siri і Пошук → Пропозиції в Пошуку: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri і Пошук → Пропозиції в тлумаченні: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri і Пошук → На замкненому екрані: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Біржі: `prefs:root=STOCKS`
+- Біржі → Приватність: `prefs:root=STOCKS#Privacy`
+- Біржі → Скинути ідентифікатор: `prefs:root=STOCKS#reset_identifier`
+- Стільник: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Стільник → Опції стільникових даних: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Стільник → Опції стільникових даних → Режим економії даних: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Стільник → Стільникові дані: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → Відтворення через стільник: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → Якість відео: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → Покупки й орендовані: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → Домашня колекція: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Шпалера: `prefs:root=Wallpaper`

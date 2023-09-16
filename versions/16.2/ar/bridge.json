@@ -1,0 +1,561 @@
+{
+  "تسهيلات الاستخدام": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "الرؤية": "bridge:root=ACCESSIBILITY#VISION",
+    "التعليق الصوتي": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "تكبير/تصغير": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "نص عريض": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "تشغيل/إيقاف العناوين": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "تدرج الرمادي": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "تقليل الشفافية": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "تقليل الحركة": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "صوت أجراس": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "جدول الأوقات": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "كل ساعة": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "٣٠ دقيقة": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "١٥ دقيقة": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "الأصوات": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "أجراس": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "طيور": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "العصبية": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "سرعة الضغط على الزر الجانبي": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "سرعة النقر": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "الافتراضي": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "بطيء": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "الأبطأ": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "تسهيلات اللمس": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "تسهيلات اللمس": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "مدة الضغط المطول": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "تجاهل التكرار": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "مساعدة الضغط": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "متوقفة": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "استخدام موقع اللمسة الأولية": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "استخدام موقع اللمسة النهائية": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "نشاط الكرسي المتحرك": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "ووكي توكي": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "اضغط للتحدث": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "السمع": "bridge:root=ACCESSIBILITY#HEARING",
+    "‏RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "‏RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "رقم الترحيل": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "الإرسال فورًا": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "الردود الافتراضية": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "الردود الافتراضية": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "إضافة رد…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "صوت أحادي": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "توازن يمين-يسار الاستريو": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "إشعارات سماعة الرأس": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "أجهزة السمع": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "الإضافة": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "مستوى صوت المايكروفون": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "البرنامج": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "سرعة وقت Taptic": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "اختصار تسهيلات الاستخدام": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "إقران Watch جديدة": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "واجهة التطبيق": "bridge:root=APP_VIEW_ID",
+  "عام": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "حول": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "الاسم": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "ضمان محدود": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "ضمان محدود": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "تفاصيل التغطية": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "تغطية المكوّنات الصلبة": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "الدعم عبر الهاتف والدردشة": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "الأغاني": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "الصور": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "التطبيقات": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "السعة": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "متوفر": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "الإصدار": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "شركة الاتصالات": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "الطراز": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "الرقم التسلسلي": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "عنوان Wi-Fi": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "‏EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "قانوني": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "عرض دليل مستخدم Apple Watch ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "تحديث البرامج": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "تثبيت التطبيقات تلقائيًا": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "نمط الطيران": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "التركيز": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "محاكاة الـ iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "اتجاه الساعة": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "ارتداء Apple Watch على": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "المعصم الأيسر": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "المعصم الأيمن": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "مفتاح التاج الرقمي على الجانب الأيسر": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "مفتاح التاج الرقمي على الجانب الأيمن": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "تمكين الإملاء": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "تمكين التسليم": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "نمط منضدة الليل": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "تمكين لقطات الشاشة": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "سعة التخزين": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "سجلات التشخيص": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "نسخ تحليلات Watch": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "إعادة تعيين": "bridge:root=GENERAL_LINK&path=RESET",
+    "تشغيل تلقائي عند الانغمار": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "التشغيل التلقائي لتطبيقات الصوت": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "اللغة والمنطقة": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "محاكاة الـ iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "مخصص": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "رجوع للساعة": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "رجوع للساعة": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "دائمًا": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "بعد دقيقتين": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "بعد ساعة واحدة": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "التطبيقات": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "قيد التشغيل": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "شاشة العرض والإضاءة": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "الإضاءة": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "تشغيل دومًا": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "تشغيل دومًا": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "خفض المعصم": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "إظهار الإشعارات": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "إظهار الإشعارات": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "تطبيقات APPLE WATCH": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "إظهار التطبيقات": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "إظهار التطبيقات": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "التطبيقات": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "حجم النص": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "نص عريض": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "التنبيه": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "تنبيه عند رفع المعصم": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "تنبيه عند تدوير مفتاح التاج": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "مدة التنبيه": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "عند الضغط": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "تنبيه لمدة ١٥ ثانية": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "تنبيه لمدة ٧٠ ثانية": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "الأصوات والحس اللمسي": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "مستوى صوت التنبيه": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "نمط صامت": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "صوت سماعات الرأس": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "استخدام سماعة الرأس بأمان": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "إشعارات سماعة الرأس": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "خفض الأصوات المرتفعة": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "الحس اللمسي": "bridge:root=SOUNDS_ID#Haptics",
+    "التنبيهات اللمسية": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "الحس اللمسي لمفتاح التاج": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "ذبذبات النظام": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "تغطية للكتم": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "طوارئ SOS": "bridge:root=SOS_MODE_ID",
+  "الخصوصية": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "معدل نبض القلب": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "معدل التنفس": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "تعقب اللياقة": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "إعادة تعيين بيانات معايرة اللياقة": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "قياسات الصوت المحيط": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "قياسات صوت سماعات الرأس": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "الحفظ في \"صحتي\"": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "لمدة ٨ أيام": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "حتى أحذفها": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "قياسات أكسجين الدم": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "درجة حرارة المعصم": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "مدة استخدام الجهاز": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "العمق": "bridge:root=com.apple.DepthCompanionSettings",
+  "زر الإجراءات": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "تنزيلات تلقائية": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "تحديثات تلقائية": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "صحتي": "bridge:root=com.apple.BridgeHealthSettings",
+  "البريد والتقويم": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "الحسابات": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "إضافة حساب Google...": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "جلب": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "إيقاف": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "كل ساعة": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "٣٠ دقيقة": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "١٥ دقيقة": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "غسل اليدين": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "السماح بالإشعارات": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "إرسال إلى مركز الإشعارات": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "إيقاف الإشعارات": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "تجميع الإشعارات": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "مؤقت غسل اليدين": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "خلوي": "bridge:root=CELLULAR_ID",
+  "الإضافات": "bridge:root=COMPLICATIONS",
+  "النشاط": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "تحديثات التقدم": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "لا توجد": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "كل ساعتين": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "كل ٤ ساعات": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "كل ٦ ساعات": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "كل ٨ ساعات": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "الإنجازات": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "ملخص أسبوعي": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "التدريب اليومي": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "حالات إكمال الهدف": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "تحديات خاصة": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "إشعارات مشاركة النشاط": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "القلب": "bridge:root=com.apple.HeartRateSettings#1",
+    "إشعارات معدل نبض القلب": "bridge:root=com.apple.HeartRateSettings#2",
+    "معدل نبض القلب مرتفع": "bridge:root=com.apple.HeartRateSettings#3",
+    "معدل نبض القلب منخفض": "bridge:root=com.apple.HeartRateSettings#4",
+    "إيقاع غير منتظم": "bridge:root=com.apple.HeartRateSettings#5",
+    "عرض تخطيطات القلب المسجلة في \"صحتي\"": "bridge:root=com.apple.HeartRateSettings#6",
+    "تخطيط القلب": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "الرسائل": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "محاكاة الـ iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "مخصص": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "ردود افتراضية": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "الردود الافتراضية": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "ردود ذكية": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "إضافة رد…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "تكرار التنبيهات": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "رسائل صوتية": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "الانتباه الذهني": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "السماح بالإشعارات": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "إرسال إلى مركز الإشعارات": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "إيقاف الإشعارات": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "تذكيرات الانتباه الذهني": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "بداية اليوم": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "نهاية اليوم": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "إضافة تذكير…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "ملخص أسبوعي": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "كتم لليوم": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "معدل التنفس": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "‏٤ أنفاس في الدقيقة": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "‏٥ أنفاس في الدقيقة": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "‏٦ أنفاس في الدقيقة": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "‏٧ أنفاس في الدقيقة": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "‏٨ أنفاس في الدقيقة": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "‏٩ أنفاس في الدقيقة": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "‏١٠ أنفاس في الدقيقة": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "الحس اللمسي": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "لا شيء": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "الحد الأدنى": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "بارز": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "النوم": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "إعداد النوم في تطبيق صحتي": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "الكتب الصوتية": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "تسجيل الدخول": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "التقويم": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "الإشعارات": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "محاكاة الـ iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "مخصص…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "التقويمات": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "الساعة": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "الوقت بتنسيق ٢٤ ساعة": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "صوت أجراس": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "الأصوات": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "أجراس": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "طيور": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "نطق الوقت": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "التحكم من خلال نمط الصامت": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "النطق دومًا": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "وقت Taptic": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "وقت Taptic": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "أرقام": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "مقتضب": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "رمز مورس": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "تنبيهات الإشعارات اللحظية من iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "مؤشر الإشعارات": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "مونوغرام": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "إشعارات واجهة الساعة": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "اختصارات المدينة": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "مصادر بيانات واجهة Siri": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "جهات الاتصال": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "ترتيب الظهور": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "الأول، العائلة": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "العائلة، الأول": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "ترتيب العرض": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "الأول، العائلة": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "العائلة، الأول": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "اسم مختصر": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "اسم مختصر": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "الاسم الأول وبادئة اسم العائلة": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "بادئة الاسم الأول واسم العائلة": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "الاسم الأول فقط": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "اسم العائلة فقط": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "يفضل الكنية": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "البريد": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "محاكاة الـ iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "مخصص": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "إعدادات البريد": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "الحسابات": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "تضمين البريد": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "معاينة الرسالة": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "لا شيء": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "سطر واحد": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "سطران": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "الردود الافتراضية": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "الردود الافتراضية": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "إضافة رد…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "التوقيع": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "الخرائط": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "تنبيهات المنعطفات": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "القيادة": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "القيادة مع كاربلاي": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "السير": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "على الدراجة": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "إظهار التنقل": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "المواصلات": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "معلومات البنية:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "الموسيقى": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "قوائم التشغيل والألبومات": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "إضافة موسيقى…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "‏المحفظة و Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "‏Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "إضافة بطاقة": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "الإشعارات": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "محاكاة الـ iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "مخصص": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "الصور": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "مزامنة الصور": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "الذكريات": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "مزامنة الذكريات": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "الصور المميزة": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "مزامنة الصور المميزة": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "ألبوم": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "مزامنة الألبوم": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "حد الصور": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "إعدادات الإشعارات": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "محاكاة الـ iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "مخصص": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "الضوضاء": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "قياسات الصوت المحيط": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "إشعارات الضوضاء": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "حد الضوضاء": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "متوقفة": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "٨٠ ديسيبل": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "٨٥ ديسيبل": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "٩٠ ديسيبل": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "٩٥ ديسيبل": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "١٠٠ ديسيبل": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "تجميع الإشعارات": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "أكسجين الدم": "bridge:root=com.apple.OxygenSaturationSettings",
+  "إعدادات شركة الاتصالات": "bridge:root=CARRIER_SETTINGS",
+  "إيقاف رمز الدخول": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "تشغيل رمز الدخول": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "تغيير رمز الدخول": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "رمز دخول بسيط": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "فتح القفل باستخدام الـ iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "مسح البيانات": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "اكتشاف المعصم": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "الهاتف": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "المكالمات": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "النغمة": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "الصوت": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "لمسي": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "التمرين": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "نمط الطاقة المنخفضة": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "إظهار مقياس الهدف": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "عرض التمرين": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "الإيقاف المؤقت تلقائيًا": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "الإيقاف المؤقت تلقائيًا": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "بدء تذكير التمرين": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "إنهاء تذكير التمرين": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "اضغط للإيقاف المؤقت": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "اكتشاف أجهزة الصالات الرياضية": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "عرض مستوى التقدم/السرعة": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "الحالية": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "المتوسط": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "قائمة تشغيل التمرين": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "لا توجد": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "قوائم التشغيل": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "تشغيل من البداية": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "عشوائي": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "وحدات القياس": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "سعرات": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "كيلوسعرة": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "كيلوجول": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "ياردة": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "متر": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "ميل": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "كيلومتر": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "الاستجابة الصوتية": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "وقت المشي": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "إضافة تمارين جديدة إلى الساعة": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "الأسهم": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "إضافة واجهة الساعة تعرض": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "السعر الحالي": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "التغير في النقاط": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "التغير في النسبة المئوية": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "رسملة السوق": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "واجهة Siri تعرض سعر": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "السهم المحدد": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "السهم المحدد": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "شريط الأيقونات": {
+    "(root)": "bridge:root=DOCK",
+    "ترتيب شريط الأيقونات": "bridge:root=DOCK#OrderingOptionGroup",
+    "الحديثة": "bridge:root=DOCK#Recents",
+    "المفضلة": "bridge:root=DOCK#Favorites"
+  },
+  "البودكاست": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "اسأل Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "ارفع الساعة للتكلم": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "اضغط مفتاح التاج الرقمي": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "الاستجابة الصوتية": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "تشغيل دومًا": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "التحكم من خلال نمط الصامت": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "سماعة الرأس فقط": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "مستوى الصوت": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "اقتراحات Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "ووكي توكي": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "السماح بالإشعارات": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "إرسال إلى مركز الإشعارات": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "إيقاف الإشعارات": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "تجميع الإشعارات": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "الأصدقاء": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "الطقس": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "المدينة الافتراضية": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "المدينة الافتراضية": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "الموقع الحالي": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "إرسال إيصالات القراءة": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

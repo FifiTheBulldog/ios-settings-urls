@@ -1,0 +1,561 @@
+{
+  "Pristupačnost": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Vid": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Zumiraj": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Podebljani tekst": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Oznake za uklj./isklj.": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Sivi tonovi": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Smanjenje prozirnosti": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Smanji pomicanje": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Zvono": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Raspored": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Svaki sat": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "Svakih 30 minuta": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "Svakih 15 minuta": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Zvukovi": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Zvona": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Ptice": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Motoričke sposobnosti": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Brzina pritiskanja bočne tipke": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Brzina pritiskanja": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Standardno": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Sporo": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Najsporije": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Prilagodbe dodira": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Prilagodbe dodira": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Trajanje zadržavanja": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Ignoriraj ponavljanje": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Asistirani dodir": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Isključeno": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Koristi lokaciju početnog dodira": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Koristi lokaciju završnog dodira": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "AKTIVNOST U INVALIDSKIM KOLICIMA": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Walkie-Talkie": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Dodirnite za razgovor": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Sluh": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Broj za prosljeđivanje": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Odmah pošalji": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Standardni odgovori": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Standardni odgovori": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Dodaj odgovor…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Mono zvuk": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Stereo ravnoteža lijevo-desno": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Obavijesti o slušalicama": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Slušni aparati": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Dodatak": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Glasnoća mikrofona": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Program": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Brzina dodira": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Prečac pristupačnosti": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Upari novi sat": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Prikaz aplikacije": "bridge:root=APP_VIEW_ID",
+  "Općenito": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Opis": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Ime": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Ograničeno jamstvo": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Ograničeno jamstvo": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "DETALJI O POKRIVENOSTI": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Pokrivenost za hardver": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Podrška za dopisivanje i telefon": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Pjesme": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Fotografije": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Aplikacije": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Kapacitet": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Dostupno": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Verzija": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Operater": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Model": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Serijski broj": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi-Fi adresa": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Pravne informacije": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Upute za uporabu Apple Watcha ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Ažuriranje softvera": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Auto instaliranje aplikacija": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Zrakoplovni mod": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Fokus": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Zrcali moj iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Orijentacija sata": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Apple Watch nosite": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Na lijevom zapešću": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Na desnom zapešću": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown na lijevoj strani": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown na desnoj strani": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Omogući Diktat": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Omogući Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Mod za noćni ormarić": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Omogući slike zaslona": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Memorija": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Dijagnostički log zapisi": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Kopiraj analizu sata": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Resetiraj": "bridge:root=GENERAL_LINK&path=RESET",
+    "Automatski pokreni ispod površine vode": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Automatski pokreni audio aplikacije": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Jezik i regija": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Zrcali moj iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Prilagodi": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "POVRATAK NA SAT": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "POVRATAK NA SAT": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Uvijek": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "Nakon 2 minute": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "Nakon sat vremena": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APLIKACIJE": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Izvodi se": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Zaslon i svjetlina": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Svjetlina": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Uvijek uključeno": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Uvijek uključeno": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "ZAPEŠĆE SPUŠTENO": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Prikaži obavijesti": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Prikaži obavijesti": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APLIKACIJE ZA APPLE WATCH": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Prikaz aplikacija": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Prikaz aplikacija": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APLIKACIJE": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Veličina teksta": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Podebljani tekst": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "UKLJUČI": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Uključi po podizanju zapešća": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Uključi po okretanju krune": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Trajanje uključenosti": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "NAKON DODIRA": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Uključi na 15 sekundi": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Uključi na 70 sekundi": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Zvukovi i vibracije": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Glasnoća alarma": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Tihi način rada": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Zvuk slušalica": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Sigurna uporaba slušalica": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Obavijesti o slušalicama": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Stišaj glasne zvukove": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Vibracija": "bridge:root=SOUNDS_ID#Haptics",
+    "Upozorenja vibracijom": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Vibracija krune": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Vibracije sustava": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Prekrijte za isključenje zvuka": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "Hitan poziv": "bridge:root=SOS_MODE_ID",
+  "Privatnost": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Puls": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Respiratorna brzina": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Praćenje kondicije": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Resetiraj podatke kalibriranja": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Mjerenja zvukova iz okruženja": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Mjerenja zvuka iz slušalica": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Spremi u aplikaciju Zdravlje": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "Za 8 dana": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Dok ne izbrišem": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Mjerenja zasićenosti krvi kisikom": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Temperatura zapešća": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Vrijeme uporabe zaslona": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Dubina": "bridge:root=com.apple.DepthCompanionSettings",
+  "Tipka postupka": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Automatska preuzimanja": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Automatska ažuriranja": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Zdravlje": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail i Kalendar": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Računi": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Dodaj Google račun…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Dohvati": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Isključeno": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Svaki sat": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Pranje ruku": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Dozvoli obavijesti": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Šalji u Centar za obavijesti": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Isključi obavijesti": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Grupiranje obavijesti": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Brojač za pranje ruku": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Mobilni podaci": "bridge:root=CELLULAR_ID",
+  "Dodaci": "bridge:root=COMPLICATIONS",
+  "Aktivnost": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Informacije o napretku": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Bez": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "Svaka 2 sata": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "Svaka 4 sata": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "Svakih 6 sati": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "Svakih 8 sati": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Dostignuća": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Tjedni sažetak": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Dnevni savjeti": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Dovršeni ciljevi": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Posebni izazovi": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Obavijesti o aktivnosti": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Srce": "bridge:root=com.apple.HeartRateSettings#1",
+    "Obavijesti o pulsu": "bridge:root=com.apple.HeartRateSettings#2",
+    "Visok puls": "bridge:root=com.apple.HeartRateSettings#3",
+    "Nizak puls": "bridge:root=com.apple.HeartRateSettings#4",
+    "Nepravilan ritam": "bridge:root=com.apple.HeartRateSettings#5",
+    "Prikaži EKG snimke u Zdravlju": "bridge:root=com.apple.HeartRateSettings#6",
+    "EKG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Poruke": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Zrcali moj iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Prilagodi": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Standardni odgovori": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Standardni odgovori": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Pametni odgovori": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Dodaj odgovor…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Ponovi alarme": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Audio poruke": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Svjesnost": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Dozvoli obavijesti": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Šalji u Centar za obavijesti": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Isključi obavijesti": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Podsjetnici za svjesnost": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Početak dana": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Kraj dana": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Dodaj podsjetnik…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Tjedni sažetak": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Isključi zvuk za danas": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Brzina disanja": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 udisaja u minuti": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 udisaja u minuti": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 udisaja u minuti": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 udisaja u minuti": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 udisaja u minuti": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 udisaja u minuti": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 udisaja u minuti": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Vibracija": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Bez": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Minimalno": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Upadljivo": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Spavanje": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Podesite Spavanje u aplikaciji Zdravlje": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Audio knjige": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Prijava": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Kalendar": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "OBAVIJESTI": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Zrcali moj iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Prilagodi…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "KALENDARI": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Sat": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24-satno vrijeme": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Zvono": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Zvukovi": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Zvona": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Ptice": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Pročitaj vrijeme": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Upravljaj tihim načinom rada": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Uvijek pročitaj": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Vrijeme dodira": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Vrijeme dodira": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Znamenke": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Kratko": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Morseov kôd": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Proslijedi alarme s iPhonea": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Indikator obavijesti": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monogram": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Obavijesti o brojčaniku sata": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Kratice gradova": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Izvori podataka brojčanika Siri": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Kontakti": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Razvrstavanje": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Ime, prezime": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Prezime, ime": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Redoslijed prikaza": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Ime, prezime": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Prezime, ime": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Kratko ime": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Kratko ime": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Ime i inicijal prezimena": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Inicijal imena i prezime": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Samo ime": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Samo prezime": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Preferiraj nadimke": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Zrcali moj iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Prilagodi": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Postavke aplikacije Mail": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Računi": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Dodajte Mail": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Isječak poruke": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Bez": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 redak": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 retka": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Standardni odgovori": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Standardni odgovori": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Dodaj odgovor…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Potpis": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Karte": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Obavijesti za skretanje": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Vožnja": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Vožnja uz CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Hodanje": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Bicikliranje": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Prikaži navigaciju": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Javni prijevoz": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Informacije o međuverziji:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Glazba": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "LISTE I ALBUMI": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Dodaj glazbu…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Novčanik i Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Dodaj karticu": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Obavijesti": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Zrcali moj iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Prilagodi": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Fotografije": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Sinkroniziranje fotografija": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Uspomene": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Sinkroniziraj uspomene": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Izdvojene fotografije": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Sinkroniziraj izdvojene fotografije": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Album": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Sinkroniziraj album": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Ograničenje": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Postavke za obavijesti": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Zrcali moj iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Prilagodi": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Buka": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Mjerenja zvukova iz okruženja": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Obavijesti o buci": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Prag buke": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Isključeno": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 decibela": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 decibela": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 decibela": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 decibela": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 decibela": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Grupiranje obavijesti": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Zasićenost kisikom": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Postavke operatera": "bridge:root=CARRIER_SETTINGS",
+  "Isključi šifru": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Uključi šifru": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Promijeni šifru": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Jednostavna lozinka": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Otključajte pomoću iPhonea": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Obriši podatke": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Detekcija zapešća": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Telefon": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Pozivi": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Melodija zvona": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Zvuk": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Vibracija": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Trening": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Mod slabog napajanja": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Brojčani prikaz ciljeva": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Prikaz treninga": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Auto pauza": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Auto pauza": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Podsjetnik za početak": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Podsjetnik za završetak": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Pritisnite za pauzu": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Detektiraj spravu za vježbanje": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Prikaz tempa/brzine": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Trenutačno": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Prosjek": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Lista za trening": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Bez": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Liste": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Reproduciraj od početka": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Slučajni slijed": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Mjerne jedinice": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Kalorije": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilokalorije": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilodžuli": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Jardi": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Metri": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Milje": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilometri": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Glasovni odgovori": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Vrijeme za šetnju": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Dodajte nove treninge na sat": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Dionice": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Na brojčaniku sata prikazuje se": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Trenutačna cijena": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Promjena bodova": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Promjena postotka": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Tržišna kapitalizacija": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Brojčanik Siri prikazuje kotaciju za": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Odabrana dionica": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Odabrana dionica": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Redoslijed u Docku": "bridge:root=DOCK#OrderingOptionGroup",
+    "Nedavno": "bridge:root=DOCK#Recents",
+    "Omiljeno": "bridge:root=DOCK#Favorites"
+  },
+  "Podcasti": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Pitajte Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Podignite za razgovor": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Pritisnite Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Glasovni odgovori": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Uvijek uključeno": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Upravljaj tihim načinom rada": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Samo slušalice": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Glasnoća glasa": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siri prijedlozi": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Walkie-Talkie": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Dozvoli obavijesti": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Šalji u Centar za obavijesti": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Isključi obavijesti": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Grupiranje obavijesti": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Prijatelji": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Vrijeme": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Standardni grad": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Standardni grad": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Trenutačna lokacija": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Šalji potvrde o čitanju": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

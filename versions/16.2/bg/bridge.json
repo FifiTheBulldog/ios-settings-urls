@@ -1,0 +1,561 @@
+{
+  "Улеснен достъп": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Зрение": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Мащаб": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Удебелен текст": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Вкл./Изкл. Етикети": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Нива на сивото": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Намали прозрачността": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Намаляване на движението": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Позвъняване": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "График": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "На всеки час": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 минути": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 минути": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Звуци": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Камбани": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Птици": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Моторика": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Скорост на щракване на страничния бутон": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Скорост на щракване": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "По подразбиране": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Бавна": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Най-бавно": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Улеснения за докосване": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Улеснения за докосване": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Продължителност на задържане": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Игнорирай Повторение": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Помощ при докосване": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Изкл.": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Използвай Начално място на докосване": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Използвай Крайно място на докосване": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "АКТИВНОСТ НА ИНВАЛИДНА КОЛИЧКА": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Радиостанция": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Докосване за говорене": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Слух": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Номер за прехвърляне": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Незабавно изпращане": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Готови отговори": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Готови отговори": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Добави отговор…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Моно звук": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Стерео баланс ляво-дясно": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Известия от слушалки": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Слухови апарати": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Добавка": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Сила на звука на микрофон": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Програма": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Скорост на осезание": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Бърза команда за улеснен достъп": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Сдвояване на нов часовник": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Изглед за приложения": "bridge:root=APP_VIEW_ID",
+  "Основни": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "За устройството": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Име": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Ограничена гаранция": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Ограничена гаранция": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "ДЕТАЙЛИ ЗА ПОКРИТИЕТО НА ГАРАНЦИЯ": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Хардуерно покритие на гаранция": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Поддръжка на чат и телефон": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Песни": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Снимки": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Приложения": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Капацитет": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Налично": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Версия": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Оператор": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Модел": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Сериен номер": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi-Fi адрес": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Legal": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Вижте ръководството на потребителя за Apple Watch": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Обновяване на софтуер": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Автоматично инсталиране на приложения": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Режим Полет": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Фокус": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Дублирай моя iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Ориентация": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Носете Apple Watch на": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Лява китка": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Дясна китка": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Коронка Digital Crown вляво": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Коронка Digital Crown вдясно": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Активирай диктовка": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Активиране на Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Нощен режим": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Активирай снимки на екрана": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Пространство за съхранение": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Записи в диагностичен регистър": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Копиране на аналитични данни за Watch": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Нулирай": "bridge:root=GENERAL_LINK&path=RESET",
+    "Автоматично стартиране под вода": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Автоматично стартиране на аудио приложения": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Език и регион": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Дублирай моя iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Персонализирано": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "ВРЪЩАНЕ КЪМ ЧАСОВНИК": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "ВРЪЩАНЕ КЪМ ЧАСОВНИК": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Винаги": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "След 2 минути": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "След 1 час": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "ПРИЛОЖЕНИЯ": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Сега се изпълнява": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Екран и яркост": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Яркост": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Винаги включено": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Винаги включено": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "КИТКАТА Е НАДОЛУ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Покажи известия": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Покажи известия": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "ПРИЛОЖЕНИЯ ЗА APPLE WATCH": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Покажи приложения": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Покажи приложения": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "ПРИЛОЖЕНИЯ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Размер на текст": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Удебелен текст": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "АКТИВЕН ЕКРАН": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "При вдигане на китката": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "При завъртане на коронката": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Продължителност на активен екран": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "ПРИ ДОКОСВАНЕ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Активен за 15 секунди": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Активен за 70 секунди": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Звуци и осезания": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Предупреждение за сила на звука": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Тих режим": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Аудио на слушалки": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Безопасна употреба": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Известия от слушалки": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Намаляване на шумни звуци": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Осезания": "bridge:root=SOUNDS_ID#Haptics",
+    "Осезателни предупреждения": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Осезания на коронката": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Системни осезания": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Покрийте, за да заглушите": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "SOS обаждане": "bridge:root=SOS_MODE_ID",
+  "Поверителност": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Сърдечна честота": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Честота на дишане": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Фитнес проследяване": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Нулиране на Фитнес данни на калибриране": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Измерване на шума в околната среда": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Измервания на звука в слушалките": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Запази в Здраве": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "За 8 дни": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "До изтриване": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Измервания на кислород в кръвта": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Температура на китката": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Екранно време": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Дълбочина": "bridge:root=com.apple.DepthCompanionSettings",
+  "Бутон Действие": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Автоматични изтегляния": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Автоматични обновявания": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Здраве": "bridge:root=com.apple.BridgeHealthSettings",
+  "Поща и календар": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Регистрации": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Добавяне на Google регистрация...": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Извличане": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Изкл.": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "На всеки час": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 мин": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 мин": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Миене на ръцете": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Позволи известия": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Изпрати в Център за известия": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Известия Изкл.": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Групиране на известия": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Таймер за миене на ръце": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Мобилни данни": "bridge:root=CELLULAR_ID",
+  "Добавки": "bridge:root=COMPLICATIONS",
+  "Активност": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Обновявания на прогрес": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Няма": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "Всеки 2 часа": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "Всеки 4 часа": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "Всеки 6 часа": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "Всеки 8 часа": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Постижения": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Седмично обобщение": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Ежедневно трениране": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Постигане на цели": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Специални предизвикателства": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Известия за споделяне на активност": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Сърце": "bridge:root=com.apple.HeartRateSettings#1",
+    "Известия за сърдечна честота": "bridge:root=com.apple.HeartRateSettings#2",
+    "Висок пулс": "bridge:root=com.apple.HeartRateSettings#3",
+    "Нисък пулс": "bridge:root=com.apple.HeartRateSettings#4",
+    "Неравномерен ритъм": "bridge:root=com.apple.HeartRateSettings#5",
+    "Преглед на ЕКГ записите в Здраве": "bridge:root=com.apple.HeartRateSettings#6",
+    "ЕКГ": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Съобщения": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Дублирай моя iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Персонализирано": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Готови отговори": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Готови отговори": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Интелигентни отговори": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Добави отговор…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Повтаряне на предупреждения": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Аудио съобщения": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Осъзнатост": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Позволи известия": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Изпрати в Център за известия": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Известия Изкл.": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Известия за Осъзнатост": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Начало на деня": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Края на деня": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Добави напомняне…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Седмично обобщение": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Заглуши за днес": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Дихателен ритъм": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 вдишвания в минута": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 вдишвания в минута": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 вдишвания в минута": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 вдишвания в минута": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 вдишвания в минута": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 вдишвания в минута": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 вдишвания в минута": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Осезания": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Няма": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Минимално": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Осезателно": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Сън": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Настройте Сън в приложението Здраве": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Аудио книги": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Вход": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Календар": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "ИЗВЕСТИЯ": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Дублирай моя iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Персонализиран…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "КАЛЕНДАРИ": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Часовник": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24-часов формат": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Позвъняване": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Звуци": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Камбани": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Птици": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Изговори часа": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Управление в Тих режим": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Винаги изговаряне": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Осезателен час": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Осезателен час": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Цифри": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Сбито": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Морзов код": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Насочени предупреждения от iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Индикатор за известия": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Монограма": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Известия за циферблати": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Съкращения на градове": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Източници на данни за Siri циферблат": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Контакти": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Ред на сортиране": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Първо, Последно": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Последно, Първо": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Ред на показване": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Първо, Последно": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Последно, Първо": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Кратко име": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Кратко име": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Собствено име и инициал на фамилия": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Инициал на собствено име и фамилия": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Само собствено име": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Само фамилия": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Предпочитане на прякори": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Поща": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Дублирай моя iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Персонализирано": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Настройки на Mail": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Регистрации": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Включи поща": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Преглед на съобщение": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Няма": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 линия": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 линии": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Готови отговори": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Готови отговори": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Добави отговор…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Подпис": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Карти": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Предупреждения за завой": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Шофиране": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Шофиране с CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Ходене пеша": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Колоездене": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Покажи навигация": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Обществен транспорт": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Информация за компилация:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Музика": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "СПИСЪЦИ С ПЕСНИ И АЛБУМИ": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Добави музика…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Портфейл и Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Добавяне на карта": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Известия": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Дублирай моя iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Персонализирано": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Снимки": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Синхронизиране на снимки": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Спомени": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Синхронизиране на спомени": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Отличени снимки": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Синхронизиране на отличените снимки": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Албум": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Синхронизиране на албум": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Лимит за снимки": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Настройки на известия": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Дублирай моя iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Персонализирано": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Шум": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Измерване на шума в околната среда": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Известия за шума": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Праг на шума": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Изкл.": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 децибела": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 децибела": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 децибела": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 децибела": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 децибела": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Групиране на известия": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Кислород в кръвта": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Настройки за оператор": "bridge:root=CARRIER_SETTINGS",
+  "Изключи код": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Включи код": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Промени код": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Обикновен код": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Отключване с iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Изтриване на данните": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Разпознаване на китка": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Телефон": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Обаждания": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Тон на звънене": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Звук": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Осезание": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Тренировка": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Пестене на енергия": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Покажи измерване на целта": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Тренировъчен изглед": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Автоматична пауза": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Автоматична пауза": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Напомняне за старт на тренировка": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Напомняне за край на тренировка": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Натиснете за пауза": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Разпознаване на фитнес оборудване": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Изглед за Темпо/Скорост": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Текущ": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Средно": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Списък с песни за тренировки": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Няма": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Списъци с песни": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Пусни от начало": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Разбъркване": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Мерни единици": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Калории": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Килокалории": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Килоджаула": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Ярда": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Метра": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Мили": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Километра": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Гласова обратна връзка": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Време е за ходене": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Добавяне на нови тренировки към Watch": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Акции": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Добавката за циферблата на часовника показва": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Настояща цена": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Изменение в пунктове": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Изменение в проценти": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Пазарна капитализация": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Циферблатът Siri показва котировка за": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Избрана акция": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Избрана акция": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Подредба в Dock": "bridge:root=DOCK#OrderingOptionGroup",
+    "Скорошни": "bridge:root=DOCK#Recents",
+    "Любими": "bridge:root=DOCK#Favorites"
+  },
+  "Подкасти": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Попитай Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Вдигнете, за да говорите": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Натиснете Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Гласова обратна връзка": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Винаги включено": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Управление в Тих режим": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Само слушалки": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Сила на гласа": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Предложения от Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Радиостанция": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Позволи известия": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Изпрати в Център за известия": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Известия Изкл.": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Групиране на известия": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Приятели": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Време": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Град по подразбиране": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Град по подразбиране": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Настоящо местоположение": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Изпращай разписки за прочитане": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

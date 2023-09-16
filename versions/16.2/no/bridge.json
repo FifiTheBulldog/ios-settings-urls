@@ -1,0 +1,561 @@
+{
+  "Tilgjengelighet": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Syn": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Zoom": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Uthevet tekst": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Av/på-etiketter": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Gråtoner": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Reduser gjennomsiktighet": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Reduser bevegelse": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Ringelyd": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Intervaller": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Hver time": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 minutter": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 minutter": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Lyder": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Bjeller": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Fugler": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Motorikk": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Trykkhastighet for sideknapp": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Klikkhastighet": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Standard": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Sakte": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Saktest": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Trykktilpassing": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Trykktilpassing": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Varighet av trykk": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Ignorer gjentakelse": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Trykkstøtte": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Av": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Bruk plasseringen til første trykk": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Bruk plasseringen til siste trykk": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "RULLESTOLAKTIVITET": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Walkietalkie": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Trykk for å snakke": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Hørsel": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Teksttelefonformidling": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Send umiddelbart": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Standardsvar": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Standardsvar": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Legg til svar…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Monolyd": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Stereobalanse": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Hodetelefonvarslinger": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Høreapparater": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Komplikasjon": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Mikrofonvolum": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Program": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Hastighet for følbar tid": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Tilgjengelighetssnarvei": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Koble sammen med ny klokke": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Appvisning": "bridge:root=APP_VIEW_ID",
+  "Generelt": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Om": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Navn": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Begrenset garanti": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Begrenset garanti": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "DEKNINGSINFORMASJON": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Dekning av maskinvare": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Brukerstøtte på chat og telefon": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Sanger": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Bilder": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Apper": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Kapasitet": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Tilgjengelig": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Versjon": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Operatør": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Modell": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Serienummer": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi‑Fi-adresse": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Rettigheter": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Vis Apple Watch-brukerhåndboken ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Oppdatering": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Automatisk appinstallering": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Flymodus": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Fokus": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Gjør som iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Klokkeretning": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Ha Apple Watch på": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Venstre håndledd": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Høyre håndledd": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown på venstre side": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown på høyre side": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple‑ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Aktiver diktering": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Aktiver Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Vekkerklokkemodus": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Aktiver skjermbilder": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Lagring": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Diagnostikklogger": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Kopier Apple Watch-analyse": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Nullstill": "bridge:root=GENERAL_LINK&path=RESET",
+    "Åpne automatisk under vann": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Start lydapper automatisk": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Språk og område": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Gjør som iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Tilpass": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "GÅ TILBAKE TIL KLOKKEN": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "GÅ TILBAKE TIL KLOKKEN": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Alltid": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "Etter 2 minutter": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "Etter 1 time": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APPER": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Spilles nå": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Skjerm og lysstyrke": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Lysstyrke": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Alltid på": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Alltid på": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "SENKET HÅNDLEDD": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Vis varslinger": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Vis varslinger": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCH-APPER": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Vis apper": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Vis apper": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPER": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Tekststørrelse": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Uthevet tekst": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "SKJERM PÅ": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Løft armen for å vekke": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Skru kronen for å vekke": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Varighet av skjerm på": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "VED TRYKKING": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Opplyst i 15 sekunder": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Opplyst i 70 sekunder": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Lyder og følbar respons": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Varselvolum": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Lydløsmodus": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Lyd fra hodetelefoner": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Trygg bruk av hodetelefoner": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Hodetelefonvarslinger": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Demp høye lyder": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Følbar respons": "bridge:root=SOUNDS_ID#Haptics",
+    "Følbare varsler": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Følbar kronerespons": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Følbar systemrespons": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Tildekk for å dempe lyd": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "Nødanrop (SOS)": "bridge:root=SOS_MODE_ID",
+  "Personvern": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Puls": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Pustefrekvens": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Kondisjonssporing": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Nullstill kalibreringsdata for kondisjon": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Mål lyder fra omgivelsene": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Målinger fra hodetelefoner": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Arkiver i Helse": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "I åtte dager": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Til jeg sletter dem": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Mål oksygeninnhold i blodet": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Håndleddstemperatur": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Skjermtid": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Dybde": "bridge:root=com.apple.DepthCompanionSettings",
+  "Handlingsknapp": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Automatiske nedlastinger": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Oppdater automatisk": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Helse": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail og kalender": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Kontoer": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Legg til Google-konto…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Hent": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Av": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Hver time": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Håndvask": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Tillat varslinger": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Send til varslingssenteret": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Varslinger av": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Grupper varslinger": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Håndvask-nedtelling": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Mobilnett": "bridge:root=CELLULAR_ID",
+  "Komplikasjoner": "bridge:root=COMPLICATIONS",
+  "Aktivitet": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Statusoppdateringer": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Ingen": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "Hver 2. time": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "Hver 4. time": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "Hver 6. time": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "Hver 8. time": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Prestasjoner": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Ukentlig oversikt": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Daglig motivasjon": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Oppnådde mål": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Andre utfordringer": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Varslinger om venners aktivitet": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Hjerte": "bridge:root=com.apple.HeartRateSettings#1",
+    "Pulsvarslinger": "bridge:root=com.apple.HeartRateSettings#2",
+    "Rask puls": "bridge:root=com.apple.HeartRateSettings#3",
+    "Langsom puls": "bridge:root=com.apple.HeartRateSettings#4",
+    "Ujevn hjerterytme": "bridge:root=com.apple.HeartRateSettings#5",
+    "Vis registrerte EKG-målinger i Helse": "bridge:root=com.apple.HeartRateSettings#6",
+    "EKG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Meldinger": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Gjør som iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tilpass": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Standardsvar": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Standardsvar": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Hurtigsvar": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Legg til svar…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Gjenta varsler": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Lydmeldinger": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Mindfulness": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Tillat varslinger": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Send til varslingssenteret": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Varslinger av": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Påminnelser om oppmerksomt nærvær": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Starten på dagen": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Slutten av dagen": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Legg til påminnelse…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Ukentlig oversikt": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Demp for i dag": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Pustefrekvens": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 åndedrag per minutt": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 åndedrag per minutt": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 åndedrag per minutt": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 åndedrag per minutt": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 åndedrag per minutt": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 åndedrag per minutt": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 åndedrag per minutt": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Følbar respons": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Ingen": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Minimal": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Tydelig": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Søvn": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Konfigurer Søvn i Helse": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Lydbøker": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Logg på": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Kalender": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "VARSLINGER": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Gjør som iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Tilpasset…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "KALENDERE": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Klokke": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24-timersklokke": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Uroer": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Lyder": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Bjeller": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Fugler": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Les opp klokkeslett": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Følg lydløs­modus": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Les alltid opp": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Følbar tid": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Følbar tid": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Sifre": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Kortfattet": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Morse": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Pushvarsler fra iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Varslingsindikator": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monogram": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Varslinger om urskive": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Byforkortelser": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Datakilder for\nSiri-urskiven": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Kontakter": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Sorter etter": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Fornavn, etternavn": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Etternavn, fornavn": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Vis som": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Fornavn, etternavn": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Etternavn, fornavn": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Kortnavn": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Kortnavn": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Fornavn og siste initial": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Første initial og etternavn": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Kun fornavn": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Kun etternavn": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Foretrekk kallenavn": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Gjør som iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tilpass": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Mail-innstillinger": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Kontoer": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Vis postkasse": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Meldingsvisning": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Ingen": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 linje": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 linjer": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Standardsvar": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Standardsvar": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Legg til svar…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Signatur": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Kart": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Svingvarsler": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Med bil": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Ved bilkjøring med CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Til fots": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "På sykkel": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Vis navigering": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Kollektivt": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Bygginfo:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Musikk": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "SPILLELISTER OG ALBUM": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Legg til musikk…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Lommebok og Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Legg til kort": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Varslinger": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Gjør som iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tilpass": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Bilder": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Bildesynkronisering": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Minner": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Synkroniser minner": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Framhevede bilder": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Synkroniser framhevede bilder": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Album": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Synkroniser album": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Bildebegrensning": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Varslingsinnstillinger": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Gjør som iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tilpass": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Støy": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Mål lyder fra omgivelsene": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Støyvarslinger": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Støyterskel": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Av": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Grupper varslinger": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Oksygen i blodet": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Carrier Settings": "bridge:root=CARRIER_SETTINGS",
+  "Slå av kode": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Slå på kode": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Endre kode": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Enkel kode": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Lås opp med iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Slett data": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Håndleddssensor": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Telefon": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Anrop": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Ringetone": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Hørbar": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Følbar": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Trening": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Sparebluss­modus": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Vis tall for mål": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Treningsvisning": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Auto­pause": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Auto­pause": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Varsle om treningsstart": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Varsle om treningsslutt": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Trykk for å sette på pause": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Registrer treningsapparater": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Fart-/hastighetsvisning": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Gjeldende": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Gjennomsnitt": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Treningsspilleliste": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Ingen": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Spillelister": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Spill fra begynnelsen": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Bland": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Måleenheter": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Kalorier": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilokalorier": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilojoule": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Yard": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Meter": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Miles": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilometer": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Taletilbakemelding": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Tid for en tur": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Legg til nye økter på Apple Watch": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Aksjer": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Urskivekomplikasjon viser": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Gjeldende pris": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Poengendring": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Prosentvis endring": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Børsverdi": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Siri-urskiven viser kursen for": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Valgt aksje": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Valgt aksje": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Dock-rekkefølge": "bridge:root=DOCK#OrderingOptionGroup",
+    "Sist brukte": "bridge:root=DOCK#Recents",
+    "Favoritter": "bridge:root=DOCK#Favorites"
+  },
+  "Podkaster": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Spør Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Løft for å snakke": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Trykk på Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Taletilbakemelding": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Alltid på": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Følg lydløs­modus": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Kun hodetelefoner": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Stemmevolum": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Forslag fra Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Walkietalkie": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Tillat varslinger": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Send til varslingssenteret": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Varslinger av": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Grupper varslinger": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Venner": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Været": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Standardby": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Standardby": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Nåværende sted": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Send lesebekreftelser": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

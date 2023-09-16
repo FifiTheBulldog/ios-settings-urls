@@ -1,0 +1,561 @@
+{
+  "Kebolehcapaian": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Penglihatan": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Zum": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Teks Tebal": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Label Aktif/Tak Aktif": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Skala Kelabu": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Kurangkan Kelutsinaran": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Kurangkan Pergerakan": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Bunyi Loceng": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Jadual": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Setiap Jam": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 minit": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 minit": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Bunyi": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Loceng": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Burung": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Motor": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Kelajuan Klik Butang Sisi": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Kelajuan Klik": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Lalai": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Perlahan": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Paling Perlahan": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Penyesuaian Sentuhan": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Penyesuaian Sentuhan": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Tempoh Penahanan": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Abaikan Ulangan": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Bantuan Ketik": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Tak Aktif": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Gunakan Lokasi Sentuhan Awal": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Gunakan Lokasi Sentuhan Akhir": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "AKTIVITI KERUSI RODA": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Walkie-Talkie": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Ketik untuk Cakap": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Pendengaran": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Nombor Geganti": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Hantar Serta-merta": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Balasan Lalai": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Balasan Lalai": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Tambah balasan…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Audio Mono": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Imbangan Stereo Kiri-Kanan": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Pemberitahuan Fon Kepala": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Peranti Pendengaran": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Komplikasi": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Kelantangan Mik": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Program": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Kelajuan Masa Taptik": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Pintasan Kebolehcapaian": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Pasangkan Jam Baharu": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Paparan App": "bridge:root=APP_VIEW_ID",
+  "Umum": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Perihal": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Nama": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Waranti Terhad": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Waranti Terhad": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "BUTIRAN LIPUTAN": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Liputan Perkakasan": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Sokongan Bual & Telefon": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Lagu": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Foto": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Aplikasi": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Kapasiti": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Tersedia": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Versi": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Pembawa": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Model": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Nombor Siri": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Alamat Wi-Fi": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Undang-undang": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Panduan Pengguna Apple Watch ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Kemas Kini Perisian": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Pemasangan App Auto": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Mod Pesawat": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Fokus": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Cerminkan iPhone saya": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Orientasi Jam": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Pakai Apple Watch pada": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Pergelangan Tangan Kiri": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Pergelangan Tangan Kanan": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown di Sebelah Kiri": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown di Sebelah Kanan": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Dayakan Perencanaan": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Dayakan Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Mod Meja Sisi": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Dayakan Gambar Skrin": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Storan": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Log Diagnostik": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Salin Analitis Jam": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Reset": "bridge:root=GENERAL_LINK&path=RESET",
+    "Lancar Auto apabila Tenggelam": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Lancar Auto App Audio": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Bahasa & Rantau": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Cerminkan iPhone saya": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Tersuai": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "KEMBALI KE JAM": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "KEMBALI KE JAM": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Sentiasa": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "Selepas 2 minit": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "Selepas 1 jam": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APP": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Kini Dimainkan": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Paparan & Kecerahan": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Kecerahan": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Sentiasa Aktif": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Sentiasa Aktif": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "PERGELANGAN TANGAN DITURUNKAN": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Tunjukkan Pemberitahuan": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Tunjukkan Pemberitahuan": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APP APPLE WATCH": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Tunjukkan App": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Tunjukkan App": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APP": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Saiz Teks": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Teks Tebal": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "BANGUN": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Bangun bila Tangan Diangkat": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Bangun apabila Mahkota Diputar": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Tempoh Bangun": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "APABILA DIKETIK": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Bangun selama 15 Saat": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Bangun selama 70 Saat": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Bunyi & Haptik": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Kelantangan Isyarat": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Mod Senyap": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Audio Fon Kepala": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Keselamatan Fon Kepala": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Pemberitahuan Fon Kepala": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Kurangkan Bunyi Kuat": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Haptik": "bridge:root=SOUNDS_ID#Haptics",
+    "Isyarat Haptik": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Haptik Mahkota": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Haptik Sistem": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Tutup untuk Senyap": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "SOS Kecemasan": "bridge:root=SOS_MODE_ID",
+  "Privasi": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Kadar Jantung": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Kadar Respiratori": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Penjejakan Kecergasan": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Reset Data Kalibrasi Kecergasan": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Ukuran Bunyi Persekitaran": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Pengukuran Audio Fon Kepala": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Simpan dalam Kesihatan": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "Selama 8 Hari": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Sehingga Saya Padam": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Ukuran Oksigen Darah": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Suhu Pergelangan Tangan": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Masa Skrin": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Kedalaman": "bridge:root=com.apple.DepthCompanionSettings",
+  "Butang Tindakan": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Muat Turun Automatik": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Kemas Kini Automatik": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Kesihatan": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail & Kalendar": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Akaun": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Tambah Akaun Google...": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Ambil": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Tak Aktif": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Setiap Jam": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Mencuci Tangan": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Benarkan Pemberitahuan": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Hantar ke Pusat Pemberitahuan": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Pemberitahuan Tidak Aktif": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Himpunan Pemberitahuan": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Pemasa Mencuci Tangan": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Selular": "bridge:root=CELLULAR_ID",
+  "Komplikasi": "bridge:root=COMPLICATIONS",
+  "Aktiviti": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Perkembangan Kemajuan": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Tiada": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "Setiap 2 jam": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "Setiap 4 jam": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "Setiap 6 jam": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "Setiap 8 jam": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Pencapaian": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Ringkasan Mingguan": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Bimbingan Harian": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Pelengkapan Matlamat": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Cabaran Khas": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Notifikasi Perkongsian Aktiviti": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Jantung": "bridge:root=com.apple.HeartRateSettings#1",
+    "Pemberitahuan Kadar Jantung": "bridge:root=com.apple.HeartRateSettings#2",
+    "Kadar Jantung Tinggi": "bridge:root=com.apple.HeartRateSettings#3",
+    "Kadar Jantung Rendah": "bridge:root=com.apple.HeartRateSettings#4",
+    "Ritma Tidak Tetap": "bridge:root=com.apple.HeartRateSettings#5",
+    "Lihat Rakaman ECG dalam Kesihatan": "bridge:root=com.apple.HeartRateSettings#6",
+    "ECG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Mesej": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Cerminkan iPhone saya": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tersuai": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Balasan Lalai": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Balasan Lalai": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Balasan Pintar": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Tambah balasan…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Isyarat Berulang": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Mesej Audio": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Sedar Minda": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Benarkan Pemberitahuan": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Hantar ke Pusat Pemberitahuan": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Pemberitahuan Tidak Aktif": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Peringatan Sedar Minda": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Permulaan Hari": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Penghujung Hari": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Tambah Peringatan…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Ringkasan Mingguan": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Senyapkan untuk hari ini": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Kadar Bernafas": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 nafas seminit": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 nafas seminit": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 nafas seminit": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 nafas seminit": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 nafas seminit": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 nafas seminit": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 nafas seminit": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Haptik": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Tiada": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Minimum": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Menonjol": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Tidur": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Sediakan Tidur dalam App Kesihatan": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Buku Audio": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Daftar Masuk": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Kalendar": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "PEMBERITAHUAN": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Cerminkan iPhone saya": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Tersuai…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "KALENDAR": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Jam": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "Masa 24 Jam": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Bunyi Loceng": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Bunyi": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Loceng": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Burung": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Sebut Masa": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Kawal dengan Mod Senyap": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Sentiasa Sebut": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Masa Taptik": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Masa Taptik": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Digit": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Singkat": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Kod Morse": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Isyarat Push iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Penunjuk Pemberitahuan": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monogram": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Pemberitahuan Muka Jam": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Singkatan Bandar": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Sumber Data Muka Siri": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Kenalan": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Tertib Isih": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Pertama, Akhir": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Akhir, Pertama": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Tertib Paparan": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Pertama, Akhir": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Akhir, Pertama": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Nama Pendek": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Nama Pendek": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Nama Pertama & Parap Akhir": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Parap Pertama & Nama Akhir": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Nama Pertama Sahaja": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Nama Akhir Sahaja": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Utamakan Nama Panggilan": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Cerminkan iPhone saya": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tersuai": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Seting Mail": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Akaun": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Sertakan Mel": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Pratonton Mesej": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Tiada": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 Baris": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 Baris": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Balasan Lalai": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Balasan Lalai": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Tambah balasan…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Tandatangan": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Peta": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Isyarat Membelok": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Memandu": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Memandu (CarPlay)": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Berjalan": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Berbasikal": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Tunjukkan Navigasi": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Transit": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Info Binaan:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Muzik": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "SENARAI MAIN & ALBUM": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Tambah Muzik…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Wallet & Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Tambah Kad": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Pemberitahuan": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Cerminkan iPhone saya": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tersuai": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Foto": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Penyelarasan Foto": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Memori": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Selaraskan Memori": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Foto Ditampilkan": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Selaras Foto Ditampilkan": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Album": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Selaraskan Album": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Had Foto": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Seting Pemberitahuan": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Cerminkan iPhone saya": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tersuai": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Bunyi": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Ukuran Bunyi Persekitaran": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Pemberitahuan Bunyi": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Ambang Bunyi": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Tak Aktif": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 desibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Himpunan Pemberitahuan": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Oksigen Darah": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Seting Pembawa": "bridge:root=CARRIER_SETTINGS",
+  "Nyahaktifkan Kod Laluan": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Aktifkan Kod Laluan": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Tukar Kod Laluan": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Kod Laluan Ringkas": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Buka Kunci dengan iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Padam Data": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Pengesan Tangan": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Telefon": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Panggilan": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Nada Dering": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Bunyi": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Haptik": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Latihan": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Mod Kuasa Rendah": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Tunjukkan Metrik Matlamat": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Paparan Latihan": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Jeda Auto": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Jeda Auto": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Peringatan Mula Latihan": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Peringatan Tamat Latihan": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Tekan untuk Jeda": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Kesan Peralatan Gim": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Paparan Kadar/Kelajuan": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Semasa": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Purata": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Senarai Main Latihan": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Tiada": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Senarai Main": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Main dari awal": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Rombak": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Unit Ukuran": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Kalori": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilokalori": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilojoule": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Ela": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Meter": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Batu": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilometer": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Maklum Balas Suara": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Masa Berjalan": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Tambah Latihan Baharu ke Jam": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Saham": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Komplikasi Muka Jam Menunjukkan": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Harga Semasa": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Perubahan Mata": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Perubahan Peratusan": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Modal Pasaran": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Muka Siri Menunjukkan Harga untuk": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Saham Dipilih": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Saham Dipilih": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Tertib Dock": "bridge:root=DOCK#OrderingOptionGroup",
+    "Terbaru": "bridge:root=DOCK#Recents",
+    "Kegemaran": "bridge:root=DOCK#Favorites"
+  },
+  "Podcast": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Minta Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Angkat untuk Cakap": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Tekan Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Maklum Balas Suara": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Sentiasa Aktif": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Kawal dengan Mod Senyap": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Fon Kepala Sahaja": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Kelantangan Suara": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Cadangan Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Walkie-Talkie": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Benarkan Pemberitahuan": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Hantar ke Pusat Pemberitahuan": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Pemberitahuan Tidak Aktif": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Himpunan Pemberitahuan": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Rakan": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Cuaca": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Bandar Lalai": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Bandar Lalai": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Lokasi Semasa": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Hantar Resit Dibaca": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

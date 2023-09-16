@@ -1,0 +1,853 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → iCloud сақтау орны: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Фотолар: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Пошта: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Контактілер: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Күнтізбе: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Еске салғыш: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Ескертпелер: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → Жаңалықтар: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Сақтық көшірме: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Денсаулық: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Құпиясөздер мен кілттер: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Жеке торап: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Геолокациямды бөлісу: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Геолокациямды бөлісу → iPhone құрылғымды табу: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Аты, тел. нөмірлері, эл. поштасы: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Құпиясөз және қауіпсіздік: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Төлем және жеткізілім: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Жазылымдар: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Отбасы: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Құпиялылық және қауіпсіздік: `prefs:root=Privacy`
+- Құпиялылық және қауіпсіздік → Қауіпсіздікті тексеру: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Құпиялылық және қауіпсіздік → Орналасқан жері: `prefs:root=Privacy&path=LOCATION`
+- Құпиялылық және қауіпсіздік → Орналасқан жері → Геолокацияммен бөлісу: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Құпиялылық және қауіпсіздік → Контактілер: `prefs:root=Privacy&path=CONTACTS`
+- Құпиялылық және қауіпсіздік → Күнтізбелер: `prefs:root=Privacy&path=CALENDARS`
+- Құпиялылық және қауіпсіздік → Еске салғыш: `prefs:root=Privacy&path=REMINDERS`
+- Құпиялылық және қауіпсіздік → Фотолар: `prefs:root=Privacy&path=PHOTOS`
+- Құпиялылық және қауіпсіздік → Bluetooth арқылы бөлісу: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Құпиялылық және қауіпсіздік → Микрофон: `prefs:root=Privacy&path=MICROPHONE`
+- Құпиялылық және қауіпсіздік → Сөйлеуді анықтау: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Құпиялылық және қауіпсіздік → Камера: `prefs:root=Privacy&path=CAMERA`
+- Құпиялылық және қауіпсіздік → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Құпиялылық және қауіпсіздік → Медиа және Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Құпиялылық және қауіпсіздік → Аналитика: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Құпиялылық және қауіпсіздік → Жарнама: `prefs:root=Privacy&path=ADVERTISING`
+- Құпиялылық және қауіпсіздік → Файлдар мен қалталар: `prefs:root=Privacy&path=FILEACCESS`
+- Құпиялылық және қауіпсіздік → Бақылау: `prefs:root=Privacy&path=USER_TRACKING`
+- Құпиялылық және қауіпсіздік → Қолданбаның құпиялылық есебі: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Құпиялылық және қауіпсіздік → Блоктау режимі: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Құпиялылық және қауіпсіздік → Денсаулық: `prefs:root=Privacy&path=HEALTH`
+- Зейін қою: `prefs:root=DO_NOT_DISTURB`
+- Зейін қою → Зейін қою күйі: `prefs:root=DO_NOT_DISTURB&path=status`
+- Жалпы: `prefs:root=General`
+- Жалпы → VPN және құрылғыларды басқару: `prefs:root=General&path=ManagedConfigurationList`
+- Жалпы → Сурет ішіндегі сурет: `prefs:root=General&path=PiP_SPEC`
+- Жалпы → Трекпад және тінтуір: `prefs:root=General&path=POINTERS`
+- Жалпы → NFC: `prefs:root=General&path=NFC_LINK`
+- Жалпы → VPN: `prefs:root=General&path=VPN`
+- Жалпы → CarPlay: `prefs:root=General&path=CARPLAY`
+- Жалпы → Ақпарат: `prefs:root=General&path=About`
+- Жалпы → Ақпарат → Сенімді сертификаттар: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Жалпы → Нормативтік-құқықтық құжат: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Жалпы → БЖ жаңартуы: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Жалпы → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Жалпы → «Басты бет» түймесі: `prefs:root=General&path=HOME_BUTTON`
+- Жалпы → Қимылдар: `prefs:root=General#Multitasking_Gesture_Switch`
+- Жалпы → Бүйірлік ауыстырып-қосқыш: `prefs:root=General#Rotation_Switch_Action_Group`
+- Жалпы → Қолданбаны фонда жаңарту: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Жалпы → Күні мен уақыты: `prefs:root=General&path=DATE_AND_TIME`
+- Жалпы → Теледидар шығысы: `prefs:root=General&path=TV_OUT`
+- Жалпы → Нормативтік құжат: `prefs:root=General&path=REGULATORY`
+- Жалпы → Бастапқы күйге қайтару: `prefs:root=General&path=Reset`
+- Жалпы → Бастапқы күйге қайтару → Барлық реттеуді бастапқы күйге қайтару: `prefs:root=General&path=Reset#settingsErase`
+- Жалпы → Бастапқы күйге қайтару → Барлық контент пен реттеулерді өшіру: `prefs:root=General&path=Reset#fullErase`
+- Жалпы → Бастапқы күйге қайтару → Желілік реттеулерді бастапқы күйге қайтару: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Жалпы → Бастапқы күйге қайтару → Барлық ұялы деректің тарифтік жоспарын жою: `prefs:root=General&path=Reset#cellularErase`
+- Жалпы → Бастапқы күйге қайтару → Абонент сервистері: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Жалпы → Бастапқы күйге қайтару → Пернетақта сөздігін бастапқы күйге қайтару: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Жалпы → Бастапқы күйге қайтару → «Басты бет» экранының орнын бастапқы күйге қайтару: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Жалпы → Бастапқы күйге қайтару → Геолокация мен құпиялылықты бастапқы күйге қайтару: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Жалпы → Өшіру: `prefs:root=General#SHUTDOWN_LABEL`
+- Жалпы → AirPlay және Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Жалпы → AirPlay және Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Жалпы → AirPlay және Handoff → HomePod ішіне көшіру: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Жалпы → AirPlay және Handoff → Теледидарлардағы авто-AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Жалпы → AirPlay және Handoff → Камераға арналған үздіксіздік функциясы: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Жалпы → Сөздік: `prefs:root=General&path=DICTIONARY`
+- Жалпы → Тіл және аймақ: `prefs:root=General&path=INTERNATIONAL`
+- Жалпы → Тіл және аймақ → Басқа тілдер…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Жалпы → Тіл және аймақ → Таңдаулы тілдер реттілігі: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Жалпы → Тіл және аймақ → Тіл қосу…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Жалпы → Тіл және аймақ → Аймақ: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Жалпы → Тіл және аймақ → Нөмірлер: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Жалпы → Тіл және аймақ → Күнтізбе: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Жалпы → Тіл және аймақ → Температура бірлігі: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Жалпы → Пернетақта: `prefs:root=General&path=Keyboard`
+- Жалпы → Пернетақта → Пернетақталар: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Жалпы → Пернетақта → Мәтін ауыстыру: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Жалпы → Пернетақта → Бас әріппен авто теру: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Жалпы → Пернетақта → Авто түзету: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Жалпы → Пернетақта → Емлені тексеру: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Жалпы → Пернетақта → Caps Lock функциясын қосу: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Жалпы → Пернетақта → Пәрмендер: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Жалпы → Пернетақта → Сөзді болжау: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Жалпы → Пернетақта → Смарт тыныс белгісі: `prefs:root=General&path=Keyboard#SmartTyping`
+- Жалпы → Пернетақта → Бөлінген пернетақта: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Жалпы → Пернетақта → Пернелердің жыпылықтауын қосу: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Жалпы → Пернетақта → Таңбаны алдын ала қарау: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Жалпы → Пернетақта → «.» жылдам пәрмені: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Жалпы → Пернетақта → Теру үшін сырғыту: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Жалпы → Пернетақта → Дауыспен енгізуді қосу: `prefs:root=General&path=Keyboard#Dictation`
+- Жалпы → Пернетақта → Тыныс белгілерін авто қою: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Жалпы → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Жалпы → iPhone/iPad Storage → Сақтау орны: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Жалпы → iPhone/iPad Storage → Ашылмағандарды шығару: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Хабарландырулар: `prefs:root=NOTIFICATIONS_ID`
+- Хабарландырулар → Кесте бойынша жеткізу: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Wallet және Apple Pay: `prefs:root=PASSBOOK`
+- Wallet және Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Wallet және Apple Pay → Төлем карталары: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Wallet және Apple Pay → Картаны қосу: `prefs:root=PASSBOOK#Add%20Card`
+- Wallet және Apple Pay → Бүйірлік түймені екі рет басу: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Wallet және Apple Pay → Тапсырысты қадағалау: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Экран уақыты: `prefs:root=SCREEN_TIME`
+- Экран уақыты → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Экран уақыты → See All Activity → Бүгін: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Экран уақыты → See All Activity → Апта: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Экран уақыты → Тыныштық уақыты: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Экран уақыты → Қолданба шектеулері: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Экран уақыты → Байланыс шектеулері: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Экран уақыты → Байланыс қауіпсіздігі: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Экран уақыты → Әрдайым рұқсат етілгендер: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Экран уақыты → Контент және құпиялылық шектеулері: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Экран уақыты → Ата-ана бақылауы: `prefs:root=SCREEN_TIME#FAMILY`
+- Әмбебап қол жеткізу: `prefs:root=ACCESSIBILITY`
+- Әмбебап қол жеткізу → Көру қабілеті: `prefs:root=ACCESSIBILITY#VISION`
+- Әмбебап қол жеткізу → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Әмбебап қол жеткізу → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Әмбебап қол жеткізу → VoiceOver → Сөйлеу жылдамдығы: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Әмбебап қол жеткізу → VoiceOver → Сөзді дыбыстау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Әмбебап қол жеткізу → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Әмбебап қол жеткізу → VoiceOver → Speech → Дауыс: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Әмбебап қол жеткізу → VoiceOver → Нақтылау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Әмбебап қол жеткізу → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Әмбебап қол жеткізу → VoiceOver → Verbosity → Тыныс белгілері: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Әмбебап қол жеткізу → VoiceOver → Verbosity → Кесте тақырыптары: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Әмбебап қол жеткізу → VoiceOver → Verbosity → Медиа сипаттамалары: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Әмбебап қол жеткізу → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Әмбебап қол жеткізу → VoiceOver → Verbosity → Media Descriptions → Өшірулі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Әмбебап қол жеткізу → VoiceOver → Verbosity → Media Descriptions → Сөзді дыбыстау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Әмбебап қол жеткізу → VoiceOver → Verbosity → Media Descriptions → Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Әмбебап қол жеткізу → VoiceOver → Verbosity → Media Descriptions → Сөзді дыбыстау және Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Әмбебап қол жеткізу → VoiceOver → Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- Әмбебап қол жеткізу → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Шығыс: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Output → Толық алты нүктелі Брайль жүйесі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Output → Толық сегіз нүктелі Брайль жүйесі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Output → Қысқартылған Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Кіріс: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Input → Толық алты нүктелі Брайль жүйесі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Input → Толық сегіз нүктелі Брайль жүйесі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Input → Қысқартылған Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Input → Автоматты түрде аудару: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Брайль экранының қарпі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Braille Screen Input → Толық алты нүктелі Брайль жүйесі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Braille Screen Input → Толық сегіз нүктелі Брайль жүйесі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Braille Screen Input → Қысқартылған Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Braille Screen Input → Нүктелердің кері бағыты: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Брайль кестелері: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Tables → Брайль кестесін қосу…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Күй ұяшықтары: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Status Cell → Күй ұяшықтарының орны: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Status Cell → Сол жақ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Status Cell → Оң жақ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Status Cell → Жалпы күйді көрсету: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Status Cell → Мәтін күйін көрсету: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Теңдеулерге арналған Немет коды: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Экрандық пернетақтаны көрсету: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Айналдыру кезінде беттерді парақтау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Сөзді тасымалдау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Брайль ескерту хабарлары: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Аккорд ұзақтығын елемеу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Әмбебап қол жеткізу → VoiceOver → Braille → Автоматты түрде жылжу ұзақтығы: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Әмбебап қол жеткізу → VoiceOver → Аудио: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- Әмбебап қол жеткізу → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Әмбебап қол жеткізу → VoiceOver → Audio → Аудионы бәсеңдету: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Әмбебап қол жеткізу → VoiceOver → Audio → Динамикті авто таңдау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Әмбебап қол жеткізу → VoiceOver → Audio → HDMI интерфейсіне жіберу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Әмбебап қол жеткізу → VoiceOver → Пәрмендер: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Әмбебап қол жеткізу → VoiceOver → Әрекеттер: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Әмбебап қол жеткізу → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Әмбебап қол жеткізу → VoiceOver → Activities → Бағдарламалау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Әмбебап қол жеткізу → VoiceOver → Activities → Әрекет қосу…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Әмбебап қол жеткізу → VoiceOver → Ротор: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Әмбебап қол жеткізу → VoiceOver → Ротор әрекеттері: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Әмбебап қол жеткізу → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Әмбебап қол жеткізу → VoiceOver → Rotor Actions → «Басты экран» бетіндегі қолданбаларды өңдеу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Әмбебап қол жеткізу → VoiceOver → Rotor Actions → Тікелей жанасу қолданбалары: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Әмбебап қол жеткізу → VoiceOver → Теру: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Әмбебап қол жеткізу → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Теру стилі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Typing Mode → Стандартты теру: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Typing Style → Сүйрете теру: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Typing Style → Тікелей жанасумен теру: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Дауыстап оқу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Phonetic Feedback → Өшірулі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Phonetic Feedback → Таңба және дыбыстар: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Phonetic Feedback → Тек дыбыстар: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Теру кезінде дыбыстау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Түрлендіруші пернелер: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Modifier Keys → Control + Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Modifier Keys → Caps Lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Әмбебап қол жеткізу → VoiceOver → Typing → Пернетақтаны пайдаланғанға дейінгі уақыт: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Әмбебап қол жеткізу → VoiceOver → Кескіндерді шарлау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Әмбебап қол жеткізу → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Әмбебап қол жеткізу → VoiceOver → Include Unlabeled Images → Әрдайым: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Әмбебап қол жеткізу → VoiceOver → Include Unlabeled Images → Сипаттамалары бар: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Әмбебап қол жеткізу → VoiceOver → Include Unlabeled Images → Ешқашан: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Әмбебап қол жеткізу → VoiceOver → Үлкен меңзер: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Әмбебап қол жеткізу → VoiceOver → Субтитрлер панелі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Әмбебап қол жеткізу → VoiceOver → Екі рет түртуді күту уақыты: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Әмбебап қол жеткізу → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Әмбебап қол жеткізу → VoiceOver → Double-tap Timeout → Екі рет түртуді күту уақыты: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Әмбебап қол жеткізу → VoiceOver → Навигация стилі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Әмбебап қол жеткізу → VoiceOver → Жылдам реттеулер: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Дыбыстар: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Аудионы бәсеңдету: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Дыбыс деңгейі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Сөйлеу жылдамдығы: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Кеңестер: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Навигация стилі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Теру стилі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Теру үшін сырғыту: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Әрекеттер: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Хабарландыруларды әрдайым дыбыстау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Брайль ескерту хабарлары: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Брайль қарпі бойынша автоматты түрде жылжу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Брайль кірісі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Брайль шығысы: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Брайль кестелері: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Субтитрлер панелі: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Тікелей жанасу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Қимыл бағыты: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Физикалық пернетақтада теру кезінде дыбыстау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Тіл: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Үлкен меңзер: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Медиа сипаттамалары: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Кескіндерді шарлау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Дауыстап оқу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Тон жоғарылығын өзгерту: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Тыныс белгілері: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → HDMI интерфейсіне жіберу: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Виртуалды пернетақтада теру кезінде дыбыстау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Ротор үшін дауыстап растау: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Кескін сипаттамалары: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Әмбебап қол жеткізу → VoiceOver → Quick Settings → Экранды тану: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Әмбебап қол жеткізу → VoiceOver → VoiceOver тану: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Әмбебап қол жеткізу → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Әмбебап қол жеткізу → VoiceOver → VoiceOver Recognition → Кескін сипаттамалары: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Әмбебап қол жеткізу → VoiceOver → VoiceOver Recognition → Экранды тану: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Әмбебап қол жеткізу → Масштабтау: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Әмбебап қол жеткізу → Масштабтау → Масштабтау: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Әмбебап қол жеткізу → Масштабтау → Фокустың артынан еру: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Әмбебап қол жеткізу → Масштабтау → Смарт-теру: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Әмбебап қол жеткізу → Масштабтау → Пернелер тіркесімдері: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Әмбебап қол жеткізу → Масштабтау → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Әмбебап қол жеткізу → Масштабтау → Keyboard Shortcuts → Пернелер тіркесімдері: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Әмбебап қол жеткізу → Масштабтау → Keyboard Shortcuts → Масштабтау деңгейін реттеу: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Әмбебап қол жеткізу → Масштабтау → Keyboard Shortcuts → «Масштабтау» опциясын қосу/өшіру: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Әмбебап қол жеткізу → Масштабтау → Keyboard Shortcuts → Масштабтау терезесін жылжыту: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Әмбебап қол жеткізу → Масштабтау → Keyboard Shortcuts → Масштабтау терезесінің өлшемін өзгерту: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Әмбебап қол жеткізу → Масштабтау → Keyboard Shortcuts → Масштабтау аймағын ауыстырып-қосу: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Әмбебап қол жеткізу → Масштабтау → Keyboard Shortcuts → Масштабтауды уақытша қосу/өшіру: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Әмбебап қол жеткізу → Масштабтау → Keyboard Shortcuts → Айналдыру дөңгелегімен масштабтау: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Әмбебап қол жеткізу → Масштабтау → Масштабтау контроллері: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Әмбебап қол жеткізу → Масштабтау → Масштабтау аймағы: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Әмбебап қол жеткізу → Масштабтау → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Әмбебап қол жеткізу → Масштабтау → Zoom Region → Толық экран: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Әмбебап қол жеткізу → Масштабтау → Zoom Region → Терезе: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Әмбебап қол жеткізу → Масштабтау → Максималды масштабтау деңгейі: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Әмбебап қол жеткізу → Масштабтау → Масштабтау сүзгісі: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Әмбебап қол жеткізу → Масштабтау → Видео қайталау кезінде көрсету: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Әмбебап қол жеткізу → Меңзер астындағы мәтінді үлкейту: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Қалың қаріпті мәтін: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Үлкенірек мәтін: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Түйме пішіндері: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Қосу/өшіру белгілері: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Мөлдірлікті азайту: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Контрастты арттыру: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Түссіз дифференциялау: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Смарт-инверсия: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Классикалық инверсия: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Түс сүзгілері: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Color Filters → Түс сүзгілері: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Ақ нүктені азайту: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Әмбебап қол жеткізу → Дисплей және мәтін өлшемі → Авто жарықтық: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Әмбебап қол жеткізу → Қозғалыс: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Әмбебап қол жеткізу → Қозғалыс → Қозғалысты азайту: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Әмбебап қол жеткізу → Қозғалыс → Хабар әсерлерін авто ойнату: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Әмбебап қол жеткізу → Қозғалыс → Видеоны алдын ала қарау үшін авто ойнату: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Әмбебап қол жеткізу → Ауызша контент: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Әмбебап қол жеткізу → Ауызша контент → Таңдауды дыбыстау: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Әмбебап қол жеткізу → Ауызша контент → Экранды дыбыстау: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Әмбебап қол жеткізу → Ауызша контент → Сөйлеу контроллері: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Әмбебап қол жеткізу → Ауызша контент → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Әмбебап қол жеткізу → Ауызша контент → Speech Controller → Тінтуір пернелерін бейімдеу: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Әмбебап қол жеткізу → Ауызша контент → Контентті ерекшелеу: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Әмбебап қол жеткізу → Ауызша контент → Теру кезінде дыбыстау: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Әмбебап қол жеткізу → Ауызша контент → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Әмбебап қол жеткізу → Ауызша контент → Typing Feedback → Таңбалар бойынша кері байланыс: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Әмбебап қол жеткізу → Ауызша контент → Typing Feedback → Таңбалар: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Әмбебап қол жеткізу → Ауызша контент → Typing Feedback → Таңба кеңестері: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Әмбебап қол жеткізу → Ауызша контент → Typing Feedback → Сөздерді дыбыстау: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Әмбебап қол жеткізу → Ауызша контент → Typing Feedback → Авто дыбыстау: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Әмбебап қол жеткізу → Ауызша контент → Typing Feedback → Дыбыстау үшін басып тұру: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Әмбебап қол жеткізу → Ауызша контент → Дауыстар: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Әмбебап қол жеткізу → Ауызша контент → Әдепкі тіл: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Әмбебап қол жеткізу → Ауызша контент → Тілдерді анықтау: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Әмбебап қол жеткізу → Ауызша контент → Сөйлеу жылдамдығы: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Әмбебап қол жеткізу → Ауызша контент → Айтылымдар: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Әмбебап қол жеткізу → Аудио сипаттамалар: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Әмбебап қол жеткізу → Аудио сипаттамалар → Аудио сипаттамалар: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Әмбебап қол жеткізу → Қимыл-тірек аппараты: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Әмбебап қол жеткізу → Түрту: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Жоғарғы деңгей мәзірін бейімдеу: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Customize Top Level Menu → Өзгерту үшін белгішені түртіңіз:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Customize Top Level Menu → Бастапқы күйге қайтару…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Арнаулы әрекеттер: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Бір рет түрту: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Екі рет түрту: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Double-Tap → Екі рет түртуді күту уақыты: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Ұзақ басып тұру: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Long Press → Ұзақ басып тұру ұзақтығы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Арнаулы қимылдар: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Жаңа қимылды жасау…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Әрекетсіз күйіндегі түссіздік: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Көрсеткіш құрылғылар: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Құрылғылар: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Devices → Bluetooth құрылғылары…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Тінтуір пернелері: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Көрсеткіш стилі: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Көрсеткіш стилі → Өлшемі: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Көрсеткіш стилі → Визуалды элементтер: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Көрсеткіш стилі → Түсі: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Көрсеткіш стилі → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Көрсеткіш стилі → SOMETHING IDK → Тінтуір пернелерін бейімдеу: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Көрсеткіш стилі → Авто жасыру: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Көрсеткіш стилі → NEEDS_OVERRIDE_748 → Авто жасыру: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Экрандық пернетақтаны көрсету: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Мәзірді әрдайым көрсету: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Авто басу арқылы басқару: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Шекті қозғалыс: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Жылжу сезімталдығы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Қайтару кезіндегі әрекет: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Белсенді бұрыштар: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Әмбебап қол жеткізу → Түрту → AssistiveTouch → Ойын контроллерін пайдалану: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Әмбебап қол жеткізу → Түрту → 3D Touch және тактильді түрту: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_749 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_749 → 3D Touch сезімталдығы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_749 → Түрту ұзақтығы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_749 → Жылдам: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_749 → Баяу: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_749 → 3D Touch сезімталдығы мен түрту ұзақтығын сынау: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Әмбебап қол жеткізу → Түрту → Түрту әрекетін бейімдеу: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_750 → Түрту әрекетін бейімдеу: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_750 → Ұстап тұру ұзақтығы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_750 → Қайталауды елемеу: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_750 → Түрту бойынша көмек: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_750 → Өшірулі: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_750 → Бастапқы түрту орнын пайдалану: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_750 → Соңғы түрту орнын пайдалану: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Әмбебап қол жеткізу → Түрту → Ояту үшін түрту: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Әмбебап қол жеткізу → Түрту → Ұйқы режимінен шығару үшін түрту немесе сырғыту: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Әмбебап қол жеткізу → Түрту → Болдырмау үшін шайқау: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Әмбебап қол жеткізу → Түрту → Діріл: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Әмбебап қол жеткізу → Түрту → Қоңырауды аяқтау үшін құлыптауға жол бермеу: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Әмбебап қол жеткізу → Түрту → Дыбыс көзі: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_751 → Автоматты: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_751 → Bluetooth гарнитурасы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_751 → Динамик: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Әмбебап қол жеткізу → Түрту → NEEDS_OVERRIDE_751 → Қоңырауларға автоматты жауап беру: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Әмбебап қол жеткізу → Face ID және назар: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Әмбебап қол жеткізу → Face ID және назар → Face ID үшін назар аудару қажет: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Әмбебап қол жеткізу → Face ID және назар → «Назарды тану» мүмкіндіктері: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Әмбебап қол жеткізу → Face ID және назар → Жанасу сигналдары: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Әмбебап қол жеткізу → Face ID және назар → Сәтті аутентификация туралы жанасу сигналы: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Әмбебап қол жеткізу → Виртуалды контроллер: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Виртуалды контроллер: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Ауыстырып-қосқыштар: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_752 → Жаңа ауыстырып-қосқыш қосу…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_752 → Bluetooth құрылғылары…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Параметрлер жинақтары: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Сканерлеу стилі: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_753 → Авто сканерлеу: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_753 → Қолмен сканерлеу: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_753 → Бір ауыстырып-қосқыш арқылы қадамдық сканерлеу: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Уақыт: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Авто сканерлеу уақыты: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_754 → Авто сканерлеу уақыты: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Бірінші элементте кідірту: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_755 → Бірінші элементте кідірту: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Қозғалысты қайталау: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_756 → Қозғалысты қайталау: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Ұзақ басып тұру: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_757 → Ұзақ басып тұру: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Түрту тәртібі: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_758 → Әдепкі: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_758 → Авто түрту: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_758 → Әрдайым түрту: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Түрткеннен кейін фокусталған элемент: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_759 → Бірінші элемент: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_759 → Ағымдағы элемент: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Пернетақта: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Түрткеннен кейін бірдей пернені сканерлеу: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Пернетақта пернелерін әрдайым түрту: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Кеңейтілген нұсқалар: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Ауыстырып-қосқышты тұрақтандыру: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Ұстап тұру ұзақтығы: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_760 → Ұстап тұру ұзақтығы: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Қайталауды елемеу: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_761 → Қайталауды елемеу: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Нүктені сканерлеу: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Сырғымалы меңзер: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_762 → Таңдау режимі: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_762 → Бір: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_762 → Нақтыланған: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_762 → Нақты: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_762 → Сырғымалы меңзер жылдамдығы: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Бас қозғалысын қадағалау: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_763 → Бас қозғалысын қадағалау: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Аудио: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Дыбыс әсерлері: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Сөзді дыбыстау: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_764 → Дауыстар: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_764 → Сөйлеу жылдамдығы: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Мәзір элементтері: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Топ элементтері: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Визуалды элементтер: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Үлкен меңзер: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Сақталған қимылдар: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Әмбебап қол жеткізу → Виртуалды контроллер → NEEDS_OVERRIDE_765 → Жаңа қимылды жасау…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Әмбебап қол жеткізу → Виртуалды контроллер → Меңзер түсі: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Әмбебап қол жеткізу → Дауыспен басқару: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Әмбебап қол жеткізу → Дауыспен басқару → «Дауысты басқару» функциясын баптау: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Әмбебап қол жеткізу → Дауыспен басқару → Тіл: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Әмбебап қол жеткізу → Дауыспен басқару → NEEDS_OVERRIDE_766 → Ағылшын (Құрама Штаттар): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Әмбебап қол жеткізу → Дауыспен басқару → Пәрмендерді бейімдеу: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Әмбебап қол жеткізу → Дауыспен басқару → Сөздік: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Әмбебап қол жеткізу → Дауыспен басқару → Пәрмен бойынша кері байланыс: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Әмбебап қол жеткізу → Дауыспен басқару → Растауды көрсету: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Әмбебап қол жеткізу → Дауыспен басқару → Дыбысты ойнату: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Әмбебап қол жеткізу → Дауыспен басқару → Кеңестерді көрсету: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Әмбебап қол жеткізу → Дауыспен басқару → Үздіксіз қабаттастыру: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Әмбебап қол жеткізу → Дауыспен басқару → Қабаттастыру: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Әмбебап қол жеткізу → Дауыспен басқару → NEEDS_OVERRIDE_767 → Жоқ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Әмбебап қол жеткізу → Дауыспен басқару → NEEDS_OVERRIDE_767 → Элемент нөмірлері: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Әмбебап қол жеткізу → Дауыспен басқару → NEEDS_OVERRIDE_767 → Элемент атаулары: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Әмбебап қол жеткізу → Дауыспен басқару → NEEDS_OVERRIDE_767 → Нөмірленген тор: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Әмбебап қол жеткізу → Дауыспен басқару → Назарды тану: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Әмбебап қол жеткізу → Бүйірлік түйме: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Әмбебап қол жеткізу → Бүйірлік түйме → Басу жылдамдығы: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Әмбебап қол жеткізу → Бүйірлік түйме → Әдепкі: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Әмбебап қол жеткізу → Бүйірлік түйме → Баяу: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Әмбебап қол жеткізу → Бүйірлік түйме → Ең баяу: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Әмбебап қол жеткізу → Бүйірлік түйме → Сөйлеу үшін басып тұру: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Әмбебап қол жеткізу → Бүйірлік түйме → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Әмбебап қол жеткізу → Бүйірлік түйме → Классикалық «Дауыспен басқару» функциясы: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Әмбебап қол жеткізу → Бүйірлік түйме → Өшірулі: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Әмбебап қол жеткізу → Apple TV пульті: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Әмбебап қол жеткізу → Apple TV пульті → Бағыт түймелері: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Әмбебап қол жеткізу → Apple Watch қашықтағы экраны: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Әмбебап қол жеткізу → Пернетақталар: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Әмбебап қол жеткізу → Пернетақталар → Толық пернетақта қолжетімділігі: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_768 → Толық пернетақта қолжетімділігі: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_768 → Визуалды элементтер: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_768 → Авто жасыру: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_768 → Үлкейтілген фокустау сақинасы: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_768 → Түсі: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Әмбебап қол жеткізу → Пернетақталар → Перне автоқайталануы: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_769 → Перне автоқайталануы: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_769 → Қайта басылуына дейінгі кідіріс: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Әмбебап қол жеткізу → Пернетақталар → Біріккен пернелер: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_770 → Біріккен пернелер: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_770 → Shift арқылы қосу/өшіру: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_770 → Дыбыс: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Әмбебап қол жеткізу → Пернетақталар → Баяу пернелер: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Әмбебап қол жеткізу → Пернетақталар → NEEDS_OVERRIDE_771 → Баяу пернелер: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Әмбебап қол жеткізу → Пернетақталар → Виртуалды пернетақталар: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Әмбебап қол жеткізу → Пернетақталар → Кіші әріптерді көрсету: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Әмбебап қол жеткізу → Есту: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Әмбебап қол жеткізу → Есту құрылғылары: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Әмбебап қол жеткізу → Есту құрылғылары → MFi есту құрылғылары: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Әмбебап қол жеткізу → Есту құрылғылары → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Әмбебап қол жеткізу → Есту құрылғылары → Есту аппараттарының үйлесімділігі: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Әмбебап қол жеткізу → Дыбысты тану: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Әмбебап қол жеткізу → Дыбысты тану → Дыбыстар: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Әмбебап қол жеткізу → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Әмбебап қол жеткізу → RTT/TTY → Виртуалды TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Әмбебап қол жеткізу → RTT/TTY → Аппараттық TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Әмбебап қол жеткізу → Аудиовизуализация: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Әмбебап қол жеткізу → Аудиовизуализация → Аудио: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Әмбебап қол жеткізу → Аудиовизуализация → Құлаққапты бейімдеу: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Әмбебап қол жеткізу → Аудиовизуализация → NEEDS_OVERRIDE_772 → Құлаққапты бейімдеу: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Әмбебап қол жеткізу → Аудиовизуализация → NEEDS_OVERRIDE_772 → Арнаулы аудио баптауы: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Әмбебап қол жеткізу → Аудиовизуализация → Фондық дыбыстар: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Әмбебап қол жеткізу → Аудиовизуализация → Моно-аудио: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Әмбебап қол жеткізу → Аудиовизуализация → Телефонның шуды басу функциясы: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Әмбебап қол жеткізу → Аудиовизуализация → Теңгерім: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Әмбебап қол жеткізу → Аудиовизуализация → Визуалды элементтер: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Әмбебап қол жеткізу → Аудиовизуализация → Ескертулерге арналған жарықдиодты жарқыл: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Әмбебап қол жеткізу → Аудиовизуализация → NEEDS_OVERRIDE_773 → Құлпы ашылған кезде жыпылықтайды: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Әмбебап қол жеткізу → Аудиовизуализация → NEEDS_OVERRIDE_773 → Үнсіз режимде жыпылықтайды: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Әмбебап қол жеткізу → Аудиовизуализация → Оң/cол жақ стереоарналар теңгерімі: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Әмбебап қол жеткізу → Аудиовизуализация → Қосу және өшіру дыбыстары: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Әмбебап қол жеткізу → Субтитр, жасырын субтитр: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Әмбебап қол жеткізу → Субтитр, жасырын субтитр → Стиль: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Әмбебап қол жеткізу → Субтитр, жасырын субтитр → Жасырын субтитрлер + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Әмбебап қол жеткізу → Субтитр, жасырын субтитр → Аудио транскрипцияларды көрсету: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Әмбебап қол жеткізу → NEEDS_OVERRIDE_774 → Нақты уақыт режиміндегі субтитрлер (бета нұсқасы): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Әмбебап қол жеткізу → NEEDS_OVERRIDE_774 → FaceTime қолданбасындағы нақты уақыт режиміндегі субтитрлер: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Әмбебап қол жеткізу → Жалпы: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс → Басқарылмалы қолданыс: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс → Құпиякод реттеулері: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс → NEEDS_OVERRIDE_775 → «Басқарылмалы қолданыс» функциясының құпиякодын орнату: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс → Уақыт шектеулері: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс → NEEDS_OVERRIDE_776 → Дабыл: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс → NEEDS_OVERRIDE_776 → Дыбыс: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс → NEEDS_OVERRIDE_776 → Дыбыстау: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс → Әмбебап қол жеткізу пәрмені: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Әмбебап қол жеткізу → Басқарылмалы қолданыс → Дисплейдің автоматты түрде құлыпталуы: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Әмбебап қол жеткізу → Арнаулы әмбебап қол жеткізу режимі: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Әмбебап қол жеткізу → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Әмбебап қол жеткізу → Siri → Siri үшін мәтін енгізу: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Әмбебап қол жеткізу → Siri → Ауызша жауаптар: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Әмбебап қол жеткізу → Siri → Автоматты ауызша жауаптар: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Әмбебап қол жеткізу → Siri → Дыбыссыз жауаптарды қалау: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Әмбебап қол жеткізу → Siri → Дыбыссыз режимде сөйлемеу: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Әмбебап қол жеткізу → Siri → Әрдайым «Сәлем, Siri» пәрменін тыңдау: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Әмбебап қол жеткізу → Әмбебап қол жеткізу пәрмені: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Әмбебап қол жеткізу → Әмбебап қол жеткізу пәрмені → Лупа: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Әмбебап қол жеткізу → Әр қолданба реттеулері: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Әмбебап қол жеткізу → Маңайдағы құрылғыны басқару: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Дисплей және жарықтық: `prefs:root=DISPLAY`
+- Дисплей және жарықтық → Көрініс: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Дисплей және жарықтық → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Дисплей және жарықтық → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Дисплей және жарықтық → Night Shift → Жоспарланған: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Дисплей және жарықтық → Night Shift → Ертеңге дейін қолмен қосу: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Дисплей және жарықтық → Night Shift → Түс температурасы: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Дисплей және жарықтық → Автоматты түрде құлыптау: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Дисплей және жарықтық → Іске қосу үшін көтеру: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Дисплей және жарықтық → Құлыптау/құлпын ашу: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Дисплей және жарықтық → Мәтін өлшемі: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Дисплей және жарықтық → Қалың қаріпті мәтін: `prefs:root=DISPLAY#BOLD_TEXT`
+- Дисплей және жарықтық → Дисплей масштабы: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Дисплей және жарықтық → Көру: `prefs:root=DISPLAY&path=MAGNIFY`
+- Байланыс туралы хабарлар: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_777 → Хабарландыру жапсырмалары: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_777 → Жаңадан жүктеп алынған қолданбалар: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Басты бет және көптапсырмалылық: `prefs:root=HOME_SCREEN_DOCK`
+- Басты бет және көптапсырмалылық → NEEDS_OVERRIDE_778 → Dock панелінде қолданбалар каталогін көрсету: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Басты бет және көптапсырмалылық → Dock панелінде ұсынылған және соңғы қолданбаларды көрсету: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- «Басты бет» экраны: `prefs:root=HOME_SCREEN`
+- «Басты бет» экраны → Жаңадан жүктеп алынған қолданбалар: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- «Басты бет» экраны → Хабарландыру жапсырмалары: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID және құпиякод: `prefs:root=PASSCODE`
+- Touch ID және құпиякод → Құпиякодты өшіру: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID және құпиякод → Құпиякодты өзгерту: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID және құпиякод → Құпиякод сұрауы: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID және құпиякод → Дауыстап теру: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID және құпиякод → Экран құлыптаулы кезде қол жеткізу: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID және құпиякод → Хабар арқылы жауап беру: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID және құпиякод → Үйді басқару: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID және құпиякод → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID және құпиякод → Өткізілгендерге қайту: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID және құпиякод → Деректерді өшіру: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID және құпиякод → Apple Watch сағатымен құлыптан ашу: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Подкасттар: `prefs:root=PODCASTS`
+- Төтенше қоңырау — SOS: `prefs:root=EMERGENCY_SOS`
+- Төтенше қоңырау — SOS → Бүйірлік түйме арқылы қоңырау шалу: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Төтенше қоңырау — SOS → Авто қоңырау: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Төтенше қоңырау — SOS → Төтенше контактілер: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Төтенше қоңырау — SOS → Кері санау дыбысы: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Дыбыстар: `prefs:root=Sounds`
+- Дыбыстар → Құлаққап қауіпсіздігі: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Дыбыстар → Құлаққап қауіпсіздігі → Lightning адаптерлері: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Дыбыстар → Құлаққап қауіпсіздігі → Құлаққап хабарландырулары: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Дыбыстар → Құлаққап қауіпсіздігі → Қатты дыбыстарды азайту: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Дыбыстар → Дыбыс әсерлері: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Дыбыстар → Қоңырау және ескертулер: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Дыбыстар → Түймелермен өзгерту: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Дыбыстар → Дыбыс және діріл үлгілері: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Дыбыстар → Рингтон: `prefs:root=Sounds&path=Ringtone`
+- Дыбыстар → Хабар дыбысы: `prefs:root=Sounds&path=Text_Messages`
+- Дыбыстар → Жаңа дауыстық пошта: `prefs:root=Sounds&path=Voicemail`
+- Дыбыстар → Жаңа пошта: `prefs:root=Sounds&path=NEW_MAIL`
+- Дыбыстар → Жіберілгендер: `prefs:root=Sounds&path=SENT_MAIL`
+- Дыбыстар → Күнтізбе ескертулері: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Дыбыстар → Ескесалғыш ескертулері: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Дыбыстар → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Дыбыстар → Пернетақтаның шертпе дыбыстары: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Дыбыстар → Құлыптау дыбысы: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Ауа райы: `prefs:root=WEATHER`
+- Компас: `prefs:root=COMPASS`
+- Компас → Нағыз солтүстікті пайдалану: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Басқару орталығы: `prefs:root=ControlCenter`
+- Басқару орталығы → Қолданбалардағы қол жеткізу: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Басқару орталығы → Басқару элементтерін бейімдеу: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Әзірлеуші: `prefs:root=DEVELOPER_SETTINGS`
+- Әзірлеуші → Көп арналы желі: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Әзірлеуші → Көп арналы желі → Көп арналы желі: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Әзірлеуші → Көрініс: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Әзірлеуші → Қараңғы көрініс: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Әзірлеуші → Жұптастырылған құрылғылар: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Әзірлеуші → Сенім берілген компьютерлерден тазалау: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Әзірлеуші → Аспаптар: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Әзірлеуші → Журнал: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Әзірлеуші → Пайдаланушы интерфейсін автоматтандыру: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Әзірлеуші → Желіге қосылу: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Әзірлеуші → Желілік қосылым реттеушіcі: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Әзірлеуші → iAd әзірлеушісінің қолданбасын сынау: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Әзірлеуші → Толу деңгейі: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Әзірлеуші → Кесілген баннерлерді ерекшелеу: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Әзірлеуші → Шексіз жарнама презентациясы: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Әзірлеуші → PassKit сынағы: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Әзірлеуші → Қосымша журналдар: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Әзірлеуші → HTTP сервистеріне рұқсат беру: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Әзірлеуші → Жылдамдық шектеуін өшіру: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Әзірлеуші → NFC кіру кілті (қосымша): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Әзірлеуші → Медиа сервистерді сынау: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Әзірлеуші → AirPlay ұсыныстары: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Әзірлеуші → Медиа сервистерді бастапқы күйге қайтару: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Әзірлеуші → «News» қолданбасын сынау: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Әзірлеуші → Келесі іске қосу кезінде құрылғыдағы деректерді бастапқы күйге қайтару: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Әзірлеуші → Медиаплеердің бағдарламалық ортасын сынау: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Әзірлеуші → Ойнатылатын контент API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Әзірлеуші → Теледидар провайдерін сынау: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Әзірлеуші → Теледидар провайдері: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Әзірлеуші → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Әзірлеуші → CoreSpotlight функциясын сынау: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Әзірлеуші → Барлық элементті қайта индекстеу: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Әзірлеуші → Барлық элементті идентификаторлармен қайта индекстеу: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Әзірлеуші → Пернелер тіркесімдерін сынау: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Әзірлеуші → Соңғы пернелер тіркесімін көрсету: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Әзірлеуші → Алдағы медиадеректерді көрсету: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Әзірлеуші → Құлыптау экранындағы донорлықтарды көрсету: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Әзірлеуші → Пернелер тіркесімін сағатқа мәжбүрлі түрде синхрондау: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Әзірлеуші → MIDI-CI сынағы: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Әзірлеуші → MIDI-CI функциясын қосу: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Денсаулық: `prefs:root=HEALTH`
+- Өлшем: `prefs:root=MEASURE`
+- Өлшем → Өлшем бірліктер: `prefs:root=MEASURE#MEASURE_UNITS`
+- Өлшем → Империялық: `prefs:root=MEASURE#Imperial`
+- Өлшем → Метрлік: `prefs:root=MEASURE#Metric`
+- Музыка: `prefs:root=MUSIC`
+- Музыка → Apple Music қолданбасын көрсету: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Музыка → Плейлист әндерін қосу: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Музыка → Жұлдыз қойылатын рейтингтерін көрсету: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Музыка → Медиатеканы синхрондау: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Музыка → Ұялы деректер: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Музыка → Жүктеп алынған музыка: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Музыка → Сақтау орнын оңтайландыру: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Музыка → Авто жүктеп алулар: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Музыка → Эквалайзер: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Музыка → Дыбысты түзету: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Музыка → Тыңдау тарихын пайдалану: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Ескертпелер: `prefs:root=NOTES`
+- Ескертпелер → Әдепкі аккаунт: `prefs:root=NOTES&path=Default%20Account`
+- Ескертпелер → Құпиясөз: `prefs:root=NOTES&path=Password`
+- Ескертпелер → Ескертпелерді сұрыптау:: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Ескертпелер → Жаңа ескертпелер басы: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Ескертпелер → Тексерілген элементтерді сұрыптау: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Ескертпелер → Сызықтар мен торлар: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Ескертпелер → Фотоларға сақтау: `prefs:root=NOTES#Save%20to%20Photos`
+- Ескертпелер → Құлыптау экранындағы ескертпелер: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Хабарлар: `prefs:root=MESSAGES`
+- Аудару: `prefs:root=TRANSLATE`
+- Аудару → Құрылғыдағы аударма режимі: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Теледидар провайдері: `prefs:root=VIDEO_SUBSCRIBER`
+- Диктофон: `prefs:root=VOICE_MEMOS`
+- Диктофон → Жойылғандардан тазалау: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Диктофон → Дыбыс сапасы: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Диктофон → Геолокацияға негізделген атау: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Камера: `prefs:root=CAMERA`
+- Камера → Форматтар: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Камера → Форматтар → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Камера → NEEDS_OVERRIDE_779 → HDR видео: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Камера → Реттеулерді сақтау: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Камера → Реттеулерді сақтау → Камера режимі: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Камера → Тор: `prefs:root=CAMERA#CameraGridSwitch`
+- Камера → QR кодтарын сканерлеу: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Карталар: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Контактілер: `prefs:root=CONTACTS`
+- Контактілер → «Контактілер» қолданбасына қол жеткізуге рұқсат беру: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Контактілер → Siri және іздеу: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Контактілер → Сұрыптау реті: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Контактілер → Дисплей реттілігі: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Контактілер → Қысқа ат: `prefs:root=CONTACTS&path=PersonShortName`
+- Контактілер → Қысқа ат → Қысқа ат: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Контактілер → Қысқа ат → Лақап аттар таңдау: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Контактілер → Менің ақпаратым: `prefs:root=CONTACTS&path=MeCard`
+- Контактілер → SIM карта контактілерін импорттау: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Кітаптар: `prefs:root=IBOOKS`
+- Кітаптар → Онлайн контент: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Кітаптар → СИНХРОНДАУ: `prefs:root=IBOOKS#SYNCING`
+- Кітаптар → Қазір оқу: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Кітаптар → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Кітаптар → ОҚУ: `prefs:root=IBOOKS#READING`
+- Кітаптар → Толық теңестіру: `prefs:root=IBOOKS#BKFullJustification`
+- Кітаптар → Сөзді авто тасымалдау: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Кітаптар → Екі жолдан да парақтау: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Кітаптар → Оқу бойынша мақсаттар: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Кітаптар → Оқу мақсаттары дерегін тазалау: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Кітаптар → ІЗДЕЛУДЕ: `prefs:root=IBOOKS#SEARCHING`
+- Кітаптар → Кітаптар дүкені: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Кітаптар → АУДИОКІТАПТАР: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Кітаптар → Алға өту: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Кітаптар → Артқа өту: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Кітаптар → СЫРТҚЫ БАСҚАРУ ЭЛЕМЕНТТЕРІ: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Кітаптар → Келесі/алдыңғы: `prefs:root=IBOOKS#Next/Previous`
+- Кітаптар → Алға/артқа өту: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Кітаптар → ҚҰПИЯЛЫЛЫҚ: `prefs:root=IBOOKS#PRIVACY`
+- Кітаптар → Идентификаторды бастапқы күйге қайтару: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Кітаптар → Хабарландырулар: `prefs:root=IBOOKS&path=Acknowledgements`
+- Күнтізбе: `prefs:root=CALENDAR`
+- Күнтізбе → Уақыт белдеуін қайта анықтау: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Күнтізбе → Басқа күнтізбелер: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Күнтізбе → Апта нөмірлері: `prefs:root=CALENDAR#Week%20Numbers`
+- Күнтізбе → Қатысушының бас тарту әрекеттерін көрсету: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Күнтізбе → Синхрондау: `prefs:root=CALENDAR&path=Sync`
+- Күнтізбе → Әдепкі ескерту уақыттары: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Күнтізбе → Апта басы:: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Күнтізбе → Геолокациялық ұсыныстар: `prefs:root=CALENDAR#Location%20Suggestions`
+- Пошта: `prefs:root=MAIL`
+- Пошта → Аккаунттар: `prefs:root=MAIL&path=ACCOUNTS`
+- Пошта → Аккаунттар → Аккаунт қосу: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Пошта → Аккаунттар → Жаңа деректер алу: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Пошта → Алдын ала қарау: `prefs:root=MAIL&path=Preview`
+- Пошта → Маған/көшіру белгілерін көрсету: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Пошта → Жанап өту опциялары: `prefs:root=MAIL&path=Swipe%20Options`
+- Пошта → Жоюдан бұрын сұрау: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Пошта → Қашықтағы кескіндерді жүктеу: `prefs:root=MAIL#Load%20Remote%20Images`
+- Пошта → Тақырыбы бойынша реттеу: `prefs:root=MAIL#Organize%20by%20Thread`
+- Пошта → Оқылған хабарларды жию: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Пошта → Ең соңғы хабар үстіде: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Пошта → Тақырыптарды аяқтау: `prefs:root=MAIL#Complete%20Threads`
+- Пошта → Дыбысы өшірілген хабарландыру: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Пошта → Блокталған жіберушілерді елемеу: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Пошта → Блокталған: `prefs:root=MAIL&path=Blocked`
+- Пошта → Әрқашан көшірмесін өзімде қалдыру: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Пошта → Мекенжайлар белгісі: `prefs:root=MAIL&path=Mark%20Addresses`
+- Пошта → Цитата деңгейін көтеру: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Пошта → Жауабы бар тіркемелер қосу: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Пошта → Қолтаңба: `prefs:root=MAIL&path=Signature`
+- Телефон: `prefs:root=Phone`
+- Телефон → Менің нөмірім: `prefs:root=Phone&path=My%20Number`
+- Телефон → Кіріс қоңыраулар: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Телефон → Қоңырауларды жариялау: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Телефон → SMS/қоңырау туралы хабарлау: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Телефон → Мәтіндік хабармен жауап беру: `prefs:root=Phone&path=Respond%20with%20Text`
+- Телефон → Қоңырауларды қайта адрестеу: `prefs:root=Phone&path=Call%20Forwarding`
+- Телефон → Қоңырауларды қайта адрестеу → Қоңырауларды қайта адрестеу: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Телефон → Қоңырауды күту: `prefs:root=Phone&path=Call%20Waiting`
+- Телефон → Нөмірімді көрсету: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Телефон → Нөмірімді көрсету → NEEDS_OVERRIDE_780 → Нөмірімді көрсету: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Телефон → Белгісіз қоңырау дыбысын өшіру: `prefs:root=Phone#SILENCE_CALLS`
+- Телефон → Блокталған контактілер: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Телефон → Теру көмекшісі: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → Контент блоктаушы: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Қалқымалы терезелерді блоктау: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Тоғыспалы бақылауға жол бермеу: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Авто толтыру: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Жүктеп алынғандар: `prefs:root=SAFARI&path=DOWNLOADS`
+- Құпиясөздер: `prefs:root=PASSWORDS`
+- Құпиясөздер → Құпиясөздерді авто толтыру: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Фотолар: `prefs:root=Photos`
+- Фотолар → iCloud фотолар: `prefs:root=Photos#iCloudPhotosSwitch`
+- Фотолар → Сақтау орнын оңтайландыру: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Фотолар → Жүктеп алу және түпнұсқаларды сақтау: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Фотолар → Фото ағыным: `prefs:root=Photos#PhotoStreamSwitch`
+- Фотолар → Ортақ альбомдар: `prefs:root=Photos#SharedStreamsSwitch`
+- Фотолар → Ұялы деректер: `prefs:root=Photos&path=CellularDataLinkList`
+- Фотолар → Видеоларды авто ойнату: `prefs:root=Photos#VideoAutoplaySwitch`
+- Фотолар → Толық HDR сапасында көру: `prefs:root=Photos#ImageModulationSwitch`
+- Фотолар → Мерекелік оқиғаларды көрсету: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Фотолар → Mac немесе компьютерге көшіру: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Авто жүктеп алулар: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Қолданба жаңартулары: `prefs:root=STORE#App%20Updates`
+- App Store → Қолданбалар: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Видеоны авто ойнату: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Бағалар мен пікірлер: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Оқиғаның алдын ала қарау көріністерін көрсету: `prefs:root=NEWS#show_excerpt_mode`
+- News → Мақалаларды «Бүгінгі» бойынша шектеу: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Құпиялылық: `prefs:root=NEWS#Privacy`
+- News → Идентификаторды бастапқы күйге қайтару: `prefs:root=NEWS#reset_identifier`
+- News → Хабарландырулар: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_781 → Ұшақ режимі: `prefs:root=ROOT#AIRPLANE_MODE`
+- Еске салғыш: `prefs:root=REMINDERS`
+- Еске салғыш → Әдепкі тізім: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Еске салғыш → Әдепкі тізім → Еске салғыш: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Еске салғыш → Бүгінгі хабарландыру: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Еске салғыш → Мерзімі өткен ретінде көрсету: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Аккумулятор: `prefs:root=BATTERY_USAGE`
+- Аккумулятор → Қуат үнемдеу режимі: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Аккумулятор → Аккумулятор жағдайы: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Пәрмендер: `prefs:root=SHORTCUTS`
+- Пәрмендер → iCloud синхрондау әрекеті: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Пәрмендер → Ретті синхрондау: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Пәрмендер → Құқықтық ескертпелер: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri және іздеу: `prefs:root=SIRI`
+- Siri және іздеу → Құлыптаулы кезде Siri функциясына рұқсат беру: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri және іздеу → Тіл: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri және іздеу → Siri дауысы: `prefs:root=SIRI&path=VOICE_ID`
+- Siri және іздеу → Дыбыстық пікір: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri және іздеу → Менің ақпаратым: `prefs:root=SIRI&path=MY_INFO`
+- Siri және іздеу → «Іздеу» қолданбасындағы ұсыныстар: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri және іздеу → «Табу» қолданбасындағы ұсыныстар: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri және іздеу → Құлыптау экранындағы ұсыныстар: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Акциялар: `prefs:root=STOCKS`
+- Акциялар → Құпиялылық: `prefs:root=STOCKS#Privacy`
+- Акциялар → Идентификаторды бастапқы күйге қайтару: `prefs:root=STOCKS#reset_identifier`
+- Ұялы байланыс: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Ұялы байланыс → Ұялы деректер опциялары: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Ұялы байланыс → Ұялы деректер опциялары → Деректерді үнемдеу режимі: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Ұялы байланыс → Ұялы деректер: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- Теледидар: `prefs:root=TVAPP`
+- Теледидар → Ойнату үшін ұялы деректерді пайдалану: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Теледидар → Ойнату сапасы: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Теледидар → Сатып алулар және жалға алынған нысандар: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Теледидар → Үй топтамасы: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Тұсқағаз: `prefs:root=Wallpaper`

@@ -1,0 +1,1156 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud Storage": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Снимки": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Поща": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Контакти": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Календар": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Напомняния": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Бележки": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Резервно копие": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Здраве": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Пароли и ключодържател": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Поверително пренасочване": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Сподели местоположението ми": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Намери моя iPhone": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Име, телефонни номера, имейл": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Парола и сигурност": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Плащане и доставка": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Абонаменти": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Семейство": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Поверителност и сигурност": {
+    "(root)": "prefs:root=Privacy",
+    "Проверка на сигурността": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Местоположение": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Сподели местоположението ми": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Контакти": "prefs:root=Privacy&path=CONTACTS",
+    "Календар": "prefs:root=Privacy&path=CALENDARS",
+    "Напомняния": "prefs:root=Privacy&path=REMINDERS",
+    "Снимки": "prefs:root=Privacy&path=PHOTOS",
+    "Споделяне на Bluetooth": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Микрофон": "prefs:root=Privacy&path=MICROPHONE",
+    "Разпознаване на говор": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Камера": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Медия и Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Аналитични данни": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Реклама": "prefs:root=Privacy&path=ADVERTISING",
+    "Файлове и папки": "prefs:root=Privacy&path=FILEACCESS",
+    "Проследяване": "prefs:root=Privacy&path=USER_TRACKING",
+    "Доклад за поверителност на приложение": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Режим на блокиране": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Здраве": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Фокус": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Състояние на Фокус": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Основни": {
+    "(root)": "prefs:root=General",
+    "VPN и Управление на устройство": "prefs:root=General&path=ManagedConfigurationList",
+    "Картина в картината": "prefs:root=General&path=PiP_SPEC",
+    "Трaкпад и мишка": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "За устройството": {
+      "(root)": "prefs:root=General&path=About",
+      "Доверени сертификати": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Правнa информация и стандарти": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Обновяване на софтуер": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Бутон Начало": "prefs:root=General&path=HOME_BUTTON",
+    "Жестове": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Страничен превключвател": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Обновяване във фонов режим": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Дата и час": "prefs:root=General&path=DATE_AND_TIME",
+    "TV изход": "prefs:root=General&path=TV_OUT",
+    "Стандарти": "prefs:root=General&path=REGULATORY",
+    "Нулирай": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Нулиране на всички настройки": "prefs:root=General&path=Reset#settingsErase",
+      "Изтриване на цялото съдържание и всички настройки": "prefs:root=General&path=Reset#fullErase",
+      "Нулиране на мрежови настройки": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Премахни всички мобилни планове за данни": "prefs:root=General&path=Reset#cellularErase",
+      "Абонаментни услуги": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Нулиране на речник на клавиатурата": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Нулирай Начален екран": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Нулиране на местоположение и поверителност": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Изключи": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay и Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Прехвърляне към HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Автоматично AirPlay към телевизор": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Функция Непрекъснатост на Камера": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Речник": "prefs:root=General&path=DICTIONARY",
+    "Език и регион": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Други езици…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Предпочитан ред на езиците": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Добавяне на език…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Регион": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Номера": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Календар": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Единица за температура": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Клавиатура": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Клавиатури": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Замяна на текст": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Автоматичното преобразуване в главна буква": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Автоматично коригиране": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Проверка на правописа": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Активира само главни": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Команди": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Предсказващо въвеждане": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Интелигентна пунктуация": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Разделена клавиатура": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Активиране на бързо плъзгане надолу върху клавиша": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Преглед на символите": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "Бърза команда за „.“": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Писане с плъзгане": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Активирай диктовка": "prefs:root=General&path=Keyboard#Dictation",
+      "Автоматична пунктуация": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Пространство за съхранение": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Освободи приложения": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Известия": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Насрочено обобщение": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Портфейл и Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Карти за плащане": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Добавяне на карта": "prefs:root=PASSBOOK#Add%20Card",
+    "Щракнете два пъти страничния бутон": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Проследяване на поръчка": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Екранно време": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Днес": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Седмица": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Покой": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Ограничения на приложения": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Ограничения на комуникация": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Сигурност на комуникацията": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Винаги позволени": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Ограничения за съдържание и поверителност": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Родителски контрол": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Улеснен достъп": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Зрение": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Скорост на изговаряне": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Изговаряне": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Глас": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Детайлност": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Пунктуация": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Заглавия на таблица": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Описания на медия": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Изкл.": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Изговаряне": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Изговаряне и Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Изход": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Несъкратен шест точков Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Несъкратен 8-точков Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Съкратен Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Въвеждане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Несъкратен шест точков Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Несъкратен 8-точков Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Съкратен Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Автоматичен превод": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Въвеждане на Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Несъкратен шест точков Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Несъкратен 8-точков Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Съкратен Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Обръщане на позициите на точките": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Брайлови таблици": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Добавяне на Брайлова таблица…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Клетки на състоянието": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Позиция на състояние на клетките": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Ляво": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Дясно": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Показване на общо състояние": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Показване на състояние на текста": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Изразите използват код на Немет": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Показване на екранна клавиатура": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Обръщане на страниците при придвижване": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Прехвърляне на дума на нов ред": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Брайлови предупредителни съобщения": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Продължителност за игнориране на акорда": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Продължителност на автоматично придвижване напред": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Аудио": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Заглъхване на звука": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Автоматичен избор на говорител при обаждане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Изпрати до HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Команди": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Дейности": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Програмиране": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Добавяне на дейност…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Шайба": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Действия на шайбата": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Редактиране на приложения в Начален екран": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Приложения с директно докосване": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Въвеждане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Стил на въвеждане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Стандартно въвеждане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Въвеждане с докосване": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Директно въвеждане с докосване": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Фонетична информация": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Изкл.": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Символи и фонетика": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Само фонетика": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Обратна връзка за въвеждане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Функционални клавиши": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Control + Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Само главни": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Време за взаимодействие с клавиатурата": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Навигиране на изображения": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Винаги": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "С описания": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Никога": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Голям курсор": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Панел с надписи": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Изчакване за двукратно докосване": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Изчакване за двукратно докосване": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Стил на навигация": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Бързи настройки": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Звуци": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Заглъхване на звука": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Сила на звука": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Скорост на изговаряне": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Съвети": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Стил на навигация": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Стил на въвеждане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Писане с плъзгане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Дейности": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Винаги изговаряне на известия": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Брайлови предупредителни съобщения": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Автоматично придвижване на Брайлов екран": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Въвеждане на Брайлов код": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Брайлов изход": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Брайлови таблици": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Панел с надписи": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Директно докосване": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Посока на жест": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Обратна връзка за хардуерно въвеждане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Език": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Голям курсор": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Описания на медия": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Навигиране на изображения": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Фонетична информация": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Промяна на тона": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Пунктуация": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Изпрати до HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Обратна връзка за софтуерно въвеждане": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Изговаряне на потвърждение с шайбата": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Описание на изображение": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Разпознаване на екран": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "VoiceOver разпознаване": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Описание на изображение": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Разпознаване на екран": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Увеличаване": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Увеличаване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Следване на фокуса": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Интелигентно въвеждане": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Клавишни комбинации": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Клавишни комбинации": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Настройване на степен на увеличаване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Превключи Увеличаване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Преместване на прозорец за увеличаване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Промяна на размера на прозореца за увеличаване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Превключване към oбласт с увеличаване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Временно включване на увеличаване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Увеличаване със скролер": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Управление на мащаб": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Област на увеличаване/намаляване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Увеличаване на целия екран": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Увеличаване на прозореца": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Максимална степен на увеличаване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Филтър за увеличаване": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Покажи при дублиране": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Уголемен текст": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Екран и Размер на текста": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Удебелен текст": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "По-голям текст": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Форми на бутони": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Вкл./Изкл. Етикети": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Намали прозрачността": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Увеличаване на контраст": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Разграничаване без цвят": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Интелигентно инвертиране": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Класическо инвертиране": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Цветни филтри": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Цветни филтри": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Намали бялата точка": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Автоматична яркост": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Движение": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Намали движението": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Ефекти за автоматично възпроизвеждане на съобщения": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Автоматично възпроизвеждане на видео откъси": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Изговорено съдържание": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Изговори избраното": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Изговори екран": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Управление на говор": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Персонализиране на бутоните на мишката": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Маркирано съдържание": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Обратна връзка за въвеждане": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Обратна връзка за символ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Символи": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Съвети за символ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Изговаряне на думи": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Изговаряне на автоматичен текст": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Задържане за изговаряне": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Гласове": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Език по подразбиране": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Откриване на езици": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Скорост на изговаряне": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Произношения": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Аудио описания": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Аудио описания": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Физически ограничения и движение": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Докосване": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Персонализиране на менюто най-отгоре": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Докоснете иконка, за да я промените:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Нулиране…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Персонализирани действия": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Единично докосване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Двукратно докосване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Изчакване за двукратно докосване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Продължително натискане": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Време на продължително натискане": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Персонализиран жест": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Създаване на нов жест…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Видимост при неизползване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Устройства с курсор": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Устройства": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth устройства…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Клавиши на мишка": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Стил на курсора": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Размер": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Визуално": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Цвят": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Персонализиране на бутоните на мишката": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Автоматично скриване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_34": {
+            "Автоматично скриване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Показване на екранна клавиатура": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Винаги показване на меню": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Управление на задържане": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Толеранс на движение": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Чувствителност за проследяване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Резервно действие": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Активни ъгли": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Използване на контролер за игри": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D Touch и докосване с осезание": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_35": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "Чувствителност на 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Продължителност на докосване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Бързо": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Бавно": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Чувствителност на 3D Touch и Тест за продължителността на натискане": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Улеснения за докосване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_36": {
+        "Улеснения за докосване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Време на задържане": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Игнорирай Повторение": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Помощ при докосване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Изкл.": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Използвай Начално място на докосване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Използвай Крайно място на докосване": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Докосване за активиране": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Докосване или плъзване за събуждане": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Разклащане за отмяна": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Вибрация": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Заключването не прекратява текущия разговор": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Пренасочване на звука на обаждания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_37": {
+        "Автоматично": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth слушалки": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Говорител": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Автоматично приемане на обаждания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID и внимание": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Изискване на внимание за Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Услуги, изискващи внимание": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Осезания": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Осезание при успешно разпознаване": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Управление с превключвател": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Управление с превключвател": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Превключватели": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_38": {
+        "Добави нов превключвател…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth устройства…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Предписания": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Стил на сканиране": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_39": {
+        "Автоматично сканиране": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Ръчно сканиране": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Единично стъпково сканиране": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Време": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Автоматично време за сканиране": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_40": {
+        "Автоматично време за сканиране": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Пауза на първи елемент": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_41": {
+        "Пауза на първи елемент": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Премести Повторение": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_42": {
+        "Премести Повторение": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Продължително натискане": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_43": {
+        "Продължително натискане": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Поведение на докосване": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_44": {
+        "По подразбиране": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Автоматично докосване": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Винаги докосване": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Фокусиран елемент след докосване": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_45": {
+        "Първи елемент": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Текущ елемент": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Клавиатура": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Сканирай същия клавиш след докосване": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Винаги докосвай клавишите на клавиатурата": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Разширени предположения": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Стабилизация на превключвателя": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Време на задържане": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_46": {
+        "Време на задържане": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Игнорирай Повторение": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_47": {
+        "Игнорирай Повторение": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Сканиране по позиция": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Плъзгащ се курсор": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_48": {
+        "Режим на избиране": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Единично": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Подобрен": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Прецизно": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Скорост на плъзгащ се курсор": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Следене на главата": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_49": {
+        "Следене на главата": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Аудио": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Звукови ефекти": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Изговаряне": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_50": {
+        "Гласове": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Скорост на изговаряне": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Елементи в менюто": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Групирай елементи": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Визуално": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Голям курсор": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Запазени жестове": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_51": {
+        "Създаване на нов жест…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Цвят на курсора": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Управление с глас": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Настройване на Управление с глас": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Език": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_52": {
+        "Английски (САЩ)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Персонализиране на команди": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Речник": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Обратна връзка за команда": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Показване на потвърждение": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Възпроизвеждане на звук": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Покажи съвети": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Непрекъснато препокриване": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Препокриване": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_53": {
+        "Няма": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Номера на елементи": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Имена на елемент": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Номерирана мрежа": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Изискване на внимание": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Страничен бутон": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Скорост на щракване": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "По подразбиране": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Бавно": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Най-бавно": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Натиснете и задръжте за говорене": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Класическо управление с глас": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Изкл.": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Бутони за насочване": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Отдалечен екран на Apple Watch": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Клавиатури": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Пълен достъп до клавиатура": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_54": {
+        "Пълен достъп до клавиатура": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Визуални елементи": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Автоматично скриване": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Голям пръстен с фокус": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Цвят": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Повторение на клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_55": {
+        "Повторение на клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Интервал на повторение на клавиш": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Забавяне до повторение": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Допълнителни клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_56": {
+        "Допълнителни клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Превключи с клавиш Shift": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Звук": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Бавни клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_57": {
+        "Бавни клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Софтуерни клавиатури": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Показване на клавишите с малки букви": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Слух": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Слухови апарати": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "Слухови апарати MFi": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Съвместимост със слухови апарати": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Разпознаване на звук": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Звуци": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Софтуерен TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Хардуерен TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Аудио и визуални": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Аудио": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Настройки на слушалките": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_58": {
+        "Настройки на слушалките": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Персонализирани настройки на звука": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Звуци на заден фон": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Моно звук": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Заглушаване на шума при телефонен разговор": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Баланс": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Визуално": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "LED присветване за предупреждения": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_59": {
+        "Присветване при отключване": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Присветване в тих режим": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Стерео баланс ляво-дясно": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Звуци при включване и изключване": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Субтитри и надписи": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Стил": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Надписи + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Показване на аудио транскрипции": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_60": {
+      "Субтитри на живо (Бета версия)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Субтитри на живо във FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Основни": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Контролиран достъп": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Контролиран достъп": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Настройки на код": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_61": {
+        "Настройване на код с контролиран достъп": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Времеви ограничения": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_62": {
+        "Аларма": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Звук": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Изговори": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Бърза команда за улеснен достъп": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Автоматично заключване на екрана": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Специален режим на улеснен достъп": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Въведете текст за Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Гласови отговори": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Автоматични гласови отговори": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Предпочитам безшумни отговори": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Без говор в тих режим": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Винаги слушане за „Hey Siri“": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Бърза команда за улеснен достъп": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Лупа": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Настройки за отделни приложения": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Контрол на устройства наблизо": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Екран и яркост": {
+    "(root)": "prefs:root=DISPLAY",
+    "Изглед": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Насрочено": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Активирай ръчно до утре": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Температура на цвета": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Автоматично заключване": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Вдигане за активиране": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Заключи/Отключи": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Размер на текст": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Удебелен текст": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Мащаб на екрана": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Преглед": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Известия за контакт": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_63": {
+    "Значки за известия": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Нови изтеглени приложения": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Начален екран и многозадачност": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_64": {
+      "Покажи Библиотека с приложения в Dock": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Покажи Предложени и скорошни приложения в Dock": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Начален екран": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Нови изтеглени приложения": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Значки за известия": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID и код": {
+    "(root)": "prefs:root=PASSCODE",
+    "Изключи код": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Промени кода": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Изисква се код": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Гласово набиране": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Разрешавай достъп при заключен екран": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Отговори със съобщение": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Управление на дома": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Портфейл": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Връщане на пропуснати обаждания": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Изтриване на данните": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Отключване с Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Подкасти": "prefs:root=PODCASTS",
+  "SOS обаждане": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Обаждане със страничния бутон": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Автоматично обаждане": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Контакти при спешни случаи": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Звук за обратно броене": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Звуци": {
+    "(root)": "prefs:root=Sounds",
+    "Безопасна употреба": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning адаптери": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Известия от слушалки": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Намаляване на шумни звуци": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Звукови ефекти": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Звънене и предупреждения": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Промяна с бутони": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Схеми за звуци и вибрации": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Тон на звънене": "prefs:root=Sounds&path=Ringtone",
+    "Тон за текстово съобщение": "prefs:root=Sounds&path=Text_Messages",
+    "Ново гласово съобщение": "prefs:root=Sounds&path=Voicemail",
+    "Нова поща": "prefs:root=Sounds&path=NEW_MAIL",
+    "Изпратена поща": "prefs:root=Sounds&path=SENT_MAIL",
+    "Предупреждения за Календар": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Напомнящи предупреждения": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Щраквания на клавиатура": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Звук при заключване": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Времето": "prefs:root=WEATHER",
+  "Компас": {
+    "(root)": "prefs:root=COMPASS",
+    "Истински север": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Контролен център": {
+    "(root)": "prefs:root=ControlCenter",
+    "Достъп в приложенията": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Персонализиране на контроли": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Разработчик": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Многоканални мрежи": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Многоканални мрежи": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Изглед": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Тъмен режим на изгледа": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Сдвоени устройства": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Изчисти доверените компютри": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Инструменти": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Записване в регистъра": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Автоматизиране на интерфейса": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Мрежи": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Съгласуване на мрежовите връзки": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "Тестване на приложения като iAd разработчик": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Ниво на запълване": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Маркиране на отрязаните банери": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Неограничено представяне на реклами": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "Тестване на PassKit": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Допълнително записване в регистъра": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Разреши HTTP услуги": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Деактивиране ограничението на скоростта": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "Ключ за достъп до NFC (по избор)": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Тестване на медийните услуги": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "Предложения от AirPlay": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Нулиране на медийните услуги": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "Тестване на News": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Нулиране на локалните данни при следващото стартиране": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Тестване на софтуерната рамка за медия плейър": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API за съдържание за възпроизвеждане": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Тестване на TV оператор": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "TV доставчици": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "Тестване на CoreSpotlight": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Реиндексиране на всички елементи": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Реиндексиране на всички елементи с идентификатори": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Тестване на бързи команди": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Показване на последните бързи команди": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Показване на предстояща медия": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Показване на даренията на заключен екран": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Принудителна синхронизация с часовника": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "Тестване на MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Активиране на MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Здраве": "prefs:root=HEALTH",
+  "Измервания": {
+    "(root)": "prefs:root=MEASURE",
+    "Мерни единици": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Имперска система": "prefs:root=MEASURE#Imperial",
+    "Метрична система": "prefs:root=MEASURE#Metric"
+  },
+  "Музика": {
+    "(root)": "prefs:root=MUSIC",
+    "Показване на Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Добавяне на списък с песни": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Показване на оценки със звезди": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Синхронизиране": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Мобилни данни": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Изтеглена музика": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Оптимизирай пространство": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Автоматични изтегляния": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "Eквалайзер": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Проверка на звука": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Използвай историята": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Бележки": {
+    "(root)": "prefs:root=NOTES",
+    "По подразбиране": "prefs:root=NOTES&path=Default%20Account",
+    "Парола": "prefs:root=NOTES&path=Password",
+    "Сортирай бележките по": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Начало за новите бележки": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Сортирай отметнати": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Линии и клетки": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Запази в Снимки": "prefs:root=NOTES#Save%20to%20Photos",
+    "Достъп до Бележки от заключен екран": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Съобщения": "prefs:root=MESSAGES",
+  "Превод": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Режим на обработка в устройството": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "TV оператор": "prefs:root=VIDEO_SUBSCRIBER",
+  "Диктофон": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Изчисти изтритите": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Качество на аудио": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Имена според местоположението": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Камера": {
+    "(root)": "prefs:root=CAMERA",
+    "Формати": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_65": {
+      "HDR видео": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Запазване на настройките": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Режим на камерата": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Решетка": "prefs:root=CAMERA#CameraGridSwitch",
+    "Сканиране на QR кодове": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Карти": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Контакти": {
+    "(root)": "prefs:root=CONTACTS",
+    "Разрешаване на достъп за Контакти": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri и търсене": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Ред на сортиране": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Ред на показване": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Кратко име": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Кратко име": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Предпочитане на прякори": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Моята информация": "prefs:root=CONTACTS&path=MeCard",
+    "Импортиране на контакти от SIM карта": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Книги": {
+    "(root)": "prefs:root=IBOOKS",
+    "Онлайн съдържание": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "СИНХРОНИЗИРАНЕ": "prefs:root=IBOOKS#SYNCING",
+    "Сега чета": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "ЧЕТЕНЕ": "prefs:root=IBOOKS#READING",
+    "Пълно изравняване": "prefs:root=IBOOKS#BKFullJustification",
+    "Автоматично сричкопренасяне": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Прелистване и с двете полета": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Цели за четене": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Изчисти данните на целите за четене": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "ТЪРСЕНЕ": "prefs:root=IBOOKS#SEARCHING",
+    "Книжарница": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "АУДИО КНИГИ": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Пропусни напред": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Пропусни назад": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "ВЪНШНИ КОНТРОЛИ": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Напред/Назад": "prefs:root=IBOOKS#Next/Previous",
+    "Пропусни напред/назад": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "ПОВЕРИТЕЛНОСТ": "prefs:root=IBOOKS#PRIVACY",
+    "Нулиране на идентификатора": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Признания": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Календар": {
+    "(root)": "prefs:root=CALENDAR",
+    "Замяна на часовата зона": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Алтернативни календари": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Номера на седмиците": "prefs:root=CALENDAR#Week%20Numbers",
+    "Показвай откази от поканените": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Синхронизирай": "prefs:root=CALENDAR&path=Sync",
+    "Напомняния по подразбиране": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Начало на седмицата": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Възможни местоположения": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Поща": {
+    "(root)": "prefs:root=MAIL",
+    "Регистрации": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Добави регистрация": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Извличане на нови данни": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Преглед": "prefs:root=MAIL&path=Preview",
+    "Показване на полетата До/Копие до": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Опции за дълго плъзгане": "prefs:root=MAIL&path=Swipe%20Options",
+    "Питай преди изтриване": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Зареждане на външни изображения": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Организирай по поредица": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Свий прочетени съобщения": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Най-скорошното съобщение отгоре": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Завършени поредици": "prefs:root=MAIL#Complete%20Threads",
+    "Действие за скрита поредица": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Игнориране на блокираните податели": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Блокирани": "prefs:root=MAIL&path=Blocked",
+    "Винаги скрито копие до мен": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Маркиране на адреси": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Увеличи нивото на цитата": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Включване на прикачените файлове с отговорите": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Подпис": "prefs:root=MAIL&path=Signature"
+  },
+  "Телефон": {
+    "(root)": "prefs:root=Phone",
+    "Моят номер": "prefs:root=Phone&path=My%20Number",
+    "Входящи обаждания": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Оповестяване на обажданията": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Докладване на обаждания/SMS съобщения": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Отговори с текст": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Разговорът се препраща": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Разговорът се препраща": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Разговорът е на изчакване": "prefs:root=Phone&path=Call%20Waiting",
+    "Показвай индикатора ми за обаждания": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_66": {
+        "Показвай индикатора ми за обаждания": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Заглушавай непознати обаждания": "prefs:root=Phone#SILENCE_CALLS",
+    "Блокирани контакти": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Асистент за набиране": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Ограничаване на съдържание": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Блокирай изскачащи менюта": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Предотвратяване на проследяване между сайтове": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Автоматично попълване": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Изтегляния": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Пароли": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Автопопълване на пароли": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Снимки": {
+    "(root)": "prefs:root=Photos",
+    "iCloud снимки": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Оптимизирай пространство": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Изтегляне и запазване на оригиналите": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Моят поток снимки": "prefs:root=Photos#PhotoStreamSwitch",
+    "Споделени албуми": "prefs:root=Photos#SharedStreamsSwitch",
+    "Мобилни данни": "prefs:root=Photos&path=CellularDataLinkList",
+    "Видео - автоматично": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Преглед на пълен HDR": "prefs:root=Photos#ImageModulationSwitch",
+    "Показване на празници": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Прехвърляне към Mac или PC": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Автоматични изтегляния": "prefs:root=STORE#Automatic%20Downloads",
+    "Обновявания на приложенията": "prefs:root=STORE#App%20Updates",
+    "Изтегляне на приложения": "prefs:root=STORE&path=App%20Downloads",
+    "Автовъзпроизвеждане на видео": "prefs:root=STORE&path=Video%20Autoplay",
+    "Оценки/отзиви в приложения": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Показване на преглед на статиите": "prefs:root=NEWS#show_excerpt_mode",
+    "Ограничаване на статиите в изгледа Днес": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Поверителност": "prefs:root=NEWS#Privacy",
+    "Нулиране на идентификатора": "prefs:root=NEWS#reset_identifier",
+    "Признания": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_67": {
+    "Режим Полет": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Напомняния": {
+    "(root)": "prefs:root=REMINDERS",
+    "Списък по подразбиране": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Напомняния": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Известие за деня": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Показване като просрочено": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Батерия": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Пестене на енергия": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Състояние на батерията": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Команди": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "Синхронизиране с iCloud": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Ред за синхронизиране на бързите команди": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Правнa информация": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri и търсене": {
+    "(root)": "prefs:root=SIRI",
+    "Позволяване на Siri при заключен екран": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Език": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Глас на Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "Гласова обратна връзка": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Моята информация": "prefs:root=SIRI&path=MY_INFO",
+    "Предложения в Търсене": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Предложения в Провери": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Предложения при заключен екран": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Акции": {
+    "(root)": "prefs:root=STOCKS",
+    "Поверителност": "prefs:root=STOCKS#Privacy",
+    "Нулиране на идентификатора": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Мобилна връзка": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Опции за мобилни данни": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Режим Пестене на данни": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Мобилни данни": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Използване на мобилни дани за възпроизвеждане": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Качество на възпроизвеждане": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Покупки и наемания": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Домашно споделяне": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Тапет": "prefs:root=Wallpaper"
+}

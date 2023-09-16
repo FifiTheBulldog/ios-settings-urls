@@ -1,0 +1,1155 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud сақтау орны": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Фотолар": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Пошта": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Контактілер": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Күнтізбе": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Еске салғыш": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Ескертпелер": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "Жаңалықтар": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Сақтық көшірме": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Денсаулық": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Құпиясөздер мен кілттер": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Жеке торап": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Геолокациямды бөлісу": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "iPhone құрылғымды табу": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Аты, тел. нөмірлері, эл. поштасы": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Құпиясөз және қауіпсіздік": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Төлем және жеткізілім": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Жазылымдар": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Отбасы": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Құпиялылық және қауіпсіздік": {
+    "(root)": "prefs:root=Privacy",
+    "Қауіпсіздікті тексеру": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Орналасқан жері": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Геолокацияммен бөлісу": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Контактілер": "prefs:root=Privacy&path=CONTACTS",
+    "Күнтізбелер": "prefs:root=Privacy&path=CALENDARS",
+    "Еске салғыш": "prefs:root=Privacy&path=REMINDERS",
+    "Фотолар": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth арқылы бөлісу": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Микрофон": "prefs:root=Privacy&path=MICROPHONE",
+    "Сөйлеуді анықтау": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Камера": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Медиа және Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Аналитика": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Жарнама": "prefs:root=Privacy&path=ADVERTISING",
+    "Файлдар мен қалталар": "prefs:root=Privacy&path=FILEACCESS",
+    "Бақылау": "prefs:root=Privacy&path=USER_TRACKING",
+    "Қолданбаның құпиялылық есебі": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Блоктау режимі": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Денсаулық": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Зейін қою": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Зейін қою күйі": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Жалпы": {
+    "(root)": "prefs:root=General",
+    "VPN және құрылғыларды басқару": "prefs:root=General&path=ManagedConfigurationList",
+    "Сурет ішіндегі сурет": "prefs:root=General&path=PiP_SPEC",
+    "Трекпад және тінтуір": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Ақпарат": {
+      "(root)": "prefs:root=General&path=About",
+      "Сенімді сертификаттар": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Нормативтік-құқықтық құжат": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "БЖ жаңартуы": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "«Басты бет» түймесі": "prefs:root=General&path=HOME_BUTTON",
+    "Қимылдар": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Бүйірлік ауыстырып-қосқыш": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Қолданбаны фонда жаңарту": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Күні мен уақыты": "prefs:root=General&path=DATE_AND_TIME",
+    "Теледидар шығысы": "prefs:root=General&path=TV_OUT",
+    "Нормативтік құжат": "prefs:root=General&path=REGULATORY",
+    "Бастапқы күйге қайтару": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Барлық реттеуді бастапқы күйге қайтару": "prefs:root=General&path=Reset#settingsErase",
+      "Барлық контент пен реттеулерді өшіру": "prefs:root=General&path=Reset#fullErase",
+      "Желілік реттеулерді бастапқы күйге қайтару": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Барлық ұялы деректің тарифтік жоспарын жою": "prefs:root=General&path=Reset#cellularErase",
+      "Абонент сервистері": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Пернетақта сөздігін бастапқы күйге қайтару": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "«Басты бет» экранының орнын бастапқы күйге қайтару": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Геолокация мен құпиялылықты бастапқы күйге қайтару": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Өшіру": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay және Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "HomePod ішіне көшіру": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Теледидарлардағы авто-AirPlay": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Камераға арналған үздіксіздік функциясы": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Сөздік": "prefs:root=General&path=DICTIONARY",
+    "Тіл және аймақ": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Басқа тілдер…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Таңдаулы тілдер реттілігі": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Тіл қосу…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Аймақ": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Нөмірлер": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Күнтізбе": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Температура бірлігі": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Пернетақта": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Пернетақталар": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Мәтін ауыстыру": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Бас әріппен авто теру": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Авто түзету": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Емлені тексеру": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Caps Lock функциясын қосу": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Пәрмендер": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Сөзді болжау": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Смарт тыныс белгісі": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Бөлінген пернетақта": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Пернелердің жыпылықтауын қосу": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Таңбаны алдын ала қарау": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "«.» жылдам пәрмені": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Теру үшін сырғыту": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Дауыспен енгізуді қосу": "prefs:root=General&path=Keyboard#Dictation",
+      "Тыныс белгілерін авто қою": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Сақтау орны": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Ашылмағандарды шығару": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Хабарландырулар": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Кесте бойынша жеткізу": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Wallet және Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Төлем карталары": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Картаны қосу": "prefs:root=PASSBOOK#Add%20Card",
+    "Бүйірлік түймені екі рет басу": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Тапсырысты қадағалау": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Экран уақыты": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Бүгін": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Апта": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Тыныштық уақыты": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Қолданба шектеулері": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Байланыс шектеулері": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Байланыс қауіпсіздігі": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Әрдайым рұқсат етілгендер": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Контент және құпиялылық шектеулері": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Ата-ана бақылауы": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Әмбебап қол жеткізу": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Көру қабілеті": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Сөйлеу жылдамдығы": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Сөзді дыбыстау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Дауыс": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Нақтылау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Тыныс белгілері": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Кесте тақырыптары": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Медиа сипаттамалары": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Өшірулі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Сөзді дыбыстау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Сөзді дыбыстау және Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Шығыс": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Толық алты нүктелі Брайль жүйесі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Толық сегіз нүктелі Брайль жүйесі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Қысқартылған Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Кіріс": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Толық алты нүктелі Брайль жүйесі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Толық сегіз нүктелі Брайль жүйесі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Қысқартылған Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Автоматты түрде аудару": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Брайль экранының қарпі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Толық алты нүктелі Брайль жүйесі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Толық сегіз нүктелі Брайль жүйесі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Қысқартылған Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Нүктелердің кері бағыты": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Брайль кестелері": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Брайль кестесін қосу…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Күй ұяшықтары": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Күй ұяшықтарының орны": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Сол жақ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Оң жақ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Жалпы күйді көрсету": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Мәтін күйін көрсету": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Теңдеулерге арналған Немет коды": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Экрандық пернетақтаны көрсету": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Айналдыру кезінде беттерді парақтау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Сөзді тасымалдау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Брайль ескерту хабарлары": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Аккорд ұзақтығын елемеу": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Автоматты түрде жылжу ұзақтығы": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Аудио": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Аудионы бәсеңдету": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Динамикті авто таңдау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "HDMI интерфейсіне жіберу": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Пәрмендер": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Әрекеттер": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Бағдарламалау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Әрекет қосу…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Ротор": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Ротор әрекеттері": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "«Басты экран» бетіндегі қолданбаларды өңдеу": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Тікелей жанасу қолданбалары": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Теру": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Теру стилі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Стандартты теру": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Сүйрете теру": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Тікелей жанасумен теру": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Дауыстап оқу": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Өшірулі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Таңба және дыбыстар": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Тек дыбыстар": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Теру кезінде дыбыстау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Түрлендіруші пернелер": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Control + Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Caps Lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Пернетақтаны пайдаланғанға дейінгі уақыт": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Кескіндерді шарлау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Әрдайым": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Сипаттамалары бар": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Ешқашан": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Үлкен меңзер": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Субтитрлер панелі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Екі рет түртуді күту уақыты": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Екі рет түртуді күту уақыты": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Навигация стилі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Жылдам реттеулер": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Дыбыстар": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Аудионы бәсеңдету": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Дыбыс деңгейі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Сөйлеу жылдамдығы": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Кеңестер": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Навигация стилі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Теру стилі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Теру үшін сырғыту": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Әрекеттер": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Хабарландыруларды әрдайым дыбыстау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Брайль ескерту хабарлары": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Брайль қарпі бойынша автоматты түрде жылжу": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Брайль кірісі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Брайль шығысы": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Брайль кестелері": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Субтитрлер панелі": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Тікелей жанасу": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Қимыл бағыты": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Физикалық пернетақтада теру кезінде дыбыстау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Тіл": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Үлкен меңзер": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Медиа сипаттамалары": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Кескіндерді шарлау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Дауыстап оқу": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Тон жоғарылығын өзгерту": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Тыныс белгілері": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "HDMI интерфейсіне жіберу": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Виртуалды пернетақтада теру кезінде дыбыстау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Ротор үшін дауыстап растау": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Кескін сипаттамалары": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Экранды тану": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "VoiceOver тану": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Кескін сипаттамалары": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Экранды тану": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Масштабтау": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Масштабтау": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Фокустың артынан еру": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Смарт-теру": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Пернелер тіркесімдері": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Пернелер тіркесімдері": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Масштабтау деңгейін реттеу": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "«Масштабтау» опциясын қосу/өшіру": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Масштабтау терезесін жылжыту": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Масштабтау терезесінің өлшемін өзгерту": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Масштабтау аймағын ауыстырып-қосу": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Масштабтауды уақытша қосу/өшіру": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Айналдыру дөңгелегімен масштабтау": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Масштабтау контроллері": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Масштабтау аймағы": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Толық экран": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Терезе": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Максималды масштабтау деңгейі": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Масштабтау сүзгісі": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Видео қайталау кезінде көрсету": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Меңзер астындағы мәтінді үлкейту": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Дисплей және мәтін өлшемі": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Қалың қаріпті мәтін": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Үлкенірек мәтін": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Түйме пішіндері": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Қосу/өшіру белгілері": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Мөлдірлікті азайту": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Контрастты арттыру": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Түссіз дифференциялау": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Смарт-инверсия": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Классикалық инверсия": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Түс сүзгілері": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Түс сүзгілері": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Ақ нүктені азайту": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Авто жарықтық": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Қозғалыс": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Қозғалысты азайту": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Хабар әсерлерін авто ойнату": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Видеоны алдын ала қарау үшін авто ойнату": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Ауызша контент": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Таңдауды дыбыстау": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Экранды дыбыстау": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Сөйлеу контроллері": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Тінтуір пернелерін бейімдеу": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Контентті ерекшелеу": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Теру кезінде дыбыстау": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Таңбалар бойынша кері байланыс": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Таңбалар": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Таңба кеңестері": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Сөздерді дыбыстау": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Авто дыбыстау": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Дыбыстау үшін басып тұру": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Дауыстар": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Әдепкі тіл": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Тілдерді анықтау": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Сөйлеу жылдамдығы": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Айтылымдар": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Аудио сипаттамалар": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Аудио сипаттамалар": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Қимыл-тірек аппараты": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Түрту": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Жоғарғы деңгей мәзірін бейімдеу": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Өзгерту үшін белгішені түртіңіз:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Бастапқы күйге қайтару…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Арнаулы әрекеттер": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Бір рет түрту": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Екі рет түрту": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Екі рет түртуді күту уақыты": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Ұзақ басып тұру": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Ұзақ басып тұру ұзақтығы": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Арнаулы қимылдар": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Жаңа қимылды жасау…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Әрекетсіз күйіндегі түссіздік": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Көрсеткіш құрылғылар": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Құрылғылар": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth құрылғылары…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Тінтуір пернелері": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Көрсеткіш стилі": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Өлшемі": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Визуалды элементтер": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Түсі": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Тінтуір пернелерін бейімдеу": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Авто жасыру": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_748": {
+            "Авто жасыру": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Экрандық пернетақтаны көрсету": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Мәзірді әрдайым көрсету": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Авто басу арқылы басқару": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Шекті қозғалыс": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Жылжу сезімталдығы": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Қайтару кезіндегі әрекет": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Белсенді бұрыштар": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Ойын контроллерін пайдалану": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D Touch және тактильді түрту": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_749": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "3D Touch сезімталдығы": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Түрту ұзақтығы": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Жылдам": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Баяу": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "3D Touch сезімталдығы мен түрту ұзақтығын сынау": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Түрту әрекетін бейімдеу": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_750": {
+        "Түрту әрекетін бейімдеу": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Ұстап тұру ұзақтығы": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Қайталауды елемеу": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Түрту бойынша көмек": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Өшірулі": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Бастапқы түрту орнын пайдалану": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Соңғы түрту орнын пайдалану": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Ояту үшін түрту": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Ұйқы режимінен шығару үшін түрту немесе сырғыту": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Болдырмау үшін шайқау": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Діріл": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Қоңырауды аяқтау үшін құлыптауға жол бермеу": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Дыбыс көзі": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_751": {
+        "Автоматты": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth гарнитурасы": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Динамик": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Қоңырауларға автоматты жауап беру": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID және назар": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Face ID үшін назар аудару қажет": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "«Назарды тану» мүмкіндіктері": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Жанасу сигналдары": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Сәтті аутентификация туралы жанасу сигналы": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Виртуалды контроллер": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Виртуалды контроллер": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Ауыстырып-қосқыштар": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_752": {
+        "Жаңа ауыстырып-қосқыш қосу…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth құрылғылары…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Параметрлер жинақтары": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Сканерлеу стилі": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_753": {
+        "Авто сканерлеу": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Қолмен сканерлеу": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Бір ауыстырып-қосқыш арқылы қадамдық сканерлеу": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Уақыт": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Авто сканерлеу уақыты": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_754": {
+        "Авто сканерлеу уақыты": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Бірінші элементте кідірту": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_755": {
+        "Бірінші элементте кідірту": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Қозғалысты қайталау": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_756": {
+        "Қозғалысты қайталау": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Ұзақ басып тұру": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_757": {
+        "Ұзақ басып тұру": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Түрту тәртібі": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_758": {
+        "Әдепкі": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Авто түрту": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Әрдайым түрту": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Түрткеннен кейін фокусталған элемент": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_759": {
+        "Бірінші элемент": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Ағымдағы элемент": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Пернетақта": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Түрткеннен кейін бірдей пернені сканерлеу": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Пернетақта пернелерін әрдайым түрту": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Кеңейтілген нұсқалар": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Ауыстырып-қосқышты тұрақтандыру": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Ұстап тұру ұзақтығы": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_760": {
+        "Ұстап тұру ұзақтығы": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Қайталауды елемеу": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_761": {
+        "Қайталауды елемеу": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Нүктені сканерлеу": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Сырғымалы меңзер": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_762": {
+        "Таңдау режимі": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Бір": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Нақтыланған": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Нақты": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Сырғымалы меңзер жылдамдығы": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Бас қозғалысын қадағалау": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_763": {
+        "Бас қозғалысын қадағалау": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Аудио": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Дыбыс әсерлері": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Сөзді дыбыстау": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_764": {
+        "Дауыстар": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Сөйлеу жылдамдығы": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Мәзір элементтері": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Топ элементтері": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Визуалды элементтер": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Үлкен меңзер": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Сақталған қимылдар": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_765": {
+        "Жаңа қимылды жасау…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Меңзер түсі": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Дауыспен басқару": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "«Дауысты басқару» функциясын баптау": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Тіл": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_766": {
+        "Ағылшын (Құрама Штаттар)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Пәрмендерді бейімдеу": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Сөздік": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Пәрмен бойынша кері байланыс": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Растауды көрсету": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Дыбысты ойнату": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Кеңестерді көрсету": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Үздіксіз қабаттастыру": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Қабаттастыру": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_767": {
+        "Жоқ": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Элемент нөмірлері": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Элемент атаулары": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Нөмірленген тор": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Назарды тану": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Бүйірлік түйме": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Басу жылдамдығы": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Әдепкі": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Баяу": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Ең баяу": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Сөйлеу үшін басып тұру": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Классикалық «Дауыспен басқару» функциясы": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Өшірулі": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV пульті": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Бағыт түймелері": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Apple Watch қашықтағы экраны": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Пернетақталар": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Толық пернетақта қолжетімділігі": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_768": {
+        "Толық пернетақта қолжетімділігі": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Визуалды элементтер": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Авто жасыру": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Үлкейтілген фокустау сақинасы": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Түсі": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Перне автоқайталануы": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_769": {
+        "Перне автоқайталануы": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Қайта басылуына дейінгі кідіріс": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Біріккен пернелер": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_770": {
+        "Біріккен пернелер": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Shift арқылы қосу/өшіру": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Дыбыс": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Баяу пернелер": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_771": {
+        "Баяу пернелер": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Виртуалды пернетақталар": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Кіші әріптерді көрсету": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Есту": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Есту құрылғылары": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi есту құрылғылары": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Есту аппараттарының үйлесімділігі": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Дыбысты тану": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Дыбыстар": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Виртуалды TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Аппараттық TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Аудиовизуализация": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Аудио": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Құлаққапты бейімдеу": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_772": {
+        "Құлаққапты бейімдеу": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Арнаулы аудио баптауы": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Фондық дыбыстар": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Моно-аудио": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Телефонның шуды басу функциясы": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Теңгерім": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Визуалды элементтер": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "Ескертулерге арналған жарықдиодты жарқыл": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_773": {
+        "Құлпы ашылған кезде жыпылықтайды": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Үнсіз режимде жыпылықтайды": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Оң/cол жақ стереоарналар теңгерімі": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Қосу және өшіру дыбыстары": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Субтитр, жасырын субтитр": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Стиль": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Жасырын субтитрлер + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Аудио транскрипцияларды көрсету": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_774": {
+      "Нақты уақыт режиміндегі субтитрлер (бета нұсқасы)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "FaceTime қолданбасындағы нақты уақыт режиміндегі субтитрлер": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Жалпы": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Басқарылмалы қолданыс": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Басқарылмалы қолданыс": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Құпиякод реттеулері": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_775": {
+        "«Басқарылмалы қолданыс» функциясының құпиякодын орнату": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Уақыт шектеулері": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_776": {
+        "Дабыл": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Дыбыс": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Дыбыстау": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Әмбебап қол жеткізу пәрмені": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Дисплейдің автоматты түрде құлыпталуы": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Арнаулы әмбебап қол жеткізу режимі": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Siri үшін мәтін енгізу": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Ауызша жауаптар": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Автоматты ауызша жауаптар": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Дыбыссыз жауаптарды қалау": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Дыбыссыз режимде сөйлемеу": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Әрдайым «Сәлем, Siri» пәрменін тыңдау": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Әмбебап қол жеткізу пәрмені": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Лупа": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Әр қолданба реттеулері": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Маңайдағы құрылғыны басқару": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Дисплей және жарықтық": {
+    "(root)": "prefs:root=DISPLAY",
+    "Көрініс": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Жоспарланған": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Ертеңге дейін қолмен қосу": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Түс температурасы": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Автоматты түрде құлыптау": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Іске қосу үшін көтеру": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Құлыптау/құлпын ашу": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Мәтін өлшемі": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Қалың қаріпті мәтін": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Дисплей масштабы": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Көру": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Байланыс туралы хабарлар": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_777": {
+    "Хабарландыру жапсырмалары": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Жаңадан жүктеп алынған қолданбалар": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Басты бет және көптапсырмалылық": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_778": {
+      "Dock панелінде қолданбалар каталогін көрсету": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Dock панелінде ұсынылған және соңғы қолданбаларды көрсету": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "«Басты бет» экраны": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Жаңадан жүктеп алынған қолданбалар": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Хабарландыру жапсырмалары": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID және құпиякод": {
+    "(root)": "prefs:root=PASSCODE",
+    "Құпиякодты өшіру": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Құпиякодты өзгерту": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Құпиякод сұрауы": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Дауыстап теру": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Экран құлыптаулы кезде қол жеткізу": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Хабар арқылы жауап беру": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Үйді басқару": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Wallet": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Өткізілгендерге қайту": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Деректерді өшіру": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Apple Watch сағатымен құлыптан ашу": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Подкасттар": "prefs:root=PODCASTS",
+  "Төтенше қоңырау — SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Бүйірлік түйме арқылы қоңырау шалу": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Авто қоңырау": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Төтенше контактілер": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Кері санау дыбысы": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Дыбыстар": {
+    "(root)": "prefs:root=Sounds",
+    "Құлаққап қауіпсіздігі": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning адаптерлері": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Құлаққап хабарландырулары": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Қатты дыбыстарды азайту": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Дыбыс әсерлері": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Қоңырау және ескертулер": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Түймелермен өзгерту": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Дыбыс және діріл үлгілері": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Рингтон": "prefs:root=Sounds&path=Ringtone",
+    "Хабар дыбысы": "prefs:root=Sounds&path=Text_Messages",
+    "Жаңа дауыстық пошта": "prefs:root=Sounds&path=Voicemail",
+    "Жаңа пошта": "prefs:root=Sounds&path=NEW_MAIL",
+    "Жіберілгендер": "prefs:root=Sounds&path=SENT_MAIL",
+    "Күнтізбе ескертулері": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Ескесалғыш ескертулері": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Пернетақтаның шертпе дыбыстары": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Құлыптау дыбысы": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Ауа райы": "prefs:root=WEATHER",
+  "Компас": {
+    "(root)": "prefs:root=COMPASS",
+    "Нағыз солтүстікті пайдалану": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Басқару орталығы": {
+    "(root)": "prefs:root=ControlCenter",
+    "Қолданбалардағы қол жеткізу": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Басқару элементтерін бейімдеу": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Әзірлеуші": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Көп арналы желі": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Көп арналы желі": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Көрініс": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Қараңғы көрініс": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Жұптастырылған құрылғылар": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Сенім берілген компьютерлерден тазалау": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Аспаптар": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Журнал": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Пайдаланушы интерфейсін автоматтандыру": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Желіге қосылу": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Желілік қосылым реттеушіcі": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "iAd әзірлеушісінің қолданбасын сынау": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Толу деңгейі": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Кесілген баннерлерді ерекшелеу": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Шексіз жарнама презентациясы": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "PassKit сынағы": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Қосымша журналдар": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "HTTP сервистеріне рұқсат беру": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Жылдамдық шектеуін өшіру": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "NFC кіру кілті (қосымша)": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Медиа сервистерді сынау": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "AirPlay ұсыныстары": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Медиа сервистерді бастапқы күйге қайтару": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "«News» қолданбасын сынау": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Келесі іске қосу кезінде құрылғыдағы деректерді бастапқы күйге қайтару": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Медиаплеердің бағдарламалық ортасын сынау": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "Ойнатылатын контент API": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Теледидар провайдерін сынау": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "Теледидар провайдері": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "CoreSpotlight функциясын сынау": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Барлық элементті қайта индекстеу": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Барлық элементті идентификаторлармен қайта индекстеу": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Пернелер тіркесімдерін сынау": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Соңғы пернелер тіркесімін көрсету": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Алдағы медиадеректерді көрсету": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Құлыптау экранындағы донорлықтарды көрсету": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Пернелер тіркесімін сағатқа мәжбүрлі түрде синхрондау": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "MIDI-CI сынағы": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "MIDI-CI функциясын қосу": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Денсаулық": "prefs:root=HEALTH",
+  "Өлшем": {
+    "(root)": "prefs:root=MEASURE",
+    "Өлшем бірліктер": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Империялық": "prefs:root=MEASURE#Imperial",
+    "Метрлік": "prefs:root=MEASURE#Metric"
+  },
+  "Музыка": {
+    "(root)": "prefs:root=MUSIC",
+    "Apple Music қолданбасын көрсету": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Плейлист әндерін қосу": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Жұлдыз қойылатын рейтингтерін көрсету": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Медиатеканы синхрондау": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Ұялы деректер": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Жүктеп алынған музыка": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Сақтау орнын оңтайландыру": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Авто жүктеп алулар": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "Эквалайзер": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Дыбысты түзету": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Тыңдау тарихын пайдалану": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Ескертпелер": {
+    "(root)": "prefs:root=NOTES",
+    "Әдепкі аккаунт": "prefs:root=NOTES&path=Default%20Account",
+    "Құпиясөз": "prefs:root=NOTES&path=Password",
+    "Ескертпелерді сұрыптау:": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Жаңа ескертпелер басы": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Тексерілген элементтерді сұрыптау": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Сызықтар мен торлар": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Фотоларға сақтау": "prefs:root=NOTES#Save%20to%20Photos",
+    "Құлыптау экранындағы ескертпелер": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Хабарлар": "prefs:root=MESSAGES",
+  "Аудару": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Құрылғыдағы аударма режимі": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "Теледидар провайдері": "prefs:root=VIDEO_SUBSCRIBER",
+  "Диктофон": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Жойылғандардан тазалау": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Дыбыс сапасы": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Геолокацияға негізделген атау": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Камера": {
+    "(root)": "prefs:root=CAMERA",
+    "Форматтар": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_779": {
+      "HDR видео": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Реттеулерді сақтау": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Камера режимі": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Тор": "prefs:root=CAMERA#CameraGridSwitch",
+    "QR кодтарын сканерлеу": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Карталар": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Контактілер": {
+    "(root)": "prefs:root=CONTACTS",
+    "«Контактілер» қолданбасына қол жеткізуге рұқсат беру": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri және іздеу": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Сұрыптау реті": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Дисплей реттілігі": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Қысқа ат": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Қысқа ат": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Лақап аттар таңдау": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Менің ақпаратым": "prefs:root=CONTACTS&path=MeCard",
+    "SIM карта контактілерін импорттау": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Кітаптар": {
+    "(root)": "prefs:root=IBOOKS",
+    "Онлайн контент": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "СИНХРОНДАУ": "prefs:root=IBOOKS#SYNCING",
+    "Қазір оқу": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "ОҚУ": "prefs:root=IBOOKS#READING",
+    "Толық теңестіру": "prefs:root=IBOOKS#BKFullJustification",
+    "Сөзді авто тасымалдау": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Екі жолдан да парақтау": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Оқу бойынша мақсаттар": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Оқу мақсаттары дерегін тазалау": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "ІЗДЕЛУДЕ": "prefs:root=IBOOKS#SEARCHING",
+    "Кітаптар дүкені": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "АУДИОКІТАПТАР": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Алға өту": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Артқа өту": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "СЫРТҚЫ БАСҚАРУ ЭЛЕМЕНТТЕРІ": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Келесі/алдыңғы": "prefs:root=IBOOKS#Next/Previous",
+    "Алға/артқа өту": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "ҚҰПИЯЛЫЛЫҚ": "prefs:root=IBOOKS#PRIVACY",
+    "Идентификаторды бастапқы күйге қайтару": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Хабарландырулар": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Күнтізбе": {
+    "(root)": "prefs:root=CALENDAR",
+    "Уақыт белдеуін қайта анықтау": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Басқа күнтізбелер": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Апта нөмірлері": "prefs:root=CALENDAR#Week%20Numbers",
+    "Қатысушының бас тарту әрекеттерін көрсету": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Синхрондау": "prefs:root=CALENDAR&path=Sync",
+    "Әдепкі ескерту уақыттары": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Апта басы:": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Геолокациялық ұсыныстар": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Пошта": {
+    "(root)": "prefs:root=MAIL",
+    "Аккаунттар": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Аккаунт қосу": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Жаңа деректер алу": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Алдын ала қарау": "prefs:root=MAIL&path=Preview",
+    "Маған/көшіру белгілерін көрсету": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Жанап өту опциялары": "prefs:root=MAIL&path=Swipe%20Options",
+    "Жоюдан бұрын сұрау": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Қашықтағы кескіндерді жүктеу": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Тақырыбы бойынша реттеу": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Оқылған хабарларды жию": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Ең соңғы хабар үстіде": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Тақырыптарды аяқтау": "prefs:root=MAIL#Complete%20Threads",
+    "Дыбысы өшірілген хабарландыру": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Блокталған жіберушілерді елемеу": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Блокталған": "prefs:root=MAIL&path=Blocked",
+    "Әрқашан көшірмесін өзімде қалдыру": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Мекенжайлар белгісі": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Цитата деңгейін көтеру": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Жауабы бар тіркемелер қосу": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Қолтаңба": "prefs:root=MAIL&path=Signature"
+  },
+  "Телефон": {
+    "(root)": "prefs:root=Phone",
+    "Менің нөмірім": "prefs:root=Phone&path=My%20Number",
+    "Кіріс қоңыраулар": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Қоңырауларды жариялау": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "SMS/қоңырау туралы хабарлау": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Мәтіндік хабармен жауап беру": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Қоңырауларды қайта адрестеу": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Қоңырауларды қайта адрестеу": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Қоңырауды күту": "prefs:root=Phone&path=Call%20Waiting",
+    "Нөмірімді көрсету": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_780": {
+        "Нөмірімді көрсету": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Белгісіз қоңырау дыбысын өшіру": "prefs:root=Phone#SILENCE_CALLS",
+    "Блокталған контактілер": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Теру көмекшісі": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Контент блоктаушы": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Қалқымалы терезелерді блоктау": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Тоғыспалы бақылауға жол бермеу": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Авто толтыру": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Жүктеп алынғандар": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Құпиясөздер": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Құпиясөздерді авто толтыру": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Фотолар": {
+    "(root)": "prefs:root=Photos",
+    "iCloud фотолар": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Сақтау орнын оңтайландыру": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Жүктеп алу және түпнұсқаларды сақтау": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Фото ағыным": "prefs:root=Photos#PhotoStreamSwitch",
+    "Ортақ альбомдар": "prefs:root=Photos#SharedStreamsSwitch",
+    "Ұялы деректер": "prefs:root=Photos&path=CellularDataLinkList",
+    "Видеоларды авто ойнату": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Толық HDR сапасында көру": "prefs:root=Photos#ImageModulationSwitch",
+    "Мерекелік оқиғаларды көрсету": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Mac немесе компьютерге көшіру": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Авто жүктеп алулар": "prefs:root=STORE#Automatic%20Downloads",
+    "Қолданба жаңартулары": "prefs:root=STORE#App%20Updates",
+    "Қолданбалар": "prefs:root=STORE&path=App%20Downloads",
+    "Видеоны авто ойнату": "prefs:root=STORE&path=Video%20Autoplay",
+    "Бағалар мен пікірлер": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Оқиғаның алдын ала қарау көріністерін көрсету": "prefs:root=NEWS#show_excerpt_mode",
+    "Мақалаларды «Бүгінгі» бойынша шектеу": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Құпиялылық": "prefs:root=NEWS#Privacy",
+    "Идентификаторды бастапқы күйге қайтару": "prefs:root=NEWS#reset_identifier",
+    "Хабарландырулар": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_781": {
+    "Ұшақ режимі": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Еске салғыш": {
+    "(root)": "prefs:root=REMINDERS",
+    "Әдепкі тізім": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Еске салғыш": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Бүгінгі хабарландыру": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Мерзімі өткен ретінде көрсету": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Аккумулятор": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Қуат үнемдеу режимі": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Аккумулятор жағдайы": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Пәрмендер": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "iCloud синхрондау әрекеті": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Ретті синхрондау": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Құқықтық ескертпелер": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri және іздеу": {
+    "(root)": "prefs:root=SIRI",
+    "Құлыптаулы кезде Siri функциясына рұқсат беру": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Тіл": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Siri дауысы": "prefs:root=SIRI&path=VOICE_ID",
+    "Дыбыстық пікір": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Менің ақпаратым": "prefs:root=SIRI&path=MY_INFO",
+    "«Іздеу» қолданбасындағы ұсыныстар": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "«Табу» қолданбасындағы ұсыныстар": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Құлыптау экранындағы ұсыныстар": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Акциялар": {
+    "(root)": "prefs:root=STOCKS",
+    "Құпиялылық": "prefs:root=STOCKS#Privacy",
+    "Идентификаторды бастапқы күйге қайтару": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Ұялы байланыс": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Ұялы деректер опциялары": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Деректерді үнемдеу режимі": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Ұялы деректер": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "Теледидар": {
+    "(root)": "prefs:root=TVAPP",
+    "Ойнату үшін ұялы деректерді пайдалану": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Ойнату сапасы": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Сатып алулар және жалға алынған нысандар": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Үй топтамасы": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Тұсқағаз": "prefs:root=Wallpaper"
+}

@@ -1,0 +1,1156 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud स्टोरेज": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "तस्वीर": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "मेल": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "संपर्क": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "कैलेंडर": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "रिमाइंडर": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "नोट्स": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "समाचार": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "बैकअप": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "सेहत": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "पासवर्ड और कीचेन": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "प्राइवेट रिले": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "मेरा स्थान शेयर करें": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "मेरा iPhone ढूँढें": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "नाम, फ़ोन नंबर, ईमेल": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "पासवर्ड और सुरक्षा": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "भुगतान व भेजने की विधि": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "सब्सक्रिप्शन": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "परिवार": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "गोपनीयता और सुरक्षा": {
+    "(root)": "prefs:root=Privacy",
+    "सुरक्षा जाँच": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "स्थान": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "मेरा स्थान शेयर करें": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "संपर्क": "prefs:root=Privacy&path=CONTACTS",
+    "कैलेंडर": "prefs:root=Privacy&path=CALENDARS",
+    "रिमाइंडर": "prefs:root=Privacy&path=REMINDERS",
+    "तस्वीर": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth शेयरिंग": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "माइक्रोफ़ोन": "prefs:root=Privacy&path=MICROPHONE",
+    "बोली पहचान": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "कैमरा": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "मीडिया व Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "ऐनालिटिक्स": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "विज्ञापन": "prefs:root=Privacy&path=ADVERTISING",
+    "फ़ाइल और फ़ोल्डर": "prefs:root=Privacy&path=FILEACCESS",
+    "ट्रैकिंग": "prefs:root=Privacy&path=USER_TRACKING",
+    "ऐप गोपनीयता रिपोर्ट": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "लॉकडाउन मोड": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "सेहत": "prefs:root=Privacy&path=HEALTH"
+  },
+  "फ़ोकस": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "फ़ोकस स्टेटस": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "सामान्य": {
+    "(root)": "prefs:root=General",
+    "VPN और डिवाइस प्रबंधन": "prefs:root=General&path=ManagedConfigurationList",
+    "पिक्चर इन पिक्चर": "prefs:root=General&path=PiP_SPEC",
+    "ट्रैकपैड और माउस": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "जानकारी": {
+      "(root)": "prefs:root=General&path=About",
+      "विश्वसनीय प्रमाणपत्र": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "क़ानूनी और नियामक": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "सॉफ़्टवेयर अपडेट": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "होम बटन": "prefs:root=General&path=HOME_BUTTON",
+    "जेस्चर": "prefs:root=General#Multitasking_Gesture_Switch",
+    "साइड स्विच": "prefs:root=General#Rotation_Switch_Action_Group",
+    "बैकग्राउंड ऐप रीफ़्रेश": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "तिथि और समय": "prefs:root=General&path=DATE_AND_TIME",
+    "टीवी आउट": "prefs:root=General&path=TV_OUT",
+    "नियामक": "prefs:root=General&path=REGULATORY",
+    "रीसेट करें": {
+      "(root)": "prefs:root=General&path=Reset",
+      "सभी सेटिंग्ज़ रीसेट करें": "prefs:root=General&path=Reset#settingsErase",
+      "सभी कॉन्टेंट और सेटिंग्ज़ मिटाएँ": "prefs:root=General&path=Reset#fullErase",
+      "नेटवर्क सेटिंग्ज़ रीसेट करें": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "सभी मोबाइल डेटा प्लान हटाएँ": "prefs:root=General&path=Reset#cellularErase",
+      "सब्सक्राइबर सेवाएँ": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "कीबोर्ड शब्दकोश रीसेट करें": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "होम स्क्रीन लेआउट रीसेट करें": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "स्थान और गोपनीयता रीसेट करें": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "शटडाउन करें": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay और Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "HomePod पर ट्रांसफ़र करें": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "टीवी पर ऑटोमैटिकली AirPlay करें": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "कॉन्टिन्यूटी कैमरा": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "शब्दकोश": "prefs:root=General&path=DICTIONARY",
+    "भाषा और क्षेत्र": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "अन्य भाषाएँ…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "पसंदीदा भाषा क्रम": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "भाषा जोड़ें…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "क्षेत्र": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "संख्याएँ": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "कैलेंडर": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "तापमान इकाई": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "कीबोर्ड": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "कीबोर्ड": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "टेक्स्ट प्रतिस्थापन": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "ऑटो-कैपिटलाइज़ेशन": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "ऑटो-करेक्शन": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "वर्तनी जाँचें": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "कैप्स लॉक सक्षम करें": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "शॉर्टकट": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "सुझावी": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "स्मार्ट विराम चिह्न": "prefs:root=General&path=Keyboard#SmartTyping",
+      "स्प्लिट कीबोर्ड": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "की फ़्लिक सक्षम करें": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "वर्ण प्रीव्यू": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "पूर्ण विराम शॉर्टकट": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "टाइप करने के लिए स्लाइड करें": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "डिक्टेशन सक्षम करें": "prefs:root=General&path=Keyboard#Dictation",
+      "ऑटो-पंक्चुएशन": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "स्टोरेज": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "अप्रयुक्त ऐप्स ऑफ़लोड करें": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "सूचनाएँ": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "शेड्यूल किया गया सारांश": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "वॉलेट और Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "भुगतान कार्ड": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "कार्ड जोड़ें": "prefs:root=PASSBOOK#Add%20Card",
+    "साइड बटन पर डबल क्लिक करें": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "ऑर्डर ट्रैकिंग": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "स्क्रीन टाइम": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "आज": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "सप्ताह": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "डाउनटाइम": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "ऐप सीमाएँ": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "संचार सीमाएँ": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "संचार सुरक्षा": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "हमेशा अनुमति प्राप्त": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "कॉन्टेंट और गोपनीयता प्रतिबंध": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "अभिभावकीय नियंत्रण": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "ऐक्सेसिबिलिटी": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "दृश्य": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "बोलने की गति": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "बोली": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "आवाज़": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "शब्द अतिरेक": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "विराम चिह्न": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "टेबल हेडर": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "मीडिया विवरण": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "बंद": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "बोली": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "ब्रेल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "बोली और ब्रेल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "ब्रेल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "आउटपुट": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "छह डॉट वाला ग़ैर-कॉन्ट्रैक्टेड ब्रैल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "आठ डॉट वाला ग़ैर-कॉन्ट्रैक्टेड ब्रैल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "कॉन्ट्रैक्टेड ब्रेल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "इनपुट": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "छह डॉट वाला ग़ैर-कॉन्ट्रैक्टेड ब्रैल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "आठ डॉट वाला ग़ैर-कॉन्ट्रैक्टेड ब्रैल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "कॉन्ट्रैक्टेड ब्रेल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "ऑटोमैटिक अनुवाद": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "ब्रेल स्क्रीन इनपुट": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "छह डॉट वाला ग़ैर-कॉन्ट्रैक्टेड ब्रैल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "आठ डॉट वाला ग़ैर-कॉन्ट्रैक्टेड ब्रैल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "कॉन्ट्रैक्टेड ब्रेल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "डॉट की विपरीत स्थिति": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "ब्रेल टेबल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "ब्रेल टेबल जोड़ें…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "स्टेटस सेल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "स्टेटस सेल की स्थिति": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "बायाँ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "दायाँ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "सामान्य स्टेटस दिखाएँ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "टेक्स्ट स्टेटस दिखाएँ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "समीकरण नेमेथ कोड का उपयोग करते हैं": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "ऑनस्क्रीन कीबोर्ड दिखाएँ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "पैनिंग करने पर पृष्ठ पलटें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "वर्ड रैप": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "ब्रेल अलर्ट संदेश": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "कॉर्ड की अवधि को अनदेखा करें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "ऑटो एडवांस की अवधि": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "ऑडियो": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "ऑडियो डकिंग": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "कॉल में स्पीकर ऑटो सेलेक्ट करें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "HDMI में भेजें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "कमांड": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "ऐक्टिविटी": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "प्रोग्रामिंग": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "ऐक्टिविटी जोड़ें…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "रोटर": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "रोटर क्रियाएँ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "होम स्क्रीन पर ऐप्स संपादित करें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "डाइरेक्ट टच ऐप्स": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "टाइपिंग": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "टाइपिंग शैली": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "मानक टाइपिंग": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "टच टाइपिंग": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "डाइरेक्ट टच टाइपिंग": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "फ़ोनेटिक फ़ीडबैक": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "बंद": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "वर्ण और फ़ोनेटिक्स": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "केवल फ़ोनेटिक्स": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "टाइपिंग फ़ीडबैक": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "मॉडिफ़ायर कीज़": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "कंट्रोल + ऑप्शन": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "कैप्स लॉक": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "कीबोर्ड इंटरऐक्शन समय": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "इमेज नैविगेट करें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "हमेशा": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "विवरणों के साथ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "कभी नहीं": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "बड़ा कर्सर": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "कैप्शन पैनल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "डबल टैप टाइमआउट": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "डबल टैप टाइमआउट": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "नैविगेशन शैली": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "क्विक सेटिंग्ज़": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "ध्वनियाँ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "ऑडियो डकिंग": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "वॉल्यूम": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "बोलने की गति": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "संकेत": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "नैविगेशन शैली": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "टाइपिंग शैली": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "टाइप करने के लिए स्लाइड करें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "ऐक्टिविटी": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "सूचनाओं को हमेशा बोलकर बताएँ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "ब्रेल अलर्ट संदेश": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "ब्रेल ऑटो एडवांस": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "ब्रेल इनपुट": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "ब्रेल आउटपुट": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "ब्रेल टेबल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "कैप्शन पैनल": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "डाइरेक्ट टच": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "जेस्चर की दिशा": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "हार्डवेयर टाइपिंग फ़ीडबैक": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "भाषा": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "बड़ा कर्सर": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "मीडिया विवरण": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "इमेज नैविगेट करें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "फ़ोनेटिक फ़ीडबैक": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "पिच परिवर्तन": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "विराम चिह्न": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "HDMI में भेजें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "सॉफ़्टवेयर टाइपिंग फ़ीडबैक": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "रोटर पुष्टि बोलें": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "इमेज विवरण": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "स्क्रीन पहचान": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "VoiceOver पहचान": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "इमेज विवरण": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "स्क्रीन पहचान": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "ज़ूम": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "ज़ूम": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "फ़ोकस फ़ॉलो करें": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "स्मार्ट टाइपिंग": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "कीबोर्ड शॉर्टकट": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "कीबोर्ड शॉर्टकट": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "ज़ूम स्तर ऐडजस्ट करें": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "ज़ूम टॉगल करें": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "ज़ूम विंडो मूव करें": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "ज़ूम विंडो का आकार बदलें": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "ज़ूम क्षेत्र स्विच करें": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "अस्थायी रूप से ज़ूम को टॉगल करें": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "स्क्रोल ह्वील से ज़ूम करें": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "ज़ूम कंट्रोलर": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "ज़ूम क्षेत्र": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "फ़ुल स्‍क्रीन ज़ूम": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "विंडो ज़ूम": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "अधिकतम ज़ूम स्तर": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "ज़ूम फ़िल्टर": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "मिररिंग के दौरान दिखाएँ": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "हॉवर टेक्स्ट": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "डिस्प्ले और टेक्स्ट का आकार": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "बोल्ड टेक्स्ट": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "अधिक बड़ा टेक्स्ट": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "बटन आकृतियाँ": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "चालू/बंद लेबल": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "पारदर्शिता घटाएँ": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "कॉन्ट्रास्ट बढ़ाएँ": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "रंग के बिना अंतर करें": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "स्मार्ट इंवर्ट": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "क्लासिक इंवर्ट": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "रंग फ़िल्टर": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "रंग फ़िल्टर": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "ह्वाइट पॉइंट घटाएँ": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "ऑटो-ब्राइटनेस": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "गति": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "गति घटाएँ": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "संदेश प्रभाव ऑटो प्ले करें": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "वीडियो प्रीव्यू ऑटो-प्ले करें": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "बोले गए कॉन्टेंट": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "चयन बोलकर बताएँ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "स्क्रीन बोलकर बताएँ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "बोली कंट्रोलर": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "माउस बटन कस्टमाइज़ करें": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "कॉन्टेंट चिह्नांकित करें": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "टाइपिंग फ़ीडबैक": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "वर्ण फ़ीडबैक": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "वर्ण": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "वर्ण संकेत": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "शब्द बोलें": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "ऑटो टेक्स्ट बोलकर बताएँ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "सुझाव बोलकर बताने के लिए दबाए रखें": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "आवाज़": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "डिफ़ॉल्ट भाषा": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "भाषा पता लगाएँ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "बोलने की गति": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "उच्चारण": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "ऑडियो विवरण": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "ऑडियो विवरण": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "फ़िज़िकल और मोटर": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "टच": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "शीर्ष स्तर मेनू को कस्टमाइज़ करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "परिवर्तित करने के लिए आइकॉन पर टैप करें :": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "रीसेट करें…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "कस्टम क्रियाएँ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "सिंगल टैप करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "डबल टैप करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "डबल टैप टाइमआउट": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "देर तक दबाएँ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "देर तक दबाने की अवधि": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "कस्टम जेस्चर": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "नया जेस्चर बनाएँ…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "निष्क्रिय अपारदर्शिता": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "पॉइंटर डिवाइस": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "डिवाइस": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth डिवाइस…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "माउस कीज़": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "पॉइंटर शैली": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "आकार": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "दृश्यात्मक": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "रंग": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "माउस बटन कस्टमाइज़ करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "ऑटो-हाइड करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_544": {
+            "ऑटो-हाइड करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "ऑनस्क्रीन कीबोर्ड दिखाएँ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "मेनू हमेशा दिखाएँ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "ड्वेल कंट्रोल": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "मूवमेंट टॉलरेंस": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "ट्रैकिंग संवेदनशीलता": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "फ़ॉलबैक क्रिया": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "हॉट कॉर्नर": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "गेम कंट्रोलर का इस्तेमाल करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D और हैप्टिक टच": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_545": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "3D Touch संवेदनशीलता": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "टच अवधि": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "तेज़": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "धीमा": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "3D Touch संवेदनशीलता और टच अवधि जाँच": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "टच सुविधाएँ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_546": {
+        "टच सुविधाएँ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "होल्ड अवधि": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "दोहराना नज़रअंदाज़ करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "टैप सहायता": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "बंद": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "आरंभिक टच स्थान का उपयोग करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "अंतिम टच स्थान का उपयोग करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "सक्रिय करने के लिए टैप करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "सक्रिय करने के लिए टैप या स्वाइप करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "पहले जैसा करने के लिए हिलाएँ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "वाइब्रेशन": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "“कॉल समाप्त करने के लिए लॉक करें” बंद करें": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "कॉल ऑडियो राउटिंग": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_547": {
+        "ऑटोमैटिक": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth हेडसेट": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "स्पीकर": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "कॉल का ऑटो उत्तर": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID और ध्यान": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Face ID के लिए ध्यान आवश्यक": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "अटेंशन अवेयर फ़ीचर": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "हैप्टिक": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "सफल प्रमाणन पर हैप्टिक": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "स्विच कंट्रोल": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "स्विच कंट्रोल": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "स्विच": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_548": {
+        "नया स्विच जोड़ें…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth डिवाइस…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "रेसिपी": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "स्कैनिंग शैली": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_549": {
+        "ऑटो स्कैनिंग": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "मैनुअल स्कैनिंग": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "सिंगल स्विच स्टेप स्कैनिंग": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "समय": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "ऑटो स्कैनिंग समय": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_550": {
+        "ऑटो स्कैनिंग समय": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "पहले आइटम पर पॉज़ करें": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_551": {
+        "पहले आइटम पर पॉज़ करें": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "क्रिया दोहराएँ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_552": {
+        "क्रिया दोहराएँ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "देर तक दबाएँ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_553": {
+        "देर तक दबाएँ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "टैप व्यवहार": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_554": {
+        "डिफ़ॉल्ट": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "ऑटो टैप": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "हमेशा टैप करें": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "टैप करने के बाद फ़ोकस किया गया आइटम": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_555": {
+        "पहला आइटम": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "वर्तमान आइटम": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "कीबोर्ड": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "टैप करने के बाद वही की स्कैन करें": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "कीबोर्ड कीज़ हमेशा टैप करें": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "विस्तारित सुझाव": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "स्विच स्थिरीकरण": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "होल्ड अवधि": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_556": {
+        "होल्ड अवधि": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "दोहराना नज़रअंदाज़ करें": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_557": {
+        "दोहराना नज़रअंदाज़ करें": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "पॉइंट स्कैनिंग": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "ग्लाइडिंग कर्सर": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_558": {
+        "चयन मोड": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "एकल": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "परिशोधित": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "सटीक": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "ग्लाइडिंग कर्सर की गति": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "हेड ट्रैकिंग": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_559": {
+        "हेड ट्रैकिंग": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "ऑडियो": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "ध्वनि प्रभाव": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "बोली": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_560": {
+        "आवाज़": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "बोलने की गति": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "मेनू आइटम": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "आइटम के समूह बनाएँ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "दृश्यात्मक": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "बड़ा कर्सर": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "सहेजे गए जेस्चर": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_561": {
+        "नया जेस्चर बनाएँ…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "कर्सर का रंग": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "वॉइस कंट्रोल": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "वॉइस कंट्रोल सेटअप करें": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "भाषा": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_562": {
+        "अंग्रेज़ी (संयुक्त राज्य)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "कमांड कस्टमाइज़ करें": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "शब्दावली": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "कमांड फ़ीडबैक": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "पुष्टि दिखाएँ": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "ध्वनि बजाएँ": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "संकेत दिखाएँ": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "निरंतर ओवरले": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "ओवरले": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_563": {
+        "कोई नहीं": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "आइटम संख्या": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "आइटम नाम": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "संख्याबद्ध ग्रिड": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "अटेंशन अवेयर": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "साइड बटन": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "क्लिक गति": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "डिफ़ॉल्ट": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "धीमी": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "सबसे धीमी": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "बोलने के लिए दबाए रखें": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "क्लासिक वॉइस कंट्रोल": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "बंद": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "दिशात्मक बटन": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Apple Watch रिमोट स्क्रीन": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "कीबोर्ड": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "फ़ुल कीबोर्ड ऐक्सेस": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_564": {
+        "फ़ुल कीबोर्ड ऐक्सेस": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "दृश्य": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "ऑटो-हाइड करें": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "बड़ा फ़ोकस रिंग": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "रंग": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "की दोहराव": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_565": {
+        "की दोहराव": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "की दोहराव अंतराल": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "दोहराव होने तक विलंब": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "स्टिकी कीज़": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_566": {
+        "स्टिकी कीज़": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "शिफ़्ट की से टॉगल करें": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "ध्वनि": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "धीमी कीज़": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_567": {
+        "धीमी कीज़": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "सॉफ़्टवेयर कीबोर्ड": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "स्मॉल लेटर कीज़ दिखाएँ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "श्रवण": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "हियरिंग डिवाइस": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi हियरिंग डिवाइस": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "हियरिंग एड संगतता": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "ध्वनि पहचान": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "ध्वनियाँ": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "सॉफ़्टवेयर TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "हार्डवेयर TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "ऑडियो और दृश्यात्मक": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "ऑडियो": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "हेडफ़ोन सुविधा": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_568": {
+        "हेडफ़ोन सुविधा": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "कस्टम ऑडियो सेटअप": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "बैकग्राउंड ध्वनियाँ": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "मोनो ऑडियो": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "फ़ोन नॉइज़ कैंसलेशन": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "संतुलन": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "दृश्यात्मक": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "अलर्ट के लिए LED फ़्लैश": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_569": {
+        "अनलॉक होने के दौरान फ़्लैश करें": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "मौन मोड में फ़्लैश करें": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "बायाँ-दायाँ स्टीरियो संतुलन": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "पावर बंद और चालू की ध्वनियाँ": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "सबटाइटल एवं कैप्शनिंग": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "शैली": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "क्लोज़्ड कैप्शन + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "ऑडियो ट्रांसक्रिप्शन दिखाएँ": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_570": {
+      "लाइव कैप्शन (बीटा)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "FaceTime में लाइव कैप्शन": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "सामान्य": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "गाइडेड ऐक्सेस": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "गाइडेड ऐक्सेस": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "पासकोड सेटिंग्ज़": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_571": {
+        "गाइडेड ऐक्सेस पासकोड सेट करें": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "समय सीमाएँ": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_572": {
+        "अलार्म": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "ध्वनि": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "बोलें": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "ऐक्सेसिबिलिटी शॉर्टकट": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "ऑटो-लॉक दिखाएँ": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "कस्टम ऐक्सेसिबिलिटी मोड": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Siri के लिए टाइप करें": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "बोले जाने वाले जवाब": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "बोले जाने वाले ऑटोमैटिक जवाब": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "मौन जवाबों को प्राथमिकता दें": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "मौन मोड में न बोलें": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "“Hey Siri” के लिए हमेशा सुनें": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "ऐक्सेसिबिलिटी शॉर्टकट": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "आवर्धक": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "अलग-अलग ऐप के लिए सेटिंग्ज़": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "आस-पास के डिवाइस नियंत्रित करें": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "डिस्प्ले और ब्राइटनेस": {
+    "(root)": "prefs:root=DISPLAY",
+    "प्रकटन": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "शेड्यूल किया गया": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "कल तक के लिए मैनुअली सक्षम करें": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "रंग तापमान": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "ऑटो-लॉक करें": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "सक्रिय करने के लिए उठाएँ": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "लॉक करें/अनलॉक करें": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "टेक्स्ट का आकार": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "बोल्ड टेक्स्ट": "prefs:root=DISPLAY#BOLD_TEXT",
+    "डिस्प्ले ज़ूम": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "दृश्य": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "एक्सपोज़र सूचनाएँ": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_573": {
+    "सूचना बैज": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "नए डाउनलोड किए गए ऐप्स": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "होम स्क्रीन और मल्टीटास्किंग": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_574": {
+      "Dock में ऐप लाइब्रेरी में दिखाएँ": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Dock में सुझाए गए और हालिया ऐप्स दिखाएँ": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "होम स्क्रीन": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "नए डाउनलोड किए गए ऐप्स": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "सूचना बैज": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID और पासकोड": {
+    "(root)": "prefs:root=PASSCODE",
+    "पासकोड बंद करें": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "पासकोड बदलें": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "पासकोड आवश्यक": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "वॉइस डायल": "prefs:root=PASSCODE#VOICE_DIAL",
+    "लॉक रहने पर ऐक्सेस की अनुमति दें": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "संदेश से जवाब दें": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "“घर” ऐप कंट्रोल": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "वॉलेट": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "छूटी कॉल वापस करें": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "डेटा मिटाएँ": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Apple Watch से अनलॉक करें": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "पॉडकास्ट": "prefs:root=PODCASTS",
+  "आपातकालीन SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "साइड बटन से कॉल करें": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "ऑटो कॉल": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "आपातकालीन संपर्क": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "उलटी गिनती की ध्वनि": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "ध्वनियाँ": {
+    "(root)": "prefs:root=Sounds",
+    "हेडफ़ोन सुरक्षा": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning अडैप्टर": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "हेडफ़ोन सूचना": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "तीव्र ध्वनियों को कम करें": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "ध्वनि प्रभाव": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "रिंगर और अलर्ट": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "बटनों से बदलें": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "ध्वनि और वाइब्रेशन पैटर्न": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "रिंगटोन": "prefs:root=Sounds&path=Ringtone",
+    "SMS टोन": "prefs:root=Sounds&path=Text_Messages",
+    "नया वॉइसमेल": "prefs:root=Sounds&path=Voicemail",
+    "नया मेल": "prefs:root=Sounds&path=NEW_MAIL",
+    "प्रेषित मेल": "prefs:root=Sounds&path=SENT_MAIL",
+    "कैलेंडर अलर्ट": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "रिमाइंडर अलर्ट": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "कीबोर्ड क्लिक": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "लॉक ध्वनि": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "मौसम": "prefs:root=WEATHER",
+  "दिशासूचक": {
+    "(root)": "prefs:root=COMPASS",
+    "वास्तविक उत्तर का उपयोग करें": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "कंट्रोल सेंटर": {
+    "(root)": "prefs:root=ControlCenter",
+    "ऐप्स के भीतर ऐक्सेस": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "कंट्रोल कस्टमाइज़ करें": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "डेवलपर": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "मल्टीपाथ नेटवर्किंग": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "मल्टीपाथ नेटवर्किंग": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "प्रकटन": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "गहरा प्रकटन": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "पेयर किए डिवाइस": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "विश्वसनीय कंप्यूटर साफ़ करें": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "वाद्ययंत्र": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "लॉगिंग": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "UI ऑटोमेशन": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "नेटवर्किंग": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "नेटवर्क लिंक कंडीशनर": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "iAd डेवलपर ऐप जाँच": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "फ़िल रेट": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "क्लिप किए गए बैनर चिह्नांकित करें": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "असीमित विज्ञापन प्रस्तुतीकरण": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "PassKit जाँच": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "अतिरिक्त लॉगिंग": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "HTTP सेवाओं को अनुमति दें": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "रेट लिमिटिंग अक्षम करें": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "NFC पास-की वैकल्पिक": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "मीडिया सेवाएँ जाँच": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "AirPlay सुझाव": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "मीडिया सेवाएँ रीसेट करें": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "समाचार जाँच": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "अगले लॉन्च पर स्थानीय डेटा रीसेट करें": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "मीडिया प्लेयर फ़्रेमवर्क जाँच": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "चलाने लायक़ कॉन्टेंट API": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "टीवी सर्विस प्रोवाइडर जाँच": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "टीवी सर्विस प्रोवाइडर": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "CoreSpotlight जाँच": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "सभी आइटम फिर इंडेक्स करें": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "आइडेंटिफ़ायर के साथ सभी आइटम फिर इंडेक्स करें": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "शॉर्टकट जाँच": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "हालिया शॉर्टकट दिखाएँ": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "आगामी मीडिया दिखाएँ": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "लॉक स्क्रीन पर दान दिखाएँ": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Watch में शॉर्टकट ज़बरन सिंक करें": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "MIDI-CI जाँच": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "MIDI-CI सक्षम करें": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "सेहत": "prefs:root=HEALTH",
+  "माप": {
+    "(root)": "prefs:root=MEASURE",
+    "माप इकाइयाँ": "prefs:root=MEASURE#MEASURE_UNITS",
+    "इंपीरियल": "prefs:root=MEASURE#Imperial",
+    "मेट्रिक": "prefs:root=MEASURE#Metric"
+  },
+  "संगीत": {
+    "(root)": "prefs:root=MUSIC",
+    "Apple Music दिखाएँ": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "प्लेलिस्ट के गीत जोड़ें": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "स्टार रेटिंग दिखाएँ": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "लाइब्रेरी सिंक करें": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "मोबाइल डेटा": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "डाउनलोड किया गया संगीत": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "स्टोरेज ऑप्टिमाइज़ करें": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "ऑटोमैटिक डाउनलोड": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "ध्वनि जाँच": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "श्रवण हिस्ट्री का उपयोग करें": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "नोट्स": {
+    "(root)": "prefs:root=NOTES",
+    "डिफ़ॉल्ट खाता": "prefs:root=NOTES&path=Default%20Account",
+    "पासवर्ड": "prefs:root=NOTES&path=Password",
+    "नोट्स इससे सॉर्ट करें": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "नए नोट्स का प्रारंभ": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "चेक किए गए आइटम सॉर्ट करें": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "पंक्तियाँ और ग्रिड": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "तस्वीर में सहेजें": "prefs:root=NOTES#Save%20to%20Photos",
+    "लॉक स्क्रीन से नोट्स ऐक्सेस करें": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "संदेश": "prefs:root=MESSAGES",
+  "अनुवाद": {
+    "(root)": "prefs:root=TRANSLATE",
+    "ऑन-डिवाइस मोड": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "टीवी सर्विस प्रोवाइडर": "prefs:root=VIDEO_SUBSCRIBER",
+  "वॉइस मेमो": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "डिलीट किए गए साफ़ करें": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "ऑडियो गुणवत्ता": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "स्थान आधारित नामकरण": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "कैमरा": {
+    "(root)": "prefs:root=CAMERA",
+    "फ़ॉर्मैट": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_575": {
+      "HDR वीडियो": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "सेटिंग्ज़ संरक्षित करें": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "कैमरा मोड": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "ग्रिड": "prefs:root=CAMERA#CameraGridSwitch",
+    "QR कोड स्कैन करें": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "नक़्शा": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "संपर्क": {
+    "(root)": "prefs:root=CONTACTS",
+    "ऐक्सेस करने के लिए संपर्क को अनुमति दें": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri और खोज": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "सॉर्ट ऑर्डर": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "प्रदर्शन क्रमण": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "संक्षिप्त नाम": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "संक्षिप्त नाम": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "प्रचलित नामों को प्राथमिकता दें": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "मेरी जानकारी": "prefs:root=CONTACTS&path=MeCard",
+    "SIM के संपर्क इंपोर्ट करें": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "किताब": {
+    "(root)": "prefs:root=IBOOKS",
+    "ऑनलाइन सामग्री": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "सिंक किया जा रहा है": "prefs:root=IBOOKS#SYNCING",
+    "पढ़ी जा रही": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "पढ़ा जा रहा है": "prefs:root=IBOOKS#READING",
+    "पूर्ण जस्टिफ़िकेशन": "prefs:root=IBOOKS#BKFullJustification",
+    "ऑटो हाइफ़नेशन": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "दोनों हाशियों द्वारा आगे बढ़ें": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "रीडिंग गोल": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "रीडिंग गोल डेटा साफ़ करें": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "खोज जारी है": "prefs:root=IBOOKS#SEARCHING",
+    "बुक स्टोर": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "ऑडियोबुक": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "आगे जाएँ": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "वापस जाएँ": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "बाहरी कंट्रोल": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "अगला/पिछला": "prefs:root=IBOOKS#Next/Previous",
+    "आगे/पीछे जाएँ": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "गोपनीयता": "prefs:root=IBOOKS#PRIVACY",
+    "आइडेंटिफ़ायर रीसेट करें": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "अभिस्वीकृतियाँ": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "कैलेंडर": {
+    "(root)": "prefs:root=CALENDAR",
+    "समय क्षेत्र ओवरराइड": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "वैकल्पिक कैलेंडर": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "सप्ताह की संख्याएँ": "prefs:root=CALENDAR#Week%20Numbers",
+    "अस्वीकृत आमंत्रण दिखाएँ": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "सिंक करें": "prefs:root=CALENDAR&path=Sync",
+    "डिफ़ॉल्ट अलर्ट समय": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "सप्ताह का आरंभिक वार": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "स्थान सुझाव": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "मेल": {
+    "(root)": "prefs:root=MAIL",
+    "खाते": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "खाता जोड़ें": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "नया डेटा फ़ेच करें": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "प्रीव्यू": "prefs:root=MAIL&path=Preview",
+    "प्रति/Cc लेबल दिखाएँ": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "स्वाइप विकल्प": "prefs:root=MAIL&path=Swipe%20Options",
+    "डिलीट करने से पहले पूछें": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "रिमोट इमेज लोड करें": "prefs:root=MAIL#Load%20Remote%20Images",
+    "वार्तालाप के अनुसार व्यवस्थित करें": "prefs:root=MAIL#Organize%20by%20Thread",
+    "पठित संदेश संक्षिप्त करें": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "सर्वाधिक हालिया संदेश सबसे ऊपर": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "पूरा वार्तालाप": "prefs:root=MAIL#Complete%20Threads",
+    "म्यूट किए गए वार्तालाप की क्रिया": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "ब्लॉक किए गए प्रेषक नज़रअंदाज़ करें": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "ब्लॉक किए गए": "prefs:root=MAIL&path=Blocked",
+    "स्वयं को हमेशा Bcc भेजें": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "पते चिह्नित करें": "prefs:root=MAIL&path=Mark%20Addresses",
+    "कोट लेवल बढ़ाएँ": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "जवाब में अटैचमेंट शामिल करें": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "सिग्नेचर": "prefs:root=MAIL&path=Signature"
+  },
+  "फ़ोन": {
+    "(root)": "prefs:root=Phone",
+    "मेरा नंबर": "prefs:root=Phone&path=My%20Number",
+    "इनकमिंग कॉल": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "कॉल घोषित करें": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "SMS/कॉल रिपोर्टिंग": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "SMS भेजकर उत्तर दें": "prefs:root=Phone&path=Respond%20with%20Text",
+    "कॉल फ़ॉरवर्डिंग": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "कॉल फ़ॉरवर्डिंग": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "कॉल प्रतीक्षा": "prefs:root=Phone&path=Call%20Waiting",
+    "मेरा कॉलर ID दिखाएँ": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_576": {
+        "मेरा कॉलर ID दिखाएँ": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "अज्ञात कॉलर मौन करें": "prefs:root=Phone#SILENCE_CALLS",
+    "ब्लॉक किए गए संपर्क": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "डायल सहायता": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "कॉन्टेंट ब्लॉकर": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "पॉप-अप ब्लॉक करें": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "क्रॉस-साइट ट्रैकिंग रोकें": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "ऑटोफ़िल": "prefs:root=SAFARI&path=AUTO_FILL",
+    "डाउनलोड": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "पासवर्ड": {
+    "(root)": "prefs:root=PASSWORDS",
+    "पासवर्ड ऑटोफ़िल करें": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "तस्वीर": {
+    "(root)": "prefs:root=Photos",
+    "iCloud तस्वीर": "prefs:root=Photos#iCloudPhotosSwitch",
+    "स्टोरेज ऑप्टिमाइज़ करें": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "डाउनलोड करें और मूल कॉपी बनाए रखें": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "मेरी फ़ोटो स्ट्रीम": "prefs:root=Photos#PhotoStreamSwitch",
+    "शेयर किए गए ऐल्बम": "prefs:root=Photos#SharedStreamsSwitch",
+    "मोबाइल डेटा": "prefs:root=Photos&path=CellularDataLinkList",
+    "वीडियो ऑटोप्ले करें": "prefs:root=Photos#VideoAutoplaySwitch",
+    "पूर्ण HDR देखें": "prefs:root=Photos#ImageModulationSwitch",
+    "अवकाश के इवेंट दिखाएँ": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Mac या PC पर ट्रांसफ़र करें": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "ऑटोमैटिक डाउनलोड": "prefs:root=STORE#Automatic%20Downloads",
+    "ऐप अपडेट": "prefs:root=STORE#App%20Updates",
+    "ऐप डाउनलोड": "prefs:root=STORE&path=App%20Downloads",
+    "वीडियो ऑटोप्ले": "prefs:root=STORE&path=Video%20Autoplay",
+    "इन-ऐप रेटिंग व समीक्षाएँ": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "कहानी प्रीव्यू दिखाएँ": "prefs:root=NEWS#show_excerpt_mode",
+    "आज में कहानी प्रतिबंधित करें": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "गोपनीयता": "prefs:root=NEWS#Privacy",
+    "आइडेंटिफ़ायर रीसेट करें": "prefs:root=NEWS#reset_identifier",
+    "अभिस्वीकृतियाँ": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_577": {
+    "विमान मोड": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "रिमाइंडर": {
+    "(root)": "prefs:root=REMINDERS",
+    "डिफ़ॉल्ट सूची": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "रिमाइंडर": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "आज की सूचना": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "विलंबित के रूप में दिखाएँ": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "बैटरी": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "निम्न पावर मोड": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "बैटरी हेल्थ": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "शॉर्टकट": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "iCloud सिंक": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "शॉर्टकट का क्रम सिंक करें": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "क़ानूनी सूचनाएँ": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri और खोज": {
+    "(root)": "prefs:root=SIRI",
+    "लॉक रहने पर Siri को अनुमति दें": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "भाषा": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Siri वॉइस": "prefs:root=SIRI&path=VOICE_ID",
+    "वॉइस फ़ीडबैक": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "मेरी जानकारी": "prefs:root=SIRI&path=MY_INFO",
+    "“खोजें” में सुझाव": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "“तलाशें” में सुझाव": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "लॉक स्क्रीन पर सुझाव": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "स्टॉक्स": {
+    "(root)": "prefs:root=STOCKS",
+    "गोपनीयता": "prefs:root=STOCKS#Privacy",
+    "आइडेंटिफ़ायर रीसेट करें": "prefs:root=STOCKS#reset_identifier"
+  },
+  "मोबाइल डेटा": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "मोबाइल डेटा विकल्प": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "निम्न डेटा मोड": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "मोबाइल डेटा": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "प्लेबैक के लिए मोबाइल डेटा का उपयोग करें": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "प्लेबैक गुणवत्ता": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "ख़रीदारी और रेंटल": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "होम शेयरिंग": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "वॉलपेपर": "prefs:root=Wallpaper"
+}

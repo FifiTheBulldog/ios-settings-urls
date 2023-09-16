@@ -1,0 +1,854 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → Χώρος αποθήκευσης iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Φωτογραφίες: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Επαφές: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Ημερολόγιο: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Υπομνήσεις: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Σημειώσεις: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Εφεδρικό αντίγραφο: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Υγεία: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Συνθηματικά και Κλειδοθήκη: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Ιδιωτική μεταγωγή: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Κοινοποίηση τοποθεσίας μου: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Κοινοποίηση τοποθεσίας μου → Εύρεση iPhone: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Όνομα, αριθμοί τηλεφώνου, email: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Συνθηματικό και ασφάλεια: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Πληρωμή και αποστολή: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Συνδρομές: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Οικογένεια: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Απόρρητο και ασφάλεια: `prefs:root=Privacy`
+- Απόρρητο και ασφάλεια → Έλεγχος ασφάλειας: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Απόρρητο και ασφάλεια → Τοποθεσία: `prefs:root=Privacy&path=LOCATION`
+- Απόρρητο και ασφάλεια → Τοποθεσία → Κοινοποίηση τοποθεσίας μου: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Απόρρητο και ασφάλεια → Επαφές: `prefs:root=Privacy&path=CONTACTS`
+- Απόρρητο και ασφάλεια → Ημερολόγια: `prefs:root=Privacy&path=CALENDARS`
+- Απόρρητο και ασφάλεια → Υπομνήσεις: `prefs:root=Privacy&path=REMINDERS`
+- Απόρρητο και ασφάλεια → Φωτογραφίες: `prefs:root=Privacy&path=PHOTOS`
+- Απόρρητο και ασφάλεια → Κοινή χρήση Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Απόρρητο και ασφάλεια → Μικρόφωνο: `prefs:root=Privacy&path=MICROPHONE`
+- Απόρρητο και ασφάλεια → Αναγνώριση ομιλίας: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Απόρρητο και ασφάλεια → Κάμερα: `prefs:root=Privacy&path=CAMERA`
+- Απόρρητο και ασφάλεια → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Απόρρητο και ασφάλεια → Πολυμέσα και Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Απόρρητο και ασφάλεια → Ανάλυση: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Απόρρητο και ασφάλεια → Διαφημίσεις: `prefs:root=Privacy&path=ADVERTISING`
+- Απόρρητο και ασφάλεια → Αρχεία και φάκελοι: `prefs:root=Privacy&path=FILEACCESS`
+- Απόρρητο και ασφάλεια → Ανίχνευση: `prefs:root=Privacy&path=USER_TRACKING`
+- Απόρρητο και ασφάλεια → Αναφορά απορρήτου εφαρμογών: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Απόρρητο και ασφάλεια → Λειτουργία απομόνωσης: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Απόρρητο και ασφάλεια → Υγεία: `prefs:root=Privacy&path=HEALTH`
+- Συγκέντρωση: `prefs:root=DO_NOT_DISTURB`
+- Συγκέντρωση → Κατάσταση συγκέντρωσης: `prefs:root=DO_NOT_DISTURB&path=status`
+- Γενικά: `prefs:root=General`
+- Γενικά → VPN και διαχείριση συσκευών: `prefs:root=General&path=ManagedConfigurationList`
+- Γενικά → Εικόνα εντός εικόνας: `prefs:root=General&path=PiP_SPEC`
+- Γενικά → Επιφάνεια αφής και ποντίκι: `prefs:root=General&path=POINTERS`
+- Γενικά → NFC: `prefs:root=General&path=NFC_LINK`
+- Γενικά → VPN: `prefs:root=General&path=VPN`
+- Γενικά → CarPlay: `prefs:root=General&path=CARPLAY`
+- Γενικά → Πληροφορίες: `prefs:root=General&path=About`
+- Γενικά → Πληροφορίες → Αξιόπιστα πιστοποιητικά: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Γενικά → Νομικά και ρυθμιστικά: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Γενικά → Ενημέρωση λογισμικού: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Γενικά → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Γενικά → Κουμπί Αφετηρίας: `prefs:root=General&path=HOME_BUTTON`
+- Γενικά → Χειρονομίες: `prefs:root=General#Multitasking_Gesture_Switch`
+- Γενικά → Πλευρικός διακόπτης: `prefs:root=General#Rotation_Switch_Action_Group`
+- Γενικά → Ανανέωση στο παρασκήνιο: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Γενικά → Ημερομηνία και ώρα: `prefs:root=General&path=DATE_AND_TIME`
+- Γενικά → Έξοδος TV: `prefs:root=General&path=TV_OUT`
+- Γενικά → Ρυθμιστικά: `prefs:root=General&path=REGULATORY`
+- Γενικά → Επαναφορά: `prefs:root=General&path=Reset`
+- Γενικά → Επαναφορά → Επαναφορά όλων των ρυθμίσεων: `prefs:root=General&path=Reset#settingsErase`
+- Γενικά → Επαναφορά → Σβήσιμο όλου του περιεχομένου και ρυθμίσεων: `prefs:root=General&path=Reset#fullErase`
+- Γενικά → Επαναφορά → Ρυθμίσεις δικτύου: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Γενικά → Επαναφορά → Αφαίρεση όλων των προγραμμάτων: `prefs:root=General&path=Reset#cellularErase`
+- Γενικά → Επαναφορά → Υπηρεσίες συνδρομητών: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Γενικά → Επαναφορά → Επαναφορά λεξικού πληκτρολογίου: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Γενικά → Επαναφορά → Επαναφορά διάταξης οθόνης Αφετηρίας: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Γενικά → Επαναφορά → Επαναφορά τοποθεσίας και απορρήτου: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Γενικά → Τερματισμός: `prefs:root=General#SHUTDOWN_LABEL`
+- Γενικά → AirPlay και Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Γενικά → AirPlay και Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Γενικά → AirPlay και Handoff → Μεταβίβαση στο HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Γενικά → AirPlay και Handoff → Αυτόματο AirPlay σε τηλεοράσεις: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Γενικά → AirPlay και Handoff → Κάμερα συνέχισης: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Γενικά → Λεξικό: `prefs:root=General&path=DICTIONARY`
+- Γενικά → Γλώσσα και περιοχή: `prefs:root=General&path=INTERNATIONAL`
+- Γενικά → Γλώσσα και περιοχή → Άλλες γλώσσες…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Γενικά → Γλώσσα και περιοχή → Σειρά προτιμώμενων γλωσσών: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Γενικά → Γλώσσα και περιοχή → Προσθήκη γλώσσας…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Γενικά → Γλώσσα και περιοχή → Περιοχή: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Γενικά → Γλώσσα και περιοχή → Αριθμοί: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Γενικά → Γλώσσα και περιοχή → Ημερολόγιο: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Γενικά → Γλώσσα και περιοχή → Μονάδα θερμοκρασίας: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Γενικά → Πληκτρολόγιο: `prefs:root=General&path=Keyboard`
+- Γενικά → Πληκτρολόγιο → Πληκτρολόγια: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Γενικά → Πληκτρολόγιο → Αντικατάσταση κειμένου: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Γενικά → Πληκτρολόγιο → Αυτόματη χρήση κεφαλαίων: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Γενικά → Πληκτρολόγιο → Αυτόματη διόρθωση: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Γενικά → Πληκτρολόγιο → Έλεγχος ορθογραφίας: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Γενικά → Πληκτρολόγιο → Ενεργοποίηση του Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Γενικά → Πληκτρολόγιο → Συντομεύσεις: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Γενικά → Πληκτρολόγιο → Προβλεπτικό: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Γενικά → Πληκτρολόγιο → Έξυπνη στίξη: `prefs:root=General&path=Keyboard#SmartTyping`
+- Γενικά → Πληκτρολόγιο → Διαχωρισμός πληκτρολογίου: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Γενικά → Πληκτρολόγιο → Ενεργοποίηση τιναγμάτων πλήκτρων: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Γενικά → Πληκτρολόγιο → Προεπισκόπηση χαρακτήρων: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Γενικά → Πληκτρολόγιο → Συντόμευση «.»: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Γενικά → Πληκτρολόγιο → Ολίσθηση για πληκτρολόγηση: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Γενικά → Πληκτρολόγιο → Ενεργοποίηση Υπαγόρευσης: `prefs:root=General&path=Keyboard#Dictation`
+- Γενικά → Πληκτρολόγιο → Αυτόματη στίξη: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Γενικά → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Γενικά → iPhone/iPad Storage → Χώρος αποθήκευσης: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Γενικά → iPhone/iPad Storage → Απεγκατάσταση αχρησιμοποίητων: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Γνωστοποιήσεις: `prefs:root=NOTIFICATIONS_ID`
+- Γνωστοποιήσεις → Προγραμματισμένη σύνοψη: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Πορτοφόλι και Apple Pay: `prefs:root=PASSBOOK`
+- Πορτοφόλι και Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Πορτοφόλι και Apple Pay → Κάρτες πληρωμής: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Πορτοφόλι και Apple Pay → Νέα κάρτα: `prefs:root=PASSBOOK#Add%20Card`
+- Πορτοφόλι και Apple Pay → Διπλό κλικ στο πλευρικό κουμπί: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Πορτοφόλι και Apple Pay → Παρακολούθηση παραγγελίας: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Χρόνος επί οθόνης: `prefs:root=SCREEN_TIME`
+- Χρόνος επί οθόνης → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Χρόνος επί οθόνης → See All Activity → Σήμερα: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Χρόνος επί οθόνης → See All Activity → Εβδομάδα: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Χρόνος επί οθόνης → Μη χρήση: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Χρόνος επί οθόνης → Όρια εφαρμογών: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Χρόνος επί οθόνης → Όρια επικοινωνίας: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Χρόνος επί οθόνης → Ασφάλεια επικοινωνίας: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Χρόνος επί οθόνης → Επιτρέπονται πάντα: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Χρόνος επί οθόνης → Περιορισμοί περιεχομένου και απορρήτου: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Χρόνος επί οθόνης → Γονικός έλεγχος: `prefs:root=SCREEN_TIME#FAMILY`
+- Προσβασιμότητα: `prefs:root=ACCESSIBILITY`
+- Προσβασιμότητα → Όραση: `prefs:root=ACCESSIBILITY#VISION`
+- Προσβασιμότητα → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Προσβασιμότητα → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Προσβασιμότητα → VoiceOver → Ταχύτητα εκφώνησης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Προσβασιμότητα → VoiceOver → Εκφώνηση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Προσβασιμότητα → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Προσβασιμότητα → VoiceOver → Speech → Φωνή: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Προσβασιμότητα → VoiceOver → Λεπτομέρειες: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Προσβασιμότητα → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Προσβασιμότητα → VoiceOver → Verbosity → Στίξη: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Προσβασιμότητα → VoiceOver → Verbosity → Κεφαλίδες πίνακα: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Προσβασιμότητα → VoiceOver → Verbosity → Περιγραφές πολυμέσων: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Προσβασιμότητα → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Προσβασιμότητα → VoiceOver → Verbosity → Media Descriptions → Όχι: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Προσβασιμότητα → VoiceOver → Verbosity → Media Descriptions → Εκφώνηση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Προσβασιμότητα → VoiceOver → Verbosity → Media Descriptions → Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Προσβασιμότητα → VoiceOver → Verbosity → Media Descriptions → Εκφώνηση και Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Προσβασιμότητα → VoiceOver → Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- Προσβασιμότητα → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Προσβασιμότητα → VoiceOver → Braille → Έξοδος: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Προσβασιμότητα → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Προσβασιμότητα → VoiceOver → Braille → Output → Εξάστιγμο Μπράιγ 1ης βαθμίδας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Προσβασιμότητα → VoiceOver → Braille → Output → Οκτάστιγμο Μπράιγ 1ης βαθμίδας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Προσβασιμότητα → VoiceOver → Braille → Output → Μπράιγ 2ης βαθμίδας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Προσβασιμότητα → VoiceOver → Braille → Είσοδος: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Προσβασιμότητα → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Προσβασιμότητα → VoiceOver → Braille → Input → Εξάστιγμο Μπράιγ 1ης βαθμίδας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Προσβασιμότητα → VoiceOver → Braille → Input → Οκτάστιγμο Μπράιγ 1ης βαθμίδας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Προσβασιμότητα → VoiceOver → Braille → Input → Μπράιγ 2ης βαθμίδας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Προσβασιμότητα → VoiceOver → Braille → Input → Αυτόματη μετάφραση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Προσβασιμότητα → VoiceOver → Braille → Είσοδος Μπράιγ στην οθόνη: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Προσβασιμότητα → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Προσβασιμότητα → VoiceOver → Braille → Braille Screen Input → Εξάστιγμο Μπράιγ 1ης βαθμίδας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Προσβασιμότητα → VoiceOver → Braille → Braille Screen Input → Οκτάστιγμο Μπράιγ 1ης βαθμίδας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Προσβασιμότητα → VoiceOver → Braille → Braille Screen Input → Μπράιγ 2ης βαθμίδας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Προσβασιμότητα → VoiceOver → Braille → Braille Screen Input → Αναστροφή θέσεων στιγμών: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Προσβασιμότητα → VoiceOver → Braille → Πίνακες Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Προσβασιμότητα → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Προσβασιμότητα → VoiceOver → Braille → Tables → Προσθήκη πίνακα Μπράιγ…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Προσβασιμότητα → VoiceOver → Braille → Κελιά κατάστασης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Προσβασιμότητα → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Προσβασιμότητα → VoiceOver → Braille → Status Cell → Θέση κελιών κατάστασης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Προσβασιμότητα → VoiceOver → Braille → Status Cell → Αριστερά: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Προσβασιμότητα → VoiceOver → Braille → Status Cell → Δεξιά: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Προσβασιμότητα → VoiceOver → Braille → Status Cell → Εμφάνιση γενικής κατάστασης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Προσβασιμότητα → VoiceOver → Braille → Status Cell → Εμφάνιση κατάστασης κειμένου: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Προσβασιμότητα → VoiceOver → Braille → Χρήση Nemeth από εξισώσεις: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Προσβασιμότητα → VoiceOver → Braille → Εμφάνιση πληκτρολογίου οθόνης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Προσβασιμότητα → VoiceOver → Braille → Γύρισμα σελ. σε μετατόπιση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Προσβασιμότητα → VoiceOver → Braille → Αναδίπλωση λέξης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Προσβασιμότητα → VoiceOver → Braille → Ειδοποιήσεις Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Προσβασιμότητα → VoiceOver → Braille → Αγνόηση διάρκειας συντομεύσεων: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Προσβασιμότητα → VoiceOver → Braille → Διάρκεια αυτόματης συνέχισης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Προσβασιμότητα → VoiceOver → Ήχος: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- Προσβασιμότητα → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Προσβασιμότητα → VoiceOver → Audio → Βύθιση ήχου: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Προσβασιμότητα → VoiceOver → Audio → Αυτόματη επιλογή ομιλητή στην κλήση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Προσβασιμότητα → VoiceOver → Audio → Αποστολή σε HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Προσβασιμότητα → VoiceOver → Εντολές: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Προσβασιμότητα → VoiceOver → Δραστηριότητες: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Προσβασιμότητα → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Προσβασιμότητα → VoiceOver → Activities → Προγραμματισμός: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Προσβασιμότητα → VoiceOver → Activities → Νέα δραστηριότητα…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Προσβασιμότητα → VoiceOver → Ρότορας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Προσβασιμότητα → VoiceOver → Ενέργειες ρότορα: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Προσβασιμότητα → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Προσβασιμότητα → VoiceOver → Rotor Actions → Επεξεργασία των εφαρμογών στην οθόνη Αφετηρίας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Προσβασιμότητα → VoiceOver → Rotor Actions → Εφαρμογές Άμεσης αφής: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Προσβασιμότητα → VoiceOver → Πληκτρολόγηση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Προσβασιμότητα → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Προσβασιμότητα → VoiceOver → Typing → Στιλ πληκτρολόγησης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Προσβασιμότητα → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Προσβασιμότητα → VoiceOver → Typing → Typing Mode → Βασική πληκτρολόγηση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Προσβασιμότητα → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Προσβασιμότητα → VoiceOver → Typing → Typing Style → Πληκτρολόγηση αφής: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Προσβασιμότητα → VoiceOver → Typing → Typing Style → Πληκτρολόγηση άμεσης αφής: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Προσβασιμότητα → VoiceOver → Typing → Φωνητική ανάδραση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Προσβασιμότητα → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Προσβασιμότητα → VoiceOver → Typing → Phonetic Feedback → Όχι: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Προσβασιμότητα → VoiceOver → Typing → Phonetic Feedback → Χαρακτήρας και φωνητική: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Προσβασιμότητα → VoiceOver → Typing → Phonetic Feedback → Φωνητική μόνο: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Προσβασιμότητα → VoiceOver → Typing → Ανάδραση πληκτρολόγησης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Προσβασιμότητα → VoiceOver → Typing → Πλήκτρα τροποποίησης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Προσβασιμότητα → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Προσβασιμότητα → VoiceOver → Typing → Modifier Keys → Control + Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Προσβασιμότητα → VoiceOver → Typing → Modifier Keys → Caps Lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Προσβασιμότητα → VoiceOver → Typing → Χρόνος αντίδρασης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Προσβασιμότητα → VoiceOver → Πλοήγηση σε εικόνες: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Προσβασιμότητα → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Προσβασιμότητα → VoiceOver → Include Unlabeled Images → Πάντα: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Προσβασιμότητα → VoiceOver → Include Unlabeled Images → Με περιγραφές: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Προσβασιμότητα → VoiceOver → Include Unlabeled Images → Ποτέ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Προσβασιμότητα → VoiceOver → Μεγάλος δρομέας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Προσβασιμότητα → VoiceOver → Πίνακας λεζαντών: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Προσβασιμότητα → VoiceOver → Όριο διπλού αγγίγματος: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Προσβασιμότητα → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Προσβασιμότητα → VoiceOver → Double-tap Timeout → Όριο διπλού αγγίγματος: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Προσβασιμότητα → VoiceOver → Στιλ πλοήγησης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Προσβασιμότητα → VoiceOver → Γρήγορες ρυθμίσεις: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Προσβασιμότητα → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Ήχοι: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Βύθιση ήχου: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Ένταση ήχου: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Ταχύτητα εκφώνησης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Υποδείξεις: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Στιλ πλοήγησης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Στιλ πληκτρολόγησης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Ολίσθηση για πληκτρολόγηση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Δραστηριότητες: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Πάντα εκφώνηση γνωστοποιήσεων: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Ειδοποιήσεις Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Αυτόματη συνέχιση Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Είσοδος Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Έξοδος Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Πίνακες Μπράιγ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Πίνακας λεζαντών: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Άμεση αφή: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Κατεύθυνση χειρονομίας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Ανάδραση πληκτρολόγησης για υλισμικό: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Γλώσσα: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Μεγάλος δρομέας: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Περιγραφές πολυμέσων: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Πλοήγηση σε εικόνες: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Φωνητική ανάδραση: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Αλλαγή τονικού ύψους: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Στίξη: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Αποστολή σε HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Ανάδραση πληκτρολόγησης για λογισμικό: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Εκφώνηση επιβεβαίωσης ρότορα: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Περιγραφές εικόνων: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Προσβασιμότητα → VoiceOver → Quick Settings → Αναγνώριση οθόνης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Προσβασιμότητα → VoiceOver → Αναγνώριση VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Προσβασιμότητα → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Προσβασιμότητα → VoiceOver → VoiceOver Recognition → Περιγραφές εικόνων: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Προσβασιμότητα → VoiceOver → VoiceOver Recognition → Αναγνώριση οθόνης: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Προσβασιμότητα → Ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Προσβασιμότητα → Ζουμ → Ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Προσβασιμότητα → Ζουμ → Ακολούθηση εστίασης: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Προσβασιμότητα → Ζουμ → Έξυπνη πληκτρολόγηση: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Προσβασιμότητα → Ζουμ → Συντομεύσεις πληκτρολογίου: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Προσβασιμότητα → Ζουμ → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Προσβασιμότητα → Ζουμ → Keyboard Shortcuts → Συντομεύσεις πληκτρολογίου: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Προσβασιμότητα → Ζουμ → Keyboard Shortcuts → Προσαρμογή επιπέδου ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Προσβασιμότητα → Ζουμ → Keyboard Shortcuts → Εναλλαγή ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Προσβασιμότητα → Ζουμ → Keyboard Shortcuts → Μετακίνηση παραθύρου ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Προσβασιμότητα → Ζουμ → Keyboard Shortcuts → Αλλαγή μεγέθους του παραθύρου ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Προσβασιμότητα → Ζουμ → Keyboard Shortcuts → Εναλλαγή περιοχής ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Προσβασιμότητα → Ζουμ → Keyboard Shortcuts → Προσωρινή εναλλαγή ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Προσβασιμότητα → Ζουμ → Keyboard Shortcuts → Ζουμ με τροχό κύλισης: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Προσβασιμότητα → Ζουμ → Ελεγκτής ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Προσβασιμότητα → Ζουμ → Περιοχή ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Προσβασιμότητα → Ζουμ → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Προσβασιμότητα → Ζουμ → Zoom Region → Ζουμ σε πλήρη οθόνη: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Προσβασιμότητα → Ζουμ → Zoom Region → Ζουμ παραθύρου: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Προσβασιμότητα → Ζουμ → Μέγιστο επίπεδο ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Προσβασιμότητα → Ζουμ → Φίλτρο ζουμ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Προσβασιμότητα → Ζουμ → Εμφάνιση κατά τον Κατοπτρισμό: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Προσβασιμότητα → Κείμενο κατάδειξης: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Έντονο κείμενο: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Μεγαλύτερο κείμενο: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Σχήματα κουμπιών: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Ετικέτες ενεργοποίησης: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Μείωση διαφάνειας: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Αύξηση αντίθεσης: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Διαφοροποίηση χωρίς χρώμα: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Έξυπνη αναστροφή: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Κλασική αναστροφή: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Χρωματικά φίλτρα: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Color Filters → Χρωματικά φίλτρα: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Μείωση λευκού σημείου: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Προσβασιμότητα → Οθόνη και μέγεθος κειμένου → Αυτόματη φωτεινότητα: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Προσβασιμότητα → Κίνηση: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Προσβασιμότητα → Κίνηση → Μείωση κίνησης: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Προσβασιμότητα → Κίνηση → Αυτοαναπαραγωγή εφέ μηνυμάτων: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Προσβασιμότητα → Κίνηση → Αυτόματη αναπαραγωγή προεπισκοπήσεων βίντεο: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Εκφώνηση επιλογής: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Εκφώνηση οθόνης: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Ελεγκτής εκφώνησης: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Speech Controller → Προσαρμογή κουμπιών ποντικιού: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Επισήμανση περιεχομένου: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Ανάδραση πληκτρολόγησης: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Typing Feedback → Ανάδραση χαρακτήρων: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Typing Feedback → Χαρακτήρες: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Typing Feedback → Υποδείξεις χαρακτήρων: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Typing Feedback → Εκφώνηση λέξεων: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Typing Feedback → Εκφώνηση διορθώσεων: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Typing Feedback → Κράτημα για εκφώνηση προβλέψεων: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Φωνές: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Προεπιλεγμένη γλώσσα: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Εντοπισμός γλωσσών: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Ταχύτητα εκφώνησης: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Προφορές: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Προσβασιμότητα → Ηχητικές περιγραφές: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Προσβασιμότητα → Ηχητικές περιγραφές → Ηχητικές περιγραφές: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Προσβασιμότητα → Φυσική και κινητική δεξιότητα: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Προσβασιμότητα → Άγγιγμα: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Αλλαγή μενού πάνω επιπέδου: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Customize Top Level Menu → Αγγίξτε ένα εικονίδιο για αλλαγή:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Customize Top Level Menu → Επαναφορά…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Προσαρμοσμένες ενέργειες: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Μονό άγγιγμα: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Διπλό άγγιγμα: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Double-Tap → Όριο διπλού αγγίγματος: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Παρατεταμένο πάτημα: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Long Press → Διάρκεια πατήματος: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Προσαρμογή χειρονομιών: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Δημιουργία χειρονομίας…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Αδιαφάνεια σε αδράνεια: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Συσκευές κατάδειξης: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Συσκευές: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Devices → Συσκευές Bluetooth: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Κουμπιά ποντικιού: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Τύπος δείκτη: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Τύπος δείκτη → Μέγεθος: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Τύπος δείκτη → Οπτικά: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Τύπος δείκτη → Χρώμα: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Τύπος δείκτη → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Τύπος δείκτη → SOMETHING IDK → Προσαρμογή κουμπιών ποντικιού: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Τύπος δείκτη → Αυτόματη απόκρυψη: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Τύπος δείκτη → NEEDS_OVERRIDE_204 → Αυτόματη απόκρυψη: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Εμφάνιση πληκτρολογίου οθόνης: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Εμφάνιση μενού πάντα: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Έλεγχος παραμονής: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Ανοχή κίνησης: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Ευαισθησία ανίχνευσης: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Ενέργεια επιστροφής: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Ενεργές γωνίες: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Προσβασιμότητα → Άγγιγμα → AssistiveTouch → Χρήση χειριστηρίου παιχνιδιών: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Προσβασιμότητα → Άγγιγμα → 3D και Απτικό άγγιγμα: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_205 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_205 → Ευαισθησία 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_205 → Διάρκεια αγγίγματος: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_205 → Γρήγορα: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_205 → Αργά: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_205 → Δοκιμή ευαισθησίας και διάρκειας αγγίγματος 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Προσβασιμότητα → Άγγιγμα → Βοηθήματα αφής: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_206 → Βοηθήματα αφής: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_206 → Διάρκεια κρατήματος: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_206 → Αγνόηση επανάληψης: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_206 → Βοήθεια αγγίγματος: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_206 → Όχι: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_206 → Θέση αρχικού αγγίγματος: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_206 → Θέση τελικού αγγίγματος: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Προσβασιμότητα → Άγγιγμα → Άγγιγμα για αφύπνιση: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Προσβασιμότητα → Άγγιγμα → Άγγιγμα ή σάρωση για αφύπνιση: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Προσβασιμότητα → Άγγιγμα → Ανακίνηση για αναίρεση: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Προσβασιμότητα → Άγγιγμα → Δόνηση: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Προσβασιμότητα → Άγγιγμα → Αποτρέπει το κλείδωμα για τερματισμό της κλήσης: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Προσβασιμότητα → Άγγιγμα → Δρομολόγηση ήχου κλήσεων: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_207 → Αυτόματα: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_207 → Ακουστικά Bluetooth: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_207 → Ηχείο: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Προσβασιμότητα → Άγγιγμα → NEEDS_OVERRIDE_207 → Αυτόματη απάντηση κλήσεων: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Προσβασιμότητα → Face ID και προσοχή: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Προσβασιμότητα → Face ID και προσοχή → Απαίτηση προσοχής Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Προσβασιμότητα → Face ID και προσοχή → Δυνατότητες προσοχής: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Προσβασιμότητα → Face ID και προσοχή → Απτικά: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Προσβασιμότητα → Face ID και προσοχή → Απτικό σε επιτυχή ταυτοποίηση: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Προσβασιμότητα → Διακόπτης ελέγχου: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Διακόπτης ελέγχου: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Διακόπτες: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_208 → Προσθήκη νέου διακόπτη: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_208 → Συσκευές Bluetooth: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Συνταγές: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Στιλ σάρωσης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_209 → Αυτόματη σάρωση: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_209 → Χειροκίνητη σάρωση: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_209 → Σάρωση βήματος μονού διακόπτη: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Χρονισμός: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Χρόνος αυτόματης σάρωσης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_210 → Χρόνος αυτόματης σάρωσης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Παύση στο 1ο στοιχείο: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_211 → Παύση στο 1ο στοιχείο: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Επανάληψη μετακίνησης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_212 → Επανάληψη μετακίνησης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Παρατεταμένο πάτημα: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_213 → Παρατεταμένο πάτημα: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Συμπεριφορά αγγίγματος: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_214 → Προεπιλογή: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_214 → Αυτόματο άγγιγμα: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_214 → Πάντα άγγιγμα: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Εστίαση μετά από άγγιγμα: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_215 → Πρώτο στοιχείο: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_215 → Τρέχον στοιχείο: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Πληκτρολόγιο: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Σάρωση ίδιου κατόπιν αγγίγμ.: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Πάντα άγγιγμα πλήκτρων: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Εκτεταμένες προβλέψεις: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Σταθεροποίηση διακόπτη: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Διάρκεια κρατήματος: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_216 → Διάρκεια κρατήματος: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Αγνόηση επανάληψης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_217 → Αγνόηση επανάληψης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Σάρωση σημείου: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Δρομέας ολίσθησης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_218 → Λειτουργία επιλογής: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_218 → Μονό: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_218 → Περιορισμένο: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_218 → Ακριβής: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_218 → Ταχύτητα δρομέα ολίσθησης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Ανίχνευση κεφαλιού: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_219 → Ανίχνευση κεφαλιού: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Ήχος: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Ηχητικά εφέ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Εκφώνηση: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_220 → Φωνές: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_220 → Ταχύτητα εκφώνησης: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Στοιχεία μενού: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Ομαδοποίηση στοιχείων: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Οπτικά: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Μεγάλος δρομέας: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Αποθηκευμένες χειρονομίες: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Προσβασιμότητα → Διακόπτης ελέγχου → NEEDS_OVERRIDE_221 → Δημιουργία χειρονομίας…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Προσβασιμότητα → Διακόπτης ελέγχου → Χρώμα δρομέα: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Προσβασιμότητα → Φωνητικός έλεγχος: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Διαμόρφωση του Φωνητικού ελέγχου: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Γλώσσα: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Προσβασιμότητα → Φωνητικός έλεγχος → NEEDS_OVERRIDE_222 → Αγγλικά (Ηνωμένες Πολιτείες): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Προσαρμογή εντολών: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Λεξιλόγιο: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Ανάδραση εντολής: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Εμφάνιση επιβεβαίωσης: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Αναπαραγωγή ήχου: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Εμφάνιση υποδείξεων: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Συνεχής υπέρθεση: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Υπέρθεση: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Προσβασιμότητα → Φωνητικός έλεγχος → NEEDS_OVERRIDE_223 → Καμία: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Προσβασιμότητα → Φωνητικός έλεγχος → NEEDS_OVERRIDE_223 → Αριθμοί στοιχείων: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Προσβασιμότητα → Φωνητικός έλεγχος → NEEDS_OVERRIDE_223 → Ονόματα στοιχείων: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Προσβασιμότητα → Φωνητικός έλεγχος → NEEDS_OVERRIDE_223 → Πλέγμα με αρίθμηση: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Προσβασιμότητα → Φωνητικός έλεγχος → Προσοχή: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Προσβασιμότητα → Πλευρικό κουμπί: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Προσβασιμότητα → Πλευρικό κουμπί → Ταχύτητα κλικ: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Προσβασιμότητα → Πλευρικό κουμπί → Προεπιλογή: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Προσβασιμότητα → Πλευρικό κουμπί → Αργά: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Προσβασιμότητα → Πλευρικό κουμπί → Πολύ αργά: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Προσβασιμότητα → Πλευρικό κουμπί → Παρατεταμένο πάτημα για ομιλία: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Προσβασιμότητα → Πλευρικό κουμπί → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Προσβασιμότητα → Πλευρικό κουμπί → Κλασικός φωνητικός έλεγχος: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Προσβασιμότητα → Πλευρικό κουμπί → Όχι: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Προσβασιμότητα → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Προσβασιμότητα → Apple TV Remote → Κουμπιά κατεύθυνσης: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Προσβασιμότητα → Απομακρυσμένη οθόνη Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Προσβασιμότητα → Πληκτρολόγια: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Προσβασιμότητα → Πληκτρολόγια → Πλήρης πρόσβαση από πληκτρολόγιο: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_224 → Πλήρης πρόσβαση από πληκτρολόγιο: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_224 → Οπτικά στοιχεία: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_224 → Αυτόματη απόκρυψη: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_224 → Μεγάλος δακτύλιος εστίασης: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_224 → Χρώμα: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Προσβασιμότητα → Πληκτρολόγια → Επανάληψη πλήκτρου: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_225 → Επανάληψη πλήκτρου: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_225 → Διάστημα επανάληψης πλήκτρου: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_225 → Καθυστέρηση μέχρι την επανάληψη: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Προσβασιμότητα → Πληκτρολόγια → Ασύγχρονα πλήκτρα: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_226 → Ασύγχρονα πλήκτρα: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_226 → Εναλλαγή με πλήκτρο Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_226 → Ήχος: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Προσβασιμότητα → Πληκτρολόγια → Αργά πλήκτρα: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Προσβασιμότητα → Πληκτρολόγια → NEEDS_OVERRIDE_227 → Αργά πλήκτρα: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Προσβασιμότητα → Πληκτρολόγια → Πληκτρολόγια λογισμικού: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Προσβασιμότητα → Πληκτρολόγια → Εμφάνιση πεζών πλήκτρων: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Προσβασιμότητα → Ακοή: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Προσβασιμότητα → Συσκευές ακοής: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Προσβασιμότητα → Συσκευές ακοής → Συσκευές ακοής MFi: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Προσβασιμότητα → Συσκευές ακοής → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Προσβασιμότητα → Συσκευές ακοής → Συμβατότητα βοηθημάτων ακοής: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Προσβασιμότητα → Αναγνώριση ήχου: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Προσβασιμότητα → Αναγνώριση ήχου → Ήχοι: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Προσβασιμότητα → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Προσβασιμότητα → RTT/TTY → TTY λογισμικού: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Προσβασιμότητα → RTT/TTY → TTY υλισμικού: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Προσβασιμότητα → Ήχος και οπτικά: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Προσβασιμότητα → Ήχος και οπτικά → Ήχος: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Προσβασιμότητα → Ήχος και οπτικά → Βοηθήματα ακουστικών: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Προσβασιμότητα → Ήχος και οπτικά → NEEDS_OVERRIDE_228 → Βοηθήματα ακουστικών: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Προσβασιμότητα → Ήχος και οπτικά → NEEDS_OVERRIDE_228 → Προσαρμοσμένη διαμόρφωση ήχου: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Προσβασιμότητα → Ήχος και οπτικά → Ήχοι παρασκηνίου: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Προσβασιμότητα → Ήχος και οπτικά → Μονοφωνικός ήχος: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Προσβασιμότητα → Ήχος και οπτικά → Ακύρωση θορύβου τηλεφώνου: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Προσβασιμότητα → Ήχος και οπτικά → Εξισορρόπηση: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Προσβασιμότητα → Ήχος και οπτικά → Οπτικά: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Προσβασιμότητα → Ήχος και οπτικά → Λάμψη LED σε ειδοποιήσεις: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Προσβασιμότητα → Ήχος και οπτικά → NEEDS_OVERRIDE_229 → Λάμψη κατά το ξεκλείδωμα: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Προσβασιμότητα → Ήχος και οπτικά → NEEDS_OVERRIDE_229 → Λάμψη σε αθόρυβη λειτουργία: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Προσβασιμότητα → Ήχος και οπτικά → Στερεοφωνική εξισορρόπηση αριστερά-δεξιά: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Προσβασιμότητα → Ήχος και οπτικά → Ήχοι ενεργοποίησης και απενεργοποίησης: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Προσβασιμότητα → Υπότιτλοι και λεζάντες: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Προσβασιμότητα → Υπότιτλοι και λεζάντες → Στιλ: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Προσβασιμότητα → Υπότιτλοι και λεζάντες → Κλειστές λεζάντες + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Προσβασιμότητα → Υπότιτλοι και λεζάντες → Εμφάνιση απομαγνητοφωνήσεων ήχου: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Προσβασιμότητα → NEEDS_OVERRIDE_230 → Ζωντανές λεζάντες (beta): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Προσβασιμότητα → NEEDS_OVERRIDE_230 → Ζωντανές λεζάντες στο FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Προσβασιμότητα → Γενικά: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση → Καθοδηγούμενη πρόσβαση: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση → Ρυθμίσεις κωδικού: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση → NEEDS_OVERRIDE_231 → Καθορισμός κωδικού: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση → Χρονικά όρια: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση → NEEDS_OVERRIDE_232 → Ειδοποίηση: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση → NEEDS_OVERRIDE_232 → Ήχος: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση → NEEDS_OVERRIDE_232 → Εκφώνηση: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση → Συντόμευση Προσβασ/τας: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Προσβασιμότητα → Καθοδηγούμενη πρόσβαση → Αυτόματο κλείδωμα οθόνης: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Προσβασιμότητα → Λειτουργία προσαρμοσμένης προσβασιμότητας: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Προσβασιμότητα → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Προσβασιμότητα → Siri → Γραπτό αίτημα στο Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Προσβασιμότητα → Siri → Εκφωνούμενες απαντήσεις: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Προσβασιμότητα → Siri → Αυτόματες εκφωνούμενες απαντήσεις: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Προσβασιμότητα → Siri → Προτίμηση αθόρυβων απαντήσεων: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Προσβασιμότητα → Siri → Όχι εκφώνηση στην Αθόρυβη λειτουργία: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Προσβασιμότητα → Siri → Πάντα ακρόαση για Hey Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Προσβασιμότητα → Συντόμευση Προσβασ/τας: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Προσβασιμότητα → Συντόμευση Προσβασ/τας → Μεγέθυνση: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Προσβασιμότητα → Ρυθμίσεις ανά εφαρμογή: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Προσβασιμότητα → Έλεγχος κοντινών συσκευών: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Οθόνη και φωτεινότητα: `prefs:root=DISPLAY`
+- Οθόνη και φωτεινότητα → Εμφάνιση: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Οθόνη και φωτεινότητα → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Οθόνη και φωτεινότητα → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Οθόνη και φωτεινότητα → Night Shift → Πρόγραμμα: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Οθόνη και φωτεινότητα → Night Shift → Ενεργοποίηση χειροκίνητα μέχρι αύριο: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Οθόνη και φωτεινότητα → Night Shift → Θερμοκρασία χρωμάτων: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Οθόνη και φωτεινότητα → Αυτόματο κλείδωμα: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Οθόνη και φωτεινότητα → Σήκωμα για αφύπνιση: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Οθόνη και φωτεινότητα → Κλείδωμα/Ξεκλείδωμα: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Οθόνη και φωτεινότητα → Μέγεθος κειμένου: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Οθόνη και φωτεινότητα → Έντονο κείμενο: `prefs:root=DISPLAY#BOLD_TEXT`
+- Οθόνη και φωτεινότητα → Ζουμ οθόνης: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Οθόνη και φωτεινότητα → Προβολή: `prefs:root=DISPLAY&path=MAGNIFY`
+- Γνωστοποιήσεις έκθεσης: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_233 → Ταμπέλες γνωστοποιήσεων: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_233 → Νεοληφθείσες εφαρμογές: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Οθόνη Αφετηρίας και πολυδιεργασία: `prefs:root=HOME_SCREEN_DOCK`
+- Οθόνη Αφετηρίας και πολυδιεργασία → NEEDS_OVERRIDE_234 → Εμφάνιση της Βιβλιοθήκης εφαρμογών στο Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Οθόνη Αφετηρίας και πολυδιεργασία → Προτεινόμενες και πρόσφατες εφαρμογές στο Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Οθόνη Αφετηρίας: `prefs:root=HOME_SCREEN`
+- Οθόνη Αφετηρίας → Νεοληφθείσες εφαρμογές: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Οθόνη Αφετηρίας → Ταμπέλες γνωστοποιήσεων: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID και κωδικός: `prefs:root=PASSCODE`
+- Touch ID και κωδικός → Απενεργοποίηση κωδικού: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID και κωδικός → Αλλαγή κωδικού: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID και κωδικός → Απαίτηση κωδικού: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID και κωδικός → Φωνητική κλήση: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID και κωδικός → Να επιτρέπεται η πρόσβαση από κλειδωμένη οθόνη: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID και κωδικός → Απάντηση με μήνυμα: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID και κωδικός → Έλεγχος της Οικίας: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID και κωδικός → Πορτοφόλι: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID και κωδικός → Επιστροφή αναπάντητων κλήσεων: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID και κωδικός → Σβήσιμο δεδομένων: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID και κωδικός → Ξεκλείδωμα μέσω Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Podcast: `prefs:root=PODCASTS`
+- Επείγον SOS: `prefs:root=EMERGENCY_SOS`
+- Επείγον SOS → Κλήση με πλευρικό κουμπί: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Επείγον SOS → Αυτόματη κλήση: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Επείγον SOS → Επαφές έκτακτης ανάγκης: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Επείγον SOS → Ήχος αντίστροφης μέτρησης: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Ήχοι: `prefs:root=Sounds`
+- Ήχοι → Ασφάλεια ακουστικών: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Ήχοι → Ασφάλεια ακουστικών → Προσαρμογείς Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Ήχοι → Ασφάλεια ακουστικών → Γνωστοποιήσεις ακουστικών: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Ήχοι → Ασφάλεια ακουστικών → Μείωση δυνατών ήχων: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Ήχοι → Ηχητικά εφέ: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Ήχοι → Κουδουνίσματα και ειδοποιήσεις: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Ήχοι → Αλλαγή με κουμπιά: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Ήχοι → Ήχοι και μοτίβα δόνησης: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Ήχοι → Κουδούνισμα: `prefs:root=Sounds&path=Ringtone`
+- Ήχοι → Τόνος SMS: `prefs:root=Sounds&path=Text_Messages`
+- Ήχοι → Νέο μήνυμα τηλεφωνητή: `prefs:root=Sounds&path=Voicemail`
+- Ήχοι → Νέο email: `prefs:root=Sounds&path=NEW_MAIL`
+- Ήχοι → Στάλθηκε email: `prefs:root=Sounds&path=SENT_MAIL`
+- Ήχοι → Ειδοποιήσεις Ημερολογίου: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Ήχοι → Ειδοποιήσεις Υπομνήσεων: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Ήχοι → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Ήχοι → Ήχοι πληκτρολογίου: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Ήχοι → Ήχος κλειδώματος: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Καιρός: `prefs:root=WEATHER`
+- Πυξίδα: `prefs:root=COMPASS`
+- Πυξίδα → Χρήση πραγματικού βορρά: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Κέντρο ελέγχου: `prefs:root=ControlCenter`
+- Κέντρο ελέγχου → Πρόσβαση εντός εφαρμογών: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Κέντρο ελέγχου → Προσαρμογή χειριστηρίων: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Δημιουργός: `prefs:root=DEVELOPER_SETTINGS`
+- Δημιουργός → Πολυδιαδρομική δικτύωση: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Δημιουργός → Πολυδιαδρομική δικτύωση → Πολυδιαδρομική δικτύωση: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Δημιουργός → Εμφάνιση: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Δημιουργός → Σκούρα εμφάνιση: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Δημιουργός → Ζευγοποιημένες συσκευές: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Δημιουργός → Εκκαθάριση αξιόπιστων υπολογιστών: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Δημιουργός → Όργανα: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Δημιουργός → Καταγραφή: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Δημιουργός → Αυτοματοποίηση διεπαφής χρήστη: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Δημιουργός → Δικτύωση: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Δημιουργός → Προσομοιωτής σύνδεσης δικτύου: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Δημιουργός → Δοκιμές σε εφαρμογές δημιουργών iAd: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Δημιουργός → Ρυθμός γεμίσματος: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Δημιουργός → Επισήμανση περικομμένων μπάνερ: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Δημιουργός → Απεριόριστη εμφάνιση διαφημίσεων: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Δημιουργός → Δοκιμές στο PassKit: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Δημιουργός → Πρόσθετη καταγραφή: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Δημιουργός → Επιτρέπονται υπηρεσίες HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Δημιουργός → Απενεργοποίηση περιορισμού ρυθμού: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Δημιουργός → Κωδικός NFC προαιρετικός: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Δημιουργός → Δοκιμές στις Υπηρεσίες πολυμέσων: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Δημιουργός → Προτάσεις AirPlay: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Δημιουργός → Επαναφορά των Υπηρεσιών πολυμέσων: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Δημιουργός → Δοκιμές στο News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Δημιουργός → Εκκαθάριση τοπικών δεδομένων στην επόμενη εκκίνηση: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Δημιουργός → Δοκιμές στο Πλαίσιο προγράμματος αναπαραγωγής πολυμέσων: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Δημιουργός → API αναπαράξιμου περιεχομένου: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Δημιουργός → Δοκιμές στον Πάροχο τηλεοπτικών υπηρεσιών: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Δημιουργός → Πάροχοι τηλεοπτικών υπηρεσιών: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Δημιουργός → API ClassKit: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Δημιουργός → Δοκιμές στο CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Δημιουργός → Εκ νέου ευρετηριοποίηση όλων των στοιχείων: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Δημιουργός → Εκ νέου ευρετηριοποίηση όλων των στοιχείων με αναγνωριστικά: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Δημιουργός → Δοκιμές στις Συντομεύσεις: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Δημιουργός → Εμφάνιση πρόσφατων συντομεύσεων: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Δημιουργός → Εμφάνιση προσεχών πολυμέσων: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Δημιουργός → Εμφάνιση δωρεών στην οθόνη κλειδώματος: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Δημιουργός → Επιβολή συγχρονισμού συντομεύσεων για παρακολούθηση: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Δημιουργός → Δοκιμές στο MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Δημιουργός → Ενεργοποίηση MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Υγεία: `prefs:root=HEALTH`
+- Μέτρηση: `prefs:root=MEASURE`
+- Μέτρηση → Μονάδες μέτρησης: `prefs:root=MEASURE#MEASURE_UNITS`
+- Μέτρηση → Βρετανικό σύστημα: `prefs:root=MEASURE#Imperial`
+- Μέτρηση → Μετρικό σύστημα: `prefs:root=MEASURE#Metric`
+- Μουσική: `prefs:root=MUSIC`
+- Μουσική → Εμφάνιση Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Μουσική → Προσθήκη τραγουδιών λιστών: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Μουσική → Εμφάνιση βαθμολογιών: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Μουσική → Συγχρονισμός βιβλιοθήκης: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Μουσική → Δεδομένα κινητού δικτύου: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Μουσική → Ληφθείσα μουσική: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Μουσική → Βελτιστοποίηση χώρου: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Μουσική → Αυτόματες λήψεις: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Μουσική → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Μουσική → Έλεγχος ήχου: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Μουσική → Χρήση ιστορικού ακρόασης: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Σημειώσεις: `prefs:root=NOTES`
+- Σημειώσεις → Προεπιλεγμένος λογαριασμός: `prefs:root=NOTES&path=Default%20Account`
+- Σημειώσεις → Συνθηματικό: `prefs:root=NOTES&path=Password`
+- Σημειώσεις → Ταξινόμηση κατά: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Σημειώσεις → Στιλ νέων σημειώσεων: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Σημειώσεις → Ταξινόμηση επιλεγμένων στοιχείων: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Σημειώσεις → Γραμμές και πλέγματα: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Σημειώσεις → Αποθήκευση στις Φωτογραφίες: `prefs:root=NOTES#Save%20to%20Photos`
+- Σημειώσεις → Σημειώσεις από οθόνη κλειδώμ.: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Μηνύματα: `prefs:root=MESSAGES`
+- Μετάφραση: `prefs:root=TRANSLATE`
+- Μετάφραση → Λειτουργία επί της συσκευής: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Πάροχος τηλ. υπηρεσιών: `prefs:root=VIDEO_SUBSCRIBER`
+- Μαγνητόφωνο: `prefs:root=VOICE_MEMOS`
+- Μαγνητόφωνο → Σβήσιμο διαγραμμένων: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Μαγνητόφωνο → Ποιότητα ήχου: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Μαγνητόφωνο → Ονομασία βάσει τοποθεσίας: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Κάμερα: `prefs:root=CAMERA`
+- Κάμερα → Μορφές: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Κάμερα → Μορφές → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Κάμερα → NEEDS_OVERRIDE_235 → Βίντεο HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Κάμερα → Διατήρηση ρυθμίσεων: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Κάμερα → Διατήρηση ρυθμίσεων → Λειτουργία κάμερας: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Κάμερα → Πλέγμα: `prefs:root=CAMERA#CameraGridSwitch`
+- Κάμερα → Σάρωση κωδικών QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Χάρτες: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Επαφές: `prefs:root=CONTACTS`
+- Επαφές → Επιτρέπεται στις Επαφές η πρόσβαση: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Επαφές → Siri και Αναζήτηση: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Επαφές → Σειρά ταξινόμησης: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Επαφές → Σειρά εμφάνισης: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Επαφές → Σύντομο όνομα: `prefs:root=CONTACTS&path=PersonShortName`
+- Επαφές → Σύντομο όνομα → Σύντομο όνομα: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Επαφές → Σύντομο όνομα → Προτίμηση προσωνυμίων: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Επαφές → Τα στοιχεία μου: `prefs:root=CONTACTS&path=MeCard`
+- Επαφές → Εισαγωγή επαφών από SIM: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Βιβλία: `prefs:root=IBOOKS`
+- Βιβλία → Διαδικτυακό υλικό: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Βιβλία → ΣΥΓΧΡΟΝΙΣΜΟΣ: `prefs:root=IBOOKS#SYNCING`
+- Βιβλία → Σε ανάγνωση: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Βιβλία → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Βιβλία → ΣΕ ΑΝΑΓΝΩΣΗ: `prefs:root=IBOOKS#READING`
+- Βιβλία → Πλήρης στοίχιση: `prefs:root=IBOOKS#BKFullJustification`
+- Βιβλία → Αυτόματος συλλαβισμός: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Βιβλία → Άγγιγμα για συνέχιση: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Βιβλία → Στόχοι ανάγνωσης: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Βιβλία → Εκκαθάριση δεδομένων στόχων ανάγνωσης: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Βιβλία → ΑΝΑΖΗΤΗΣΗ: `prefs:root=IBOOKS#SEARCHING`
+- Βιβλία → Store βιβλίων: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Βιβλία → ΗΧΟΒΙΒΛΙΑ: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Βιβλία → Μετάβαση μπροστά: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Βιβλία → Μετάβαση πίσω: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Βιβλία → ΕΞΩΤΕΡΙΚΑ ΧΕΙΡΙΣΤΗΡΙΑ: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Βιβλία → Επόμενο/Προηγούμενο: `prefs:root=IBOOKS#Next/Previous`
+- Βιβλία → Μετάβαση μπροστά/πίσω: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Βιβλία → ΑΠΟΡΡΗΤΟ: `prefs:root=IBOOKS#PRIVACY`
+- Βιβλία → Επαναφορά αναγνωριστικού: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Βιβλία → Αναγνωρίσεις: `prefs:root=IBOOKS&path=Acknowledgements`
+- Ημερολόγιο: `prefs:root=CALENDAR`
+- Ημερολόγιο → Παράκαμψη ζώνης ώρας: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Ημερολόγιο → Εναλλακτικά ημερολόγια: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Ημερολόγιο → Αριθμοί εβδομάδων: `prefs:root=CALENDAR#Week%20Numbers`
+- Ημερολόγιο → Εμφάνιση απορριμμένων προσκλήσεων: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Ημερολόγιο → Συγχρονισμός: `prefs:root=CALENDAR&path=Sync`
+- Ημερολόγιο → Προεπιλογή ωρών ειδοποίησης: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Ημερολόγιο → Αρχή εβδομάδας: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Ημερολόγιο → Προτεινόμενες τοποθεσίες: `prefs:root=CALENDAR#Location%20Suggestions`
+- Mail: `prefs:root=MAIL`
+- Mail → Λογαριασμοί: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Λογαριασμοί → Προσθήκη λογαριασμού: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Λογαριασμοί → Νέα δεδομένα: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Προεπισκόπηση: `prefs:root=MAIL&path=Preview`
+- Mail → Εμφάνιση Προς/Κοιν.: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Επιλογές σάρωσης: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Ερώτηση πριν από διαγραφή: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Φόρτωση απομακρυσμένων εικόνων: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Οργάνωση κατά συνομιλία: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Σύμπτυξη αναγνωσμένων: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Πιο πρόσφατο στην κορυφή: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Πλήρεις συνομιλίες: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Ενέργεια για συνομιλία σε σίγαση: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Αγνόηση αποκλεισμένων αποστολέων: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Αποκλεισμένοι: `prefs:root=MAIL&path=Blocked`
+- Mail → Πάντα κρυφή κοινοποίηση σε μένα: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Σήμανση διευθύνσεων: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Αύξηση επιπέδου παράθεσης: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Συμπερίληψη συνημμένων σε απαντήσεις: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Υπογραφή: `prefs:root=MAIL&path=Signature`
+- Τηλέφωνο: `prefs:root=Phone`
+- Τηλέφωνο → Ο αριθμός μου: `prefs:root=Phone&path=My%20Number`
+- Τηλέφωνο → Εισερχόμενες: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Τηλέφωνο → Ανακοίνωση κλήσεων: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Τηλέφωνο → Αναφορές SMS/κλήσεων: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Τηλέφωνο → Απάντηση με μήνυμα: `prefs:root=Phone&path=Respond%20with%20Text`
+- Τηλέφωνο → Προώθηση κλήσεων: `prefs:root=Phone&path=Call%20Forwarding`
+- Τηλέφωνο → Προώθηση κλήσεων → Προώθηση κλήσεων: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Τηλέφωνο → Αναμονή κλήσεων: `prefs:root=Phone&path=Call%20Waiting`
+- Τηλέφωνο → Εμφάνιση αριθμού μου: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Τηλέφωνο → Εμφάνιση αριθμού μου → NEEDS_OVERRIDE_236 → Εμφάνιση αριθμού μου: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Τηλέφωνο → Σίγαση άγνωστων καλούντων: `prefs:root=Phone#SILENCE_CALLS`
+- Τηλέφωνο → Αποκλεισμένες επαφές: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Τηλέφωνο → Βοήθεια κλήσεων: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → Πρόγραμμα αποκλεισμού περιεχομένου: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Φραγή αναδυόμενων: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Αποτροπή ανίχνευσης από ιστότοπους: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Αυτοσυμπλήρωση: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Λήψεις: `prefs:root=SAFARI&path=DOWNLOADS`
+- Συνθηματικά: `prefs:root=PASSWORDS`
+- Συνθηματικά → Αυτοσυμπλήρωση συνθηματικών: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Φωτογραφίες: `prefs:root=Photos`
+- Φωτογραφίες → Φωτογραφίες iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Φωτογραφίες → Βελτιστοποίηση χώρου: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Φωτογραφίες → Λήψη και διατήρηση αρχικών: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Φωτογραφίες → Ροή φωτό μου: `prefs:root=Photos#PhotoStreamSwitch`
+- Φωτογραφίες → Κοινόχρηστα άλμπουμ: `prefs:root=Photos#SharedStreamsSwitch`
+- Φωτογραφίες → Δεδομένα κινητού δικτύου: `prefs:root=Photos&path=CellularDataLinkList`
+- Φωτογραφίες → Αυτόματη αναπαραγωγή βίντεο: `prefs:root=Photos#VideoAutoplaySwitch`
+- Φωτογραφίες → Προβολή πλήρους HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Φωτογραφίες → Εμφάνιση γεγονότων γιορτών: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Φωτογραφίες → ΜΕΤΑΦΟΡΑ ΣΕ MAC Ή PC: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Αυτόματες λήψεις: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Ενημερώσεις εφαρμογών: `prefs:root=STORE#App%20Updates`
+- App Store → Λήψεις εφαρμογών: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Αυτόμ. αναπαραγωγή βίντεο: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Βαθμολ./Κριτικές εντός εφαρμ.: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Εμφάνιση προεπισκόπησης άρθρων: `prefs:root=NEWS#show_excerpt_mode`
+- News → Περιορισμός άρθρων στο Σήμερα: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Απόρρητο: `prefs:root=NEWS#Privacy`
+- News → Επαναφορά αναγνωριστικού: `prefs:root=NEWS#reset_identifier`
+- News → Αναγνωρίσεις: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_237 → Χρήση σε πτήση: `prefs:root=ROOT#AIRPLANE_MODE`
+- Υπομνήσεις: `prefs:root=REMINDERS`
+- Υπομνήσεις → Προεπιλεγμένη λίστα: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Υπομνήσεις → Προεπιλεγμένη λίστα → Υπομνήσεις: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Υπομνήσεις → Γνωστοποίηση «Σήμερα»: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Υπομνήσεις → Εμφάνιση ως εκπρόθεσμων: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Μπαταρία: `prefs:root=BATTERY_USAGE`
+- Μπαταρία → Λειτουργία χαμηλής ισχύος: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Μπαταρία → Υγεία μπαταρίας: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Συντομεύσεις: `prefs:root=SHORTCUTS`
+- Συντομεύσεις → Συγχρονισμός iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Συντομεύσεις → Συγχρ. σειράς συντομεύσεων: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Συντομεύσεις → Νομικές ειδοποιήσεις: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri και Αναζήτηση: `prefs:root=SIRI`
+- Siri και Αναζήτηση → Σε οθόνη κλειδώματος: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri και Αναζήτηση → Γλώσσα: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri και Αναζήτηση → Φωνή Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri και Αναζήτηση → Φωνητική ανάδραση: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri και Αναζήτηση → Στοιχεία μου: `prefs:root=SIRI&path=MY_INFO`
+- Siri και Αναζήτηση → Προτάσεις στην Αναζήτηση: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri και Αναζήτηση → Προτάσεις στην Εύρεση: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri και Αναζήτηση → Προτάσεις στην οθόνη κλειδώματος: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Μετοχές: `prefs:root=STOCKS`
+- Μετοχές → Απόρρητο: `prefs:root=STOCKS#Privacy`
+- Μετοχές → Επαναφορά αναγνωριστικού: `prefs:root=STOCKS#reset_identifier`
+- Κινητό δίκτυο: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Κινητό δίκτυο → Επιλογές: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Κινητό δίκτυο → Επιλογές → Χαμηλή κατανάλωση δεδομένων: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Κινητό δίκτυο → Κινητό δίκτυο: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → Χρήση κινητού δικτύου για αναπαραγωγή: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → Ποιότητα αναπαραγωγής: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → Αγορές και ενοικιάσεις: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → Οικιακή κοινή χρήση: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Ταπετσαρία: `prefs:root=Wallpaper`

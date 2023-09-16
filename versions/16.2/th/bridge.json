@@ -1,0 +1,561 @@
+{
+  "การช่วยการเข้าถึง": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "การมองเห็น": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "ซูม": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "ข้อความตัวหนา": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "สัญลักษณ์ปุ่มเปิดหรือปิด": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "ระดับสีเทา": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "ลดความโปร่งใส": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "ลดการเคลื่อนไหว": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "กระดิ่งลม": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "กำหนดเวลา": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "ทุกชั่วโมง": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 นาที": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 นาที": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "เสียง": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "กระดิ่ง": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "นก": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "การเคลื่อนไหว": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "ความเร็วในการกดปุ่มด้านข้าง": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "ความเร็วการกด": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "ค่าเริ่มต้น": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "ช้า": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "ช้าที่สุด": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "การช่วยปรับการสัมผัส": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "การช่วยปรับการสัมผัส": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "ระยะเวลากดค้าง": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "ไม่สนใจการกดซ้ำ": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "การช่วยเหลือการแตะ": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "ปิด": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "ใช้ตำแหน่งสัมผัสแรก": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "ใช้ตำแหน่งสัมผัสสุดท้าย": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "กิจกรรมรถเข็นวีลแชร์": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "วอล์คกี้ทอล์คกี้": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "แตะเพื่อพูด": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "การได้ยิน": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "เบอร์โทรที่ส่งต่อ": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "ส่งทันที": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "การตอบกลับเริ่มต้น": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "การตอบกลับเริ่มต้น": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "เพิ่มการตอบกลับ…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "เสียงโมโน": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "เสียงสเตอริโอสมดุลกันทั้งซ้ายและขวา": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "การแจ้งเตือนหูฟัง": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "อุปกรณ์รับฟัง": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "กลไกหน้าปัด": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "ระดับเสียงไมค์": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "โปรแกรม": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "ความเร็วการสั่นบอกเวลา": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "ปุ่มลัดการช่วยการเข้าถึง": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "จับคู่กับ Apple Watch เรือนใหม่": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "มุมมองแอป": "bridge:root=APP_VIEW_ID",
+  "ทั่วไป": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "เกี่ยวกับ": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "ชื่อ": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "การรับประกันแบบจำกัด": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "การรับประกันแบบจำกัด": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "รายละเอียดความคุ้มครอง": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "ความคุ้มครองฮาร์ดแวร์": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "บริการช่วยเหลือทางแชทและโทรศัพท์": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "เพลง": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "รูปภาพ": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "แอปพลิเคชัน": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "ความจุ": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "เหลือให้ใช้": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "เวอร์ชั่น": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "ผู้ให้บริการ": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "โมเดล": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "หมายเลขประจำเครื่อง": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "ที่อยู่ Wi‑Fi": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "บลูทูธ": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "ทางกฎหมาย": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "ดูคู่มือผู้ใช้ Apple Watch": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "รายการอัปเดตซอฟต์แวร์": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "ติดตั้งแอปอัตโนมัติ": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "โหมดเครื่องบิน": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "โฟกัส": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "เหมือนกับ iPhone ของฉัน": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "แนวของนาฬิกา": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "ใส่ Apple Watch ที่": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "ข้อมือซ้าย": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "ข้อมือขวา": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown อยู่ข้างซ้าย": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown อยู่ข้างขวา": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "เปิดใช้งานการป้อนตามคำบอก": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "เปิดใช้งาน Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "โหมดข้างเตียง": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "เปิดใช้งานการถ่ายภาพหน้าจอ": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "พื้นที่จัดเก็บข้อมูล": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "บันทึกการวินิจฉัยการใช้งาน": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "คัดลอกการวิเคราะห์ Watch": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "รีเซ็ต": "bridge:root=GENERAL_LINK&path=RESET",
+    "เปิดอัตโนมัติเมื่ออยู่ใต้น้ำ": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "เปิดแอปเสียงอัตโนมัติ": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "ภาษาและภูมิภาค": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "เหมือนกับ iPhone ของฉัน": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "กำหนดเอง": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "กลับไปที่หน้าปัด": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "กลับไปที่หน้าปัด": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "แสดงเสมอ": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "หลังจาก 2 นาที": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "หลังจาก 1 ชั่วโมง": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "แอป": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "กำลังเล่นอยู่": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "จอภาพและความสว่าง": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "ความสว่าง": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "เปิดตลอด": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "เปิดตลอด": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "วางข้อมือลง": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "แสดงการแจ้งเตือน": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "แสดงการแจ้งเตือน": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "แอปสำหรับ APPLE WATCH": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "แสดงแอป": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "แสดงแอป": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "แอป": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "ขนาดข้อความ": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "ข้อความตัวหนา": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "แสดงหน้าจอ": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "แสดงหน้าจอเมื่อยกข้อมือขึ้น": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "แสดงหน้าจอเมื่อหมุน Digital Crown": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "ระยะเวลาหน้าจอเปิด": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "เมื่อแตะ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "แสดงหน้าจอ 15 วินาที": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "แสดงหน้าจอ 70 วินาที": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "เสียงและการสั่น": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "ระดับเสียงเตือน": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "โหมดปิดเสียง": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "เสียงหูฟัง": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "ความปลอดภัยหูฟัง": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "การแจ้งเตือนหูฟัง": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "ลดเสียงดัง": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "การสั่น": "bridge:root=SOUNDS_ID#Haptics",
+    "การเตือนแบบสั่น": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "การสั่นของ Digital Crown": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "การสั่นจากระบบ": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "บังหน้าปัดเพื่อปิดเสียง": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "SOS ฉุกเฉิน": "bridge:root=SOS_MODE_ID",
+  "ความเป็นส่วนตัว": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "อัตราการเต้นของหัวใจ": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "อัตราการหายใจ": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "การติดตามฟิตเนส": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "รีเซ็ตข้อมูลการปรับเทียบความแม่นยำ": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "การวัดระดับเสียงแวดล้อม": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "การวัดเสียงหูฟัง": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "บันทึกลงในแอปสุขภาพ": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "เป็นเวลา 8 วัน": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "จนกระทั่งฉันลบ": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "การวัดออกซิเจนในเลือด": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "อุณหภูมิข้อมือ": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "เวลาหน้าจอ": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "ความลึก": "bridge:root=com.apple.DepthCompanionSettings",
+  "ปุ่มแอ็คชั่น": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "รายการดาวน์โหลดอัตโนมัติ": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "รายการอัปเดตอัตโนมัติ": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "สุขภาพ": "bridge:root=com.apple.BridgeHealthSettings",
+  "เมลและปฏิทิน": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "บัญชี": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "เพิ่มบัญชี Google…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "ดึงข้อมูล": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "ปิด": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "ทุกชั่วโมง": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 นาที": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 นาที": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "การล้างมือ": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "อนุญาตการแจ้งเตือน": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "ส่งไปที่ศูนย์การแจ้งเตือน": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "ปิดการแจ้งเตือน": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "การจับกลุ่มการแจ้งเตือน": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "นับเวลาถอยหลังขณะล้างมือ": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "เซลลูลาร์": "bridge:root=CELLULAR_ID",
+  "กลไกหน้าปัด": "bridge:root=COMPLICATIONS",
+  "กิจกรรม": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "อัปเดตความคืบหน้า": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "ไม่มี": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "ทุก 2 ชั่วโมง": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "ทุก 4 ชั่วโมง": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "ทุก 6 ชั่วโมง": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "ทุก 8 ชั่วโมง": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "ผลสำเร็จ": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "สรุปรายสัปดาห์": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "คำแนะนำรายวัน": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "การทำเป้าหมายที่สำเร็จ": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "คำท้าพิเศษ": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "การแจ้งเตือนการแชร์กิจกรรม": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "หัวใจ": "bridge:root=com.apple.HeartRateSettings#1",
+    "การแจ้งเตือนอัตราการเต้นของหัวใจ": "bridge:root=com.apple.HeartRateSettings#2",
+    "อัตราหัวใจเต้นเร็ว": "bridge:root=com.apple.HeartRateSettings#3",
+    "อัตราหัวใจเต้นช้า": "bridge:root=com.apple.HeartRateSettings#4",
+    "จังหวะการเต้นที่ไม่สม่ำเสมอ": "bridge:root=com.apple.HeartRateSettings#5",
+    "ดู ECG ที่บันทึกในแอปสุขภาพ": "bridge:root=com.apple.HeartRateSettings#6",
+    "ECG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "ข้อความ": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "เหมือนกับ iPhone ของฉัน": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "กำหนดเอง": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "การตอบกลับเริ่มต้น": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "การตอบกลับเริ่มต้น": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "การตอบกลับอัจฉริยะ": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "เพิ่มการตอบกลับ…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "เตือนซ้ำ": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "ข้อความเสียง": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "ทำสมาธิ": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "อนุญาตการแจ้งเตือน": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "ส่งไปที่ศูนย์การแจ้งเตือน": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "ปิดการแจ้งเตือน": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "การเตือนให้ทำสมาธิ": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "เริ่มต้นวัน": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "สิ้นสุดวัน": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "เพิ่มเตือนความจำ…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "สรุปรายสัปดาห์": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "ปิดการเตือนวันนี้": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "อัตราการหายใจเข้าออก": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "หายใจเข้าออก 4 ครั้งต่อนาที": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "หายใจเข้าออก 5 ครั้งต่อนาที": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "หายใจเข้าออก 6 ครั้งต่อนาที": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "หายใจเข้าออก 7 ครั้งต่อนาที": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "หายใจเข้าออก 8 ครั้งต่อนาที": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "หายใจเข้าออก 9 ครั้งต่อนาที": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "หายใจเข้าออก 10 ครั้งต่อนาที": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "การสั่น": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "ไม่มี": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "เบาสุด": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "แบบแรง": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "นอนหลับ": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "ตั้งค่าการนอนหลับในแอปสุขภาพ": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "หนังสือเสียง": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "ลงชื่อเข้า": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "ปฏิทิน": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "การแจ้งเตือน": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "เหมือนกับ iPhone ของฉัน": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "กำหนดเอง…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "ปฏิทิน": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "นาฬิกา": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "เวลาแบบ 24 ชั่วโมง": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "กระดิ่งลม": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "เสียง": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "กระดิ่ง": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "นก": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "พูดเวลา": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "ควบคุมด้วยโหมดเงียบ": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "อ่านออกเสียงเสมอ": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "การสั่นบอกเวลา": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "การสั่นบอกเวลา": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "ตัวเลข": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "สะกิด": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "รหัสมอร์ส": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "ผลักข้อมูลการเตือนจาก iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "จุดแสดงการแจ้งเตือน": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "อักษรย่อ": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "การแจ้งเตือนหน้าปัดนาฬิกา": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "อักษรย่อของเมือง": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "แหล่งข้อมูล\nหน้าปัด Siri": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "รายชื่อ": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "ลำดับการเรียง": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "ชื่อ, นามสกุล": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "นามสกุล, ชื่อ": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "ลำดับแสดง": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "ชื่อ, นามสกุล": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "นามสกุล, ชื่อ": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "ชื่อย่อ": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "ชื่อย่อ": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "ชื่อเต็มและอักษรย่อนามสกุล": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "อักษรย่อชื่อและนามสกุลเต็ม": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "ชื่อเท่านั้น": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "นามสกุลเท่านั้น": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "ต้องการใช้ชื่อเล่น": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "เมล": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "เหมือนกับ iPhone ของฉัน": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "กำหนดเอง": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "การตั้งค่าเมล": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "บัญชี": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "รวมเมลจาก": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "แสดงตัวอย่างข้อความ": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "ไม่มี": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 บรรทัด": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 บรรทัด": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "การตอบกลับเริ่มต้น": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "การตอบกลับเริ่มต้น": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "เพิ่มการตอบกลับ…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "ลายเซ็น": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "แผนที่": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "การแจ้งเตือนการเลี้ยว": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "ขับรถ": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "ขับรถด้วย CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "เดิน": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "ปั่นจักรยาน": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "แสดงการนำทาง": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "โดยสาร": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "ข้อมูลรุ่น:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "เพลง": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "เพลย์ลิสต์และอัลบั้ม": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "เพิ่มเพลง…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "กระเป๋าสตางค์และ Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "เพิ่มบัตร": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "การแจ้งเตือน": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "เหมือนกับ iPhone ของฉัน": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "กำหนดเอง": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "รูปภาพ": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "การเชื่อมข้อมูลรูปภาพ": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "ความทรงจำ": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "เชื่อมข้อมูลความทรงจำ": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "รูปภาพแนะนำ": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "เชื่อมข้อมูลรูปภาพแนะนำ": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "อัลบั้ม": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "เชื่อมข้อมูลอัลบั้ม": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "จำนวนรูปภาพสูงสุด": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "การตั้งค่าการแจ้งเตือน": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "เหมือนกับ iPhone ของฉัน": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "กำหนดเอง": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "เสียงรบกวน": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "การวัดระดับเสียงแวดล้อม": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "การแจ้งเตือนเสียงรบกวน": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "เกณฑ์ระดับเสียงรบกวน": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "ปิด": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 เดซิเบล": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 เดซิเบล": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 เดซิเบล": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 เดซิเบล": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 เดซิเบล": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "การจับกลุ่มการแจ้งเตือน": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "ออกซิเจนในเลือด": "bridge:root=com.apple.OxygenSaturationSettings",
+  "การตั้งค่าผู้ให้บริการ": "bridge:root=CARRIER_SETTINGS",
+  "ปิดการใช้รหัส": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "เปิดการใช้รหัส": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "เปลี่ยนรหัส": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "รหัสแบบง่าย": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "ปลดล็อคด้วย iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "ลบข้อมูล": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "การตรวจจับข้อมือ": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "โทรศัพท์": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "สายโทร": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "เสียงเรียกเข้า": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "เสียง": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "การสั่น": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "ออกกำลังกาย": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "โหมดประหยัดพลังงาน": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "แสดงตัววัดเป้าหมาย": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "มุมมองขณะออกกำลังกาย": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "หยุดพักอัตโนมัติ": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "หยุดพักอัตโนมัติ": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "เตือนให้เริ่มออกกำลังกาย": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "เตือนให้สิ้นสุดการออกกำลังกาย": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "กดเพื่อหยุดพัก": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "ตรวจหาอุปกรณ์ยิม": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "มุมมอง เวลาเฉลี่ยต่อระยะทาง/ความเร็ว": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "ปัจจุบัน": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "เฉลี่ย": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "เพลย์ลิสต์ออกกำลังกาย": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "ไม่มี": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "เพลย์ลิสต์": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "เล่นตั้งแต่ต้น": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "สุ่ม": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "หน่วยของการวัด": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "แคลอรี": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "กิโลแคลอรี": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "กิโลจูล": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "หลา": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "เมตร": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "ไมล์": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "กิโลเมตร": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "เสียงพูดโต้ตอบ": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "ถึงเวลาเดิน": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "เพิ่มการออกกำลังกายใหม่ไปยัง Apple Watch": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "หุ้น": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "กลไกหน้าปัดนาฬิกาแสดง": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "ราคาปัจจุบัน": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "การเปลี่ยนแปลงจุด": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "เปอร์เซ็นต์การเปลี่ยนแปลง": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "มูลค่าตลาด": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "หน้าปัด Siri แสดงข้อมูลหุ้นสำหรับ": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "หุ้นที่เลือก": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "หุ้นที่เลือก": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "การเรียงลำดับบน Dock": "bridge:root=DOCK#OrderingOptionGroup",
+    "ล่าสุด": "bridge:root=DOCK#Recents",
+    "รายการโปรด": "bridge:root=DOCK#Favorites"
+  },
+  "พ็อดคาสท์": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "ถาม Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "ยกขึ้นเพื่อพูด": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "กด Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "เสียงพูดโต้ตอบ": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "เปิดตลอด": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "ควบคุมด้วยโหมดเงียบ": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "หูฟังเท่านั้น": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "ระดับเสียง": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "คำแนะนำโดย Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "วอล์คกี้ทอล์คกี้": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "อนุญาตการแจ้งเตือน": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "ส่งไปที่ศูนย์การแจ้งเตือน": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "ปิดการแจ้งเตือน": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "การจับกลุ่มการแจ้งเตือน": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "เพื่อนๆ": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "สภาพอากาศ": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "เมืองเริ่มต้น": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "เมืองเริ่มต้น": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "สถานที่ปัจจุบัน": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "แจ้งว่าได้อ่านแล้ว": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

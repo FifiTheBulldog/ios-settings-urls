@@ -1,0 +1,561 @@
+{
+  "Accesibilitate": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Vedere": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Zoom": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Text aldin": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Etichete pornit/oprit": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Tonuri de gri": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Reducere transparență": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Reducere mișcare": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Sunete sonerie": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Program": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Orar": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 de minute": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 minute": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Sunete": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Clopote": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Păsări": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Mobilitate": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Viteză clic buton lateral": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Viteză clic": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Implicit": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Lent": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Minimă": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Adaptări tactile": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Adaptări tactile": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Durată menținere": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Ignorare repetare": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Asistență apăsare": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Nu": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Utilizați poziția inițială a atingerii": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Utilizați poziția finală a atingerii": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "ACTIVITATE ÎN SCAUN CU ROTILE": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Walkie-talkie": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Apăsați pentru a vorbi": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Auz": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Număr releu": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Trimitere imediată": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Răspunsuri implicite": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Răspunsuri implicite": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Adăugați un răspuns…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Audio mono": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Balans stereo stânga-dreapta": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Notificări pentru căștile audio": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Dispozitive auditive": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Complicație": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Volum mic.": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Program": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Viteză Oră haptică": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Scurtătură accesibilitate": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Asociați un Watch nou": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Vizualizare aplicații": "bridge:root=APP_VIEW_ID",
+  "General": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Informații": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Nume": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Garanție limitată": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Garanție limitată": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "DETALII ACOPERIRE": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Acoperire hardware": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Asistență prin chat și telefon": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Melodii": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Poze": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Aplicații": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Capacitate": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Spațiu disponibil": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Versiune": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Operator": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Model": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Număr serial": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Adresă Wi‑Fi": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Mențiuni legale": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Accesați manualul Apple Watch ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Actualizare software": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Instalare automată aplicații": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Mod Avion": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Concentrare": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Oglindire iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Orientare ceas": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Purtați Apple Watch‑ul pe": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Încheietura stângă": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Încheietura dreaptă": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown pe stânga": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown pe dreapta": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "ID Apple": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Activare dictare": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Activare Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Mod Noptieră": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Salvare capturi de ecran": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Stocare": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Jurnale diagnoză": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Copiați analiza Watch": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Resetare": "bridge:root=GENERAL_LINK&path=RESET",
+    "Lansare automată la scufundare": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Auto‑lansare aplicații audio": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Limbă și regiune": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Oglindire iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Personalizată": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "REVENIRE LA CEAS": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "REVENIRE LA CEAS": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Întotdeauna": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "După 2 minute": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "După 1 oră": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APLICAȚII": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "În redare": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Afișaj și luminozitate": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Luminozitate": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Mereu activat": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Mereu activat": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "ÎNCHEIETURĂ COBORÂTĂ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Afișare notificări": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Afișare notificări": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APLICAȚII PENTRU APPLE WATCH": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Afișare aplicații": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Afișare aplicații": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APLICAȚII": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Dimensiune text": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Text aldin": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "TREZIRE": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Trezire la ridicarea mâinii": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Trezire la rotirea coroanei": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Durată trezire": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "LA APĂSARE": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Trezire timp de 15 secunde": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Trezire timp de 70 de secunde": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Sunete și răspuns haptic": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Volum alertă": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Mod silențios": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Sunet căști audio": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Siguranța căștilor audio": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Notificări pentru căștile audio": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Reducere sunet puternic": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Răspuns haptic": "bridge:root=SOUNDS_ID#Haptics",
+    "Alerte haptice": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Răspuns haptic coroană": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Răspuns haptic sistem": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Acoperire pentru modul mut": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "S.O.S. urgențe": "bridge:root=SOS_MODE_ID",
+  "Intimitate": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Ritm cardiac": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Ritm respirator": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Urmărire fitness": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Resetați datele de calibrare": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Măsurători ale sunetului ambiant": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Măsurători sunet căști audio": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Salvați în Sănătate": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "Pentru 8 zile": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Până la ștergere": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Măsurători ale oxigenului în sânge": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Temperatură încheietură": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Timp de utilizare": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Adâncime": "bridge:root=com.apple.DepthCompanionSettings",
+  "Butonul Acțiune": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Descărcări automate": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Actualizări automate": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Sănătate": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail și calendar": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Conturi": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Adăugare cont Google...": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Preluare": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Nu": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Din oră în oră": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 min.": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 min.": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Spălat pe mâini": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Permitere notificări": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Trimitere în centrul de notificări": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Notificări dezactivate": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Grupare notificări": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Temporizator spălat pe mâini": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Conexiune celulară": "bridge:root=CELLULAR_ID",
+  "Complicații": "bridge:root=COMPLICATIONS",
+  "Activitate": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Actualizări progres": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Nimic": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "La fiecare 2 ore": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "La fiecare 4 ore": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "La fiecare 6 ore": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "La fiecare 8 ore": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Realizări": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Rezumat săptămânal": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Antrenament zilnic": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Obiective atinse": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Provocări speciale": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Notificări partajare Activitate": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Inimă": "bridge:root=com.apple.HeartRateSettings#1",
+    "Notificări de ritm cardiac": "bridge:root=com.apple.HeartRateSettings#2",
+    "Ritm cardiac ridicat": "bridge:root=com.apple.HeartRateSettings#3",
+    "Ritm cardiac scăzut": "bridge:root=com.apple.HeartRateSettings#4",
+    "Ritm neregulat": "bridge:root=com.apple.HeartRateSettings#5",
+    "Afișați înregistrările EKG în Sănătate": "bridge:root=com.apple.HeartRateSettings#6",
+    "EKG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Mesaje": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Oglindire iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Personalizată": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Răspunsuri implicite": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Răspunsuri implicite": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Răspunsuri inteligente": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Adăugați un răspuns…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Repetare alerte": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Mesaje audio": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Conștientizare": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Permitere notificări": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Trimitere în centrul de notificări": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Notificări dezactivate": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Mementouri conștientizare": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Începutul zilei": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Sfârșitul zilei": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Adăugare memento…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Rezumat săptămânal": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Fără alte alerte azi": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Ritm respirator": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 respirații/minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 respirații/minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 respirații/minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 respirații/minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 respirații/minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 respirații/minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 respirații/minut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Răspuns haptic": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Niciunul": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Minim": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Pronunțat": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Somn": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Configurați modul Somn în aplicația Sănătate": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Cărți audio": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Autentificați-vă": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Calendar": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "NOTIFICĂRI": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Oglindire iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Personalizare…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "CALENDARE": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Ceas": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "Ceas în mod 24 h": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Sunete sonerie": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Sunete": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Clopote": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Păsări": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Enunțare oră": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Control cu mod silențios": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Enunțare permanentă": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Oră haptică": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Oră haptică": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Cifre": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Succint": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Cod Morse": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Replicare alerte iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Indicator notificări": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monogramă": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Notificări cadran de ceas": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Abrevieri orașe": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Surse de date cadran Siri": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Contacte": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Ordine sortare": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Prenume, nume": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Nume, prenume": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Ordine afișare": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Prenume, nume": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Nume, prenume": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Nume scurt": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Nume scurt": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Prenume și inițială nume": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Inițială prenume și nume": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Doar prenumele": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Doar numele": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Preferați pseudonimele": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Oglindire iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Personalizat": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Configurări Mail": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Conturi": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Includere e‑mail": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Previzualizare mesaj": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Nimic": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 linie": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 linii": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Răspunsuri implicite": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Răspunsuri implicite": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Adăugați un răspuns…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Semnătură": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Hărți": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Alerte viraj": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Condus": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Condus cu CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Mers": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Pedalare": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Afișați navigarea": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Transport": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Informații build:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Muzică": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "LISTE DE REDARE ȘI ALBUME": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Adăugați muzică…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Portofel și Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Adăugați un card": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Notificări": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Oglindire iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Personalizat": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Poze": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Sincronizare poze": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Amintiri": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Sincronizare amintiri": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Poze recomandate": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Sincronizare poze recomandate": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Album": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Sincronizare album": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Limită poze": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Configurări notificări": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Oglindire iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Personalizată": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Zgomot": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Măsurători ale sunetului ambiant": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Notificări zgomot": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Prag zgomot": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Nu": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 de decibeli": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 de decibeli": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 de decibeli": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 de decibeli": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 de decibeli": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Grupare notificări": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Oxigen în sânge": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Configurări operator": "bridge:root=CARRIER_SETTINGS",
+  "Dezactivați codul de acces": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Activați codul": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Schimbați codul": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Cod de acces simplu": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Deblocare cu iPhone‑ul": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Ștergere date": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Detectare încheietură": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Telefon": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Apeluri": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Sonerie": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Sunet": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Răspuns haptic": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Exerciții": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Mod Consum redus": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Afișare măsurători obiectiv": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Vizualizare exercițiu": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Suspendare automată": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Suspendare automată": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Memento începere exercițiu": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Memento încheiere exercițiu": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Apăsare pentru suspendare": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Detectare echipamente fitness": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Vizualizare tempo/viteză": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Curent": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Mediu": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Listă de redare pentru exerciții": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Nimic": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Liste de redare": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Redare de la început": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Aleatoriu": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Unități de măsură": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Calorii": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilocalorii": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilojouli": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Iarzi": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Metri": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Mile": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilometri": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Feedback vocal": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Mers ghidat": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Adăugare exerciții noi pe Watch": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Bursa": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Complicațiile cadranului afișează": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Prețul curent": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Modificarea valorică": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Modificarea procentuală": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Capitalizare": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Cadranul Siri afișează cotația pentru": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Acțiunea bursieră selectată": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Acțiunea bursieră selectată": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Ordonare Dock": "bridge:root=DOCK#OrderingOptionGroup",
+    "Recente": "bridge:root=DOCK#Recents",
+    "Favorite": "bridge:root=DOCK#Favorites"
+  },
+  "Podcasturi": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Solicitare Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Ridicare pentru vorbire": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Apăsare pe Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Feedback vocal": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Mereu activat": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Control cu mod silențios": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Doar în căști": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Volum voce": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Sugestii Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Walkie-talkie": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Permitere notificări": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Trimitere în centrul de notificări": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Notificări dezactivate": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Grupare notificări": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Prieteni": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Vremea": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Orașul implicit": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Orașul implicit": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Locul actual": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Trimitere confirmare de citire": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

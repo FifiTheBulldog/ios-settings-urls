@@ -1,0 +1,561 @@
+{
+  "ऐक्सेसिबिलिटी": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "दृश्य": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "ज़ूम करें": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "बोल्ड टेक्स्ट": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "चालू/बंद लेबल": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "ग्रेस्केल": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "पारदर्शिता घटाएँ": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "गति घटाएँ": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "चाइम": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "शेड्यूल": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "हर घंटे": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 मिनट": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 मिनट": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "ध्वनियाँ": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "घंटियाँ": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "चिड़ियाँ": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "मोटर": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "साइड बटन क्लिक गति": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "क्लिक गति": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "डिफ़ॉल्ट": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "धीमी": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "सबसे धीमी": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "टच सुविधाएँ": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "टच सुविधाएँ": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "होल्ड अवधि": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "दोहराना नज़रअंदाज़ करें": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "टैप सहायता": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "बंद": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "प्रारंभिक टच स्थान का उपयोग करें": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "अंतिम टच स्थान का उपयोग करें": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "ह्वीलचेयर ऐक्टिविटी": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "वॉकी-टॉकी": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "बात करने के लिए टैप करें": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "श्रवण": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "प्रसारण संख्या": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "तुरंत भेजें": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "डिफ़ॉल्ट जवाब": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "डिफ़ॉल्ट जवाब": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "जवाब जोड़ें…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "मोनो ऑडियो": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "बायाँ-दायाँ स्टीरियो संतुलन": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "हेडफ़ोन सूचना": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "हियरिंग डिवाइस": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "कॉम्प्लिकेशन": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "माइक वॉल्यूम": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "प्रोग्राम": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "टैप्टिक समय गति": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "ऐक्सेसिबिलिटी शॉर्टकट": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "नई Watch पेयर करें": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "ऐप दृश्य": "bridge:root=APP_VIEW_ID",
+  "सामान्य": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "परिचय": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "नाम": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "सीमित वारंटी": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "सीमित वारंटी": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "कवरेज विवरण": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "हार्डवेयर कवरेज": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "चैट और फ़ोन सहायता": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "गीत": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "तस्वीर": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "ऐप्लिकेशन": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "क्षमता": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "उपलब्ध": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "संस्करण": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "कैरियर": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "मॉडल": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "क्रम संख्या": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "वाई-फ़ाई पता": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "क़ानूनी": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Apple Watch यूज़र गाइड देखें ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "सॉफ़्टवेयर अपडेट": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "ऑटोमैटिक ऐप इंस्टॉल": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "विमान मोड": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "फ़ोकस": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "मेरी iPhone सेटिंग्ज़ मिरर करें": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "घड़ी का ओरिएंटेशन": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "आप Apple Watch को किस कलाई पर पहनते हैं": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "बाईं कलाई": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "दाईं कलाई": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown बाईं ओर": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown दाईं ओर": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "डिक्टेशन सक्षम करें": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Handoff सक्षम करें": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "नाइटस्टैंड मोड": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "स्क्रीनशॉट सक्षम करें": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "स्टोरेज": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "डायग्नॉस्टिक लॉग": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Watch ऐनालिटिक्स कॉपी करें": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "रीसेट करें": "bridge:root=GENERAL_LINK&path=RESET",
+    "पानी के अंदर होने पर ऑटो-लॉन्च करें": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "ऑडियो ऐप्स ऑटो लॉन्च करें": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "भाषा और क्षेत्र": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "मेरी iPhone सेटिंग्ज़ मिरर करें": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "कस्टम": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "घड़ी पर वापस लौटें": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "घड़ी पर वापस लौटें": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "हमेशा": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "2 मिनट बाद": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "1 घंटे बाद": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "ऐप्स": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "चल रहा है": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "डिस्प्ले और ब्राइटनेस": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "ब्राइटनेस": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "हमेशा चालू": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "हमेशा चालू": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "कलाई नीचे": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "सूचनाएँ दिखाएँ": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "सूचनाएँ दिखाएँ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCH ऐप्स": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "ऐप्स दिखाएँ": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "ऐप्स दिखाएँ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "ऐप्स": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "टेक्स्ट का आकार": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "बोल्ड टेक्स्ट": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "सक्रिय करें": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "कलाई उठाने पर सक्रिय करें": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Crown घुमाने पर सक्रिय करें": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "सक्रिय अवधि": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "टैप पर": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "15 सेकंड के लिए सक्रिय करें": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "70 सेकंड के लिए सक्रिय करें": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "ध्वनि और हैप्टिक": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "अलर्ट वॉल्यूम": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "मौन मोड": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "हेडफ़ोन ऑडियो": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "हेडफ़ोन सुरक्षा": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "हेडफ़ोन सूचना": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "तीव्र ध्वनियों को कम करें": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "हैप्टिक": "bridge:root=SOUNDS_ID#Haptics",
+    "हैप्टिक अलर्ट": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "क्रॉउन हैप्टिक": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "सिस्टम हैप्टिक": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "म्यूट करने के लिए ढकें": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "आपातकालीन SOS": "bridge:root=SOS_MODE_ID",
+  "गोपनीयता": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "हृदय गति": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "श्वसन दर": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "फ़िटनेस ट्रैकिंग": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "फ़िटनेस कैलिब्रेशन डेटा रीसेट करें": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "वातावरणीय ध्वनि माप": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "हेडफ़ोन ऑडियो माप": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "सेहत में सहेजें": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "8 दिन के लिए": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "मेरे डिलीट करने तक": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "रक्त ऑक्सीजन माप": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "कलाई का तापमान": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "स्क्रीन टाइम": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "गहराई": "bridge:root=com.apple.DepthCompanionSettings",
+  "ऐक्शन बटन": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "ऑटोमैटिक डाउनलोड": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "ऑटोमैटिक अपडेट": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "सेहत": "bridge:root=com.apple.BridgeHealthSettings",
+  "मेल और कैलेंडर": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "खाते": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Google खाता जोड़ें…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "फ़ेच": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "बंद": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "हर घंटे": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 मिनट": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 मिनट": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "हाथ धोना": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "सूचनाओं को अनुमति दें": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "सूचना केंद्र पर भेजें": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "सूचनाएँ बंद": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "सूचना अनुसार समूह बनाना": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "हाथ धोने का टाइमर": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "मोबाइल डेटा": "bridge:root=CELLULAR_ID",
+  "कॉम्प्लिकेशन": "bridge:root=COMPLICATIONS",
+  "ऐक्टिविटी": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "प्रगति संबंधी अपडेट": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "कोई नहीं": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "हर 2 घंटे": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "हर 4 घंटे": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "हर 6 घंटे": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "हर 8 घंटे": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "उपलब्धियाँ": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "साप्ताहिक सारांश": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "दैनिक कोचिंग": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "गोल प्राप्ति": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "विशेष चुनौतियाँ": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "ऐक्टिविटी शेयरिंग सूचना": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "हृदय": "bridge:root=com.apple.HeartRateSettings#1",
+    "हृदय गति सूचना": "bridge:root=com.apple.HeartRateSettings#2",
+    "उच्च हृदय गति": "bridge:root=com.apple.HeartRateSettings#3",
+    "निम्न हृदय गति": "bridge:root=com.apple.HeartRateSettings#4",
+    "अनियमित गति": "bridge:root=com.apple.HeartRateSettings#5",
+    "सेहत में रिकॉर्ड की गई ECG देखें": "bridge:root=com.apple.HeartRateSettings#6",
+    "ECG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "संदेश": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "मेरी iPhone सेटिंग्ज़ मिरर करें": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "कस्टम": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "डिफ़ॉल्ट जवाब": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "डिफ़ॉल्ट जवाब": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "स्मार्ट जवाब": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "जवाब जोड़ें…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "अलर्ट दोहराएँ": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "ऑडियो संदेश": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "माइंडफ़ुलनेस": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "सूचनाओं को अनुमति दें": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "सूचना केंद्र पर भेजें": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "सूचनाएँ बंद": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "माइंडफ़ुलनेस रिमाइंडर": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "दिन शुरू होने पर": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "दिन समाप्त होने पर": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "रिमाइंडर जोड़ें…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "साप्ताहिक सारांश": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "आज के लिए म्यूट करें": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "साँस दर": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 साँसें प्रति मिनट": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 साँसें प्रति मिनट": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 साँसें प्रति मिनट": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 साँसें प्रति मिनट": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 साँसें प्रति मिनट": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 साँसें प्रति मिनट": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 साँसें प्रति मिनट": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "हैप्टिक": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "कोई नहीं": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "न्यूनतम": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "प्रबल": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "नींद": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "सेहत ऐप में नींद सेटअप करें": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "ऑडियोबुक": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "साइन इन करें": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "कैलेंडर": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "सूचनाएँ": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "मेरी iPhone सेटिंग्ज़ मिरर करें": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "कस्टम…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "कैलेंडर": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "घड़ी": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24 घंटों वाला समय फ़ॉर्मैट": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "चाइम": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "ध्वनियाँ": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "घंटियाँ": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "चिड़ियाँ": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "समय बोलकर बताएँ": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "मौन मोड के साथ नियंत्रित करें": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "हमेशा बोलें": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "टैप्टिक समय": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "टैप्टिक समय": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "अंक": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "टर्स": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "मोर्स कोड": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "iPhone से पुश अलर्ट": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "सूचना संकेतक": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "मोनोग्राम": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "घड़ी के फ़ेस की सूचनाएँ": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "शहर का संक्षेपाक्षर": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Siri फ़ेस डेटा सोर्स": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "संपर्क": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "सॉर्ट ऑर्डर": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "नाम, उपनाम": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "उपनाम, नाम": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "प्रदर्शन क्रमण": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "नाम, उपनाम": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "उपनाम, नाम": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "संक्षिप्त नाम": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "संक्षिप्त नाम": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "नाम और उपनाम का प्रथमाक्षर": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "नाम का प्रथमाक्षर और उपनाम": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "केवल नाम": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "केवल उपनाम": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "प्रचलित नामों को प्राथमिकता दें": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "मेल": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "मेरी iPhone सेटिंग्ज़ मिरर करें": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "कस्टम": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "मेल सेटिंग्ज़": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "खाते": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "मेल शामिल करें": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "संदेश प्रीव्यू": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "कोई नहीं": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 पंक्ति": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 पंक्तियाँ": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "डिफ़ॉल्ट जवाब": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "डिफ़ॉल्ट जवाब": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "जवाब जोड़ें…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "सिग्नेचर": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "नक़्शा": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "मोड़ अलर्ट": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "ड्राइविंग": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "CarPlay के साथ ड्राइविंग": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "पैदल": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "साइक्लिंग": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "नैविगेशन दिखाएँ": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "ट्रैंज़िट": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "बिल्ड जानकारी :": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "संगीत": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "प्लेलिस्ट और ऐल्बम": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "संगीत जोड़ें…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "वॉलेट और Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "कार्ड जोड़ें": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "सूचनाएँ": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "मेरी iPhone सेटिंग्ज़ मिरर करें": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "कस्टम": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "तस्वीर": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "तस्वीर सिंकिंग": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "यादें": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "यादें सिंक करें": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "फ़ीचर्ड तस्वीरें": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "फ़ीचर्ड तस्वीरें सिंक करें": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "ऐल्बम": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "ऐल्बम सिंक करें": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "तस्वीरों की सीमा": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "सूचना सेटिंग्ज़": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "मेरी iPhone सेटिंग्ज़ मिरर करें": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "कस्टम": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "नॉइज़": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "वातावरणीय ध्वनि माप": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "नॉइज़ सूचना": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "नॉइज़ सीमा": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "बंद": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 डेसीबल": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 डेसीबल": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 डेसीबल": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 डेसीबल": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 डेसीबल": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "सूचना अनुसार समूह बनाना": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "रक्त ऑक्सीजन": "bridge:root=com.apple.OxygenSaturationSettings",
+  "कैरियर सेटिंग्ज़": "bridge:root=CARRIER_SETTINGS",
+  "पासकोड बंद करें": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "पासकोड चालू करें": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "पासकोड बदलें": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "सरल पासकोड": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "iPhone से अनलॉक करें": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "डेटा मिटाएँ": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "कलाई पहचान": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "फ़ोन": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "कॉल": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "रिंगटोन": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "ध्वनि": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "हैप्टिक": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "वर्कआउट": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "निम्न पावर मोड": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "लक्ष्य मेट्रिक दिखाएँ": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "वर्कआउट दृश्य": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "ऑटो पॉज़ करें": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "ऑटो पॉज़ करें": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "वर्कआउट शुरू करने का रिमाइंडर": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "वर्कआउट ख़त्म करने का रिमाइंडर": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "पॉज़ करने के लिए दबाएँ": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "जिम उपकरण का पता लगाएँ": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "पेस/रफ़्तार दृश्य": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "वर्तमान": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "औसत": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "वर्कआउट प्लेलिस्ट": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "कोई नहीं": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "प्लेलिस्ट": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "शुरू से चलाएँ": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "शफ़ल करें": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "माप की इकाई": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "कैलोरी": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "किलो कैलोरी": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "किलोजूल": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "गज़": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "मीटर": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "मील": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "किलोमीटर": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "वॉइस फ़ीडबैक": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "वॉक करने का समय": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "नए वर्कआउट घड़ी में जोड़ें": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "स्टॉक्स": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "घड़ी फ़ेस के कॉम्प्लिकेशन में प्रदर्शित होगा": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "वर्तमान क़ीमत": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "पॉइंट परिवर्तन": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "प्रतिशत परिवर्तन": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "बाज़ार पूँजी": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Siri फ़ेस इसके लिए कोट दिखाता है": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "चयनित स्टॉक": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "चयनित स्टॉक": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Dock क्रमण": "bridge:root=DOCK#OrderingOptionGroup",
+    "हालिया": "bridge:root=DOCK#Recents",
+    "पसंदीदा": "bridge:root=DOCK#Favorites"
+  },
+  "पॉडकास्ट": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Siri से पूछें": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "उठाकर बोलें": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Digital Crown दबाएँ": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "वॉइस फ़ीडबैक": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "हमेशा चालू": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "मौन मोड के साथ नियंत्रित करें": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "केवल हेडफ़ोन": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "वॉइस वॉल्यूम": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siri सुझाव": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "वॉकी-टॉकी": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "सूचनाओं को अनुमति दें": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "सूचना केंद्र पर भेजें": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "सूचनाएँ बंद": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "सूचना अनुसार समूह बनाना": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "दोस्त": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "मौसम": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "डिफ़ॉल्ट शहर": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "डिफ़ॉल्ट शहर": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "वर्तमान स्थान": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "पठन रसीद भेजें": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

@@ -1,0 +1,1155 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud-tárhely": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Fotók": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Kontaktok": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Naptár": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Emlékeztetők": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Jegyzetek": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Biztonsági mentés": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Egészség": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Jelszavak és Kulcskarika": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Privát átjátszó": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Saját helyzet megosztása": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "iPhone keresése": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Név, telefonszámok és e-mail": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Jelszó és biztonság": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Fizetés és szállítás": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Előfizetések": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Család": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Adatvédelem és biztonság": {
+    "(root)": "prefs:root=Privacy",
+    "Biztonsági ellenőrzés": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Helyzet": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Saját helyzet megosztása": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Kontaktok": "prefs:root=Privacy&path=CONTACTS",
+    "Naptárak": "prefs:root=Privacy&path=CALENDARS",
+    "Emlékeztetők": "prefs:root=Privacy&path=REMINDERS",
+    "Fotók": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth-megosztás": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Mikrofon": "prefs:root=Privacy&path=MICROPHONE",
+    "Beszédfelismerés": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Kamera": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Média és Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Elemzés": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Hirdetés": "prefs:root=Privacy&path=ADVERTISING",
+    "Fájlok és mappák": "prefs:root=Privacy&path=FILEACCESS",
+    "Követés": "prefs:root=Privacy&path=USER_TRACKING",
+    "Appok adatvédelmi jelentése": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Zárt mód": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Egészség": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Fókusz": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Fókusz állapota": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Általános": {
+    "(root)": "prefs:root=General",
+    "VPN- és eszközfelügyelet": "prefs:root=General&path=ManagedConfigurationList",
+    "Kép a képben": "prefs:root=General&path=PiP_SPEC",
+    "Trackpad és egér": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Névjegy": {
+      "(root)": "prefs:root=General&path=About",
+      "Megbízható tanúsítványok": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Jogi információk és szabályozás": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Szoftverfrissítés": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Főgomb": "prefs:root=General&path=HOME_BUTTON",
+    "Kézmozdulatok": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Oldalsó kapcsoló": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Appfrissítés a háttérben": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Dátum és idő": "prefs:root=General&path=DATE_AND_TIME",
+    "Tv-kimenet": "prefs:root=General&path=TV_OUT",
+    "Szabályozó": "prefs:root=General&path=REGULATORY",
+    "Alaphelyzetbe állítás": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Beállítások alaphelyzetbe állítása": "prefs:root=General&path=Reset#settingsErase",
+      "Összes tartalom és beállítás törlése": "prefs:root=General&path=Reset#fullErase",
+      "Hálózati beállítások alaphelyzetbe állítása": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Az összes adat-előfizetés eltávolítása": "prefs:root=General&path=Reset#cellularErase",
+      "Előfizetői szolgáltatások": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Billentyűzet szótárának alaphelyzetbe állítása": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Főképernyő alaphelyzetbe állítása": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Helyzet- és adatvédelmi adatok alaphelyzetbe állítása": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Kikapcsolás": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay és Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Átirányítás a HomePodra": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Automatikus AirPlay TV-kre": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Folytonossági kamera": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Szótár": "prefs:root=General&path=DICTIONARY",
+    "Nyelv és régió": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Egyéb nyelvek…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Előnyben részesített nyelvek sorrendje": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Nyelv hozzáadása…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Régió": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Számok": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Naptár": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Hőmérsékleti egység": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Billentyűzet": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Billentyűzetek": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Szöveg cseréje": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Automatikus nagybetűk": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Automatikus javítás": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Helyesírás-ellenőrzés": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Caps Lock": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Parancsok": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Prediktív": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Intelligens írásjelek": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Osztott billentyűzet": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Billentyűpöccintések engedélyezése": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Karakter-előnézet": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "„.” parancs": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Csúsztatva gépelés": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Diktálás engedélyezése": "prefs:root=General&path=Keyboard#Dictation",
+      "Automatikus írásjelek": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Tárhely": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Nem használt appok eltávolítása": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Értesítések": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Ütemezett összegzés": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Tárca és Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Fizetési kártyák": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Kártya hozzáadása": "prefs:root=PASSBOOK#Add%20Card",
+    "Oldalsó gomb dupla kattintása": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Rendelés nyomon követése": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Képernyőidő": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Ma": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Hét": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Nyugalmi idő": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "App­korlátok": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Kommunikációs korlátok": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Kommunikációbiztonság": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Engedélyezés mindig": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Tartalmi és adatvédelmi korlátozások": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Szülői felügyelet": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Kisegítő lehetőségek": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Látás": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Beszédsebesség": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Beszéd": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Beszédhang": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Részletesség": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Írásjelek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Táblázatfejlécek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Médialeírások": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Ki": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Beszéd": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Beszéd és Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Kimenet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Nem összevont hatpontos Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Nem összevont nyolcpontos Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Rövidített Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Bemenet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Nem összevont hatpontos Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Nem összevont nyolcpontos Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Rövidített Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Automatikus fordítás": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Braille-képernyőbevitel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Nem összevont hatpontos Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Nem összevont nyolcpontos Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Rövidített Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Pontpozíciók megfordítása": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Braille-táblák": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Braille-tábla hozzáadása…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Állapotcellák": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Állapotcellák pozíciója": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Bal": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Jobb": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Általános állapot megjelenítése": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Szövegállapot megjelenítése": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Egyenletek Németh-kóddal": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Képernyő-billentyűzet megjelenítése": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Lapozás eltolásnál": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Szótörés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Braille figyelmeztető üzenetek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Akkord időtartamának figyelmen kívül hagyása": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Automatikus léptetés időtartama": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Hang": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Hangerő automatikus csökkentése": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Automatikus híváskihangosítás": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Küldés HDMI-re": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Parancsok": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Tevékenységek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Programozás": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Tevékenység hozzáadása…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Rotorműveletek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Appok szerkesztése a Főképernyőn": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Direct Touch-appok": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Gépelés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Gépelési stílus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Normál gépelés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Tízujjas gépelés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Közvetlen érintéses gépelés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Fonetikai visszajelzés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Ki": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Karakter és fonetika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Csak fonetika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Gépelési visszajelzés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Módosítóbillentyűk": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Control + Alt": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Caps Lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Billentyűzethasználati idő": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Képek navigálása": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Mindig": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Leírásokkal": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Soha": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Nagy kurzor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Feliratpanel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Dupla koppintás időtúllépése": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Dupla koppintás időtúllépése": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Navigáció stílusa": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Gyorsbeállítások": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Hangok": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Hangerő automatikus csökkentése": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Hangerő": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Beszédsebesség": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Tippek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Navigáció stílusa": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Gépelési stílus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Csúsztatva gépelés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Tevékenységek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Értesítések kimondása mindig": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Braille figyelmeztető üzenetek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Braille automatikus léptetés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Braille-bevitel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Braille-kimenet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Braille-táblák": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Feliratpanel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Közvetlen érintés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Kézmozdulat iránya": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Hardveres gépelésről szóló visszajelzés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Nyelv": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Nagy kurzor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Médialeírások": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Képek navigálása": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Fonetikai visszajelzés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Hangmagasság változása": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Írásjelek": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Küldés HDMI-re": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Szoftveres gépelésről szóló visszajelzés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Rotorról szóló megerősítés beszéddel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Képleírások": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Képernyő felismerése": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "VoiceOver-felismerés": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Képleírások": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Képernyő felismerése": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Nagyítás": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Nagyítás": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Fókusz követése": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Intelligens gépelés": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Billentyűparancsok": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Billentyűparancsok": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Nagyítási szint beállítása": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Nagyítás be- és kikapcsolása": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Nagyítás ablak mozgatása": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "A Nagyítás átméretezése": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Nagyítási terület átváltása": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "A nagyítás ideiglenes be- és kikapcsolása": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Nagyítás a görgetőkerékkel": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Nagyításvezérlő": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Régió nagyítása": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Teljes képernyős nagyítás": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Ablak nagyítása": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Maximális nagyítási szint": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Nagyításszűrő": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Megjelenítés tükrözéskor": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Lebegő szöveg": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Kijelző és szövegméret": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Félkövér szöveg": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Nagyobb szöveg": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Gombalakzatok": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Be/ki címkék": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Átlátszóság csökkentése": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Kontraszt növelése": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Differenciálás színek nélkül": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Intelligens invertálás": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Klasszikus invertálás": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Színszűrők": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Színszűrők": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Fehérpont csökkentése": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Automatikus fényerő": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Mozgás": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Mozgás csökkentése": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Üzeneteffektek automatikus lejátszása": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Automatikus video-előnézet": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Felolvasott tartalom": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Kijelölés kimondása": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Képernyő kimondása": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Beszédvezérlő": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Egérgombok testreszabása": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Tartalom kiemelése": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Gépelési visszajelzés": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Karakter-visszajelzés": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Karakterek": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Karaktertippek": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Szavak kimondása": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Automatikus szöveg kimondása": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Javaslatok kimondatása": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Beszédhangok": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Alapértelmezett nyelv": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Nyelvek felismerése": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Beszédsebesség": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Kiejtések": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Audioleírások": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Audioleírások": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Fizikai és motoros funkciók": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Érintés": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Legfelső szintű menü testreszabása": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Koppintson egy ikonra a módosításhoz:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Alaphelyzetbe állítás…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Egyéni műveletek": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Egyszeres koppintás": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Dupla koppintás": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Dupla koppintás időtúllépése": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Hosszú megnyomás": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Hosszú megnyomás időtartama": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Egyéni kézmozdulatok": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Új kézmozdulat…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Tétlenség átlátszósága": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Mutatóeszközök": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Eszközök": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth-eszközök…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Egérbillentyűk": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Mutató stílusa": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Méret": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Látványelem": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Szín": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Egérgombok testreszabása": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Automatikus elrejtés": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_612": {
+            "Automatikus elrejtés": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Képernyő-billentyűzet megjelenítése": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Menü megjelenítése": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Nyugalmi vezérlő": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Mozgás tűréshatára": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Követés érzékenysége": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Tartalék művelet": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Aktív sarkok": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Játékvezérlő használata": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D és haptikus érintés": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_613": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "A 3D Touch érzékenysége": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Érintés időtartama": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Gyors": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Lassú": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "A 3D Touch érzékenységének és érintési időtartamának tesztelése": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Érintési beállítások": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_614": {
+        "Érintési beállítások": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Érintés időtartama": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Ismétlés mellőzése": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Érintésasszisztencia": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Ki": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Az első érintés helyének használata": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Az utolsó érintés helyének használata": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Felébresztés koppintással": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Koppintás vagy legyintés a felébresztéshez": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Visszavonás megrázással": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Rezgés": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "A hívás zárolás általi befejezésének megakadályozása": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Hanghívás-átirányítás": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_615": {
+        "Automatikus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth-headset": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Hangszóró": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Automatikus hívásfogadás": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID és figyelem": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Figyelem szükséges a Face ID-hoz": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Figyelemérzékelő funkciók": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Haptikus jelzések": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Haptikus jelzés sikeres hitelesítéskor": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Kapcsolóvezérlés": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Kapcsolóvezérlés": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Kapcsolók": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_616": {
+        "Új kapcsoló hozzáadása…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth-eszközök…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Sémák": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Beolvasási mód": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_617": {
+        "Automatikus beolvasás": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Kézi beolvasás": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Egykapcsolós léptető beolvasás": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Időzítés": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Automatikus beolvasás ideje": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_618": {
+        "Automatikus beolvasás ideje": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Szünet az első elemnél": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_619": {
+        "Szünet az első elemnél": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Mozgatás ismétlése": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_620": {
+        "Mozgatás ismétlése": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Hosszú megnyomás": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_621": {
+        "Hosszú megnyomás": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Koppintás viselkedése": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_622": {
+        "Alapértelmezett": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Automatikus koppintás": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Mindig koppintás": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Koppintás után a fókuszált elem": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_623": {
+        "Első elem": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Jelenlegi elem": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Billentyűzet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Megegyező billentyű szkennelése koppintás után": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Automatikus billentyűzetkoppintás": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Kibővített javaslatok": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Kapcsoló stabilizálása": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Érintés időtartama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_624": {
+        "Érintés időtartama": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Ismétlés mellőzése": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_625": {
+        "Ismétlés mellőzése": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Pont beolvasása": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Csúszó kurzor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_626": {
+        "Kijelölési mód": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Egyszeres": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Finomított": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Pontos": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Csúszó kurzor sebessége": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Fejkövetés": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_627": {
+        "Fejkövetés": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Hang": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Hangeffektusok": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Beszéd": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_628": {
+        "Beszédhangok": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Beszédsebesség": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Menüpontok": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Elemek csoportosítása": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Látványelem": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Nagy kurzor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Kézmozdulatok": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_629": {
+        "Új kézmozdulat…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "A kurzor színe": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Hangvezérlés": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Hangvezérlés beállítása": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Nyelv": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_630": {
+        "Angol (Egyesült Államok)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Parancsok testreszabása": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Szójegyzék": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Parancsvisszajelzés": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Megerősítés megjelenítése": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Hang lejátszása": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Emlékeztetők megjelenítése": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Folyamatos rátét": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Rátét": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_631": {
+        "Nincs": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Elemszámok": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Elemnevek": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Számozott rács": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Figyelemérzékelő": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Oldalsó gomb": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Kattintási sebesség": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Alapértelmezett": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Lassú": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Leglassabb": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Lenyomva tartás beszédhez": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Klasszikus hangvezérlés": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Ki": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Iránymutató gombok": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Apple Watch távoli képernyője": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Billentyűzetek": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Teljes elérés billentyűzettel": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_632": {
+        "Teljes elérés billentyűzettel": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Látványelemek": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Automatikus elrejtés": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Nagy fókuszgyűrű": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Szín": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Billentyűismétlés": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_633": {
+        "Billentyűismétlés": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Billentyűismétlés intervalluma": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Ismétlés előtti késleltetés": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Beragadó billentyűk": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_634": {
+        "Beragadó billentyűk": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Be- vagy kikapcsolás a Shift billentyűvel": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Hang": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Lassú billentyűk": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_635": {
+        "Lassú billentyűk": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Szoftveres billentyűzetek": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Kisbetűs billentyűk megjelenítése": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Hallás": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Hallókészülékek": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi-hallókészülékek": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Hallókészülék-kompatibilitás": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Hangfelismerés": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Hangok": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Szoftver-TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Hardver-TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Hang és kép": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Hang": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Fejhallgató alkalmazkodása": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_636": {
+        "Fejhallgató alkalmazkodása": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Egyéni hang beállítása": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Háttérhangok": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Mono hang": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Telefon zajkioltása": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Balansz": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Látványelem": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "LED villogása a jelzésekhez": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_637": {
+        "Vaku használata zárolás feloldásakor": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Vaku használata néma módban": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Bal-jobb sztereó balansz": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Be- és kikapcsolási hangok": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Feliratok és szöveges átiratok": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Stílus": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Szöveges átiratok + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Audioátiratok megjelenítése": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_638": {
+      "Élő feliratok (béta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Élő feliratok a FaceTime-ban": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Általános": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Irányított hozzáférés": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Irányított hozzáférés": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Jelkódbeállítások": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_639": {
+        "Jelkód az Irányított hozzáféréshez": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Időkorlátok": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_640": {
+        "Jelzés": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Hang": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Beszéd": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Kisegítő lehetőségek billentyűparancsa": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Kijelző automatikus zárolása": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Egyéni kisegítő lehetőségek mód": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Gépelés Sirihez": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Beszédhangos válaszok": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Automatikus kimondott válaszok": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Csendes válaszok előnyben részesítése": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Kimondás mellőzése néma módban": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "A „Hey Siri” mindig legyen felismerve": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Kisegítő lehetőségek billentyűparancsa": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Nagyító": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Apponkénti beállítások": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Közeli eszközök vezérlése": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Kijelző és fényerő": {
+    "(root)": "prefs:root=DISPLAY",
+    "Megjelenés": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Ütemezett": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Manuális engedélyezés holnapig": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Színhőmérséklet": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Automatikus zárolás": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Emelés az ébresztéshez": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Zárolás/feloldás": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Szövegméret": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Félkövér szöveg": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Kijelzőnagyítás": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Nézet": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Fertőzéskitettség-értesítés": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_641": {
+    "Értesítési jelvények": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Újonnan letöltött appok": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Főképernyő és multitasking": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_642": {
+      "Appkönyvtár megjelenítése a Dockban": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Javasolt és legutóbbi appok a Dockban": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Főképernyő": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Újonnan letöltött appok": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Értesítési jelvények": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID és jelkód": {
+    "(root)": "prefs:root=PASSCODE",
+    "Jelkód kikapcsolása": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Jelkód módosítása": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Jelkód igénylése": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Hangtárcsázás": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Elérés engedélyezése zárolásnál": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Válasz üzenettel": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Otthonvezérlés": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Tárca": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Nem fogadott hívások visszahívása": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Adatok törlése": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Feloldás Apple Watchcsal": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcastok": "prefs:root=PODCASTS",
+  "Vészhelyzet – SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Hívás az oldalsó gombbal": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Automatikus hívás": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Fontos elérhetőségek": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Visszaszámláláshang": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Hangok": {
+    "(root)": "prefs:root=Sounds",
+    "Fejhallgató-biztonság": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning-adapterek": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Fejhallgatóval kapcsolatos értesítések": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Hangerő-korlátozás": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Hangeffektusok": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Csengő és jelzések": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Állítás a gombokkal": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Hangok és rezgésminták": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Csengőhang": "prefs:root=Sounds&path=Ringtone",
+    "SMS-hang": "prefs:root=Sounds&path=Text_Messages",
+    "Új hangposta": "prefs:root=Sounds&path=Voicemail",
+    "Új levél": "prefs:root=Sounds&path=NEW_MAIL",
+    "Elküldött levél": "prefs:root=Sounds&path=SENT_MAIL",
+    "Naptárjelzések": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Emlékeztetőjelzések": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Billentyűhangok": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Zárolási hang": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Időjárás": "prefs:root=WEATHER",
+  "Iránytű": {
+    "(root)": "prefs:root=COMPASS",
+    "Valódi észak használata": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Vezérlőközpont": {
+    "(root)": "prefs:root=ControlCenter",
+    "Hozzáférés appból": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Vezérlők testreszabása": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Fejlesztő": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Több útvonalas hálózat": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Több útvonalas hálózat": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Megjelenés": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Sötét megjelenés": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Párosított eszközök": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Megbízható számítógépek törlése": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Eszközök": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Naplózás": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Felhasználóifelület-automatizálás": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Hálózatkezelés": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Hálózatikapcsolat-kondicionáló": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "iAd-fejlesztői apptesztelés": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Kitöltési arány": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Levágott szalagcímek kiemelése": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Korlátlan hirdetésmegjelenítés": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "PassKit tesztelése": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "További naplózás": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "HTTP-szolgáltatások engedélyezése": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Gyakoriság korlátozásának letiltása": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "Nem kötelező NFC-belépőkártya": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Médiaszolgáltatások tesztelése": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "AirPlay-alkalmazásjavaslatok": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Médiaszolgáltatások alaphelyzetbe állítása": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "A News tesztelése": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Helyi adatok alaphelyzetbe állítása a következő indításkor": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Médialejátszó-keretrendszer tesztelése": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "Lejátszható tartalom API-ja": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Televíziószolgáltató tesztelése": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "Televíziószolgáltatók": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "CoreSpotlight-tesztelés": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Összes elem újraindexelése": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Az azonosítóval rendelkező összes elem újraindexelése": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Parancsok tesztelése": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Legutóbbi parancsok megjelenítése": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Közelgő média megjelenítése": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Adományok megjelenítése a zárolási képernyőn": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "A parancsok Watchra történő szinkronizálásának kényszerítése": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "MIDI-CI-tesztelés": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "MIDI-CI engedélyezése": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Egészség": "prefs:root=HEALTH",
+  "Mérés": {
+    "(root)": "prefs:root=MEASURE",
+    "Mértékegységek": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Angolszász": "prefs:root=MEASURE#Imperial",
+    "Metrikus": "prefs:root=MEASURE#Metric"
+  },
+  "Zene": {
+    "(root)": "prefs:root=MUSIC",
+    "Az Apple Music megjelenítése": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Lejátszásilista-dalok hozzáadása": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Csillagértékelések": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Könyvtár szinkronizálása": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Mobil adatforgalom": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Letöltött zene": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Tárhely optimalizálása": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Automatikus letöltések": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "Hangszínszabályzó": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Normalizálás": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Hallgatási előzmények használata": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Jegyzetek": {
+    "(root)": "prefs:root=NOTES",
+    "Alapértelmezett fiók": "prefs:root=NOTES&path=Default%20Account",
+    "Jelszó": "prefs:root=NOTES&path=Password",
+    "A jegyzetek rendezése": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Az új jegyz. kezdete": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Bejelölt elemek rendezése": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Vonalak és rácsok": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Mentés a Fotókba": "prefs:root=NOTES#Save%20to%20Photos",
+    "Jegyzetek a zárolási képernyőről": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Üzenetek": "prefs:root=MESSAGES",
+  "Fordító": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Eszközön történő feldolgozás": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "Televíziószolgáltató": "prefs:root=VIDEO_SUBSCRIBER",
+  "Hangjegyzetek": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Töröltek eltávolítása": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Hangminőség": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Helyzetalapú elnevezés": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Kamera": {
+    "(root)": "prefs:root=CAMERA",
+    "Formátumok": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_643": {
+      "HDR-videó": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Beállítások megőrzése": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Kameramód": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Rács": "prefs:root=CAMERA#CameraGridSwitch",
+    "QR-kódok beolvasása": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Térképek": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Kontaktok": {
+    "(root)": "prefs:root=CONTACTS",
+    "Hozzáférés engedélyezése a Kontaktok számára": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri és keresés": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Rendezési sorrend": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Kijelzési sorrend": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Rövid név": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Rövid név": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Becenevek előnyben részesítése": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Saját információk": "prefs:root=CONTACTS&path=MeCard",
+    "SIM-kontaktok importálása": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Könyvek": {
+    "(root)": "prefs:root=IBOOKS",
+    "Online tartalom": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "SZINKRONIZÁLÁS": "prefs:root=IBOOKS#SYNCING",
+    "Most olvasott": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "OLVASÁS": "prefs:root=IBOOKS#READING",
+    "Sorkizárás": "prefs:root=IBOOKS#BKFullJustification",
+    "Automatikus elválasztás": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Lapozás mindkét margóval": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Olvasási célok": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Olvasási célok adatainak törlése": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "KERESÉS": "prefs:root=IBOOKS#SEARCHING",
+    "Book Store": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "HANGOSKÖNYV": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Léptetés előre": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Visszaugrás": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "KÜLSŐ VEZÉRLŐK": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Következő/előző": "prefs:root=IBOOKS#Next/Previous",
+    "Léptetés előre/vissza": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "ADATVÉDELEM": "prefs:root=IBOOKS#PRIVACY",
+    "Azonosító alaphelyzetbe állítása": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Nyilatkozatok": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Naptár": {
+    "(root)": "prefs:root=CALENDAR",
+    "Időzóna felülbírálása": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Alternatív naptárak": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Hetek száma": "prefs:root=CALENDAR#Week%20Numbers",
+    "Elutasított meghívások megjelenítése": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Szinkronizálás": "prefs:root=CALENDAR&path=Sync",
+    "Alapértelmezett jelzésidő": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Ekkor indul a hét": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Javasolt helyek": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Fiókok": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Fiók hozzáadása": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Új adatok begyűjtése": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Előnézet": "prefs:root=MAIL&path=Preview",
+    "Címzett/Másolat": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Legyintés beállításai": "prefs:root=MAIL&path=Swipe%20Options",
+    "Kérdezés törlés előtt": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Képek betöltése": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Szálakra rendezés": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Olvasott üzenetek összecsukása": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Újabb üzenetek felül": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Teljes szálak megjelenítése": "prefs:root=MAIL#Complete%20Threads",
+    "Némítottszál-művelet": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Blokkolt küldők figyelmen kívül hagyása": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Letiltott": "prefs:root=MAIL&path=Blocked",
+    "Bcc magamnak": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Címek megjelölése": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Idézetszint növelése": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Mellékletek válaszokba foglalása": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Aláírás": "prefs:root=MAIL&path=Signature"
+  },
+  "Telefon": {
+    "(root)": "prefs:root=Phone",
+    "Saját szám": "prefs:root=Phone&path=My%20Number",
+    "Bejövő hívások": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Hívások bejelentése": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "SMS-ek/hívások jelentése": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Válasz szöveges üzenettel": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Hívásátirányítás": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Hívásátirányítás": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Hívásvárakoztatás": "prefs:root=Phone&path=Call%20Waiting",
+    "Hívószámkijelzés": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_644": {
+        "Hívószámkijelzés": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Ismeretlen hívók némítása": "prefs:root=Phone#SILENCE_CALLS",
+    "Letiltott kontaktok": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Tárcsázási segítség": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Tartalomblokkoló": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Felugrók blokkolása": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Nyomkövetés megelőzése": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Automatikus kitöltés": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Letöltések": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Jelszavak": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Jelszavak automatikus kitöltése": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Fotók": {
+    "(root)": "prefs:root=Photos",
+    "iCloud-fotók": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Tárhely optimalizálása": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Letöltés és eredetik megőrzése": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Saját fotóstream": "prefs:root=Photos#PhotoStreamSwitch",
+    "Megosztott albumok": "prefs:root=Photos#SharedStreamsSwitch",
+    "Mobil adatforgalom": "prefs:root=Photos&path=CellularDataLinkList",
+    "Videók automatikus lejátszása": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Teljes HDR megtekintése": "prefs:root=Photos#ImageModulationSwitch",
+    "Ünnepnapra eső események": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Átvitel Macre vagy PC-re": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Automatikus letöltések": "prefs:root=STORE#Automatic%20Downloads",
+    "Appfrissítések": "prefs:root=STORE#App%20Updates",
+    "Appletöltések": "prefs:root=STORE&path=App%20Downloads",
+    "Videó automatikus lejátszása": "prefs:root=STORE&path=Video%20Autoplay",
+    "Appon belüli értékelések és vélemények": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Sztori előnézetének megjelenítése": "prefs:root=NEWS#show_excerpt_mode",
+    "Sztorik korlátozása a Mai nézetben": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Adatvédelem": "prefs:root=NEWS#Privacy",
+    "Azonosító alaphelyzetbe állítása": "prefs:root=NEWS#reset_identifier",
+    "Nyilatkozatok": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_645": {
+    "Repülőgép mód": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Emlékeztetők": {
+    "(root)": "prefs:root=REMINDERS",
+    "Alapértelmezett lista": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Emlékeztetők": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Mai értesítés": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Megjelenítés lejártként": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Akkumulátor": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Alacsony töltöttségű mód": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Akku állapota": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Parancsok": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "iCloud-szinkronizálás": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Parancssorrend szinkronizálása": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Jogi nyilatkozatok": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri és keresés": {
+    "(root)": "prefs:root=SIRI",
+    "Siri engedélyezése zárolásnál": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Nyelv": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Siri-beszédhang": "prefs:root=SIRI&path=VOICE_ID",
+    "Beszédhangos visszajelzés": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Saját információk": "prefs:root=SIRI&path=MY_INFO",
+    "Javaslatok a Keresésben": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Javaslatok a Definiálásban": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Zárolásiképernyő-javaslatok": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Részvények": {
+    "(root)": "prefs:root=STOCKS",
+    "Adatvédelem": "prefs:root=STOCKS#Privacy",
+    "Azonosító alaphelyzetbe állítása": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Mobilhálózat": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Mobiladat-lehetőségek": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Alacsony adatforgalmú mód": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Mobil adatforgalom": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Mobiladat-hálózat használata a lejátszáshoz": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Lejátszás minősége": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Vásárlások és kölcsönzések": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Otthoni megosztás": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Háttérkép": "prefs:root=Wallpaper"
+}

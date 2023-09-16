@@ -1,0 +1,561 @@
+{
+  "Toegankelijkheid": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Zien": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Vergroot/verklein": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Vette tekst": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Labels voor aan/uit": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Grijstinten": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Maak minder doorzichtig": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Minder beweging": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Buisklokken": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Schema": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Elk uur": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 minuten": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 minuten": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Geluiden": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Klokken": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Vogels": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Motorisch": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Druksnelheid zijknop": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Druksnelheid": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Standaard": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Traag": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Traagst": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Aangepaste aanraking": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Aangepaste aanraking": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Vasthoudduur": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Negeer herhaling": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Tikassistentie": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Uit": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Gebruik positie van eerste aanraking": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Gebruik positie van laatste aanraking": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "ROLSTOELACTIVITEIT": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Walkietalkie": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Tik om te praten": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Horen": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Doorgiftenummer": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Verstuur direct": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Standaard­antwoorden": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Standaard­antwoorden": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Voeg antwoord toe…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Monogeluid": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Stereobalans links rechts": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Koptelefoon­meldingen": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Hoortoestellen": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Complicatie": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Microfoonvolume": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Programmeer": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Snelheid voelbare tijd": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Activeringsknop": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Koppel nieuwe Watch": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Appweergave": "bridge:root=APP_VIEW_ID",
+  "Algemeen": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Info": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Naam": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Beperkte garantie": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Beperkte garantie": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "DEKKINGS­DETAILS": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Hardware­dekking": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Ondersteuning via chat en telefoon": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Nummers": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Foto's": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Apps": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Capaciteit": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Beschikbaar": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Versie": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Aanbieder": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Model": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Serienummer": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wifiadres": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Juridische informatie": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Bekijk de Apple Watch-handleiding ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Software-update": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Installeer apps automatisch": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Vliegtuigmodus": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Focus": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Match iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Draagpositie": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Draagpositie Apple Watch": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Linkerpols": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Rechterpols": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown links": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown rechts": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Schakel dicteerfunctie in": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Schakel Handoff in": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Nachtklokmodus": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Maak schermafbeeldingen": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Opslag": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Diagnostische logbestanden": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Kopieer Watch-analyse": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Stel opnieuw in": "bridge:root=GENERAL_LINK&path=RESET",
+    "Start automatisch indien ondergedompeld": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Start audio-apps automatisch": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Taal en regio": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Match iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Aangepast": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "TERUG NAAR KLOK": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "TERUG NAAR KLOK": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Altijd": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "Na 2 minuten": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "Na 1 uur": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APPS": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Huidige": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Beeldscherm en helderheid": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Helderheid": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Altijd ingeschakeld": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Altijd ingeschakeld": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "POLS OMLAAG": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Toon meldingen": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Toon meldingen": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCH-APPS": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Toon apps": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Toon apps": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPS": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Tekstgrootte": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Vette tekst": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "ACTIVEER": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Activeer bij pols optillen": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Activeer bij Crown draaien": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Activerings­duur": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "BIJ TIKKEN": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "15 seconden actief": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "70 seconden actief": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Horen en voelen": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Meldingsvolume": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Stille modus": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Koptelefoongeluid": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Koptelefoonveiligheid": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Koptelefoon­meldingen": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Verminder harde geluiden": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Voelen": "bridge:root=SOUNDS_ID#Haptics",
+    "Voelbare meldingen": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Voelbare signalen via Crown": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Voelbare systeemsignalen": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Bedek voor stilhouden": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "SOS-noodmelding": "bridge:root=SOS_MODE_ID",
+  "Privacy": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Hartslag": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Ademfrequentie": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Houd conditie bij": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Herstel conditiekalibratiegegevens": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Geluidsmetingen (omgeving)": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Geluidsmetingen (koptelefoon)": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Bewaar in Gezondheid": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "8 dagen": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Totdat ik deze verwijder": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Saturatiemetingen": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Polstemperatuur": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Schermtijd": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Diepte": "bridge:root=com.apple.DepthCompanionSettings",
+  "Actieknop": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Automatische downloads": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Automatische updates": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Gezondheid": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail en Agenda": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Accounts": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Voeg Google-account toe…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Ophalen": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Uit": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Elk uur": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 min.": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 min.": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Handen wassen": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Sta meldingen toe": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Stuur naar meldingencentrum": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Meldingen uit": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Meldingen groeperen": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Timer voor handen wassen": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Mobiel netwerk": "bridge:root=CELLULAR_ID",
+  "Complicaties": "bridge:root=COMPLICATIONS",
+  "Activiteit": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Voortgangsinfo": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Geen": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "Elke 2 uur": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "Elke 4 uur": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "Elke 6 uur": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "Elke 8 uur": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Prestaties": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Weekoverzicht": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Dagelijkse begeleiding": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Behaalde doelen": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Speciale uitdagingen": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Activiteit-delingsmeldingen": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Hart": "bridge:root=com.apple.HeartRateSettings#1",
+    "Hartslag­meldingen": "bridge:root=com.apple.HeartRateSettings#2",
+    "Hoge hartslag": "bridge:root=com.apple.HeartRateSettings#3",
+    "Lage hartslag": "bridge:root=com.apple.HeartRateSettings#4",
+    "Onregelmatig ritme": "bridge:root=com.apple.HeartRateSettings#5",
+    "Bekijk ecg's in Gezondheid": "bridge:root=com.apple.HeartRateSettings#6",
+    "Ecg": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Berichten": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Match iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Aangepast": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Standaardantwoorden": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Standaardantwoorden": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Slimme antwoorden": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Voeg antwoord toe…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Herhaal meldingen": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Audioberichten": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Mindfulness": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Sta meldingen toe": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Stuur meldingencentrum": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Meldingen uit": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Mindfulness­herinneringen": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Begin van de dag": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Einde van de dag": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Voeg herinnering toe…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Weekoverzicht": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Houd vandaag stil": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Ademfrequentie": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 adem­halingen per minuut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 adem­halingen per minuut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 adem­halingen per minuut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 adem­halingen per minuut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 adem­halingen per minuut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 adem­halingen per minuut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 adem­halingen per minuut": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Voelen": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Geen": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Minimaal": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Prominent": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Slaap": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Configureer Slaap in de Gezondheid-app": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Audioboeken": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Log in": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Agenda": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "MELDINGEN": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Match iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Aangepast…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "AGENDA'S": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Klok": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24 uursklok": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Buisklokken": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Geluiden": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Klokken": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Vogels": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Spreek tijd uit": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Regel met stille modus": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Spreek altijd uit": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Voelbare tijd": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Voelbare tijd": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Cijfers": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Kort": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Morsecode": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Push iPhone-meldingen": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Meldingsaanduiding": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monogram": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Meldingen over wijzer­plaat": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Afgekorte steden": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Gegevensbronnen voor Siri-wijzerplaat": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Contacten": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Sorteervolgorde": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Voornaam, Achternaam": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Achternaam, Voornaam": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Geef weer": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Voornaam, Achternaam": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Achternaam, Voornaam": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Korte naam": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Korte naam": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Voornaam en initiaal achternaam": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Initiaal voornaam en achternaam": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Alleen voornaam": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Alleen achternaam": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Gebruik bijnamen": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Match iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Aangepast": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Mail-instellingen": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Accounts": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Voeg Mail toe": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Voorvertoning bericht": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Geen": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 regel": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 regels": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Standaardantwoorden": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Standaardantwoorden": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Voeg antwoord toe…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Handtekening": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Kaarten": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Afslagmeldingen": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Auto": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Rijden met CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Te voet": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Fietsen": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Toon navigatie": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Openbaar vervoer": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Buildinfo:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Muziek": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "AFSPEELLIJSTEN EN ALBUMS": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Voeg muziek toe…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Wallet en Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Voeg kaart toe": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Meldingen": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Match iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Aangepast": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Foto's": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Fotosynchronisatie": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Terugblikken": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Synchroniseer terugblikken": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Uitgelichte foto's": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Synchroniseer uitgelichte foto's": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Album": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Synchroniseer album": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Fotolimiet": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Meldingsinstellingen": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Match iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Aangepast": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Geluid": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Geluidsmetingen (omgeving)": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Geluidsmeldingen": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Geluidsdrempel": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Uit": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Meldingen groeperen": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Satu­ratie": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Aanbieder­instellingen": "bridge:root=CARRIER_SETTINGS",
+  "Zet code uit": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Zet code aan": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Wijzig toegangscode": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Eenvoudige code": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Ontgrendel met iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Wis gegevens": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Draagdetectie": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Telefoon": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Oproepen": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Beltoon": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Geluid": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Voelbaar": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Work‑out": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Energiebesparingsmodus": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Toon doelwaarde": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Work‑outweergave": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Autom. pauze": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Autom. pauze": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Herinnering om te starten": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Herinnering om te stoppen": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Druk om te pauzeren": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Detecteer fitnessapparaat": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Tempo/snelheid": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Huidige": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Gemiddelde": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Work-outafspeellijst": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Geen": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Afspeellijsten": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Speel af vanaf begin": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Shuffle": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Meet­eenheden": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Calorieën": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilo­calorieën": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilojoules": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Yard": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Meter": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Mijl": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilometer": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Gesproken feedback": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Tijd om te wandelen": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Voeg nieuwe work-outs toe aan Watch": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Aandelen": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Wijzer­plaat­complicatie toont": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Huidige prijs": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Puntenwijziging": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Procentuele wijziging": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Marktkap.": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Siri-wijzer­plaat toont koers voor": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Geselecteerd aandeel": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Geselecteerd aandeel": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Rangschikking Dock": "bridge:root=DOCK#OrderingOptionGroup",
+    "Recent": "bridge:root=DOCK#Recents",
+    "Favorieten": "bridge:root=DOCK#Favorites"
+  },
+  "Podcasts": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Vraag het aan Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Til op om te spreken": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Druk op de Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Gesproken feedback": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Altijd ingeschakeld": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Regel met stille modus": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Alleen koptelefoon": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Stemvolume": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siri-suggesties": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Walkietalkie": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Sta meldingen toe": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Stuur naar meldingencentrum": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Meldingen uit": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Meldingen groeperen": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Vrienden": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Weer": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Standaardplaats": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Standaardplaats": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Huidige locatie": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Stuur leesbewijzen": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

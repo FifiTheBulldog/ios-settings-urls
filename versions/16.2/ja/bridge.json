@@ -1,0 +1,561 @@
+{
+  "アクセシビリティ": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "視覚": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "ズーム": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "文字を太くする": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "オン/オフラベル": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "グレイスケール": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "透明度を下げる": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "視差効果を減らす": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "チャイム": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "スケジュール": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "正時": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30分": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15分": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "サウンド": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "ベル": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "鳥": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "動き": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "サイドボタンのクリックの間隔": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "クリックの間隔": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "デフォルト": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "遅い": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "最も遅く": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "タッチ調整": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "タッチ調整": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "保持継続時間": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "繰り返しを無視": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "タップ補助": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "オフ": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "タッチ開始位置を使用": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "タッチ終了位置を使用": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "車椅子のアクティビティ": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "トランシーバー": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "タップして話す": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "聴覚": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "リレー番号": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "すぐに送信": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "デフォルトの返信": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "デフォルトの返信": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "返答を追加…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "モノラルオーディオ": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "ステレオの左右のバランス": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "ヘッドフォン通知": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "ヒアリングデバイス": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "コンプリケーション": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "マイク音量": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "プログラム": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Tapticタイムの速さ": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "ショートカット": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "新しいWatchとペアリング": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "App表示": "bridge:root=APP_VIEW_ID",
+  "一般": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "情報": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "名前": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "限定保証": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "限定保証": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "保証範囲詳細": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "ハードウェア保証範囲": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "チャットと電話サポート": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "曲": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "写真": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "App": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "容量": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "使用可能": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "バージョン": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "通信事業者": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "モデル": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "シリアル番号": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi-Fiアドレス": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "法律に基づく情報": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Apple Watchユーザガイドを表示": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "ソフトウェアアップデート": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Appの自動インストール": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "機内モード": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "集中モード": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "iPhoneを反映": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "ウォッチの向き": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Apple Watchの装着": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "左手": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "右手": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "左にDigital Crown": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "右にDigital Crown": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "音声入力を有効にする": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Handoffを有効にする": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "ナイトスタンドモード": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "スクリーンショットをオンにする": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "ストレージ": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "診断ログ": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Watchの解析をコピー": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "リセット": "bridge:root=GENERAL_LINK&path=RESET",
+    "水中にいるとき自動起動": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "オーディオAppを自動起動": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "言語と地域": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "iPhoneを反映": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "カスタム": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "時計に戻る": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "時計に戻る": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "常に": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "2分後": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "1時間後": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "App": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "再生中": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "画面表示と明るさ": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "明るさ": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "常にオン": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "常にオン": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "手首を下にする": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "通知を表示": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "通知を表示": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCHのAPP": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Appを表示": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Appを表示": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "App": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "テキストサイズ": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "文字を太くする": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "スリープ解除": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "手首を上げてスリープ解除": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Crownを回してスリープ解除": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "スリープ解除時間": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "タップ時": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "15秒間スリープ解除": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "70秒間スリープ解除": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "サウンドと触覚": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "通知音の音量": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "消音モード": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "ヘッドフォンオーディオ": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "ヘッドフォンの安全性": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "ヘッドフォン通知": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "大きな音を抑える": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "触覚": "bridge:root=SOUNDS_ID#Haptics",
+    "触覚による通知": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Crownの触覚": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "システムの触覚": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "カバーして消音": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "緊急SOS": "bridge:root=SOS_MODE_ID",
+  "プライバシー": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "心拍数": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "呼吸数": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "フィットネストラッキング": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "フィットネス調整データをリセット": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "環境音測定": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "ヘッドホンオーディオ測定": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "“ヘルスケア”に保存": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "8日間": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "削除するまで": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "血中酸素ウェルネスの測定": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "手首の皮膚温": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "スクリーンタイム": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "水深": "bridge:root=com.apple.DepthCompanionSettings",
+  "アクションボタン": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "自動ダウンロード": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "自動アップデート": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "ヘルスケア": "bridge:root=com.apple.BridgeHealthSettings",
+  "メールとカレンダー": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "アカウント": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Googleアカウントを追加…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "フェッチ": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "オフ": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "正時": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30分": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15分": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "手洗い": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "通知を許可": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "通知センターに送信": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "通知オフ": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "通知のグループ化": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "手洗いタイマー": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "モバイル通信": "bridge:root=CELLULAR_ID",
+  "コンプリケーション": "bridge:root=COMPLICATIONS",
+  "アクティビティ": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "進捗状況のアップデート": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "なし": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "2時間ごと": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "4時間ごと": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "6時間ごと": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "8時間ごと": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "成果": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "週ごとの概要": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "デイリーコーチング": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "ゴール達成": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "スペシャルチャレンジ": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "アクティビティ共有の通知": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "心臓": "bridge:root=com.apple.HeartRateSettings#1",
+    "心拍数の通知": "bridge:root=com.apple.HeartRateSettings#2",
+    "高心拍数": "bridge:root=com.apple.HeartRateSettings#3",
+    "低心拍数": "bridge:root=com.apple.HeartRateSettings#4",
+    "不規則な心拍リズム": "bridge:root=com.apple.HeartRateSettings#5",
+    "“ヘルスケア”で心電図記録を表示": "bridge:root=com.apple.HeartRateSettings#6",
+    "心電図": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "メッセージ": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "iPhoneを反映": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "カスタム": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "デフォルトの返信": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "デフォルトの返信": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "スマートリプライ": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "返答を追加…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "通知を繰り返す": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "オーディオメッセージ": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "マインドフルネス": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "通知を許可": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "通知センターに送信": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "通知オフ": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "マインドフルネスリマインダー": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "一日の始まり": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "一日の終わり": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "リマインダーを追加…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "週ごとの概要": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "今日は通知を停止": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "呼吸の頻度": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4呼吸/分": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5呼吸/分": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6呼吸/分": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7呼吸/分": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8呼吸/分": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9呼吸/分": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10呼吸/分": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "触覚": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "なし": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "最小限": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "はっきり": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "睡眠": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "ヘルスケアAppで“睡眠”を設定": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "オーディオブック": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "サインイン": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "カレンダー": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "通知": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "iPhoneを反映": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "カスタム…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "カレンダー": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "時計": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24時間表示": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "チャイム": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "サウンド": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "ベル": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "鳥": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "時刻を読み上げる": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "消音モードで制御": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "常に読み上げる": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Tapticタイム": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Tapticタイム": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "数字": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "おおよそ": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "モールス信号": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "iPhoneからの通知をプッシュ": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "通知インジケータ": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "モノグラム": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "文字盤を通知": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "都市名の短縮形": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Siri文字盤データソース": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "連絡先": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "並べ替え順序": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "名/姓": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "姓/名": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "表示順序": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "名/姓": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "姓/名": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "略称": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "略称": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "姓のみイニシャル": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "名のみイニシャル": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "名のみ": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "姓のみ": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "ニックネームを優先": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "メール": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "iPhoneを反映": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "カスタム": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "メールの設定": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "アカウント": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "メールを含める": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "メッセージプレビュー": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "なし": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1行": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2行": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "デフォルトの返信": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "デフォルトの返信": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "返答を追加…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "署名": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "マップ": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "案内を通知": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "車": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "車（CarPlay付き）": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "徒歩": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "サイクリング": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "ナビゲーションを表示": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "交通機関": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "ビルド情報:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "ミュージック": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "プレイリストとアルバム": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "ミュージックを追加…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "ウォレットとApple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "カードを追加": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "通知": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "iPhoneを反映": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "カスタム": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "写真": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "写真の同期": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "メモリー": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "メモリーを同期": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "おすすめの写真": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "おすすめの写真を同期": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "アルバム": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "アルバムを同期": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "写真の上限": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "通知設定": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "iPhoneを反映": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "カスタム": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "ノイズ": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "環境音測定": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "ノイズ通知": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "ノイズのしきい値": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "オフ": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80デシベル": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85デシベル": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90デシベル": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95デシベル": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100デシベル": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "通知のグループ化": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "取り込まれた酸素のレベル": "bridge:root=com.apple.OxygenSaturationSettings",
+  "キャリア設定": "bridge:root=CARRIER_SETTINGS",
+  "パスコードをオフにする": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "パスコードをオンにする": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "パスコードを変更": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "簡単なパスコード": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "iPhoneでロックを解除": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "データを消去": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "手首検出": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "電話": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "通話": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "着信音": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "サウンド": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "触覚": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "ワークアウト": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "低電力モード": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "ゴールの数値を表示": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "ワークアウト表示": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "自動一時停止": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "自動一時停止": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "ワークアウトの開始を通知": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "ワークアウトの停止を通知": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "押して一時停止": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "フィットネス機器を検出": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "ペース/速度表示": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "現在": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "平均": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "ワークアウトプレイリスト": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "なし": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "プレイリスト": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "先頭から再生": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "シャッフル": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "測定単位": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "カロリー": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "キロカロリー": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "キロジュール": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "ヤード": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "メートル": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "マイル": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "キロメートル": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "音声フィードバック": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "ウォーキングの時間": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "新規ワークアウトをWatchに追加": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "株価": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "文字盤のコンプリケーションに表示": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "現在の株価": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "値動き": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "値動きの割合": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "時価総額": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Siri文字盤に株価を表示する銘柄": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "選択された銘柄": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "選択された銘柄": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Dock順序": "bridge:root=DOCK#OrderingOptionGroup",
+    "最近の項目": "bridge:root=DOCK#Recents",
+    "よく使う項目": "bridge:root=DOCK#Favorites"
+  },
+  "ポッドキャスト": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Siriに頼む": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "手首を上げて話す": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Digital Crownを押す": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "音声フィードバック": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "常にオン": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "消音モードで制御": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "ヘッドフォンのみ": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "声の音量": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siriからの提案": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "トランシーバー": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "通知を許可": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "通知センターに送信": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "通知オフ": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "通知のグループ化": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "友達": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "天気": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "デフォルトの都市": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "デフォルトの都市": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "現在地": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "開封証明を送信": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

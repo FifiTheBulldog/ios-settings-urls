@@ -1,0 +1,1153 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud-opslag": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Foto's": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Contacten": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Agenda": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Herinneringen": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Notities": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Reservekopie": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Gezondheid": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Wachtwoorden en sleutelhanger": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Privé­doorgifte": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Deel mijn locatie": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Zoek mijn iPhone": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Naam, telefoonnummers, e‑mail": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Wachtwoord en beveiliging": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Betaling en bezorging": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Abonnementen": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Gezin": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Privacy en beveiliging": {
+    "(root)": "prefs:root=Privacy",
+    "Veiligheidscontrole": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Locatie": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Deel mijn locatie": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Contacten": "prefs:root=Privacy&path=CONTACTS",
+    "Agenda's": "prefs:root=Privacy&path=CALENDARS",
+    "Herinneringen": "prefs:root=Privacy&path=REMINDERS",
+    "Foto's": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth-deling": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Microfoon": "prefs:root=Privacy&path=MICROPHONE",
+    "Spraakherkenning": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Camera": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Media en Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Analyse": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Reclame": "prefs:root=Privacy&path=ADVERTISING",
+    "Bestanden en mappen": "prefs:root=Privacy&path=FILEACCESS",
+    "Tracking": "prefs:root=Privacy&path=USER_TRACKING",
+    "Rapport over privacy van apps": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Isolatiemodus": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Gezondheid": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Focus": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Focus­status": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Algemeen": {
+    "(root)": "prefs:root=General",
+    "VPN- en apparaatbeheer": "prefs:root=General&path=ManagedConfigurationList",
+    "Beeld in beeld": "prefs:root=General&path=PiP_SPEC",
+    "Trackpad en muis": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Info": {
+      "(root)": "prefs:root=General&path=About",
+      "Vertrouwde certificaten": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Juridische informatie en regelgeving": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Software-update": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Thuisknop": "prefs:root=General&path=HOME_BUTTON",
+    "Gebaren": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Zijschakelaar": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Ververs op achtergrond": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Datum en tijd": "prefs:root=General&path=DATE_AND_TIME",
+    "Tv-uitvoer": "prefs:root=General&path=TV_OUT",
+    "Regelgeving": "prefs:root=General&path=REGULATORY",
+    "Stel opnieuw in": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Herstel alle instellingen": "prefs:root=General&path=Reset#settingsErase",
+      "Wis alle inhoud en instellingen": "prefs:root=General&path=Reset#fullErase",
+      "Herstel netwerkinstellingen": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Verwijder alle mobieledata-abonnementen": "prefs:root=General&path=Reset#cellularErase",
+      "Abonneeservices": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Herstel toetsenbordwoordenboek": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Herstel beginschermindeling": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Herstel locatie en privacy": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Zet uit": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay en Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Zet over naar HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Speel automatisch af op tv’s via AirPlay": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Continuïteitscamera": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Woordenboek": "prefs:root=General&path=DICTIONARY",
+    "Taal en regio": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Andere talen…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Volgorde voorkeurstalen": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Voeg taal toe…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Regio": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Getallen": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Agenda": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Temperatuureenheid": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Toetsenbord": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Toetsenborden": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Tekstvervanging": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Automatische hoofdletters": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Autocorrectie": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Controleer spelling": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Schakel Caps Lock in": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Opdrachten": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Suggesties": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Slimme interpunctie": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Gesplitst toetsenbord": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Schakel korte aanraking van toetsen in": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Voorvertoning teken": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "Sneltoets voor punt": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Veeg om te typen": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Schakel dicteerfunctie in": "prefs:root=General&path=Keyboard#Dictation",
+      "Automatische leestekens": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Opslag": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Ruim apps op": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Meldingen": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Gepland overzicht": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Wallet en Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Betaalkaarten": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Voeg kaart toe": "prefs:root=PASSBOOK#Add%20Card",
+    "Druk tweemaal op zijknop": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Bestellingen bijhouden": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Schermtijd": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Vandaag": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Week": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Apparaatvrije tijd": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Applimieten": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Communicatielimieten": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Communicatie­veiligheid": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Altijd toegestaan": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Beperkingen": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Ouderlijk toezicht": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Toegankelijkheid": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Zien": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Spreeksnelheid": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Spraak": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Stem": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Detailniveau": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Interpunctie": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Tabelkopteksten": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Mediabeschrijvingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Uit": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Spraak": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Spraak en braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Uitvoer": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Onverkort zespunts braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Onverkort achtpunts braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Braillekortschrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Invoer": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Onverkort zespunts braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Onverkort achtpunts braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Braillekortschrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Automatische vertaling": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Braille-invoer via scherm": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Onverkort zespunts braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Onverkort achtpunts braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Braillekortschrift": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Omgekeerde puntposities": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Brailletabellen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Voeg brailletabel toe…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Statuscellen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Positie statuscellen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Links": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Rechts": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Toon algemene status": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Toon tekststatus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Nemeth voor vergelijkingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Toon schermtoetsenbord": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Sla bladzijden om bij schuiven": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Woordomloop": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Braille-waarschuwingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Duur voor negeren akkoord": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Duur voor 'Ga automatisch verder'": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Audioducking": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Kies automatisch luidspreker": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Stuur naar HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Commando's": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Activiteiten": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Programmeren": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Voeg activiteit toe…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Rotorhandelingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Wijzig apps op beginscherm": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Apps voor 'Directe aanraking'": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Typen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Typstijl": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Normaal typen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Typen met één tik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Direct typen met één tik": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Spellingsalfabet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Uit": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Teken en spellingsalfabet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Alleen spellingsalfabet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Feedback bij typen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Speciale toetsen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Control + Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Caps Lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Tijd voor toetsenbordinteractie": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Afbeeldingsnavigatie": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Altijd": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Met beschrijvingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Nooit": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Grote cursor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Ondertitelpaneel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Time-out dubbel tikken": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Time-out dubbel tikken": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Navigatiestijl": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Snelle instellingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Geluiden": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Audioducking": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Volume": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Spreeksnelheid": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Hints": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Navigatiestijl": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Typstijl": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Veeg om te typen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Activiteiten": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Spreek meldingen altijd uit": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Braille-waarschuwingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Braille­duur voor 'Ga automatisch verder'": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Braille-invoer": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Braille-uitvoer": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Brailletabellen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Ondertitelpaneel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Directe aanraking": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Richting van gebaar": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Feedback bij typen (hardware)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Taal": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Grote cursor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Mediabeschrijvingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Afbeeldingsnavigatie": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Spellingsalfabet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Toon­hoogte­wijziging": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Interpunctie": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Stuur naar HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Feedback bij typen (software)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Spreek rotor­bevestiging uit": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Beschrijvingen van afbeeldingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Schermherkenning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "VoiceOver-herkenning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Beschrijvingen van afbeeldingen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Schermherkenning": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Zoomen": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Zoomen": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Volg focus": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Slim typen": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Toetscombinaties": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Toetscombinaties": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Pas zoomniveau aan": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Zoomen aan/uit": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Verplaats zoomvenster": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Pas grootte van zoomvenster aan": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Wijzig zoomgebied": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Zoomen tijdelijk aan/uit": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Zoom via scrolwiel": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Zoomregelaar": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Zoomgebied": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Zoom hele scherm": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Zoom in venster": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Maximale vergroting": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Zoomfilter": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Toon tijdens synchrone weergave": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Geef tekst onder aanwijzer groter weer": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Weergave en tekstgrootte": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Vette tekst": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Grotere tekst": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Knopvormen": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Labels voor aan/uit": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Maak minder doorzichtig": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Verhoog contrast": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Differentieer zonder kleur": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Slim omgekeerd": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Klassiek omgekeerd": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Kleurfilters": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Kleurfilters": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Verminder witpunt": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Pas automatisch aan": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Beweging": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Verminder beweging": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Speel effecten automatisch af": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Speel voorvertoningen af": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Gesproken materiaal": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Spreek selectie uit": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Spreek scherm uit": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Spraakregelaar": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Pas muisknoppen aan": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Markeer inhoud": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Feedback bij typen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Tekenfeedback": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Tekens": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Tekenaanwijzingen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Spreek woorden uit": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Spreek invultekst uit": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Laat suggesties uitspreken": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Stemmen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Standaardtaal": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Detecteer talen": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Spreeksnelheid": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Uitspraak": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Audiodescripties": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Audiodescripties": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Fysiek en motorisch": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Aanraken": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Pas hoogste menu aan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Tik op een symbool om het te wijzigen:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Stel opnieuw in…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Aangepaste taken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Enkel tikken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Dubbel tikken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Time-out dubbel tikken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Lang indrukken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Duur voor lang indrukken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Aangepaste gebaren": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Maak nieuw gebaar aan…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Ondoorzichtigheid inactiviteit": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Aanwijsapparaten": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Apparaten": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth-apparaten…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Muistoetsen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Aanwijzerstijl": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Grootte": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Visueel": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Kleur": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Pas muisknoppen aan": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Verberg automatisch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_850": {
+            "Verberg automatisch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Toon schermtoetsenbord": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Toon menu altijd": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Stilhoudbediening": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Bewegingstolerantie": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Aanraakgevoeligheid": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Terugvalactie": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Interactieve hoeken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Gebruik game­controller": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D Touch en Haptic Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_851": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "Gevoeligheid 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Aanraakduur": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Snel": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Traag": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Test voor gevoeligheid en aanraakduur van 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Aangepaste aanraking": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_852": {
+        "Aangepaste aanraking": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Vasthoudduur": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Negeer herhaling": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Tikassistentie": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Uit": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Gebruik positie van eerste aanraking": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Gebruik positie van laatste aanraking": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Tik om te activeren": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Tik of veeg om te activeren": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Herstel door schudden": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Trillen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Voorkom 'Vergrendel om oproep te stoppen'": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Audiopad gesprekken": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_853": {
+        "Automatisch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth-headset": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Luidspreker": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Automatisch beantwoorden": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID en aandacht": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Aandacht vereist voor Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Voorzieningen aandachtsdetectie": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Voelen": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Voelbaar signaal bij authenticatie": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Schakelbediening": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Schakelbediening": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Schakelaars": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_854": {
+        "Voeg schakelaar toe…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth-apparaten…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Recepten": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Scanmethode": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_855": {
+        "Automatisch scannen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Handmatig scannen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Stapsgewijs scannen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Timing": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Tijd voor 'Automatisch scannen'": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_856": {
+        "Tijd voor 'Automatisch scannen'": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Pauzeer bij eerste element": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_857": {
+        "Pauzeer bij eerste element": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Verplaatsingsherhaling": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_858": {
+        "Verplaatsingsherhaling": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Lang indrukken": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_859": {
+        "Lang indrukken": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Tikmethode": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_860": {
+        "Standaard": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Tik automatisch": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Tik altijd": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Onderdeel in focus na tikken": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_861": {
+        "Eerste onderdeel": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Huidig onderdeel": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Toetsenbord": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Scan zelfde toets na tikken": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Tik altijd op toetsenbord": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Uitgebreide suggesties": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Schakelaarstabilisatie": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Vasthoudduur": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_862": {
+        "Vasthoudduur": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Negeer herhaling": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_863": {
+        "Negeer herhaling": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Puntscannen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Glijdende cursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_864": {
+        "Selectiemodus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Enkel": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Verfijnd": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Precies": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Snelheid glijdende cursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Hoofdtracking": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_865": {
+        "Hoofdtracking": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Audio": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Geluidseffecten": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Spraak": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_866": {
+        "Stemmen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Spreeksnelheid": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Menu-onderdelen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Groepeer onderdelen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Visueel": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Grote cursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Gebarenlijst": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_867": {
+        "Maak nieuw gebaar aan…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Kleur cursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Stembediening": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Configureer stembediening": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Taal": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_868": {
+        "Engels (Verenigde Staten)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Pas commando's aan": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Woordenlijst": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Commandofeedback": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Toon bevestiging": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Speel geluid af": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Toon aanwijzingen": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Doorlopende overlay": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Overlay": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_869": {
+        "Geen": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Onderdeelnummers": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Onderdeelnamen": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Genummerd raster": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Aandachtsdetectie": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Zijknop": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Druksnelheid": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Standaard": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Traag": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Traagst": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Houd ingedrukt om te spreken": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Klassieke stembediening": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Uit": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Richtingsknoppen": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Extern scherm Apple Watch": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Toetsenborden": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Uitgebreide toetsenbordfuncties": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_870": {
+        "Uitgebreide toetsenbordfuncties": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Visuele onderdelen": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Verberg automatisch": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Grote focusring": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Kleur": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Toetsrepeteertempo": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_871": {
+        "Toetsrepeteertempo": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Toetsrepeteerinterval": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Repeteervertraging": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Grendeltoetsen": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_872": {
+        "Grendeltoetsen": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Aan of uit met Shift-toets": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Geluid": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Toetsvertraging": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_873": {
+        "Toetsvertraging": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Softwaretoetsenborden": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Toon kleine letters": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Horen": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Hoortoestellen": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi-hoortoestellen": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Compatibiliteit gehoorapparaat": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Geluidsherkenning": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Geluiden": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Teksttelefoonsoftware": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Teksttelefoontoestel": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Audio en visueel": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Audio": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Aangepaste koptelefoon": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_874": {
+        "Aangepaste koptelefoon": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Configuratie van aangepast geluid": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Achtergrond­geluiden": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Monogeluid": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Ruisonderdrukking": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Balans": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Visueel": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "Ledflits bij melding": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_875": {
+        "Flits bij ontgrendeling": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Flits in stille modus": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Stereobalans links rechts": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Geluiden voor aan- en uitzetten": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Ondertiteling en bijschriften": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Stijl": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Bijschriften geluid + O.D.S.": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Toon audiotranscripties": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_876": {
+      "Live bijschriften (bèta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Live bijschriften in FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Algemeen": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Begeleide toegang": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Begeleide toegang": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Toegangscode-instellingen": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_877": {
+        "Stel code voor begeleide toegang in": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Tijdslimieten": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_878": {
+        "Melding": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Geluid": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Spreek uit": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Activeringsknop": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Automatisch schermslot": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Aangepaste toegankelijkheids­modus": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Typ vragen aan Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Gesproken reacties": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Automatisch gesproken reacties": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Bij voorkeur stille reacties": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Spreek niet in stille modus": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Luister altijd naar 'Hé, Siri'": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Activeringsknop": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Vergrootglas": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Instellingen per app": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Bedien apparaten in de buurt": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Beeldscherm en helderheid": {
+    "(root)": "prefs:root=DISPLAY",
+    "Weergave": "prefs:root=DISPLAY&path=MAGNIFY",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Gepland": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Zet handmatig aan tot morgen": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Kleurtemperatuur": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Automatisch slot": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Til op om te activeren": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Vergrendel / Ontgrendel": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Tekstgrootte": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Vette tekst": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Weergavezoom": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP"
+  },
+  "Blootstellingsmeldingen": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_879": {
+    "Meldingsbadges": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Nieuwe appdownloads": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Beginscherm en multitasking": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_880": {
+      "Toon appbibliotheek in Dock": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Toon aanbevolen en recente apps in Dock": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Beginscherm": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Nieuwe appdownloads": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Meldingsbadges": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID en toegangscode": {
+    "(root)": "prefs:root=PASSCODE",
+    "Zet code uit": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Wijzig toegangscode": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Vraag om code": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Voicedialing": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Toegang bij vergrendeling": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Antwoord met bericht": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Woningbeheer": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Wallet": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Bel gemiste oproepen terug": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Wis gegevens": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Ontgrendel met Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcasts": "prefs:root=PODCASTS",
+  "SOS-noodmelding": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Bel met zijknop": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Automatisch bellen": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "SOS-contactpersonen": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Aftelgeluid": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Geluiden": {
+    "(root)": "prefs:root=Sounds",
+    "Koptelefoonveiligheid": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning-adapters": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Koptelefoonmeldingen": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Verminder harde geluiden": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Geluidseffecten": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Beltoon en meldingen": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Wijzig met knoppen": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Geluiden en trillingspatronen": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Beltoon": "prefs:root=Sounds&path=Ringtone",
+    "Sms-toon": "prefs:root=Sounds&path=Text_Messages",
+    "Nieuwe voicemail": "prefs:root=Sounds&path=Voicemail",
+    "Nieuwe e‑mail": "prefs:root=Sounds&path=NEW_MAIL",
+    "Verstuurde e‑mail": "prefs:root=Sounds&path=SENT_MAIL",
+    "Agendameldingen": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Herinneringsmeldingen": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Toetsenbordklik": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Vergrendelgeluid": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Weer": "prefs:root=WEATHER",
+  "Kompas": {
+    "(root)": "prefs:root=COMPASS",
+    "Gebruik geografische noorden": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Bedieningspaneel": {
+    "(root)": "prefs:root=ControlCenter",
+    "Toegang vanuit apps": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Pas regelaars aan": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Ontwikkelaar": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Multipath-netwerkvoorzieningen": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Multipath-netwerkvoorzieningen": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Weergave": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Donkere weergave": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Gekoppelde apparaten": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Wis vertrouwde computers": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Instrumenten": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Logbestanden bijhouden": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "UI-automatisering": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Netwerken": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Network Link Conditioner": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "App van iAd-ontwikkelaar testen": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Invulfrequentie": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Markeer afgekapte stroken": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Onbeperkte advertentiepresentatie": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "PassKit testen": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Aanvullende logboekregistratie": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Sta HTTP-voorzieningen toe": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Schakel frequentiebeperking uit": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "NFC-sleutel optioneel": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Mediavoorzieningen testen": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "AirPlay-suggesties": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Stel mediavoorzieningen opnieuw in": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "News testen": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Stel lokale gegevens bij volgende start opnieuw in": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Media Player Framework testen": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API voor afspeelbaar materiaal": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Tv-aanbieders testen": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "Tv-aanbieders": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit-API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "CoreSpotlight testen": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Indexeer alle onderdelen opnieuw": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Indexeer alle onderdelen met ID's opnieuw": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Opdrachten testen": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Toon recente opdrachten": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Toon geplande media": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Toon donaties op het toegangsscherm": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Forceer synchronisatie van opdrachten naar Apple Watch": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "MIDI-CI testen": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Schakel MIDI-CI in": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Gezondheid": "prefs:root=HEALTH",
+  "Meten": {
+    "(root)": "prefs:root=MEASURE",
+    "Meeteenheden": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Imperial": "prefs:root=MEASURE#Imperial",
+    "Metrisch": "prefs:root=MEASURE#Metric"
+  },
+  "Muziek": {
+    "(root)": "prefs:root=MUSIC",
+    "Toon Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Voeg afspeellijstnummers toe": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Toon sterbeoordelingen": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Synchroniseer bibliotheek": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Mobiele data": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Gedownloade muziek": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Optimaliseer opslag": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Automatische downloads": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "Equalizer": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Geluidscontrole": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Gebruik luistergeschiedenis": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Notities": {
+    "(root)": "prefs:root=NOTES",
+    "Standaardaccount": "prefs:root=NOTES&path=Default%20Account",
+    "Wachtwoord": "prefs:root=NOTES&path=Password",
+    "Sorteer notities op": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Begin nieuwe notities met": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Sorteer afgevinkte onderdelen": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Lijnen/roosters": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Bewaar in Foto's": "prefs:root=NOTES#Save%20to%20Photos",
+    "Open Notities in toegangsscherm": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Berichten": "prefs:root=MESSAGES",
+  "Vertaal": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Apparaatmodus": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "Tv-aanbieder": "prefs:root=VIDEO_SUBSCRIBER",
+  "Dictafoon": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Wis verwijderde onderdelen": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Audiokwaliteit": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Locatiegebonden benaming": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Camera": {
+    "(root)": "prefs:root=CAMERA",
+    "Bestandsstructuren": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_881": {
+      "HDR-video": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Bewaar instellingen": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Cameramodus": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Raster": "prefs:root=CAMERA#CameraGridSwitch",
+    "Scan QR-codes": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Kaarten": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Contacten": {
+    "(root)": "prefs:root=CONTACTS",
+    "Geef Contacten toegang tot": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri en zoeken": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Sorteervolgorde": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Geef weer": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Korte naam": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Korte naam": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Gebruik bijnamen": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Mijn info": "prefs:root=CONTACTS&path=MeCard",
+    "Importeer simcontacten": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Boeken": {
+    "(root)": "prefs:root=IBOOKS",
+    "Materiaal op internet": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "SYNCHRONISEREN": "prefs:root=IBOOKS#SYNCING",
+    "Lees ik nu": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "LEZEN": "prefs:root=IBOOKS#READING",
+    "Volledig uitgevuld": "prefs:root=IBOOKS#BKFullJustification",
+    "Woordafbreking": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Vooruit via beide kantlijnen": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Leesdoelen": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Wis gegevens over leesdoelen": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "ZOEKEN": "prefs:root=IBOOKS#SEARCHING",
+    "Book Store": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "AUDIOBOEKEN": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Spring vooruit": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Spring terug": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "EXTERNE REGELAARS": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Volgende/vorige": "prefs:root=IBOOKS#Next/Previous",
+    "Spring vooruit/achteruit": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "PRIVACY": "prefs:root=IBOOKS#PRIVACY",
+    "Stel ID opnieuw in": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Colofon": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Agenda": {
+    "(root)": "prefs:root=CALENDAR",
+    "Tijdzoneprioriteit": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Alternatieve kalenders": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Weeknummers": "prefs:root=CALENDAR#Week%20Numbers",
+    "Toon wie heeft afgeslagen": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Synchroniseer": "prefs:root=CALENDAR&path=Sync",
+    "Standaardtijd meldingen": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Begin week op": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Voorgestelde locaties": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Accounts": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Voeg account toe": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Nieuwe gegevens": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Voorvertoning": "prefs:root=MAIL&path=Preview",
+    "Toon Aan/Kopie-labels": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Veegopties": "prefs:root=MAIL&path=Swipe%20Options",
+    "Vraag bij verwijderen": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Laad externe afbeeldingen": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Berichtenreeksen": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Vouw samen indien gelezen": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Nieuwste berichten bovenaan": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Volledige berichtenreeksen": "prefs:root=MAIL#Complete%20Threads",
+    "Handeling stille berichtenreeks": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Negeer geblokkeerde afzenders": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Geblokkeerd": "prefs:root=MAIL&path=Blocked",
+    "Blinde kopie naar mij": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Markeer adressen": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Verhoog citaatniveau": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Stuur bijlagen mee met antwoorden": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Handtekening": "prefs:root=MAIL&path=Signature"
+  },
+  "Telefoon": {
+    "(root)": "prefs:root=Phone",
+    "Mijn nummer": "prefs:root=Phone&path=My%20Number",
+    "Inkomend": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Kondig beller aan": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Sms/oproep melden": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Reageer met tekstbericht": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Doorschakelen": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Doorschakelen": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Wisselgesprek": "prefs:root=Phone&path=Call%20Waiting",
+    "Nummerherkenning": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_882": {
+        "Nummerherkenning": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Houd onbekende bellers stil": "prefs:root=Phone#SILENCE_CALLS",
+    "Geblokkeerde contacten": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Nummerassistentie": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Materiaalblokkering": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Blokkeer pop-ups": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Voorkom tracking": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Vul automatisch in": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Downloads": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Wachtwoorden": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Vul automatisch in": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Foto's": {
+    "(root)": "prefs:root=Photos",
+    "iCloud-foto's": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Optimaliseer opslag": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Download en bewaar originelen": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Mijn fotostream": "prefs:root=Photos#PhotoStreamSwitch",
+    "Gedeelde albums": "prefs:root=Photos#SharedStreamsSwitch",
+    "Mobiele data": "prefs:root=Photos&path=CellularDataLinkList",
+    "Speel video's automatisch af": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Bekijk volledig HDR": "prefs:root=Photos#ImageModulationSwitch",
+    "Toon feestelijke activiteiten": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Zet over naar Mac of pc": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Automatische downloads": "prefs:root=STORE#Automatic%20Downloads",
+    "App-updates": "prefs:root=STORE#App%20Updates",
+    "Appdownloads": "prefs:root=STORE&path=App%20Downloads",
+    "Speel video automatisch af": "prefs:root=STORE&path=Video%20Autoplay",
+    "Beoordelingen en recensies": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Show Story Previews": "prefs:root=NEWS#show_excerpt_mode",
+    "Restrict Stories in Today": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Privacy": "prefs:root=NEWS#Privacy",
+    "Stel ID opnieuw in": "prefs:root=NEWS#reset_identifier",
+    "Colofon": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_883": {
+    "Vliegtuigmodus": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Herinneringen": {
+    "(root)": "prefs:root=REMINDERS",
+    "Standaardlijst": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Herinneringen": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Melding vandaag": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Toon als verlopen": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Batterij": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Energiebesparingsmodus": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Batterijconditie": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Opdrachten": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "iCloud-synchronisatie": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Volgorde opdrachten in 'Synchronisatie'": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Juridische informatie": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri en zoeken": {
+    "(root)": "prefs:root=SIRI",
+    "Sta Siri toe bij vergrendeling": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Taal": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Siri-stem": "prefs:root=SIRI&path=VOICE_ID",
+    "Gesproken feedback": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Mijn informatie": "prefs:root=SIRI&path=MY_INFO",
+    "Zoeksuggesties": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Opzoeksuggesties": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Toegangsschermsuggesties": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Aandelen": {
+    "(root)": "prefs:root=STOCKS",
+    "Privacy": "prefs:root=STOCKS#Privacy",
+    "Stel ID opnieuw in": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Mobiel netwerk": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Opties mobiele data": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Databesparingsmodus": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Mobiele data": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Mobiele data voor afspelen": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Afspeelkwaliteit": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Gekocht en gehuurd": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Thuisdeling": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Achtergrond": "prefs:root=Wallpaper"
+}

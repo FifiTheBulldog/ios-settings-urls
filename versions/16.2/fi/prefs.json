@@ -1,0 +1,1156 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "iCloud-tallennustila": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Kuvat": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Yhteystiedot": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Kalenteri": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Muistutukset": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Muistiinpanot": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Varmuuskopio": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Terveys": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Salasanat ja avainnippu": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Suojattu lähetys": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Jaa oma sijainti": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Etsi iPhoneni": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Nimi, puhelin, sähköposti": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Salasana ja suojaus": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Maksu ja toimitus": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Tilaukset": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Perhe": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Tietosuoja ja suojaus": {
+    "(root)": "prefs:root=Privacy",
+    "Turvatarkastus": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Sijainti": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Jaa oma sijainti": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Yhteystiedot": "prefs:root=Privacy&path=CONTACTS",
+    "Kalenterit": "prefs:root=Privacy&path=CALENDARS",
+    "Muistutukset": "prefs:root=Privacy&path=REMINDERS",
+    "Kuvat": "prefs:root=Privacy&path=PHOTOS",
+    "Bluetooth-jako": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Mikrofoni": "prefs:root=Privacy&path=MICROPHONE",
+    "Puheentunnistus": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Kamera": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Media ja Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Analyysi": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Mainonta": "prefs:root=Privacy&path=ADVERTISING",
+    "Tiedostot ja kansiot": "prefs:root=Privacy&path=FILEACCESS",
+    "Seuranta": "prefs:root=Privacy&path=USER_TRACKING",
+    "Appien tietosuoja­raportti": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Sulkutila": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Terveys": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Keskity": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Keskity-tilan jakaminen": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Yleiset": {
+    "(root)": "prefs:root=General",
+    "VPN ja laitehallinta": "prefs:root=General&path=ManagedConfigurationList",
+    "Kuva kuvassa": "prefs:root=General&path=PiP_SPEC",
+    "Ohjauslevy ja hiiri": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Tietoja": {
+      "(root)": "prefs:root=General&path=About",
+      "Luotetut varmenteet": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Oikeudet ja merkinnät": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Ohjelmistopäivitys": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Koti-painike": "prefs:root=General&path=HOME_BUTTON",
+    "Eleet": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Sivukytkin": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Appien päivitys taustalla": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Päivä ja aika": "prefs:root=General&path=DATE_AND_TIME",
+    "TV-lähtö": "prefs:root=General&path=TV_OUT",
+    "Viralliset merkinnät": "prefs:root=General&path=REGULATORY",
+    "Nollaa": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Nollaa kaikki asetukset": "prefs:root=General&path=Reset#settingsErase",
+      "Poista kaikki sisältö ja asetukset": "prefs:root=General&path=Reset#fullErase",
+      "Nollaa verkkoasetukset": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Poista kaikki mobiilidataliittymät": "prefs:root=General&path=Reset#cellularErase",
+      "Tilaajapalvelut": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Nollaa näppäimistön sanakirja": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Nollaa Koti-valikon asettelu": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Nollaa sijainti ja tietosuoja": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Sammuta": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay ja Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Siirrä HomePodiin": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Käytä AirPlayta TV:ihin": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Jatkuvuuskamera": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Sanakirja": "prefs:root=General&path=DICTIONARY",
+    "Kieli ja alue": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Muut kielet…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Ensisijainen kielijärjestys": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Lisää kieli…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Alue": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Numerot": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Kalenteri": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Lämpötilayksikkö": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Näppäimistö": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Näppäimistöt": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Tekstin korvaus": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Autom. isot alkukirjaimet": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Automaattinen korjaus": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Oikeinkirjoituksen tarkistus": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Salli caps lock": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Pikakomennot": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Ennakoiva": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Älykkäät välimerkit": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Jaettu näppäimistö": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Salli pyyhkäisynäppäimet": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Merkin esikatselu": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "”.”-oikotie": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Liukukirjoitus": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Ota sanelu käyttöön": "prefs:root=General&path=Keyboard#Dictation",
+      "Automaattiset välimerkit": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Tallennustila": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Poista käyttämättömät apit": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Ilmoitukset": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Ajastettu yhteenveto": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Lompakko ja Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Maksukortit": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Lisää kortti": "prefs:root=PASSBOOK#Add%20Card",
+    "Kaksoispaina sivupainiketta": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Tilauksen seuranta": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Ruutuaika": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Tänään": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Viikko": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Käyttötauko": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Appirajoitukset": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Viestintärajoitukset": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Viestinnän turvallisuus": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Sallittu aina": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Sisältö ja yksityisyys": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Käyttörajoitukset": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Käyttöapu": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Näkö": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Puhenopeus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Puhe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Puheääni": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Monisanaisuus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Välimerkit": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Taulukon otsakkeet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Mediakuvaukset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Pois": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Puhe": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Pistekirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Puhe ja pistekirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Pistekirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Lähtö": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Lyhentämätön 6-pisteinen kirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Lyhentämätön 8-pisteinen kirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Lyhennetty pistekirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Syöttö": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Lyhentämätön 6-pisteinen kirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Lyhentämätön 8-pisteinen kirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Lyhennetty pistekirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Automaattinen käännös": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Pistesyöttö näytöllä": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Lyhentämätön 6-pisteinen kirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Lyhentämätön 8-pisteinen kirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Lyhennetty pistekirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Käänteiset pisteiden paikat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Pistekirjoitustaulukot": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Lisää pistekirjoitustaulukko…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Tilasolut": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Tilasolujen sijainti": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Vasen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Oikea": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Näytä yleinen tila": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Näytä tekstitila": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Yhtälöt Nemethin koodilla": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Näytä virtuaalinen näppäimistö": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Käännä sivut vieritettäessä": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Rivitys": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Pistekirjoituksen varoitukset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Ohita yhteisnäppäinten kesto": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Automaattisen etenemisen kesto": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Ääni": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Äänen vaimennus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Käytä puheluihin kaiutinta": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Lähetä HDMI:hin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Komennot": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Toiminnot": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Ohjelmointi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Lisää toiminto…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Roottori": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Roottoritoiminnot": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Muokkaa appeja Koti-valikossa": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Suora kosketus -apit": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Kirjoittaminen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Kirjoitustyyli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Normaali kirjoitustyyli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Kosketuskirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Suora kosketuskirjoitus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Merkkipalaute": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Pois": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Merkit ja radioaakkoset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Vain radioaakkoset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Kirjoitettaessa puhu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Muuntonäppäimet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Ctrl-optio": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Caps lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Näppäimistön käyttöviive": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Siirry kuviin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Aina": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Kuvaustekstillisiin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Ei koskaan": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Suuri kohdistin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Tekstityspaneeli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Kaksoisnapautuksen aika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Kaksoisnapautuksen aika": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Navigointityyli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Pika-asetukset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Äänet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Äänen vaimennus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Äänenvoimakkuus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Puhenopeus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Vihjeet": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Navigointityyli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Kirjoitustyyli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Kirjoita liu’uttamalla": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Toiminnot": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Puhu aina ilmoitukset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Pistekirjoituksen varoitukset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Pistekirjoituksen automaattinen eteneminen": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Pistekirjoitussyöttö": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Pistekirjoitustulostus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Pistekirjoitustaulukot": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Tekstityspaneeli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Suora kosketus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Eleen suunta": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Kirjoitettaessa puhu (laitteistototeutus)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Kieli": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Suuri kohdistin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Mediakuvaukset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Siirry kuviin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Merkkipalaute": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Äänenkorkeuden muutos": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Välimerkit": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Lähetä HDMI:hin": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Kirjoitettaessa puhu (ohjelmistototeutus)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Puhu roottorivahvistus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Kuvien kuvaukset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Näytöntunnistus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "VoiceOver-tunnistus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Kuvien kuvaukset": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Näytöntunnistus": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Zoomaus": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Zoomaus": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Seuraa kohdistusta": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Älykäs kirjoitustapa": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Näppäinoikotiet": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Näppäinoikotiet": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Säädä zoomaustasoa": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Zoomaus päälle/pois": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Siirrä zoomausikkunaa": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Muuta zoomausikkunan kokoa": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Vaihda zoomattua aluetta": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Tilapäinen zoomaus päälle/pois": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Zoomaa vierityspyörällä": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Zoomausohjain": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Zoomausalue": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Koko näyttö": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Zoomausikkuna": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Suurin zoomaustaso": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Zoomaussuodatin": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Näytä käytettäessä peilausta": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Leijuva teksti": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Näyttö ja tekstin koko": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Lihavoi teksti": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Suurenna tekstiä": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Painikemuodot": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Näytä kytkinmerkit": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Vähennä läpinäkyvyyttä": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Lisää kontrastia": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Erottele ilman väriä": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Älykkäät käänteisvärit": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Klassiset käänteisvärit": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Värisuodattimet": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Värisuodattimet": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Vähennä valkopistettä": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Automaattinen kirkkaus": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Liike": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Vähennä liikettä": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Toista viestitehosteet aina": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Toista videoesikatselut": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Puhuttu sisältö": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Puhu valinnat": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Puhu näyttö": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Puheohjain": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Muokkaa hiiripainikkeita": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Korosta sisältö": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Kirjoitettaessa puhu": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Merkkipalaute": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Merkit": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Merkkivihjeet": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Puhu sanat": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Puhu korjaukset": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Puhu ehdotukset painamalla": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Puheäänet": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Oletuskieli": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Tunnista kielet": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Puhenopeus": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Ääntämykset": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Kuvailutulkkaus": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Kuvailutulkkaus": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Fysiikka ja motoriikka": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Kosketus": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Muokkaa ylätason valikkoa": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Muuta napauttamalla kuvaketta": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Nollaa…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Muokatut toiminnot": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Kertanapautus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Kaksoisnapautus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Kaksoisnapautuksen aika": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Pitkä painallus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Pitkän painalluksen kesto": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Muokatut eleet": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Luo uusi ele…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Peittävyys toimettomana": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Osoitinlaitteet": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Laitteet": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Bluetooth-laitteet…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Näppäimet hiirenä": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Osoittimen tyyli": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Koko": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Visuaalinen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Väri": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Muokkaa hiiripainikkeita": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Kätke automaattisesti": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_408": {
+            "Kätke automaattisesti": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Näytä virtuaalinen näppäimistö": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Näytä valikko aina": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Viipymisohjaus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Liikkeen toleranssi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Seurannan herkkyys": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Varatoiminto": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Aktivointikulmat": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Käytä peliohjainta": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D- ja värinäkosketus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_409": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "3D Touchin herkkyys": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Kosketuksen kesto": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Nopea": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Hidas": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "3D Touchin herkkyyden ja kosketuksen keston testi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Kosketusten mukautus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_410": {
+        "Kosketusten mukautus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Pidon kesto": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Älä huomioi toistoa": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Napautusavustaja": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Pois": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Käytä alkukosketuksen sijaintia": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Käytä loppukosketuksen sijaintia": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Herätä napauttamalla": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Herätä napauttamalla tai pyyhkäisemällä": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Peru ravistamalla": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Värinä": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Estä puhelun lopettaminen lukitsemalla": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Puheluiden äänireititys": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_411": {
+        "Automaattinen": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Bluetooth-kuulokemikrofoni": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Kaiutin": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Vastaa automaattisesti": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID ja katsekontakti": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Vaadi katsekontaktia Face ID:lle": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Katsekontaktitoiminnot": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Tuntopalaute": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Vahvista todennus tuntopalautteella": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Kytkinohjaus": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Kytkinohjaus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Kytkimet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_412": {
+        "Lisää uusi kytkin…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Bluetooth-laitteet…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Kaavat": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Askellustyyli": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_413": {
+        "Automaattinen askellus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Askellus käsin": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Yhden kytkimen askellus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Ajoitus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Autom. askelluksen aika": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_414": {
+        "Autom. askelluksen aika": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Pysähdy 1. kohteessa": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_415": {
+        "Pysähdy 1. kohteessa": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Siirtymisen toisto": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_416": {
+        "Siirtymisen toisto": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Pitkä painallus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_417": {
+        "Pitkä painallus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Napautustoiminto": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_418": {
+        "Oletus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Autom. napautus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Napauta aina": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Aktivoi seuraavaksi": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_419": {
+        "Ensimmäinen kohde": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Nykyinen kohde": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Näppäimistö": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Skannaa näppäin uudelleen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Napauta aina näppäimiä": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Laajennetut ehdotukset": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Kytkimen vakautus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Pidon kesto": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_420": {
+        "Pidon kesto": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Älä huomioi toistoa": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_421": {
+        "Älä huomioi toistoa": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Pisteaskellus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Liukuva kohdistin": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_422": {
+        "Valintatila": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Yksivaiheinen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Tarkka": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Tarkin": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Liukuvan kohdistimen nopeus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Päänseuranta": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_423": {
+        "Päänseuranta": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Ääni": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Äänitehosteet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Puhe": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_424": {
+        "Puheäänet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Puhenopeus": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Valikkokohteet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Ryhmitä kohteet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Visuaalinen": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Suuri kohdistin": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Tallennetut eleet": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_425": {
+        "Luo uusi ele…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Kohdistimen väri": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Ääniohjaus": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Ota ääniohjaus käyttöön": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Kieli": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_426": {
+        "Englanti (Yhdysvallat)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Muokkaa komentoja": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Sanasto": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Komentopalaute": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Näytä vahvistus": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Toista äänimerkki": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Näytä vihjeet": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Jatkuva peittokuva": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Peittokuva": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_427": {
+        "Ei mitään": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Kohteiden numerot": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Kohteiden nimet": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Numeroitu ruudukko": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Katsekontakti": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Sivupainike": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Painallusnopeus": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Oletus": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Hidas": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Hitain": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Puhu pitämällä painettuna": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Klassinen ääniohjaus": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Pois": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV -kaukosäädin": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Suuntapainikkeet": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Apple Watchin etänäyttö": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Näppäimistöt": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Täysi näppäimistökäyttö": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_428": {
+        "Täysi näppäimistökäyttö": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Visuaaliset": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Kätke automaattisesti": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Suuri tarkennusympyrä": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Väri": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Näppäintoisto": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_429": {
+        "Näppäintoisto": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Näppäintoiston aikaväli": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Viive ennen toistoa": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "1 sormen näppäimet": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_430": {
+        "1 sormen näppäimet": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Päälle/pois vaihtonäppäimellä": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Ääni": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Hitaat näppäimet": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_431": {
+        "Hitaat näppäimet": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Näytön näppäimistöt": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Näytä pikkukirjaimet": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Kuulo": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Kuulokojeet": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "MFi-kuulokojeet": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Kuulolaitteen yhteensopivuus": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Äänentunnistus": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Äänet": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT-/tekstipuhelu": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Tekstipuhelinohjelmisto": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Tekstipuhelinlaite": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Kuulo ja näkö": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Ääni": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Kuulokkeiden mukautus": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_432": {
+        "Kuulokkeiden mukautus": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Muokattu äänen käyttöönotto": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Taustaäänet": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Monoääni": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Vastamelu": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Balanssi": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Visuaalinen": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "Ilmoita väläyttämällä LEDiä": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_433": {
+        "Väläytä, kun avattuna": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Väläytä, kun hiljaisessa tilassa": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Stereotasapaino (vasen-oikea)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Käynnistys- ja sammutusäänet": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Tekstitys": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Tyyli": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Kuvaileva ja ohjelmatekstitys": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Näytä äänen puhtaaksikirjoitukset": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_434": {
+      "Live-tekstitys (beta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Live-tekstitys FaceTimessa": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Yleiset": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Ohjattu käyttö": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Ohjattu käyttö": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Pääsykoodiasetukset": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_435": {
+        "Aseta Ohjatulle käytölle pääsykoodi": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Aikarajat": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_436": {
+        "Muistutus": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Ääni": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Puhu": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Käyttöapu-oikotie": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Näytön autom. lukitus": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Muokattu käyttöaputila": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Syötä tekstiä Sirille": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Puhutut vastaukset": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Automaattiset puhutut vastaukset": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Ensisijaisesti hiljaiset vastaukset": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Älä puhu Hiljaisessa tilassa": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Reagoi aina Hei Siri ‑kutsuun": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Käyttöapu-oikotie": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Suurennuslasi": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Appikohtaiset asetukset": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Hallitse lähellä olevia laitteita": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Näyttö ja kirkkaus": {
+    "(root)": "prefs:root=DISPLAY",
+    "Ulkoasu": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Ajastettu": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Aseta käsin huomiseen asti": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Värilämpötila": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Automaattilukitus": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Herätä nostamalla": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Lukitse/avaa": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Tekstin koko": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Tekstin lihavointi": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Näytön zoomaus": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Näkymä": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Altistusilmoitukset": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_437": {
+    "Ilmoitusmerkit": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Äskettäin ladatut apit": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Koti-valikko ja moniajo": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_438": {
+      "Näytä appikirjasto Dockissa": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Näytä ehdotetut ja äskeiset apit Dockissa": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Koti-valikko": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Äskettäin ladatut apit": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Ilmoitusmerkit": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID ja pääsykoodi": {
+    "(root)": "prefs:root=PASSCODE",
+    "Poista pääsykoodi käytöstä": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Vaihda pääsykoodi": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Vaadi pääsykoodia": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Äänivalinta": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Salli käyttö, kun lukittuna": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Vastaa viestillä": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Kodin ohjaus": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Lompakko": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Soita vastaamattomiin puheluihin": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Poista data": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Avaa lukitus Apple Watchilla": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcastit": "prefs:root=PODCASTS",
+  "Hätätila SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Soita sivupainikkeella": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Automaattinen puhelu": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "ICE-yhteyshenkilöt": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Käynnistyslaskennan ääni": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Äänet": {
+    "(root)": "prefs:root=Sounds",
+    "Kuulokkeiden turvallisuus": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Lightning-sovittimet": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Kuulokeilmoitukset": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Kovien äänten hiljennys": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Äänitehosteet": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Soitto- ja ilmoitusäänet": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Muuta painikkeilla": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Äänet ja värinäkuviot": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Soittoääni": "prefs:root=Sounds&path=Ringtone",
+    "Viestiääni": "prefs:root=Sounds&path=Text_Messages",
+    "Uusi puheposti": "prefs:root=Sounds&path=Voicemail",
+    "Uusi sähköposti": "prefs:root=Sounds&path=NEW_MAIL",
+    "Lähetetty sähköposti": "prefs:root=Sounds&path=SENT_MAIL",
+    "Kalenteriäänet": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Muistutusäänet": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Näppäimistöäänet": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Lukitusääni": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Sää": "prefs:root=WEATHER",
+  "Kompassi": {
+    "(root)": "prefs:root=COMPASS",
+    "Käytä todellista pohjoista": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Ohjauskeskus": {
+    "(root)": "prefs:root=ControlCenter",
+    "Salli pääsy apeista": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Muokkaa säätimiä": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Kehittäjä": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Multipath-verkko": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Multipath-verkko": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Ulkoasu": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Tumma ulkoasu": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Laiteparit": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Poista luotetut tietokoneet": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Instrumentit": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Kirjaaminen": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "UI-automaatio": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Verkot": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Network Link Conditioner": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "iAd-kehittäjäapin testaus": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Täytä taajuus": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Korosta leikkautuneet bannerit": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Rajoittamaton mainosesitys": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "PassKit-testaus": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Lisäkirjaaminen": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Salli HTTP-palvelut": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Poista taajuusrajoitus käytöstä": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "NFC Pass Key valinnainen": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Mediapalvelujen testaus": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "AirPlay-ehdotukset": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Nollaa mediapalvelut": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "News-testaus": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Nollaa paikallinen data seur. käynnistyksessä": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Mediasoittimen framework-testaus": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "Toistettavan sisällön API": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "TV-palveluntarjoaja-testaus": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "TV-palveluntarjoajat": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "CoreSpotlight-testaus": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Uudelleenindeksoi kaikki kohteet": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Uudelleenindeksoi kohteet, joissa tunniste": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Oikotiet-testaus": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Näytä äskeiset oikotiet": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Näytä tuleva media": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Näytä lahjoitukset lukitulla näytöllä": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Pakota Watchin Oikotiet-synkronointi": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "MIDI-CI-testaus": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Ota MIDI-CI käyttöön": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Terveys": "prefs:root=HEALTH",
+  "Mittanauha": {
+    "(root)": "prefs:root=MEASURE",
+    "Mittayksiköt": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Imperiaalinen": "prefs:root=MEASURE#Imperial",
+    "Metrinen": "prefs:root=MEASURE#Metric"
+  },
+  "Musiikki": {
+    "(root)": "prefs:root=MUSIC",
+    "Näytä Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Lisää soittolistakappaleet": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Näytä tähtiarvioinnit": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Synkronoi kirjasto": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Mobiilidata": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Ladattu musiikki": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Optimoi tallennustila": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Automaattiset lataukset": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Voimakkuuden tasaus": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Käytä kuunteluhistoriaa": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Muistiinpanot": {
+    "(root)": "prefs:root=NOTES",
+    "Oletustili": "prefs:root=NOTES&path=Default%20Account",
+    "Salasana": "prefs:root=NOTES&path=Password",
+    "Järjestys": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Uuden aloitustyyli": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Järjestä tehdyt kohteet": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Viivasto/ruudukko": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Tallenna Kuviin": "prefs:root=NOTES#Save%20to%20Photos",
+    "Muistiinpanot lukitulta näytöltä": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Viestit": "prefs:root=MESSAGES",
+  "Käännä": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Offline-käännös": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "TV-palveluntarjoaja": "prefs:root=VIDEO_SUBSCRIBER",
+  "Sanelin": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Tyhjennä poistetut": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Äänenlaatu": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Sijaintipohjaiset nimet": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Kamera": {
+    "(root)": "prefs:root=CAMERA",
+    "Tallennusmuodot": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_439": {
+      "HDR-video": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Säilytä asetukset": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Kameratila": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Ruudukko": "prefs:root=CAMERA#CameraGridSwitch",
+    "Skannaa QR-koodit": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Kartat": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Yhteystiedot": {
+    "(root)": "prefs:root=CONTACTS",
+    "Salli Yhteystietojen käyttää": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri ja haku": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Järjestys": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Näyttöjärjestys": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Lyhyt nimi": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Lyhyt nimi": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Suosi lempinimiä": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Omat tiedot": "prefs:root=CONTACTS&path=MeCard",
+    "Tuo SIM-yhteystiedot": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Kirjat": {
+    "(root)": "prefs:root=IBOOKS",
+    "Online-sisältö": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "SYNKRONOINTI": "prefs:root=IBOOKS#SYNCING",
+    "Luettavana": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "LUKEMINEN": "prefs:root=IBOOKS#READING",
+    "Tasaa reunoihin": "prefs:root=IBOOKS#BKFullJustification",
+    "Automaattinen tavutus": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Etene marginaaleista": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Lukutavoitteet": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Tyhjennä lukutavoitetiedot": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "HAKU": "prefs:root=IBOOKS#SEARCHING",
+    "Book Store": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "ÄÄNIKIRJAT": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Siirry eteenpäin": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Siirry taaksepäin": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "ULKOISET SÄÄTIMET": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Seuraava/edellinen": "prefs:root=IBOOKS#Next/Previous",
+    "Hyppää eteen-/taaksepäin": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "TIETOSUOJA": "prefs:root=IBOOKS#PRIVACY",
+    "Nollaa tunniste": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Tekijänoikeustiedot": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Kalenteri": {
+    "(root)": "prefs:root=CALENDAR",
+    "Kiinteä aikavyöhyke": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Muut kalenterit": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Viikkonumerot": "prefs:root=CALENDAR#Week%20Numbers",
+    "Näytä kutsusta kieltäytyneet": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Synkronointi": "prefs:root=CALENDAR&path=Sync",
+    "Oletushälytysajat": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Viikon aloituspäivä": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Paikkaehdotukset": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Tilit": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Lisää tili": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Hae uudet tiedot": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Esikatselu": "prefs:root=MAIL&path=Preview",
+    "Näytä To/Cc-merkit": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Pyyhkäisyvalinnat": "prefs:root=MAIL&path=Swipe%20Options",
+    "Kysy ennen poistoa": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Lataa etäkuvat": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Ketjuta viestit": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Pienennä luetut viestit": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Uusin viesti ylimpänä": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Kokoa ketjut": "prefs:root=MAIL#Complete%20Threads",
+    "Mykistetty ketju": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Ohita estetyt lähettäjät": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Estetyt": "prefs:root=MAIL&path=Blocked",
+    "Piilokopio itselle": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Merkitse osoitteet": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Lisää lainaussyvyyttä": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Sisällytä liitteet vastauksiin": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Allekirjoitus": "prefs:root=MAIL&path=Signature"
+  },
+  "Puhelin": {
+    "(root)": "prefs:root=Phone",
+    "Oma numero": "prefs:root=Phone&path=My%20Number",
+    "Tulevat puhelut": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Ilmoita puhelut": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Tekstiviesti-/puheluraportointi": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Vastaa viestillä": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Soitonsiirto": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Soitonsiirto": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Koputuspalvelu": "prefs:root=Phone&path=Call%20Waiting",
+    "Näytä oma numero": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_440": {
+        "Näytä oma numero": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Hiljennä tuntemattomat soittajat": "prefs:root=Phone#SILENCE_CALLS",
+    "Estetyt yhteystiedot": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Soittoapu": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Sisällön estäjä": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Estä ponnahdusikkunat": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Estä seuranta sivustojen välillä": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Automaattinen täyttö": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Lataukset": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Salasanat": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Täytä salasanat automaattisesti": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Kuvat": {
+    "(root)": "prefs:root=Photos",
+    "iCloud-kuvat": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Optimoi tallennustila": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Lataa ja pidä alkuperäiset": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Oma kuvavirta": "prefs:root=Photos#PhotoStreamSwitch",
+    "Jaetut albumit": "prefs:root=Photos#SharedStreamsSwitch",
+    "Mobiilidata": "prefs:root=Photos&path=CellularDataLinkList",
+    "Toista videoita autom.": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Näytä koko HDR": "prefs:root=Photos#ImageModulationSwitch",
+    "Näytä juhlapäivätapahtumat": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Siirto Maciin tai PC:hen": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Automaattiset lataukset": "prefs:root=STORE#Automatic%20Downloads",
+    "Appipäivitykset": "prefs:root=STORE#App%20Updates",
+    "Appien lataukset": "prefs:root=STORE&path=App%20Downloads",
+    "Automaattinen videotoisto": "prefs:root=STORE&path=Video%20Autoplay",
+    "Arviot ja arvostelut apeissa": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Näytä juttujen esikatselut": "prefs:root=NEWS#show_excerpt_mode",
+    "Rajoita juttuja Tänään-näkymässä": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Tietosuoja": "prefs:root=NEWS#Privacy",
+    "Nollaa tunniste": "prefs:root=NEWS#reset_identifier",
+    "Tekijänoikeustiedot": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_441": {
+    "Lentotila": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Muistutukset": {
+    "(root)": "prefs:root=REMINDERS",
+    "Oletuslista": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Muistutukset": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Tänään-ilmoitus": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Näytä vanhentuneena": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Akku": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Alhaisen virran tila": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Akun kunto": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Pikakomennot": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "iCloud-synkronointi": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Synkronoi oikoteiden järjestys": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Lakitiedot": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri ja haku": {
+    "(root)": "prefs:root=SIRI",
+    "Salli Siri, kun lukittuna": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Kieli": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Siri-ääni": "prefs:root=SIRI&path=VOICE_ID",
+    "Puhepalaute": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Omat tiedot": "prefs:root=SIRI&path=MY_INFO",
+    "Hakuehdotukset": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Katso lisää ‑ehdotukset": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Ehdotukset lukitulla näytöllä": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Pörssi": {
+    "(root)": "prefs:root=STOCKS",
+    "Tietosuoja": "prefs:root=STOCKS#Privacy",
+    "Nollaa tunniste": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Mobiilidata": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Mobiilidatavalinnat": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Datansäästö": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Mobiilidata": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Toista käyttämällä mobiilidataa": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Toistolaatu": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Ostot ja vuokraukset": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Kotijako": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Taustakuva": "prefs:root=Wallpaper"
+}

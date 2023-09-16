@@ -1,0 +1,1157 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "‏iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "تخزين iCloud": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "الصور": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "البريد": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "جهات الاتصال": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "التقويم": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "التذكيرات": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "سفاري": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "ملاحظات": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "الأخبار": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "نسخ احتياطي": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "صحتي": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "كلمات السر وسلسلة المفاتيح": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "إخفاء العنوان": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "مشاركة موقعي": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "العثور على الـ iPhone": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "الاسم وأرقام الهواتف والبريد الإلكتروني": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "كلمة السر والأمن": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "الدفع والشحن": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "الاشتراكات": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "العائلة": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "الخصوصية والأمن": {
+    "(root)": "prefs:root=Privacy",
+    "التحقق من الأمان": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "الموقع": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "مشاركة موقعي": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "جهات الاتصال": "prefs:root=Privacy&path=CONTACTS",
+    "التقويمات": "prefs:root=Privacy&path=CALENDARS",
+    "التذكيرات": "prefs:root=Privacy&path=REMINDERS",
+    "الصور": "prefs:root=Privacy&path=PHOTOS",
+    "مشاركة Bluetooth": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "الميكروفون": "prefs:root=Privacy&path=MICROPHONE",
+    "التعرف على الكلام": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "الكاميرا": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "الوسائط و Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "التحليلات": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "الإعلانات": "prefs:root=Privacy&path=ADVERTISING",
+    "الملفات والمجلدات": "prefs:root=Privacy&path=FILEACCESS",
+    "التتبع": "prefs:root=Privacy&path=USER_TRACKING",
+    "تقرير خصوصية التطبيقات": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "نمط المنع": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "صحتي": "prefs:root=Privacy&path=HEALTH"
+  },
+  "التركيز": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "حالة التركيز": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "عام": {
+    "(root)": "prefs:root=General",
+    "‏VPN وإدارة الجهاز": "prefs:root=General&path=ManagedConfigurationList",
+    "صورة داخل الصورة": "prefs:root=General&path=PiP_SPEC",
+    "لوحة التعقب والماوس": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "كاربلاي": "prefs:root=General&path=CARPLAY",
+    "حول": {
+      "(root)": "prefs:root=General&path=About",
+      "شهادات موثوقة": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "القانونية والتنظيمية": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "تحديث البرامج": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "الإرسال السريع": "prefs:root=General&path=AIRDROP_LINK",
+    "زر الشاشة الرئيسية": "prefs:root=General&path=HOME_BUTTON",
+    "الإيماءات": "prefs:root=General#Multitasking_Gesture_Switch",
+    "المفتاح الجانبي": "prefs:root=General#Rotation_Switch_Action_Group",
+    "تحديث التطبيقات في الخلفية": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "الوقت والتاريخ": "prefs:root=General&path=DATE_AND_TIME",
+    "مخرج التلفزيون": "prefs:root=General&path=TV_OUT",
+    "التنظيم": "prefs:root=General&path=REGULATORY",
+    "إعادة تعيين": {
+      "(root)": "prefs:root=General&path=Reset",
+      "إعادة تعيين جميع الإعدادات": "prefs:root=General&path=Reset#settingsErase",
+      "مسح جميع المحتويات والإعدادات": "prefs:root=General&path=Reset#fullErase",
+      "إعادة تعيين إعدادات الشبكة": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "إزالة كل باقات البيانات الخلوية": "prefs:root=General&path=Reset#cellularErase",
+      "خدمات المشترك": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "إعادة تعيين قاموس لوحة المفاتيح": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "إعادة تعيين شكل الشاشة الرئيسية": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "إعادة تعيين الموقع والخصوصية": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "إيقاف التشغيل": "prefs:root=General#SHUTDOWN_LABEL",
+    "‏البث السريع والتسليم": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "التسليم": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "تحويل إلى الـ HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "تشغيل البث السريع على التلفزيون تلقائيًا": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "كاميرا الاستمرار": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "قاموس": "prefs:root=General&path=DICTIONARY",
+    "اللغة والمنطقة": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "لغات أخرى…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "ترتيب اللغة المفضلة": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "إضافة لغة…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "المنطقة": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "الأرقام": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "التقويم": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "وحدة درجة الحرارة": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "لوحة المفاتيح": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "لوحات المفاتيح": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "استبدال النص": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "البدء بأحرف كبيرة تلقائيًا": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "التصحيح تلقائيًا": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "تحقق من التدقيق الإملائي": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "تمكين \"تثبيت عالي\"": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "الاختصارات": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "التنبؤ": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "الترقيم الذكي": "prefs:root=General&path=Keyboard#SmartTyping",
+      "تقسيم لوحة المفاتيح": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "تمكين الضغطات على المفاتيح": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "معاينة الأحرف": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "اختصار النقطة \".\"": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "اسحب للكتابة": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "تمكين الإملاء": "prefs:root=General&path=Keyboard#Dictation",
+      "إدراج علامات الترقيم تلقائيًا": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "السعة": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "إزالة غير المستخدمة": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "الإشعارات": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "ملخص مُجدول": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "‏المحفظة و Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "‏Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "بطاقات الدفع": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "إضافة بطاقة": "prefs:root=PASSBOOK#Add%20Card",
+    "اضغط مرتين على الزر الجانبي": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "تتبع الطلب": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "مدة استخدام الجهاز": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "اليوم": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "الأسبوع": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "وقت التوقف": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "حدود التطبيقات": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "حدود التواصل": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "أمان التواصل": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "السماح دائمًا": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "قيود المحتوى والخصوصية": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "الإشراف العائلي": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "تسهيلات الاستخدام": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "الرؤية": "prefs:root=ACCESSIBILITY#VISION",
+    "التعليق الصوتي": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "التعليق الصوتي": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "سرعة الكلام": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "النطق": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "الصوت": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "الإسهاب": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "علامات الترقيم": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "رؤوس الجدول": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "أوصاف الوسائط": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "إيقاف": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "النطق": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "برايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "النطق وبرايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "برايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "الإخراج": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "برايل ذو ست نقاط غير مضغوطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "برايل ذو ثماني نقاط غير مضغوطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "أحرف برايل مضغوطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "الإدخال": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "برايل ذو ست نقاط غير مضغوطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "برايل ذو ثماني نقاط غير مضغوطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "أحرف برايل مضغوطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "ترجمة تلقائية": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "شاشة إدخال برايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "برايل ذو ست نقاط غير مضغوطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "برايل ذو ثماني نقاط غير مضغوطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "أحرف برايل مضغوطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "عكس مواضع النقطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "جداول برايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "إضافة جدول برايل…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "خلايا الحالة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "موضع خلايا الحالة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "يسار": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "يمين": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "إظهار الحالة العامة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "إظهار حالة النص": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "المعادلات باستخدام رمز نيميث": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "إظهار لوحة المفاتيح على الشاشة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "تقليب الصفحات عند التحريك": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "فواصل السطور": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "رسائل تنبيه برايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "تجاهل مدة التآلف": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "مدة التقديم التلقائي": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "الصوت": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "تخامد الصوت": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "تحديد السماعة تلقائيًا في المكالمة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "إرسال لـ HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "الأوامر": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "الأنشطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "البرمجة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "إضافة نشاط…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "الدوَّار": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "إجراءات الدوار": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "تحرير تطبيقات الشاشة الرئيسية": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "تطبيقات اللمس المباشر": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "الكتابة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "نمط الكتابة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "الكتابة القياسية": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "كتابة اللمس": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "كتابة اللمس المباشر": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "النطق الصوتي": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "إيقاف": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "الأحرف والصوتيات": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "الصوتيات فقط": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "الاستجابة الصوتية للكتابة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "مفاتيح التعديل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "تحكم + الخيارات": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "تثبيت العالي": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "مدة التفاعل مع لوحة المفاتيح": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "التنقل بين الصور": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "دائمًا": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "مع الوصف": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "مطلقًا": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "مؤشر كبير": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "لوحة الشرح المكتوب": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "مهلة الضغط مرتين": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "مهلة الضغط مرتين": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "نمط التنقل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "الإعدادات السريعة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "الأصوات": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "تخامد الصوت": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "مستوى الصوت": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "سرعة الكلام": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "التلميحات": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "نمط التنقل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "نمط الكتابة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "السحب للكتابة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "الأنشطة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "نطق الإشعارات دائمًا": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "رسائل تنبيه برايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "التقدم التلقائي لبرايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "مُدخلات برايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "مُخرجات برايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "جداول برايل": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "لوحة الشرح المكتوب": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "لمس مباشر": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "اتجاه الإيماءة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "الاستجابة الصوتية للكتابة بالمكوّنات المادية": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "اللغة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "مؤشر كبير": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "أوصاف الوسائط": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "التنقل بين الصور": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "النطق الصوتي": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "تغيير الحدة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "علامات الترقيم": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "إرسال لـ HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "الاستجابة الصوتية للكتابة بالبرامج": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "نطق تأكيد الدوار": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "أوصاف الصور": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "التعرف على الشاشة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "التعرف باستخدام التعليق الصوتي": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "أوصاف الصور": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "التعرف على الشاشة": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "التكبير/التصغير": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "التكبير/التصغير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "تتبع التركيز": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "الكتابة الذكية": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "اختصارات لوحة المفاتيح": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "اختصارات لوحة المفاتيح": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "ضبط مستوى التكبير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "تبديل التكبير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "نقل نافذة التكبير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "تغيير حجم نافذة التكبير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "تبديل منطقة التكبير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "تبديل التكبير مؤقتًا": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "تكبير باستخدام عجلة التمرير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "معالج التحكم بالتكبير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "تكبير المنطقة": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "تكبير ملء الشاشة": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "نافذة التكبير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "الحد الأقصى لمستوى التكبير/التصغير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "فلتر التكبير": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "إظهار أثناء الانعكاس": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "تحويم النص": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "الشاشة وحجم النص": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "نص عريض": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "نص أكبر": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "أشكال الزر": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "تشغيل/إيقاف العناوين": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "تقليل الشفافية": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "زيادة التباين": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "التمييز بدون لون": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "عكس ذكي": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "عكس كلاسيكي": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "فلاتر الألوان": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "فلاتر الألوان": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "تقليل النقطة البيضاء": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "الإضاءة التلقائية": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "الحركة": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "تقليل الحركة": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "تشغيل تأثيرات الرسائل تلقائيًا": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "تشغيل معاينة الفيديو تلقائيًا": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "المحتوى المنطوق": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "نطق التحديد": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "نطق الشاشة": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "وحدة التحكم بالنطق": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "تخصيص أزرار الماوس": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "تمييز المحتوى": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "الاستجابة الصوتية للكتابة": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "الاستجابة الصوتية للحروف": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "الأحرف": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "تلميحات الحروف": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "نطق الكلمات": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "نطق النص تلقائيًا": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "اضغط باستمرار لنطق التنبؤات": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "الأصوات": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "اللغة الافتراضية": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "اكتشاف اللغات": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "سرعة الكلام": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "طرق النطق": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "الأوصاف الصوتية": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "الأوصاف الصوتية": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "الجسدية والعصبية": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "اللمس": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "اللمس المساعد": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#AIR_TOUCH_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "اللمس المساعد": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "تخصيص قائمة المستوى الأعلى": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "اضغط على أيقونة للتغيير:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "إعادة تعيين…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "إجراءات مخصصة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "ضغطة واحدة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "الضغط مرتين": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "مهلة الضغط مرتين": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "الضغط المطول": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "مدة الضغط المطول": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "إيماءات مخصصة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "إنشاء إيماء جديد…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "تعتيم عند الخمول": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "أجهزة الإشارة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "الأجهزة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "أجهزة Bluetooth…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "مفاتيح الماوس": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "شكل المؤشر": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "الحجم": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "مرئي": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "اللون": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "تخصيص أزرار الماوس": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "الإخفاء التلقائي": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_0": {
+            "الإخفاء التلقائي": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "إظهار لوحة المفاتيح على الشاشة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "إظهار القائمة دائمًا": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "التحكم بالمكوث": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "تفاوت الحركة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "حساسية التتبع": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "إجراء التراجع": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "زوايا فعالة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "استخدام ذراع تحكم بالألعاب": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "الحس اللمسي و 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_1": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "حساسية 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "مدة اللمس": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "سريع": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "بطيء": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "اختبار حساسية 3D Touch ومدة اللمس": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "تسهيلات اللمس": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_2": {
+        "تسهيلات اللمس": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "مدة الضغط المطول": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "تجاهل التكرار": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "مساعدة الضغط": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "إيقاف": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "استخدام موقع اللمسة الأولية": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "استخدام موقع اللمسة النهائية": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "اضغط للتنبيه": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "اضغط أو اسحب للتنبيه": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "الهز للتراجع": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "الاهتزاز": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "منع القفل لإنهاء المكالمة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "إعادة توجيه المكالمة الصوتية": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_3": {
+        "تلقائي": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "سماعة رأس Bluetooth": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "السماعة": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "الرد على المكالمات تلقائيًا": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "‏بصمة الوجه والانتباه": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "تتطلب مصادقة بصمة الوجه الانتباه": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "الميزات المتتبعة للانتباه": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "الحس اللمسي": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "إشارة حس لمسي عند إجراء مصادقة ناجحة": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "التحكم بالتبديل": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "التحكم بالتبديل": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "المفاتيح": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_4": {
+        "إضافة عنصر تحكم بديل جديد…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "أجهزة Bluetooth…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "التوليفات": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "نمط المسح": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_5": {
+        "المسح التلقائي": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "المسح اليدوي": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "المسح بخطوة عنصر تحكم بديل واحدة": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "التوقيت": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "وقت المسح التلقائي": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_6": {
+        "وقت المسح التلقائي": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "إيقاف مؤقت على أول عنصر": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_7": {
+        "إيقاف مؤقت على أول عنصر": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "تكرار النقل": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_8": {
+        "تكرار النقل": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "ضغط مطول": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_9": {
+        "ضغط مطول": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "سلوك الضغط": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_10": {
+        "الافتراضي": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "الضغط التلقائي": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "الضغط دومًا": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "العنصر محل التركيز بعد الضغط": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_11": {
+        "أول عنصر": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "العنصر الحالي": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "لوحة المفاتيح": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "مسح نفس المفتاح بعد الضغط": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "الضغط على مفاتيح لوحة المفاتيح دومًا": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "توقعات موسعة": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "ثبات عناصر التحكم البديلة": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "مدة الضغط المطول": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_12": {
+        "مدة الضغط المطول": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "تجاهل التكرار": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_13": {
+        "تجاهل التكرار": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "المسح الإشاري": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "مؤشر منزلق": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_14": {
+        "نمط التحديد": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "واحدة": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "منقَّح": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "دقيق": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "سرعة مؤشر الانزلاق": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "تتبع الرأس": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_15": {
+        "تتبع الرأس": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "الصوت": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "مؤثرات الصوت": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "النطق": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_16": {
+        "الأصوات": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "سرعة الكلام": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "عناصر القائمة": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "تجميع العناصر": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "مرئي": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "مؤشر كبير": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "الإيماءات المحفوظة": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_17": {
+        "إنشاء إيماء جديد…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "لون المؤشر": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "التحكم بالصوت": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "إعداد التحكم بالصوت": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "اللغة": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_18": {
+        "الإنجليزية (الولايات المتحدة)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "تخصيص الأوامر": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "المفردات": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "ملاحظات الأوامر": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "إظهار التأكيد": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "تشغيل صوت": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "إظهار التلميحات": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "تراكب مستمر": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "التراكب": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_19": {
+        "لا شيء": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "أرقام العناصر": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "أسماء العناصر": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "شبكة مرقّمة": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "متتبع للانتباه": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "الزر الجانبي": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "سرعة النقر": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "الافتراضي": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "بطيء": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "الأبطأ": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "الضغط باستمرار للتحدث": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "‏Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "التحكم الكلاسيكي بالصوت": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "إيقاف": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "ريموت Apple TV": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "أزرار الاتجاهات": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "الشاشة البعيدة لـ Apple Watch": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "لوحات المفاتيح": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "وصول كامل باستخدام لوحة مفاتيح": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_20": {
+        "وصول كامل باستخدام لوحة مفاتيح": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "المرئيات": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "الإخفاء التلقائي": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "حلقة تركيز كبيرة": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "اللون": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "تكرار المفتاح": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_21": {
+        "تكرار المفتاح": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "الفاصل الزمني لتكرار المفتاح": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "التأخير لحين التكرار": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "ثبات المفاتيح": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_22": {
+        "ثبات المفاتيح": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "تبديل مع مفتاح العالي": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "الصوت": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "إبطاء المفاتيح": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_23": {
+        "إبطاء المفاتيح": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "لوحات المفاتيح الرقمية": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "إظهار مفاتيح الأحرف الصغيرة": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "السمع": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "أجهزة السمع": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "أجهزة السمع المصنوعة لـ iPhone": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "توافق الوسيلة المساعدة للسمع": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "التعرف على الأصوات": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "الأصوات": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "‏RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "برنامج TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "أجهزة TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "الصوت والصورة": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "الصوت": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "تسهيلات سماعات الرأس": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_24": {
+        "تسهيلات سماعات الرأس": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "الإعداد المخصص للصوت": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "أصوات الخلفية": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "صوت أحادي": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "إلغاء ضجيج الهاتف": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "التوازن": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "مرئي": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "فلاش LED للتنبيهات": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_25": {
+        "فلاش أثناء فتح القفل": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "فلاش في النمط الصامت": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "توازن الاستريو (يمين-يسار)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "أصوات التشغيل وإيقاف التشغيل": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "ترجمة وشرح مكتوب": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "النمط": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "شرح مكتوب لأحداث العرض + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "إظهار النصوص الصوتية": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_26": {
+      "التعليقات المصاحبة المباشرة (إصدار تجريبي)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "التعليقات المصاحبة المباشرة في فيس تايم": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "عام": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "الوصول الموجه": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "الوصول الموجه": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "إعدادات رمز الدخول": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_27": {
+        "تعيين رمز دخول وصول الموجه": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "الحدود الزمنية": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_28": {
+        "المنبه": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "الصوت": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "التكلم": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "اختصار تسهيلات الاستخدام": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "القفل التلقائي للشاشة": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "نمط تسهيلات الاستخدام المخصص": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "‏Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "الكتابة إلى Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "الإجابات المنطوقة": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "الإجابات المنطوقة التلقائية": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "تفضيل الردود الصامتة": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "عدم النطق في نمط الصامت": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "استماع إلى \"يا Siri\" دائمًا": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "اختصار تسهيلات الاستخدام": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "المكبر": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "إعدادات حسب التطبيق": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "التحكم في الأجهزة القريبة": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "شاشة العرض والإضاءة": {
+    "(root)": "prefs:root=DISPLAY",
+    "المظهر": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "انسجام اللون": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "الإضاءة الدافئة": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "مُجدوَل": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "التمكين يدويًا حتى الغد": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "درجة حرارة اللون": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "القفل التلقائي": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "رفع للتنبيه": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "تأمين/إلغاء تأمين": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "حجم النص": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "نص عريض": "prefs:root=DISPLAY#BOLD_TEXT",
+    "تكبير الشاشة": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "عرض": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "إشعارات المخالطة": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_29": {
+    "شارات الإشعارات": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "التطبيقات التي تم تنزيلها حديثًا": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "الشاشة الرئيسية وتعدد المهام": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_30": {
+      "إظهار مكتبة التطبيقات في شريط الأيقونات": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "عرض التطبيقات المقترحة والحديثة في شريط الأيقونات": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "الشاشة الرئيسية": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "التطبيقات التي تم تنزيلها حديثًا": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "شارات الإشعارات": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "بصمة الإصبع ورمز الدخول": {
+    "(root)": "prefs:root=PASSCODE",
+    "إيقاف رمز الدخول": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "تغيير رمز الدخول": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "يتطلب رمز الدخول": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "الاتصال باستخدام الصوت": "prefs:root=PASSCODE#VOICE_DIAL",
+    "السماح بالوصول عند القفل": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "الرد برسالة": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "التحكم في المنزل": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "المحفظة": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "إعادة الاتصال من المكالمات الفائتة": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "مسح البيانات": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "فتح القفل باستخدام Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "‏قلم Apple": {
+    "(root)": "prefs:root=Pencil",
+    "‏قلم Apple": "prefs:root=Pencil#PencilTextInput"
+  },
+  "البودكاست": "prefs:root=PODCASTS",
+  "طوارئ SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "الاتصال بالضغط على الزر الجانبي": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "اتصال تلقائي": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "جهات اتصال الطوارئ": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "صوت العد التنازلي": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "الأصوات": {
+    "(root)": "prefs:root=Sounds",
+    "استخدام سماعة الرأس بأمان": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "محولات لايتننغ": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "إشعارات سماعة الرأس": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "خفض الأصوات المرتفعة": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "مؤثرات الصوت": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "النغمات والتنبيهات": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "تغيير بالأزرار": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "الأصوات وأنماط الاهتزاز": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "النغمة": "prefs:root=Sounds&path=Ringtone",
+    "نغمة الرسائل": "prefs:root=Sounds&path=Text_Messages",
+    "بريد صوتي جديد": "prefs:root=Sounds&path=Voicemail",
+    "البريد الجديد": "prefs:root=Sounds&path=NEW_MAIL",
+    "البريد المرسل": "prefs:root=Sounds&path=SENT_MAIL",
+    "تنبيهات التقويم": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "تنبيهات التذكير": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "الإرسال السريع": "prefs:root=Sounds&path=AIRDROP",
+    "صوت لوحة المفاتيح": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "صوت القفل": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "الطقس": "prefs:root=WEATHER",
+  "البوصلة": {
+    "(root)": "prefs:root=COMPASS",
+    "استخدام الشمال الحقيقي": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "مركز التحكم": {
+    "(root)": "prefs:root=ControlCenter",
+    "الوصول ضمن التطبيقات": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "تخصيص عناصر التحكم": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "المطور": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "شبكة متعددة المسارات": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "شبكة متعددة المسارات": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "المظهر": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "المظهر الداكن": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "الأجهزة المقترنة": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "حذف أجهزة الكمبيتر الموثوقة": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "أدوات": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "التسجيل": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "التحكم التلقائي بواجهة المستخدم": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "شبكة": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "مهايئ الربط بالشبكة": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "اختبار تطبيق مطور iAd": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "معدل التعبئة": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "تمييز الشعارات المقتطعة": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "عرض الإعلانات دون حد": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "اختبار PassKit": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "تسجيل إضافي": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "السماح بخدمات HTTP": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "تعطيل تقييد المعدل": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "مفتاح مرور NFC اختياري": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "اختبار خدمات الوسائط": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "اقتراحات البث السريع": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "إعادة تعيين خدمات الوسائط": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "اختبار الأخبار": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "إعادة تعيين البيانات المحلية مع الإطلاق القادم": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "اختبار إطار عمل مشغل الوسائط": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "واجهة برمجة التطبيق للمحتوى القابل للتشغيل": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "اختبار مزود خدمة التلفزيون": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "مزودو خدمة التلفزيون": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "اختبار CoreSpotlight": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "إعادة فهرسة جميع العناصر": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "إعادة فهرسة جميع العناصر مع المعرف": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "اختبار الاختصارات": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "عرض الاختصارات الحديثة": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "عرض الوسائط القادمة": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "عرض التبرعات على شاشة القفل": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "فرض مزامنة الاختصارات على الساعة": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "اختبار MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "تمكين MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "صحتي": "prefs:root=HEALTH",
+  "القياس": {
+    "(root)": "prefs:root=MEASURE",
+    "وحدات القياس": "prefs:root=MEASURE#MEASURE_UNITS",
+    "إنجليزي": "prefs:root=MEASURE#Imperial",
+    "متري": "prefs:root=MEASURE#Metric"
+  },
+  "الموسيقى": {
+    "(root)": "prefs:root=MUSIC",
+    "إظهار Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "إضافة أغاني قائمة التشغيل": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "إظهار تقييمات النجوم": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "مزامنة المكتبة": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "البيانات الخلوية": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "الموسيقى التي تم تنزيلها": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "تحسين التخزين": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "تنزيلات تلقائية": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "موازن الصوت": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "فحص الصوت": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "استخدام سجل الاستماع": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "الملاحظات": {
+    "(root)": "prefs:root=NOTES",
+    "الحساب الافتراضي": "prefs:root=NOTES&path=Default%20Account",
+    "كلمة السر": "prefs:root=NOTES&path=Password",
+    "فرز الملاحظات حسب": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "الملاحظات الجديدة تبدأ بـ": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "فرز العناصر التي وضعت عليها علامة": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "السطور والشبكات": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "الحفظ في الصور": "prefs:root=NOTES#Save%20to%20Photos",
+    "وصول إلى الملاحظات من شاشة القفل": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "الرسائل": "prefs:root=MESSAGES",
+  "الترجمة": {
+    "(root)": "prefs:root=TRANSLATE",
+    "نمط الترجمة على الجهاز": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "مزود خدمة التلفزيون": "prefs:root=VIDEO_SUBSCRIBER",
+  "المذكرات الصوتية": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "مسح العناصر المحذوفة": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "جودة الصوت": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "التسمية المستندة إلى الموقع": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "الكاميرا": {
+    "(root)": "prefs:root=CAMERA",
+    "التنسيقات": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_31": {
+      "فيديو HDR": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "الاحتفاظ بالإعدادات": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "وضع الكاميرا": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "مربعات": "prefs:root=CAMERA#CameraGridSwitch",
+    "مسح ضوئي لرموز QR": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "الخرائط": "prefs:root=MAPS",
+  "فيس تايم": "prefs:root=FACETIME",
+  "جهات الاتصال": {
+    "(root)": "prefs:root=CONTACTS",
+    "السماح لجهات الاتصال بالوصول إلى": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "‏Siri والبحث": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "ترتيب الظهور": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "ترتيب العرض": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "الاسم المختصر": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "الاسم المختصر": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "يفضل الكنية": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "معلوماتي": "prefs:root=CONTACTS&path=MeCard",
+    "استيراد جهات الاتصال من الـ SIM": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "الكتب": {
+    "(root)": "prefs:root=IBOOKS",
+    "المحتوى على الإنترنت": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "جاري المزامنة": "prefs:root=IBOOKS#SYNCING",
+    "ما تقرأه حاليًا": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "القراءة": "prefs:root=IBOOKS#READING",
+    "المحاذاة بالكامل": "prefs:root=IBOOKS#BKFullJustification",
+    "تشريط تلقائي": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "التقدم بكلا الهامشين": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "أهداف القراءة": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "مسح بيانات أهداف القراءة": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "جاري البحث": "prefs:root=IBOOKS#SEARCHING",
+    "متجر الكتب": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "الكتب الصوتية": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "تخطي للأمام": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "تخطي للخلف": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "عناصر التحكم الخارجية": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "التالي/السابق": "prefs:root=IBOOKS#Next/Previous",
+    "تخطي للأمام/رجوع": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "الخصوصية": "prefs:root=IBOOKS#PRIVACY",
+    "إعادة تعيين المعرّف": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "إقرارات": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "التقويم": {
+    "(root)": "prefs:root=CALENDAR",
+    "تجاوز النطاق الزمني": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "تقويمات بديلة": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "إظهار أرقام الأسابيع": "prefs:root=CALENDAR#Week%20Numbers",
+    "إظهار حالات رفض المدعوين": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "المزامنة": "prefs:root=CALENDAR&path=Sync",
+    "أوقات التنبيه الافتراضية": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "بدء الأسبوع يوم": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "اقتراحات المواقع": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "البريد": {
+    "(root)": "prefs:root=MAIL",
+    "الحسابات": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "إضافة حساب": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "جلب بيانات جديدة": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "معاينة": "prefs:root=MAIL&path=Preview",
+    "إظهار عنوان \"إلى/نسخة\"": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "خيارات التمرير": "prefs:root=MAIL&path=Swipe%20Options",
+    "السؤال قبل الحذف": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "تحميل الصور البعيدة": "prefs:root=MAIL#Load%20Remote%20Images",
+    "تنظيم حسب السلسلة": "prefs:root=MAIL#Organize%20by%20Thread",
+    "طي الرسائل المقروءة": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "أحدث رسالة في الأعلى": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "سلاسل كاملة": "prefs:root=MAIL#Complete%20Threads",
+    "إجراء السلسلة المكتومة": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "تجاهل المرسلين المحظورين": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "محظور": "prefs:root=MAIL&path=Blocked",
+    "نسخة مخفية لنفسي دائمًا": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "تمييز العناوين": "prefs:root=MAIL&path=Mark%20Addresses",
+    "زيادة مستوى الاقتباس": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "تضمين المرفقات في الردود": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "التوقيع": "prefs:root=MAIL&path=Signature"
+  },
+  "الهاتف": {
+    "(root)": "prefs:root=Phone",
+    "رقم هاتفي": "prefs:root=Phone&path=My%20Number",
+    "مكالمات واردة": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "الإعلان عن المكالمات": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "الإبلاغ عن المكالمات/رسائل SMS": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "الرد برسالة نصية": "prefs:root=Phone&path=Respond%20with%20Text",
+    "تحويل المكالمة": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "تحويل المكالمة": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "انتظار المكالمة": "prefs:root=Phone&path=Call%20Waiting",
+    "إظهار هويتي": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_32": {
+        "إظهار هويتي": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "إسكات المتصلين غير المعروفين": "prefs:root=Phone#SILENCE_CALLS",
+    "جهات الاتصال المحظورة": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "مساعد الاتصال": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "سفاري": {
+    "(root)": "prefs:root=SAFARI",
+    "أداة حظر المحتوى": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "منع الإطارات المُنبثقة": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "منع التتبع أثناء تصفح المواقع": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "التعبئة التلقائية": "prefs:root=SAFARI&path=AUTO_FILL",
+    "التنزيلات": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "كلمات السر": {
+    "(root)": "prefs:root=PASSWORDS",
+    "تعبئة تلقائية لكلمات السر": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "الصور": {
+    "(root)": "prefs:root=Photos",
+    "صور iCloud": "prefs:root=Photos#iCloudPhotosSwitch",
+    "تحسين التخزين": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "تنزيل الملفات الأصلية والاحتفاظ بها": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "تدفق الصور الخاص بي": "prefs:root=Photos#PhotoStreamSwitch",
+    "الألبومات المشتركة": "prefs:root=Photos#SharedStreamsSwitch",
+    "البيانات الخلوية": "prefs:root=Photos&path=CellularDataLinkList",
+    "التشغيل التلقائي للفيديوهات": "prefs:root=Photos#VideoAutoplaySwitch",
+    "عرض HDR الكامل": "prefs:root=Photos#ImageModulationSwitch",
+    "إظهار أحداث العطلات": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "النقل إلى Mac أو كمبيوتر شخصي": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "تنزيلات تلقائية": "prefs:root=STORE#Automatic%20Downloads",
+    "تحديثات التطبيق": "prefs:root=STORE#App%20Updates",
+    "تنزيل التطبيقات": "prefs:root=STORE&path=App%20Downloads",
+    "تشغيل الفيديو تلقائيًا": "prefs:root=STORE&path=Video%20Autoplay",
+    "تقييمات ومراجعات من التطبيق": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "الأخبار": {
+    "(root)": "prefs:root=NEWS",
+    "عرض معاينات القصة الإخبارية": "prefs:root=NEWS#show_excerpt_mode",
+    "تقييد القصص الإخبارية في قسم اليوم": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "الخصوصية": "prefs:root=NEWS#Privacy",
+    "إعادة تعيين المعرّف": "prefs:root=NEWS#reset_identifier",
+    "إقرارات": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_33": {
+    "نمط الطيران": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "التذكيرات": {
+    "(root)": "prefs:root=REMINDERS",
+    "القائمة الافتراضية": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "التذكيرات": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "إشعار اليوم": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "إظهار كمتأخر": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "البطارية": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "نمط الطاقة المنخفضة": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "حالة البطارية": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "الاختصارات": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "مزامنة iCloud": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "مزامنة ترتيب الاختصارات": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "إشعارات قانونية": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "‏Siri والبحث": {
+    "(root)": "prefs:root=SIRI",
+    "السماح بـ Siri عند القفل": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "اللغة": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "صوت Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "الاستجابة الصوتية": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "معلوماتي": "prefs:root=SIRI&path=MY_INFO",
+    "اقتراحات في البحث": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "اقتراحات في \"البحث العام\"": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "اقتراحات على قفل الشاشة": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "الأسهم": {
+    "(root)": "prefs:root=STOCKS",
+    "الخصوصية": "prefs:root=STOCKS#Privacy",
+    "إعادة تعيين المعرّف": "prefs:root=STOCKS#reset_identifier"
+  },
+  "خلوي": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "خيارات البيانات الخلوية": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "نمط البيانات المنخفضة": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "البيانات الخلوية": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "‏التلفزيون": {
+    "(root)": "prefs:root=TVAPP",
+    "استخدام البيانات الخلوية للتشغيل": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "جودة التشغيل": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "المشتريات والمُستَأجَرات": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "المشاركة المنزلية": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "خلفية الشاشة": "prefs:root=Wallpaper"
+}

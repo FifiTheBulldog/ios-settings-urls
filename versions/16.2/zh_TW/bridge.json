@@ -1,0 +1,561 @@
+{
+  "輔助使用": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "視覺": "bridge:root=ACCESSIBILITY#VISION",
+    "旁白": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "縮放": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "粗體文字": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "開啟/關閉標籤": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "灰階": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "減少透明度": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "減少動態效果": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "響鈴": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "排程": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "每小時": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30分鐘": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15分鐘": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "聲音": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "鈴聲": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "鳥": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "動作": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "側邊按鈕按鍵速度": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "按鍵速度": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "預設值": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "慢速": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "最慢": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "觸控調節": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "觸控調節": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "按住持續時間": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "忽略重複": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "輕點輔助": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "關閉": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "使用最初觸控位置": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "使用最終觸控位置": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "輪椅活動": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "對講機": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "點一下來說話": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "聽力": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "轉送號碼": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "立即傳送": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "預設回覆": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "預設回覆": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "加入回覆⋯": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "單聲道音訊": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "左右立體聲平衡": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "耳機通知": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "助聽裝置": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "複雜功能": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "麥克風音量": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "程式": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "觸覺回饋時間速度": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "輔助使用快速鍵": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "配對新的Apple Watch": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "App顯示方式": "bridge:root=APP_VIEW_ID",
+  "一般": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "關於本機": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "名稱": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "有限保固": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "有限保固": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "保固範圍詳細資訊": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "硬體保固範圍": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "聊天與電話支援": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "歌曲": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "照片": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "應用程式": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "容量": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "可用空間": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "版本": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "電信業者": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "機型": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "序號": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi-Fi位址": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "藍牙": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "法律資訊": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "檢視Apple Watch使用手冊": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "軟體更新": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "自動App安裝": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "飛航模式": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "專注模式": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "使用iPhone設定": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "手錶方向": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "將Apple Watch戴在": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "左手": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "右手": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "數位錶冠在左側": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "數位錶冠在右側": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "啟用聽寫": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "啟用接力": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "夜鐘模式": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "啟用截圖": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "儲存空間": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "診斷記錄": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "拷貝Apple Watch分析": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "重置": "bridge:root=GENERAL_LINK&path=RESET",
+    "浸入水中時自動啟動": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "自動啟動音訊App": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "語言與地區": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "使用iPhone設定": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "自訂": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "返回錶面": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "返回錶面": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "永遠": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "2分鐘後": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "1小時後": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APP": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "播放中": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "螢幕顯示與亮度": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "亮度": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "永遠開啟": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "永遠開啟": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "放下手腕": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "顯示通知": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "顯示通知": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCH APP": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "顯示App": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "顯示App": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APP": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "文字大小": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "粗體文字": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "喚醒": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "抬起手腕時喚醒": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "轉動錶冠時喚醒": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "喚醒持續時間": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "點一下時": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "發亮15秒": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "發亮70秒": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "聲音與觸覺回饋": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "提示聲音量": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "靜音模式": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "耳機音訊": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "耳機安全性": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "耳機通知": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "降低高音量": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "觸覺回饋": "bridge:root=SOUNDS_ID#Haptics",
+    "觸覺回饋提示": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "錶冠觸覺回饋": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "系統觸覺回饋": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "蓋住螢幕靜音": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "SOS緊急服務": "bridge:root=SOS_MODE_ID",
+  "隱私權": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "心率": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "呼吸速率": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "體能追蹤": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "重置健身校正資料": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "環境聲音測量": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "耳機音效測量": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "在「健康」中儲存": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "保留8天": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "保留直到刪除為止": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "血氧濃度測量": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "手腕溫度": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "螢幕使用時間": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "水深": "bridge:root=com.apple.DepthCompanionSettings",
+  "動作按鈕": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "自動下載": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "自動更新": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "健康": "bridge:root=com.apple.BridgeHealthSettings",
+  "郵件與行事曆": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "帳號": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "加入Google帳號⋯": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "擷取": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "關閉": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "每小時": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30分鐘": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15分鐘": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "洗手": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "允許通知": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "傳送到通知中心": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "關閉通知": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "通知分類": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "洗手計時器": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "行動服務": "bridge:root=CELLULAR_ID",
+  "複雜功能": "bridge:root=COMPLICATIONS",
+  "活動記錄": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "進度更新": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "無": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "每2小時": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "每4小時": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "每6小時": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "每8小時": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "成就": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "每週摘要": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "每日指導": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "目標完成": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "特殊挑戰": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "活動記錄分享通知": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "心臟": "bridge:root=com.apple.HeartRateSettings#1",
+    "心率通知": "bridge:root=com.apple.HeartRateSettings#2",
+    "高心率": "bridge:root=com.apple.HeartRateSettings#3",
+    "低心率": "bridge:root=com.apple.HeartRateSettings#4",
+    "心律不整": "bridge:root=com.apple.HeartRateSettings#5",
+    "在「健康」中檢視記錄的心電圖": "bridge:root=com.apple.HeartRateSettings#6",
+    "心電圖": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "訊息": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "使用iPhone設定": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "自訂": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "預設回覆": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "預設回覆": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "智慧型回覆": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "加入回覆⋯": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "重複提示": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "語音訊息": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "正念": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "允許通知": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "傳送到通知中心": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "關閉通知": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "正念提醒": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "一天開始": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "一天結束": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "加入提醒事項⋯": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "每週摘要": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "今天不再提醒": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "呼吸速率": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "每分鐘呼吸4次": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "每分鐘呼吸5次": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "每分鐘呼吸6次": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "每分鐘呼吸7次": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "每分鐘呼吸8次": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "每分鐘呼吸9次": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "每分鐘呼吸10次": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "觸覺回饋": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "無": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "弱": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "強": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "睡眠": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "在「健康」App中設定「睡眠」": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "有聲書": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "登入": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "行事曆": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "通知": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "使用iPhone設定": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "自訂⋯": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "行事曆": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "時鐘": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24小時制": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "鐘聲": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "聲音": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "鈴聲": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "鳥": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "報時": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "以「靜音模式」控制": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "永遠報時": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "觸覺回饋時間": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "觸覺回饋時間": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "數字": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "簡易": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "摩斯密碼": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "推播iPhone上的提示": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "通知指示符號": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "姓名簡稱": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "錶面通知": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "城市簡稱": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Siri錶面資料來源": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "聯絡人": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "排序": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "名字在前，姓氏在後": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "姓氏在前，名字在後": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "顯示順序": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "名字在前，姓氏在後": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "姓氏在前，名字在後": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "簡稱": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "簡稱": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "名字和姓氏起始字母": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "名字起始字母和姓氏": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "只有名字": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "只有姓氏": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "偏好暱稱": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "郵件": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "使用iPhone設定": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "自訂": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "郵件設定": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "帳號": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "包含郵件": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "預覽郵件": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "無": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1行": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2行": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "預設回覆": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "預設回覆": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "加入回覆⋯": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "簽名檔": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "地圖": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "轉彎提示": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "開車": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "開車時啟用CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "步行": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "自行車": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "顯示導航": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "大眾運輸": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "版號資訊：": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "音樂": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "播放列表與專輯": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "加入音樂⋯": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "錢包與Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "加入卡片": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "通知": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "使用iPhone設定": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "自訂": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "照片": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "照片同步": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "回憶": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "同步回憶": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "精選照片": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "同步精選照片": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "相簿": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "同步相簿": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "照片上限": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "通知設定": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "使用iPhone設定": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "自訂": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "噪音": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "環境聲音測量": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "噪音通知": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "噪音臨界值": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "關閉": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80分貝": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85分貝": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90分貝": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95分貝": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100分貝": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "通知分類": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "血氧濃度": "bridge:root=com.apple.OxygenSaturationSettings",
+  "電信業者設定": "bridge:root=CARRIER_SETTINGS",
+  "關閉密碼": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "開啟密碼": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "更改密碼": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "簡易密碼": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "透過iPhone解鎖": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "清除資料": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "手腕偵測": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "電話": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "通話": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "鈴聲": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "聲音": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "觸覺回饋": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "體能訓練": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "低耗電模式": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "顯示目標測量指標": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "體能訓練顯示畫面": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "自動暫停": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "自動暫停": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "開始體能訓練提醒": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "結束體能訓練提醒": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "按下來暫停": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "偵測健身房器材": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "配速/速度顯示畫面": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "目前": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "平均": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "體能訓練播放列表": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "無": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "播放列表": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "從頭播放": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "隨機顯示": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "度量單位": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "大卡": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "千卡": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "千焦耳": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "碼": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "公尺": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "英里": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "公里": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "語音回饋": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "健走趣": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "將新的體能訓練加入Apple Watch": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "股市": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "錶面複雜功能顯示": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "目前價格": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "漲跌": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "漲跌幅": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "市值": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Siri錶面顯示的股票報價": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "所選的股票": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "所選的股票": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Dock排列": "bridge:root=DOCK#OrderingOptionGroup",
+    "最近項目": "bridge:root=DOCK#Recents",
+    "喜好項目": "bridge:root=DOCK#Favorites"
+  },
+  "Podcast": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "跟Siri對話": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "抬起說話": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "按下數位錶冠": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "語音回饋": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "永遠開啟": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "以「靜音模式」控制": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "只限耳機": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "音量": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siri建議": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "對講機": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "允許通知": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "傳送到通知中心": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "關閉通知": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "通知分類": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "朋友": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "天氣": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "預設城市": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "預設城市": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "目前位置": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "傳送讀取回條": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

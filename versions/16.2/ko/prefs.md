@@ -1,0 +1,854 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → iCloud 저장 공간: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → 사진: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → 연락처: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → 캘린더: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → 미리 알림: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → 메모: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → 백업: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → 건강: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → 암호 및 키체인: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → 비공개 릴레이: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → 나의 위치 공유: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → 나의 위치 공유 → 나의 iPhone 찾기: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → 이름, 전화번호, 이메일: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → 암호 및 보안: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → 결제 및 배송: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → 구독: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → 가족: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- 개인정보 보호 및 보안: `prefs:root=Privacy`
+- 개인정보 보호 및 보안 → 안전 점검: `prefs:root=Privacy&path=SAFETY_CHECK`
+- 개인정보 보호 및 보안 → 위치: `prefs:root=Privacy&path=LOCATION`
+- 개인정보 보호 및 보안 → 위치 → 나의 위치 공유: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- 개인정보 보호 및 보안 → 연락처: `prefs:root=Privacy&path=CONTACTS`
+- 개인정보 보호 및 보안 → 캘린더: `prefs:root=Privacy&path=CALENDARS`
+- 개인정보 보호 및 보안 → 미리 알림: `prefs:root=Privacy&path=REMINDERS`
+- 개인정보 보호 및 보안 → 사진: `prefs:root=Privacy&path=PHOTOS`
+- 개인정보 보호 및 보안 → Bluetooth 공유: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- 개인정보 보호 및 보안 → 마이크: `prefs:root=Privacy&path=MICROPHONE`
+- 개인정보 보호 및 보안 → 음성 인식: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- 개인정보 보호 및 보안 → 카메라: `prefs:root=Privacy&path=CAMERA`
+- 개인정보 보호 및 보안 → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- 개인정보 보호 및 보안 → 미디어 및 Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- 개인정보 보호 및 보안 → 분석: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- 개인정보 보호 및 보안 → 광고: `prefs:root=Privacy&path=ADVERTISING`
+- 개인정보 보호 및 보안 → 파일 및 폴더: `prefs:root=Privacy&path=FILEACCESS`
+- 개인정보 보호 및 보안 → 추적: `prefs:root=Privacy&path=USER_TRACKING`
+- 개인정보 보호 및 보안 → 앱 개인정보 보호 리포트: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- 개인정보 보호 및 보안 → 차단 모드: `prefs:root=Privacy#LOCKDOWN_MODE`
+- 개인정보 보호 및 보안 → 건강: `prefs:root=Privacy&path=HEALTH`
+- 집중 모드: `prefs:root=DO_NOT_DISTURB`
+- 집중 모드 → 집중 모드 상태: `prefs:root=DO_NOT_DISTURB&path=status`
+- 일반: `prefs:root=General`
+- 일반 → VPN 및 기기 관리: `prefs:root=General&path=ManagedConfigurationList`
+- 일반 → 화면 속 화면: `prefs:root=General&path=PiP_SPEC`
+- 일반 → 트랙패드 및 마우스: `prefs:root=General&path=POINTERS`
+- 일반 → NFC: `prefs:root=General&path=NFC_LINK`
+- 일반 → VPN: `prefs:root=General&path=VPN`
+- 일반 → CarPlay: `prefs:root=General&path=CARPLAY`
+- 일반 → 정보: `prefs:root=General&path=About`
+- 일반 → 정보 → 신뢰하는 인증서: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- 일반 → 법률 및 규제 정보: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- 일반 → 소프트웨어 업데이트: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- 일반 → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- 일반 → 홈 버튼: `prefs:root=General&path=HOME_BUTTON`
+- 일반 → 제스처: `prefs:root=General#Multitasking_Gesture_Switch`
+- 일반 → 옆면 스위치: `prefs:root=General#Rotation_Switch_Action_Group`
+- 일반 → 백그라운드 앱 새로 고침: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- 일반 → 날짜 및 시간: `prefs:root=General&path=DATE_AND_TIME`
+- 일반 → TV 출력: `prefs:root=General&path=TV_OUT`
+- 일반 → 규제: `prefs:root=General&path=REGULATORY`
+- 일반 → 재설정: `prefs:root=General&path=Reset`
+- 일반 → 재설정 → 모든 설정 재설정: `prefs:root=General&path=Reset#settingsErase`
+- 일반 → 재설정 → 모든 콘텐츠 및 설정 지우기: `prefs:root=General&path=Reset#fullErase`
+- 일반 → 재설정 → 네트워크 설정 재설정: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- 일반 → 재설정 → 모든 셀룰러 데이터 요금제 제거: `prefs:root=General&path=Reset#cellularErase`
+- 일반 → 재설정 → 가입자 서비스: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- 일반 → 재설정 → 키보드 사전 재설정: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- 일반 → 재설정 → 홈 화면 레이아웃 재설정: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- 일반 → 재설정 → 위치 및 개인정보 보호 재설정: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- 일반 → 시스템 종료: `prefs:root=General#SHUTDOWN_LABEL`
+- 일반 → AirPlay 및 Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- 일반 → AirPlay 및 Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- 일반 → AirPlay 및 Handoff → HomePod으로 전송: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- 일반 → AirPlay 및 Handoff → 자동으로 TV로 AirPlay하기: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- 일반 → AirPlay 및 Handoff → 연속성 카메라: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- 일반 → 사전: `prefs:root=General&path=DICTIONARY`
+- 일반 → 언어 및 지역: `prefs:root=General&path=INTERNATIONAL`
+- 일반 → 언어 및 지역 → 기타 언어…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- 일반 → 언어 및 지역 → 선호하는 언어 순서: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- 일반 → 언어 및 지역 → 언어 추가…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- 일반 → 언어 및 지역 → 지역: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- 일반 → 언어 및 지역 → 숫자: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- 일반 → 언어 및 지역 → 캘린더: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- 일반 → 언어 및 지역 → 온도 단위: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- 일반 → 키보드: `prefs:root=General&path=Keyboard`
+- 일반 → 키보드 → 키보드: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- 일반 → 키보드 → 텍스트 대치: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- 일반 → 키보드 → 자동 대문자: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- 일반 → 키보드 → 자동 수정: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- 일반 → 키보드 → 맞춤법 검사: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- 일반 → 키보드 → Caps Lock 활성화: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- 일반 → 키보드 → 단축키: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- 일반 → 키보드 → 자동 완성: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- 일반 → 키보드 → 스마트 구두점: `prefs:root=General&path=Keyboard#SmartTyping`
+- 일반 → 키보드 → 키보드 분리: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- 일반 → 키보드 → 키 휙 넘기기 활성화: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- 일반 → 키보드 → 문자 미리보기: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- 일반 → 키보드 → ‘.’ 단축키: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- 일반 → 키보드 → 슬라이딩 입력: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- 일반 → 키보드 → 받아쓰기 활성화: `prefs:root=General&path=Keyboard#Dictation`
+- 일반 → 키보드 → 자동 구두점: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- 일반 → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- 일반 → iPhone/iPad Storage → 저장 공간: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- 일반 → iPhone/iPad Storage → 사용하지 않는 앱 정리하기: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- 알림: `prefs:root=NOTIFICATIONS_ID`
+- 알림 → 시간 지정 요약: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- 지갑 및 Apple Pay: `prefs:root=PASSBOOK`
+- 지갑 및 Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- 지갑 및 Apple Pay → 결제 카드: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- 지갑 및 Apple Pay → 카드 추가: `prefs:root=PASSBOOK#Add%20Card`
+- 지갑 및 Apple Pay → 측면 버튼 이중 클릭: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- 지갑 및 Apple Pay → 주문 추적: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- 스크린 타임: `prefs:root=SCREEN_TIME`
+- 스크린 타임 → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- 스크린 타임 → See All Activity → 오늘: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- 스크린 타임 → See All Activity → 주: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- 스크린 타임 → 다운타임: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- 스크린 타임 → 앱 시간 제한: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- 스크린 타임 → 커뮤니케이션 제한: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- 스크린 타임 → 안전한 커뮤니케이션: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- 스크린 타임 → 항상 허용: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- 스크린 타임 → 콘텐츠 및 개인정보 보호 제한: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- 스크린 타임 → 유해 콘텐츠 차단: `prefs:root=SCREEN_TIME#FAMILY`
+- 손쉬운 사용: `prefs:root=ACCESSIBILITY`
+- 손쉬운 사용 → 시각 지원: `prefs:root=ACCESSIBILITY#VISION`
+- 손쉬운 사용 → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- 손쉬운 사용 → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- 손쉬운 사용 → VoiceOver → 말하기 속도: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- 손쉬운 사용 → VoiceOver → 말하기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- 손쉬운 사용 → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- 손쉬운 사용 → VoiceOver → Speech → 음성: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- 손쉬운 사용 → VoiceOver → 상세 정도: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- 손쉬운 사용 → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- 손쉬운 사용 → VoiceOver → Verbosity → 구두점: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- 손쉬운 사용 → VoiceOver → Verbosity → 표 머리말: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- 손쉬운 사용 → VoiceOver → Verbosity → 미디어 설명: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- 손쉬운 사용 → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- 손쉬운 사용 → VoiceOver → Verbosity → Media Descriptions → 끔: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- 손쉬운 사용 → VoiceOver → Verbosity → Media Descriptions → 말하기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- 손쉬운 사용 → VoiceOver → Verbosity → Media Descriptions → 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- 손쉬운 사용 → VoiceOver → Verbosity → Media Descriptions → 말하기 및 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- 손쉬운 사용 → VoiceOver → 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- 손쉬운 사용 → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- 손쉬운 사용 → VoiceOver → Braille → 출력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- 손쉬운 사용 → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- 손쉬운 사용 → VoiceOver → Braille → Output → 축약되지 않은 6점 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- 손쉬운 사용 → VoiceOver → Braille → Output → 축약되지 않은 8점 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- 손쉬운 사용 → VoiceOver → Braille → Output → 축약된 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- 손쉬운 사용 → VoiceOver → Braille → 입력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- 손쉬운 사용 → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- 손쉬운 사용 → VoiceOver → Braille → Input → 축약되지 않은 6점 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- 손쉬운 사용 → VoiceOver → Braille → Input → 축약되지 않은 8점 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- 손쉬운 사용 → VoiceOver → Braille → Input → 축약된 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- 손쉬운 사용 → VoiceOver → Braille → Input → 자동 번역: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- 손쉬운 사용 → VoiceOver → Braille → 점자 화면 입력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- 손쉬운 사용 → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- 손쉬운 사용 → VoiceOver → Braille → Braille Screen Input → 축약되지 않은 6점 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- 손쉬운 사용 → VoiceOver → Braille → Braille Screen Input → 축약되지 않은 8점 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- 손쉬운 사용 → VoiceOver → Braille → Braille Screen Input → 축약된 점자: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- 손쉬운 사용 → VoiceOver → Braille → Braille Screen Input → 점자 위치 전환: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- 손쉬운 사용 → VoiceOver → Braille → 점자 표: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- 손쉬운 사용 → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- 손쉬운 사용 → VoiceOver → Braille → Tables → 점자 표 추가…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- 손쉬운 사용 → VoiceOver → Braille → 상태 셀: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- 손쉬운 사용 → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- 손쉬운 사용 → VoiceOver → Braille → Status Cell → 상태 셀 위치: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- 손쉬운 사용 → VoiceOver → Braille → Status Cell → 왼쪽: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- 손쉬운 사용 → VoiceOver → Braille → Status Cell → 오른쪽: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- 손쉬운 사용 → VoiceOver → Braille → Status Cell → 일반 상태 보기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- 손쉬운 사용 → VoiceOver → Braille → Status Cell → 텍스트 상태 보기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- 손쉬운 사용 → VoiceOver → Braille → 방정식에 Nemeth 코드 사용: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- 손쉬운 사용 → VoiceOver → Braille → 화면 키보드 보기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- 손쉬운 사용 → VoiceOver → Braille → 이동 시 페이지 넘기기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- 손쉬운 사용 → VoiceOver → Braille → 단어 단위 줄바꿈: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- 손쉬운 사용 → VoiceOver → Braille → 점자 경고 메시지: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- 손쉬운 사용 → VoiceOver → Braille → 코드 무시 실행 시간: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- 손쉬운 사용 → VoiceOver → Braille → 자동 이동 실행 시간: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- 손쉬운 사용 → VoiceOver → 오디오: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- 손쉬운 사용 → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- 손쉬운 사용 → VoiceOver → Audio → 오디오 더킹: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- 손쉬운 사용 → VoiceOver → Audio → 통화 시 스피커 자동 선택: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- 손쉬운 사용 → VoiceOver → Audio → HDMI로 보내기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- 손쉬운 사용 → VoiceOver → 명령: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- 손쉬운 사용 → VoiceOver → 동작: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- 손쉬운 사용 → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- 손쉬운 사용 → VoiceOver → Activities → 프로그래밍: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- 손쉬운 사용 → VoiceOver → Activities → 동작 추가…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- 손쉬운 사용 → VoiceOver → 로터: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- 손쉬운 사용 → VoiceOver → 로터 동작: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- 손쉬운 사용 → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- 손쉬운 사용 → VoiceOver → Rotor Actions → 홈 화면에서 앱 편집: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- 손쉬운 사용 → VoiceOver → Rotor Actions → 다이렉트 터치 앱: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- 손쉬운 사용 → VoiceOver → 입력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- 손쉬운 사용 → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- 손쉬운 사용 → VoiceOver → Typing → 입력 스타일: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- 손쉬운 사용 → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- 손쉬운 사용 → VoiceOver → Typing → Typing Mode → 표준 입력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- 손쉬운 사용 → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- 손쉬운 사용 → VoiceOver → Typing → Typing Style → 터치 입력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- 손쉬운 사용 → VoiceOver → Typing → Typing Style → 다이렉트 터치 입력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- 손쉬운 사용 → VoiceOver → Typing → 발음 기호 피드백: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- 손쉬운 사용 → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- 손쉬운 사용 → VoiceOver → Typing → Phonetic Feedback → 끔: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- 손쉬운 사용 → VoiceOver → Typing → Phonetic Feedback → 문자 및 발음 기호: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- 손쉬운 사용 → VoiceOver → Typing → Phonetic Feedback → 발음 기호만: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- 손쉬운 사용 → VoiceOver → Typing → 입력 피드백: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- 손쉬운 사용 → VoiceOver → Typing → 보조 키: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- 손쉬운 사용 → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- 손쉬운 사용 → VoiceOver → Typing → Modifier Keys → Control + Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- 손쉬운 사용 → VoiceOver → Typing → Modifier Keys → Caps Lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- 손쉬운 사용 → VoiceOver → Typing → 키보드 상호 작용 시간: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- 손쉬운 사용 → VoiceOver → 이미지 탐색: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- 손쉬운 사용 → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- 손쉬운 사용 → VoiceOver → Include Unlabeled Images → 항상: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- 손쉬운 사용 → VoiceOver → Include Unlabeled Images → 설명 포함: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- 손쉬운 사용 → VoiceOver → Include Unlabeled Images → 안 함: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- 손쉬운 사용 → VoiceOver → 큰 커서: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- 손쉬운 사용 → VoiceOver → 자막 패널: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- 손쉬운 사용 → VoiceOver → 이중 탭 제한 시간: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- 손쉬운 사용 → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- 손쉬운 사용 → VoiceOver → Double-tap Timeout → 이중 탭 제한 시간: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- 손쉬운 사용 → VoiceOver → 탐색 스타일: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- 손쉬운 사용 → VoiceOver → 빠른 설정: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- 손쉬운 사용 → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 사운드: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 오디오 더킹: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 음량: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 말하기 속도: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 힌트: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 탐색 스타일: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 입력 스타일: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 슬라이딩 입력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 동작: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 항상 알림 말하기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 점자 경고 메시지: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 점자 자동 이동: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 점자 입력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 점자 출력: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 점자 표: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 자막 패널: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 다이렉트 터치: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 제스처 방향: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 하드웨어 입력 피드백: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 언어: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 큰 커서: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 미디어 설명: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 이미지 탐색: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 발음 기호 피드백: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 음높이 변경: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 구두점: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- 손쉬운 사용 → VoiceOver → Quick Settings → HDMI로 보내기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 소프트웨어 입력 피드백: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 로터 확인 말하기: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 이미지 설명: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- 손쉬운 사용 → VoiceOver → Quick Settings → 화면 인식: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- 손쉬운 사용 → VoiceOver → VoiceOver 인식: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- 손쉬운 사용 → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- 손쉬운 사용 → VoiceOver → VoiceOver Recognition → 이미지 설명: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- 손쉬운 사용 → VoiceOver → VoiceOver Recognition → 화면 인식: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- 손쉬운 사용 → 확대/축소: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- 손쉬운 사용 → 확대/축소 → 확대/축소: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- 손쉬운 사용 → 확대/축소 → 초점 따라가기: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- 손쉬운 사용 → 확대/축소 → 스마트 입력: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- 손쉬운 사용 → 확대/축소 → 키보드 단축키: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- 손쉬운 사용 → 확대/축소 → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- 손쉬운 사용 → 확대/축소 → Keyboard Shortcuts → 키보드 단축키: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- 손쉬운 사용 → 확대/축소 → Keyboard Shortcuts → 확대/축소 단계 조절: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- 손쉬운 사용 → 확대/축소 → Keyboard Shortcuts → 확대/축소 토글: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- 손쉬운 사용 → 확대/축소 → Keyboard Shortcuts → 확대/축소 윈도우 이동: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- 손쉬운 사용 → 확대/축소 → Keyboard Shortcuts → 확대/축소 윈도우 크기 조절하기: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- 손쉬운 사용 → 확대/축소 → Keyboard Shortcuts → 확대/축소 영역 전환: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- 손쉬운 사용 → 확대/축소 → Keyboard Shortcuts → 일시적으로 확대/축소 토글: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- 손쉬운 사용 → 확대/축소 → Keyboard Shortcuts → 스크롤 휠로 확대/축소: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- 손쉬운 사용 → 확대/축소 → 확대/축소 제어기: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- 손쉬운 사용 → 확대/축소 → 확대/축소 영역: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- 손쉬운 사용 → 확대/축소 → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- 손쉬운 사용 → 확대/축소 → Zoom Region → 전체 화면 확대/축소: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- 손쉬운 사용 → 확대/축소 → Zoom Region → 윈도우 확대/축소: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- 손쉬운 사용 → 확대/축소 → 최대 확대/축소 단계: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- 손쉬운 사용 → 확대/축소 → 확대/축소 필터: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- 손쉬운 사용 → 확대/축소 → 미러링 중 표시: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- 손쉬운 사용 → 텍스트 표시: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 볼드체 텍스트: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 더 큰 텍스트: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 버튼 모양: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 켬/끔 레이블: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 투명도 줄이기: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 대비 증가: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 색상 사용 없이 구별: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 스마트 반전: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 클래식 반전: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 색상 필터: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → Color Filters → 색상 필터: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 화이트 포인트 줄이기: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- 손쉬운 사용 → 디스플레이 및 텍스트 크기 → 자동 밝기: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- 손쉬운 사용 → 동작: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- 손쉬운 사용 → 동작 → 동작 줄이기: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- 손쉬운 사용 → 동작 → 메시지 효과 자동 재생: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- 손쉬운 사용 → 동작 → 비디오 미리보기 자동 재생: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- 손쉬운 사용 → 콘텐츠 말하기: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- 손쉬운 사용 → 콘텐츠 말하기 → 선택 항목 말하기: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- 손쉬운 사용 → 콘텐츠 말하기 → 화면 말하기: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- 손쉬운 사용 → 콘텐츠 말하기 → 말하기 제어기: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- 손쉬운 사용 → 콘텐츠 말하기 → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- 손쉬운 사용 → 콘텐츠 말하기 → Speech Controller → 마우스 버튼 사용자화: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- 손쉬운 사용 → 콘텐츠 말하기 → 콘텐츠 하이라이트: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- 손쉬운 사용 → 콘텐츠 말하기 → 입력 피드백: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- 손쉬운 사용 → 콘텐츠 말하기 → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- 손쉬운 사용 → 콘텐츠 말하기 → Typing Feedback → 문자 피드백: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- 손쉬운 사용 → 콘텐츠 말하기 → Typing Feedback → 문자: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- 손쉬운 사용 → 콘텐츠 말하기 → Typing Feedback → 문자 힌트: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- 손쉬운 사용 → 콘텐츠 말하기 → Typing Feedback → 단어 말하기: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- 손쉬운 사용 → 콘텐츠 말하기 → Typing Feedback → 자동 텍스트 말하기: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- 손쉬운 사용 → 콘텐츠 말하기 → Typing Feedback → 눌러서 예상 단어 듣기: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- 손쉬운 사용 → 콘텐츠 말하기 → 음성: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- 손쉬운 사용 → 콘텐츠 말하기 → 기본 언어: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- 손쉬운 사용 → 콘텐츠 말하기 → 언어 감지: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- 손쉬운 사용 → 콘텐츠 말하기 → 말하기 속도: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- 손쉬운 사용 → 콘텐츠 말하기 → 발음: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- 손쉬운 사용 → 오디오 설명: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- 손쉬운 사용 → 오디오 설명 → 오디오 설명: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- 손쉬운 사용 → 신체 및 동작 지원: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- 손쉬운 사용 → 터치: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- 손쉬운 사용 → 터치 → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- 손쉬운 사용 → 터치 → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 상위 레벨 메뉴 사용자화: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- 손쉬운 사용 → 터치 → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- 손쉬운 사용 → 터치 → AssistiveTouch → Customize Top Level Menu → 변경하려는 아이콘 탭:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- 손쉬운 사용 → 터치 → AssistiveTouch → Customize Top Level Menu → 재설정…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 사용자 설정 동작: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 단일 탭: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 이중 탭: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → Double-Tap → 이중 탭 제한 시간: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 길게 누르기: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → Long Press → 길게 누르기 실행 시간: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 사용자 설정 제스처: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 새로운 제스처 생성…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 대기 중 불투명도: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 포인터 기기: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 기기: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- 손쉬운 사용 → 터치 → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- 손쉬운 사용 → 터치 → AssistiveTouch → Devices → Bluetooth 기기…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 마우스 키: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 포인터 스타일: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 포인터 스타일 → 크기: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 포인터 스타일 → 시각 효과: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 포인터 스타일 → 색상: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 포인터 스타일 → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 포인터 스타일 → SOMETHING IDK → 마우스 버튼 사용자화: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 포인터 스타일 → 자동 가리기: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 포인터 스타일 → NEEDS_OVERRIDE_782 → 자동 가리기: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 화면 키보드 보기: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 메뉴 항상 표시: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 잠시 멈춤 제어: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 이동 허용 오차: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 이동 감도: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 폴백 동작: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 핫 코너: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- 손쉬운 사용 → 터치 → AssistiveTouch → 게임 컨트롤러 사용: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- 손쉬운 사용 → 터치 → 3D 및 햅틱 터치: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_783 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_783 → 3D Touch 감도: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_783 → 터치 시간: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_783 → 빠르게: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_783 → 느리게: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_783 → 3D Touch 감도 및 터치 시간 테스트: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- 손쉬운 사용 → 터치 → 터치 조절: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_784 → 터치 조절: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_784 → 대기 시간: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_784 → 반복 무시: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_784 → 탭 지원: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_784 → 끔: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_784 → 첫 번째 터치 위치 사용: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_784 → 마지막 터치 위치 사용: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- 손쉬운 사용 → 터치 → 탭하여 깨우기: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- 손쉬운 사용 → 터치 → 탭하거나 쓸어넘겨서 깨우기: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- 손쉬운 사용 → 터치 → 흔들어서 실행 취소: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- 손쉬운 사용 → 터치 → 진동: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- 손쉬운 사용 → 터치 → 잠금하여 통화 종료 방지: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- 손쉬운 사용 → 터치 → 오디오 통화 수단: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_785 → 자동: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_785 → Bluetooth 헤드셋: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_785 → 스피커: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- 손쉬운 사용 → 터치 → NEEDS_OVERRIDE_785 → 전화 자동 응답: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- 손쉬운 사용 → Face ID 및 주시: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- 손쉬운 사용 → Face ID 및 주시 → Face ID 사용 시 화면 주시 필요: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- 손쉬운 사용 → Face ID 및 주시 → 주시 지각 기능: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- 손쉬운 사용 → Face ID 및 주시 → 햅틱: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- 손쉬운 사용 → Face ID 및 주시 → 인증 성공 시 햅틱 피드백 사용: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- 손쉬운 사용 → 스위치 제어: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- 손쉬운 사용 → 스위치 제어 → 스위치 제어: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- 손쉬운 사용 → 스위치 제어 → 스위치: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_786 → 새로운 스위치 추가…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_786 → Bluetooth 기기…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 기법: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 스캔 스타일: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_787 → 자동 스캔: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_787 → 수동 스캔: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_787 → 단일 스위치 스텝 스캔: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- 손쉬운 사용 → 스위치 제어 → 시간: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 자동 스캔 시간: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_788 → 자동 스캔 시간: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 첫 번째 항목에서 일시 정지: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_789 → 첫 번째 항목에서 일시 정지: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 이동 반복: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_790 → 이동 반복: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 길게 누르기: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_791 → 길게 누르기: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 탭 동작: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_792 → 기본 설정: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_792 → 자동 탭: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_792 → 항상 탭: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- 손쉬운 사용 → 스위치 제어 → 탭하기 후 초점이 맞춰지는 항목: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_793 → 첫 번째 항목: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_793 → 현재 항목: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- 손쉬운 사용 → 스위치 제어 → 키보드: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 탭한 다음 같은 키 스캔: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 키보드 키 항상 탭: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 예상 단어 확장: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 스위치 안정화: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 대기 시간: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_794 → 대기 시간: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 반복 무시: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_795 → 반복 무시: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 포인트 스캔: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 글라이딩 커서: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_796 → 선택 모드: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_796 → 단일 모드: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_796 → 정제 모드: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_796 → 정밀 모드: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_796 → 글라이딩 커서 속도: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- 손쉬운 사용 → 스위치 제어 → 머리 추적: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_797 → 머리 추적: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- 손쉬운 사용 → 스위치 제어 → 오디오: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 사운드 효과: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 말하기: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_798 → 음성: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_798 → 말하기 속도: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 메뉴 항목: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 항목 그룹화: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 시각 효과: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 큰 커서: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- 손쉬운 사용 → 스위치 제어 → 저장된 제스처: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- 손쉬운 사용 → 스위치 제어 → NEEDS_OVERRIDE_799 → 새로운 제스처 생성…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- 손쉬운 사용 → 스위치 제어 → 커서 색상: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- 손쉬운 사용 → 음성 명령: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- 손쉬운 사용 → 음성 명령 → 음성 명령 설정: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- 손쉬운 사용 → 음성 명령 → 언어: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- 손쉬운 사용 → 음성 명령 → NEEDS_OVERRIDE_800 → 영어(미국): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- 손쉬운 사용 → 음성 명령 → 명령 사용자화: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- 손쉬운 사용 → 음성 명령 → 용어: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- 손쉬운 사용 → 음성 명령 → 명령 피드백: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- 손쉬운 사용 → 음성 명령 → 확인 보기: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- 손쉬운 사용 → 음성 명령 → 사운드 재생: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- 손쉬운 사용 → 음성 명령 → 힌트 보기: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- 손쉬운 사용 → 음성 명령 → 연속 오버레이: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- 손쉬운 사용 → 음성 명령 → 오버레이: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- 손쉬운 사용 → 음성 명령 → NEEDS_OVERRIDE_801 → 없음: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- 손쉬운 사용 → 음성 명령 → NEEDS_OVERRIDE_801 → 항목 번호: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- 손쉬운 사용 → 음성 명령 → NEEDS_OVERRIDE_801 → 항목 이름: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- 손쉬운 사용 → 음성 명령 → NEEDS_OVERRIDE_801 → 번호가 매겨진 격자: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- 손쉬운 사용 → 음성 명령 → 주시 지각: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- 손쉬운 사용 → 측면 버튼: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- 손쉬운 사용 → 측면 버튼 → 클릭 속도: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- 손쉬운 사용 → 측면 버튼 → 기본 설정: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- 손쉬운 사용 → 측면 버튼 → 느리게: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- 손쉬운 사용 → 측면 버튼 → 가장 느리게: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- 손쉬운 사용 → 측면 버튼 → 길게 눌러서 말하기: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- 손쉬운 사용 → 측면 버튼 → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- 손쉬운 사용 → 측면 버튼 → 기존 음성 명령: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- 손쉬운 사용 → 측면 버튼 → 끔: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- 손쉬운 사용 → Apple TV 리모컨: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- 손쉬운 사용 → Apple TV 리모컨 → 방향 버튼: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- 손쉬운 사용 → Apple Watch 원격 화면: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- 손쉬운 사용 → 키보드: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- 손쉬운 사용 → 키보드 → 전체 키보드 접근: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_802 → 전체 키보드 접근: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_802 → 시각 효과: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_802 → 자동 가리기: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_802 → 큰 초점 링: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_802 → 색상: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- 손쉬운 사용 → 키보드 → 키 반복: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_803 → 키 반복: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_803 → 키 반복 간격: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_803 → 반복 지연 시간: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- 손쉬운 사용 → 키보드 → 고정 키: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_804 → 고정 키: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_804 → Shift 키로 토글: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_804 → 사운드: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- 손쉬운 사용 → 키보드 → 느린 키: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- 손쉬운 사용 → 키보드 → NEEDS_OVERRIDE_805 → 느린 키: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- 손쉬운 사용 → 키보드 → 소프트웨어 키보드: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- 손쉬운 사용 → 키보드 → 소문자 키 보기: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- 손쉬운 사용 → 듣기 지원: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- 손쉬운 사용 → 보청 기기: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- 손쉬운 사용 → 보청 기기 → MFi 보청 기기: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- 손쉬운 사용 → 보청 기기 → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- 손쉬운 사용 → 보청 기기 → 보청기 호환성: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- 손쉬운 사용 → 소리 인식: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- 손쉬운 사용 → 소리 인식 → 사운드: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- 손쉬운 사용 → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- 손쉬운 사용 → RTT/TTY → 소프트웨어 TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- 손쉬운 사용 → RTT/TTY → 하드웨어 TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- 손쉬운 사용 → 오디오 및 시각 효과: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 오디오: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 오디오 조정: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- 손쉬운 사용 → 오디오 및 시각 효과 → NEEDS_OVERRIDE_806 → 오디오 조정: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- 손쉬운 사용 → 오디오 및 시각 효과 → NEEDS_OVERRIDE_806 → 오디오 설정 사용자화: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 배경 사운드: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 모노 오디오: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 통화 중 노이즈 캔슬링: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 밸런스: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 시각 효과: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 알림 시 LED 깜박임: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- 손쉬운 사용 → 오디오 및 시각 효과 → NEEDS_OVERRIDE_807 → 잠겨있지 않을 때 깜박임: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- 손쉬운 사용 → 오디오 및 시각 효과 → NEEDS_OVERRIDE_807 → 무음 모드 시 깜박임: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 좌-우 스테레오 균형: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- 손쉬운 사용 → 오디오 및 시각 효과 → 전원 켬 및 끔 사운드: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- 손쉬운 사용 → 자막 및 청각 장애인용 자막: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- 손쉬운 사용 → 자막 및 청각 장애인용 자막 → 스타일: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- 손쉬운 사용 → 자막 및 청각 장애인용 자막 → 청각 장애인용 자막 + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- 손쉬운 사용 → 자막 및 청각 장애인용 자막 → 오디오 전사 보기: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- 손쉬운 사용 → NEEDS_OVERRIDE_808 → 실시간 자막(베타): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- 손쉬운 사용 → NEEDS_OVERRIDE_808 → FaceTime 실시간 자막: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- 손쉬운 사용 → 일반: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- 손쉬운 사용 → 사용법 유도: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- 손쉬운 사용 → 사용법 유도 → 사용법 유도: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- 손쉬운 사용 → 사용법 유도 → 암호 설정: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- 손쉬운 사용 → 사용법 유도 → NEEDS_OVERRIDE_809 → 사용법 유도 암호 설정: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- 손쉬운 사용 → 사용법 유도 → 시간 제한: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- 손쉬운 사용 → 사용법 유도 → NEEDS_OVERRIDE_810 → 알람: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- 손쉬운 사용 → 사용법 유도 → NEEDS_OVERRIDE_810 → 사운드: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- 손쉬운 사용 → 사용법 유도 → NEEDS_OVERRIDE_810 → 말하기: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- 손쉬운 사용 → 사용법 유도 → 손쉬운 사용 단축키: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- 손쉬운 사용 → 사용법 유도 → 디스플레이 자동 잠금: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- 손쉬운 사용 → 사용자 설정 손쉬운 사용 모드: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- 손쉬운 사용 → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- 손쉬운 사용 → Siri → 타이핑으로 Siri 사용: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- 손쉬운 사용 → Siri → 음성 응답: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- 손쉬운 사용 → Siri → 자동 음성 응답: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- 손쉬운 사용 → Siri → 무음 응답 선호: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- 손쉬운 사용 → Siri → 무음 모드에서 말하지 않기: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- 손쉬운 사용 → Siri → 항상 ‘Siri야’ 듣기: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- 손쉬운 사용 → 손쉬운 사용 단축키: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- 손쉬운 사용 → 손쉬운 사용 단축키 → 확대기: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- 손쉬운 사용 → 앱별 설정: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- 손쉬운 사용 → 근처 기기 제어: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- 디스플레이 및 밝기: `prefs:root=DISPLAY`
+- 디스플레이 및 밝기 → 화면 스타일: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- 디스플레이 및 밝기 → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- 디스플레이 및 밝기 → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- 디스플레이 및 밝기 → Night Shift → 시간 예약: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- 디스플레이 및 밝기 → Night Shift → 내일까지 수동으로 활성화: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- 디스플레이 및 밝기 → Night Shift → 색 온도: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- 디스플레이 및 밝기 → 자동 잠금: `prefs:root=DISPLAY&path=AUTOLOCK`
+- 디스플레이 및 밝기 → 들어서 깨우기: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- 디스플레이 및 밝기 → 잠금 / 잠금 해제: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- 디스플레이 및 밝기 → 텍스트 크기: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- 디스플레이 및 밝기 → 볼드체 텍스트: `prefs:root=DISPLAY#BOLD_TEXT`
+- 디스플레이 및 밝기 → 디스플레이 확대/축소: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- 디스플레이 및 밝기 → 보기: `prefs:root=DISPLAY&path=MAGNIFY`
+- 노출 알림: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_811 → 알림 배지: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_811 → 새로 다운로드된 앱: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- 홈 화면 및 멀티태스킹: `prefs:root=HOME_SCREEN_DOCK`
+- 홈 화면 및 멀티태스킹 → NEEDS_OVERRIDE_812 → Dock에서 앱 보관함 보기: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- 홈 화면 및 멀티태스킹 → Dock에서 제안된 앱 및 최근 앱 보기: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- 홈 화면: `prefs:root=HOME_SCREEN`
+- 홈 화면 → 새로 다운로드된 앱: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- 홈 화면 → 알림 배지: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID 및 암호: `prefs:root=PASSCODE`
+- Touch ID 및 암호 → 암호 끄기: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID 및 암호 → 암호 변경: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID 및 암호 → 암호 필요: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID 및 암호 → 음성으로 전화걸기: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID 및 암호 → 잠겨 있는 동안 접근 허용: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID 및 암호 → 메시지 답장: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID 및 암호 → 홈 제어: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID 및 암호 → 지갑: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID 및 암호 → 부재중 전화 회답: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID 및 암호 → 데이터 지우기: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID 및 암호 → Apple Watch로 잠금 해제: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- 팟캐스트: `prefs:root=PODCASTS`
+- 긴급 구조 요청: `prefs:root=EMERGENCY_SOS`
+- 긴급 구조 요청 → 측면 버튼으로 전화걸기: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- 긴급 구조 요청 → 자동 통화: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- 긴급 구조 요청 → 긴급 연락처: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- 긴급 구조 요청 → 카운트다운 사운드: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- 사운드: `prefs:root=Sounds`
+- 사운드 → 헤드폰 안전성: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- 사운드 → 헤드폰 안전성 → Lightning 어댑터: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- 사운드 → 헤드폰 안전성 → 헤드폰 알림: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- 사운드 → 헤드폰 안전성 → 큰 소리 줄이기: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- 사운드 → 사운드 효과: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- 사운드 → 벨소리 및 알림: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- 사운드 → 버튼을 사용하여 변경: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- 사운드 → 사운드 및 진동 패턴: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- 사운드 → 벨소리: `prefs:root=Sounds&path=Ringtone`
+- 사운드 → 메시지 수신음: `prefs:root=Sounds&path=Text_Messages`
+- 사운드 → 음성 메시지 수신: `prefs:root=Sounds&path=Voicemail`
+- 사운드 → 메일 수신: `prefs:root=Sounds&path=NEW_MAIL`
+- 사운드 → 메일 발신: `prefs:root=Sounds&path=SENT_MAIL`
+- 사운드 → 캘린더 알림: `prefs:root=Sounds&path=Calendar%20Alarm`
+- 사운드 → 미리 알림: `prefs:root=Sounds&path=Reminder%20Alerts`
+- 사운드 → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- 사운드 → 키보드 입력 사운드: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- 사운드 → 잠금 사운드: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- 날씨: `prefs:root=WEATHER`
+- 나침반: `prefs:root=COMPASS`
+- 나침반 → 진북 사용: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- 제어 센터: `prefs:root=ControlCenter`
+- 제어 센터 → 앱 내 접근: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- 제어 센터 → 제어 항목 사용자화: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- 개발자: `prefs:root=DEVELOPER_SETTINGS`
+- 개발자 → 멀티패스 네트워크: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- 개발자 → 멀티패스 네트워크 → 멀티패스 네트워크: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- 개발자 → 화면 스타일: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- 개발자 → 다크 모드 화면 스타일: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- 개발자 → 페어링된 기기: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- 개발자 → 신뢰하는 컴퓨터 지우기: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- 개발자 → 악기: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- 개발자 → 로그 기록: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- 개발자 → UI 자동화: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- 개발자 → 네트워크: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- 개발자 → 네트워크 링크 컨디셔너: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- 개발자 → iAd 개발자 앱 테스트: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- 개발자 → 유효노출비(Fill Rate): `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- 개발자 → 잘린 배너 하이라이트: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- 개발자 → 무제한 광고 제시: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- 개발자 → PassKit 테스트: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- 개발자 → 추가 로그 기록: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- 개발자 → HTTP 서비스 허용: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- 개발자 → 비율 제한 비활성화: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- 개발자 → NFC 패스키 선택사항: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- 개발자 → 미디어 서비스 테스트: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- 개발자 → AirPlay 제안: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- 개발자 → 미디어 서비스 재설정: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- 개발자 → News 테스트: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- 개발자 → 다음번 실행 시 로컬 데이터 재설정: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- 개발자 → 미디어 플레이어 프레임워크 테스트: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- 개발자 → 재생 가능한 콘텐츠 API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- 개발자 → TV 제공업체 테스트: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- 개발자 → TV 제공업체: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- 개발자 → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- 개발자 → CoreSpotlight 테스트: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- 개발자 → 모든 항목 다시 인덱스: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- 개발자 → 모든 항목을 식별자로 다시 인덱스: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- 개발자 → 단축어 테스트: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- 개발자 → 최근 단축어 표시: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- 개발자 → 예정된 미디어 표시: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- 개발자 → 잠금 화면에 기부 표시: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- 개발자 → 시계로 단축어 강제 동기화: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- 개발자 → MIDI-CI 테스트: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- 개발자 → MIDI-CI 활성화: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- 건강: `prefs:root=HEALTH`
+- 측정: `prefs:root=MEASURE`
+- 측정 → 측정 단위: `prefs:root=MEASURE#MEASURE_UNITS`
+- 측정 → 영국식: `prefs:root=MEASURE#Imperial`
+- 측정 → 미터법: `prefs:root=MEASURE#Metric`
+- 음악: `prefs:root=MUSIC`
+- 음악 → Apple Music 보기: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- 음악 → 플레이리스트 노래 추가: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- 음악 → 별표 선호도 보기: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- 음악 → 보관함 동기화: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- 음악 → 셀룰러 데이터: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- 음악 → 다운로드한 음악: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- 음악 → 저장 공간 최적화: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- 음악 → 자동 다운로드: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- 음악 → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- 음악 → 사운드 자동 조절: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- 음악 → 청취 기록 사용: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- 메모: `prefs:root=NOTES`
+- 메모 → 기본 계정: `prefs:root=NOTES&path=Default%20Account`
+- 메모 → 암호: `prefs:root=NOTES&path=Password`
+- 메모 → 다음 순서로 메모 정렬: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- 메모 → 새로운 메모 시작 스타일: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- 메모 → 확인한 항목 정렬: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- 메모 → 줄 및 격자: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- 메모 → 사진 앱에 저장: `prefs:root=NOTES#Save%20to%20Photos`
+- 메모 → 잠금 화면에서 메모에 접근: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- 메시지: `prefs:root=MESSAGES`
+- 번역: `prefs:root=TRANSLATE`
+- 번역 → 오프라인 번역 모드: `prefs:root=TRANSLATE#OnDeviceOnly`
+- TV 제공업체: `prefs:root=VIDEO_SUBSCRIBER`
+- 음성 메모: `prefs:root=VOICE_MEMOS`
+- 음성 메모 → 삭제된 항목 지우기: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- 음성 메모 → 오디오 음질: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- 음성 메모 → 위치 기반 이름 지정: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- 카메라: `prefs:root=CAMERA`
+- 카메라 → 포맷: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- 카메라 → 포맷 → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- 카메라 → NEEDS_OVERRIDE_813 → HDR 비디오: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- 카메라 → 설정 유지: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- 카메라 → 설정 유지 → 카메라 모드: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- 카메라 → 격자: `prefs:root=CAMERA#CameraGridSwitch`
+- 카메라 → QR 코드 스캔: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- 지도: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- 연락처: `prefs:root=CONTACTS`
+- 연락처 → 연락처 앱 접근 허용: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- 연락처 → Siri 및 검색: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- 연락처 → 정렬 순서: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- 연락처 → 표시 순서: `prefs:root=CONTACTS&path=PersonNameOrder`
+- 연락처 → 줄인 이름: `prefs:root=CONTACTS&path=PersonShortName`
+- 연락처 → 줄인 이름 → 줄인 이름: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- 연락처 → 줄인 이름 → 별명 사용: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- 연락처 → 나의 정보: `prefs:root=CONTACTS&path=MeCard`
+- 연락처 → SIM 연락처 가져오기: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- 도서: `prefs:root=IBOOKS`
+- 도서 → 온라인 콘텐츠: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- 도서 → 동기화: `prefs:root=IBOOKS#SYNCING`
+- 도서 → 읽고 있는 책: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- 도서 → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- 도서 → 독서: `prefs:root=IBOOKS#READING`
+- 도서 → 양쪽 정렬: `prefs:root=IBOOKS#BKFullJustification`
+- 도서 → 자동 하이픈: `prefs:root=IBOOKS#BKAutoHyphenation`
+- 도서 → 양쪽 여백 이동: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- 도서 → 독서 목표: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- 도서 → 독서 목표 데이터 지우기: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- 도서 → 검색: `prefs:root=IBOOKS#SEARCHING`
+- 도서 → 북스토어: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- 도서 → 오디오북: `prefs:root=IBOOKS#AUDIOBOOKS`
+- 도서 → 앞으로 건너뛰기: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- 도서 → 뒤로 건너뛰기: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- 도서 → 외부 제어기: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- 도서 → 다음/이전: `prefs:root=IBOOKS#Next/Previous`
+- 도서 → 앞으로/뒤로 건너뛰기: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- 도서 → 개인정보 보호: `prefs:root=IBOOKS#PRIVACY`
+- 도서 → 식별자 재설정: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- 도서 → 승인서: `prefs:root=IBOOKS&path=Acknowledgements`
+- 캘린더: `prefs:root=CALENDAR`
+- 캘린더 → 지정 시간대 적용: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- 캘린더 → 대체 캘린더: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- 캘린더 → 주 번호: `prefs:root=CALENDAR#Week%20Numbers`
+- 캘린더 → 초대 거절 보기: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- 캘린더 → 동기화: `prefs:root=CALENDAR&path=Sync`
+- 캘린더 → 기본 알림 시간: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- 캘린더 → 시작 요일: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- 캘린더 → 위치 제안: `prefs:root=CALENDAR#Location%20Suggestions`
+- Mail: `prefs:root=MAIL`
+- Mail → 계정: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → 계정 → 계정 추가: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → 계정 → 데이터 업데이트: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → 미리보기: `prefs:root=MAIL&path=Preview`
+- Mail → 받는 사람/참조 레이블 보기: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → 쓸어넘기기 옵션: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → 삭제 전에 확인: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → 원격 이미지 로드: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → 스레드로 구성: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → 읽은 메시지 접기: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → 가장 최근 메시지를 맨 위로: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → 스레드 유지: `prefs:root=MAIL#Complete%20Threads`
+- Mail → 알림 비활성화한 스레드 동작: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → 차단된 발신자 무시: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → 차단 목록: `prefs:root=MAIL&path=Blocked`
+- Mail → 자신을 항상 숨은 참조: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → 주소 표시: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → 인용 단계 증가: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → 답장에 첨부 파일 포함: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → 서명: `prefs:root=MAIL&path=Signature`
+- 전화: `prefs:root=Phone`
+- 전화 → 나의 전화번호: `prefs:root=Phone&path=My%20Number`
+- 전화 → 착신 통화: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- 전화 → 발신자 알리기: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- 전화 → SMS/통화 리포트: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- 전화 → 메시지로 응답: `prefs:root=Phone&path=Respond%20with%20Text`
+- 전화 → 착신통화전환: `prefs:root=Phone&path=Call%20Forwarding`
+- 전화 → 착신통화전환 → 착신통화전환: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- 전화 → 통화 대기: `prefs:root=Phone&path=Call%20Waiting`
+- 전화 → 나의 발신번호 표시: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- 전화 → 나의 발신번호 표시 → NEEDS_OVERRIDE_814 → 나의 발신번호 표시: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- 전화 → 알 수 없는 발신자 음소거: `prefs:root=Phone#SILENCE_CALLS`
+- 전화 → 차단된 연락처: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- 전화 → 전화 걸기 지원: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → 콘텐츠 차단기: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → 팝업 차단: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → 크로스 사이트 추적 방지: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → 자동 완성: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → 다운로드: `prefs:root=SAFARI&path=DOWNLOADS`
+- 암호: `prefs:root=PASSWORDS`
+- 암호 → 암호 자동 완성: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- 사진: `prefs:root=Photos`
+- 사진 → iCloud 사진: `prefs:root=Photos#iCloudPhotosSwitch`
+- 사진 → 저장 공간 최적화: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- 사진 → 다운로드 및 원본 유지: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- 사진 → 나의 사진 스트림: `prefs:root=Photos#PhotoStreamSwitch`
+- 사진 → 공유 앨범: `prefs:root=Photos#SharedStreamsSwitch`
+- 사진 → 셀룰러 데이터: `prefs:root=Photos&path=CellularDataLinkList`
+- 사진 → 비디오 자동 재생: `prefs:root=Photos#VideoAutoplaySwitch`
+- 사진 → Full HDR 보기: `prefs:root=Photos#ImageModulationSwitch`
+- 사진 → 공휴일 이벤트 보기: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- 사진 → Mac 또는 PC로 전송: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → 자동 다운로드: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → 앱 업데이트: `prefs:root=STORE#App%20Updates`
+- App Store → 앱 다운로드: `prefs:root=STORE&path=App%20Downloads`
+- App Store → 비디오 자동 재생: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → 앱 내 평가 및 리뷰: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → 기사 미리보기 표시: `prefs:root=NEWS#show_excerpt_mode`
+- News → 투데이에서 기사 제한: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → 개인정보 보호: `prefs:root=NEWS#Privacy`
+- News → 식별자 재설정: `prefs:root=NEWS#reset_identifier`
+- News → 승인서: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_815 → 에어플레인 모드: `prefs:root=ROOT#AIRPLANE_MODE`
+- 미리 알림: `prefs:root=REMINDERS`
+- 미리 알림 → 기본 목록: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- 미리 알림 → 기본 목록 → 미리 알림: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- 미리 알림 → 오늘 알림: `prefs:root=REMINDERS#todayNotificationFireTime`
+- 미리 알림 → 기한 지난 항목으로 표시: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- 배터리: `prefs:root=BATTERY_USAGE`
+- 배터리 → 저전력 모드: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- 배터리 → 배터리 성능 상태: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- 단축어: `prefs:root=SHORTCUTS`
+- 단축어 → iCloud 동기화: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- 단축어 → 단축어 순서 동기화: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- 단축어 → 법적 공지: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri 및 검색: `prefs:root=SIRI`
+- Siri 및 검색 → 잠겨 있는 동안 Siri 허용: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri 및 검색 → 언어: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri 및 검색 → Siri 음성: `prefs:root=SIRI&path=VOICE_ID`
+- Siri 및 검색 → 음성 피드백: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri 및 검색 → 나의 정보: `prefs:root=SIRI&path=MY_INFO`
+- Siri 및 검색 → 검색에서 제안: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri 및 검색 → 찾아보기에서 제안: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri 및 검색 → 잠금 화면에서 제안 보기: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- 주식: `prefs:root=STOCKS`
+- 주식 → 개인정보 보호: `prefs:root=STOCKS#Privacy`
+- 주식 → 식별자 재설정: `prefs:root=STOCKS#reset_identifier`
+- 셀룰러: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- 셀룰러 → 셀룰러 데이터 옵션: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- 셀룰러 → 셀룰러 데이터 옵션 → 저데이터 모드: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- 셀룰러 → 셀룰러 데이터: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → 재생에 셀룰러 데이터 사용: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → 재생 화질: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → 구입 및 대여 항목: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → 홈 공유: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- 배경화면: `prefs:root=Wallpaper`

@@ -1,0 +1,561 @@
+{
+  "Accessibility": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Vision": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Zoom": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Bold Text": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "On/Off Labels": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Greyscale": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Reduce Transparency": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Reduce Motion": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Chimes": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Schedule": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Hourly": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 minutes": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 minutes": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Sounds": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Bells": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Birds": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Motor": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Side Button Click Speed": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Click Speed": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Default": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Slow": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Slowest": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Touch Accommodations": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Touch Accommodations": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Hold Duration": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Ignore Repeat": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Tap Assistance": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Off": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Use Initial Touch Location": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Use Final Touch Location": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "WHEELCHAIR ACTIVITY": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Walkie-Talkie": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Tap to Talk": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Hearing": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Relay Number": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Send Immediately": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Default Replies": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Default Replies": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Add reply…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Mono Audio": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Left-Right Stereo Balance": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Headphone Notifications": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Hearing Devices": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Complication": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Mic Volume": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Program": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Taptic Time Speed": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Accessibility Shortcut": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Pair New Watch": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "App View": "bridge:root=APP_VIEW_ID",
+  "General": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "About": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Name": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Limited Warranty": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Limited Warranty": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "COVERAGE DETAILS": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Hardware Coverage": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Chat & Phone Support": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Songs": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Photos": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Applications": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Capacity": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Available": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Version": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Network Provider": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Model": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Serial Number": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi-Fi Address": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Legal": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "View the Apple Watch User Guide ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Software Update": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Automatic App Install": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Airplane Mode": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Focus": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Mirror my iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Watch Orientation": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Wear Apple Watch on": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Left Wrist": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Right Wrist": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown on Left Side": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown on Right Side": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Enable Dictation": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Enable Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Bedside Mode": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Enable Screenshots": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Storage": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Diagnostic Logs": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Copy Watch Analytics": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Reset": "bridge:root=GENERAL_LINK&path=RESET",
+    "Auto-launch when Submerged": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Auto-Launch Audio Apps": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Language & Region": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Mirror my iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Custom": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "RETURN TO CLOCK": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "RETURN TO CLOCK": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Always": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "After 2 minutes": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "After 1 hour": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APPS": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Now Playing": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Display & Brightness": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Brightness": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Always On": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Always On": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "WRIST DOWN": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Show Notifications": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Show Notifications": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCH APPS": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Show Apps": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Show Apps": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPS": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Text Size": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Bold Text": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "WAKE": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Wake on Wrist Raise": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Wake on Crown Rotation": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Wake Duration": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "ON TAP": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Wake for 15 Seconds": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Wake for 70 Seconds": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Sounds & Haptics": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Alert Volume": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Silent Mode": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Headphone Audio": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Headphone Safety": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Headphone Notifications": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Reduce Loud Sounds": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Haptics": "bridge:root=SOUNDS_ID#Haptics",
+    "Haptic Alerts": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Crown Haptics": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "System Haptics": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Cover to Mute": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "Emergency SOS": "bridge:root=SOS_MODE_ID",
+  "Privacy": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Heart Rate": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Respiratory Rate": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Fitness Tracking": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Reset Fitness Calibration Data": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Environmental Sound Measurements": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Headphone Audio Measurements": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Save In Health": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "For 8 Days": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Until I Delete": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Blood Oxygen Measurements": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Wrist Temperature": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Screen Time": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Depth": "bridge:root=com.apple.DepthCompanionSettings",
+  "Action Button": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Automatic Downloads": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Automatic Updates": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Health": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail & Calendar": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Accounts": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Add Google Account...": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Fetch": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Off": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Hourly": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Handwashing": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Allow Notifications": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Send to Notification Centre": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Notifications Off": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Notification Grouping": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Handwashing Timer": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Mobile Data": "bridge:root=CELLULAR_ID",
+  "Complications": "bridge:root=COMPLICATIONS",
+  "Activity": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Progress Updates": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "None": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "Every 2 hours": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "Every 4 hours": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "Every 6 hours": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "Every 8 hours": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Achievements": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Weekly Summary": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Daily Coaching": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Goal Completions": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Special Challenges": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Activity Sharing Notifications": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Heart": "bridge:root=com.apple.HeartRateSettings#1",
+    "Heart Rate Notifications": "bridge:root=com.apple.HeartRateSettings#2",
+    "High Heart Rate": "bridge:root=com.apple.HeartRateSettings#3",
+    "Low Heart Rate": "bridge:root=com.apple.HeartRateSettings#4",
+    "Irregular Rhythm": "bridge:root=com.apple.HeartRateSettings#5",
+    "View Recorded ECGs in Health": "bridge:root=com.apple.HeartRateSettings#6",
+    "ECG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Messages": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Mirror my iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Custom": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Default Replies": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Default Replies": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Smart Replies": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Add reply…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Repeat Alerts": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Audio Messages": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Mindfulness": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Allow Notifications": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Send to Notification Centre": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Notifications Off": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Mindfulness Reminders": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Start of Day": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "End of Day": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Add Reminder…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Weekly Summary": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Mute for today": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Breath Rate": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 breaths per minute": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 breaths per minute": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 breaths per minute": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 breaths per minute": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 breaths per minute": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 breaths per minute": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 breaths per minute": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Haptics": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "None": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Minimal": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Prominent": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Sleep": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Set Up Sleep in Health App": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Audiobooks": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Sign In": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Calendar": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "NOTIFICATIONS": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Mirror my iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Custom…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "CALENDARS": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Clock": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24-Hour Time": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Chimes": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Sounds": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Bells": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Birds": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Speak Time": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Control With Silent Mode": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Always Speak": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Taptic Time": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Taptic Time": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Digits": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Terse": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Morse Code": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Push Alerts from iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Notifications Indicator": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monogram": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Watch Face Notifications": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "City Abbreviations": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Siri Face Data Sources": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Contacts": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Sort Order": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "First, Last": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Last, First": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Display Order": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "First, Last": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Last, First": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Short Name": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Short Name": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "First Name & Last Initial": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "First Initial & Last Name": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "First Name Only": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Last Name Only": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Prefer Nicknames": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Mirror my iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Custom": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Mail Settings": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Accounts": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Include Mail": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Message Preview": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "None": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 Line": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 Lines": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Default Replies": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Default Replies": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Add reply…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Signature": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Maps": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Turn Alerts": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Driving": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Driving with CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Walking": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Cycling": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Show Navigation": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Public Transport": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Build Info:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Music": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "PLAYLISTS & ALBUMS": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Add Music…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Wallet & Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Add Card": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Notifications": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Mirror my iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Custom": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Photos": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Photo Syncing": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Memories": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Sync Memories": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Featured Photos": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Sync Featured Photos": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Album": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Sync Album": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Photos Limit": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Notification Settings": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Mirror my iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Custom": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Noise": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Environmental Sound Measurements": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Noise Notifications": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Noise Threshold": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Off": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 decibels": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Notification Grouping": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Blood Oxygen": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Network Provider Settings": "bridge:root=CARRIER_SETTINGS",
+  "Turn Passcode Off": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Turn Passcode On": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Change Passcode": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Simple Passcode": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Unlock with iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Erase Data": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Wrist Detection": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Phone": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Calls": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Ringtone": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Sound": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Haptic": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Workout": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Low Power Mode": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Show Goal Metric": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Workout View": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Auto-Pause": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Auto-Pause": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Start Workout Reminder": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "End Workout Reminder": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Press to Pause": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Detect Gym Equipment": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Pace/Speed View": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Current": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Average": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Workout Playlist": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "None": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Playlists": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Play from beginning": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Shuffle": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Units of Measure": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Calories": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilocalories": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilojoules": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Yards": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Metres": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Miles": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilometres": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Voice Feedback": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Time to Walk": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Add New Workouts to Watch": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Stocks": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Clock Face Complication Shows": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Current Price": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Points Change": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Percentage Change": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Market Cap": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Siri Face Shows Quote For": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Selected Stock": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Selected Stock": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Dock Ordering": "bridge:root=DOCK#OrderingOptionGroup",
+    "Recents": "bridge:root=DOCK#Recents",
+    "Favourites": "bridge:root=DOCK#Favorites"
+  },
+  "Podcasts": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Ask Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Raise to Speak": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Press Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Voice Feedback": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Always On": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Control With Silent Mode": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Headphones Only": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Voice Volume": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siri Suggestions": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Walkie-Talkie": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Allow Notifications": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Send to Notification Centre": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Notifications Off": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Notification Grouping": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Friends": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Weather": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Default City": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Default City": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Current Location": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Send Read Receipts": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

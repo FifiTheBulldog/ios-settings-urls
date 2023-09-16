@@ -1,0 +1,411 @@
+- アクセシビリティ: `bridge:root=ACCESSIBILITY`
+- アクセシビリティ → 視覚: `bridge:root=ACCESSIBILITY#VISION`
+- アクセシビリティ → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- アクセシビリティ → ズーム: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- アクセシビリティ → 文字を太くする: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- アクセシビリティ → オン/オフラベル: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- アクセシビリティ → グレイスケール: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- アクセシビリティ → 透明度を下げる: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- アクセシビリティ → 視差効果を減らす: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- アクセシビリティ → Taptic Chimes: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- アクセシビリティ → Taptic Chimes → チャイム: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- アクセシビリティ → Taptic Chimes → スケジュール: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- アクセシビリティ → Taptic Chimes → スケジュール → 正時: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- アクセシビリティ → Taptic Chimes → スケジュール → 30分: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- アクセシビリティ → Taptic Chimes → スケジュール → 15分: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- アクセシビリティ → Taptic Chimes → サウンド: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- アクセシビリティ → Taptic Chimes → サウンド → ベル: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- アクセシビリティ → Taptic Chimes → サウンド → 鳥: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- アクセシビリティ → 動き: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- アクセシビリティ → サイドボタンのクリックの間隔: `bridge:root=ACCESSIBILITY&path=SideButton`
+- アクセシビリティ → サイドボタンのクリックの間隔 → クリックの間隔: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- アクセシビリティ → サイドボタンのクリックの間隔 → デフォルト: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- アクセシビリティ → サイドボタンのクリックの間隔 → 遅い: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- アクセシビリティ → サイドボタンのクリックの間隔 → 最も遅く: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- アクセシビリティ → タッチ調整: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- アクセシビリティ → タッチ調整 → タッチ調整: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- アクセシビリティ → タッチ調整 → 保持継続時間: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- アクセシビリティ → タッチ調整 → 繰り返しを無視: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- アクセシビリティ → タッチ調整 → タップ補助: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- アクセシビリティ → タッチ調整 → オフ: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- アクセシビリティ → タッチ調整 → タッチ開始位置を使用: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- アクセシビリティ → タッチ調整 → タッチ終了位置を使用: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- アクセシビリティ → 車椅子のアクティビティ: `bridge:root=ACCESSIBILITY#MOBILITY`
+- アクセシビリティ → トランシーバー: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- アクセシビリティ → タップして話す: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- アクセシビリティ → 聴覚: `bridge:root=ACCESSIBILITY#HEARING`
+- アクセシビリティ → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- アクセシビリティ → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- アクセシビリティ → RTT → リレー番号: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- アクセシビリティ → RTT → すぐに送信: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- アクセシビリティ → RTT → デフォルトの返信: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- アクセシビリティ → RTT → デフォルトの返信 → デフォルトの返信: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- アクセシビリティ → RTT → デフォルトの返信 → 返答を追加…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- アクセシビリティ → モノラルオーディオ: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- アクセシビリティ → ステレオの左右のバランス: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- アクセシビリティ → ヘッドフォン通知: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- アクセシビリティ → ヒアリングデバイス: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- アクセシビリティ → コンプリケーション: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- アクセシビリティ → コンプリケーション → マイク音量: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- アクセシビリティ → コンプリケーション → プログラム: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- アクセシビリティ → Tapticタイムの速さ: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- アクセシビリティ → ショートカット: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- undefined: `bridge:root=ActiveWatch`
+- undefined → 新しいWatchとペアリング: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- App表示: `bridge:root=APP_VIEW_ID`
+- 一般: `bridge:root=GENERAL_LINK`
+- 一般 → 情報: `bridge:root=GENERAL_LINK&path=ABOUT`
+- 一般 → 情報 → 名前: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- 一般 → 情報 → 限定保証: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- 一般 → 情報 → 限定保証 → 限定保証: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- 一般 → 情報 → 限定保証 → 保証範囲詳細: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- 一般 → 情報 → 限定保証 → ハードウェア保証範囲: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- 一般 → 情報 → 限定保証 → チャットと電話サポート: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- 一般 → 情報 → 曲: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- 一般 → 情報 → 写真: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- 一般 → 情報 → App: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- 一般 → 情報 → 容量: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- 一般 → 情報 → 使用可能: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- 一般 → 情報 → バージョン: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- 一般 → 情報 → 通信事業者: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- 一般 → 情報 → モデル: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- 一般 → 情報 → シリアル番号: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- 一般 → 情報 → Wi-Fiアドレス: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID`
+- 一般 → 情報 → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- 一般 → 情報 → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- 一般 → 情報 → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- 一般 → 情報 → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- 一般 → 情報 → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- 一般 → 情報 → 法律に基づく情報: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- 一般 → 情報 → Apple Watchユーザガイドを表示: `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- 一般 → ソフトウェアアップデート: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- 一般 → Appの自動インストール: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- 一般 → 機内モード: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- 一般 → 集中モード: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- 一般 → 集中モード → iPhoneを反映: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- 一般 → ウォッチの向き: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- 一般 → ウォッチの向き → Apple Watchの装着: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- 一般 → ウォッチの向き → 左手: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- 一般 → ウォッチの向き → 右手: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- 一般 → ウォッチの向き → 左にDigital Crown: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- 一般 → ウォッチの向き → 右にDigital Crown: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- 一般 → Apple ID: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- 一般 → 音声入力を有効にする: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- 一般 → Handoffを有効にする: `bridge:root=GENERAL_LINK#CONTINUITY`
+- 一般 → ナイトスタンドモード: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- 一般 → スクリーンショットをオンにする: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- 一般 → ストレージ: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- 一般 → 診断ログ: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- 一般 → Watchの解析をコピー: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- 一般 → リセット: `bridge:root=GENERAL_LINK&path=RESET`
+- 一般 → 水中にいるとき自動起動: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- 一般 → 水中にいるとき自動起動 → オーディオAppを自動起動: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- 一般 → 言語と地域: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- 一般 → 言語と地域 → iPhoneを反映: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- 一般 → 言語と地域 → カスタム: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- 一般 → 時計に戻る: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- 一般 → 時計に戻る → 時計に戻る: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- 一般 → 時計に戻る → 常に: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- 一般 → 時計に戻る → 2分後: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- 一般 → 時計に戻る → 1時間後: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- 一般 → 時計に戻る → App: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- 一般 → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- 一般 → Wake Screen → 再生中: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- 画面表示と明るさ: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- 画面表示と明るさ → 明るさ: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- 画面表示と明るさ → 常にオン: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- 画面表示と明るさ → 常にオン → 常にオン: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- 画面表示と明るさ → 常にオン → 手首を下にする: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- 画面表示と明るさ → 常にオン → 通知を表示: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- 画面表示と明るさ → 常にオン → 通知を表示 → 通知を表示: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- 画面表示と明るさ → 常にオン → 通知を表示 → APPLE WATCHのAPP: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- 画面表示と明るさ → 常にオン → Appを表示: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- 画面表示と明るさ → 常にオン → Appを表示 → Appを表示: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- 画面表示と明るさ → 常にオン → Appを表示 → App: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- 画面表示と明るさ → テキストサイズ: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- 画面表示と明るさ → 文字を太くする: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- 画面表示と明るさ → スリープ解除: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- 画面表示と明るさ → 手首を上げてスリープ解除: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- 画面表示と明るさ → Crownを回してスリープ解除: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- 画面表示と明るさ → スリープ解除時間: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- 画面表示と明るさ → スリープ解除時間 → タップ時: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- 画面表示と明るさ → スリープ解除時間 → 15秒間スリープ解除: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- 画面表示と明るさ → スリープ解除時間 → 70秒間スリープ解除: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- サウンドと触覚: `bridge:root=SOUNDS_ID`
+- サウンドと触覚 → 通知音の音量: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- サウンドと触覚 → 消音モード: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- サウンドと触覚 → ヘッドフォンオーディオ: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- サウンドと触覚 → ヘッドフォンの安全性: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- サウンドと触覚 → ヘッドフォンの安全性 → ヘッドフォン通知: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- サウンドと触覚 → ヘッドフォンの安全性 → 大きな音を抑える: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- サウンドと触覚 → 触覚: `bridge:root=SOUNDS_ID#Haptics`
+- サウンドと触覚 → 触覚による通知: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- サウンドと触覚 → Crownの触覚: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- サウンドと触覚 → システムの触覚: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- サウンドと触覚 → カバーして消音: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- 緊急SOS: `bridge:root=SOS_MODE_ID`
+- プライバシー: `bridge:root=PRIVACY_ID`
+- プライバシー → 心拍数: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- プライバシー → 呼吸数: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- プライバシー → フィットネストラッキング: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- プライバシー → フィットネス調整データをリセット: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- プライバシー → 環境音測定: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- プライバシー → ヘッドホンオーディオ測定: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- プライバシー → ヘッドホンオーディオ測定 → “ヘルスケア”に保存: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- プライバシー → ヘッドホンオーディオ測定 → 8日間: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- プライバシー → ヘッドホンオーディオ測定 → 削除するまで: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- プライバシー → 血中酸素ウェルネスの測定: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- プライバシー → 手首の皮膚温: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- スクリーンタイム: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- 水深: `bridge:root=com.apple.DepthCompanionSettings`
+- アクションボタン: `bridge:root=STING_TITLE`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → 自動ダウンロード: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → 自動アップデート: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- ヘルスケア: `bridge:root=com.apple.BridgeHealthSettings`
+- メールとカレンダー: `bridge:root=com.apple.BridgeRemoteAccounts`
+- メールとカレンダー → アカウント: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- メールとカレンダー → Googleアカウントを追加…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- メールとカレンダー → フェッチ: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- メールとカレンダー → フェッチ → オフ: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- メールとカレンダー → フェッチ → 正時: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- メールとカレンダー → フェッチ → 30分: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- メールとカレンダー → フェッチ → 15分: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- 手洗い: `bridge:root=com.apple.BrookBridgeSettings`
+- 手洗い → 通知を許可: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- 手洗い → 通知センターに送信: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- 手洗い → 通知オフ: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- 手洗い → 通知のグループ化: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- 手洗い → 手洗いタイマー: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- モバイル通信: `bridge:root=CELLULAR_ID`
+- コンプリケーション: `bridge:root=COMPLICATIONS`
+- アクティビティ: `bridge:root=com.apple.HealthAppsSettings`
+- アクティビティ → 進捗状況のアップデート: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- アクティビティ → 進捗状況のアップデート → なし: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- アクティビティ → 進捗状況のアップデート → 2時間ごと: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- アクティビティ → 進捗状況のアップデート → 4時間ごと: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- アクティビティ → 進捗状況のアップデート → 6時間ごと: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- アクティビティ → 進捗状況のアップデート → 8時間ごと: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- アクティビティ → 成果: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- アクティビティ → 週ごとの概要: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- アクティビティ → デイリーコーチング: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- アクティビティ → ゴール達成: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- アクティビティ → スペシャルチャレンジ: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- アクティビティ → アクティビティ共有の通知: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Heart Rate: `bridge:root=com.apple.HeartRateSettings`
+- Heart Rate → 心臓: `bridge:root=com.apple.HeartRateSettings#1`
+- Heart Rate → 心拍数の通知: `bridge:root=com.apple.HeartRateSettings#2`
+- Heart Rate → 高心拍数: `bridge:root=com.apple.HeartRateSettings#3`
+- Heart Rate → 低心拍数: `bridge:root=com.apple.HeartRateSettings#4`
+- Heart Rate → 不規則な心拍リズム: `bridge:root=com.apple.HeartRateSettings#5`
+- Heart Rate → “ヘルスケア”で心電図記録を表示: `bridge:root=com.apple.HeartRateSettings#6`
+- Heart Rate → 心電図: `bridge:root=com.apple.HeartRateSettings#7`
+- メッセージ: `bridge:root=com.apple.MessagesBridgeSettings`
+- メッセージ → iPhoneを反映: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- メッセージ → カスタム: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- メッセージ → デフォルトの返信: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- メッセージ → デフォルトの返信 → デフォルトの返信: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- メッセージ → デフォルトの返信 → スマートリプライ: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- メッセージ → デフォルトの返信 → 返答を追加…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- メッセージ → 通知を繰り返す: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- メッセージ → オーディオメッセージ: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- マインドフルネス: `bridge:root=com.apple.MindSettings`
+- マインドフルネス → 通知を許可: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- マインドフルネス → 通知センターに送信: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- マインドフルネス → 通知オフ: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- マインドフルネス → マインドフルネスリマインダー: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- マインドフルネス → 一日の始まり: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- マインドフルネス → 一日の終わり: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- マインドフルネス → リマインダーを追加…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- マインドフルネス → 週ごとの概要: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- マインドフルネス → 今日は通知を停止: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- マインドフルネス → 呼吸の頻度: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- マインドフルネス → 呼吸の頻度 → 4呼吸/分: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- マインドフルネス → 呼吸の頻度 → 5呼吸/分: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- マインドフルネス → 呼吸の頻度 → 6呼吸/分: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- マインドフルネス → 呼吸の頻度 → 7呼吸/分: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- マインドフルネス → 呼吸の頻度 → 8呼吸/分: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- マインドフルネス → 呼吸の頻度 → 9呼吸/分: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- マインドフルネス → 呼吸の頻度 → 10呼吸/分: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- マインドフルネス → 触覚: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- マインドフルネス → 触覚 → なし: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- マインドフルネス → 触覚 → 最小限: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- マインドフルネス → 触覚 → はっきり: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- 睡眠: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- 睡眠 → ヘルスケアAppで“睡眠”を設定: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- オーディオブック: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- オーディオブック → サインイン: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- カレンダー: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- カレンダー → 通知: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- カレンダー → iPhoneを反映: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- カレンダー → カスタム…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- カレンダー → カレンダー: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- 時計: `bridge:root=com.apple.NanoClockBridgeSettings`
+- 時計 → 24時間表示: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- 時計 → チャイム: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- 時計 → サウンド: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- 時計 → サウンド → ベル: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- 時計 → サウンド → 鳥: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- 時計 → 時刻を読み上げる: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- 時計 → 消音モードで制御: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- 時計 → 常に読み上げる: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- 時計 → Tapticタイム: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- 時計 → Tapticタイム → Tapticタイム: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- 時計 → Tapticタイム → 数字: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- 時計 → Tapticタイム → おおよそ: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- 時計 → Tapticタイム → モールス信号: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- 時計 → iPhoneからの通知をプッシュ: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- 時計 → 通知インジケータ: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- 時計 → モノグラム: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- 時計 → 文字盤を通知: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- 時計 → 都市名の短縮形: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- 時計 → Siri文字盤データソース: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- 連絡先: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- 連絡先 → 並べ替え順序: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- 連絡先 → 並べ替え順序 → 名/姓: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- 連絡先 → 並べ替え順序 → 姓/名: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- 連絡先 → 表示順序: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- 連絡先 → 表示順序 → 名/姓: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- 連絡先 → 表示順序 → 姓/名: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- 連絡先 → 略称: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- 連絡先 → 略称 → 略称: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- 連絡先 → 略称 → 姓のみイニシャル: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- 連絡先 → 略称 → 名のみイニシャル: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- 連絡先 → 略称 → 名のみ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- 連絡先 → 略称 → 姓のみ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- 連絡先 → 略称 → ニックネームを優先: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- メール: `bridge:root=com.apple.NanoMailBridgeSettings`
+- メール → iPhoneを反映: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- メール → カスタム: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- メール → メールの設定: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- メール → アカウント: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- メール → メールを含める: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- メール → メッセージプレビュー: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- メール → メッセージプレビュー → なし: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- メール → メッセージプレビュー → 1行: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- メール → メッセージプレビュー → 2行: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- メール → デフォルトの返信: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- メール → デフォルトの返信 → デフォルトの返信: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- メール → デフォルトの返信 → 返答を追加…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- メール → 署名: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- マップ: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- マップ → 案内を通知: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- マップ → 車: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- マップ → 車（CarPlay付き）: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- マップ → 徒歩: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- マップ → サイクリング: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- マップ → ナビゲーションを表示: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- マップ → 交通機関: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- マップ → ビルド情報:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- ミュージック: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- ミュージック → プレイリストとアルバム: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- ミュージック → ミュージックを追加…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- ウォレットとApple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- ウォレットとApple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- ウォレットとApple Pay → カードを追加: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- ウォレットとApple Pay → 通知: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- ウォレットとApple Pay → iPhoneを反映: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- ウォレットとApple Pay → カスタム: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- 写真: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- 写真 → 写真の同期: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- 写真 → メモリー: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- 写真 → メモリーを同期: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- 写真 → おすすめの写真: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- 写真 → おすすめの写真を同期: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- 写真 → アルバム: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- 写真 → アルバムを同期: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- 写真 → 写真の上限: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- 写真 → 通知設定: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- 写真 → iPhoneを反映: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- 写真 → カスタム: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- ノイズ: `bridge:root=com.apple.Noise.settings`
+- ノイズ → 環境音測定: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- ノイズ → ノイズ通知: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- ノイズ → ノイズのしきい値: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- ノイズ → ノイズのしきい値 → オフ: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- ノイズ → ノイズのしきい値 → 80デシベル: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- ノイズ → ノイズのしきい値 → 85デシベル: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- ノイズ → ノイズのしきい値 → 90デシベル: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- ノイズ → ノイズのしきい値 → 95デシベル: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- ノイズ → ノイズのしきい値 → 100デシベル: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- ノイズ → 通知のグループ化: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- 取り込まれた酸素のレベル: `bridge:root=com.apple.OxygenSaturationSettings`
+- キャリア設定: `bridge:root=CARRIER_SETTINGS`
+- パスコードをオフにする: `bridge:root=PASSCODE_ID`
+- パスコードをオフにする → パスコードをオンにする: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- パスコードをオフにする → パスコードを変更: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- パスコードをオフにする → 簡単なパスコード: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- パスコードをオフにする → iPhoneでロックを解除: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- パスコードをオフにする → データを消去: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- パスコードをオフにする → 手首検出: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- 電話: `bridge:root=com.apple.PhoneBridgeSettings`
+- 電話 → 通話: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- 電話 → 着信音: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- 電話 → サウンド: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- 電話 → 触覚: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- ワークアウト: `bridge:root=com.apple.SessionTrackerAppSettings`
+- ワークアウト → 低電力モード: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- ワークアウト → ゴールの数値を表示: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- ワークアウト → ワークアウト表示: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- ワークアウト → 自動一時停止: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- ワークアウト → 自動一時停止 → 自動一時停止: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- ワークアウト → ワークアウトの開始を通知: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- ワークアウト → ワークアウトの停止を通知: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- ワークアウト → 押して一時停止: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- ワークアウト → フィットネス機器を検出: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- ワークアウト → ペース/速度表示: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- ワークアウト → ペース/速度表示 → 現在: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- ワークアウト → ペース/速度表示 → 平均: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- ワークアウト → ワークアウトプレイリスト: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- ワークアウト → ワークアウトプレイリスト → なし: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- ワークアウト → ワークアウトプレイリスト → プレイリスト: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- ワークアウト → 先頭から再生: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- ワークアウト → シャッフル: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- ワークアウト → 測定単位: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- ワークアウト → 測定単位 → カロリー: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- ワークアウト → 測定単位 → キロカロリー: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- ワークアウト → 測定単位 → キロジュール: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- ワークアウト → 測定単位 → ヤード: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- ワークアウト → 測定単位 → メートル: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- ワークアウト → 測定単位 → マイル: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- ワークアウト → 測定単位 → キロメートル: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- ワークアウト → 音声フィードバック: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- ワークアウト → ウォーキングの時間: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- ワークアウト → 新規ワークアウトをWatchに追加: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- 株価: `bridge:root=com.apple.StocksBridgeSettings`
+- 株価 → 文字盤のコンプリケーションに表示: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- 株価 → 現在の株価: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- 株価 → 値動き: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- 株価 → 値動きの割合: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- 株価 → 時価総額: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- 株価 → Siri文字盤に株価を表示する銘柄: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- 株価 → 選択された銘柄: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- 株価 → 選択された銘柄 → 選択された銘柄: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Dock: `bridge:root=DOCK`
+- Dock → Dock順序: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → 最近の項目: `bridge:root=DOCK#Recents`
+- Dock → よく使う項目: `bridge:root=DOCK#Favorites`
+- ポッドキャスト: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Siriに頼む: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → 手首を上げて話す: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Digital Crownを押す: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → 音声フィードバック: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → 音声フィードバック → 常にオン: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → 音声フィードバック → 消音モードで制御: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → 音声フィードバック → ヘッドフォンのみ: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → 声の音量: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siriからの提案: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- トランシーバー: `bridge:root=com.apple.tincan.settings`
+- トランシーバー → 通知を許可: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- トランシーバー → 通知センターに送信: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- トランシーバー → 通知オフ: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- トランシーバー → 通知のグループ化: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- トランシーバー → 友達: `bridge:root=com.apple.tincan.settings#Friends`
+- 天気: `bridge:root=com.apple.weatherbridgesettings`
+- 天気 → デフォルトの都市: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- 天気 → デフォルトの都市 → デフォルトの都市: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- 天気 → デフォルトの都市 → 現在地: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- 開封証明を送信: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

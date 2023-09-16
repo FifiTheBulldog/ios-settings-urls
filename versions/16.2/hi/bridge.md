@@ -1,0 +1,411 @@
+- ऐक्सेसिबिलिटी: `bridge:root=ACCESSIBILITY`
+- ऐक्सेसिबिलिटी → दृश्य: `bridge:root=ACCESSIBILITY#VISION`
+- ऐक्सेसिबिलिटी → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- ऐक्सेसिबिलिटी → ज़ूम करें: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- ऐक्सेसिबिलिटी → बोल्ड टेक्स्ट: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- ऐक्सेसिबिलिटी → चालू/बंद लेबल: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- ऐक्सेसिबिलिटी → ग्रेस्केल: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- ऐक्सेसिबिलिटी → पारदर्शिता घटाएँ: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- ऐक्सेसिबिलिटी → गति घटाएँ: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- ऐक्सेसिबिलिटी → Taptic Chimes: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- ऐक्सेसिबिलिटी → Taptic Chimes → चाइम: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- ऐक्सेसिबिलिटी → Taptic Chimes → शेड्यूल: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- ऐक्सेसिबिलिटी → Taptic Chimes → शेड्यूल → हर घंटे: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- ऐक्सेसिबिलिटी → Taptic Chimes → शेड्यूल → 30 मिनट: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- ऐक्सेसिबिलिटी → Taptic Chimes → शेड्यूल → 15 मिनट: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- ऐक्सेसिबिलिटी → Taptic Chimes → ध्वनियाँ: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- ऐक्सेसिबिलिटी → Taptic Chimes → ध्वनियाँ → घंटियाँ: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- ऐक्सेसिबिलिटी → Taptic Chimes → ध्वनियाँ → चिड़ियाँ: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- ऐक्सेसिबिलिटी → मोटर: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- ऐक्सेसिबिलिटी → साइड बटन क्लिक गति: `bridge:root=ACCESSIBILITY&path=SideButton`
+- ऐक्सेसिबिलिटी → साइड बटन क्लिक गति → क्लिक गति: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- ऐक्सेसिबिलिटी → साइड बटन क्लिक गति → डिफ़ॉल्ट: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- ऐक्सेसिबिलिटी → साइड बटन क्लिक गति → धीमी: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- ऐक्सेसिबिलिटी → साइड बटन क्लिक गति → सबसे धीमी: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- ऐक्सेसिबिलिटी → टच सुविधाएँ: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- ऐक्सेसिबिलिटी → टच सुविधाएँ → टच सुविधाएँ: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- ऐक्सेसिबिलिटी → टच सुविधाएँ → होल्ड अवधि: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- ऐक्सेसिबिलिटी → टच सुविधाएँ → दोहराना नज़रअंदाज़ करें: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- ऐक्सेसिबिलिटी → टच सुविधाएँ → टैप सहायता: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- ऐक्सेसिबिलिटी → टच सुविधाएँ → बंद: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- ऐक्सेसिबिलिटी → टच सुविधाएँ → प्रारंभिक टच स्थान का उपयोग करें: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- ऐक्सेसिबिलिटी → टच सुविधाएँ → अंतिम टच स्थान का उपयोग करें: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- ऐक्सेसिबिलिटी → ह्वीलचेयर ऐक्टिविटी: `bridge:root=ACCESSIBILITY#MOBILITY`
+- ऐक्सेसिबिलिटी → वॉकी-टॉकी: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- ऐक्सेसिबिलिटी → बात करने के लिए टैप करें: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- ऐक्सेसिबिलिटी → श्रवण: `bridge:root=ACCESSIBILITY#HEARING`
+- ऐक्सेसिबिलिटी → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- ऐक्सेसिबिलिटी → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- ऐक्सेसिबिलिटी → RTT → प्रसारण संख्या: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- ऐक्सेसिबिलिटी → RTT → तुरंत भेजें: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- ऐक्सेसिबिलिटी → RTT → डिफ़ॉल्ट जवाब: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- ऐक्सेसिबिलिटी → RTT → डिफ़ॉल्ट जवाब → डिफ़ॉल्ट जवाब: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- ऐक्सेसिबिलिटी → RTT → डिफ़ॉल्ट जवाब → जवाब जोड़ें…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- ऐक्सेसिबिलिटी → मोनो ऑडियो: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- ऐक्सेसिबिलिटी → बायाँ-दायाँ स्टीरियो संतुलन: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- ऐक्सेसिबिलिटी → हेडफ़ोन सूचना: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- ऐक्सेसिबिलिटी → हियरिंग डिवाइस: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- ऐक्सेसिबिलिटी → कॉम्प्लिकेशन: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- ऐक्सेसिबिलिटी → कॉम्प्लिकेशन → माइक वॉल्यूम: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- ऐक्सेसिबिलिटी → कॉम्प्लिकेशन → प्रोग्राम: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- ऐक्सेसिबिलिटी → टैप्टिक समय गति: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- ऐक्सेसिबिलिटी → ऐक्सेसिबिलिटी शॉर्टकट: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- undefined: `bridge:root=ActiveWatch`
+- undefined → नई Watch पेयर करें: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- ऐप दृश्य: `bridge:root=APP_VIEW_ID`
+- सामान्य: `bridge:root=GENERAL_LINK`
+- सामान्य → परिचय: `bridge:root=GENERAL_LINK&path=ABOUT`
+- सामान्य → परिचय → नाम: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- सामान्य → परिचय → सीमित वारंटी: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- सामान्य → परिचय → सीमित वारंटी → सीमित वारंटी: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- सामान्य → परिचय → सीमित वारंटी → कवरेज विवरण: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- सामान्य → परिचय → सीमित वारंटी → हार्डवेयर कवरेज: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- सामान्य → परिचय → सीमित वारंटी → चैट और फ़ोन सहायता: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- सामान्य → परिचय → गीत: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- सामान्य → परिचय → तस्वीर: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- सामान्य → परिचय → ऐप्लिकेशन: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- सामान्य → परिचय → क्षमता: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- सामान्य → परिचय → उपलब्ध: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- सामान्य → परिचय → संस्करण: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- सामान्य → परिचय → कैरियर: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- सामान्य → परिचय → मॉडल: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- सामान्य → परिचय → क्रम संख्या: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- सामान्य → परिचय → वाई-फ़ाई पता: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID`
+- सामान्य → परिचय → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- सामान्य → परिचय → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- सामान्य → परिचय → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- सामान्य → परिचय → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- सामान्य → परिचय → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- सामान्य → परिचय → क़ानूनी: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- सामान्य → परिचय → Apple Watch यूज़र गाइड देखें : `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- सामान्य → सॉफ़्टवेयर अपडेट: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- सामान्य → ऑटोमैटिक ऐप इंस्टॉल: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- सामान्य → विमान मोड: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- सामान्य → फ़ोकस: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- सामान्य → फ़ोकस → मेरी iPhone सेटिंग्ज़ मिरर करें: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- सामान्य → घड़ी का ओरिएंटेशन: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- सामान्य → घड़ी का ओरिएंटेशन → आप Apple Watch को किस कलाई पर पहनते हैं: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- सामान्य → घड़ी का ओरिएंटेशन → बाईं कलाई: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- सामान्य → घड़ी का ओरिएंटेशन → दाईं कलाई: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- सामान्य → घड़ी का ओरिएंटेशन → Digital Crown बाईं ओर: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- सामान्य → घड़ी का ओरिएंटेशन → Digital Crown दाईं ओर: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- सामान्य → Apple ID: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- सामान्य → डिक्टेशन सक्षम करें: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- सामान्य → Handoff सक्षम करें: `bridge:root=GENERAL_LINK#CONTINUITY`
+- सामान्य → नाइटस्टैंड मोड: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- सामान्य → स्क्रीनशॉट सक्षम करें: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- सामान्य → स्टोरेज: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- सामान्य → डायग्नॉस्टिक लॉग: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- सामान्य → Watch ऐनालिटिक्स कॉपी करें: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- सामान्य → रीसेट करें: `bridge:root=GENERAL_LINK&path=RESET`
+- सामान्य → पानी के अंदर होने पर ऑटो-लॉन्च करें: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- सामान्य → पानी के अंदर होने पर ऑटो-लॉन्च करें → ऑडियो ऐप्स ऑटो लॉन्च करें: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- सामान्य → भाषा और क्षेत्र: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- सामान्य → भाषा और क्षेत्र → मेरी iPhone सेटिंग्ज़ मिरर करें: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- सामान्य → भाषा और क्षेत्र → कस्टम: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- सामान्य → घड़ी पर वापस लौटें: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- सामान्य → घड़ी पर वापस लौटें → घड़ी पर वापस लौटें: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- सामान्य → घड़ी पर वापस लौटें → हमेशा: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- सामान्य → घड़ी पर वापस लौटें → 2 मिनट बाद: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- सामान्य → घड़ी पर वापस लौटें → 1 घंटे बाद: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- सामान्य → घड़ी पर वापस लौटें → ऐप्स: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- सामान्य → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- सामान्य → Wake Screen → चल रहा है: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- डिस्प्ले और ब्राइटनेस: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- डिस्प्ले और ब्राइटनेस → ब्राइटनेस: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- डिस्प्ले और ब्राइटनेस → हमेशा चालू: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- डिस्प्ले और ब्राइटनेस → हमेशा चालू → हमेशा चालू: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- डिस्प्ले और ब्राइटनेस → हमेशा चालू → कलाई नीचे: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- डिस्प्ले और ब्राइटनेस → हमेशा चालू → सूचनाएँ दिखाएँ: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- डिस्प्ले और ब्राइटनेस → हमेशा चालू → सूचनाएँ दिखाएँ → सूचनाएँ दिखाएँ: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- डिस्प्ले और ब्राइटनेस → हमेशा चालू → सूचनाएँ दिखाएँ → APPLE WATCH ऐप्स: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- डिस्प्ले और ब्राइटनेस → हमेशा चालू → ऐप्स दिखाएँ: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- डिस्प्ले और ब्राइटनेस → हमेशा चालू → ऐप्स दिखाएँ → ऐप्स दिखाएँ: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- डिस्प्ले और ब्राइटनेस → हमेशा चालू → ऐप्स दिखाएँ → ऐप्स: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- डिस्प्ले और ब्राइटनेस → टेक्स्ट का आकार: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- डिस्प्ले और ब्राइटनेस → बोल्ड टेक्स्ट: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- डिस्प्ले और ब्राइटनेस → सक्रिय करें: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- डिस्प्ले और ब्राइटनेस → कलाई उठाने पर सक्रिय करें: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- डिस्प्ले और ब्राइटनेस → Crown घुमाने पर सक्रिय करें: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- डिस्प्ले और ब्राइटनेस → सक्रिय अवधि: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- डिस्प्ले और ब्राइटनेस → सक्रिय अवधि → टैप पर: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- डिस्प्ले और ब्राइटनेस → सक्रिय अवधि → 15 सेकंड के लिए सक्रिय करें: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- डिस्प्ले और ब्राइटनेस → सक्रिय अवधि → 70 सेकंड के लिए सक्रिय करें: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- ध्वनि और हैप्टिक: `bridge:root=SOUNDS_ID`
+- ध्वनि और हैप्टिक → अलर्ट वॉल्यूम: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- ध्वनि और हैप्टिक → मौन मोड: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- ध्वनि और हैप्टिक → हेडफ़ोन ऑडियो: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- ध्वनि और हैप्टिक → हेडफ़ोन सुरक्षा: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- ध्वनि और हैप्टिक → हेडफ़ोन सुरक्षा → हेडफ़ोन सूचना: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- ध्वनि और हैप्टिक → हेडफ़ोन सुरक्षा → तीव्र ध्वनियों को कम करें: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- ध्वनि और हैप्टिक → हैप्टिक: `bridge:root=SOUNDS_ID#Haptics`
+- ध्वनि और हैप्टिक → हैप्टिक अलर्ट: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- ध्वनि और हैप्टिक → क्रॉउन हैप्टिक: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- ध्वनि और हैप्टिक → सिस्टम हैप्टिक: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- ध्वनि और हैप्टिक → म्यूट करने के लिए ढकें: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- आपातकालीन SOS: `bridge:root=SOS_MODE_ID`
+- गोपनीयता: `bridge:root=PRIVACY_ID`
+- गोपनीयता → हृदय गति: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- गोपनीयता → श्वसन दर: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- गोपनीयता → फ़िटनेस ट्रैकिंग: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- गोपनीयता → फ़िटनेस कैलिब्रेशन डेटा रीसेट करें: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- गोपनीयता → वातावरणीय ध्वनि माप: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- गोपनीयता → हेडफ़ोन ऑडियो माप: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- गोपनीयता → हेडफ़ोन ऑडियो माप → सेहत में सहेजें: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- गोपनीयता → हेडफ़ोन ऑडियो माप → 8 दिन के लिए: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- गोपनीयता → हेडफ़ोन ऑडियो माप → मेरे डिलीट करने तक: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- गोपनीयता → रक्त ऑक्सीजन माप: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- गोपनीयता → कलाई का तापमान: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- स्क्रीन टाइम: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- गहराई: `bridge:root=com.apple.DepthCompanionSettings`
+- ऐक्शन बटन: `bridge:root=STING_TITLE`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → ऑटोमैटिक डाउनलोड: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → ऑटोमैटिक अपडेट: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- सेहत: `bridge:root=com.apple.BridgeHealthSettings`
+- मेल और कैलेंडर: `bridge:root=com.apple.BridgeRemoteAccounts`
+- मेल और कैलेंडर → खाते: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- मेल और कैलेंडर → Google खाता जोड़ें…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- मेल और कैलेंडर → फ़ेच: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- मेल और कैलेंडर → फ़ेच → बंद: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- मेल और कैलेंडर → फ़ेच → हर घंटे: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- मेल और कैलेंडर → फ़ेच → 30 मिनट: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- मेल और कैलेंडर → फ़ेच → 15 मिनट: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- हाथ धोना: `bridge:root=com.apple.BrookBridgeSettings`
+- हाथ धोना → सूचनाओं को अनुमति दें: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- हाथ धोना → सूचना केंद्र पर भेजें: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- हाथ धोना → सूचनाएँ बंद: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- हाथ धोना → सूचना अनुसार समूह बनाना: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- हाथ धोना → हाथ धोने का टाइमर: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- मोबाइल डेटा: `bridge:root=CELLULAR_ID`
+- कॉम्प्लिकेशन: `bridge:root=COMPLICATIONS`
+- ऐक्टिविटी: `bridge:root=com.apple.HealthAppsSettings`
+- ऐक्टिविटी → प्रगति संबंधी अपडेट: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- ऐक्टिविटी → प्रगति संबंधी अपडेट → कोई नहीं: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- ऐक्टिविटी → प्रगति संबंधी अपडेट → हर 2 घंटे: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- ऐक्टिविटी → प्रगति संबंधी अपडेट → हर 4 घंटे: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- ऐक्टिविटी → प्रगति संबंधी अपडेट → हर 6 घंटे: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- ऐक्टिविटी → प्रगति संबंधी अपडेट → हर 8 घंटे: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- ऐक्टिविटी → उपलब्धियाँ: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- ऐक्टिविटी → साप्ताहिक सारांश: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- ऐक्टिविटी → दैनिक कोचिंग: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- ऐक्टिविटी → गोल प्राप्ति: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- ऐक्टिविटी → विशेष चुनौतियाँ: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- ऐक्टिविटी → ऐक्टिविटी शेयरिंग सूचना: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Heart Rate: `bridge:root=com.apple.HeartRateSettings`
+- Heart Rate → हृदय: `bridge:root=com.apple.HeartRateSettings#1`
+- Heart Rate → हृदय गति सूचना: `bridge:root=com.apple.HeartRateSettings#2`
+- Heart Rate → उच्च हृदय गति: `bridge:root=com.apple.HeartRateSettings#3`
+- Heart Rate → निम्न हृदय गति: `bridge:root=com.apple.HeartRateSettings#4`
+- Heart Rate → अनियमित गति: `bridge:root=com.apple.HeartRateSettings#5`
+- Heart Rate → सेहत में रिकॉर्ड की गई ECG देखें: `bridge:root=com.apple.HeartRateSettings#6`
+- Heart Rate → ECG: `bridge:root=com.apple.HeartRateSettings#7`
+- संदेश: `bridge:root=com.apple.MessagesBridgeSettings`
+- संदेश → मेरी iPhone सेटिंग्ज़ मिरर करें: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- संदेश → कस्टम: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- संदेश → डिफ़ॉल्ट जवाब: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- संदेश → डिफ़ॉल्ट जवाब → डिफ़ॉल्ट जवाब: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- संदेश → डिफ़ॉल्ट जवाब → स्मार्ट जवाब: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- संदेश → डिफ़ॉल्ट जवाब → जवाब जोड़ें…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- संदेश → अलर्ट दोहराएँ: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- संदेश → ऑडियो संदेश: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- माइंडफ़ुलनेस: `bridge:root=com.apple.MindSettings`
+- माइंडफ़ुलनेस → सूचनाओं को अनुमति दें: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- माइंडफ़ुलनेस → सूचना केंद्र पर भेजें: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- माइंडफ़ुलनेस → सूचनाएँ बंद: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- माइंडफ़ुलनेस → माइंडफ़ुलनेस रिमाइंडर: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- माइंडफ़ुलनेस → दिन शुरू होने पर: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- माइंडफ़ुलनेस → दिन समाप्त होने पर: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- माइंडफ़ुलनेस → रिमाइंडर जोड़ें…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- माइंडफ़ुलनेस → साप्ताहिक सारांश: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- माइंडफ़ुलनेस → आज के लिए म्यूट करें: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- माइंडफ़ुलनेस → साँस दर: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- माइंडफ़ुलनेस → साँस दर → 4 साँसें प्रति मिनट: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- माइंडफ़ुलनेस → साँस दर → 5 साँसें प्रति मिनट: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- माइंडफ़ुलनेस → साँस दर → 6 साँसें प्रति मिनट: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- माइंडफ़ुलनेस → साँस दर → 7 साँसें प्रति मिनट: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- माइंडफ़ुलनेस → साँस दर → 8 साँसें प्रति मिनट: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- माइंडफ़ुलनेस → साँस दर → 9 साँसें प्रति मिनट: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- माइंडफ़ुलनेस → साँस दर → 10 साँसें प्रति मिनट: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- माइंडफ़ुलनेस → हैप्टिक: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- माइंडफ़ुलनेस → हैप्टिक → कोई नहीं: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- माइंडफ़ुलनेस → हैप्टिक → न्यूनतम: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- माइंडफ़ुलनेस → हैप्टिक → प्रबल: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- नींद: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- नींद → सेहत ऐप में नींद सेटअप करें: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- ऑडियोबुक: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- ऑडियोबुक → साइन इन करें: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- कैलेंडर: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- कैलेंडर → सूचनाएँ: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- कैलेंडर → मेरी iPhone सेटिंग्ज़ मिरर करें: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- कैलेंडर → कस्टम…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- कैलेंडर → कैलेंडर: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- घड़ी: `bridge:root=com.apple.NanoClockBridgeSettings`
+- घड़ी → 24 घंटों वाला समय फ़ॉर्मैट: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- घड़ी → चाइम: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- घड़ी → ध्वनियाँ: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- घड़ी → ध्वनियाँ → घंटियाँ: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- घड़ी → ध्वनियाँ → चिड़ियाँ: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- घड़ी → समय बोलकर बताएँ: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- घड़ी → मौन मोड के साथ नियंत्रित करें: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- घड़ी → हमेशा बोलें: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- घड़ी → टैप्टिक समय: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- घड़ी → टैप्टिक समय → टैप्टिक समय: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- घड़ी → टैप्टिक समय → अंक: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- घड़ी → टैप्टिक समय → टर्स: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- घड़ी → टैप्टिक समय → मोर्स कोड: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- घड़ी → iPhone से पुश अलर्ट: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- घड़ी → सूचना संकेतक: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- घड़ी → मोनोग्राम: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- घड़ी → घड़ी के फ़ेस की सूचनाएँ: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- घड़ी → शहर का संक्षेपाक्षर: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- घड़ी → Siri फ़ेस डेटा सोर्स: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- संपर्क: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- संपर्क → सॉर्ट ऑर्डर: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- संपर्क → सॉर्ट ऑर्डर → नाम, उपनाम: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- संपर्क → सॉर्ट ऑर्डर → उपनाम, नाम: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- संपर्क → प्रदर्शन क्रमण: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- संपर्क → प्रदर्शन क्रमण → नाम, उपनाम: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- संपर्क → प्रदर्शन क्रमण → उपनाम, नाम: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- संपर्क → संक्षिप्त नाम: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- संपर्क → संक्षिप्त नाम → संक्षिप्त नाम: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- संपर्क → संक्षिप्त नाम → नाम और उपनाम का प्रथमाक्षर: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- संपर्क → संक्षिप्त नाम → नाम का प्रथमाक्षर और उपनाम: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- संपर्क → संक्षिप्त नाम → केवल नाम: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- संपर्क → संक्षिप्त नाम → केवल उपनाम: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- संपर्क → संक्षिप्त नाम → प्रचलित नामों को प्राथमिकता दें: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- मेल: `bridge:root=com.apple.NanoMailBridgeSettings`
+- मेल → मेरी iPhone सेटिंग्ज़ मिरर करें: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- मेल → कस्टम: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- मेल → मेल सेटिंग्ज़: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- मेल → खाते: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- मेल → मेल शामिल करें: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- मेल → संदेश प्रीव्यू: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- मेल → संदेश प्रीव्यू → कोई नहीं: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- मेल → संदेश प्रीव्यू → 1 पंक्ति: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- मेल → संदेश प्रीव्यू → 2 पंक्तियाँ: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- मेल → डिफ़ॉल्ट जवाब: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- मेल → डिफ़ॉल्ट जवाब → डिफ़ॉल्ट जवाब: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- मेल → डिफ़ॉल्ट जवाब → जवाब जोड़ें…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- मेल → सिग्नेचर: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- नक़्शा: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- नक़्शा → मोड़ अलर्ट: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- नक़्शा → ड्राइविंग: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- नक़्शा → CarPlay के साथ ड्राइविंग: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- नक़्शा → पैदल: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- नक़्शा → साइक्लिंग: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- नक़्शा → नैविगेशन दिखाएँ: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- नक़्शा → ट्रैंज़िट: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- नक़्शा → बिल्ड जानकारी :: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- संगीत: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- संगीत → प्लेलिस्ट और ऐल्बम: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- संगीत → संगीत जोड़ें…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- वॉलेट और Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- वॉलेट और Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- वॉलेट और Apple Pay → कार्ड जोड़ें: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- वॉलेट और Apple Pay → सूचनाएँ: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- वॉलेट और Apple Pay → मेरी iPhone सेटिंग्ज़ मिरर करें: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- वॉलेट और Apple Pay → कस्टम: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- तस्वीर: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- तस्वीर → तस्वीर सिंकिंग: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- तस्वीर → यादें: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- तस्वीर → यादें सिंक करें: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- तस्वीर → फ़ीचर्ड तस्वीरें: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- तस्वीर → फ़ीचर्ड तस्वीरें सिंक करें: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- तस्वीर → ऐल्बम: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- तस्वीर → ऐल्बम सिंक करें: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- तस्वीर → तस्वीरों की सीमा: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- तस्वीर → सूचना सेटिंग्ज़: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- तस्वीर → मेरी iPhone सेटिंग्ज़ मिरर करें: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- तस्वीर → कस्टम: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- नॉइज़: `bridge:root=com.apple.Noise.settings`
+- नॉइज़ → वातावरणीय ध्वनि माप: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- नॉइज़ → नॉइज़ सूचना: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- नॉइज़ → नॉइज़ सीमा: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- नॉइज़ → नॉइज़ सीमा → बंद: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- नॉइज़ → नॉइज़ सीमा → 80 डेसीबल: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- नॉइज़ → नॉइज़ सीमा → 85 डेसीबल: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- नॉइज़ → नॉइज़ सीमा → 90 डेसीबल: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- नॉइज़ → नॉइज़ सीमा → 95 डेसीबल: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- नॉइज़ → नॉइज़ सीमा → 100 डेसीबल: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- नॉइज़ → सूचना अनुसार समूह बनाना: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- रक्त ऑक्सीजन: `bridge:root=com.apple.OxygenSaturationSettings`
+- कैरियर सेटिंग्ज़: `bridge:root=CARRIER_SETTINGS`
+- पासकोड बंद करें: `bridge:root=PASSCODE_ID`
+- पासकोड बंद करें → पासकोड चालू करें: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- पासकोड बंद करें → पासकोड बदलें: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- पासकोड बंद करें → सरल पासकोड: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- पासकोड बंद करें → iPhone से अनलॉक करें: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- पासकोड बंद करें → डेटा मिटाएँ: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- पासकोड बंद करें → कलाई पहचान: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- फ़ोन: `bridge:root=com.apple.PhoneBridgeSettings`
+- फ़ोन → कॉल: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- फ़ोन → रिंगटोन: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- फ़ोन → ध्वनि: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- फ़ोन → हैप्टिक: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- वर्कआउट: `bridge:root=com.apple.SessionTrackerAppSettings`
+- वर्कआउट → निम्न पावर मोड: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- वर्कआउट → लक्ष्य मेट्रिक दिखाएँ: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- वर्कआउट → वर्कआउट दृश्य: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- वर्कआउट → ऑटो पॉज़ करें: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- वर्कआउट → ऑटो पॉज़ करें → ऑटो पॉज़ करें: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- वर्कआउट → वर्कआउट शुरू करने का रिमाइंडर: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- वर्कआउट → वर्कआउट ख़त्म करने का रिमाइंडर: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- वर्कआउट → पॉज़ करने के लिए दबाएँ: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- वर्कआउट → जिम उपकरण का पता लगाएँ: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- वर्कआउट → पेस/रफ़्तार दृश्य: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- वर्कआउट → पेस/रफ़्तार दृश्य → वर्तमान: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- वर्कआउट → पेस/रफ़्तार दृश्य → औसत: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- वर्कआउट → वर्कआउट प्लेलिस्ट: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- वर्कआउट → वर्कआउट प्लेलिस्ट → कोई नहीं: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- वर्कआउट → वर्कआउट प्लेलिस्ट → प्लेलिस्ट: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- वर्कआउट → शुरू से चलाएँ: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- वर्कआउट → शफ़ल करें: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- वर्कआउट → माप की इकाई: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- वर्कआउट → माप की इकाई → कैलोरी: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- वर्कआउट → माप की इकाई → किलो कैलोरी: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- वर्कआउट → माप की इकाई → किलोजूल: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- वर्कआउट → माप की इकाई → गज़: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- वर्कआउट → माप की इकाई → मीटर: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- वर्कआउट → माप की इकाई → मील: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- वर्कआउट → माप की इकाई → किलोमीटर: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- वर्कआउट → वॉइस फ़ीडबैक: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- वर्कआउट → वॉक करने का समय: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- वर्कआउट → नए वर्कआउट घड़ी में जोड़ें: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- स्टॉक्स: `bridge:root=com.apple.StocksBridgeSettings`
+- स्टॉक्स → घड़ी फ़ेस के कॉम्प्लिकेशन में प्रदर्शित होगा: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- स्टॉक्स → वर्तमान क़ीमत: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- स्टॉक्स → पॉइंट परिवर्तन: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- स्टॉक्स → प्रतिशत परिवर्तन: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- स्टॉक्स → बाज़ार पूँजी: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- स्टॉक्स → Siri फ़ेस इसके लिए कोट दिखाता है: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- स्टॉक्स → चयनित स्टॉक: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- स्टॉक्स → चयनित स्टॉक → चयनित स्टॉक: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Dock: `bridge:root=DOCK`
+- Dock → Dock क्रमण: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → हालिया: `bridge:root=DOCK#Recents`
+- Dock → पसंदीदा: `bridge:root=DOCK#Favorites`
+- पॉडकास्ट: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Siri से पूछें: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → उठाकर बोलें: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Digital Crown दबाएँ: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → वॉइस फ़ीडबैक: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → वॉइस फ़ीडबैक → हमेशा चालू: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → वॉइस फ़ीडबैक → मौन मोड के साथ नियंत्रित करें: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → वॉइस फ़ीडबैक → केवल हेडफ़ोन: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → वॉइस वॉल्यूम: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siri सुझाव: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- वॉकी-टॉकी: `bridge:root=com.apple.tincan.settings`
+- वॉकी-टॉकी → सूचनाओं को अनुमति दें: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- वॉकी-टॉकी → सूचना केंद्र पर भेजें: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- वॉकी-टॉकी → सूचनाएँ बंद: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- वॉकी-टॉकी → सूचना अनुसार समूह बनाना: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- वॉकी-टॉकी → दोस्त: `bridge:root=com.apple.tincan.settings#Friends`
+- मौसम: `bridge:root=com.apple.weatherbridgesettings`
+- मौसम → डिफ़ॉल्ट शहर: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- मौसम → डिफ़ॉल्ट शहर → डिफ़ॉल्ट शहर: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- मौसम → डिफ़ॉल्ट शहर → वर्तमान स्थान: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- पठन रसीद भेजें: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

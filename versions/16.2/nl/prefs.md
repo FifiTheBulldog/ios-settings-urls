@@ -1,0 +1,851 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → iCloud-opslag: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Foto's: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Contacten: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Agenda: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Herinneringen: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Notities: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Reservekopie: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Gezondheid: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Wachtwoorden en sleutelhanger: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Privé­doorgifte: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Deel mijn locatie: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Deel mijn locatie → Zoek mijn iPhone: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Naam, telefoonnummers, e‑mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Wachtwoord en beveiliging: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Betaling en bezorging: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Abonnementen: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Gezin: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Privacy en beveiliging: `prefs:root=Privacy`
+- Privacy en beveiliging → Veiligheidscontrole: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Privacy en beveiliging → Locatie: `prefs:root=Privacy&path=LOCATION`
+- Privacy en beveiliging → Locatie → Deel mijn locatie: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Privacy en beveiliging → Contacten: `prefs:root=Privacy&path=CONTACTS`
+- Privacy en beveiliging → Agenda's: `prefs:root=Privacy&path=CALENDARS`
+- Privacy en beveiliging → Herinneringen: `prefs:root=Privacy&path=REMINDERS`
+- Privacy en beveiliging → Foto's: `prefs:root=Privacy&path=PHOTOS`
+- Privacy en beveiliging → Bluetooth-deling: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Privacy en beveiliging → Microfoon: `prefs:root=Privacy&path=MICROPHONE`
+- Privacy en beveiliging → Spraakherkenning: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Privacy en beveiliging → Camera: `prefs:root=Privacy&path=CAMERA`
+- Privacy en beveiliging → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Privacy en beveiliging → Media en Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Privacy en beveiliging → Analyse: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Privacy en beveiliging → Reclame: `prefs:root=Privacy&path=ADVERTISING`
+- Privacy en beveiliging → Bestanden en mappen: `prefs:root=Privacy&path=FILEACCESS`
+- Privacy en beveiliging → Tracking: `prefs:root=Privacy&path=USER_TRACKING`
+- Privacy en beveiliging → Rapport over privacy van apps: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Privacy en beveiliging → Isolatiemodus: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Privacy en beveiliging → Gezondheid: `prefs:root=Privacy&path=HEALTH`
+- Focus: `prefs:root=DO_NOT_DISTURB`
+- Focus → Focus­status: `prefs:root=DO_NOT_DISTURB&path=status`
+- Algemeen: `prefs:root=General`
+- Algemeen → VPN- en apparaatbeheer: `prefs:root=General&path=ManagedConfigurationList`
+- Algemeen → Beeld in beeld: `prefs:root=General&path=PiP_SPEC`
+- Algemeen → Trackpad en muis: `prefs:root=General&path=POINTERS`
+- Algemeen → NFC: `prefs:root=General&path=NFC_LINK`
+- Algemeen → VPN: `prefs:root=General&path=VPN`
+- Algemeen → CarPlay: `prefs:root=General&path=CARPLAY`
+- Algemeen → Info: `prefs:root=General&path=About`
+- Algemeen → Info → Vertrouwde certificaten: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Algemeen → Juridische informatie en regelgeving: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Algemeen → Software-update: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Algemeen → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Algemeen → Thuisknop: `prefs:root=General&path=HOME_BUTTON`
+- Algemeen → Gebaren: `prefs:root=General#Multitasking_Gesture_Switch`
+- Algemeen → Zijschakelaar: `prefs:root=General#Rotation_Switch_Action_Group`
+- Algemeen → Ververs op achtergrond: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Algemeen → Datum en tijd: `prefs:root=General&path=DATE_AND_TIME`
+- Algemeen → Tv-uitvoer: `prefs:root=General&path=TV_OUT`
+- Algemeen → Regelgeving: `prefs:root=General&path=REGULATORY`
+- Algemeen → Stel opnieuw in: `prefs:root=General&path=Reset`
+- Algemeen → Stel opnieuw in → Herstel alle instellingen: `prefs:root=General&path=Reset#settingsErase`
+- Algemeen → Stel opnieuw in → Wis alle inhoud en instellingen: `prefs:root=General&path=Reset#fullErase`
+- Algemeen → Stel opnieuw in → Herstel netwerkinstellingen: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Algemeen → Stel opnieuw in → Verwijder alle mobieledata-abonnementen: `prefs:root=General&path=Reset#cellularErase`
+- Algemeen → Stel opnieuw in → Abonneeservices: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Algemeen → Stel opnieuw in → Herstel toetsenbordwoordenboek: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Algemeen → Stel opnieuw in → Herstel beginschermindeling: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Algemeen → Stel opnieuw in → Herstel locatie en privacy: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Algemeen → Zet uit: `prefs:root=General#SHUTDOWN_LABEL`
+- Algemeen → AirPlay en Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Algemeen → AirPlay en Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Algemeen → AirPlay en Handoff → Zet over naar HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Algemeen → AirPlay en Handoff → Speel automatisch af op tv’s via AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Algemeen → AirPlay en Handoff → Continuïteitscamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Algemeen → Woordenboek: `prefs:root=General&path=DICTIONARY`
+- Algemeen → Taal en regio: `prefs:root=General&path=INTERNATIONAL`
+- Algemeen → Taal en regio → Andere talen…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Algemeen → Taal en regio → Volgorde voorkeurstalen: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Algemeen → Taal en regio → Voeg taal toe…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Algemeen → Taal en regio → Regio: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Algemeen → Taal en regio → Getallen: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Algemeen → Taal en regio → Agenda: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Algemeen → Taal en regio → Temperatuureenheid: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Algemeen → Toetsenbord: `prefs:root=General&path=Keyboard`
+- Algemeen → Toetsenbord → Toetsenborden: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Algemeen → Toetsenbord → Tekstvervanging: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Algemeen → Toetsenbord → Automatische hoofdletters: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Algemeen → Toetsenbord → Autocorrectie: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Algemeen → Toetsenbord → Controleer spelling: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Algemeen → Toetsenbord → Schakel Caps Lock in: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Algemeen → Toetsenbord → Opdrachten: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Algemeen → Toetsenbord → Suggesties: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Algemeen → Toetsenbord → Slimme interpunctie: `prefs:root=General&path=Keyboard#SmartTyping`
+- Algemeen → Toetsenbord → Gesplitst toetsenbord: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Algemeen → Toetsenbord → Schakel korte aanraking van toetsen in: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Algemeen → Toetsenbord → Voorvertoning teken: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Algemeen → Toetsenbord → Sneltoets voor punt: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Algemeen → Toetsenbord → Veeg om te typen: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Algemeen → Toetsenbord → Schakel dicteerfunctie in: `prefs:root=General&path=Keyboard#Dictation`
+- Algemeen → Toetsenbord → Automatische leestekens: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Algemeen → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Algemeen → iPhone/iPad Storage → Opslag: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Algemeen → iPhone/iPad Storage → Ruim apps op: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Meldingen: `prefs:root=NOTIFICATIONS_ID`
+- Meldingen → Gepland overzicht: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Wallet en Apple Pay: `prefs:root=PASSBOOK`
+- Wallet en Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Wallet en Apple Pay → Betaalkaarten: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Wallet en Apple Pay → Voeg kaart toe: `prefs:root=PASSBOOK#Add%20Card`
+- Wallet en Apple Pay → Druk tweemaal op zijknop: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Wallet en Apple Pay → Bestellingen bijhouden: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Schermtijd: `prefs:root=SCREEN_TIME`
+- Schermtijd → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Schermtijd → See All Activity → Vandaag: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Schermtijd → See All Activity → Week: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Schermtijd → Apparaatvrije tijd: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Schermtijd → Applimieten: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Schermtijd → Communicatielimieten: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Schermtijd → Communicatie­veiligheid: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Schermtijd → Altijd toegestaan: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Schermtijd → Beperkingen: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Schermtijd → Ouderlijk toezicht: `prefs:root=SCREEN_TIME#FAMILY`
+- Toegankelijkheid: `prefs:root=ACCESSIBILITY`
+- Toegankelijkheid → Zien: `prefs:root=ACCESSIBILITY#VISION`
+- Toegankelijkheid → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Toegankelijkheid → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Toegankelijkheid → VoiceOver → Spreeksnelheid: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Toegankelijkheid → VoiceOver → Spraak: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Toegankelijkheid → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Toegankelijkheid → VoiceOver → Speech → Stem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Toegankelijkheid → VoiceOver → Detailniveau: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Toegankelijkheid → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Toegankelijkheid → VoiceOver → Verbosity → Interpunctie: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Toegankelijkheid → VoiceOver → Verbosity → Tabelkopteksten: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Toegankelijkheid → VoiceOver → Verbosity → Mediabeschrijvingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Toegankelijkheid → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Toegankelijkheid → VoiceOver → Verbosity → Media Descriptions → Uit: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Toegankelijkheid → VoiceOver → Verbosity → Media Descriptions → Spraak: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Toegankelijkheid → VoiceOver → Verbosity → Media Descriptions → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Toegankelijkheid → VoiceOver → Verbosity → Media Descriptions → Spraak en braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Toegankelijkheid → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Toegankelijkheid → VoiceOver → Braille → Uitvoer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Toegankelijkheid → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Toegankelijkheid → VoiceOver → Braille → Output → Onverkort zespunts braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Toegankelijkheid → VoiceOver → Braille → Output → Onverkort achtpunts braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Toegankelijkheid → VoiceOver → Braille → Output → Braillekortschrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Toegankelijkheid → VoiceOver → Braille → Invoer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Toegankelijkheid → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Toegankelijkheid → VoiceOver → Braille → Input → Onverkort zespunts braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Toegankelijkheid → VoiceOver → Braille → Input → Onverkort achtpunts braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Toegankelijkheid → VoiceOver → Braille → Input → Braillekortschrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Toegankelijkheid → VoiceOver → Braille → Input → Automatische vertaling: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Toegankelijkheid → VoiceOver → Braille → Braille-invoer via scherm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Toegankelijkheid → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Toegankelijkheid → VoiceOver → Braille → Braille Screen Input → Onverkort zespunts braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Toegankelijkheid → VoiceOver → Braille → Braille Screen Input → Onverkort achtpunts braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Toegankelijkheid → VoiceOver → Braille → Braille Screen Input → Braillekortschrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Toegankelijkheid → VoiceOver → Braille → Braille Screen Input → Omgekeerde puntposities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Toegankelijkheid → VoiceOver → Braille → Brailletabellen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Toegankelijkheid → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Toegankelijkheid → VoiceOver → Braille → Tables → Voeg brailletabel toe…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Toegankelijkheid → VoiceOver → Braille → Statuscellen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Toegankelijkheid → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Toegankelijkheid → VoiceOver → Braille → Status Cell → Positie statuscellen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Toegankelijkheid → VoiceOver → Braille → Status Cell → Links: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Toegankelijkheid → VoiceOver → Braille → Status Cell → Rechts: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Toegankelijkheid → VoiceOver → Braille → Status Cell → Toon algemene status: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Toegankelijkheid → VoiceOver → Braille → Status Cell → Toon tekststatus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Toegankelijkheid → VoiceOver → Braille → Nemeth voor vergelijkingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Toegankelijkheid → VoiceOver → Braille → Toon schermtoetsenbord: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Toegankelijkheid → VoiceOver → Braille → Sla bladzijden om bij schuiven: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Toegankelijkheid → VoiceOver → Braille → Woordomloop: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Toegankelijkheid → VoiceOver → Braille → Braille-waarschuwingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Toegankelijkheid → VoiceOver → Braille → Duur voor negeren akkoord: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Toegankelijkheid → VoiceOver → Braille → Duur voor 'Ga automatisch verder': `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Toegankelijkheid → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Toegankelijkheid → VoiceOver → Audio → Audioducking: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Toegankelijkheid → VoiceOver → Audio → Kies automatisch luidspreker: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Toegankelijkheid → VoiceOver → Audio → Stuur naar HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Toegankelijkheid → VoiceOver → Commando's: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Toegankelijkheid → VoiceOver → Activiteiten: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Toegankelijkheid → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Toegankelijkheid → VoiceOver → Activities → Programmeren: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Toegankelijkheid → VoiceOver → Activities → Voeg activiteit toe…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Toegankelijkheid → VoiceOver → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Toegankelijkheid → VoiceOver → Rotorhandelingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Toegankelijkheid → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Toegankelijkheid → VoiceOver → Rotor Actions → Wijzig apps op beginscherm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Toegankelijkheid → VoiceOver → Rotor Actions → Apps voor 'Directe aanraking': `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Toegankelijkheid → VoiceOver → Typen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Toegankelijkheid → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Toegankelijkheid → VoiceOver → Typing → Typstijl: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Toegankelijkheid → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Toegankelijkheid → VoiceOver → Typing → Typing Mode → Normaal typen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Toegankelijkheid → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Toegankelijkheid → VoiceOver → Typing → Typing Style → Typen met één tik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Toegankelijkheid → VoiceOver → Typing → Typing Style → Direct typen met één tik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Toegankelijkheid → VoiceOver → Typing → Spellingsalfabet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Toegankelijkheid → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Toegankelijkheid → VoiceOver → Typing → Phonetic Feedback → Uit: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Toegankelijkheid → VoiceOver → Typing → Phonetic Feedback → Teken en spellingsalfabet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Toegankelijkheid → VoiceOver → Typing → Phonetic Feedback → Alleen spellingsalfabet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Toegankelijkheid → VoiceOver → Typing → Feedback bij typen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Toegankelijkheid → VoiceOver → Typing → Speciale toetsen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Toegankelijkheid → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Toegankelijkheid → VoiceOver → Typing → Modifier Keys → Control + Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Toegankelijkheid → VoiceOver → Typing → Modifier Keys → Caps Lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Toegankelijkheid → VoiceOver → Typing → Tijd voor toetsenbordinteractie: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Toegankelijkheid → VoiceOver → Afbeeldingsnavigatie: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Toegankelijkheid → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Toegankelijkheid → VoiceOver → Include Unlabeled Images → Altijd: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Toegankelijkheid → VoiceOver → Include Unlabeled Images → Met beschrijvingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Toegankelijkheid → VoiceOver → Include Unlabeled Images → Nooit: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Toegankelijkheid → VoiceOver → Grote cursor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Toegankelijkheid → VoiceOver → Ondertitelpaneel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Toegankelijkheid → VoiceOver → Time-out dubbel tikken: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Toegankelijkheid → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Toegankelijkheid → VoiceOver → Double-tap Timeout → Time-out dubbel tikken: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Toegankelijkheid → VoiceOver → Navigatiestijl: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Toegankelijkheid → VoiceOver → Snelle instellingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Toegankelijkheid → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Toegankelijkheid → VoiceOver → Quick Settings → Geluiden: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Toegankelijkheid → VoiceOver → Quick Settings → Audioducking: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Toegankelijkheid → VoiceOver → Quick Settings → Volume: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Toegankelijkheid → VoiceOver → Quick Settings → Spreeksnelheid: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Toegankelijkheid → VoiceOver → Quick Settings → Hints: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Toegankelijkheid → VoiceOver → Quick Settings → Navigatiestijl: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Toegankelijkheid → VoiceOver → Quick Settings → Typstijl: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Toegankelijkheid → VoiceOver → Quick Settings → Veeg om te typen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Toegankelijkheid → VoiceOver → Quick Settings → Activiteiten: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Toegankelijkheid → VoiceOver → Quick Settings → Spreek meldingen altijd uit: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Toegankelijkheid → VoiceOver → Quick Settings → Braille-waarschuwingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Toegankelijkheid → VoiceOver → Quick Settings → Braille­duur voor 'Ga automatisch verder': `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Toegankelijkheid → VoiceOver → Quick Settings → Braille-invoer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Toegankelijkheid → VoiceOver → Quick Settings → Braille-uitvoer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Toegankelijkheid → VoiceOver → Quick Settings → Brailletabellen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Toegankelijkheid → VoiceOver → Quick Settings → Ondertitelpaneel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Toegankelijkheid → VoiceOver → Quick Settings → Directe aanraking: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Toegankelijkheid → VoiceOver → Quick Settings → Richting van gebaar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Toegankelijkheid → VoiceOver → Quick Settings → Feedback bij typen (hardware): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Toegankelijkheid → VoiceOver → Quick Settings → Taal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Toegankelijkheid → VoiceOver → Quick Settings → Grote cursor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Toegankelijkheid → VoiceOver → Quick Settings → Mediabeschrijvingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Toegankelijkheid → VoiceOver → Quick Settings → Afbeeldingsnavigatie: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Toegankelijkheid → VoiceOver → Quick Settings → Spellingsalfabet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Toegankelijkheid → VoiceOver → Quick Settings → Toon­hoogte­wijziging: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Toegankelijkheid → VoiceOver → Quick Settings → Interpunctie: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Toegankelijkheid → VoiceOver → Quick Settings → Stuur naar HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Toegankelijkheid → VoiceOver → Quick Settings → Feedback bij typen (software): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Toegankelijkheid → VoiceOver → Quick Settings → Spreek rotor­bevestiging uit: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Toegankelijkheid → VoiceOver → Quick Settings → Beschrijvingen van afbeeldingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Toegankelijkheid → VoiceOver → Quick Settings → Schermherkenning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Toegankelijkheid → VoiceOver → VoiceOver-herkenning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Toegankelijkheid → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Toegankelijkheid → VoiceOver → VoiceOver Recognition → Beschrijvingen van afbeeldingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Toegankelijkheid → VoiceOver → VoiceOver Recognition → Schermherkenning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Toegankelijkheid → Zoomen: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Toegankelijkheid → Zoomen → Zoomen: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Toegankelijkheid → Zoomen → Volg focus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Toegankelijkheid → Zoomen → Slim typen: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Toegankelijkheid → Zoomen → Toetscombinaties: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Toegankelijkheid → Zoomen → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Toegankelijkheid → Zoomen → Keyboard Shortcuts → Toetscombinaties: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Toegankelijkheid → Zoomen → Keyboard Shortcuts → Pas zoomniveau aan: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Toegankelijkheid → Zoomen → Keyboard Shortcuts → Zoomen aan/uit: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Toegankelijkheid → Zoomen → Keyboard Shortcuts → Verplaats zoomvenster: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Toegankelijkheid → Zoomen → Keyboard Shortcuts → Pas grootte van zoomvenster aan: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Toegankelijkheid → Zoomen → Keyboard Shortcuts → Wijzig zoomgebied: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Toegankelijkheid → Zoomen → Keyboard Shortcuts → Zoomen tijdelijk aan/uit: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Toegankelijkheid → Zoomen → Keyboard Shortcuts → Zoom via scrolwiel: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Toegankelijkheid → Zoomen → Zoomregelaar: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Toegankelijkheid → Zoomen → Zoomgebied: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Toegankelijkheid → Zoomen → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Toegankelijkheid → Zoomen → Zoom Region → Zoom hele scherm: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Toegankelijkheid → Zoomen → Zoom Region → Zoom in venster: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Toegankelijkheid → Zoomen → Maximale vergroting: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Toegankelijkheid → Zoomen → Zoomfilter: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Toegankelijkheid → Zoomen → Toon tijdens synchrone weergave: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Toegankelijkheid → Geef tekst onder aanwijzer groter weer: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Toegankelijkheid → Weergave en tekstgrootte: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Toegankelijkheid → Weergave en tekstgrootte → Vette tekst: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Toegankelijkheid → Weergave en tekstgrootte → Grotere tekst: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Toegankelijkheid → Weergave en tekstgrootte → Knopvormen: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Toegankelijkheid → Weergave en tekstgrootte → Labels voor aan/uit: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Toegankelijkheid → Weergave en tekstgrootte → Maak minder doorzichtig: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Toegankelijkheid → Weergave en tekstgrootte → Verhoog contrast: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Toegankelijkheid → Weergave en tekstgrootte → Differentieer zonder kleur: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Toegankelijkheid → Weergave en tekstgrootte → Slim omgekeerd: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Toegankelijkheid → Weergave en tekstgrootte → Klassiek omgekeerd: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Toegankelijkheid → Weergave en tekstgrootte → Kleurfilters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Toegankelijkheid → Weergave en tekstgrootte → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Toegankelijkheid → Weergave en tekstgrootte → Color Filters → Kleurfilters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Toegankelijkheid → Weergave en tekstgrootte → Verminder witpunt: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Toegankelijkheid → Weergave en tekstgrootte → Pas automatisch aan: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Toegankelijkheid → Beweging: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Toegankelijkheid → Beweging → Verminder beweging: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Toegankelijkheid → Beweging → Speel effecten automatisch af: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Toegankelijkheid → Beweging → Speel voorvertoningen af: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Toegankelijkheid → Gesproken materiaal: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Toegankelijkheid → Gesproken materiaal → Spreek selectie uit: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Toegankelijkheid → Gesproken materiaal → Spreek scherm uit: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Toegankelijkheid → Gesproken materiaal → Spraakregelaar: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Toegankelijkheid → Gesproken materiaal → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Toegankelijkheid → Gesproken materiaal → Speech Controller → Pas muisknoppen aan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Toegankelijkheid → Gesproken materiaal → Markeer inhoud: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Toegankelijkheid → Gesproken materiaal → Feedback bij typen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Toegankelijkheid → Gesproken materiaal → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Toegankelijkheid → Gesproken materiaal → Typing Feedback → Tekenfeedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Toegankelijkheid → Gesproken materiaal → Typing Feedback → Tekens: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Toegankelijkheid → Gesproken materiaal → Typing Feedback → Tekenaanwijzingen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Toegankelijkheid → Gesproken materiaal → Typing Feedback → Spreek woorden uit: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Toegankelijkheid → Gesproken materiaal → Typing Feedback → Spreek invultekst uit: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Toegankelijkheid → Gesproken materiaal → Typing Feedback → Laat suggesties uitspreken: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Toegankelijkheid → Gesproken materiaal → Stemmen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Toegankelijkheid → Gesproken materiaal → Standaardtaal: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Toegankelijkheid → Gesproken materiaal → Detecteer talen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Toegankelijkheid → Gesproken materiaal → Spreeksnelheid: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Toegankelijkheid → Gesproken materiaal → Uitspraak: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Toegankelijkheid → Audiodescripties: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Toegankelijkheid → Audiodescripties → Audiodescripties: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Toegankelijkheid → Fysiek en motorisch: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Toegankelijkheid → Aanraken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Toegankelijkheid → Aanraken → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Toegankelijkheid → Aanraken → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Pas hoogste menu aan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Customize Top Level Menu → Tik op een symbool om het te wijzigen:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Customize Top Level Menu → Stel opnieuw in…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aangepaste taken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Enkel tikken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Dubbel tikken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Double-Tap → Time-out dubbel tikken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Lang indrukken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Long Press → Duur voor lang indrukken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aangepaste gebaren: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Maak nieuw gebaar aan…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Ondoorzichtigheid inactiviteit: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanwijsapparaten: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Apparaten: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Devices → Bluetooth-apparaten…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Muistoetsen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanwijzerstijl: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanwijzerstijl → Grootte: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanwijzerstijl → Visueel: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanwijzerstijl → Kleur: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanwijzerstijl → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanwijzerstijl → SOMETHING IDK → Pas muisknoppen aan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanwijzerstijl → Verberg automatisch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanwijzerstijl → NEEDS_OVERRIDE_850 → Verberg automatisch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Toon schermtoetsenbord: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Toon menu altijd: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Stilhoudbediening: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Bewegingstolerantie: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Aanraakgevoeligheid: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Terugvalactie: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Interactieve hoeken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Toegankelijkheid → Aanraken → AssistiveTouch → Gebruik game­controller: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Toegankelijkheid → Aanraken → 3D Touch en Haptic Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_851 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_851 → Gevoeligheid 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_851 → Aanraakduur: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_851 → Snel: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_851 → Traag: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_851 → Test voor gevoeligheid en aanraakduur van 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Toegankelijkheid → Aanraken → Aangepaste aanraking: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_852 → Aangepaste aanraking: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_852 → Vasthoudduur: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_852 → Negeer herhaling: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_852 → Tikassistentie: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_852 → Uit: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_852 → Gebruik positie van eerste aanraking: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_852 → Gebruik positie van laatste aanraking: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Toegankelijkheid → Aanraken → Tik om te activeren: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Toegankelijkheid → Aanraken → Tik of veeg om te activeren: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Toegankelijkheid → Aanraken → Herstel door schudden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Toegankelijkheid → Aanraken → Trillen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Toegankelijkheid → Aanraken → Voorkom 'Vergrendel om oproep te stoppen': `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Toegankelijkheid → Aanraken → Audiopad gesprekken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_853 → Automatisch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_853 → Bluetooth-headset: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_853 → Luidspreker: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Toegankelijkheid → Aanraken → NEEDS_OVERRIDE_853 → Automatisch beantwoorden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Toegankelijkheid → Face ID en aandacht: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Toegankelijkheid → Face ID en aandacht → Aandacht vereist voor Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Toegankelijkheid → Face ID en aandacht → Voorzieningen aandachtsdetectie: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Toegankelijkheid → Face ID en aandacht → Voelen: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Toegankelijkheid → Face ID en aandacht → Voelbaar signaal bij authenticatie: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Toegankelijkheid → Schakelbediening: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Toegankelijkheid → Schakelbediening → Schakelbediening: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Toegankelijkheid → Schakelbediening → Schakelaars: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_854 → Voeg schakelaar toe…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_854 → Bluetooth-apparaten…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Toegankelijkheid → Schakelbediening → Recepten: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Toegankelijkheid → Schakelbediening → Scanmethode: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_855 → Automatisch scannen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_855 → Handmatig scannen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_855 → Stapsgewijs scannen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Toegankelijkheid → Schakelbediening → Timing: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Toegankelijkheid → Schakelbediening → Tijd voor 'Automatisch scannen': `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_856 → Tijd voor 'Automatisch scannen': `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Toegankelijkheid → Schakelbediening → Pauzeer bij eerste element: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_857 → Pauzeer bij eerste element: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Toegankelijkheid → Schakelbediening → Verplaatsingsherhaling: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_858 → Verplaatsingsherhaling: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Toegankelijkheid → Schakelbediening → Lang indrukken: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_859 → Lang indrukken: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Toegankelijkheid → Schakelbediening → Tikmethode: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_860 → Standaard: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_860 → Tik automatisch: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_860 → Tik altijd: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Toegankelijkheid → Schakelbediening → Onderdeel in focus na tikken: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_861 → Eerste onderdeel: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_861 → Huidig onderdeel: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Toegankelijkheid → Schakelbediening → Toetsenbord: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Toegankelijkheid → Schakelbediening → Scan zelfde toets na tikken: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Toegankelijkheid → Schakelbediening → Tik altijd op toetsenbord: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Toegankelijkheid → Schakelbediening → Uitgebreide suggesties: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Toegankelijkheid → Schakelbediening → Schakelaarstabilisatie: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Toegankelijkheid → Schakelbediening → Vasthoudduur: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_862 → Vasthoudduur: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Toegankelijkheid → Schakelbediening → Negeer herhaling: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_863 → Negeer herhaling: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Toegankelijkheid → Schakelbediening → Puntscannen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Toegankelijkheid → Schakelbediening → Glijdende cursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_864 → Selectiemodus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_864 → Enkel: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_864 → Verfijnd: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_864 → Precies: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_864 → Snelheid glijdende cursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Toegankelijkheid → Schakelbediening → Hoofdtracking: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_865 → Hoofdtracking: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Toegankelijkheid → Schakelbediening → Audio: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Toegankelijkheid → Schakelbediening → Geluidseffecten: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Toegankelijkheid → Schakelbediening → Spraak: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_866 → Stemmen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_866 → Spreeksnelheid: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Toegankelijkheid → Schakelbediening → Menu-onderdelen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Toegankelijkheid → Schakelbediening → Groepeer onderdelen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Toegankelijkheid → Schakelbediening → Visueel: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Toegankelijkheid → Schakelbediening → Grote cursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Toegankelijkheid → Schakelbediening → Gebarenlijst: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Toegankelijkheid → Schakelbediening → NEEDS_OVERRIDE_867 → Maak nieuw gebaar aan…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Toegankelijkheid → Schakelbediening → Kleur cursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Toegankelijkheid → Stembediening: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Toegankelijkheid → Stembediening → Configureer stembediening: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Toegankelijkheid → Stembediening → Taal: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Toegankelijkheid → Stembediening → NEEDS_OVERRIDE_868 → Engels (Verenigde Staten): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Toegankelijkheid → Stembediening → Pas commando's aan: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Toegankelijkheid → Stembediening → Woordenlijst: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Toegankelijkheid → Stembediening → Commandofeedback: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Toegankelijkheid → Stembediening → Toon bevestiging: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Toegankelijkheid → Stembediening → Speel geluid af: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Toegankelijkheid → Stembediening → Toon aanwijzingen: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Toegankelijkheid → Stembediening → Doorlopende overlay: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Toegankelijkheid → Stembediening → Overlay: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Toegankelijkheid → Stembediening → NEEDS_OVERRIDE_869 → Geen: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Toegankelijkheid → Stembediening → NEEDS_OVERRIDE_869 → Onderdeelnummers: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Toegankelijkheid → Stembediening → NEEDS_OVERRIDE_869 → Onderdeelnamen: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Toegankelijkheid → Stembediening → NEEDS_OVERRIDE_869 → Genummerd raster: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Toegankelijkheid → Stembediening → Aandachtsdetectie: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Toegankelijkheid → Zijknop: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Toegankelijkheid → Zijknop → Druksnelheid: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Toegankelijkheid → Zijknop → Standaard: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Toegankelijkheid → Zijknop → Traag: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Toegankelijkheid → Zijknop → Traagst: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Toegankelijkheid → Zijknop → Houd ingedrukt om te spreken: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Toegankelijkheid → Zijknop → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Toegankelijkheid → Zijknop → Klassieke stembediening: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Toegankelijkheid → Zijknop → Uit: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Toegankelijkheid → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Toegankelijkheid → Apple TV Remote → Richtingsknoppen: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Toegankelijkheid → Extern scherm Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Toegankelijkheid → Toetsenborden: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Toegankelijkheid → Toetsenborden → Uitgebreide toetsenbordfuncties: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_870 → Uitgebreide toetsenbordfuncties: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_870 → Visuele onderdelen: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_870 → Verberg automatisch: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_870 → Grote focusring: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_870 → Kleur: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Toegankelijkheid → Toetsenborden → Toetsrepeteertempo: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_871 → Toetsrepeteertempo: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_871 → Toetsrepeteerinterval: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_871 → Repeteervertraging: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Toegankelijkheid → Toetsenborden → Grendeltoetsen: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_872 → Grendeltoetsen: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_872 → Aan of uit met Shift-toets: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_872 → Geluid: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Toegankelijkheid → Toetsenborden → Toetsvertraging: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Toegankelijkheid → Toetsenborden → NEEDS_OVERRIDE_873 → Toetsvertraging: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Toegankelijkheid → Toetsenborden → Softwaretoetsenborden: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Toegankelijkheid → Toetsenborden → Toon kleine letters: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Toegankelijkheid → Horen: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Toegankelijkheid → Hoortoestellen: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Toegankelijkheid → Hoortoestellen → MFi-hoortoestellen: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Toegankelijkheid → Hoortoestellen → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Toegankelijkheid → Hoortoestellen → Compatibiliteit gehoorapparaat: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Toegankelijkheid → Geluidsherkenning: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Toegankelijkheid → Geluidsherkenning → Geluiden: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Toegankelijkheid → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Toegankelijkheid → RTT/TTY → Teksttelefoonsoftware: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Toegankelijkheid → RTT/TTY → Teksttelefoontoestel: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Toegankelijkheid → Audio en visueel: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Toegankelijkheid → Audio en visueel → Audio: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Toegankelijkheid → Audio en visueel → Aangepaste koptelefoon: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Toegankelijkheid → Audio en visueel → NEEDS_OVERRIDE_874 → Aangepaste koptelefoon: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Toegankelijkheid → Audio en visueel → NEEDS_OVERRIDE_874 → Configuratie van aangepast geluid: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Toegankelijkheid → Audio en visueel → Achtergrond­geluiden: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Toegankelijkheid → Audio en visueel → Monogeluid: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Toegankelijkheid → Audio en visueel → Ruisonderdrukking: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Toegankelijkheid → Audio en visueel → Balans: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Toegankelijkheid → Audio en visueel → Visueel: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Toegankelijkheid → Audio en visueel → Ledflits bij melding: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Toegankelijkheid → Audio en visueel → NEEDS_OVERRIDE_875 → Flits bij ontgrendeling: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Toegankelijkheid → Audio en visueel → NEEDS_OVERRIDE_875 → Flits in stille modus: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Toegankelijkheid → Audio en visueel → Stereobalans links rechts: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Toegankelijkheid → Audio en visueel → Geluiden voor aan- en uitzetten: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Toegankelijkheid → Ondertiteling en bijschriften: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Toegankelijkheid → Ondertiteling en bijschriften → Stijl: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Toegankelijkheid → Ondertiteling en bijschriften → Bijschriften geluid + O.D.S.: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Toegankelijkheid → Ondertiteling en bijschriften → Toon audiotranscripties: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Toegankelijkheid → NEEDS_OVERRIDE_876 → Live bijschriften (bèta): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Toegankelijkheid → NEEDS_OVERRIDE_876 → Live bijschriften in FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Toegankelijkheid → Algemeen: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Toegankelijkheid → Begeleide toegang: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Toegankelijkheid → Begeleide toegang → Begeleide toegang: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Toegankelijkheid → Begeleide toegang → Toegangscode-instellingen: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Toegankelijkheid → Begeleide toegang → NEEDS_OVERRIDE_877 → Stel code voor begeleide toegang in: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Toegankelijkheid → Begeleide toegang → Tijdslimieten: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Toegankelijkheid → Begeleide toegang → NEEDS_OVERRIDE_878 → Melding: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Toegankelijkheid → Begeleide toegang → NEEDS_OVERRIDE_878 → Geluid: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Toegankelijkheid → Begeleide toegang → NEEDS_OVERRIDE_878 → Spreek uit: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Toegankelijkheid → Begeleide toegang → Activeringsknop: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Toegankelijkheid → Begeleide toegang → Automatisch schermslot: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Toegankelijkheid → Aangepaste toegankelijkheids­modus: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Toegankelijkheid → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Toegankelijkheid → Siri → Typ vragen aan Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Toegankelijkheid → Siri → Gesproken reacties: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Toegankelijkheid → Siri → Automatisch gesproken reacties: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Toegankelijkheid → Siri → Bij voorkeur stille reacties: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Toegankelijkheid → Siri → Spreek niet in stille modus: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Toegankelijkheid → Siri → Luister altijd naar 'Hé, Siri': `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Toegankelijkheid → Activeringsknop: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Toegankelijkheid → Activeringsknop → Vergrootglas: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Toegankelijkheid → Instellingen per app: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Toegankelijkheid → Bedien apparaten in de buurt: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Beeldscherm en helderheid: `prefs:root=DISPLAY`
+- Beeldscherm en helderheid → Weergave: `prefs:root=DISPLAY&path=MAGNIFY`
+- Beeldscherm en helderheid → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Beeldscherm en helderheid → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Beeldscherm en helderheid → Night Shift → Gepland: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Beeldscherm en helderheid → Night Shift → Zet handmatig aan tot morgen: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Beeldscherm en helderheid → Night Shift → Kleurtemperatuur: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Beeldscherm en helderheid → Automatisch slot: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Beeldscherm en helderheid → Til op om te activeren: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Beeldscherm en helderheid → Vergrendel / Ontgrendel: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Beeldscherm en helderheid → Tekstgrootte: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Beeldscherm en helderheid → Vette tekst: `prefs:root=DISPLAY#BOLD_TEXT`
+- Beeldscherm en helderheid → Weergavezoom: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Blootstellingsmeldingen: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_879 → Meldingsbadges: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_879 → Nieuwe appdownloads: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Beginscherm en multitasking: `prefs:root=HOME_SCREEN_DOCK`
+- Beginscherm en multitasking → NEEDS_OVERRIDE_880 → Toon appbibliotheek in Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Beginscherm en multitasking → Toon aanbevolen en recente apps in Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Beginscherm: `prefs:root=HOME_SCREEN`
+- Beginscherm → Nieuwe appdownloads: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Beginscherm → Meldingsbadges: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID en toegangscode: `prefs:root=PASSCODE`
+- Touch ID en toegangscode → Zet code uit: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID en toegangscode → Wijzig toegangscode: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID en toegangscode → Vraag om code: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID en toegangscode → Voicedialing: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID en toegangscode → Toegang bij vergrendeling: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID en toegangscode → Antwoord met bericht: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID en toegangscode → Woningbeheer: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID en toegangscode → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID en toegangscode → Bel gemiste oproepen terug: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID en toegangscode → Wis gegevens: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID en toegangscode → Ontgrendel met Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Podcasts: `prefs:root=PODCASTS`
+- SOS-noodmelding: `prefs:root=EMERGENCY_SOS`
+- SOS-noodmelding → Bel met zijknop: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS-noodmelding → Automatisch bellen: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS-noodmelding → SOS-contactpersonen: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS-noodmelding → Aftelgeluid: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Geluiden: `prefs:root=Sounds`
+- Geluiden → Koptelefoonveiligheid: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Geluiden → Koptelefoonveiligheid → Lightning-adapters: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Geluiden → Koptelefoonveiligheid → Koptelefoonmeldingen: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Geluiden → Koptelefoonveiligheid → Verminder harde geluiden: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Geluiden → Geluidseffecten: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Geluiden → Beltoon en meldingen: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Geluiden → Wijzig met knoppen: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Geluiden → Geluiden en trillingspatronen: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Geluiden → Beltoon: `prefs:root=Sounds&path=Ringtone`
+- Geluiden → Sms-toon: `prefs:root=Sounds&path=Text_Messages`
+- Geluiden → Nieuwe voicemail: `prefs:root=Sounds&path=Voicemail`
+- Geluiden → Nieuwe e‑mail: `prefs:root=Sounds&path=NEW_MAIL`
+- Geluiden → Verstuurde e‑mail: `prefs:root=Sounds&path=SENT_MAIL`
+- Geluiden → Agendameldingen: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Geluiden → Herinneringsmeldingen: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Geluiden → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Geluiden → Toetsenbordklik: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Geluiden → Vergrendelgeluid: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Weer: `prefs:root=WEATHER`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Gebruik geografische noorden: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Bedieningspaneel: `prefs:root=ControlCenter`
+- Bedieningspaneel → Toegang vanuit apps: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Bedieningspaneel → Pas regelaars aan: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Ontwikkelaar: `prefs:root=DEVELOPER_SETTINGS`
+- Ontwikkelaar → Multipath-netwerkvoorzieningen: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Ontwikkelaar → Multipath-netwerkvoorzieningen → Multipath-netwerkvoorzieningen: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Ontwikkelaar → Weergave: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Ontwikkelaar → Donkere weergave: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Ontwikkelaar → Gekoppelde apparaten: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Ontwikkelaar → Wis vertrouwde computers: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Ontwikkelaar → Instrumenten: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Ontwikkelaar → Logbestanden bijhouden: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Ontwikkelaar → UI-automatisering: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Ontwikkelaar → Netwerken: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Ontwikkelaar → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Ontwikkelaar → App van iAd-ontwikkelaar testen: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Ontwikkelaar → Invulfrequentie: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Ontwikkelaar → Markeer afgekapte stroken: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Ontwikkelaar → Onbeperkte advertentiepresentatie: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Ontwikkelaar → PassKit testen: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Ontwikkelaar → Aanvullende logboekregistratie: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Ontwikkelaar → Sta HTTP-voorzieningen toe: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Ontwikkelaar → Schakel frequentiebeperking uit: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Ontwikkelaar → NFC-sleutel optioneel: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Ontwikkelaar → Mediavoorzieningen testen: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Ontwikkelaar → AirPlay-suggesties: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Ontwikkelaar → Stel mediavoorzieningen opnieuw in: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Ontwikkelaar → News testen: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Ontwikkelaar → Stel lokale gegevens bij volgende start opnieuw in: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Ontwikkelaar → Media Player Framework testen: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Ontwikkelaar → API voor afspeelbaar materiaal: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Ontwikkelaar → Tv-aanbieders testen: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Ontwikkelaar → Tv-aanbieders: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Ontwikkelaar → ClassKit-API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Ontwikkelaar → CoreSpotlight testen: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Ontwikkelaar → Indexeer alle onderdelen opnieuw: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Ontwikkelaar → Indexeer alle onderdelen met ID's opnieuw: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Ontwikkelaar → Opdrachten testen: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Ontwikkelaar → Toon recente opdrachten: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Ontwikkelaar → Toon geplande media: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Ontwikkelaar → Toon donaties op het toegangsscherm: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Ontwikkelaar → Forceer synchronisatie van opdrachten naar Apple Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Ontwikkelaar → MIDI-CI testen: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Ontwikkelaar → Schakel MIDI-CI in: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Gezondheid: `prefs:root=HEALTH`
+- Meten: `prefs:root=MEASURE`
+- Meten → Meeteenheden: `prefs:root=MEASURE#MEASURE_UNITS`
+- Meten → Imperial: `prefs:root=MEASURE#Imperial`
+- Meten → Metrisch: `prefs:root=MEASURE#Metric`
+- Muziek: `prefs:root=MUSIC`
+- Muziek → Toon Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Muziek → Voeg afspeellijstnummers toe: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Muziek → Toon sterbeoordelingen: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Muziek → Synchroniseer bibliotheek: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Muziek → Mobiele data: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Muziek → Gedownloade muziek: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Muziek → Optimaliseer opslag: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Muziek → Automatische downloads: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Muziek → Equalizer: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Muziek → Geluidscontrole: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Muziek → Gebruik luistergeschiedenis: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Notities: `prefs:root=NOTES`
+- Notities → Standaardaccount: `prefs:root=NOTES&path=Default%20Account`
+- Notities → Wachtwoord: `prefs:root=NOTES&path=Password`
+- Notities → Sorteer notities op: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Notities → Begin nieuwe notities met: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Notities → Sorteer afgevinkte onderdelen: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Notities → Lijnen/roosters: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Notities → Bewaar in Foto's: `prefs:root=NOTES#Save%20to%20Photos`
+- Notities → Open Notities in toegangsscherm: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Berichten: `prefs:root=MESSAGES`
+- Vertaal: `prefs:root=TRANSLATE`
+- Vertaal → Apparaatmodus: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Tv-aanbieder: `prefs:root=VIDEO_SUBSCRIBER`
+- Dictafoon: `prefs:root=VOICE_MEMOS`
+- Dictafoon → Wis verwijderde onderdelen: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Dictafoon → Audiokwaliteit: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Dictafoon → Locatiegebonden benaming: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Camera: `prefs:root=CAMERA`
+- Camera → Bestandsstructuren: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Camera → Bestandsstructuren → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Camera → NEEDS_OVERRIDE_881 → HDR-video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Camera → Bewaar instellingen: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Camera → Bewaar instellingen → Cameramodus: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Camera → Raster: `prefs:root=CAMERA#CameraGridSwitch`
+- Camera → Scan QR-codes: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kaarten: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Contacten: `prefs:root=CONTACTS`
+- Contacten → Geef Contacten toegang tot: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Contacten → Siri en zoeken: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Contacten → Sorteervolgorde: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Contacten → Geef weer: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Contacten → Korte naam: `prefs:root=CONTACTS&path=PersonShortName`
+- Contacten → Korte naam → Korte naam: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Contacten → Korte naam → Gebruik bijnamen: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Contacten → Mijn info: `prefs:root=CONTACTS&path=MeCard`
+- Contacten → Importeer simcontacten: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Boeken: `prefs:root=IBOOKS`
+- Boeken → Materiaal op internet: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Boeken → SYNCHRONISEREN: `prefs:root=IBOOKS#SYNCING`
+- Boeken → Lees ik nu: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Boeken → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Boeken → LEZEN: `prefs:root=IBOOKS#READING`
+- Boeken → Volledig uitgevuld: `prefs:root=IBOOKS#BKFullJustification`
+- Boeken → Woordafbreking: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Boeken → Vooruit via beide kantlijnen: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Boeken → Leesdoelen: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Boeken → Wis gegevens over leesdoelen: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Boeken → ZOEKEN: `prefs:root=IBOOKS#SEARCHING`
+- Boeken → Book Store: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Boeken → AUDIOBOEKEN: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Boeken → Spring vooruit: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Boeken → Spring terug: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Boeken → EXTERNE REGELAARS: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Boeken → Volgende/vorige: `prefs:root=IBOOKS#Next/Previous`
+- Boeken → Spring vooruit/achteruit: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Boeken → PRIVACY: `prefs:root=IBOOKS#PRIVACY`
+- Boeken → Stel ID opnieuw in: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Boeken → Colofon: `prefs:root=IBOOKS&path=Acknowledgements`
+- Agenda: `prefs:root=CALENDAR`
+- Agenda → Tijdzoneprioriteit: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Agenda → Alternatieve kalenders: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Agenda → Weeknummers: `prefs:root=CALENDAR#Week%20Numbers`
+- Agenda → Toon wie heeft afgeslagen: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Agenda → Synchroniseer: `prefs:root=CALENDAR&path=Sync`
+- Agenda → Standaardtijd meldingen: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Agenda → Begin week op: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Agenda → Voorgestelde locaties: `prefs:root=CALENDAR#Location%20Suggestions`
+- Mail: `prefs:root=MAIL`
+- Mail → Accounts: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Accounts → Voeg account toe: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Accounts → Nieuwe gegevens: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Voorvertoning: `prefs:root=MAIL&path=Preview`
+- Mail → Toon Aan/Kopie-labels: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Veegopties: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Vraag bij verwijderen: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Laad externe afbeeldingen: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Berichtenreeksen: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Vouw samen indien gelezen: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Nieuwste berichten bovenaan: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Volledige berichtenreeksen: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Handeling stille berichtenreeks: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Negeer geblokkeerde afzenders: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Geblokkeerd: `prefs:root=MAIL&path=Blocked`
+- Mail → Blinde kopie naar mij: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Markeer adressen: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Verhoog citaatniveau: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Stuur bijlagen mee met antwoorden: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Handtekening: `prefs:root=MAIL&path=Signature`
+- Telefoon: `prefs:root=Phone`
+- Telefoon → Mijn nummer: `prefs:root=Phone&path=My%20Number`
+- Telefoon → Inkomend: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefoon → Kondig beller aan: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefoon → Sms/oproep melden: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefoon → Reageer met tekstbericht: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefoon → Doorschakelen: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefoon → Doorschakelen → Doorschakelen: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefoon → Wisselgesprek: `prefs:root=Phone&path=Call%20Waiting`
+- Telefoon → Nummerherkenning: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefoon → Nummerherkenning → NEEDS_OVERRIDE_882 → Nummerherkenning: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefoon → Houd onbekende bellers stil: `prefs:root=Phone#SILENCE_CALLS`
+- Telefoon → Geblokkeerde contacten: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefoon → Nummerassistentie: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → Materiaalblokkering: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Blokkeer pop-ups: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Voorkom tracking: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Vul automatisch in: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Downloads: `prefs:root=SAFARI&path=DOWNLOADS`
+- Wachtwoorden: `prefs:root=PASSWORDS`
+- Wachtwoorden → Vul automatisch in: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Foto's: `prefs:root=Photos`
+- Foto's → iCloud-foto's: `prefs:root=Photos#iCloudPhotosSwitch`
+- Foto's → Optimaliseer opslag: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Foto's → Download en bewaar originelen: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Foto's → Mijn fotostream: `prefs:root=Photos#PhotoStreamSwitch`
+- Foto's → Gedeelde albums: `prefs:root=Photos#SharedStreamsSwitch`
+- Foto's → Mobiele data: `prefs:root=Photos&path=CellularDataLinkList`
+- Foto's → Speel video's automatisch af: `prefs:root=Photos#VideoAutoplaySwitch`
+- Foto's → Bekijk volledig HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Foto's → Toon feestelijke activiteiten: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Foto's → Zet over naar Mac of pc: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Automatische downloads: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → App-updates: `prefs:root=STORE#App%20Updates`
+- App Store → Appdownloads: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Speel video automatisch af: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Beoordelingen en recensies: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Show Story Previews: `prefs:root=NEWS#show_excerpt_mode`
+- News → Restrict Stories in Today: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Privacy: `prefs:root=NEWS#Privacy`
+- News → Stel ID opnieuw in: `prefs:root=NEWS#reset_identifier`
+- News → Colofon: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_883 → Vliegtuigmodus: `prefs:root=ROOT#AIRPLANE_MODE`
+- Herinneringen: `prefs:root=REMINDERS`
+- Herinneringen → Standaardlijst: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Herinneringen → Standaardlijst → Herinneringen: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Herinneringen → Melding vandaag: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Herinneringen → Toon als verlopen: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Batterij: `prefs:root=BATTERY_USAGE`
+- Batterij → Energiebesparingsmodus: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Batterij → Batterijconditie: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Opdrachten: `prefs:root=SHORTCUTS`
+- Opdrachten → iCloud-synchronisatie: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Opdrachten → Volgorde opdrachten in 'Synchronisatie': `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Opdrachten → Juridische informatie: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri en zoeken: `prefs:root=SIRI`
+- Siri en zoeken → Sta Siri toe bij vergrendeling: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri en zoeken → Taal: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri en zoeken → Siri-stem: `prefs:root=SIRI&path=VOICE_ID`
+- Siri en zoeken → Gesproken feedback: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri en zoeken → Mijn informatie: `prefs:root=SIRI&path=MY_INFO`
+- Siri en zoeken → Zoeksuggesties: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri en zoeken → Opzoeksuggesties: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri en zoeken → Toegangsschermsuggesties: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Aandelen: `prefs:root=STOCKS`
+- Aandelen → Privacy: `prefs:root=STOCKS#Privacy`
+- Aandelen → Stel ID opnieuw in: `prefs:root=STOCKS#reset_identifier`
+- Mobiel netwerk: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobiel netwerk → Opties mobiele data: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobiel netwerk → Opties mobiele data → Databesparingsmodus: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobiel netwerk → Mobiele data: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → Mobiele data voor afspelen: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → Afspeelkwaliteit: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → Gekocht en gehuurd: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → Thuisdeling: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Achtergrond: `prefs:root=Wallpaper`

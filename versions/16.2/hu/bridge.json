@@ -1,0 +1,561 @@
+{
+  "Kisegítő lehetőségek": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Látás": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Nagyítás": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Félkövér szöveg": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Be/ki címkék": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Szürkeárnyalatok": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Átlátszóság csökkentése": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Mozgás csökkentése": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Csengők": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Ütemezés": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Óránként": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 perc": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 perc": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Hangok": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Csengők": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Madarak": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Motor": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Oldalsó gomb kattintási sebessége": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Kattintási sebesség": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Alapértelmezett": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Lassú": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Leglassabb": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Érintési beállítások": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Érintési beállítások": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Érintés időtartama": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Ismétlés mellőzése": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Érintésasszisztencia": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Ki": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Az első érintés helyének használata": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Az utolsó érintés helyének használata": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "KEREKESSZÉKES TEVÉKENYSÉG": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Adóvevő": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Beszélgetés koppintással": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Hallás": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Átjátszó száma": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Küldés azonnal": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Alapértelmezett válaszok": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Alapértelmezett válaszok": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Válasz hozzáadása…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Monó hang": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Bal-jobb sztereó balansz": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Értesítések a fejhallgatóról": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Hallókészülékek": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Komplikáció": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Mikrofon hangereje": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Program": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Taptikus időjelzés sebessége": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Kisegítő lehetőségek billentyűparancsa": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Új Watch párosítása": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Appnézet": "bridge:root=APP_VIEW_ID",
+  "Általános": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Névjegy": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Név": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Korlátozott garancia": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Korlátozott garancia": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "ÉRVÉNYESSÉGGEL KAPCSOLATOS RÉSZLETEK": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Hardverre vonatkozó érvényesség": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Támogatás csevegés formájában és telefonon": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Dalok": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Fotók": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Alkalmazások": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Kapacitás": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Elérhető": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Verzió": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Szolgáltató": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Modell": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Sorozatszám": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi-Fi-cím": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Jogi információk": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Az Apple Watch használati útmutatója": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Szoftverfrissítés": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Automatikus apptelepítés": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Repülőgép mód": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Fókusz": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "iPhone tükrözése": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Az Apple Watch helyzete": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Az Apple Watch viselése": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Bal csukló": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Jobb csukló": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown bal oldalon": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown jobb oldalon": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Diktálás engedélyezése": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Handoff engedélyezése": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Ébresztőóra mód": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Képernyőfotók engedélyezése": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Tárhely": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Diagnosztikai naplók": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "A Watch elemzésének másolása": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Alaphelyzetbe állítás": "bridge:root=GENERAL_LINK&path=RESET",
+    "Automatikus indítás vízbe merítéskor": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Hangappok automatikus elindítása": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Nyelv és régió": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "iPhone tükrözése": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Egyéni": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "VISSZATÉRÉS AZ ÓRÁHOZ": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "VISSZATÉRÉS AZ ÓRÁHOZ": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Mindig": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "2 perc után": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "1 óra után": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APPOK": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Lejátszás alatt": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Kijelző és fényerő": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Fényerő": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Állandó megjelenítés": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Állandó megjelenítés": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "LEENGEDETT CSUKLÓ": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Értesítések megjelenítése": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Értesítések megjelenítése": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCH-APPOK": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Appok megjelenítése": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Appok megjelenítése": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPOK": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Szövegméret": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Félkövér szöveg": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "ÉBRESZTÉS": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Felébresztés a csukló felemelésekor": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Felébresztés a Crown elforgatásakor": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Ébrenlét időtartama": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "KOPPINTÁSRA": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Felébresztés 15 másodpercre": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Felébresztés 70 másodpercre": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Hangok és haptikus jelzések": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Jelzés hangereje": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Néma mód": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Fejhallgató hangja": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Fejhallgató-biztonság": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Értesítések a fejhallgatóról": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Hangerő-korlátozás": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Haptikus jelzések": "bridge:root=SOUNDS_ID#Haptics",
+    "Haptikus figyelmeztetések": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Korona rezgései": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Haptikus rendszervisszajelzés": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Némítás lefedéssel": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "Vészhelyzet – SOS": "bridge:root=SOS_MODE_ID",
+  "Adatvédelem": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Pulzusszám": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Percenkénti légzésszám": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Edzettségi áll. nyomon köv.": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Fitneszkalibrációs adatok alaphelyzetbe állítása": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Környezeti hangok mérései": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Fejhallgató hangmérései": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Mentés az Egészségben": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "8 napig": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Amíg nem törlöm": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Véroxigénmérések": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Csuklóhőmérséklet": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Képernyőidő": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Mélység": "bridge:root=com.apple.DepthCompanionSettings",
+  "Művelet gomb": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Automatikus letöltések": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Automatikus frissítések": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Egészség": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail és Naptár": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Fiókok": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Google-fiók hozzáadása…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Lekérés": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Ki": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Óránként": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 perc": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 perc": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Kézmosás": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Értesítések engedélyezése": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Küldés az Értesítési központba": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Értesítések kikapcsolva": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Értesítések csoportosítása": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Kézmosási időzítő": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Mobilhálózat": "bridge:root=CELLULAR_ID",
+  "Komplikációk": "bridge:root=COMPLICATIONS",
+  "Tevékenység": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Fejlődési információk": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Nincs": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "2 óránként": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "4 óránként": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "6 óránként": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "8 óránként": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Eredmények": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Heti összesítés": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Napi mentorálás": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Elért célok": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Különleges kihívások": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Tevékenységértesítések": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Szív": "bridge:root=com.apple.HeartRateSettings#1",
+    "Pulzusszám-értesítések": "bridge:root=com.apple.HeartRateSettings#2",
+    "Magas pulzusszám": "bridge:root=com.apple.HeartRateSettings#3",
+    "Alacsony pulzusszám": "bridge:root=com.apple.HeartRateSettings#4",
+    "Szabálytalan ritmus": "bridge:root=com.apple.HeartRateSettings#5",
+    "Rögzített EKG-k megtekintése az Egészségben": "bridge:root=com.apple.HeartRateSettings#6",
+    "EKG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Üzenetek": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "iPhone tükrözése": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Egyéni": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Alapértelmezett válaszok": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Alapértelmezett válaszok": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Intelligens válaszok": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Válasz hozzáadása…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Jelzések ismétlése": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Hangüzenetek": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Tudatosság": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Értesítések engedélyezése": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Küldés az Értesítési központba": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Értesítések kikapcsolva": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Tudatossággal kapcsolatos emlékeztetők": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Nap kezdete": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Nap vége": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Emlékeztető hozzáadása…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Heti összesítés": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Némítás a mai napra": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Légzés gyakorisága": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 légzés/perc": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 légzés/perc": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 légzés/perc": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 légzés/perc": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 légzés/perc": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 légzés/perc": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 légzés/perc": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Haptikus jelzések": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Nincs": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Minimális": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Figyelemfelkeltő": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Alvás": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Az alvás beállítása az Egészség appban": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Hangoskönyvek": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Bejelentkezés": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Naptár": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "ÉRTESÍTÉSEK": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "iPhone tükrözése": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Egyéni…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "NAPTÁRAK": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Óra": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24 órás idő": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Csengők": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Hangok": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Csengők": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Madarak": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Idő felolvasása": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Vezérlés néma móddal": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Mindig felolvas": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Taptikus időjelzés": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Taptikus időjelzés": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Számjegyek": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Tömör": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Morzekód": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Jelzések átküldése az iPhone-ról": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Értesítésjelző": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monogram": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Óraszámlapokról szóló értesítések": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Városok rövidítései": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Siri-számlap adatforrásai": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Kontaktok": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Rendezési sorrend": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Utó, Családi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Családi, Utó": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Kijelzési sorrend": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Utó, Családi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Családi, Utó": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Rövid név": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Rövid név": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Utónév és családi név kezdőbetűje": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Utónév kezdőbetűje és családi név": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Csak utónév": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Csak családi név": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Becenevek előnyben részesítése": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "iPhone tükrözése": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Egyéni": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Levélbeállítások": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Fiókok": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Levelek hozzáadása": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Üzenet előnézete": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Nincs": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 sor": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 sor": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Alapértelmezett válaszok": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Alapértelmezett válaszok": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Válasz hozzáadása…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Aláírás": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Térképek": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Irányváltoztatási jelzések": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Vezetés": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Vezetés a CarPlayjel": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Gyaloglás": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Biciklizés": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Navigáció megjelenítése": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Tömegközlekedés": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Buildinfó:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Zene": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "LEJÁTSZÁSI LISTÁK ÉS ALBUMOK": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Zene hozzáadása…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Tárca és Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Kártya hozzáadása": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Értesítések": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "iPhone tükrözése": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Egyéni": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Fotók": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Fotók szinkronizálása": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Emlékek": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Emlékek szinkronizálása": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Kiemelt fotók": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Kiemelt fotók szinkronizálása": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Album": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Album szinkronizálása": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Fotók korlátja": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Értesítésbeállítások": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "iPhone tükrözése": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Egyéni": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Zaj": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Környezeti hangok mérései": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Zajjal kapcsolatos értesítések": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Zaj küszöbértéke": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Ki": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Értesítések csoportosítása": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Véroxigén": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Szolgáltatóbeállítások": "bridge:root=CARRIER_SETTINGS",
+  "Jelkód kikapcsolása": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Jelkód bekapcsolása": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Jelkód módosítása": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Egyszerű jelkód": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Feloldás iPhone-nal": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Adatok törlése": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Csuklóészlelés": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Telefon": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Hívások": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Csengőhang": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Hang": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Haptikus": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Edzés": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Alacsony töltöttségű mód": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Céladatok megjelenítése": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Edzési nézet": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Automatikus szünet": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Automatikus szünet": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "„Edzés kezdete” jelzés": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "„Edzés vége” jelzés": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Szüneteltetés megnyomással": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Edzőtermi eszköz észlelése": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Tempó/sebesség nézet": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Jelenlegi": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Átlag": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Edzés lejátszási listája": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Nincs": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Lejátszási listák": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Lejátszás az elejétől": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Keverés": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Mértékegységek": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Kalória": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilokalória": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilojoule": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Yard": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Méter": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Mérföld": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilométer": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Beszédhangos visszajelzés": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Ideje gyalogolni": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Új edzések hozzáadása a Watchhoz": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Részvények": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Az óraszámlap-komplikáció a következőt jeleníti meg": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Jelenlegi ár": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Változás pontokban": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Százalékos változás": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Piaci tőke": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "A Siri-számlapon megjelenő árfolyam": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Kijelölt részvény": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Kijelölt részvény": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Dock rendezése": "bridge:root=DOCK#OrderingOptionGroup",
+    "Előzmény": "bridge:root=DOCK#Recents",
+    "Kedvencek": "bridge:root=DOCK#Favorites"
+  },
+  "Podcastok": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Kérje meg Sirit": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Emelés a beszédhez": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "A Digital Crown megnyomása": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Beszédhangos visszajelzés": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Mindig bekapcsolva": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Vezérlés néma móddal": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Csak fejhallgató": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Beszédhang hangereje": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siri-javaslatok": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Adóvevő": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Értesítések engedélyezése": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Küldés az Értesítési központba": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Értesítések kikapcsolva": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Értesítések csoportosítása": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Barátok": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Időjárás": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Alapértelmezett város": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Alapértelmezett város": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Jelenlegi helyzet": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Olvasási értesítés küldése": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

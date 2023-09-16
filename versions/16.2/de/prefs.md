@@ -1,0 +1,853 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → iCloud-Speicher: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Fotos: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Kontakte: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Kalender: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Erinnerungen: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Notizen: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Backup: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Health: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Passwörter & Schlüsselbund: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Privat-Relay: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Standort teilen: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Standort teilen → Mein iPhone suchen: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Name, Telefonnummern, E-Mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Passwort & Sicherheit: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Zahlung & Versand: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Abonnements: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Familie: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Datenschutz & Sicherheit: `prefs:root=Privacy`
+- Datenschutz & Sicherheit → Sicherheitsprüfung: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Datenschutz & Sicherheit → Standort: `prefs:root=Privacy&path=LOCATION`
+- Datenschutz & Sicherheit → Standort → Standort teilen: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Datenschutz & Sicherheit → Kontakte: `prefs:root=Privacy&path=CONTACTS`
+- Datenschutz & Sicherheit → Kalender: `prefs:root=Privacy&path=CALENDARS`
+- Datenschutz & Sicherheit → Erinnerungen: `prefs:root=Privacy&path=REMINDERS`
+- Datenschutz & Sicherheit → Fotos: `prefs:root=Privacy&path=PHOTOS`
+- Datenschutz & Sicherheit → Bluetooth-Freigabe: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Datenschutz & Sicherheit → Mikrofon: `prefs:root=Privacy&path=MICROPHONE`
+- Datenschutz & Sicherheit → Spracherkennung: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Datenschutz & Sicherheit → Kamera: `prefs:root=Privacy&path=CAMERA`
+- Datenschutz & Sicherheit → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Datenschutz & Sicherheit → Medien & Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Datenschutz & Sicherheit → Analyse: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Datenschutz & Sicherheit → Werbung: `prefs:root=Privacy&path=ADVERTISING`
+- Datenschutz & Sicherheit → Dateien und Ordner: `prefs:root=Privacy&path=FILEACCESS`
+- Datenschutz & Sicherheit → Tracking: `prefs:root=Privacy&path=USER_TRACKING`
+- Datenschutz & Sicherheit → App-Datenschutzbericht: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Datenschutz & Sicherheit → Blockierungsmodus: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Datenschutz & Sicherheit → Health: `prefs:root=Privacy&path=HEALTH`
+- Fokus: `prefs:root=DO_NOT_DISTURB`
+- Fokus → Fokusstatus: `prefs:root=DO_NOT_DISTURB&path=status`
+- Allgemein: `prefs:root=General`
+- Allgemein → VPN und Geräteverwaltung: `prefs:root=General&path=ManagedConfigurationList`
+- Allgemein → Bild-in-Bild: `prefs:root=General&path=PiP_SPEC`
+- Allgemein → Trackpad & Maus: `prefs:root=General&path=POINTERS`
+- Allgemein → NFC: `prefs:root=General&path=NFC_LINK`
+- Allgemein → VPN: `prefs:root=General&path=VPN`
+- Allgemein → CarPlay: `prefs:root=General&path=CARPLAY`
+- Allgemein → Info: `prefs:root=General&path=About`
+- Allgemein → Info → Vertrauenswürdige Zertifikate: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Allgemein → Rechtl. & Reg. Hinweise: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Allgemein → Softwareupdate: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Allgemein → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Allgemein → Home-Taste: `prefs:root=General&path=HOME_BUTTON`
+- Allgemein → Gesten: `prefs:root=General#Multitasking_Gesture_Switch`
+- Allgemein → Seitenschalter: `prefs:root=General#Rotation_Switch_Action_Group`
+- Allgemein → Hintergrundaktualisierung: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Allgemein → Datum & Uhrzeit: `prefs:root=General&path=DATE_AND_TIME`
+- Allgemein → TV-Ausgang: `prefs:root=General&path=TV_OUT`
+- Allgemein → Regulatorische Hinweise: `prefs:root=General&path=REGULATORY`
+- Allgemein → Zurücksetzen: `prefs:root=General&path=Reset`
+- Allgemein → Zurücksetzen → Alle Einstellungen zurücksetzen: `prefs:root=General&path=Reset#settingsErase`
+- Allgemein → Zurücksetzen → Alle Inhalte & Einstellungen löschen: `prefs:root=General&path=Reset#fullErase`
+- Allgemein → Zurücksetzen → Netzwerkeinstellungen zurücksetzen: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Allgemein → Zurücksetzen → Alle mobilen Datentarife entfernen: `prefs:root=General&path=Reset#cellularErase`
+- Allgemein → Zurücksetzen → Accountdienste: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Allgemein → Zurücksetzen → Tastaturwörterbuch: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Allgemein → Zurücksetzen → Home-Bildschirm: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Allgemein → Zurücksetzen → Standort & Datenschutz: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Allgemein → Ausschalten: `prefs:root=General#SHUTDOWN_LABEL`
+- Allgemein → AirPlay & Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Allgemein → AirPlay & Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Allgemein → AirPlay & Handoff → Auf HomePod übertragen: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Allgemein → AirPlay & Handoff → Autom. AirPlay auf TV: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Allgemein → AirPlay & Handoff → Integrationskamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Allgemein → Lexikon: `prefs:root=General&path=DICTIONARY`
+- Allgemein → Sprache & Region: `prefs:root=General&path=INTERNATIONAL`
+- Allgemein → Sprache & Region → Andere Sprachen …: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Allgemein → Sprache & Region → Bevorzugte Sprachreihenfolge: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Allgemein → Sprache & Region → Sprache hinzufügen …: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Allgemein → Sprache & Region → Region: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Allgemein → Sprache & Region → Zahlen: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Allgemein → Sprache & Region → Kalender: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Allgemein → Sprache & Region → Temperatureinheit: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Allgemein → Tastatur: `prefs:root=General&path=Keyboard`
+- Allgemein → Tastatur → Tastaturen: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Allgemein → Tastatur → Textersetzung: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Allgemein → Tastatur → Auto-Großschreibung: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Allgemein → Tastatur → Auto-Korrektur: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Allgemein → Tastatur → Rechtschreibprüfung: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Allgemein → Tastatur → Feststelltaste: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Allgemein → Tastatur → Kurzbefehle: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Allgemein → Tastatur → Vorschläge: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Allgemein → Tastatur → Intelligente Interpunktion: `prefs:root=General&path=Keyboard#SmartTyping`
+- Allgemein → Tastatur → Geteilte Tastatur: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Allgemein → Tastatur → Tastenstreichen aktivieren: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Allgemein → Tastatur → Zeichenvorschau: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Allgemein → Tastatur → „.“-Kurzbefehl: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Allgemein → Tastatur → Zum Tippen streichen: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Allgemein → Tastatur → Diktierfunktion aktivieren: `prefs:root=General&path=Keyboard#Dictation`
+- Allgemein → Tastatur → Automatische Interpunktion: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Allgemein → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Allgemein → iPhone/iPad Storage → Speicher: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Allgemein → iPhone/iPad Storage → Apps auslagern: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Mitteilungen: `prefs:root=NOTIFICATIONS_ID`
+- Mitteilungen → Geplante Übersicht: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Wallet & Apple Pay: `prefs:root=PASSBOOK`
+- Wallet & Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Wallet & Apple Pay → Zahlungskarten: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Wallet & Apple Pay → Karte hinzufügen: `prefs:root=PASSBOOK#Add%20Card`
+- Wallet & Apple Pay → Seitentaste zweimal drücken: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Wallet & Apple Pay → Bestellungsverfolgung: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Bildschirmzeit: `prefs:root=SCREEN_TIME`
+- Bildschirmzeit → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Bildschirmzeit → See All Activity → Heute: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Bildschirmzeit → See All Activity → Wöchentlich: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Bildschirmzeit → Auszeit: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Bildschirmzeit → App-Limits: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Bildschirmzeit → Kommunikations­limits: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Bildschirmzeit → Kommunikationssicherheit: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Bildschirmzeit → Immer erlaubt: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Bildschirmzeit → Inhalts- und Datenschutzbeschränkungen: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Bildschirmzeit → Kindersicherung: `prefs:root=SCREEN_TIME#FAMILY`
+- Bedienungshilfen: `prefs:root=ACCESSIBILITY`
+- Bedienungshilfen → Sehen: `prefs:root=ACCESSIBILITY#VISION`
+- Bedienungshilfen → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Bedienungshilfen → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Bedienungshilfen → VoiceOver → Sprechtempo: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Bedienungshilfen → VoiceOver → Sprachausgabe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Bedienungshilfen → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Bedienungshilfen → VoiceOver → Speech → Stimme: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Bedienungshilfen → VoiceOver → Ausführlichkeit: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Bedienungshilfen → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Bedienungshilfen → VoiceOver → Verbosity → Satzzeichen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Bedienungshilfen → VoiceOver → Verbosity → Tabellentitel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Bedienungshilfen → VoiceOver → Verbosity → Medienbeschreibungen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Bedienungshilfen → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Bedienungshilfen → VoiceOver → Verbosity → Media Descriptions → Aus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Bedienungshilfen → VoiceOver → Verbosity → Media Descriptions → Sprachausgabe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Bedienungshilfen → VoiceOver → Verbosity → Media Descriptions → Brailleschrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Bedienungshilfen → VoiceOver → Verbosity → Media Descriptions → Sprache und Brailleschrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Bedienungshilfen → VoiceOver → Brailleschrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- Bedienungshilfen → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Bedienungshilfen → VoiceOver → Braille → Ausgabe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Bedienungshilfen → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Bedienungshilfen → VoiceOver → Braille → Output → 6-Punkt-Brailleschrift (nicht verkürzt): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Bedienungshilfen → VoiceOver → Braille → Output → 8-Punkt-Brailleschrift (nicht verkürzt): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Bedienungshilfen → VoiceOver → Braille → Output → Braillekurzschrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Bedienungshilfen → VoiceOver → Braille → Eingabe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Bedienungshilfen → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Bedienungshilfen → VoiceOver → Braille → Input → 6-Punkt-Brailleschrift (nicht verkürzt): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Bedienungshilfen → VoiceOver → Braille → Input → 8-Punkt-Brailleschrift (nicht verkürzt): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Bedienungshilfen → VoiceOver → Braille → Input → Braillekurzschrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Bedienungshilfen → VoiceOver → Braille → Input → Automatische Übersetzung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Bedienungshilfen → VoiceOver → Braille → Braillebildschirmeingabe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Bedienungshilfen → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Bedienungshilfen → VoiceOver → Braille → Braille Screen Input → 6-Punkt-Brailleschrift (nicht verkürzt): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Bedienungshilfen → VoiceOver → Braille → Braille Screen Input → 8-Punkt-Brailleschrift (nicht verkürzt): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Bedienungshilfen → VoiceOver → Braille → Braille Screen Input → Braillekurzschrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Bedienungshilfen → VoiceOver → Braille → Braille Screen Input → Umgekehrte Punktpositionen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Bedienungshilfen → VoiceOver → Braille → Brailletabellen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Bedienungshilfen → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Bedienungshilfen → VoiceOver → Braille → Tables → Braille-Tabelle hinzufügen …: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Bedienungshilfen → VoiceOver → Braille → Statuszellen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Bedienungshilfen → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Bedienungshilfen → VoiceOver → Braille → Status Cell → Statuszellenposition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Bedienungshilfen → VoiceOver → Braille → Status Cell → Links: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Bedienungshilfen → VoiceOver → Braille → Status Cell → Rechts: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Bedienungshilfen → VoiceOver → Braille → Status Cell → Allgemeinen Status anzeigen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Bedienungshilfen → VoiceOver → Braille → Status Cell → Textstatus einblenden: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Bedienungshilfen → VoiceOver → Braille → Nemeth-Code für Gleichungen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Bedienungshilfen → VoiceOver → Braille → Onscreen-Keyboard: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Bedienungshilfen → VoiceOver → Braille → Beim Bewegen umblättern: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Bedienungshilfen → VoiceOver → Braille → Wortumbruch: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Bedienungshilfen → VoiceOver → Braille → Braillehinweise: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Bedienungshilfen → VoiceOver → Braille → Chord-Dauer ignorieren: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Bedienungshilfen → VoiceOver → Braille → Automatisch fortfahren (Dauer): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Bedienungshilfen → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Bedienungshilfen → VoiceOver → Audio → Audio-Ducking: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Bedienungshilfen → VoiceOver → Audio → Automatisch zum Lautsprecher: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Bedienungshilfen → VoiceOver → Audio → An HDMI senden: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Bedienungshilfen → VoiceOver → Befehle: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Bedienungshilfen → VoiceOver → Aktivitäten: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Bedienungshilfen → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Bedienungshilfen → VoiceOver → Activities → Programmieren: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Bedienungshilfen → VoiceOver → Activities → Aktivität hinzufügen …: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Bedienungshilfen → VoiceOver → Rotorliste: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Bedienungshilfen → VoiceOver → Rotoraktionen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Bedienungshilfen → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Bedienungshilfen → VoiceOver → Rotor Actions → Home-Bildschirm bearbeiten: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Bedienungshilfen → VoiceOver → Rotor Actions → Apps für „Direkte Berührung“: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Bedienungshilfen → VoiceOver → Eingeben: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Bedienungshilfen → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Bedienungshilfen → VoiceOver → Typing → Eingabemodus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Bedienungshilfen → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Bedienungshilfen → VoiceOver → Typing → Typing Mode → Zweifingersystem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Bedienungshilfen → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Bedienungshilfen → VoiceOver → Typing → Typing Style → Zehnfingersystem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Bedienungshilfen → VoiceOver → Typing → Typing Style → Direkte Berührung (Eingabe): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Bedienungshilfen → VoiceOver → Typing → Phonetisches Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Bedienungshilfen → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Bedienungshilfen → VoiceOver → Typing → Phonetic Feedback → Aus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Bedienungshilfen → VoiceOver → Typing → Phonetic Feedback → Zeichen und Buchstabieralphabet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Bedienungshilfen → VoiceOver → Typing → Phonetic Feedback → Nur Buchstabieralphabet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Bedienungshilfen → VoiceOver → Typing → Eingabe vorlesen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Bedienungshilfen → VoiceOver → Typing → Sondertasten: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Bedienungshilfen → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Bedienungshilfen → VoiceOver → Typing → Modifier Keys → Ctrl + Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Bedienungshilfen → VoiceOver → Typing → Modifier Keys → Feststelltaste: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Bedienungshilfen → VoiceOver → Typing → Interaktionszeit der Tastatur: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Bedienungshilfen → VoiceOver → Bilder navigieren: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Bedienungshilfen → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Bedienungshilfen → VoiceOver → Include Unlabeled Images → Immer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Bedienungshilfen → VoiceOver → Include Unlabeled Images → Mit Beschreibungen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Bedienungshilfen → VoiceOver → Include Unlabeled Images → Nie: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Bedienungshilfen → VoiceOver → Großer Cursor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Bedienungshilfen → VoiceOver → Beschriftungsbereich: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Bedienungshilfen → VoiceOver → Zeitraum zum Doppeltippen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Bedienungshilfen → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Bedienungshilfen → VoiceOver → Double-tap Timeout → Zeitraum zum Doppeltippen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Bedienungshilfen → VoiceOver → Navigationsstil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Bedienungshilfen → VoiceOver → Schnelleinstellungen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Bedienungshilfen → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Bedienungshilfen → VoiceOver → Quick Settings → Töne: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Bedienungshilfen → VoiceOver → Quick Settings → Audio-Ducking: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Bedienungshilfen → VoiceOver → Quick Settings → Lautstärke: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Bedienungshilfen → VoiceOver → Quick Settings → Sprechtempo: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Bedienungshilfen → VoiceOver → Quick Settings → Hinweise: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Bedienungshilfen → VoiceOver → Quick Settings → Navigationsstil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Bedienungshilfen → VoiceOver → Quick Settings → Eingabemodus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Bedienungshilfen → VoiceOver → Quick Settings → Zum Tippen streichen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Bedienungshilfen → VoiceOver → Quick Settings → Aktivitäten: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Bedienungshilfen → VoiceOver → Quick Settings → Mitteilungen immer sprechen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Bedienungshilfen → VoiceOver → Quick Settings → Braillehinweise: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Bedienungshilfen → VoiceOver → Quick Settings → Automatisches Fortfahren bei Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Bedienungshilfen → VoiceOver → Quick Settings → Brailleeingabe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Bedienungshilfen → VoiceOver → Quick Settings → Brailleausgabe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Bedienungshilfen → VoiceOver → Quick Settings → Brailletabellen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Bedienungshilfen → VoiceOver → Quick Settings → Beschriftungsbereich: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Bedienungshilfen → VoiceOver → Quick Settings → Direkte Berührung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Bedienungshilfen → VoiceOver → Quick Settings → Gestenrichtung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Bedienungshilfen → VoiceOver → Quick Settings → Hardwareeingabe vorlesen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Bedienungshilfen → VoiceOver → Quick Settings → Sprache: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Bedienungshilfen → VoiceOver → Quick Settings → Großer Cursor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Bedienungshilfen → VoiceOver → Quick Settings → Medienbeschreibungen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Bedienungshilfen → VoiceOver → Quick Settings → Bilder navigieren: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Bedienungshilfen → VoiceOver → Quick Settings → Phonetisches Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Bedienungshilfen → VoiceOver → Quick Settings → Tonhöhenänderung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Bedienungshilfen → VoiceOver → Quick Settings → Satzzeichen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Bedienungshilfen → VoiceOver → Quick Settings → An HDMI senden: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Bedienungshilfen → VoiceOver → Quick Settings → Softwareeingabe vorlesen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Bedienungshilfen → VoiceOver → Quick Settings → Rotorbestätigung sprechen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Bedienungshilfen → VoiceOver → Quick Settings → Bildbeschreibungen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Bedienungshilfen → VoiceOver → Quick Settings → Bildschirmerkennung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Bedienungshilfen → VoiceOver → VoiceOver-Erkennung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Bedienungshilfen → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Bedienungshilfen → VoiceOver → VoiceOver Recognition → Bildbeschreibungen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Bedienungshilfen → VoiceOver → VoiceOver Recognition → Bildschirmerkennung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Bedienungshilfen → Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Bedienungshilfen → Zoom → Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Bedienungshilfen → Zoom → Fokus folgen: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Bedienungshilfen → Zoom → Intelligente Eingabe: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Bedienungshilfen → Zoom → Tastaturkurzbefehle: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Bedienungshilfen → Zoom → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Bedienungshilfen → Zoom → Keyboard Shortcuts → Tastaturkurzbefehle: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Bedienungshilfen → Zoom → Keyboard Shortcuts → Zoomstufe anpassen: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Bedienungshilfen → Zoom → Keyboard Shortcuts → Zoomen ein/aus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Bedienungshilfen → Zoom → Keyboard Shortcuts → Zoomfenster bewegen: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Bedienungshilfen → Zoom → Keyboard Shortcuts → Größe des Zoomfensters ändern: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Bedienungshilfen → Zoom → Keyboard Shortcuts → Zoombereich wechseln: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Bedienungshilfen → Zoom → Keyboard Shortcuts → Zoom vorübergehend ein-/ausschalten: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Bedienungshilfen → Zoom → Keyboard Shortcuts → Mit Scrollrad zoomen: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Bedienungshilfen → Zoom → Zoom-Controller: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Bedienungshilfen → Zoom → Zoombereich: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Bedienungshilfen → Zoom → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Bedienungshilfen → Zoom → Zoom Region → Vollbildzoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Bedienungshilfen → Zoom → Zoom Region → Zoomfenster: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Bedienungshilfen → Zoom → Maximale Zoomstufe: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Bedienungshilfen → Zoom → Zoomfilter: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Bedienungshilfen → Zoom → Beim Synchronisieren anzeigen: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Bedienungshilfen → Schwebender Text: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Bedienungshilfen → Anzeige & Textgröße: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Bedienungshilfen → Anzeige & Textgröße → Fetter Text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Bedienungshilfen → Anzeige & Textgröße → Größerer Text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Bedienungshilfen → Anzeige & Textgröße → Tastenformen: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Bedienungshilfen → Anzeige & Textgröße → Ein/Aus-Beschriftungen: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Bedienungshilfen → Anzeige & Textgröße → Transparenz reduzieren: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Bedienungshilfen → Anzeige & Textgröße → Kontrast erhöhen: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Bedienungshilfen → Anzeige & Textgröße → Ohne Farben differenzieren: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Bedienungshilfen → Anzeige & Textgröße → Umkehren - Intelligent: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Bedienungshilfen → Anzeige & Textgröße → Umkehren - Klassisch: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Bedienungshilfen → Anzeige & Textgröße → Farbfilter: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Bedienungshilfen → Anzeige & Textgröße → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Bedienungshilfen → Anzeige & Textgröße → Color Filters → Farbfilter: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Bedienungshilfen → Anzeige & Textgröße → Weißpunkt reduzieren: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Bedienungshilfen → Anzeige & Textgröße → Auto-Helligkeit: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Bedienungshilfen → Bewegung: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Bedienungshilfen → Bewegung → Bewegung reduzieren: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Bedienungshilfen → Bewegung → Nachrichteneffekte ausführen: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Bedienungshilfen → Bewegung → Videovorschauen autom. wiedergeben: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Bedienungshilfen → Gesprochene Inhalte: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Bedienungshilfen → Gesprochene Inhalte → Auswahl sprechen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Bedienungshilfen → Gesprochene Inhalte → Bildschirminhalt sprechen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Bedienungshilfen → Gesprochene Inhalte → Sprach-Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Bedienungshilfen → Gesprochene Inhalte → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Bedienungshilfen → Gesprochene Inhalte → Speech Controller → Maustasten anpassen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Bedienungshilfen → Gesprochene Inhalte → Inhalt hervorheben: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Bedienungshilfen → Gesprochene Inhalte → Eingabe vorlesen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Bedienungshilfen → Gesprochene Inhalte → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Bedienungshilfen → Gesprochene Inhalte → Typing Feedback → Zeichen-Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Bedienungshilfen → Gesprochene Inhalte → Typing Feedback → Zeichen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Bedienungshilfen → Gesprochene Inhalte → Typing Feedback → Zeichenhinweise: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Bedienungshilfen → Gesprochene Inhalte → Typing Feedback → Wörter sprechen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Bedienungshilfen → Gesprochene Inhalte → Typing Feedback → Auto-Text sprechen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Bedienungshilfen → Gesprochene Inhalte → Typing Feedback → Vorschläge sprechen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Bedienungshilfen → Gesprochene Inhalte → Stimmen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Bedienungshilfen → Gesprochene Inhalte → Standardsprache: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Bedienungshilfen → Gesprochene Inhalte → Sprachen erkennen: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Bedienungshilfen → Gesprochene Inhalte → Sprechtempo: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Bedienungshilfen → Gesprochene Inhalte → Aussprache: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Bedienungshilfen → Audiobeschreibungen: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Bedienungshilfen → Audiobeschreibungen → Audiobeschreibungen: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Bedienungshilfen → Physisch und motorisch: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Bedienungshilfen → Berühren: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Bedienungshilfen → Berühren → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Bedienungshilfen → Berühren → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Hauptmenü anpassen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Bedienungshilfen → Berühren → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Bedienungshilfen → Berühren → AssistiveTouch → Customize Top Level Menu → Zum Ändern auf ein Symbol tippen:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Bedienungshilfen → Berühren → AssistiveTouch → Customize Top Level Menu → Zurücksetzen …: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Bedienungshilfen → Berühren → AssistiveTouch → Eigene Aktionen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Einfachtippen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Doppeltippen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Double-Tap → Zeitraum zum Doppeltippen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Langes Drücken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Long Press → Langes Drücken (Dauer): `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Eigene Gesten: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Bedienungshilfen → Berühren → AssistiveTouch → Neue Geste erstellen …: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Bedienungshilfen → Berühren → AssistiveTouch → Deckkraft: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigegeräte: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Bedienungshilfen → Berühren → AssistiveTouch → Geräte: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Bedienungshilfen → Berühren → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Bedienungshilfen → Berühren → AssistiveTouch → Devices → Bluetooth-Geräte …: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Bedienungshilfen → Berühren → AssistiveTouch → Tastaturmaus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigerstil: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigerstil → Größe: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigerstil → Visuell: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigerstil → Farbe: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigerstil → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigerstil → SOMETHING IDK → Maustasten anpassen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigerstil → Automatisch ausblenden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigerstil → NEEDS_OVERRIDE_170 → Automatisch ausblenden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Bedienungshilfen → Berühren → AssistiveTouch → Onscreen-Keyboard: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Bedienungshilfen → Berühren → AssistiveTouch → Menü immer einblenden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Bedienungshilfen → Berühren → AssistiveTouch → Verweilsteuerung: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Bewegungstoleranz: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Zeigerempfindlichkeit: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Bedienungshilfen → Berühren → AssistiveTouch → Fallback-Aktion: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Aktive Ecken: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Bedienungshilfen → Berühren → AssistiveTouch → Spielecontroller verwenden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Bedienungshilfen → Berühren → 3D & Haptic Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_171 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_171 → 3D Touch-Empfindlichkeit: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_171 → Touch-Dauer: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_171 → Schnell: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_171 → Langsam: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_171 → Test der 3D Touch-Empfindlichkeit und -Haltedauer: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Bedienungshilfen → Berühren → Touch-Anpassungen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_172 → Touch-Anpassungen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_172 → Haltedauer: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_172 → Wiederholung ignorieren: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_172 → Tipp-Assistent: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_172 → Aus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_172 → Ersten Berührungspunkt verwenden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_172 → Letzten Berührungspunkt verwenden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Bedienungshilfen → Berühren → Zum Aufwecken tippen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Bedienungshilfen → Berühren → Zum Aufwecken tippen oder streichen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Bedienungshilfen → Berühren → Zum Widerrufen schütteln: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Bedienungshilfen → Berühren → Vibration: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Bedienungshilfen → Berühren → Beendigung von Anrufen durch Sperren verhindern: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Bedienungshilfen → Berühren → Anrufaudioausgabe: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_173 → Automatisch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_173 → Bluetooth-Headset: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_173 → Lautsprecher: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Bedienungshilfen → Berühren → NEEDS_OVERRIDE_173 → Anrufe automatisch annehmen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Bedienungshilfen → Face ID & Aufmerksamkeit: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Bedienungshilfen → Face ID & Aufmerksamkeit → Aufmerksamkeitsprüfung für Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Bedienungshilfen → Face ID & Aufmerksamkeit → Aufmerksamkeitssensible Funktionen: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Bedienungshilfen → Face ID & Aufmerksamkeit → Haptik: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Bedienungshilfen → Face ID & Aufmerksamkeit → Haptisch bei erfolgr. Authentifizierung: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Bedienungshilfen → Schaltersteuerung: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Bedienungshilfen → Schaltersteuerung → Schaltersteuerung: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Bedienungshilfen → Schaltersteuerung → Schalter: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_174 → Neuen Schalter hinzufügen …: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_174 → Bluetooth-Geräte …: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Abläufe: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Scanstil: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_175 → Automatisches Scannen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_175 → Manuell scannen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_175 → Schrittweise scannen (1 Schalter): `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Bedienungshilfen → Schaltersteuerung → Zeitverhalten: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Dauer des autom. Scannens: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_176 → Dauer des autom. Scannens: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Beim 1. Objekt anhalten: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_177 → Beim 1. Objekt anhalten: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Bewegungswiederholung: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_178 → Bewegungswiederholung: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Langes Drücken: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_179 → Langes Drücken: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Tippverhalten: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_180 → Standard: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_180 → Automatisches Tippen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_180 → Immer tippen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Bedienungshilfen → Schaltersteuerung → Fokusobjekt nach Tippen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_181 → Erstes Objekt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_181 → Aktuelles Objekt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Bedienungshilfen → Schaltersteuerung → Tastatur: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Nach Tippen Taste scannen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Tasten „Immer tippen“: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Erweiterte Vorschläge: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Schalterstabilisierung: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Haltedauer: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_182 → Haltedauer: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Wiederholung ignorieren: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_183 → Wiederholung ignorieren: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Punktscannen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Gleitauswahl: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_184 → Auswahlmodus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_184 → Einzeln: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_184 → Verfeinert: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_184 → Präzise: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_184 → Tempo der Gleitauswahl: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Bedienungshilfen → Schaltersteuerung → Kopferfassung: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_185 → Kopferfassung: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Bedienungshilfen → Schaltersteuerung → Audio: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Toneffekte: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Sprachausgabe: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_186 → Stimmen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_186 → Sprechtempo: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Menüobjekte: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Objekte gruppieren: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Visuell: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Großer Cursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Bedienungshilfen → Schaltersteuerung → Gesicherte Gesten: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Bedienungshilfen → Schaltersteuerung → NEEDS_OVERRIDE_187 → Neue Geste erstellen …: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Bedienungshilfen → Schaltersteuerung → Auswahlfarbe: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Bedienungshilfen → Sprachsteuerung: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Bedienungshilfen → Sprachsteuerung → Sprachsteuerung konfigurieren: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Bedienungshilfen → Sprachsteuerung → Sprache: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Bedienungshilfen → Sprachsteuerung → NEEDS_OVERRIDE_188 → Englisch (USA): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Bedienungshilfen → Sprachsteuerung → Befehle anpassen: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Bedienungshilfen → Sprachsteuerung → Vokabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Bedienungshilfen → Sprachsteuerung → Befehlsfeedback: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Bedienungshilfen → Sprachsteuerung → Bestätigung anzeigen: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Bedienungshilfen → Sprachsteuerung → Ton wiedergeben: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Bedienungshilfen → Sprachsteuerung → Merkhilfen einblenden: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Bedienungshilfen → Sprachsteuerung → Kontinuierliche Überlagerung: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Bedienungshilfen → Sprachsteuerung → Überlagerung: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Bedienungshilfen → Sprachsteuerung → NEEDS_OVERRIDE_189 → Ohne: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Bedienungshilfen → Sprachsteuerung → NEEDS_OVERRIDE_189 → Objektnummern: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Bedienungshilfen → Sprachsteuerung → NEEDS_OVERRIDE_189 → Objektnamen: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Bedienungshilfen → Sprachsteuerung → NEEDS_OVERRIDE_189 → Nummeriertes Raster: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Bedienungshilfen → Sprachsteuerung → Aufmerksamkeitssensibel: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Bedienungshilfen → Seitentaste: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Bedienungshilfen → Seitentaste → Klickgeschwindigkeit: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Bedienungshilfen → Seitentaste → Standard: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Bedienungshilfen → Seitentaste → Langsam: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Bedienungshilfen → Seitentaste → Am langsamsten: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Bedienungshilfen → Seitentaste → Zum Sprechen gedrückt halten: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Bedienungshilfen → Seitentaste → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Bedienungshilfen → Seitentaste → Klassische Sprachsteuerung: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Bedienungshilfen → Seitentaste → Aus: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Bedienungshilfen → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Bedienungshilfen → Apple TV Remote → Richtungstasten: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Bedienungshilfen → Entfernter Bildschirm der Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Bedienungshilfen → Tastaturen: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Bedienungshilfen → Tastaturen → Tastatursteuerung: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_190 → Tastatursteuerung: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_190 → Visuelle Effekte: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_190 → Automatisch ausblenden: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_190 → Großer Fokussierungsring: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_190 → Farbe: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Bedienungshilfen → Tastaturen → Tastenwiederholung: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_191 → Tastenwiederholung: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_191 → Wiederholungsintervall: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_191 → Ansprechverzögerung: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Bedienungshilfen → Tastaturen → Einfingerbedienung: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_192 → Einfingerbedienung: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_192 → Mit Umschalttaste ein/aus: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_192 → Ton: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Bedienungshilfen → Tastaturen → Tastenverzögerung: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Bedienungshilfen → Tastaturen → NEEDS_OVERRIDE_193 → Tastenverzögerung: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Bedienungshilfen → Tastaturen → Software-Tastaturen: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Bedienungshilfen → Tastaturen → Tasten mit Kleinbuchstaben: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Bedienungshilfen → Hören: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Bedienungshilfen → Hörhilfen: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Bedienungshilfen → Hörhilfen → MFi-Hörhilfen: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Bedienungshilfen → Hörhilfen → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Bedienungshilfen → Hörhilfen → Hörgerätkompatibilität: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Bedienungshilfen → Geräuscherkennung: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Bedienungshilfen → Geräuscherkennung → Töne: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Bedienungshilfen → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Bedienungshilfen → RTT/TTY → Software-TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Bedienungshilfen → RTT/TTY → Hardware-TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Bedienungshilfen → Audio & Visuelles: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Bedienungshilfen → Audio & Visuelles → Audio: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Bedienungshilfen → Audio & Visuelles → Kopfhörer-Anpassungen: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Bedienungshilfen → Audio & Visuelles → NEEDS_OVERRIDE_194 → Kopfhörer-Anpassungen: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Bedienungshilfen → Audio & Visuelles → NEEDS_OVERRIDE_194 → Eigene Audiokonfiguration: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Bedienungshilfen → Audio & Visuelles → Hintergrundgeräusche: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Bedienungshilfen → Audio & Visuelles → Mono-Audio: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Bedienungshilfen → Audio & Visuelles → Geräuschunterdrückung: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Bedienungshilfen → Audio & Visuelles → Balance: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Bedienungshilfen → Audio & Visuelles → Visuell: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Bedienungshilfen → Audio & Visuelles → LED-Blitz bei Hinweisen: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Bedienungshilfen → Audio & Visuelles → NEEDS_OVERRIDE_195 → Beim Entsperren blinken: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Bedienungshilfen → Audio & Visuelles → NEEDS_OVERRIDE_195 → Im Stummmodus blinken: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Bedienungshilfen → Audio & Visuelles → Stereobalance (links/rechts): `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Bedienungshilfen → Audio & Visuelles → Töne beim Ein- & Ausschalten: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Bedienungshilfen → Untertitel & erweiterte Untertitel: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Bedienungshilfen → Untertitel & erweiterte Untertitel → Stil: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Bedienungshilfen → Untertitel & erweiterte Untertitel → Erweiterte Untertitel + UT: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Bedienungshilfen → Untertitel & erweiterte Untertitel → Audiotranskriptionen einblenden: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Bedienungshilfen → NEEDS_OVERRIDE_196 → Live-Untertitel (Beta): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Bedienungshilfen → NEEDS_OVERRIDE_196 → Live-Untertitel in FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Bedienungshilfen → Allgemein: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Bedienungshilfen → Geführter Zugriff: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Bedienungshilfen → Geführter Zugriff → Geführter Zugriff: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Bedienungshilfen → Geführter Zugriff → Codeeinstellungen: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Bedienungshilfen → Geführter Zugriff → NEEDS_OVERRIDE_197 → Code für geführten Zugriff festlegen: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Bedienungshilfen → Geführter Zugriff → Zeitlimits: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Bedienungshilfen → Geführter Zugriff → NEEDS_OVERRIDE_198 → Wecker: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Bedienungshilfen → Geführter Zugriff → NEEDS_OVERRIDE_198 → Ton: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Bedienungshilfen → Geführter Zugriff → NEEDS_OVERRIDE_198 → Sprechen: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Bedienungshilfen → Geführter Zugriff → Kurzbefehl: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Bedienungshilfen → Geführter Zugriff → Display autom. sperren: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Bedienungshilfen → Eigener Bedienungshilfenmodus: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Bedienungshilfen → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Bedienungshilfen → Siri → Siri-Anfragen tippen: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Bedienungshilfen → Siri → Gesprochene Antworten: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Bedienungshilfen → Siri → Automatische gesprochene Antworten: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Bedienungshilfen → Siri → Geräuschlose Antworten bevorzugen: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Bedienungshilfen → Siri → Im Stummmodus nicht sprechen: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Bedienungshilfen → Siri → Immer auf „Hey Siri“ achten: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Bedienungshilfen → Kurzbefehl: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Bedienungshilfen → Kurzbefehl → Lupe: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Bedienungshilfen → App-spezifische Einstellungen: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Bedienungshilfen → Geräte in der Nähe steuern: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Anzeige & Helligkeit: `prefs:root=DISPLAY`
+- Anzeige & Helligkeit → Erscheinungsbild: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Anzeige & Helligkeit → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Anzeige & Helligkeit → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Anzeige & Helligkeit → Night Shift → Geplant: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Anzeige & Helligkeit → Night Shift → Manuell bis morgen aktivieren: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Anzeige & Helligkeit → Night Shift → Farbtemperatur: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Anzeige & Helligkeit → Automatische Sperre: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Anzeige & Helligkeit → Beim Anheben aktivieren: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Anzeige & Helligkeit → Sperren / Entsperren: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Anzeige & Helligkeit → Textgröße: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Anzeige & Helligkeit → Fetter Text: `prefs:root=DISPLAY#BOLD_TEXT`
+- Anzeige & Helligkeit → Anzeigezoom: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Anzeige & Helligkeit → Anzeige: `prefs:root=DISPLAY&path=MAGNIFY`
+- Begegnungsmitteilungen: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_199 → Mitteilungs-Badges: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_199 → Kürzlich geladene Apps: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Home-Bildschirm & Multitasking: `prefs:root=HOME_SCREEN_DOCK`
+- Home-Bildschirm & Multitasking → NEEDS_OVERRIDE_200 → App-Mediathek im Dock anzeigen: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Home-Bildschirm & Multitasking → Vorgeschlagene und letzte Apps im Dock anzeigen: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Home-Bildschirm: `prefs:root=HOME_SCREEN`
+- Home-Bildschirm → Kürzlich geladene Apps: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Home-Bildschirm → Mitteilungs-Badges: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID & Code: `prefs:root=PASSCODE`
+- Touch ID & Code → Code deaktivieren: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID & Code → Code ändern: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID & Code → Code anfordern: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID & Code → Sprachwahl: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID & Code → Im Sperrzustand Zugriff erlauben: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID & Code → Mit Nachricht antworten: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID & Code → Home-Steuerung: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID & Code → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID & Code → Verpasste Anrufer zurückrufen: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID & Code → Daten löschen: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID & Code → Mit Apple Watch entsperren: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Podcasts: `prefs:root=PODCASTS`
+- Notruf SOS: `prefs:root=EMERGENCY_SOS`
+- Notruf SOS → Mit Seitentaste anrufen: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Notruf SOS → Automatischer Anruf: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Notruf SOS → Notfallkontakte: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Notruf SOS → Countdown-Ton: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Töne: `prefs:root=Sounds`
+- Töne → Kopfhörersicherheit: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Töne → Kopfhörersicherheit → Lightning-Adapter: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Töne → Kopfhörersicherheit → Kopfhörermitteilungen: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Töne → Kopfhörersicherheit → Laute Töne reduzieren: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Töne → Toneffekte: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Töne → Klingel- und Hinweistöne: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Töne → Mit Tasten ändern: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Töne → Töne und Vibrationsmuster: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Töne → Klingelton: `prefs:root=Sounds&path=Ringtone`
+- Töne → Nachrichtenton: `prefs:root=Sounds&path=Text_Messages`
+- Töne → Neue Voicemail: `prefs:root=Sounds&path=Voicemail`
+- Töne → Neue E‑Mail: `prefs:root=Sounds&path=NEW_MAIL`
+- Töne → E‑Mail gesendet: `prefs:root=Sounds&path=SENT_MAIL`
+- Töne → Kalenderhinweis: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Töne → Erinnerungshinweise: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Töne → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Töne → Tastaturanschläge: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Töne → Ton beim Sperren: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Wetter: `prefs:root=WEATHER`
+- Kompass: `prefs:root=COMPASS`
+- Kompass → Geografischer Norden: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Kontrollzentrum: `prefs:root=ControlCenter`
+- Kontrollzentrum → Zugriff in Apps erlauben: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Kontrollzentrum → Steuerelemente anpassen: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Entwickler: `prefs:root=DEVELOPER_SETTINGS`
+- Entwickler → Multipath-Netzwerk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Entwickler → Multipath-Netzwerk → Multipath-Netzwerk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Entwickler → Erscheinungsbild: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Entwickler → Dunkles Erscheinungsbild: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Entwickler → Gekoppelte Geräte: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Entwickler → Vertrauenswürdige Computer entfernen: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Entwickler → Instrumente: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Entwickler → Protokollierung: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Entwickler → UI-Automatisierung: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Entwickler → Netzwerk: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Entwickler → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Entwickler → iAd Developer App Testing: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Entwickler → Füllrate: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Entwickler → Abgeschnittene Banner hervorheben: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Entwickler → Unbegrenzte Ad-Präsentation: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Entwickler → PassKit Testing: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Entwickler → Zusätzliche Protokollierung: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Entwickler → HTTP-Dienste erlauben: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Entwickler → Ratenbegrenzung deaktivieren: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Entwickler → NFC-Schlüssel (Optional): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Entwickler → Media Services Testing: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Entwickler → AirPlay-Vorschläge: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Entwickler → Mediendienste zurücksetzen: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Entwickler → News Testing: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Entwickler → Lokale Daten beim nächsten Starten zurücksetzen: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Entwickler → Media Player Framework Testing: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Entwickler → Playable Content-API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Entwickler → TV Provider Testing: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Entwickler → TV-Anbieter: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Entwickler → ClassKit-API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Entwickler → CoreSpotlight Testing: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Entwickler → Alle Objekte neu indexieren: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Entwickler → Alle Objekte mit Identifikatoren neu indexieren: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Entwickler → Shortcuts Testing: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Entwickler → Letzte Kurzbefehle anzeigen: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Entwickler → Anstehende Medien anzeigen: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Entwickler → Spenden auf dem Sperrbildschirm anzeigen: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Entwickler → Synchronisierung von Kurzbefehlen auf Watch erzwingen: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Entwickler → MIDI-CI Testing: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Entwickler → MIDI-CI aktivieren: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Health: `prefs:root=HEALTH`
+- Maßband: `prefs:root=MEASURE`
+- Maßband → Maßeinheiten: `prefs:root=MEASURE#MEASURE_UNITS`
+- Maßband → Britisch: `prefs:root=MEASURE#Imperial`
+- Maßband → Metrisch: `prefs:root=MEASURE#Metric`
+- Musik: `prefs:root=MUSIC`
+- Musik → Apple Music zeigen: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Musik → Playlisttitel hinzufügen: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Musik → Bewertungssterne einblenden: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Musik → Mediathek synchronisieren: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Musik → Mobile Daten: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Musik → Musikdownloads: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Musik → Speicher optimieren: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Musik → Automatische Downloads: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Musik → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Musik → Lautstärke anpassen: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Musik → Hörverlauf verwenden: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Notizen: `prefs:root=NOTES`
+- Notizen → Standardaccount: `prefs:root=NOTES&path=Default%20Account`
+- Notizen → Passwort: `prefs:root=NOTES&path=Password`
+- Notizen → Sortieren nach: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Notizen → Neue Notizen beginnen mit: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Notizen → Markierte Einträge sortieren: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Notizen → Linien & Gitter: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Notizen → In „Fotos“ sichern: `prefs:root=NOTES#Save%20to%20Photos`
+- Notizen → Zugriff im Sperrbildschirm: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Nachrichten: `prefs:root=MESSAGES`
+- Übersetzen: `prefs:root=TRANSLATE`
+- Übersetzen → Modus „Auf dem Gerät“: `prefs:root=TRANSLATE#OnDeviceOnly`
+- TV-Anbieter: `prefs:root=VIDEO_SUBSCRIBER`
+- Sprachmemos: `prefs:root=VOICE_MEMOS`
+- Sprachmemos → Endgültig löschen: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Sprachmemos → Audioqualität: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Sprachmemos → Ortsabhängige Benennung: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Formate: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Formate → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → NEEDS_OVERRIDE_201 → HDR-Video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Einstellungen beibehalten: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Einstellungen beibehalten → Kameramodus: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Gitter: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → QR-Codes scannen: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Karten: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Kontakte: `prefs:root=CONTACTS`
+- Kontakte → „Kontakte“ Zugriff erlauben auf: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakte → Siri & Suchen: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakte → Sortierfolge: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakte → Anzeigefolge: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakte → Kurzname: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakte → Kurzname → Kurzname: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakte → Kurzname → Spitznamen bevorzugen: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakte → Meine Infos: `prefs:root=CONTACTS&path=MeCard`
+- Kontakte → SIM-Kontakte importieren: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Bücher: `prefs:root=IBOOKS`
+- Bücher → Online-Inhalt: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Bücher → SYNCHRONISIEREN: `prefs:root=IBOOKS#SYNCING`
+- Bücher → Aktuelle Bücher: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Bücher → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Bücher → LESEN: `prefs:root=IBOOKS#READING`
+- Bücher → Blocksatz: `prefs:root=IBOOKS#BKFullJustification`
+- Bücher → Autom. Silbentrennung: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Bücher → Nur vorwärts blättern: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Bücher → Leseziele: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Bücher → Lesezieldaten löschen: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Bücher → SUCHEN: `prefs:root=IBOOKS#SEARCHING`
+- Bücher → Book Store: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Bücher → HÖRBÜCHER: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Bücher → Vorspringen: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Bücher → Zurückspringen: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Bücher → EXTERNE STEUERELEMENTE: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Bücher → Nächste/Vorherige: `prefs:root=IBOOKS#Next/Previous`
+- Bücher → Vor-/Zurückspringen: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Bücher → DATENSCHUTZ: `prefs:root=IBOOKS#PRIVACY`
+- Bücher → ID zurücksetzen: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Bücher → Anmerkungen: `prefs:root=IBOOKS&path=Acknowledgements`
+- Kalender: `prefs:root=CALENDAR`
+- Kalender → Feste Zeitzone: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalender → Alternative Kalender: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalender → Kalenderwochen: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalender → Absagen anzeigen: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalender → Synchr.: `prefs:root=CALENDAR&path=Sync`
+- Kalender → Standardhinweise: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalender → Woche beginnt am: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Kalender → Ortsvorschläge: `prefs:root=CALENDAR#Location%20Suggestions`
+- Mail: `prefs:root=MAIL`
+- Mail → Accounts: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Accounts → Konto hinzufügen: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Accounts → Datenabgleich: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Vorschau: `prefs:root=MAIL&path=Preview`
+- Mail → An/Kopie anzeigen: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Streichgesten: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Löschen bestätigen: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Entfernte Bilder laden: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Nach Konversation: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Gelesene Nachr. reduzieren: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Neueste Nachricht ganz oben: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Vollständige Konversationen: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Aktion „Stumme Konversation“: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Blockierte Absender ignorieren: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Blockiert: `prefs:root=MAIL&path=Blocked`
+- Mail → Blindkopie an mich: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Adressen markieren: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Zitatebene erhöhen: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Anhänge in Antwort beibehalten: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Signatur: `prefs:root=MAIL&path=Signature`
+- Telefon: `prefs:root=Phone`
+- Telefon → Meine Nummer: `prefs:root=Phone&path=My%20Number`
+- Telefon → Eingehende Anrufe: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Anrufe ankündigen: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → SMS- und Anrufberichte: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Mit Nachricht antworten: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Rufweiterleitung: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Rufweiterleitung → Rufweiterleitung: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Anklopfen/Makeln: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Meine Anrufer-ID senden: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Meine Anrufer-ID senden → NEEDS_OVERRIDE_202 → Meine Anrufer-ID senden: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Unbekannte Anrufer stumm: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Blockierte Kontakte: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Wählhilfe: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → Inhalte blockieren: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Pop-Ups blockieren: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Cross-Sitetracking verhindern: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Automatisch ausfüllen: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Downloads: `prefs:root=SAFARI&path=DOWNLOADS`
+- Passwörter: `prefs:root=PASSWORDS`
+- Passwörter → Automatisch ausfüllen: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Fotos: `prefs:root=Photos`
+- Fotos → iCloud-Fotos: `prefs:root=Photos#iCloudPhotosSwitch`
+- Fotos → Speicher optimieren: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Fotos → Laden und Originale behalten: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Fotos → Mein Fotostream: `prefs:root=Photos#PhotoStreamSwitch`
+- Fotos → Geteilte Alben: `prefs:root=Photos#SharedStreamsSwitch`
+- Fotos → Mobile Daten: `prefs:root=Photos&path=CellularDataLinkList`
+- Fotos → Videos autom. wiedergegeben: `prefs:root=Photos#VideoAutoplaySwitch`
+- Fotos → Full-HDR anzeigen: `prefs:root=Photos#ImageModulationSwitch`
+- Fotos → Feiertagsereignisse einblenden: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Fotos → Auf Mac oder PC übertragen: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Automatische Downloads: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → App-Updates: `prefs:root=STORE#App%20Updates`
+- App Store → App-Downloads: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Automatische Videowiedergabe: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Bewertungen in Apps: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Story-Vorschauen zeigen: `prefs:root=NEWS#show_excerpt_mode`
+- News → Storys in „Heute“ beschränken: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Datenschutz: `prefs:root=NEWS#Privacy`
+- News → ID zurücksetzen: `prefs:root=NEWS#reset_identifier`
+- News → Anmerkungen: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_203 → Flugmodus: `prefs:root=ROOT#AIRPLANE_MODE`
+- Erinnerungen: `prefs:root=REMINDERS`
+- Erinnerungen → Standardliste: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Erinnerungen → Standardliste → Erinnerungen: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Erinnerungen → Mitteilung heute: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Erinnerungen → Als überfällig anzeigen: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Batterie: `prefs:root=BATTERY_USAGE`
+- Batterie → Stromsparmodus: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Batterie → Batteriezustand: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Kurzbefehle: `prefs:root=SHORTCUTS`
+- Kurzbefehle → iCloud-Synchronisierung: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Kurzbefehle → Kurzbefehlreihenfolge synchr.: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Kurzbefehle → Rechtl. Hinweise: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri & Suchen: `prefs:root=SIRI`
+- Siri & Suchen → Siri im Sperrzustand erlauben: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri & Suchen → Sprache: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri & Suchen → Siri-Stimme: `prefs:root=SIRI&path=VOICE_ID`
+- Siri & Suchen → Sprachfeedback: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri & Suchen → Meine Informationen: `prefs:root=SIRI&path=MY_INFO`
+- Siri & Suchen → Beim Suchen: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri & Suchen → Beim Nachschlagen: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri & Suchen → Auf Sperrbildschirm: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Aktien: `prefs:root=STOCKS`
+- Aktien → Datenschutz: `prefs:root=STOCKS#Privacy`
+- Aktien → ID zurücksetzen: `prefs:root=STOCKS#reset_identifier`
+- Mobilfunk: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilfunk → Datenoptionen: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilfunk → Datenoptionen → Datensparmodus: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilfunk → Mobile Daten: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → Mobile Daten für Wiedergabe: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → Wiedergabequalität: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → Käufe und Leihartikel: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → Privatfreigabe: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Hintergrundbild: `prefs:root=Wallpaper`

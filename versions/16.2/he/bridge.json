@@ -1,0 +1,561 @@
+{
+  "נגישות": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "ראייה": "bridge:root=ACCESSIBILITY#VISION",
+    "‏VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "הגדלה": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "מלל עבה": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "תוויות פעיל/לא פעיל": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "גווני אפור": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "הקטן שקיפות": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "הפחת תזוזות": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "צליל פעמונים": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "תזמון": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "אחת לשעה": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "‏30 דקות": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "‏15 דקות": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "צלילים": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "פעמונים": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "ציפורים": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "מוטוריקה": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "מהירות לחיצת כפתור הצד": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "מהירות לחיצה": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "ברירת-מחדל": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "איטי": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "איטי ביותר": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "התאמות למגע": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "התאמות למגע": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "משך זמן להחזקה": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "התעלם מהקשות חוזרות": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "מסייע ההקשות": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "כבוי": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "השתמש במיקום המגע הראשוני": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "השתמש במיקום המגע האחרון": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "פעילות בכיסא גלגלים": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "ווקי-טוקי": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "הקש/י כדי לדבר": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "שמיעה": "bridge:root=ACCESSIBILITY#HEARING",
+    "‏RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "‏RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "מספר ממסר": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "שלח מיד": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "תגובות ברירת-מחדל": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "תגובות ברירת-מחדל": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "הוסף תגובה…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "שמע חד-ערוצי": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "מאזן שמאל-ימין": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "עדכוני אוזניות": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "מכשירי שמיעה": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "תצוגה": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "עוצמת מיקרופון": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "תכנית": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "מהירות הקראת זמנים ברטט": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "קיצור דרך ל״נגישות״": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "קשר שעון חדש": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "פריסת היישומים": "bridge:root=APP_VIEW_ID",
+  "כללי": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "מידע": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "שם": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "אחריות מוגבלת": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "אחריות מוגבלת": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "פרטי אחריות": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "אחריות חומרה": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "תמיכת צ׳אט וטלפון": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "שירים": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "תמונות": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "יישומים": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "קיבולת": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "פנוי": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "גירסה": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "מפעיל": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "דגם": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "מספר סידורי": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "כתובת רשת אלחוטית": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "‏EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "משפטי": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "הצג את המדריך למשתמש ב-Apple Watch ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "עדכוני תוכנה": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "התקנת יישום אוטומטית": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "מצב טיסה": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "ריכוז": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "שקף את ה-iPhone שלי": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "כיוון השעון": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "ענידת ה-Apple Watch על:": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "מפרק כף יד שמאל": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "מפרק כף יד ימין": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "ה-Digital Crown בצד שמאל": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "ה-Digital Crown בצד ימין": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "הפעל הכתבה": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "אפשר Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "מצב ארונית לילה": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "אפשר צילומי מסך": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "אחסון": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "דו״חות אבחון": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "העתק נתוני השעון": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "איפוס": "bridge:root=GENERAL_LINK&path=RESET",
+    "הפעלה אוטומטית כאשר המכשיר מתחת למים": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "הפעל אוטומטית יישומי שמע": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "שפה ואזור": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "שקף את ה-iPhone שלי": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "עריכה": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "חזרה לשעון": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "חזרה לשעון": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "תמיד": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "אחרי שתי דקות": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "אחרי שעה": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "יישומים": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "מתנגן כעת": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "תצוגה ובהירות": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "בהירות": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "תמיד פעיל": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "תמיד פעיל": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "כאשר היד לא מורמת": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "הצגת עדכונים": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "הצגת עדכונים": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "יישומי Apple Watch": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "הצג יישומים": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "הצג יישומים": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "יישומים": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "גודל המלל": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "מלל עבה": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "התעוררות": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "הער בהרמת מפרק כף היד": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "התעוררות בסיבוב הכתר": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "משך התעוררות": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "בעת הקשה": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "התעורר למשך 15 שניות": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "התעורר למשך 70 שניות": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "צלילים ורטט אינטראקטיבי": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "עוצמת התראה": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "מצב שקט": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "שמע באוזניות": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "שימוש בטוח באוזניות": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "עדכוני אוזניות": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "הנמך צלילים חזקים": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "רטט אינטראקטיבי": "bridge:root=SOUNDS_ID#Haptics",
+    "אזהרות אינטראקטיביות": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "רטט אינטראקטיבי של הכתר": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "מערכת עם רטט אינטראקטיבי": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "כיסוי להשתקה": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "חירום SOS": "bridge:root=SOS_MODE_ID",
+  "פרטיות": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "קצב לב": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "קצב נשימות": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "מעקב אחר כושר": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "אפס נתוני כיול של כושר": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "מדידות רעשים סביבתיים": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "מדידות שמע באוזניות": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "שמירה ב״בריאות״": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "ל-8 ימים": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "עד שאמחק": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "מדידות רמת חמצן בדם": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "טמפרטורת מפרק כף היד": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "זמן מסך": "bridge:root=SCREEN_TIME_ID",
+  "‏Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "עומק": "bridge:root=com.apple.DepthCompanionSettings",
+  "כפתור ״פעולה״": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "הורדות אוטומטיות": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "עדכונים אוטומטיים": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "בריאות": "bridge:root=com.apple.BridgeHealthSettings",
+  "״דואר״ ו״לוח שנה״": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "חשבונות": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "הוספת חשבון Google...": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "משיכת דוא״ל": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "כבוי": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "אחת לשעה": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "חצי שעה": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "רבע שעה": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "שטיפת ידיים": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "אפשר עדכונים": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "שלח ל״מרכז העדכונים״": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "עדכונים כבויים": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "קיבוץ עדכונים": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "ספירה לאחור לשטיפת ידיים": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "סלולרי": "bridge:root=CELLULAR_ID",
+  "תצוגות": "bridge:root=COMPLICATIONS",
+  "פעילות": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "עדכוני התקדמות": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "ללא": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "כל 2 שעות": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "כל 4 שעות": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "כל 6 שעות": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "כל 8 שעות": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "הישגים": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "סיכום שבועי": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "הדרכה אישית יומית": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "יעדים בהם עמדת": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "אתגרים מיוחדים": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "עדכוני שיתוף פעילות": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "לב": "bridge:root=com.apple.HeartRateSettings#1",
+    "עדכוני קצב לב": "bridge:root=com.apple.HeartRateSettings#2",
+    "קצב לב גבוה": "bridge:root=com.apple.HeartRateSettings#3",
+    "קצב לב נמוך": "bridge:root=com.apple.HeartRateSettings#4",
+    "קצב לא סדיר": "bridge:root=com.apple.HeartRateSettings#5",
+    "הצגת מדידות אק״ג ב״בריאות״": "bridge:root=com.apple.HeartRateSettings#6",
+    "אק״ג": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "הודעות": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "שקף את ה-iPhone שלי": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "עריכה": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "תגובות ברירת-מחדל": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "תגובות ברירת-מחדל": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "תגובות חכמות": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "הוסף תגובה…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "התראות חוזרות": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "הודעות קוליות": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "מודעות קשובה": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "אפשר עדכונים": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "שלח ל״מרכז העדכונים״": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "עדכונים כבויים": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "תזכורות למודעות קשובה": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "תחילת היום": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "סוף היום": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "הוספת תזכורת…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "סיכום שבועי": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "השתק עד מחר": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "קצב נשימות": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "ארבע נשימות בדקה": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "חמש נשימות בדקה": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "שש נשימות בדקה": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "שבע נשימות בדקה": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "שמונה נשימות בדקה": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "תשע נשימות בדקה": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "עשר נשימות בדקה": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "רטט אינטראקטיבי": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "ללא": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "עדין": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "בולט": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "שינה": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "הגדרת ״שינה״ ביישום ״בריאות״": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "ספרי שמע": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "התחבר": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "לוח שנה": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "עדכונים": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "שקף את ה-iPhone שלי": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "התאמה אישית…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "לוחות שנה": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "שעון": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "שעון 24 שעות": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "צליל פעמונים": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "צלילים": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "פעמונים": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "ציפורים": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "הקראת זמנים": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "שליטה באמצעות ״מצב שקט״": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "הקרא תמיד": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "הקראת זמנים ברטט": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "הקראת זמנים ברטט": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "ספרות": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "תמצית": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "קוד מורס": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "התראות בטכנולוגיית Push מה-iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "חיווי של עדכונים": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "מונוגרמה": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "עדכונים על עיצוב שעון": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "קיצורים של שמות ערים": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "מקורות נתוני עיצוב השעון של Siri": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "אנשי קשר": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "סדר מיון": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "פרטי, משפחה": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "משפחה, פרטי": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "סדר הצגה": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "פרטי, משפחה": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "משפחה, פרטי": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "שם מקוצר": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "שם מקוצר": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "שם פרטי ואות ראשונה של שם משפחה": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "אות ראשונה של השם ושם משפחה": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "שם פרטי בלבד": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "שם משפחה בלבד": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "השתמש בשמות חיבה": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "דואר": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "שקף את ה-iPhone שלי": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "עריכה": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "הגדרות ״דואר״": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "חשבונות": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "כלול דואר": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "תצוגה מקדימה של הודעות": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "ללא": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "שורה אחת": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "שתי שורות": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "תגובות ברירת-מחדל": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "תגובות ברירת-מחדל": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "הוסף תגובה…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "חתימה": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "מפות": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "התראות על פניות": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "נהיגה": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "נהיגה עם CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "הליכה": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "רכיבה על אופניים": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "הצג את הניווט": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "תחבורה": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "נתוני תת-גירסה:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "מוזיקה": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "פלייליסטים ואלבומים": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "הוספת מוזיקה…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "‏Wallet ו-Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "הוספת כרטיס": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "עדכונים": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "שקף את ה-iPhone שלי": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "עריכה": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "תמונות": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "סנכרון תמונות": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "זיכרונות": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "סנכרון זיכרונות": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "תמונות מובילות": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "סנכרון תמונות מובילות": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "אלבום": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "סנכרון אלבום": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "מגבלת תמונות": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "הגדרות עדכונים": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "שקף את ה-iPhone שלי": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "עריכה": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "רעש": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "מדידות רעשים סביבתיים": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "התראות רעש": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "סף רעש": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "כבוי": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 דציבלים": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 דציבלים": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 דציבלים": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 דציבלים": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 דציבלים": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "קיבוץ עדכונים": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "רמת חמצן בדם": "bridge:root=com.apple.OxygenSaturationSettings",
+  "הגדרות מפעיל": "bridge:root=CARRIER_SETTINGS",
+  "ביטול קוד הגישה": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "הפעלת קוד הגישה": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "שינוי קוד הגישה": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "קוד גישה פשוט": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "ביטול נעילה באמצעות ה-iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "מחק נתונים": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "זיהוי ענידה": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "טלפון": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "שיחות": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "צלצול": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "צליל": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "רטט אינטראקטיבי": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "אימון": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "מצב סוללה חלשה": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "הצג מדדי יעדים": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "תצוגת אימון": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "השהיה אוטומטית": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "השהיה אוטומטית": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "תזכורת להתחלת אימון": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "תזכורת לסיים אימון": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "לחיצה להשהיה": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "זהה מכשירי כושר": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "תצוגת קצב/מהירות": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "נוכחי": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "ממוצע": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "פלייליסט לאימון": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "ללא": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "פלייליסטים": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "הפעל מההתחלה": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "סדר אקראי": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "יחידות מדידה": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "קלוריות": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "קילוקלוריות": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "קילוג׳ול": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "יארדים": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "מטרים": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "מיילים": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "קילומטרים": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "משוב קולי": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "זמן להליכה": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "הוספת אימונים חדשים לשעון": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "מניות": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "תצוגת השעון מראה": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "מחיר נוכחי": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "שינוי נקודות": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "שינוי אחוז": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "שווי שוק": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "עיצוב השעון של Siri מראה נתונים של": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "המניה שנבחרה": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "המניה שנבחרה": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "סידור ה-Dock": "bridge:root=DOCK#OrderingOptionGroup",
+    "אחרונים": "bridge:root=DOCK#Recents",
+    "מועדפים": "bridge:root=DOCK#Favorites"
+  },
+  "פודקאסטים": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "בקשות ל-Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "‏Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "יש להרים כדי לדבר": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "לחיצה על ה-Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "משוב קולי": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "תמיד פעיל": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "שליטה באמצעות ״מצב שקט״": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "אוזניות בלבד": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "עוצמת הקול": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "הצעות של Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "ווקי-טוקי": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "אפשר עדכונים": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "שלח ל״מרכז העדכונים״": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "עדכונים כבויים": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "קיבוץ עדכונים": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "חברים": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "מזג אוויר": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "עיר ברירת-המחדל": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "עיר ברירת-המחדל": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "מיקום נוכחי": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "שלח אישורי קריאה": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

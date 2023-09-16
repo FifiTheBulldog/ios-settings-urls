@@ -1,0 +1,1154 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "Stocare iCloud": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Poze": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Mail": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Contacte": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Calendar": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Mementouri": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Notițe": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Backup": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Sănătate": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Parole și portchei": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Transmisie privată": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Partajare localizare": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Găsire iPhone": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Nume, numere de telefon, e‑mail": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Parolă și securitate": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Plată și expediere": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Abonamente": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Familie": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Intimitate și securitate": {
+    "(root)": "prefs:root=Privacy",
+    "Verificarea siguranței": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Localizare": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Partajați localizarea": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Contacte": "prefs:root=Privacy&path=CONTACTS",
+    "Calendare": "prefs:root=Privacy&path=CALENDARS",
+    "Mementouri": "prefs:root=Privacy&path=REMINDERS",
+    "Poze": "prefs:root=Privacy&path=PHOTOS",
+    "Partajare Bluetooth": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Microfon": "prefs:root=Privacy&path=MICROPHONE",
+    "Recunoaștere vocală": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Cameră": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Multimedia și Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Analiză": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Publicitate": "prefs:root=Privacy&path=ADVERTISING",
+    "Fișiere și dosare": "prefs:root=Privacy&path=FILEACCESS",
+    "Urmărire": "prefs:root=Privacy&path=USER_TRACKING",
+    "Raport de confidențialitate a aplicațiilor": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Mod Izolare": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Sănătate": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Concentrare": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Status concentrare": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "General": {
+    "(root)": "prefs:root=General",
+    "VPN și gestionare dispozitive": "prefs:root=General&path=ManagedConfigurationList",
+    "Imagine în imagine": "prefs:root=General&path=PiP_SPEC",
+    "Trackpad și maus": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Informații": {
+      "(root)": "prefs:root=General&path=About",
+      "Certificate de încredere": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Mențiuni legale și reglementări": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Actualizare software": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Buton principal": "prefs:root=General&path=HOME_BUTTON",
+    "Gesturi": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Comutator lateral": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Reîmprospătare în fundal": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Data și ora": "prefs:root=General&path=DATE_AND_TIME",
+    "Ieșire TV": "prefs:root=General&path=TV_OUT",
+    "Reglementări": "prefs:root=General&path=REGULATORY",
+    "Resetare": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Resetați toate configurările": "prefs:root=General&path=Reset#settingsErase",
+      "Ștergeți conținutul și configurările": "prefs:root=General&path=Reset#fullErase",
+      "Resetați configurări rețea": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Eliminați toate planurile de date celulare": "prefs:root=General&path=Reset#cellularErase",
+      "Servicii abonați": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Resetați dicționar tastatură": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Resetați ecranul principal": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Resetați localizare și intimitate": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Opriți": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay și Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Transferați pe HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "AirPlay automat pe televizoare": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Cameră Continuitate": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Dicționar": "prefs:root=General&path=DICTIONARY",
+    "Limbă și regiune": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Alte limbi…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Ordinea preferată a limbilor": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Adăugați o limbă…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Regiune": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Numere": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Calendar": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Unitate de temperatură": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Tastatură": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Tastaturi": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Înlocuire text": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Auto-majuscule": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Auto-corectare": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Verificare ortografie": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Blocare majuscule": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Scurtături": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Anticipare": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Punctuație inteligentă": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Divizare tastatură": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Glisare în jos peste taste": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Previzualizare caracter": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "Scurtătură “.”": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Glisare pentru tastare": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Activare dictare": "prefs:root=General&path=Keyboard#Dictation",
+      "Punctuație automată": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Stocare": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Dezinstalare aplicații": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Notificări": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Rezumat programat": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Portofel și Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Carduri de plată": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Adăugați un card": "prefs:root=PASSBOOK#Add%20Card",
+    "Dublu clic buton lateral": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Urmărire comandă": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Timp de utilizare": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Astăzi": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Săptămână": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "Perioadă de repaus": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Limitare aplicații": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Limitări comunicare": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Siguranța comunicării": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Permise întotdeauna": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Restricții conținut și intimitate": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Controale parentale": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Accesibilitate": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Vedere": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Viteză enunțare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Enunțare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Voce": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Detaliere": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Punctuație": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Anteturi tabel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Descrieri multimedia": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Dezactivat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Enunțare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Enunțare și Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Ieșire": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Braille cu 6 puncte necontractat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Braille cu 8 puncte necontractat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Braille contractat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Intrare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Braille cu 6 puncte necontractat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Braille cu 8 puncte necontractat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Braille contractat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Traducere automată": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Intrare ecran Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Braille cu 6 puncte necontractat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Braille cu 8 puncte necontractat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Braille contractat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Inversare poziții puncte": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Tabele Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Adăugați un tabel Braille…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Celule de stare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Poziție celule de stare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Stânga": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Dreapta": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Afișare stare generală": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Afișare stare text": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Cod Nemeth pentru ecuații": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Afișare tastatură pe ecran": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Întoarcere pagini la deplasare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Încadrare cuvinte": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Mesaje de alertă Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Ignorare durată acorduri": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Durată avansare automată": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Atenuare audio": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Autoselectare difuzor în apel": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Trimiteți la HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Comenzi": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Activități": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Programare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Adăugați o activitate…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Acțiuni rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "Editare aplicații ecran principal": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Atingere directă pentru aplicații": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Scriere": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Stil de scriere": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Scriere standard": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Scriere tactilă": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Scriere tactilă directă": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Feedback fonetic": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Dezactivat": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Caracter și fonetică": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Doar fonetică": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Feedback la scriere": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Taste modificator": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Control + Opțiune": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Blocare majuscule": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Durată interacțiune tastatură": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Navigare imagini": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Întotdeauna": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "Cu descrieri": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Niciodată": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Cursor mare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Panou subtitrare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Așteptare apăsare dublă": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Așteptare apăsare dublă": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Stil de navigare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Configurări rapide": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Sunete": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Atenuare audio": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Volum": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Viteză enunțare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Indicații": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Stil de navigare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Stil de scriere": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Glisare pentru tastare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Activități": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Notificări enunțate mereu": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Mesaje de alertă Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Avansare automată Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Intrare Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Ieșire Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Tabele Braille": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Panou subtitrare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Atingere directă": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Direcție gest": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Feedback la scriere - hardware": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Limbă": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Cursor mare": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Descrieri multimedia": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Navigare imagini": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Feedback fonetic": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Variație tonalitate": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Punctuație": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Trimiteți la HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Feedback la scriere - software": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Enunțare confirmare rotor": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Descriere imagini": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Recunoaștere ecran": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "Recunoaștere VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Descriere imagini": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Recunoaștere ecran": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Zoom": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Urmărire focalizare": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Tastare inteligentă": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Scurtături din tastatură": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Scurtături din tastatură": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Ajustare nivel zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Comutare zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Mutare fereastră zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Ajustare fereastră zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Comutare regiune zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Comutare temporară zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Zoom cu rotița de derulare": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Controller zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Regiune zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Zoom pe tot ecranul": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Zoom în fereastră": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Nivel zoom maxim": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Filtru zoom": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Afișați la oglindire": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Text survolat": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Afișaj și mărime text": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Text aldin": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Text mai mare": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Forme butoane": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Etichete activare/dezactivare": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Reducere transparență": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Sporire contrast": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Diferențiere fără culoare": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Inversare inteligentă": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Inversare clasică": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Filtre de culoare": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Filtre de culoare": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Reducere punct de alb": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Auto‑luminozitate": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Mișcare": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Reducere mișcare": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Auto‑redare efecte mesaje": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Auto-previzualizări video": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Conținut enunțat": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Enunțare selecție": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Enunțare ecran": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Controller enunțare": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Personalizați butoanele mausului": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Evidențiere conținut": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Feedback la scriere": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Feedback caracter": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Caractere": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Indicii caractere": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Enunțare cuvinte": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Enunțare auto-text": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Enunțare anticipări la ținere": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Voci": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Limbaj implicit": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Detectare limbi": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Viteză enunțare": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Pronunțări": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Descrieri audio": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Descrieri audio": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Fizic și mobilitate": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Atingere": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Personalizați meniul superior": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Apăsați o pictogramă pentru modificare:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Resetați…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Acțiuni personalizate": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Apăsare simplă": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Apăsare dublă": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Așteptare apăsare dublă": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Apăsare lungă": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Durata apăsării lungi": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Gesturi personalizate": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Creați un gest nou…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Opacitate în repaus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Dispozitive de indicare": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Dispozitive": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Dispozitive Bluetooth…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Taste maus": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Tip cursor": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Dimensiune": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Vizual": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Culoare": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Personalizați butoanele mausului": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Ascundere automată": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_1020": {
+            "Ascundere automată": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Afișare tastatură pe ecran": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Meniu afișat permanent": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Control temporizator": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Toleranță mișcare": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Sensibilitate urmărire": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Revenire la acțiune": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Colțuri active": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Utilizare controller jocuri": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D Touch și atingere haptică": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_1021": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "Sensibilitate 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Durată atingere": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Rapidă": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Lentă": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Test sensibilitate 3D Touch și durată atingere": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Adaptări tactile": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_1022": {
+        "Adaptări tactile": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Durată menținere": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Ignorare repetare": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Asistență apăsare": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Dezactivat": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Utilizați poziția inițială a atingerii": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Utilizați poziția finală a atingerii": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Apăsare pentru trezire": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Apăsare sau glisare pentru trezire": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Agitare pentru infirmare": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Vibrație": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Blocarea dispozitivului nu încheie apelul": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Dirijare sunet apeluri": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_1023": {
+        "Automat": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Căști cu microfon Bluetooth": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Difuzor": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Preluare automată apeluri": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID și atenția privirii": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Atenția privirii pentru Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Detectarea atenției privirii": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Răspuns haptic": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "Răspuns haptic la autentificare": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Control comutator": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Control comutator": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Comutatoare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_1024": {
+        "Adăugați un comutator nou…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Dispozitive Bluetooth…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Rețete": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Stil de scanare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_1025": {
+        "Scanare automată": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Scanare manuală": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Scanare treptată cu un comutator": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Temporizare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Timp scanare automată": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_1026": {
+        "Timp scanare automată": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Pauză la primul articol": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_1027": {
+        "Pauză la primul articol": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Repetare trecere": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_1028": {
+        "Repetare trecere": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Apăsare lungă": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_1029": {
+        "Apăsare lungă": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Comportament apăsare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_1030": {
+        "Implicit": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Apăsare automată": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Apăsare imediată": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "Focalizare după apăsare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_1031": {
+        "Primul articol": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Articolul curent": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Tastatură": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Rescanare tastă după apăsare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Apăsare imediată taste": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Anticipări extinse": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Stabilizare comutator": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Durată menținere": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_1032": {
+        "Durată menținere": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Ignorare repetare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_1033": {
+        "Ignorare repetare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Scanare puncte": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Cursor glisant": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_1034": {
+        "Mod selecție": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Simplu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Rafinat": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Precis": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Viteză cursor glisant": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Urmărire cap": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_1035": {
+        "Urmărire cap": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Audio": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Efecte sonore": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Enunțare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_1036": {
+        "Voci": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Viteză enunțare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Articole meniu": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Grupare articole": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Vizual": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Cursor mare": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Gesturi salvate": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_1037": {
+        "Creați un gest nou…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Culoare cursor": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Comenzi vocale": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Configurați Comenzi vocale": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Limbă": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_1038": {
+        "Engleză (Statele Unite)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Personalizați comenzile": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Vocabular": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Feedback comandă": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Afișare confirmare": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Redare sunet": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Afișare indicii": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Suprapunere continuă": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Suprapunere": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_1039": {
+        "Nimic": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Numere articole": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Nume articole": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Grilă numerotată": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Sensibilitate la atenție": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Buton lateral": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Viteză clic": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "Implicit": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Lent": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Cel mai lent": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Țineți apăsat pentru a vorbi": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Comenzi vocale (clasic)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Dezactivat": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Butoane direcționale": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Ecran Apple Watch la distanță": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Tastaturi": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Acces complet din tastatură": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_1040": {
+        "Acces complet din tastatură": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Efecte vizuale": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Ascundere automată": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Inel focalizare mare": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Culoare": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Repetare tastă": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_1041": {
+        "Repetare tastă": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Interval repetare tastă": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Întârziere până la repetare": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Taste persistente": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_1042": {
+        "Taste persistente": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Comutare cu tasta Shift": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Sunet": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Taste lente": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_1043": {
+        "Taste lente": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Tastaturi software": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Afișare litere minuscule": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Auz": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Dispozitive auditive": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "Dispozitive auditive MFi": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Compatibilitate audioproteze": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Recunoaștere sunete": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Sunete": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "TTY software": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "TTY hardware": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Audio și vizual": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Audio": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Adaptări căști audio": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_1044": {
+        "Adaptări căști audio": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Configurare audio personalizată": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Sunete de fundal": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Audio mono": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Eliminare zgomot telefon": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Balans": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Vizual": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "Bliț LED pentru alerte": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_1045": {
+        "Bliț în timp ce este deblocat": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Bliț în modul silențios": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Balans stereo stânga-dreapta": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Sunet la pornire și oprire": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Subtitrări și subtitrări complexe": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Stil": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Subtitrări complexe + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Afișare transcrieri audio": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_1046": {
+      "Subtitrări live (Beta)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Subtitrări live în FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "General": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Acces ghidat": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Acces ghidat": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Configurări cod de acces": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_1047": {
+        "Fixați un cod pentru acces ghidat": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Limite temporale": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_1048": {
+        "Alarmă": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Sunet": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Enunțare": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Scurtătură accesibilitate": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Auto‑blocare afișaj": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Mod Accesibilitate personalizată": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Tastați pentru Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Răspunsuri enunțate": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Răspunsuri enunțate automate": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Preferință pentru răspunsuri silențioase": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Fără enunțare în modul silențios": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Ascultare permanentă “Hey Siri”": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Scurtătură accesibilitate": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Lupă": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Configurări per aplicație": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Control dispozitive din apropiere": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Afișaj și luminozitate": {
+    "(root)": "prefs:root=DISPLAY",
+    "Aspect": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Programat": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Activați manual până mâine": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Temperatura de culoare": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Auto-blocare": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Trezire afișaj la ridicare": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Blocare / Deblocare": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Mărime text": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Text aldin": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Zoom afișaj": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Vizualizare": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Notificări de expunere": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_1049": {
+    "Insigne de notificare": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Aplicații nou descărcate": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Ecran principal și multitasking": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_1050": {
+      "Afișare bibliotecă de aplicații în Dock": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Afișare aplicații sugerate și recente în Dock": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Ecran principal": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Aplicații nou descărcate": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Insigne de notificare": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID și cod de acces": {
+    "(root)": "prefs:root=PASSCODE",
+    "Dezactivați codul de acces": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Schimbați codul": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Solicitare cod acces": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Apelare vocală": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Acces în ecranul de blocare": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Răspuns cu mesaj": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Control Locuință": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Portofel": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Returnare apeluri ratate": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Ștergere date": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Deblocare cu Apple Watch‑ul": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Podcasturi": "prefs:root=PODCASTS",
+  "S.O.S. urgențe": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Apelare cu butonul lateral": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Apelare automată": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Contacte pentru urgențe": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Sunet numărătoare inversă": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Sunete": {
+    "(root)": "prefs:root=Sounds",
+    "Siguranța căștilor audio": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Adaptoare Lightning": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Notificări căști audio": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Reducere sunet puternic": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Efecte sonore": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Sonerie și alerte": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Ajustare din butoane": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Sunete și modele de vibrație": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Sonerie": "prefs:root=Sounds&path=Ringtone",
+    "Ton mesaj": "prefs:root=Sounds&path=Text_Messages",
+    "Mesaj vocal nou": "prefs:root=Sounds&path=Voicemail",
+    "E‑mail primit": "prefs:root=Sounds&path=NEW_MAIL",
+    "E‑mail trimis": "prefs:root=Sounds&path=SENT_MAIL",
+    "Alarme calendar": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Alerte mementouri": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Clicuri taste": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Sunet blocare": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Vremea": "prefs:root=WEATHER",
+  "Busolă": {
+    "(root)": "prefs:root=COMPASS",
+    "Utilizare nord geografic": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Centru de control": {
+    "(root)": "prefs:root=ControlCenter",
+    "Acces din aplicații": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Personalizare comenzi": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Dezvoltator": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Rețea multicale": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Rețea multicale": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Aspect": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Aspect întunecat": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Dispozitive asociate": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Degajați computerele autorizate": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Instrumente": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Jurnale": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Automatizare IU": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Rețea": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Network Link Conditioner": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "Testare aplicație dezvoltator iAd": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Rată umplere": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Evidențiere bannere tăiate": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Prezentare nelimitată reclame": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "Testare PassKit": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Înregistrări suplimentare în jurnal": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Servicii HTTP permise": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Dezactivare limitare rată": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "Cheie acces NFC opțională": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Testare servicii multimedia": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "Sugestii AirPlay": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Resetați serviciile multimedia": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "Testare News": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Resetați datele locale la următoarea lansare": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Testare cadru de lucru player multimedia": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API conținut redabil": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Testare Furnizor TV": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "Furnizori TV": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "API ClassKit": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "Testare CoreSpotlight": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Reindexați toate articolele": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Reindexați toate articolele cu identificatori": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Testare Scurtături": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Afișare scurtături recente": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Afișare conținut următor": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Afișare donații pe ecranul de blocare": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Forțare sincronizare scurtături pe Watch": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "Testare MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Activare MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Sănătate": "prefs:root=HEALTH",
+  "Măsurare": {
+    "(root)": "prefs:root=MEASURE",
+    "Unități de măsură": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Sistem imperial": "prefs:root=MEASURE#Imperial",
+    "Sistem metric": "prefs:root=MEASURE#Metric"
+  },
+  "Muzică": {
+    "(root)": "prefs:root=MUSIC",
+    "Afișare Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Adăugare melodii din liste de redare": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Afișare evaluare cu stele": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Sincronizare bibliotecă": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Date celulare": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Muzică descărcată": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Optimizare stocare": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Descărcări automate": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "Egalizor": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Ajustare volum": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Utilizare istoric audiții": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Notițe": {
+    "(root)": "prefs:root=NOTES",
+    "Cont implicit": "prefs:root=NOTES&path=Default%20Account",
+    "Parolă": "prefs:root=NOTES&path=Password",
+    "Sortare notițe după": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Notițele noi încep cu": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Sortare articole bifate": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Linii și caroiaje": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Salvați în Poze": "prefs:root=NOTES#Save%20to%20Photos",
+    "Acces notițe din ecranul de blocare": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Mesaje": "prefs:root=MESSAGES",
+  "Traducere": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Mod Pe dispozitiv": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "Furnizor TV": "prefs:root=VIDEO_SUBSCRIBER",
+  "Reportofon": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Degajați articolele șterse": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Calitate audio": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Denumire bazată pe localizare": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Cameră": {
+    "(root)": "prefs:root=CAMERA",
+    "Formate": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_1051": {
+      "Video HDR": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Menținere configurări": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Mod cameră": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Grilă": "prefs:root=CAMERA#CameraGridSwitch",
+    "Scanați coduri QR": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Hărți": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Contacte": {
+    "(root)": "prefs:root=CONTACTS",
+    "Permiteți accesul aplicației Contacte": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri și căutarea": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Ordine sortare": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Ordine afișare": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Nume scurt": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Nume scurt": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Preferați pseudonimele": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Informațiile dvs.": "prefs:root=CONTACTS&path=MeCard",
+    "Importați contacte SIM": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Cărți": {
+    "(root)": "prefs:root=IBOOKS",
+    "Conținut online": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "SINCRONIZARE": "prefs:root=IBOOKS#SYNCING",
+    "Citite acum": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "CITIRE": "prefs:root=IBOOKS#READING",
+    "Aliniere stânga-dreapta": "prefs:root=IBOOKS#BKFullJustification",
+    "Auto-silabisire": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Avansare cu ambele margini": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Obiective de lectură": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Degajați datele obiectivelor de lectură": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "CĂUTARE": "prefs:root=IBOOKS#SEARCHING",
+    "Book Store": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "CĂRȚI AUDIO": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Salt înainte": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Salt înapoi": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "COMENZI EXTERNE": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Următor/anterior": "prefs:root=IBOOKS#Next/Previous",
+    "Salt înainte/înapoi": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "INTIMITATE": "prefs:root=IBOOKS#PRIVACY",
+    "Resetați identificatorul": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Recunoașteri": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Calendar": {
+    "(root)": "prefs:root=CALENDAR",
+    "Suprareglaj fus orar": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Calendare alternative": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Numerotare săptămâni": "prefs:root=CALENDAR#Week%20Numbers",
+    "Afișați refuzurile invitaților": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Sincronizare": "prefs:root=CALENDAR&path=Sync",
+    "Plan implicit alertare": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Săptămâna începe": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Sugestii pentru locuri": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Mail": {
+    "(root)": "prefs:root=MAIL",
+    "Conturi": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Adăugați un cont": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Preluare date noi": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Previzualizare": "prefs:root=MAIL&path=Preview",
+    "Etichetă Către/Cc": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Opțiuni glisare": "prefs:root=MAIL&path=Swipe%20Options",
+    "Confirmare ștergere": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Încărcare imagini": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Organizare în conversații": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Restrângere mesaje citite": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Mesajul mai recent deasupra": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Completare conversații": "prefs:root=MAIL#Complete%20Threads",
+    "Acțiune conversație ignorată": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Ignorare expeditori blocați": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Blocate": "prefs:root=MAIL&path=Blocked",
+    "Să fiu mereu în Bcc": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Marcare adrese": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Mărire nivel citare": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Fișiere atașate în răspunsuri": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Semnătură": "prefs:root=MAIL&path=Signature"
+  },
+  "Telefon": {
+    "(root)": "prefs:root=Phone",
+    "Numărul dvs.": "prefs:root=Phone&path=My%20Number",
+    "Apeluri recepționate": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Anunțare apeluri": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Raportare SMS/Apel": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Răspuns prin mesaj": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Redirecționare apel": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Redirecționare apel": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Apel în așteptare": "prefs:root=Phone&path=Call%20Waiting",
+    "Afișare nr. propriu": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_1052": {
+        "Afișare nr. propriu": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Apeluri silențioase de la necunoscuți": "prefs:root=Phone#SILENCE_CALLS",
+    "Contacte blocate": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Asistență apelare": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Blocare conținut": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Blocare pop‑upuri": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Neurmărire pe site‑uri multiple": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Auto‑completare": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Descărcări": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Parole": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Auto‑completare parole": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Poze": {
+    "(root)": "prefs:root=Photos",
+    "Poze iCloud": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Optimizare stocare": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Descărcare și păstrare originale": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Fluxul dvs. foto": "prefs:root=Photos#PhotoStreamSwitch",
+    "Albume partajate": "prefs:root=Photos#SharedStreamsSwitch",
+    "Date celulare": "prefs:root=Photos&path=CellularDataLinkList",
+    "Redare automată clipuri video": "prefs:root=Photos#VideoAutoplaySwitch",
+    "Afișare HDR completă": "prefs:root=Photos#ImageModulationSwitch",
+    "Afișare sărbători": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Transferarea pe Mac sau PC": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Descărcări automate": "prefs:root=STORE#Automatic%20Downloads",
+    "Actualizări aplicații": "prefs:root=STORE#App%20Updates",
+    "Descărcări aplicații": "prefs:root=STORE&path=App%20Downloads",
+    "Redare video automată": "prefs:root=STORE&path=Video%20Autoplay",
+    "Evaluări și recenzii în aplicație": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Afișare previzualizări articole": "prefs:root=NEWS#show_excerpt_mode",
+    "Restricționare articole în Informațiile zilei": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Intimitate": "prefs:root=NEWS#Privacy",
+    "Resetați identificatorul": "prefs:root=NEWS#reset_identifier",
+    "Recunoașteri": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_1053": {
+    "Mod Avion": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Mementouri": {
+    "(root)": "prefs:root=REMINDERS",
+    "Listă implicită": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Mementouri": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Notificarea zilei": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Afișare drept depășiri": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Baterie": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Mod Consum redus": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Stare sănătate baterie": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Scurtături": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "Sincronizare iCloud": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Sincronizare ordine scurtături": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Mențiuni legale": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri și căutarea": {
+    "(root)": "prefs:root=SIRI",
+    "Acces Siri în timpul blocării": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Limbă": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Voce Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "Feedback vocal": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Informațiile dvs.": "prefs:root=SIRI&path=MY_INFO",
+    "Sugestii în căutare": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Sugestii în căutarea referințelor": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "Sugestii pe ecranul de blocare": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Bursa": {
+    "(root)": "prefs:root=STOCKS",
+    "Intimitate": "prefs:root=STOCKS#Privacy",
+    "Resetați identificatorul": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Conexiune celulară": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Opțiuni date": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Mod Trafic date redus": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Date celulare": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Utilizare date celulare pentru redare": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Calitate redare": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Achiziții și închirieri": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Partajare casnică": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Fundal": "prefs:root=Wallpaper"
+}

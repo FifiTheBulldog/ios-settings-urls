@@ -1,0 +1,1157 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "‏iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "אחסון ב-iCloud": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "‏iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "תמונות": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "דואר": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "אנשי קשר": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "לוח שנה": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "תזכורות": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "‏Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "הערות": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "News": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "גיבוי": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "בריאות": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "סיסמאות וצרור המפתחות": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "ממסר פרטי": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "שיתוף המיקום שלי": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "איתור ה-iPhone שלי": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "שם, מספרי טלפון, דוא״ל": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "סיסמה ואבטחה": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "תשלום ומשלוח": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "מינויים": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "משפחה": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "פרטיות ואבטחה": {
+    "(root)": "prefs:root=Privacy",
+    "בדיקת בטיחות": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "מיקום": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "שיתוף המיקום שלי": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "אנשי קשר": "prefs:root=Privacy&path=CONTACTS",
+    "לוחות שנה": "prefs:root=Privacy&path=CALENDARS",
+    "תזכורות": "prefs:root=Privacy&path=REMINDERS",
+    "תמונות": "prefs:root=Privacy&path=PHOTOS",
+    "שיתוף ב-Bluetooth": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "מיקרופון": "prefs:root=Privacy&path=MICROPHONE",
+    "זיהוי דיבור": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "מצלמה": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "מדיה ו-Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "נתונים": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "פרסום": "prefs:root=Privacy&path=ADVERTISING",
+    "קבצים ותיקיות": "prefs:root=Privacy&path=FILEACCESS",
+    "מעקב": "prefs:root=Privacy&path=USER_TRACKING",
+    "דו״ח פרטיות היישום": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "מצב נעילה": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "בריאות": "prefs:root=Privacy&path=HEALTH"
+  },
+  "ריכוז": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "סטטוס ריכוז": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "כללי": {
+    "(root)": "prefs:root=General",
+    "ניהול התקנים ו-VPN": "prefs:root=General&path=ManagedConfigurationList",
+    "תמונה בתוך תמונה": "prefs:root=General&path=PiP_SPEC",
+    "משטח המגע ועכבר": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "‏VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "מידע": {
+      "(root)": "prefs:root=General&path=About",
+      "אישורים מהימנים": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "מידע משפטי ותקנים": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "עדכוני תוכנה": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "כפתור ה״בית״": "prefs:root=General&path=HOME_BUTTON",
+    "מחוות": "prefs:root=General#Multitasking_Gesture_Switch",
+    "מתג צד": "prefs:root=General#Rotation_Switch_Action_Group",
+    "עדכון יישומים ברקע": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "תאריך ושעה": "prefs:root=General&path=DATE_AND_TIME",
+    "יציאת טלוויזיה": "prefs:root=General&path=TV_OUT",
+    "תקנים": "prefs:root=General&path=REGULATORY",
+    "איפוס": {
+      "(root)": "prefs:root=General&path=Reset",
+      "אפס את כל ההגדרות": "prefs:root=General&path=Reset#settingsErase",
+      "מחק את כל התוכן וההגדרות": "prefs:root=General&path=Reset#fullErase",
+      "אפס הגדרות רשת": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "מחק את כל תכניות הנתונים הסלולריות": "prefs:root=General&path=Reset#cellularErase",
+      "שירותי מנוי": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "אפס את המילון של המקלדת": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "אפס פריסת אייקונים במסך הבית": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "אפס מיקום ופרטיות": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "כיבוי": "prefs:root=General#SHUTDOWN_LABEL",
+    "‏AirPlay ו-Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "העברה ל-HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "‏AirPlay אוטומטי לטלוויזיות": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "המשכיות במצלמה": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "מילון": "prefs:root=General&path=DICTIONARY",
+    "שפה ואזור": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "שפות נוספות…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "סדר שפות מועדף": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "הוספת שפה…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "אזור": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "מספרים": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "לוח שנה": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "יחידת טמפרטורה": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "מקלדת": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "מקלדות": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "החלפת מלל": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "אותיות גדולות אוטומטיות": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "תיקון אוטומטי": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "בדוק איות": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "אפשר Caps Lock": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "קיצורים": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "חיזוי": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "פיסוק חכם": "prefs:root=General&path=Keyboard#SmartTyping",
+      "פצל את המקלדת": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "אפשר ״החלקת מקשים״": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "תצוגה מקדימה של תווים": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "קיצור ״.״": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "הקלדה בהחלקה": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "הפעל הכתבה": "prefs:root=General&path=Keyboard#Dictation",
+      "פיסוק אוטומטי": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "אחסון": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "הסר יישומים שאינם בשימוש": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "עדכונים": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "סיכום מתוזמן": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "‏Wallet ו-Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "כרטיסי תשלום": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "הוספת כרטיס": "prefs:root=PASSBOOK#Add%20Card",
+    "לחיצה כפולה על כפתור הצד": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "מעקב אחר הזמנות": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "זמן מסך": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "היום": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "שבוע": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "השבתה": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "הגבלת יישומים": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "הגבלות תקשורת": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "בטיחות בתקשורת": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "אפשר תמיד": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "הגבלת תוכן ופרטיות": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "בקרת הורים": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "נגישות": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "ראייה": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver‏": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver‏": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "קצב הקראה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "דיבור": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "קול": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "רמת פירוט המלל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "פיסוק": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "כותרות טבלה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "תיאורי מדיה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "כבוי": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "דיבור": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "ברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "הקראה וברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "ברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "פלט": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "ברייל רגיל של שש נקודות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "ברייל רגיל של שמונה נקודות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "ברייל (דרגה שניה)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "קלט": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "ברייל רגיל של שש נקודות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "ברייל רגיל של שמונה נקודות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "ברייל (דרגה שניה)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "תרגום אוטומטי": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "קלט ברייל על המסך": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "ברייל רגיל של שש נקודות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "ברייל רגיל של שמונה נקודות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "ברייל (דרגה שניה)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "מיקומי נקודה הפוכה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "טבלאות ברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "הוסף טבלת ברייל…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "תאי מצב": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "מיקום תאי מצב": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "שמאל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "ימין": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "הצג מצב כללי": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "הצג מצב מלל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "השתמש בכתב נמת׳ למשוואות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "הצג מקלדת על-גבי המסך": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "העברת עמודים ע״י גלילה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "עטיפת מילים": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "הודעות התראה בברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "התעלם מאורך המחרוזת": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "משך התקדמות אוטומטית": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "שמע": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "הנמכה אוטומטית": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "בחירה אוטומטית של רמקול בשיחה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "שלח אל HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "פקודות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "פעילויות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "תכנות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "הוסף פעילות…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "חוגה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "פעולות חוגה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "עריכת יישומים במסך הבית": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "יישומי ״מגע ישיר״": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "הקלדה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "סגנון הקלדה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "הקלדה רגילה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "הקלדה עיוורת": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "הקלדה ישירה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "משוב פונטי": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "כבוי": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "תווים ופונטיקה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "כתב פונטי בלבד": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "משוב בעת הקלדה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "מקשי צירוף": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "‏Control + ‏Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Caps Lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "זמן אינטראקציה עם המקלדת": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "ניווט בתמונות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "תמיד": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "עם תיאורים": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "אף פעם": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "סמן גדול": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "לוח כתוביות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "זמן מוקצב להקשה כפולה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "זמן מוקצב להקשה כפולה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "סגנון ניווט": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "הגדרות מהירות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "צלילים": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "הנמכה אוטומטית": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "עוצמת שמע": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "קצב הקראה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "רמזים": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "סגנון ניווט": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "סגנון הקלדה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "הקלדה בהחלקה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "פעילויות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "תמיד הקרא עדכונים": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "הודעות התראה בברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "התקדמות אוטומטית בברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "קלט ברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "פלט ברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "טבלאות ברייל": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "לוח כתוביות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "מגע ישיר": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "כיוון מחווה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "משוב בעת הקלדת חומרה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "שפה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "סמן גדול": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "תיאורי מדיה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "ניווט בתמונות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "משוב פונטי": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "שינויי טון": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "פיסוק": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "שלח אל HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "משוב בעת הקלדת תוכנה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "הקראת אישור חוגה": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "תיאורי תמונות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "זיהוי מסך": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "זיהוי VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "תיאורי תמונות": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "זיהוי מסך": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "הגדלה/הקטנה": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "הגדלה/הקטנה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "עקוב אחרי ההתמקדות": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "הקלדה חכמה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "‏קיצורי מקלדת": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "‏קיצורי מקלדת": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "התאם/י את רמת ההגדלה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "הפעל/י הגדלה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "הזז/י את חלון ההגדלה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "שנה/י את גודל חלון ההגדלה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "החלף/י אזור להגדלה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "הפעל/י הגדלה זמנית": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "הגדל/י בעזרת גלגל גלילה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "פקד ההגדלה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "אזור להגדלה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "הגדלה/הקטנה במסך מלא": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "הגדלת חלון": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "רמת הגדלה מירבית": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "מסנן הגדלה/הקטנה": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "הצגה בזמן שיקוף": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "מלל מרחף": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "תצוגה וגודל המלל": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "מלל עבה": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "מלל גדול יותר": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "הדגשת כפתורים": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "תוויות פעיל/לא פעיל": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "הקטן שקיפות": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "הגדלת ניגודיות": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "הבחנה ללא צבעים": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "היפוך חכם": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "היפוך קלאסי": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "מסנני צבע": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "מסנני צבע": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "הפחתת נקודת הלבן": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "כיוון בהירות אוטומטי": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "תנועה": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "הפחת תזוזות": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "הפעל אוטומטית אפקטים בהודעות": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "הפעל אוטומטית תצוגות מקדימות של סרטונים": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "הקראת תוכן": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "הקראה": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "הקרא את המסך": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "כלי שליטה באובייקט": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "התאמה אישית של כפתורי העכבר": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "הדגש תוכן": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "משוב בעת הקלדה": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "משוב על תווים": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "תווים": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "רמזים לתווים": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "הקרא מילים": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "הקרא מלל אוטומטי": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "לחץ/י והחזק/י להקראת חיזוי": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "קולות": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "שפת ברירת-המחדל": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "זהה שפות": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "קצב הקראה": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "אופני הגייה": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "תיאורי שמע": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "תיאורי שמע": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "פיזי ומוטורי": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "מגע": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "‏AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#AIR_TOUCH_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "‏AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "התאם אישית את התפריט הראשי": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "יש להקיש על אייקון לשינוי:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "איפוס…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "פעולות מותאמות אישית": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "הקשה אחת": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "הקשה כפולה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "זמן מוקצב להקשה כפולה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "לחיצה ארוכה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "משך הלחיצה הארוכה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "מחוות מותאמות אישית": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "צור/י מחווה חדשה…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "אטימות של מצב המתנה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "מכשירי הצבעה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "התקנים": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "התקני Bluetooth…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "מקשי עכבר": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "סגנון המצביע": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "גודל": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "ויזואלי": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "צבע": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "התאמה אישית של כפתורי העכבר": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "הסתרה אוטומטית": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_510": {
+            "הסתרה אוטומטית": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "הצג מקלדת על-גבי המסך": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "הצג תמיד את התפריט": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "פקד השתהות": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "עמידות לתזוזות": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "רגישות מעקב": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "פעולת נסיגה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "פינות חמות": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "שימוש בשלט המשחק": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "‏3D ומגע אינטראקטיבי": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_511": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "רגישות של 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "משך זמן המגע": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "מהיר": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "איטי": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "בדיקת רגישות ומשך ההחזקה של 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "התאמות למגע": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_512": {
+        "התאמות למגע": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "משך זמן להחזקה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "התעלם מהקשות חוזרות": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "מסייע ההקשות": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "כבוי": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "השתמש במיקום המגע הראשוני": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "השתמש במיקום המגע האחרון": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "הקשה להתעוררות": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "הקשה או החלקה להתעוררות": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "ניעור לביטול הפעולה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "רטט": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "מניעת סיום שיחה בנעילה": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "ניתוב השמע בשיחות": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_513": {
+        "אוטומטי": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "אזניית Bluetooth": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "רמקול": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "מענה שיחות אוטומטי": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "‏Face ID ותשומת לב": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "‏Face ID ידרוש תשומת לב": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "מאפיינים שמזהים קשב": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "רטט אינטראקטיבי": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "רטט אינטראקטיבי לסימון אימות מוצלח": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "בקרת מתגים": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "בקרת מתגים": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "מתגים": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_514": {
+        "הוספת מתג חדש…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "התקני Bluetooth…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "מתכונים": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "סגנון סריקה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_515": {
+        "סריקה אוטומטית": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "סריקה ידנית": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "סריקת שלב מתג בודד": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "תזמון": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "זמן סריקה אוטומטית": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_516": {
+        "זמן סריקה אוטומטית": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "השתהה בפריט הראשון": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_517": {
+        "השתהה בפריט הראשון": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "חזרה על מעבר": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_518": {
+        "חזרה על מעבר": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "לחיצה ארוכה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_519": {
+        "לחיצה ארוכה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "התנהגות הקשה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_520": {
+        "ברירת המחדל": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "הקשה אוטומטית": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "להקיש תמיד": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "פריט שבמוקד לאחר ההקשה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_521": {
+        "הפריט הראשון": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "הפריט הנוכחי": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "מקלדת": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "סרוק את אותו מפתח לאחר הקשה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "להקיש תמיד על מקשי המקלדת": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "ניבויים מורחבים": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "ייצוב מתגים": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "משך זמן להחזקה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_522": {
+        "משך זמן להחזקה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "התעלם מהקשות חוזרות": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_523": {
+        "התעלם מהקשות חוזרות": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "סריקת נקודה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "סמן גולש": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_524": {
+        "מצב בחירה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "יחיד": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "שיפור דיוק": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "מדויק": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "מהירות סמן גולש": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "מעקב אחר הראש": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_525": {
+        "מעקב אחר הראש": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "שמע": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "אפקטים קוליים": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "דיבור": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_526": {
+        "קולות": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "קצב הקראה": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "פריטים בתפריט": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "קבץ פריטים": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "ויזואלי": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "סמן גדול": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "מחוות שנשמרו": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_527": {
+        "צור/י מחווה חדשה…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "צבע הסמן": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "שליטה קולית": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "הגדרת שליטה קולית": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "שפה": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_528": {
+        "אנגלית (ארה״ב)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "פקודות בהתאמה אישית": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "אוצר מילים": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "משוב לפקודה": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "הצג אישור": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "השמע צליל": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "הצג רמזים": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "שכבה רציפה": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "שכבה": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_529": {
+        "ללא": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "מספרי פריטים": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "שמות הפריטים": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "רשת משבצות ממוספרת": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "זיהוי קשב": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "כפתור הצד": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "מהירות לחיצה": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "ברירת המחדל": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "איטי": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "האיטי ביותר": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "לחץ/י והחזק/י כדי לדבר": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "‏Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "שליטה קולית קלאסית": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "כבוי": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "שלט Apple TV": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "כפתורי כיוון": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "מסך מרוחק של ה-Apple Watch": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "מקלדות": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "גישה מלאה מהמקלדת": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_530": {
+        "גישה מלאה מהמקלדת": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "פריטים חזותיים": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "הסתרה אוטומטית": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "טבעת מיקוד גדולה": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "צבע": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "חזרה על מקש": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_531": {
+        "חזרה על מקש": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "מרווח חזרה על מקש": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "השהיה עד להקשה חוזרת": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "מקשים דביקים": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_532": {
+        "מקשים דביקים": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "שינוי באמצעות מקש Shift": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "צליל": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "מקשים איטיים": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_533": {
+        "מקשים איטיים": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "פריסות מקלדת (תוכנה)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "הצג מקשי אותיות קטנות": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "שמיעה": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "מכשירי שמיעה": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "מכשירי שמיעה MFi": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth‏": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "תאימות מכשיר שמיעה": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "זיהוי צלילים": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "צלילים": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "תוכנת TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "חומרת TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "שמיעה וראיה": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "שמע": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "התאמת אוזניות": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_534": {
+        "התאמת אוזניות": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "הגדרות שמע בהתאמה אישית": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "צלילי רקע": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "שמע חד-ערוצי": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "צמצום רעשי טלפון": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "איזון": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "ויזואלי": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "הבהוב LED בעת התראה": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_535": {
+        "הבהוב במצב לא נעול": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "הבהוב במצב שקט": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "מאזן שמאל-ימין": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "צלילי הפעלה וכיבוי": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "כתוביות": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "סגנון": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "כתוביות + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "הצג תמלול קולי": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_536": {
+      "כתוביות בזמן אמת (בטא)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "״כתוביות בזמן אמת״ ב-FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "כללי": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "גישה מודרכת": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "גישה מודרכת": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "הגדרות קוד גישה": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_537": {
+        "הגדר/י קוד ל״גישה מודרכת״": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "הגבלות זמן": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_538": {
+        "אזעקה": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "צליל": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "הקראה": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "קיצור דרך למאפייני נגישות": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "הצג נעילה אוטומטית": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "מצב ״נגישות״ בהתאמה אישית": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "‏Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "הקלדה ל-Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "תגובות קוליות": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "תגובות קוליות אוטומטיות": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "העדפת תגובות שקטות": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "ללא משוב קולי במצב ״שקט״": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "הקשב תמיד ל״היי Siri״": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "קיצור דרך למאפייני נגישות": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "זכוכית מגדלת": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "הגדרות לפי יישום": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "שליטה במכשירים סמוכים": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "תצוגה ובהירות": {
+    "(root)": "prefs:root=DISPLAY",
+    "מראה": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "‏True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "תזמון": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "הפעל באופן ידני עד מחר": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "טמפרטורת הצבע": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "‏נעילה אוטומטית": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "יש להרים כדי לצאת ממצב שינה": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "נעל / בטל נעילה": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "גודל המלל": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "מלל עבה": "prefs:root=DISPLAY#BOLD_TEXT",
+    "הגדלת התצוגה": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "תצוגה": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "עדכוני חשיפה": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_539": {
+    "תוויות עדכונים": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "יישומים שהורדו לאחרונה": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "מסך הבית וריבוי משימות": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_540": {
+      "הצג את ספריית היישומים ב-Dock": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "הצג יישומים מומלצים ויישומים אחרונים ב-Dock": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "מסך הבית": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "יישומים שהורדו לאחרונה": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "תוויות עדכונים": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "‏Touch ID וקוד גישה": {
+    "(root)": "prefs:root=PASSCODE",
+    "ביטול קוד הגישה": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "שינוי קוד הגישה": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "דרוש קוד גישה": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "חיוג קולי": "prefs:root=PASSCODE#VOICE_DIAL",
+    "אפשר גישה כאשר המכשיר נעול": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "משוב באמצעות הודעה": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "בקרת ״הבית שלי״": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Wallet": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "חזרה לשיחות שלא נענו": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "מחק נתונים": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "ביטול הנעילה עם Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "‏Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "‏Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "פודקאסטים": "prefs:root=PODCASTS",
+  "חירום SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "חיוג בעזרת כפתור הצד": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "התקשר אוטומטית": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "אנשי קשר לשעת חירום": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "צליל ספירה לאחור": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "צלילים": {
+    "(root)": "prefs:root=Sounds",
+    "שימוש בטוח באוזניות": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "מתאמי Lightning": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "עדכוני אוזניות": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "הנמך צלילים חזקים": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "אפקטים קוליים": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "צלצולים והתראות": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "שינוי באמצעות הכפתורים": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "צלילים וסוגי רטט": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "צלצול": "prefs:root=Sounds&path=Ringtone",
+    "צליל להודעות": "prefs:root=Sounds&path=Text_Messages",
+    "הודעה קולית חדשה": "prefs:root=Sounds&path=Voicemail",
+    "דוא״ל חדש": "prefs:root=Sounds&path=NEW_MAIL",
+    "דוא״ל שנשלח": "prefs:root=Sounds&path=SENT_MAIL",
+    "התראות לוח שנה": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "התראות עבור תזכורות": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "הקלדה": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "צליל נעילה": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "מזג אוויר": "prefs:root=WEATHER",
+  "מצפן": {
+    "(root)": "prefs:root=COMPASS",
+    "השתמש בצפון אמיתי": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "מרכז הבקרה": {
+    "(root)": "prefs:root=ControlCenter",
+    "גישה מתוך יישומים": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "התאמה אישית של פקדים": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "מפתחים": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "תקשורת מרובת נתיבים": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "תקשורת מרובת נתיבים": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "מראה": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "מראה כהה": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "מכשירים מקושרים": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "נקה מחשבים מהימנים": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "כלים": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "דו״חות": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "ממשק אוטומטי": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "תקשורת": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "מתאם קישור רשת": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "בדיקת יישום של מפתחי iAd": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "קצב מילוי": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "הדגשת באנרים חתוכים": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "הצגת פרסומות ללא הגבלה": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "בדיקת PassKit": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "רשימות נוספות ביומן": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "אפשר שירותי HTTP": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "בטל מגבלת קצב": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "קוד גישה NFC אופציונלי": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "בדיקת שירותי מדיה": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "הצעות AirPlay": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "איפוס שירותי מדיה": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "בדיקת News": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "איפוס פרטים מקומיים בהפעלה הבאה": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "בדיקת מסגרת נגן המדיה": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "‏API עם תוכן למשחקים": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "בדיקת ספק טלוויזיה": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "ספקי טלוויזיה": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "בדיקת CoreSpotlight": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "אינדקס מחודש של כל הפריטים": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "אינדקס מחודש של כל הפריטים עם מזהים": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "בדיקת קיצורים": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "הצג קיצורים אחרונים": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "הצג את פריטי המדיה הבאים": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "הצג תרומות במסך הנעילה": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "סנכרון מיידי של קיצורים לשעון": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "בדיקת MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "הפעל MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "בריאות": "prefs:root=HEALTH",
+  "מדידה": {
+    "(root)": "prefs:root=MEASURE",
+    "יחידות מידה": "prefs:root=MEASURE#MEASURE_UNITS",
+    "אימפריאלי": "prefs:root=MEASURE#Imperial",
+    "מטרי": "prefs:root=MEASURE#Metric"
+  },
+  "מוזיקה": {
+    "(root)": "prefs:root=MUSIC",
+    "הצגת Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "הוסף את השירים מהפלייליסט": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "הצג דירוג כוכבים": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "סנכרן את הספריה": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "נתונים סלולריים": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "מוזיקה שהורדת": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "מטב את האחסון": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "הורדות אוטומטיות": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "אקולייזר": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "בדיקת צליל": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "השתמש ב״היסטוריית האזנה״": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "פתקים": {
+    "(root)": "prefs:root=NOTES",
+    "חשבון ברירת-מחדל": "prefs:root=NOTES&path=Default%20Account",
+    "סיסמה": "prefs:root=NOTES&path=Password",
+    "מיין פתקים לפי": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "פתקים חדשים מתחילים ב:": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "מיין פריטים שסומנו": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "שורות ורשתות": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "שמור ב״תמונות״": "prefs:root=NOTES#Save%20to%20Photos",
+    "גישה ל״פתקים״ ממסך הנעילה": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "הודעות": "prefs:root=MESSAGES",
+  "תרגום": {
+    "(root)": "prefs:root=TRANSLATE",
+    "מצב לא מקוון": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "ספק טלוויזיה": "prefs:root=VIDEO_SUBSCRIBER",
+  "תזכורות קוליות": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "הסר פריטים שנמחקו": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "איכות שמע": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "בחירת שם לפי מיקום": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "מצלמה": {
+    "(root)": "prefs:root=CAMERA",
+    "פורמטים": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "‏Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_541": {
+      "סרט HDR": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "שימור מצב קודם": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "מצב מצלמה": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "רשת": "prefs:root=CAMERA#CameraGridSwitch",
+    "סריקת קודי QR": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "מפות": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "אנשי קשר": {
+    "(root)": "prefs:root=CONTACTS",
+    "אפשר ל״אנשי קשר״ לגשת אל": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "‏Siri וחיפוש": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "סדר מיון": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "סדר הצגה": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "שם מקוצר": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "שם מקוצר": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "השתמש בשמות חיבה": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "הפרטים שלי": "prefs:root=CONTACTS&path=MeCard",
+    "יבא אנשי קשר מה-SIM": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "ספרים": {
+    "(root)": "prefs:root=IBOOKS",
+    "תוכן מקוון": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "מסנכרן": "prefs:root=IBOOKS#SYNCING",
+    "בקריאה כעת": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "קריאה": "prefs:root=IBOOKS#READING",
+    "יישור לשני הצדדים": "prefs:root=IBOOKS#BKFullJustification",
+    "מיקוף אוטומטי": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "התקדמות משני השוליים": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "יעדי קריאה": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "נקה נתוני יעדי קריאה": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "מחפש": "prefs:root=IBOOKS#SEARCHING",
+    "חנות הספרים": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "ספרי שמע": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "דלג קדימה": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "דלג אחורה": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "פקדים חיצוניים": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "הבא/הקודם": "prefs:root=IBOOKS#Next/Previous",
+    "דלג קדימה/אחורה": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "פרטיות": "prefs:root=IBOOKS#PRIVACY",
+    "אפס מזהה": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "תודות": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "לוח שנה": {
+    "(root)": "prefs:root=CALENDAR",
+    "התעלם משעונים מקומיים": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "לוחות שנה משניים": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "מספרי שבועות": "prefs:root=CALENDAR#Week%20Numbers",
+    "הצג מוזמנים שדחו את ההזמנה": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "סנכרן": "prefs:root=CALENDAR&path=Sync",
+    "ברירות-מחדל להתראות": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "היום הראשון בשבוע": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "הצעות למקומות": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "דואר": {
+    "(root)": "prefs:root=MAIL",
+    "חשבונות": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "הוסף/י חשבון": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "משיכת נתונים חדשים": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "תצוגה מקדימה": "prefs:root=MAIL&path=Preview",
+    "הצג תוויות אל/עותק": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "אפשרויות החלקה": "prefs:root=MAIL&path=Swipe%20Options",
+    "שאל אותי לפני מחיקה": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "טען תמונות מרוחקות": "prefs:root=MAIL#Load%20Remote%20Images",
+    "סדר לפי שרשור": "prefs:root=MAIL#Organize%20by%20Thread",
+    "קפל הודעות שנקראו": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "ההודעה החדשה ביותר למעלה": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "שרשורים מלאים": "prefs:root=MAIL#Complete%20Threads",
+    "הפעולות בשרשור הושתקו": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "התעלם משולחים חסומים": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "חסום": "prefs:root=MAIL&path=Blocked",
+    "תמיד שלח לי עותק נסתר": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "סמן כתובות": "prefs:root=MAIL&path=Mark%20Addresses",
+    "רמת ציטוט גבוהה יותר": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "כלול קבצים מצורפים בתשובות:": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "חתימה": "prefs:root=MAIL&path=Signature"
+  },
+  "טלפון": {
+    "(root)": "prefs:root=Phone",
+    "המספר שלי": "prefs:root=Phone&path=My%20Number",
+    "שיחות נכנסות": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "הכרז על שיחות": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "דיווח הודעות/שיחות": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "תגובה בהודעה": "prefs:root=Phone&path=Respond%20with%20Text",
+    "הפניית שיחות": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "הפניית שיחות": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "שיחה ממתינה": "prefs:root=Phone&path=Call%20Waiting",
+    "הצג את המספר שלי": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_542": {
+        "הצג את המספר שלי": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "השתקת מספרים לא מוכרים": "prefs:root=Phone#SILENCE_CALLS",
+    "אנשי קשר חסומים": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "סיוע בחיוג": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "חוסם תוכן": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "חסום חלונות קופצניים": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "מנע מעקב חוצה-אתרים": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "מילוי אוטומטי": "prefs:root=SAFARI&path=AUTO_FILL",
+    "הורדות": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "סיסמאות": {
+    "(root)": "prefs:root=PASSWORDS",
+    "מילוי סיסמאות אוטומטי": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "תמונות": {
+    "(root)": "prefs:root=Photos",
+    "תמונות iCloud": "prefs:root=Photos#iCloudPhotosSwitch",
+    "מטב את האחסון": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "הורד ושמור את הקבצים המקוריים": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "זרם התמונות שלי": "prefs:root=Photos#PhotoStreamSwitch",
+    "אלבומים משותפים": "prefs:root=Photos#SharedStreamsSwitch",
+    "נתונים סלולריים": "prefs:root=Photos&path=CellularDataLinkList",
+    "הפעלה אוטומטית של סרטונים": "prefs:root=Photos#VideoAutoplaySwitch",
+    "הצג HDR מלא": "prefs:root=Photos#ImageModulationSwitch",
+    "הצג אירועי חג": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "העבר ל-Mac או ל-PC": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "הורדות אוטומטיות": "prefs:root=STORE#Automatic%20Downloads",
+    "עדכונים ליישומים": "prefs:root=STORE#App%20Updates",
+    "הורדות יישומים": "prefs:root=STORE&path=App%20Downloads",
+    "הפעלת סרטונים אוטומטית": "prefs:root=STORE&path=Video%20Autoplay",
+    "דירוגים וביקורות בתוך היישום": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "‏News": {
+    "(root)": "prefs:root=NEWS",
+    "תצוגות מקדימות של כתבות": "prefs:root=NEWS#show_excerpt_mode",
+    "הגבלת כתבות ב״היום״": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "פרטיות": "prefs:root=NEWS#Privacy",
+    "אפס מזהה": "prefs:root=NEWS#reset_identifier",
+    "תודות": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_543": {
+    "מצב טיסה": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "תזכורות": {
+    "(root)": "prefs:root=REMINDERS",
+    "רשימת ברירת-המחדל": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "תזכורות": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "עדכון של ״היום״": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "הצג כתאריך יעד שחלף": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "סוללה": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "מצב סוללה חלשה": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "בריאות הסוללה": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "קיצורים": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "סנכרון iCloud": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "סנכרן סדר קיצורים": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "מידע משפטי": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "‏Siri וחיפוש": {
+    "(root)": "prefs:root=SIRI",
+    "אפשר את Siri כאשר המכשיר נעול": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "שפה": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "הקול של Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "משוב קולי": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "הפרטים שלי": "prefs:root=SIRI&path=MY_INFO",
+    "הצעות ב״חיפוש״": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "הצעות ב״חיפוש נרחב״": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "הצעות במסך הנעילה": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "מניות": {
+    "(root)": "prefs:root=STOCKS",
+    "פרטיות": "prefs:root=STOCKS#Privacy",
+    "אפס מזהה": "prefs:root=STOCKS#reset_identifier"
+  },
+  "סלולרי": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "אפשרויות נתונים סלולריים": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "מצב צריכת נתונים נמוכה": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "נתונים סלולריים": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "‏TV": {
+    "(root)": "prefs:root=TVAPP",
+    "השתמש בנתונים סלולריים לצפייה": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "איכות הפעלה": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "רכישות והשכרות": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "שיתוף ביתי": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "תמונת רקע": "prefs:root=Wallpaper"
+}

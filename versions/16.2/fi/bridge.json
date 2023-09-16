@@ -1,0 +1,561 @@
+{
+  "Käyttöapu": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Näkö": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Zoomaus": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Lihavoitu teksti": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Näytä kytkinmerkit": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Harmaasävy": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Läpinäkyvyyden vähennys": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Liikkeen vähennys": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Sointi": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Ajastus": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Tunneittain": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 minuuttia": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 minuuttia": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Äänet": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Kellot": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Linnut": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Motoriikka": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Sivupainikkeen painallusnopeus": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Painallusnopeus": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Oletus": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Hidas": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Hitain": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Kosketusten mukautus": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Kosketusten mukautus": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Pidon kesto": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Älä huomioi toistoa": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Napautusavustaja": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Pois": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Käytä alkukosketuksen sijaintia": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Käytä loppukosketuksen sijaintia": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "PYÖRÄTUOLIAKTIIVISUUS": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Radiopuhelin": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Puhu napauttamalla": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Kuulo": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Välitysnumero": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Lähetä välittömästi": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Oletusvastaukset": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Oletusvastaukset": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Lisää vastaus…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Monoääni": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Stereotasapaino (vasen-oikea)": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Kuulokeilmoitukset": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Kuulokojeet": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Komplikaatio": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Mikrofonin äänenvoimakkuus": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Ohjelma": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Tuntoajan nopeus": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Käyttöapu-oikotie": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Tee uudesta Apple Watchista pari": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Appinäkymä": "bridge:root=APP_VIEW_ID",
+  "Yleiset": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Tietoja": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Nimi": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Rajoitettu takuu": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Rajoitettu takuu": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "KATTAVUUSTIEDOT": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Laitteistokattavuus": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Chat ja puhelintuki": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Kappaleita": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Kuvia": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Appeja": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Kapasiteetti": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Käytettävissä": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Versio": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Operaattori": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Malli": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Sarjanumero": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Wi-Fi-osoite": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Oikeudet": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Näytä Apple Watchin käyttöopas": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Ohjelmistopäivitys": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Automaattinen asennus": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Lentotila": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Keskity-tila": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Peilaa iPhoneni": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Kellon suunta": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Apple Watch -ranne": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Vasen ranne": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Oikea ranne": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown vasemmalla": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown oikealla": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "Apple ID": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Ota sanelu käyttöön": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Ota Handoff käyttöön": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Yöpöytätila": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Ota näyttökuvat käyttöön": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Tallennustila": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Vianmäärityslokit": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Kopioi Watch-analyysi": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Nollaa": "bridge:root=GENERAL_LINK&path=RESET",
+    "Käynnistä automaattisesti veteen upotettuna": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Käynnistä ääniapit automaattisesti": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Kieli ja alue": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Peilaa iPhoneni": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Muokkaa": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "PALAA KELLOON": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "PALAA KELLOON": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Aina": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "2 minuutin kuluttua": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "Tunnin kuluttua": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "APIT": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Toistossa nyt": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Näyttö ja kirkkaus": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Kirkkaus": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Aina päällä": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Aina päällä": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "RANNE ALHAALLA": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Näytä ilmoitukset": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Näytä ilmoitukset": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APPLE WATCH ‑APIT": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Näytä apit": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Näytä apit": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "APIT": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Tekstin koko": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Lihavoitu teksti": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "HERÄTYS": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Herätä nostamalla rannetta": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Herätä kiertämällä nuppia": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Herätyksen kesto": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "NAPAUTUS": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Herätä 15 sekunniksi": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Herätä 70 sekunniksi": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Äänet ja tuntopalaute": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Ilmoitusten äänenvoimakkuus": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Hiljainen tila": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Kuulokkeiden ääni": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "Kuulokkeiden turvallisuus": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Kuulokeilmoitukset": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Kovien äänten hiljennys": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Tuntopalaute": "bridge:root=SOUNDS_ID#Haptics",
+    "Ilmoitukset tuntopalautteella": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Nupin tuntopalaute": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Järjestelmän tuntopalaute": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Mykistä peittämällä": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "Hätätila SOS": "bridge:root=SOS_MODE_ID",
+  "Tietosuoja": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Syke": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Hengitys­tiheys": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Kuntoseuranta": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Nollaa kuntoilun kalibrointidata": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Ympäristön äänimittaukset": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Kuulokkeiden äänimittaukset": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Tallenna Terveys-appiin": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "8 päivää": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Kunnes poistan": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Veren happitason mittaus": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Rannelämpö": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Ruutuaika": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Syvyys": "bridge:root=com.apple.DepthCompanionSettings",
+  "Toiminto-painike": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Automaattiset lataukset": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Päivitä automaattisesti": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Terveys": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail ja Kalenteri": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Tilit": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Lisää Google-tili…": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Hae": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Pois": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Tunneittain": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 min": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Käsienpesu": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Salli ilmoitukset": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Lähetä Ilmoituskeskukseen": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Ilmoitukset pois": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Ilmoitusten ryhmitys": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Käsien­pesu­ajastin": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Mobiiliverkko": "bridge:root=CELLULAR_ID",
+  "Komplikaatiot": "bridge:root=COMPLICATIONS",
+  "Aktiivisuus": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Edistymispäivitykset": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Ei mitään": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "Joka 2. tunti": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "Joka 4. tunti": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "Joka 6. tunti": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "Joka 8. tunti": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Saavutukset": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Viikoittainen yhteenveto": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Päivittäinen valmennus": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Tavoitteiden täyttymiset": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Erikoishaasteet": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Aktiivisuusjakoilmoitukset": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Sydän": "bridge:root=com.apple.HeartRateSettings#1",
+    "Sykeilmoitukset": "bridge:root=com.apple.HeartRateSettings#2",
+    "Korkea syke": "bridge:root=com.apple.HeartRateSettings#3",
+    "Matala syke": "bridge:root=com.apple.HeartRateSettings#4",
+    "Epäsäännöllinen rytmi": "bridge:root=com.apple.HeartRateSettings#5",
+    "Katso tallennetut EKG:t Terveydessä": "bridge:root=com.apple.HeartRateSettings#6",
+    "EKG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Viestit": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Peilaa iPhoneni": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Muokkaa": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Oletusvastaukset": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Oletusvastaukset": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Älykkäät vastaukset": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Lisää vastaus…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Toista ilmoitukset": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Ääniviestit": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Mindfulness": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Salli ilmoitukset": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Lähetä Ilmoituskeskukseen": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Ilmoitukset pois": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Mindfulness-muistutukset": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Päivän alku": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Päivän loppu": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Lisää muistutus…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Viikoittainen yhteenveto": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Mykistä tänään": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Hengitysnopeus": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 hengitystä/min": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 hengitystä/min": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 hengitystä/min": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 hengitystä/min": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 hengitystä/min": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 hengitystä/min": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 hengitystä/min": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Tuntopalaute": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Ei mitään": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Vähäinen": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Hyvin erottuva": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Uni": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Ota Uni käyttöön Terveys-apissa": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Äänikirjat": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Kirjaudu sisään": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Kalenteri": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "ILMOITUKSET": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Peilaa iPhoneni": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Muokattu…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "KALENTERIT": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Kello": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "24 tunnin kello": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Sointi": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Äänet": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Kellot": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Linnut": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Puhu aika": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Huomioi hiljainen tila": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Puhu aina": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Tuntoaika": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Tuntoaika": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Numerot": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Tiheä": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Morsetus": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Push-ilmoitukset iPhonesta": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Ilmoitusten ilmaisin": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Monogrammi": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Kellotaulu­ilmoitukset": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Kaupunkien lyhenteet": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Siri-kellotaulun tietolähteet": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Yhteystiedot": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Järjestys": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Etu-, sukunimi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Suku-, etunimi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Näyttöjärjestys": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Etu-, sukunimi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Suku-, etunimi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Lyhyt nimi": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Lyhyt nimi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Etunimi ja sukunimen 1. kirjain": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Etunimen 1. kirjain ja sukunimi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Vain etunimi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Vain sukunimi": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Suosi lempinimiä": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Peilaa iPhoneni": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Muokkaa": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Mail-asetukset": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Tilit": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Sisällytä postit": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Viestin esikatselu": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Ei mitään": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 rivi": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 riviä": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Oletusvastaukset": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Oletusvastaukset": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Lisää vastaus…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Allekirjoitus": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Kartat": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Käännösilmoitukset": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Ajo": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Ajaminen CarPlaylla": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Kävely": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Pyöräily": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Näytä navigointi": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "Julkiset": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Buildin tiedot:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Musiikki": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "SOITTOLISTAT JA ALBUMIT": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Lisää musiikkia…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Lompakko ja Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Lisää kortti": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Ilmoitukset": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Peilaa iPhoneni": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Muokkaa": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Kuvat": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Kuvien synkronointi": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Muistot": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Synkronoi muistot": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Esittelyssä olevat kuvat": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Synkronoi esittelyssä olevat kuvat": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Albumi": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Synkronoi albumi": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Kuvien rajoitus": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Ilmoitusasetukset": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Peilaa iPhoneni": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Muokkaa": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Melu": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Ympäristön äänimittaukset": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Meluvaroitukset": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Melun kynnystaso": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Pois": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 desibeliä": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 desibeliä": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 desibeliä": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 desibeliä": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 desibeliä": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Ilmoitusten ryhmitys": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Veren happitaso": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Operaattoriasetukset": "bridge:root=CARRIER_SETTINGS",
+  "Laita pääsykoodi pois päältä": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Laita pääsykoodi päälle": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Vaihda pääsykoodi": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Yksinkertainen pääsykoodi": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Avaa iPhonella": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Poista tiedot": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Ranteentunnistus": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Puhelin": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Puhelut": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Soittoääni": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Äänet": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Tuntopalaute": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Treeni": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Alhaisen virran tila": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Näytä tavoitetiedot": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Treeninäkymä": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Autom. keskeytys": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Autom. keskeytys": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Aloita treeni -muistutus": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Lopeta treeni -muistutus": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Keskeytä painamalla": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Tunnista kuntosalilaite": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Vauhti-/nopeusnäkymä": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Nykyinen": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Keskiarvo": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Treenisoittolista": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Ei mitään": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Soittolistat": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Toista alusta": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Sekoitus": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Mittayksiköt": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Kalorit": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilokalorit": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilojoulet": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Jaardit": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Metrit": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Mailit": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilometrit": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Puhepalaute": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Aika kävellä": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Lisää uudet treenit Apple Watchiin": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Pörssi": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Kellotaulun komplikaatiossa näkyy": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Nykyinen hinta": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Pistemuutos": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Prosenttimuutos": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "Markkina-arvo": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Siri-kellotaulu näyttää kurssin": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Valittu osake": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Valittu osake": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Dockin järjestys": "bridge:root=DOCK#OrderingOptionGroup",
+    "Äskeiset": "bridge:root=DOCK#Recents",
+    "Suosikit": "bridge:root=DOCK#Favorites"
+  },
+  "Podcastit": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Kysy Siriltä": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Nosta ja puhu": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Paina Digital Crownia": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Puhepalaute": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Aina päällä": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Huomioi hiljainen tila": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Vain kuulokkeet": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Puheen voimakkuus": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Siri-ehdotukset": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Radiopuhelin": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Salli ilmoitukset": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Lähetä Ilmoituskeskukseen": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Ilmoitukset pois": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Ilmoitusten ryhmitys": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Ystävät": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Sää": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Oletuskaupunki": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Oletuskaupunki": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Nykyinen sijainti": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Lähetä lukukuittaukset": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

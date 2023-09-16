@@ -1,0 +1,411 @@
+- Accesibilitate: `bridge:root=ACCESSIBILITY`
+- Accesibilitate → Vedere: `bridge:root=ACCESSIBILITY#VISION`
+- Accesibilitate → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Accesibilitate → Zoom: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Accesibilitate → Text aldin: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- Accesibilitate → Etichete pornit/oprit: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- Accesibilitate → Tonuri de gri: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- Accesibilitate → Reducere transparență: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- Accesibilitate → Reducere mișcare: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- Accesibilitate → Taptic Chimes: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- Accesibilitate → Taptic Chimes → Sunete sonerie: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- Accesibilitate → Taptic Chimes → Program: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- Accesibilitate → Taptic Chimes → Program → Orar: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- Accesibilitate → Taptic Chimes → Program → 30 de minute: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- Accesibilitate → Taptic Chimes → Program → 15 minute: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- Accesibilitate → Taptic Chimes → Sunete: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- Accesibilitate → Taptic Chimes → Sunete → Clopote: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- Accesibilitate → Taptic Chimes → Sunete → Păsări: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- Accesibilitate → Mobilitate: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- Accesibilitate → Viteză clic buton lateral: `bridge:root=ACCESSIBILITY&path=SideButton`
+- Accesibilitate → Viteză clic buton lateral → Viteză clic: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- Accesibilitate → Viteză clic buton lateral → Implicit: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Accesibilitate → Viteză clic buton lateral → Lent: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Accesibilitate → Viteză clic buton lateral → Minimă: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Accesibilitate → Adaptări tactile: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- Accesibilitate → Adaptări tactile → Adaptări tactile: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Accesibilitate → Adaptări tactile → Durată menținere: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- Accesibilitate → Adaptări tactile → Ignorare repetare: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- Accesibilitate → Adaptări tactile → Asistență apăsare: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- Accesibilitate → Adaptări tactile → Nu: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- Accesibilitate → Adaptări tactile → Utilizați poziția inițială a atingerii: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Accesibilitate → Adaptări tactile → Utilizați poziția finală a atingerii: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Accesibilitate → ACTIVITATE ÎN SCAUN CU ROTILE: `bridge:root=ACCESSIBILITY#MOBILITY`
+- Accesibilitate → Walkie-talkie: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- Accesibilitate → Apăsați pentru a vorbi: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- Accesibilitate → Auz: `bridge:root=ACCESSIBILITY#HEARING`
+- Accesibilitate → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- Accesibilitate → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- Accesibilitate → RTT → Număr releu: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- Accesibilitate → RTT → Trimitere imediată: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- Accesibilitate → RTT → Răspunsuri implicite: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- Accesibilitate → RTT → Răspunsuri implicite → Răspunsuri implicite: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- Accesibilitate → RTT → Răspunsuri implicite → Adăugați un răspuns…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- Accesibilitate → Audio mono: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- Accesibilitate → Balans stereo stânga-dreapta: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- Accesibilitate → Notificări pentru căștile audio: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- Accesibilitate → Dispozitive auditive: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- Accesibilitate → Complicație: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- Accesibilitate → Complicație → Volum mic.: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Accesibilitate → Complicație → Program: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- Accesibilitate → Viteză Oră haptică: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- Accesibilitate → Scurtătură accesibilitate: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- undefined: `bridge:root=ActiveWatch`
+- undefined → Asociați un Watch nou: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Vizualizare aplicații: `bridge:root=APP_VIEW_ID`
+- General: `bridge:root=GENERAL_LINK`
+- General → Informații: `bridge:root=GENERAL_LINK&path=ABOUT`
+- General → Informații → Nume: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- General → Informații → Garanție limitată: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- General → Informații → Garanție limitată → Garanție limitată: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- General → Informații → Garanție limitată → DETALII ACOPERIRE: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- General → Informații → Garanție limitată → Acoperire hardware: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- General → Informații → Garanție limitată → Asistență prin chat și telefon: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- General → Informații → Melodii: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- General → Informații → Poze: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- General → Informații → Aplicații: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- General → Informații → Capacitate: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- General → Informații → Spațiu disponibil: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- General → Informații → Versiune: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- General → Informații → Operator: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- General → Informații → Model: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- General → Informații → Număr serial: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- General → Informații → Adresă Wi‑Fi: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID`
+- General → Informații → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- General → Informații → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- General → Informații → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- General → Informații → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- General → Informații → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- General → Informații → Mențiuni legale: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- General → Informații → Accesați manualul Apple Watch : `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- General → Actualizare software: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- General → Instalare automată aplicații: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- General → Mod Avion: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- General → Concentrare: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- General → Concentrare → Oglindire iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- General → Orientare ceas: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- General → Orientare ceas → Purtați Apple Watch‑ul pe: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- General → Orientare ceas → Încheietura stângă: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- General → Orientare ceas → Încheietura dreaptă: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- General → Orientare ceas → Digital Crown pe stânga: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- General → Orientare ceas → Digital Crown pe dreapta: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- General → ID Apple: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- General → Activare dictare: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- General → Activare Handoff: `bridge:root=GENERAL_LINK#CONTINUITY`
+- General → Mod Noptieră: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- General → Salvare capturi de ecran: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- General → Stocare: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- General → Jurnale diagnoză: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- General → Copiați analiza Watch: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- General → Resetare: `bridge:root=GENERAL_LINK&path=RESET`
+- General → Lansare automată la scufundare: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- General → Lansare automată la scufundare → Auto‑lansare aplicații audio: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- General → Limbă și regiune: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- General → Limbă și regiune → Oglindire iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- General → Limbă și regiune → Personalizată: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- General → REVENIRE LA CEAS: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- General → REVENIRE LA CEAS → REVENIRE LA CEAS: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- General → REVENIRE LA CEAS → Întotdeauna: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- General → REVENIRE LA CEAS → După 2 minute: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- General → REVENIRE LA CEAS → După 1 oră: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- General → REVENIRE LA CEAS → APLICAȚII: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- General → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- General → Wake Screen → În redare: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Afișaj și luminozitate: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- Afișaj și luminozitate → Luminozitate: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- Afișaj și luminozitate → Mereu activat: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- Afișaj și luminozitate → Mereu activat → Mereu activat: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- Afișaj și luminozitate → Mereu activat → ÎNCHEIETURĂ COBORÂTĂ: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Afișaj și luminozitate → Mereu activat → Afișare notificări: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- Afișaj și luminozitate → Mereu activat → Afișare notificări → Afișare notificări: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Afișaj și luminozitate → Mereu activat → Afișare notificări → APLICAȚII PENTRU APPLE WATCH: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- Afișaj și luminozitate → Mereu activat → Afișare aplicații: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- Afișaj și luminozitate → Mereu activat → Afișare aplicații → Afișare aplicații: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Afișaj și luminozitate → Mereu activat → Afișare aplicații → APLICAȚII: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- Afișaj și luminozitate → Dimensiune text: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- Afișaj și luminozitate → Text aldin: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- Afișaj și luminozitate → TREZIRE: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- Afișaj și luminozitate → Trezire la ridicarea mâinii: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Afișaj și luminozitate → Trezire la rotirea coroanei: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Afișaj și luminozitate → Durată trezire: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- Afișaj și luminozitate → Durată trezire → LA APĂSARE: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- Afișaj și luminozitate → Durată trezire → Trezire timp de 15 secunde: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- Afișaj și luminozitate → Durată trezire → Trezire timp de 70 de secunde: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- Sunete și răspuns haptic: `bridge:root=SOUNDS_ID`
+- Sunete și răspuns haptic → Volum alertă: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Sunete și răspuns haptic → Mod silențios: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Sunete și răspuns haptic → Sunet căști audio: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Sunete și răspuns haptic → Siguranța căștilor audio: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Sunete și răspuns haptic → Siguranța căștilor audio → Notificări pentru căștile audio: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Sunete și răspuns haptic → Siguranța căștilor audio → Reducere sunet puternic: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Sunete și răspuns haptic → Răspuns haptic: `bridge:root=SOUNDS_ID#Haptics`
+- Sunete și răspuns haptic → Alerte haptice: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- Sunete și răspuns haptic → Răspuns haptic coroană: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Sunete și răspuns haptic → Răspuns haptic sistem: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Sunete și răspuns haptic → Acoperire pentru modul mut: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- S.O.S. urgențe: `bridge:root=SOS_MODE_ID`
+- Intimitate: `bridge:root=PRIVACY_ID`
+- Intimitate → Ritm cardiac: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- Intimitate → Ritm respirator: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- Intimitate → Urmărire fitness: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- Intimitate → Resetați datele de calibrare: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- Intimitate → Măsurători ale sunetului ambiant: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- Intimitate → Măsurători sunet căști audio: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- Intimitate → Măsurători sunet căști audio → Salvați în Sănătate: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- Intimitate → Măsurători sunet căști audio → Pentru 8 zile: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- Intimitate → Măsurători sunet căști audio → Până la ștergere: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- Intimitate → Măsurători ale oxigenului în sânge: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- Intimitate → Temperatură încheietură: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Timp de utilizare: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Adâncime: `bridge:root=com.apple.DepthCompanionSettings`
+- Butonul Acțiune: `bridge:root=STING_TITLE`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Descărcări automate: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Actualizări automate: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Sănătate: `bridge:root=com.apple.BridgeHealthSettings`
+- Mail și calendar: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail și calendar → Conturi: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail și calendar → Adăugare cont Google...: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail și calendar → Preluare: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail și calendar → Preluare → Nu: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail și calendar → Preluare → Din oră în oră: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail și calendar → Preluare → 30 min.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail și calendar → Preluare → 15 min.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Spălat pe mâini: `bridge:root=com.apple.BrookBridgeSettings`
+- Spălat pe mâini → Permitere notificări: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Spălat pe mâini → Trimitere în centrul de notificări: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Spălat pe mâini → Notificări dezactivate: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Spălat pe mâini → Grupare notificări: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Spălat pe mâini → Temporizator spălat pe mâini: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Conexiune celulară: `bridge:root=CELLULAR_ID`
+- Complicații: `bridge:root=COMPLICATIONS`
+- Activitate: `bridge:root=com.apple.HealthAppsSettings`
+- Activitate → Actualizări progres: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Activitate → Actualizări progres → Nimic: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Activitate → Actualizări progres → La fiecare 2 ore: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Activitate → Actualizări progres → La fiecare 4 ore: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Activitate → Actualizări progres → La fiecare 6 ore: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Activitate → Actualizări progres → La fiecare 8 ore: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Activitate → Realizări: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Activitate → Rezumat săptămânal: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Activitate → Antrenament zilnic: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Activitate → Obiective atinse: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Activitate → Provocări speciale: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Activitate → Notificări partajare Activitate: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Heart Rate: `bridge:root=com.apple.HeartRateSettings`
+- Heart Rate → Inimă: `bridge:root=com.apple.HeartRateSettings#1`
+- Heart Rate → Notificări de ritm cardiac: `bridge:root=com.apple.HeartRateSettings#2`
+- Heart Rate → Ritm cardiac ridicat: `bridge:root=com.apple.HeartRateSettings#3`
+- Heart Rate → Ritm cardiac scăzut: `bridge:root=com.apple.HeartRateSettings#4`
+- Heart Rate → Ritm neregulat: `bridge:root=com.apple.HeartRateSettings#5`
+- Heart Rate → Afișați înregistrările EKG în Sănătate: `bridge:root=com.apple.HeartRateSettings#6`
+- Heart Rate → EKG: `bridge:root=com.apple.HeartRateSettings#7`
+- Mesaje: `bridge:root=com.apple.MessagesBridgeSettings`
+- Mesaje → Oglindire iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mesaje → Personalizată: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Mesaje → Răspunsuri implicite: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Mesaje → Răspunsuri implicite → Răspunsuri implicite: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Mesaje → Răspunsuri implicite → Răspunsuri inteligente: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Mesaje → Răspunsuri implicite → Adăugați un răspuns…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Mesaje → Repetare alerte: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Mesaje → Mesaje audio: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Conștientizare: `bridge:root=com.apple.MindSettings`
+- Conștientizare → Permitere notificări: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Conștientizare → Trimitere în centrul de notificări: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Conștientizare → Notificări dezactivate: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Conștientizare → Mementouri conștientizare: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Conștientizare → Începutul zilei: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Conștientizare → Sfârșitul zilei: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Conștientizare → Adăugare memento…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Conștientizare → Rezumat săptămânal: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Conștientizare → Fără alte alerte azi: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Conștientizare → Ritm respirator: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Conștientizare → Ritm respirator → 4 respirații/minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Conștientizare → Ritm respirator → 5 respirații/minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Conștientizare → Ritm respirator → 6 respirații/minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Conștientizare → Ritm respirator → 7 respirații/minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Conștientizare → Ritm respirator → 8 respirații/minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Conștientizare → Ritm respirator → 9 respirații/minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Conștientizare → Ritm respirator → 10 respirații/minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Conștientizare → Răspuns haptic: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Conștientizare → Răspuns haptic → Niciunul: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Conștientizare → Răspuns haptic → Minim: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Conștientizare → Răspuns haptic → Pronunțat: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Somn: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Somn → Configurați modul Somn în aplicația Sănătate: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Cărți audio: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Cărți audio → Autentificați-vă: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Calendar: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Calendar → NOTIFICĂRI: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Calendar → Oglindire iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Calendar → Personalizare…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Calendar → CALENDARE: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Ceas: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Ceas → Ceas în mod 24 h: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Ceas → Sunete sonerie: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Ceas → Sunete: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Ceas → Sunete → Clopote: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Ceas → Sunete → Păsări: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Ceas → Enunțare oră: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Ceas → Control cu mod silențios: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Ceas → Enunțare permanentă: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Ceas → Oră haptică: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Ceas → Oră haptică → Oră haptică: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Ceas → Oră haptică → Cifre: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Ceas → Oră haptică → Succint: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Ceas → Oră haptică → Cod Morse: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Ceas → Replicare alerte iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Ceas → Indicator notificări: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Ceas → Monogramă: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Ceas → Notificări cadran de ceas: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Ceas → Abrevieri orașe: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Ceas → Surse de date cadran Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Contacte: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Contacte → Ordine sortare: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Contacte → Ordine sortare → Prenume, nume: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Contacte → Ordine sortare → Nume, prenume: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Contacte → Ordine afișare: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Contacte → Ordine afișare → Prenume, nume: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Contacte → Ordine afișare → Nume, prenume: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Contacte → Nume scurt: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Contacte → Nume scurt → Nume scurt: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Contacte → Nume scurt → Prenume și inițială nume: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Contacte → Nume scurt → Inițială prenume și nume: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Contacte → Nume scurt → Doar prenumele: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Contacte → Nume scurt → Doar numele: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Contacte → Nume scurt → Preferați pseudonimele: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Oglindire iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Personalizat: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Configurări Mail: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Conturi: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Includere e‑mail: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Previzualizare mesaj: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Previzualizare mesaj → Nimic: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Previzualizare mesaj → 1 linie: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Previzualizare mesaj → 2 linii: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Răspunsuri implicite: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Răspunsuri implicite → Răspunsuri implicite: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Răspunsuri implicite → Adăugați un răspuns…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Semnătură: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Hărți: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Hărți → Alerte viraj: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Hărți → Condus: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Hărți → Condus cu CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Hărți → Mers: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Hărți → Pedalare: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Hărți → Afișați navigarea: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Hărți → Transport: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Hărți → Informații build:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Muzică: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Muzică → LISTE DE REDARE ȘI ALBUME: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Muzică → Adăugați muzică…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Portofel și Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Portofel și Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Portofel și Apple Pay → Adăugați un card: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Portofel și Apple Pay → Notificări: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Portofel și Apple Pay → Oglindire iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Portofel și Apple Pay → Personalizat: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Poze: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Poze → Sincronizare poze: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Poze → Amintiri: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Poze → Sincronizare amintiri: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Poze → Poze recomandate: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Poze → Sincronizare poze recomandate: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Poze → Album: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Poze → Sincronizare album: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Poze → Limită poze: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Poze → Configurări notificări: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Poze → Oglindire iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Poze → Personalizată: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Zgomot: `bridge:root=com.apple.Noise.settings`
+- Zgomot → Măsurători ale sunetului ambiant: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Zgomot → Notificări zgomot: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Zgomot → Prag zgomot: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Zgomot → Prag zgomot → Nu: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Zgomot → Prag zgomot → 80 de decibeli: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Zgomot → Prag zgomot → 85 de decibeli: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Zgomot → Prag zgomot → 90 de decibeli: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Zgomot → Prag zgomot → 95 de decibeli: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Zgomot → Prag zgomot → 100 de decibeli: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Zgomot → Grupare notificări: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Oxigen în sânge: `bridge:root=com.apple.OxygenSaturationSettings`
+- Configurări operator: `bridge:root=CARRIER_SETTINGS`
+- Dezactivați codul de acces: `bridge:root=PASSCODE_ID`
+- Dezactivați codul de acces → Activați codul: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Dezactivați codul de acces → Schimbați codul: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Dezactivați codul de acces → Cod de acces simplu: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Dezactivați codul de acces → Deblocare cu iPhone‑ul: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Dezactivați codul de acces → Ștergere date: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Dezactivați codul de acces → Detectare încheietură: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Telefon: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefon → Apeluri: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefon → Sonerie: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefon → Sunet: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefon → Răspuns haptic: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Exerciții: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Exerciții → Mod Consum redus: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Exerciții → Afișare măsurători obiectiv: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Exerciții → Vizualizare exercițiu: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Exerciții → Suspendare automată: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Exerciții → Suspendare automată → Suspendare automată: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Exerciții → Memento începere exercițiu: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Exerciții → Memento încheiere exercițiu: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Exerciții → Apăsare pentru suspendare: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Exerciții → Detectare echipamente fitness: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Exerciții → Vizualizare tempo/viteză: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Exerciții → Vizualizare tempo/viteză → Curent: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Exerciții → Vizualizare tempo/viteză → Mediu: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Exerciții → Listă de redare pentru exerciții: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Exerciții → Listă de redare pentru exerciții → Nimic: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Exerciții → Listă de redare pentru exerciții → Liste de redare: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Exerciții → Redare de la început: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Exerciții → Aleatoriu: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Exerciții → Unități de măsură: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Exerciții → Unități de măsură → Calorii: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Exerciții → Unități de măsură → Kilocalorii: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Exerciții → Unități de măsură → Kilojouli: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Exerciții → Unități de măsură → Iarzi: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Exerciții → Unități de măsură → Metri: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Exerciții → Unități de măsură → Mile: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Exerciții → Unități de măsură → Kilometri: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Exerciții → Feedback vocal: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Exerciții → Mers ghidat: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Exerciții → Adăugare exerciții noi pe Watch: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Bursa: `bridge:root=com.apple.StocksBridgeSettings`
+- Bursa → Complicațiile cadranului afișează: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Bursa → Prețul curent: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Bursa → Modificarea valorică: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Bursa → Modificarea procentuală: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Bursa → Capitalizare: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Bursa → Cadranul Siri afișează cotația pentru: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Bursa → Acțiunea bursieră selectată: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Bursa → Acțiunea bursieră selectată → Acțiunea bursieră selectată: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Dock: `bridge:root=DOCK`
+- Dock → Ordonare Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Recente: `bridge:root=DOCK#Recents`
+- Dock → Favorite: `bridge:root=DOCK#Favorites`
+- Podcasturi: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Solicitare Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → Ridicare pentru vorbire: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Apăsare pe Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Feedback vocal: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Feedback vocal → Mereu activat: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Feedback vocal → Control cu mod silențios: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Feedback vocal → Doar în căști: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Volum voce: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Sugestii Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Walkie-talkie: `bridge:root=com.apple.tincan.settings`
+- Walkie-talkie → Permitere notificări: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Walkie-talkie → Trimitere în centrul de notificări: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Walkie-talkie → Notificări dezactivate: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Walkie-talkie → Grupare notificări: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Walkie-talkie → Prieteni: `bridge:root=com.apple.tincan.settings#Friends`
+- Vremea: `bridge:root=com.apple.weatherbridgesettings`
+- Vremea → Orașul implicit: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Vremea → Orașul implicit → Orașul implicit: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Vremea → Orașul implicit → Locul actual: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Trimitere confirmare de citire: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

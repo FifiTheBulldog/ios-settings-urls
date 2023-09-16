@@ -1,0 +1,411 @@
+- Kebolehcapaian: `bridge:root=ACCESSIBILITY`
+- Kebolehcapaian → Penglihatan: `bridge:root=ACCESSIBILITY#VISION`
+- Kebolehcapaian → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Kebolehcapaian → Zum: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Kebolehcapaian → Teks Tebal: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- Kebolehcapaian → Label Aktif/Tak Aktif: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- Kebolehcapaian → Skala Kelabu: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- Kebolehcapaian → Kurangkan Kelutsinaran: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- Kebolehcapaian → Kurangkan Pergerakan: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- Kebolehcapaian → Taptic Chimes: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- Kebolehcapaian → Taptic Chimes → Bunyi Loceng: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- Kebolehcapaian → Taptic Chimes → Jadual: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- Kebolehcapaian → Taptic Chimes → Jadual → Setiap Jam: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- Kebolehcapaian → Taptic Chimes → Jadual → 30 minit: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- Kebolehcapaian → Taptic Chimes → Jadual → 15 minit: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- Kebolehcapaian → Taptic Chimes → Bunyi: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- Kebolehcapaian → Taptic Chimes → Bunyi → Loceng: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- Kebolehcapaian → Taptic Chimes → Bunyi → Burung: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- Kebolehcapaian → Motor: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- Kebolehcapaian → Kelajuan Klik Butang Sisi: `bridge:root=ACCESSIBILITY&path=SideButton`
+- Kebolehcapaian → Kelajuan Klik Butang Sisi → Kelajuan Klik: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- Kebolehcapaian → Kelajuan Klik Butang Sisi → Lalai: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Kebolehcapaian → Kelajuan Klik Butang Sisi → Perlahan: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Kebolehcapaian → Kelajuan Klik Butang Sisi → Paling Perlahan: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Kebolehcapaian → Penyesuaian Sentuhan: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- Kebolehcapaian → Penyesuaian Sentuhan → Penyesuaian Sentuhan: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Kebolehcapaian → Penyesuaian Sentuhan → Tempoh Penahanan: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- Kebolehcapaian → Penyesuaian Sentuhan → Abaikan Ulangan: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- Kebolehcapaian → Penyesuaian Sentuhan → Bantuan Ketik: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- Kebolehcapaian → Penyesuaian Sentuhan → Tak Aktif: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- Kebolehcapaian → Penyesuaian Sentuhan → Gunakan Lokasi Sentuhan Awal: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Kebolehcapaian → Penyesuaian Sentuhan → Gunakan Lokasi Sentuhan Akhir: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Kebolehcapaian → AKTIVITI KERUSI RODA: `bridge:root=ACCESSIBILITY#MOBILITY`
+- Kebolehcapaian → Walkie-Talkie: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- Kebolehcapaian → Ketik untuk Cakap: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- Kebolehcapaian → Pendengaran: `bridge:root=ACCESSIBILITY#HEARING`
+- Kebolehcapaian → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- Kebolehcapaian → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- Kebolehcapaian → RTT → Nombor Geganti: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- Kebolehcapaian → RTT → Hantar Serta-merta: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- Kebolehcapaian → RTT → Balasan Lalai: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- Kebolehcapaian → RTT → Balasan Lalai → Balasan Lalai: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- Kebolehcapaian → RTT → Balasan Lalai → Tambah balasan…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- Kebolehcapaian → Audio Mono: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- Kebolehcapaian → Imbangan Stereo Kiri-Kanan: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- Kebolehcapaian → Pemberitahuan Fon Kepala: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- Kebolehcapaian → Peranti Pendengaran: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- Kebolehcapaian → Komplikasi: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- Kebolehcapaian → Komplikasi → Kelantangan Mik: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Kebolehcapaian → Komplikasi → Program: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- Kebolehcapaian → Kelajuan Masa Taptik: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- Kebolehcapaian → Pintasan Kebolehcapaian: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- undefined: `bridge:root=ActiveWatch`
+- undefined → Pasangkan Jam Baharu: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Paparan App: `bridge:root=APP_VIEW_ID`
+- Umum: `bridge:root=GENERAL_LINK`
+- Umum → Perihal: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Umum → Perihal → Nama: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Umum → Perihal → Waranti Terhad: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- Umum → Perihal → Waranti Terhad → Waranti Terhad: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- Umum → Perihal → Waranti Terhad → BUTIRAN LIPUTAN: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- Umum → Perihal → Waranti Terhad → Liputan Perkakasan: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- Umum → Perihal → Waranti Terhad → Sokongan Bual & Telefon: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- Umum → Perihal → Lagu: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Umum → Perihal → Foto: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Umum → Perihal → Aplikasi: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Umum → Perihal → Kapasiti: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Umum → Perihal → Tersedia: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Umum → Perihal → Versi: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Umum → Perihal → Pembawa: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Umum → Perihal → Model: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Umum → Perihal → Nombor Siri: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Umum → Perihal → Alamat Wi-Fi: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID`
+- Umum → Perihal → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Umum → Perihal → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Umum → Perihal → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Umum → Perihal → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Umum → Perihal → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Umum → Perihal → Undang-undang: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- Umum → Perihal → Panduan Pengguna Apple Watch : `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- Umum → Kemas Kini Perisian: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Umum → Pemasangan App Auto: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Umum → Mod Pesawat: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Umum → Fokus: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Umum → Fokus → Cerminkan iPhone saya: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Umum → Orientasi Jam: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- Umum → Orientasi Jam → Pakai Apple Watch pada: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- Umum → Orientasi Jam → Pergelangan Tangan Kiri: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- Umum → Orientasi Jam → Pergelangan Tangan Kanan: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- Umum → Orientasi Jam → Digital Crown di Sebelah Kiri: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- Umum → Orientasi Jam → Digital Crown di Sebelah Kanan: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- Umum → Apple ID: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Umum → Dayakan Perencanaan: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Umum → Dayakan Handoff: `bridge:root=GENERAL_LINK#CONTINUITY`
+- Umum → Mod Meja Sisi: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Umum → Dayakan Gambar Skrin: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Umum → Storan: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Umum → Log Diagnostik: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Umum → Salin Analitis Jam: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Umum → Reset: `bridge:root=GENERAL_LINK&path=RESET`
+- Umum → Lancar Auto apabila Tenggelam: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Umum → Lancar Auto apabila Tenggelam → Lancar Auto App Audio: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- Umum → Bahasa & Rantau: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- Umum → Bahasa & Rantau → Cerminkan iPhone saya: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- Umum → Bahasa & Rantau → Tersuai: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- Umum → KEMBALI KE JAM: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- Umum → KEMBALI KE JAM → KEMBALI KE JAM: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- Umum → KEMBALI KE JAM → Sentiasa: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- Umum → KEMBALI KE JAM → Selepas 2 minit: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Umum → KEMBALI KE JAM → Selepas 1 jam: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Umum → KEMBALI KE JAM → APP: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- Umum → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Umum → Wake Screen → Kini Dimainkan: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Paparan & Kecerahan: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- Paparan & Kecerahan → Kecerahan: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- Paparan & Kecerahan → Sentiasa Aktif: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- Paparan & Kecerahan → Sentiasa Aktif → Sentiasa Aktif: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- Paparan & Kecerahan → Sentiasa Aktif → PERGELANGAN TANGAN DITURUNKAN: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Paparan & Kecerahan → Sentiasa Aktif → Tunjukkan Pemberitahuan: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- Paparan & Kecerahan → Sentiasa Aktif → Tunjukkan Pemberitahuan → Tunjukkan Pemberitahuan: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Paparan & Kecerahan → Sentiasa Aktif → Tunjukkan Pemberitahuan → APP APPLE WATCH: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- Paparan & Kecerahan → Sentiasa Aktif → Tunjukkan App: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- Paparan & Kecerahan → Sentiasa Aktif → Tunjukkan App → Tunjukkan App: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Paparan & Kecerahan → Sentiasa Aktif → Tunjukkan App → APP: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- Paparan & Kecerahan → Saiz Teks: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- Paparan & Kecerahan → Teks Tebal: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- Paparan & Kecerahan → BANGUN: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- Paparan & Kecerahan → Bangun bila Tangan Diangkat: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Paparan & Kecerahan → Bangun apabila Mahkota Diputar: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Paparan & Kecerahan → Tempoh Bangun: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- Paparan & Kecerahan → Tempoh Bangun → APABILA DIKETIK: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- Paparan & Kecerahan → Tempoh Bangun → Bangun selama 15 Saat: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- Paparan & Kecerahan → Tempoh Bangun → Bangun selama 70 Saat: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- Bunyi & Haptik: `bridge:root=SOUNDS_ID`
+- Bunyi & Haptik → Kelantangan Isyarat: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Bunyi & Haptik → Mod Senyap: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Bunyi & Haptik → Audio Fon Kepala: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Bunyi & Haptik → Keselamatan Fon Kepala: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Bunyi & Haptik → Keselamatan Fon Kepala → Pemberitahuan Fon Kepala: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Bunyi & Haptik → Keselamatan Fon Kepala → Kurangkan Bunyi Kuat: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Bunyi & Haptik → Haptik: `bridge:root=SOUNDS_ID#Haptics`
+- Bunyi & Haptik → Isyarat Haptik: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- Bunyi & Haptik → Haptik Mahkota: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Bunyi & Haptik → Haptik Sistem: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Bunyi & Haptik → Tutup untuk Senyap: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- SOS Kecemasan: `bridge:root=SOS_MODE_ID`
+- Privasi: `bridge:root=PRIVACY_ID`
+- Privasi → Kadar Jantung: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- Privasi → Kadar Respiratori: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- Privasi → Penjejakan Kecergasan: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- Privasi → Reset Data Kalibrasi Kecergasan: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- Privasi → Ukuran Bunyi Persekitaran: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- Privasi → Pengukuran Audio Fon Kepala: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- Privasi → Pengukuran Audio Fon Kepala → Simpan dalam Kesihatan: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- Privasi → Pengukuran Audio Fon Kepala → Selama 8 Hari: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- Privasi → Pengukuran Audio Fon Kepala → Sehingga Saya Padam: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- Privasi → Ukuran Oksigen Darah: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- Privasi → Suhu Pergelangan Tangan: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Masa Skrin: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Kedalaman: `bridge:root=com.apple.DepthCompanionSettings`
+- Butang Tindakan: `bridge:root=STING_TITLE`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Muat Turun Automatik: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Kemas Kini Automatik: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Kesihatan: `bridge:root=com.apple.BridgeHealthSettings`
+- Mail & Kalendar: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail & Kalendar → Akaun: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail & Kalendar → Tambah Akaun Google...: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail & Kalendar → Ambil: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail & Kalendar → Ambil → Tak Aktif: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail & Kalendar → Ambil → Setiap Jam: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail & Kalendar → Ambil → 30 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail & Kalendar → Ambil → 15 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Mencuci Tangan: `bridge:root=com.apple.BrookBridgeSettings`
+- Mencuci Tangan → Benarkan Pemberitahuan: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Mencuci Tangan → Hantar ke Pusat Pemberitahuan: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Mencuci Tangan → Pemberitahuan Tidak Aktif: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Mencuci Tangan → Himpunan Pemberitahuan: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Mencuci Tangan → Pemasa Mencuci Tangan: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Selular: `bridge:root=CELLULAR_ID`
+- Komplikasi: `bridge:root=COMPLICATIONS`
+- Aktiviti: `bridge:root=com.apple.HealthAppsSettings`
+- Aktiviti → Perkembangan Kemajuan: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Aktiviti → Perkembangan Kemajuan → Tiada: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Aktiviti → Perkembangan Kemajuan → Setiap 2 jam: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Aktiviti → Perkembangan Kemajuan → Setiap 4 jam: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Aktiviti → Perkembangan Kemajuan → Setiap 6 jam: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Aktiviti → Perkembangan Kemajuan → Setiap 8 jam: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Aktiviti → Pencapaian: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Aktiviti → Ringkasan Mingguan: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Aktiviti → Bimbingan Harian: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Aktiviti → Pelengkapan Matlamat: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Aktiviti → Cabaran Khas: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Aktiviti → Notifikasi Perkongsian Aktiviti: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Heart Rate: `bridge:root=com.apple.HeartRateSettings`
+- Heart Rate → Jantung: `bridge:root=com.apple.HeartRateSettings#1`
+- Heart Rate → Pemberitahuan Kadar Jantung: `bridge:root=com.apple.HeartRateSettings#2`
+- Heart Rate → Kadar Jantung Tinggi: `bridge:root=com.apple.HeartRateSettings#3`
+- Heart Rate → Kadar Jantung Rendah: `bridge:root=com.apple.HeartRateSettings#4`
+- Heart Rate → Ritma Tidak Tetap: `bridge:root=com.apple.HeartRateSettings#5`
+- Heart Rate → Lihat Rakaman ECG dalam Kesihatan: `bridge:root=com.apple.HeartRateSettings#6`
+- Heart Rate → ECG: `bridge:root=com.apple.HeartRateSettings#7`
+- Mesej: `bridge:root=com.apple.MessagesBridgeSettings`
+- Mesej → Cerminkan iPhone saya: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mesej → Tersuai: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Mesej → Balasan Lalai: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Mesej → Balasan Lalai → Balasan Lalai: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Mesej → Balasan Lalai → Balasan Pintar: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Mesej → Balasan Lalai → Tambah balasan…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Mesej → Isyarat Berulang: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Mesej → Mesej Audio: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Sedar Minda: `bridge:root=com.apple.MindSettings`
+- Sedar Minda → Benarkan Pemberitahuan: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Sedar Minda → Hantar ke Pusat Pemberitahuan: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Sedar Minda → Pemberitahuan Tidak Aktif: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Sedar Minda → Peringatan Sedar Minda: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Sedar Minda → Permulaan Hari: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Sedar Minda → Penghujung Hari: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Sedar Minda → Tambah Peringatan…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Sedar Minda → Ringkasan Mingguan: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Sedar Minda → Senyapkan untuk hari ini: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Sedar Minda → Kadar Bernafas: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Sedar Minda → Kadar Bernafas → 4 nafas seminit: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Sedar Minda → Kadar Bernafas → 5 nafas seminit: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Sedar Minda → Kadar Bernafas → 6 nafas seminit: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Sedar Minda → Kadar Bernafas → 7 nafas seminit: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Sedar Minda → Kadar Bernafas → 8 nafas seminit: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Sedar Minda → Kadar Bernafas → 9 nafas seminit: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Sedar Minda → Kadar Bernafas → 10 nafas seminit: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Sedar Minda → Haptik: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Sedar Minda → Haptik → Tiada: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Sedar Minda → Haptik → Minimum: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Sedar Minda → Haptik → Menonjol: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Tidur: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Tidur → Sediakan Tidur dalam App Kesihatan: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Buku Audio: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Buku Audio → Daftar Masuk: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Kalendar: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Kalendar → PEMBERITAHUAN: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Kalendar → Cerminkan iPhone saya: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Kalendar → Tersuai…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Kalendar → KALENDAR: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Jam: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Jam → Masa 24 Jam: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Jam → Bunyi Loceng: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Jam → Bunyi: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Jam → Bunyi → Loceng: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Jam → Bunyi → Burung: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Jam → Sebut Masa: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Jam → Kawal dengan Mod Senyap: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Jam → Sentiasa Sebut: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Jam → Masa Taptik: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Jam → Masa Taptik → Masa Taptik: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Jam → Masa Taptik → Digit: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Jam → Masa Taptik → Singkat: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Jam → Masa Taptik → Kod Morse: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Jam → Isyarat Push iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Jam → Penunjuk Pemberitahuan: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Jam → Monogram: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Jam → Pemberitahuan Muka Jam: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Jam → Singkatan Bandar: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Jam → Sumber Data Muka Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Kenalan: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Kenalan → Tertib Isih: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Kenalan → Tertib Isih → Pertama, Akhir: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Kenalan → Tertib Isih → Akhir, Pertama: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Kenalan → Tertib Paparan: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Kenalan → Tertib Paparan → Pertama, Akhir: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Kenalan → Tertib Paparan → Akhir, Pertama: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Kenalan → Nama Pendek: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Kenalan → Nama Pendek → Nama Pendek: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Kenalan → Nama Pendek → Nama Pertama & Parap Akhir: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Kenalan → Nama Pendek → Parap Pertama & Nama Akhir: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Kenalan → Nama Pendek → Nama Pertama Sahaja: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Kenalan → Nama Pendek → Nama Akhir Sahaja: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Kenalan → Nama Pendek → Utamakan Nama Panggilan: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Cerminkan iPhone saya: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Tersuai: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Seting Mail: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Akaun: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Sertakan Mel: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Pratonton Mesej: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Pratonton Mesej → Tiada: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Pratonton Mesej → 1 Baris: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Pratonton Mesej → 2 Baris: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Balasan Lalai: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Balasan Lalai → Balasan Lalai: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Balasan Lalai → Tambah balasan…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Tandatangan: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Peta: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Peta → Isyarat Membelok: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Peta → Memandu: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Peta → Memandu (CarPlay): `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Peta → Berjalan: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Peta → Berbasikal: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Peta → Tunjukkan Navigasi: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Peta → Transit: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Peta → Info Binaan:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Muzik: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Muzik → SENARAI MAIN & ALBUM: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Muzik → Tambah Muzik…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Wallet & Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Wallet & Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Wallet & Apple Pay → Tambah Kad: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Wallet & Apple Pay → Pemberitahuan: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Wallet & Apple Pay → Cerminkan iPhone saya: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Wallet & Apple Pay → Tersuai: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Foto: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Foto → Penyelarasan Foto: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Foto → Memori: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Foto → Selaraskan Memori: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Foto → Foto Ditampilkan: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Foto → Selaras Foto Ditampilkan: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Foto → Album: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Foto → Selaraskan Album: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Foto → Had Foto: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Foto → Seting Pemberitahuan: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Foto → Cerminkan iPhone saya: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Foto → Tersuai: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Bunyi: `bridge:root=com.apple.Noise.settings`
+- Bunyi → Ukuran Bunyi Persekitaran: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Bunyi → Pemberitahuan Bunyi: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Bunyi → Ambang Bunyi: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Bunyi → Ambang Bunyi → Tak Aktif: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Bunyi → Ambang Bunyi → 80 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Bunyi → Ambang Bunyi → 85 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Bunyi → Ambang Bunyi → 90 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Bunyi → Ambang Bunyi → 95 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Bunyi → Ambang Bunyi → 100 desibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Bunyi → Himpunan Pemberitahuan: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Oksigen Darah: `bridge:root=com.apple.OxygenSaturationSettings`
+- Seting Pembawa: `bridge:root=CARRIER_SETTINGS`
+- Nyahaktifkan Kod Laluan: `bridge:root=PASSCODE_ID`
+- Nyahaktifkan Kod Laluan → Aktifkan Kod Laluan: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Nyahaktifkan Kod Laluan → Tukar Kod Laluan: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Nyahaktifkan Kod Laluan → Kod Laluan Ringkas: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Nyahaktifkan Kod Laluan → Buka Kunci dengan iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Nyahaktifkan Kod Laluan → Padam Data: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Nyahaktifkan Kod Laluan → Pengesan Tangan: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Telefon: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefon → Panggilan: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefon → Nada Dering: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefon → Bunyi: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefon → Haptik: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Latihan: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Latihan → Mod Kuasa Rendah: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Latihan → Tunjukkan Metrik Matlamat: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Latihan → Paparan Latihan: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Latihan → Jeda Auto: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Latihan → Jeda Auto → Jeda Auto: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Latihan → Peringatan Mula Latihan: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Latihan → Peringatan Tamat Latihan: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Latihan → Tekan untuk Jeda: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Latihan → Kesan Peralatan Gim: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Latihan → Paparan Kadar/Kelajuan: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Latihan → Paparan Kadar/Kelajuan → Semasa: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Latihan → Paparan Kadar/Kelajuan → Purata: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Latihan → Senarai Main Latihan: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Latihan → Senarai Main Latihan → Tiada: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Latihan → Senarai Main Latihan → Senarai Main: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Latihan → Main dari awal: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Latihan → Rombak: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Latihan → Unit Ukuran: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Latihan → Unit Ukuran → Kalori: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Latihan → Unit Ukuran → Kilokalori: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Latihan → Unit Ukuran → Kilojoule: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Latihan → Unit Ukuran → Ela: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Latihan → Unit Ukuran → Meter: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Latihan → Unit Ukuran → Batu: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Latihan → Unit Ukuran → Kilometer: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Latihan → Maklum Balas Suara: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Latihan → Masa Berjalan: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Latihan → Tambah Latihan Baharu ke Jam: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Saham: `bridge:root=com.apple.StocksBridgeSettings`
+- Saham → Komplikasi Muka Jam Menunjukkan: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Saham → Harga Semasa: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Saham → Perubahan Mata: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Saham → Perubahan Peratusan: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Saham → Modal Pasaran: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Saham → Muka Siri Menunjukkan Harga untuk: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Saham → Saham Dipilih: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Saham → Saham Dipilih → Saham Dipilih: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Dock: `bridge:root=DOCK`
+- Dock → Tertib Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Terbaru: `bridge:root=DOCK#Recents`
+- Dock → Kegemaran: `bridge:root=DOCK#Favorites`
+- Podcast: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Minta Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → Angkat untuk Cakap: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Tekan Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Maklum Balas Suara: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Maklum Balas Suara → Sentiasa Aktif: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Maklum Balas Suara → Kawal dengan Mod Senyap: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Maklum Balas Suara → Fon Kepala Sahaja: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Kelantangan Suara: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Cadangan Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Walkie-Talkie: `bridge:root=com.apple.tincan.settings`
+- Walkie-Talkie → Benarkan Pemberitahuan: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Walkie-Talkie → Hantar ke Pusat Pemberitahuan: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Walkie-Talkie → Pemberitahuan Tidak Aktif: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Walkie-Talkie → Himpunan Pemberitahuan: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Walkie-Talkie → Rakan: `bridge:root=com.apple.tincan.settings#Friends`
+- Cuaca: `bridge:root=com.apple.weatherbridgesettings`
+- Cuaca → Bandar Lalai: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Cuaca → Bandar Lalai → Bandar Lalai: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Cuaca → Bandar Lalai → Lokasi Semasa: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Hantar Resit Dibaca: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

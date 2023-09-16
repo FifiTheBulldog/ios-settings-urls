@@ -1,0 +1,1156 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "พื้นที่จัดเก็บข้อมูล iCloud": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "รูปภาพ": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "เมล": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "รายชื่อ": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "ปฏิทิน": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "เตือนความจำ": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "โน้ต": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "ข่าว": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "ข้อมูลสำรอง": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "สุขภาพ": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "รหัสผ่านและพวงกุญแจ": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Private Relay": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "แชร์ตำแหน่งที่ตั้งของฉัน": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "ค้นหา iPhone ของฉัน": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "ชื่อ เบอร์โทรศัพท์ อีเมล": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "รหัสผ่านและความปลอดภัย": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "การชำระเงินและการจัดส่ง": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "การสมัครรับ": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "ครอบครัว": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "ความเป็นส่วนตัวและความปลอดภัย": {
+    "(root)": "prefs:root=Privacy",
+    "การตรวจสอบด้านความปลอดภัย": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "ตำแหน่งที่ตั้ง": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "แชร์ตำแหน่งที่ตั้งของฉัน": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "รายชื่อ": "prefs:root=Privacy&path=CONTACTS",
+    "ปฏิทิน": "prefs:root=Privacy&path=CALENDARS",
+    "เตือนความจำ": "prefs:root=Privacy&path=REMINDERS",
+    "รูปภาพ": "prefs:root=Privacy&path=PHOTOS",
+    "การแชร์บลูทูธ": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "ไมโครโฟน": "prefs:root=Privacy&path=MICROPHONE",
+    "การจำเสียงพูด": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "กล้อง": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "สื่อและ Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "การวิเคราะห์": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "การโฆษณา": "prefs:root=Privacy&path=ADVERTISING",
+    "ไฟล์และโฟลเดอร์": "prefs:root=Privacy&path=FILEACCESS",
+    "การติดตาม": "prefs:root=Privacy&path=USER_TRACKING",
+    "รายงานความเป็นส่วนตัวของแอป": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "โหมดล็อคดาวน์": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "สุขภาพ": "prefs:root=Privacy&path=HEALTH"
+  },
+  "โฟกัส": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "สถานะโฟกัส": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "ทั่วไป": {
+    "(root)": "prefs:root=General",
+    "การจัดการ VPN และอุปกรณ์": "prefs:root=General&path=ManagedConfigurationList",
+    "หน้าต่างย่อยในหน้าต่างหลัก": "prefs:root=General&path=PiP_SPEC",
+    "แทร็คแพดและเมาส์": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "เกี่ยวกับ": {
+      "(root)": "prefs:root=General&path=About",
+      "ใบรับรองที่เชื่อถือแล้ว": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "กฏหมายและระเบียบข้อบังคับ": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "รายการอัปเดตซอฟต์แวร์": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "ปุ่มโฮม": "prefs:root=General&path=HOME_BUTTON",
+    "คำสั่งนิ้ว": "prefs:root=General#Multitasking_Gesture_Switch",
+    "สวิตช์ด้านข้าง": "prefs:root=General#Rotation_Switch_Action_Group",
+    "ดึงข้อมูลแอปอยู่เบื้องหลัง": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "วันที่และเวลา": "prefs:root=General&path=DATE_AND_TIME",
+    "สัญญาณทีวีออก": "prefs:root=General&path=TV_OUT",
+    "ระเบียบข้อบังคับ": "prefs:root=General&path=REGULATORY",
+    "รีเซ็ต": {
+      "(root)": "prefs:root=General&path=Reset",
+      "รีเซ็ตการตั้งค่าทั้งหมด": "prefs:root=General&path=Reset#settingsErase",
+      "ลบข้อมูลและการตั้งค่าทั้งหมด": "prefs:root=General&path=Reset#fullErase",
+      "รีเซ็ตการตั้งค่าเครือข่าย": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "เอาแผนบริการข้อมูลเซลลูลาร์ทั้งหมดออก": "prefs:root=General&path=Reset#cellularErase",
+      "บริการบอกรับผู้สมัคร": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "รีเซ็ตพจนานุกรมแป้นพิมพ์": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "รีเซ็ตการจัดเรียงไอคอนบนหน้าจอโฮม": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "รีเซ็ตตำแหน่งที่ตั้งและความเป็นส่วนตัว": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "ปิดเครื่อง": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay และ Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "ย้ายไปบน HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "AirPlay ไปยังทีวีโดยอัตโนมัติ": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "ความต่อเนื่องของกล้อง": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "พจนานุกรม": "prefs:root=General&path=DICTIONARY",
+    "ภาษาและภูมิภาค": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "ภาษาอื่น…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "ลำดับภาษาที่ต้องการ": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "เพิ่มภาษา…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "ภูมิภาค": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "ตัวเลข": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "ปฏิทิน": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "หน่วยวัดอุณหภูมิ": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "แป้นพิมพ์": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "แป้นพิมพ์": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "การแทนที่ข้อความ": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "ตัวพิมพ์ใหญ่อัตโนมัติ": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "แก้ไขคำผิดอัตโนมัติ": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "ตรวจสอบการสะกด": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "เปิดใช้งานปุ่ม Caps Lock": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "คำสั่งลัด": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "การคาดเดา": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "เครื่องหมายวรรคตอนอัจฉริยะ": "prefs:root=General&path=Keyboard#SmartTyping",
+      "แป้นพิมพ์แยกออก": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "เปิดใช้งานการตวัดปุ่ม": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "แสดงตัวอย่างอักขระ": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "ปุ่มลัด “.”": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "ลากนิ้วเพื่อป้อน": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "เปิดใช้งานการป้อนตามคำบอก": "prefs:root=General&path=Keyboard#Dictation",
+      "เครื่องหมายวรรคตอนอัตโนมัติ": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "พื้นที่จัดเก็บข้อมูล": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "เอาแอปที่ไม่ได้ใช้ออก": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "การแจ้งเตือน": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "กำหนดเวลาส่งสรุป": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "กระเป๋าสตางค์และ Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "บัตรชำระเงิน": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "เพิ่มบัตร": "prefs:root=PASSBOOK#Add%20Card",
+    "กดปุ่มด้านข้างสองครั้ง": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "การติดตามคำสั่งซื้อ": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "เวลาหน้าจอ": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "วันนี้": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "สัปดาห์": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "เวลาไม่ใช้งาน": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "การจำกัดการใช้แอป": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "การจำกัดการสื่อสาร": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "ความปลอดภัยในการสื่อสาร": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "อนุญาตเสมอ": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "จำกัดเนื้อหาและความเป็นส่วนตัว": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "การควบคุมโดยผู้ปกครอง": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "การช่วยการเข้าถึง": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "การมองเห็น": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "ความเร็วการอ่านออกเสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "เสียงพูด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "เสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "การแสดงรายละเอียด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "เครื่องหมายวรรคตอน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "หัวตาราง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "คำบรรยายสื่อ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "ปิด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "เสียงพูด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "อักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "เสียงพูดและอักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "อักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "การแสดงผล": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "อักษรเบรลล์อย่างเต็มแบบหกจุด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "อักษรเบรลล์อย่างเต็มแบบแปดจุด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "อักษรเบรลล์ย่อ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "การป้อน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "อักษรเบรลล์อย่างเต็มแบบหกจุด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "อักษรเบรลล์อย่างเต็มแบบแปดจุด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "อักษรเบรลล์ย่อ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "การแปลอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "สัญญาณเข้าจอแสดงผลอักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "อักษรเบรลล์อย่างเต็มแบบหกจุด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "อักษรเบรลล์อย่างเต็มแบบแปดจุด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "อักษรเบรลล์ย่อ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "กลับด้านตำแหน่งจุด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "ตารางอักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "เพิ่มตารางอักษรเบรลล์…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "เซลล์สถานะ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "ตำแหน่งเซลล์สถานะ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "ซ้าย": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "ขวา": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "แสดงสถานะทั่วไป": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "แสดงสถานะข้อความ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "สมการใช้รหัส Nemeth": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "แสดงแป้นพิมพ์บนหน้าจอ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "พลิกหน้าเมื่อเลื่อนดูผ่านหน้า": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "การตัดคำ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "ข้อความเตือนอักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "ไม่สนใจระยะเวลาห่างระหว่างปุ่มกด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "ระยะการเลื่อนดูถัดไปโดยอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "เสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "การหลบเสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "เลือกลำโพงอัตโนมัติขณะใช้สาย": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "ส่งแบบ HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "คำสั่ง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "กิจกรรม": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "เขียนโปรแกรม": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "เพิ่มกิจกรรม…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "ตัวหมุน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "การทำงานของตัวหมุน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "แก้ไขแอปบนหน้าจอโฮม": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "แอปการแตะโดยตรง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "การป้อน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "ลักษณะการป้อน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "ป้อนแบบมาตรฐาน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "ป้อนแบบสัมผัส": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "ป้อนแบบสัมผัสโดยตรง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "เสียงพูดการออกเสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "ปิด": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "อักขระและการออกเสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "การออกเสียงเท่านั้น": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "เสียงอ่านขณะป้อน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "ปุ่มปรับค่า": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "ปุ่ม Control + ปุ่ม Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "ปุ่ม Caps Lock": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "ระยะเวลาโต้ตอบกับแป้นพิมพ์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "นำทางรูปภาพ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "ตลอดเวลา": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "พร้อมคำบรรยาย": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "ไม่เลย": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "เคอร์เซอร์ใหญ่": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "แผงคำบรรยาย": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "ช่วงเวลาแตะสองครั้ง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "ช่วงเวลาแตะสองครั้ง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "ลักษณะการนำทาง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "การตั้งค่าอย่างเร็ว": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "เสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "การหลบเสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "ระดับเสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "ความเร็วการอ่านออกเสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "คำอธิบาย": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "ลักษณะการนำทาง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "ลักษณะการป้อน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "ลากเพื่อป้อน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "กิจกรรม": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "อ่านออกเสียงการแจ้งเตือนเสมอ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "ข้อความเตือนอักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "การเลื่อนดูอักษรเบรลล์ถัดไปโดยอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "การป้อนอักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "การแสดงผลอักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "ตารางอักษรเบรลล์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "แผงคำบรรยาย": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "สัมผัสโดยตรง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "ทิศทางคำสั่งนิ้ว": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "เสียงอ่านขณะป้อนสำหรับฮาร์ดแวร์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "ภาษา": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "เคอร์เซอร์ใหญ่": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "คำบรรยายสื่อ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "นำทางรูปภาพ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "เสียงพูดการออกเสียง": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "เปลี่ยนระดับเสียงสูงต่ำ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "เครื่องหมายวรรคตอน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "ส่งแบบ HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "เสียงอ่านขณะป้อนสำหรับซอฟต์แวร์": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "อ่านออกเสียงการยืนยันตัวหมุน": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "คำอธิบายภาพ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "การเรียนรู้หน้าจอ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "การเรียนรู้ VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "คำอธิบายภาพ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "การเรียนรู้หน้าจอ": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "ซูม": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "ซูม": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "ตามโฟกัส": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "การป้อนแบบอัจฉริยะ": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "ปุ่มลัดแป้นพิมพ์": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "ปุ่มลัดแป้นพิมพ์": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "ปรับระดับซูม": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "สลับระหว่างซูมหรือไม่ซูม": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "ย้ายหน้าต่างซูม": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "เปลี่ยนขนาดหน้าต่างซูม": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "เปลี่ยนลักษณะบริเวณซูม": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "สลับระหว่างซูมหรือไม่ซูมชั่วคราว": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "ซูมด้วยลูกกลิ้ง": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "ตัวควบคุมการซูม": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "บริเวณซูม": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "ซูมแบบโหมดเต็มหน้าจอ": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "ซูมแบบหน้าต่าง": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "ระดับซูมสูงสุด": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "ฟิลเตอร์การซูม": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "แสดงในระหว่างการสะท้อนภาพ": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "อยู่เหนือข้อความ": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "จอภาพและขนาดข้อความ": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "ข้อความตัวหนา": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "ข้อความตัวใหญ่": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "รูปร่างปุ่ม": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "สัญลักษณ์เปิดหรือปิด": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "ลดความโปร่งใส": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "เพิ่มความต่างระดับสี": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "แยกความแตกต่างโดยไม่ใช้สี": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "การกลับสีแบบอัจฉริยะ": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "การกลับสีแบบคลาสสิก": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "ฟิลเตอร์สี": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "ฟิลเตอร์สี": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "ลดแสงขาว": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "ปรับความสว่างอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "การเคลื่อนไหว": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "ลดการเคลื่อนไหว": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "เล่นเอฟเฟ็กต์ข้อความอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "เล่นตัวอย่างวิดีโออัตโนมัติ": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "การอ่านเนื้อหา": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "อ่านออกเสียงสิ่งที่เลือก": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "อ่านออกเสียงหน้าจอ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "ตัวควบคุมเสียงพูด": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "กำหนดปุ่มเมาส์เอง": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "ไฮไลท์เนื้อหา": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "เสียงอ่านขณะป้อน": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "เสียงอ่านอักขระ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "อักขระ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "คำอธิบายอักขระเบื้องต้น": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "อ่านออกเสียงเป็นคำ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "อ่านออกเสียงข้อความอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "แตะค้างเพื่ออ่านคำคาดเดา": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "เสียง": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "ภาษาเริ่มต้น": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "ตรวจหาภาษา": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "ความเร็วการอ่านออกเสียง": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "การออกเสียง": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "คำบรรยายเสียง": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "คำบรรยายเสียง": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "กายภาพและการเคลื่อนไหว": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "สัมผัส": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "กำหนดเมนูระดับบนสุดเอง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "แตะไอคอนเพื่อเปลี่ยน:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "รีเซ็ต…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "กำหนดการทำงานเอง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "แตะหนึ่งครั้ง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "แตะสองครั้ง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "ช่วงเวลาแตะสองครั้ง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "กดค้าง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "ช่วงเวลาที่ต้องกดค้าง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "กำหนดคำสั่งนิ้วเอง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "สร้างคำสั่งนิ้วใหม่…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "ความทึบเมื่อไม่ได้ใช้งาน": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "อุปกรณ์ตัวชี้": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "อุปกรณ์": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "อุปกรณ์บลูทูธ…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "ปุ่มเมาส์": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "ลักษณะตัวชี้": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "ขนาด": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "ภาพ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "สี": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "กำหนดปุ่มเมาส์เอง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "ซ่อนอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_1156": {
+            "ซ่อนอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "แสดงแป้นพิมพ์บนหน้าจอ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "แสดงเมนูตลอดเวลา": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "การควบคุมการอยู่นิ่ง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "ขีดจำกัดการเคลื่อนที่": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "ความไวการเลื่อนตัวชี้": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "การทำงานรองรับ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "มุมด่วน": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "ใช้อุปกรณ์ควบคุมเกม": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D Touch และการแตะค้างแบบสั่น": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_1157": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "ความไวของการกดแบบ 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "ระยะเวลากดค้าง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "เร็ว": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "ช้า": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "ความไวของการกดแบบ 3D Touch และการทดสอบระยะเวลาแตะค้าง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "การช่วยปรับการสัมผัส": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_1158": {
+        "การช่วยปรับการสัมผัส": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "ระยะเวลากดค้าง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "ไม่สนใจการกดซ้ำ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "การช่วยเหลือการแตะ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "ปิด": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "ใช้ตำแหน่งสัมผัสแรก": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "ใช้ตำแหน่งสัมผัสสุดท้าย": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "แตะเพื่อปลุก": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "แตะหรือปัดเพื่อปลุก": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "เขย่าเพื่อเลิกทำ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "การสั่น": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "ป้องกันการกดปุ่มล็อคเพื่อวางสาย": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "ปลายทางการโทร": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_1159": {
+        "อัตโนมัติ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "หูฟังบลูทูธ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "ลำโพง": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "การรับสายอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID และการตั้งใจมอง": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "ต้องตั้งใจมองเพื่อใช้ Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "คุณสมบัติการตั้งใจมอง": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "การสั่น": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "การสั่นเมื่อตรวจสอบสิทธิ์สำเร็จ": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "การควบคุมสวิตช์": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "การควบคุมสวิตช์": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "สวิตช์": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_1160": {
+        "เพิ่มสวิตช์ใหม่…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "อุปกรณ์บลูทูธ…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "สูตร": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "ลักษณะการสแกน": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_1161": {
+        "การสแกนอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "การสแกนด้วยตนเอง": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "การสแกนที่ใช้สวิตช์เดียว": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "ระยะเวลา": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "ระยะเวลาสแกนอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_1162": {
+        "ระยะเวลาสแกนอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "รอหลังรายการแรก": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_1163": {
+        "รอหลังรายการแรก": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "ระยะเวลาที่ต้องรอก่อนไป": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_1164": {
+        "ระยะเวลาที่ต้องรอก่อนไป": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "กดค้าง": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_1165": {
+        "กดค้าง": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "การทำงานการแตะ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_1166": {
+        "ค่าเริ่มต้น": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "แตะโดยอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "แตะเองเสมอ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "รายการที่โฟกัสหลังจากแตะ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_1167": {
+        "รายการแรก": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "รายการปัจจุบัน": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "แป้นพิมพ์": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "สแกนปุ่มเดิมหลังจากแตะ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "แตะปุ่มบนแป้นพิมพ์เองเสมอ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "การคาดเดาเพิ่มเติม": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "ความเสถียรของสวิตช์": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "ระยะเวลากดค้าง": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_1168": {
+        "ระยะเวลากดค้าง": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "ไม่สนใจการกดซ้ำ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_1169": {
+        "ไม่สนใจการกดซ้ำ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "การสแกนตามจุด": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "การลื่นไหลของเคอร์เซอร์": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_1170": {
+        "โหมดการเลือก": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "หนึ่งเดียว": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "เพิ่มรายละเอียด": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "แม่นยำ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "ความเร็วการลื่นไหลของเคอร์เซอร์": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "การติดตามศีรษะ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_1171": {
+        "การติดตามศีรษะ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "เสียง": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "เอฟเฟ็กต์เสียง": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "เสียงพูด": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_1172": {
+        "เสียง": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "ความเร็วการอ่านออกเสียง": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "รายการเมนู": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "กลุ่มรายการ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "ภาพ": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "เคอร์เซอร์ใหญ่": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "คำสั่งนิ้วที่บันทึก": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_1173": {
+        "สร้างคำสั่งนิ้วใหม่…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "สีเคอร์เซอร์": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "การสั่งการด้วยเสียง": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "ตั้งค่าการสั่งการด้วยเสียง": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "ภาษา": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_1174": {
+        "อังกฤษ (สหรัฐอเมริกา)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "กำหนดคำสั่งเอง": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "คำศัพท์": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "เสียงอ่านคำสั่ง": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "แสดงการยืนยัน": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "เล่นเสียง": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "แสดงคำแนะนำ": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "ชื่อหรือหมายเลขซ้อนทับต่อเนื่อง": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "ชื่อหรือหมายเลขซ้อน": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_1175": {
+        "ไม่มี": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "หมายเลขรายการ": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "ชื่อรายการ": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "ช่องตารางที่มีหมายเลข": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "การตั้งใจมอง": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "ปุ่มด้านข้าง": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "ความเร็วการกด": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "ค่าเริ่มต้น": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "ช้า": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "ช้าที่สุด": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "กดค้างไว้เพื่อพูด": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "การสั่งการด้วยเสียงแบบคลาสสิก": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "ปิด": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Apple TV Remote": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "ปุ่มลูกศร": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "หน้าจอระยะไกล Apple Watch": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "แป้นพิมพ์": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "การควบคุมทั้งหมดโดยใช้แป้นพิมพ์": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_1176": {
+        "การควบคุมทั้งหมดโดยใช้แป้นพิมพ์": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "ภาพ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "ซ่อนอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "วงโฟกัสขนาดใหญ่": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "สี": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "การกดปุ่มซ้ำ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_1177": {
+        "การกดปุ่มซ้ำ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "ช่วงเวลากดปุ่มซ้ำ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "การหน่วงเวลาก่อนจะทำซ้ำ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "ปุ่มหนืด": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_1178": {
+        "ปุ่มหนืด": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "สลับระหว่างเปิดหรือปิดด้วยปุ่ม Shift": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "เสียง": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "ปุ่มช้า": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_1179": {
+        "ปุ่มช้า": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "แป้นพิมพ์แบบซอฟต์แวร์": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "แสดงปุ่มตัวพิมพ์เล็ก": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "การฟัง": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "อุปกรณ์รับฟัง": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "อุปกรณ์รับฟัง MFi": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "บลูทูธ": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "ใช้งานร่วมกันได้กับอุปกรณ์ช่วยฟัง": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "การจำเสียง": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "เสียง": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "ซอฟต์แวร์ TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "ฮาร์ดแวร์ TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "เสียงและภาพ": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "เสียง": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "การช่วยปรับหูฟัง": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_1180": {
+        "การช่วยปรับหูฟัง": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "การตั้งค่าการกำหนดเสียง": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "เสียงเบื้องหลัง": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "เสียงโมโน": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "การตัดเสียงรบกวนโทรศัพท์": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "ความสมดุล": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "ภาพ": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "แฟลช LED สำหรับการเตือน": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_1181": {
+        "แฟลชในระหว่างไม่ได้ล็อค": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "แฟลชในโหมดปิดเสียง": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "เสียงสเตอริโอสมดุลกันทั้งซ้ายและขวา": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "เสียงขณะเปิดและปิดเครื่อง": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "คำบรรยายและคำบรรยายภาพ": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "ลักษณะ": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "คำบรรยายภาพ + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "แสดงข้อความถอดเสียง": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_1182": {
+      "คำบรรยายเสียงสด (รุ่นเบต้า)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "คำบรรยายเสียงสดใน FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "ทั่วไป": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "การใช้งานเครื่องตามที่กำหนด": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "การใช้งานเครื่องตามที่กำหนด": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "การตั้งค่ารหัส": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_1183": {
+        "ตั้งรหัสการใช้งานเครื่องตามที่กำหนด": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "การจำกัดเวลา": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_1184": {
+        "การเตือน": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "เสียง": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "อ่านออกเสียง": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "ปุ่มลัดการช่วยการเข้าถึง": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "ล็อคจอภาพอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "โหมดกำหนดการช่วยการเข้าถึง": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "พิมพ์โต้ตอบกับ Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "เสียงพูดโต้ตอบ": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "เสียงพูดโต้ตอบอัตโนมัติ": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "ต้องการการโต้ตอบแบบปิดเสียง": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "ไม่พูดเสียงโต้ตอบในโหมดปิดเสียง": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "รับฟัง \"หวัดดี Siri\" เสมอ": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "ปุ่มลัดการช่วยการเข้าถึง": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "แว่นขยาย": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "การตั้งค่าเฉพาะแอป": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "ควบคุมอุปกรณ์ใกล้เคียง": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "จอภาพและความสว่าง": {
+    "(root)": "prefs:root=DISPLAY",
+    "รูปแบบ": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "กำหนดเวลา": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "เปิดใช้งานจนถึงวันพรุ่งนี้": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "อุณหภูมิสี": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "ตั้งล็อคโดยอัตโนมัติ": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "ยกขึ้นเพื่อปลุก": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "ล็อคหรือปลดล็อค": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "ขนาดข้อความ": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "ข้อความตัวหนา": "prefs:root=DISPLAY#BOLD_TEXT",
+    "การซูมหน้าจอ": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "มุมมอง": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "การแจ้งเตือนการสัมผัสเชื้อ": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_1185": {
+    "ป้ายกำกับการแจ้งเตือน": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "แอปที่ดาวน์โหลดใหม่": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "หน้าจอโฮมและงานมัลติทาสก์": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_1186": {
+      "แสดงคลังแอปบน Dock": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "แสดงแอปที่แนะนำและแอปที่ใช้ล่าสุดบน Dock": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "หน้าจอโฮม": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "แอปที่ดาวน์โหลดใหม่": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "ป้ายกำกับการแจ้งเตือน": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID และรหัส": {
+    "(root)": "prefs:root=PASSCODE",
+    "ปิดการใช้รหัส": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "เปลี่ยนรหัส": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "ต้องใช้รหัส": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "โทรออกด้วยเสียง": "prefs:root=PASSCODE#VOICE_DIAL",
+    "อนุญาตให้เข้าถึงขณะล็อคอยู่": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "ตอบกลับเป็นข้อความ": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "ตัวควบคุมบ้าน": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "กระเป๋าสตางค์": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "โทรกลับสายที่ไม่ได้รับ": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "ลบข้อมูล": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "ปลดล็อคด้วย Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "พ็อดคาสท์": "prefs:root=PODCASTS",
+  "SOS ฉุกเฉิน": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "โทรด้วยปุ่มด้านข้าง": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "โทรอัตโนมัติ": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "รายชื่อติดต่อฉุกเฉิน": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "เสียงนับเวลา": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "เสียง": {
+    "(root)": "prefs:root=Sounds",
+    "ความปลอดภัยหูฟัง": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "อะแดปเตอร์แบบ Lightning": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "การแจ้งเตือนหูฟัง": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "ลดเสียงดัง": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "เอฟเฟ็กต์เสียง": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "เสียงเรียกเข้าและเสียงเตือน": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "ปรับเปลี่ยนด้วยปุ่ม": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "เสียงและรูปแบบลักษณะการสั่น": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "เสียงเรียกเข้า": "prefs:root=Sounds&path=Ringtone",
+    "เสียงข้อความ": "prefs:root=Sounds&path=Text_Messages",
+    "วอยซ์เมลใหม่": "prefs:root=Sounds&path=Voicemail",
+    "เมลใหม่": "prefs:root=Sounds&path=NEW_MAIL",
+    "ส่งเมล": "prefs:root=Sounds&path=SENT_MAIL",
+    "เสียงเตือนปฏิทิน": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "เสียงเตือนความจำ": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "เสียงกดแป้นพิมพ์": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "เสียงล็อคหน้าจอ": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "สภาพอากาศ": "prefs:root=WEATHER",
+  "เข็มทิศ": {
+    "(root)": "prefs:root=COMPASS",
+    "ใช้ทิศเหนือจริง": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "ศูนย์ควบคุม": {
+    "(root)": "prefs:root=ControlCenter",
+    "เข้าถึงจากภายในแอป": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "กำหนดตัวควบคุมเอง": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "นักพัฒนา": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "เครือข่ายทางเดินข้อมูลหลายทาง": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "เครือข่ายทางเดินข้อมูลหลายทาง": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "รูปแบบ": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "แบบมืด": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "อุปกรณ์ที่จับคู่": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "ล้างรายการคอมพิวเตอร์ที่เชื่อถือแล้ว": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "เครื่องดนตรี": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "การเก็บบันทึกการใช้งาน": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "UI ของการทำงานอัตโนมัติ": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "ระบบเครือข่าย": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "เงื่อนไขลิงก์เครือข่าย": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "การทดสอบแอปของนักพัฒนา iAd": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "อัตราการเติม": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "ไฮไลท์ป้ายประกาศที่ถูกตัด": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "การแสดงโฆษณาแบบไม่จำกัด": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "การทดสอบ PassKit": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "บันทึกการใช้งานเพิ่มเติม": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "อนุญาตบริการ HTTP": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "ปิดใช้งานการจำกัดอัตรา": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "ตัวเลือกรหัสบัตร NFC": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "การทดสอบบริการสื่อ": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "คำแนะนำ AirPlay": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "รีเซ็ตบริการสื่อ": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "การทดสอบ News": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "รีเซ็ตข้อมูลภายในเครื่องในครั้งถัดไปที่เปิดใช้": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "การทดสอบเฟรมเวิร์คเครื่องเล่นสื่อ": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API สำหรับเนื้อหาที่สามารถเล่นได้": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "การทดสอบผู้ให้บริการทีวี": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "ผู้ให้บริการทีวี": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "การทดสอบ CoreSpotlight": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "จัดเรียงดัชนีทั้งหมดใหม่": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "จัดเรียงดัชนีทั้งหมดตามข้อมูลจำเพาะ": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "การทดสอบคำสั่งลัด": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "แสดงคำสั่งลัดล่าสุด": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "แสดงสื่อถัดไป": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "แสดงการบริจาคบนหน้าจอล็อค": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "บังคับเชื่อมข้อมูลคำสั่งลัดกับ Apple Watch": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "การทดสอบ MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "เปิดใช้งาน MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "สุขภาพ": "prefs:root=HEALTH",
+  "เครื่องมือวัด": {
+    "(root)": "prefs:root=MEASURE",
+    "หน่วยวัด": "prefs:root=MEASURE#MEASURE_UNITS",
+    "ระบบอังกฤษ": "prefs:root=MEASURE#Imperial",
+    "เมตริก": "prefs:root=MEASURE#Metric"
+  },
+  "เพลง": {
+    "(root)": "prefs:root=MUSIC",
+    "แสดง Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "เพิ่มเพลงจากเพลย์ลิสต์": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "แสดงดาวจัดอันดับ": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "คลังเชื่อมข้อมูล": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "ข้อมูลเซลลูลาร์": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "เพลงที่ดาวน์โหลดแล้ว": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "ปรับขนาดพื้นที่จัดเก็บข้อมูล": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "รายการดาวน์โหลดอัตโนมัติ": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "EQ": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "ปรับเสียงอัตโนมัติ": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "ใช้ประวัติการฟัง": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "โน้ต": {
+    "(root)": "prefs:root=NOTES",
+    "บัญชีเริ่มต้น": "prefs:root=NOTES&path=Default%20Account",
+    "รหัสผ่าน": "prefs:root=NOTES&path=Password",
+    "เรียงโน้ตตาม": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "เริ่มโน้ตใหม่ด้วย": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "เรียงรายการที่เสร็จแล้ว": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "เส้นและตาราง": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "บันทึกไปยังแอปรูปภาพ": "prefs:root=NOTES#Save%20to%20Photos",
+    "เข้าถึงโน้ตบนหน้าจอล็อค": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "ข้อความ": "prefs:root=MESSAGES",
+  "แปลภาษา": {
+    "(root)": "prefs:root=TRANSLATE",
+    "โหมดบนอุปกรณ์": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "ผู้ให้บริการทีวี": "prefs:root=VIDEO_SUBSCRIBER",
+  "เสียงบันทึก": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "ล้างรายการที่ถูกลบ": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "คุณภาพเสียง": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "การตั้งชื่อตามตำแหน่งที่ตั้ง": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "กล้อง": {
+    "(root)": "prefs:root=CAMERA",
+    "รูปแบบ": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_1187": {
+      "วิดีโอ HDR": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "รักษาการตั้งค่า": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "โหมดกล้อง": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "เส้นตาราง": "prefs:root=CAMERA#CameraGridSwitch",
+    "สแกนคิวอาร์โค้ด": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "แผนที่": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "รายชื่อ": {
+    "(root)": "prefs:root=CONTACTS",
+    "อนุญาตให้รายชื่อเข้าถึง": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri และการค้นหา": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "ลำดับการเรียง": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "ลำดับแสดง": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "ชื่อย่อ": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "ชื่อย่อ": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "ต้องการใช้ชื่อเล่น": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "ข้อมูลของฉัน": "prefs:root=CONTACTS&path=MeCard",
+    "นำเข้ารายชื่อซิม": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "หนังสือ": {
+    "(root)": "prefs:root=IBOOKS",
+    "เนื้อหาออนไลน์": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "การเชื่อมข้อมูล": "prefs:root=IBOOKS#SYNCING",
+    "กำลังอ่านอยู่": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "การอ่าน": "prefs:root=IBOOKS#READING",
+    "จัดขอบเอกสารแบบเสมอหน้า": "prefs:root=IBOOKS#BKFullJustification",
+    "ใส่เครื่องหมายขีดสั้นอัตโนมัติ": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "ระยะขอบทั้งคู่": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "เป้าหมายการอ่าน": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "ล้างข้อมูลเป้าหมายการอ่าน": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "การค้นหา": "prefs:root=IBOOKS#SEARCHING",
+    "ร้านหนังสือ": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "หนังสือเสียง": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "ข้ามไปข้างหน้า": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "ข้ามไปข้างหลัง": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "การควบคุมภายนอก": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "ถัดไป/ก่อนหน้า": "prefs:root=IBOOKS#Next/Previous",
+    "ข้ามไปข้างหน้า/ข้างหลัง": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "ความเป็นส่วนตัว": "prefs:root=IBOOKS#PRIVACY",
+    "รีเซ็ตข้อมูลจำเพาะ": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "กิตติกรรมประกาศ": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "ปฏิทิน": {
+    "(root)": "prefs:root=CALENDAR",
+    "การกำหนดทับไทม์โซน": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "ปฏิทินอื่น": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "ตัวเลขสัปดาห์": "prefs:root=CALENDAR#Week%20Numbers",
+    "แสดงผู้รับเชิญที่ตอบปฏิเสธ": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "เชื่อมข้อมูล": "prefs:root=CALENDAR&path=Sync",
+    "เวลาเตือนเริ่มต้น": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "เริ่มต้นสัปดาห์ด้วย": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "คำแนะนำสถานที่": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "เมล": {
+    "(root)": "prefs:root=MAIL",
+    "บัญชี": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "เพิ่มบัญชี": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "ดึงข้อมูลใหม่": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "แสดงตัวอย่าง": "prefs:root=MAIL&path=Preview",
+    "แสดงถึง/สำเนา": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "ตัวเลือกการปัด": "prefs:root=MAIL&path=Swipe%20Options",
+    "ถามก่อนจะลบ": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "โหลดรูปภาพระยะไกล": "prefs:root=MAIL#Load%20Remote%20Images",
+    "จัดกลุ่มตามชื่อเรื่อง": "prefs:root=MAIL#Organize%20by%20Thread",
+    "ยุบข้อความที่อ่าน": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "ข้อความล่าสุดอยู่ด้านบนสุด": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "ข้อความทั้งหมดในชื่อเรื่อง": "prefs:root=MAIL#Complete%20Threads",
+    "จัดการกลุ่มชื่อเรื่องที่ไม่แจ้งเตือน": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "ไม่สนใจผู้ส่งที่ถูกปิดกั้น": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "ปิดกั้นอยู่": "prefs:root=MAIL&path=Blocked",
+    "สำเนาลับตัวเองเสมอ": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "ทำเครื่องหมายที่อยู่": "prefs:root=MAIL&path=Mark%20Addresses",
+    "เพิ่มระดับย่อหน้าอ้างอิง": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "แนบไฟล์แนบกับการตอบกลับ": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "ลายเซ็น": "prefs:root=MAIL&path=Signature"
+  },
+  "โทรศัพท์": {
+    "(root)": "prefs:root=Phone",
+    "เบอร์โทรของฉัน": "prefs:root=Phone&path=My%20Number",
+    "สายโทรเข้า": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "การอ่านชื่อสายเรียกเข้า": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "การแจ้งเกี่ยวกับ SMS/สายโทร": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "ตอบกลับเป็นข้อความ": "prefs:root=Phone&path=Respond%20with%20Text",
+    "การโอนสาย": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "การโอนสาย": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "สายเรียกซ้อน": "prefs:root=Phone&path=Call%20Waiting",
+    "แสดง ID ของสายโทรของฉัน": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_1188": {
+        "แสดง ID ของสายโทรของฉัน": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "ปิดเสียงผู้โทรที่ไม่รู้จัก": "prefs:root=Phone#SILENCE_CALLS",
+    "รายชื่อที่ปิดกั้น": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "ผู้ช่วยเรียกสาย": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "ตัวปิดกั้นเนื้อหา": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "ปิดกั้นหน้าต่างที่แสดงขึ้น": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "ป้องกันการติดตามข้ามไซต์": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "การป้อนอัตโนมัติ": "prefs:root=SAFARI&path=AUTO_FILL",
+    "รายการดาวน์โหลด": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "รหัสผ่าน": {
+    "(root)": "prefs:root=PASSWORDS",
+    "การป้อนรหัสผ่านอัตโนมัติ": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "รูปภาพ": {
+    "(root)": "prefs:root=Photos",
+    "รูปภาพ iCloud": "prefs:root=Photos#iCloudPhotosSwitch",
+    "ปรับขนาดพื้นที่จัดเก็บข้อมูล": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "ดาวน์โหลดและเก็บต้นฉบับไว้": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "การสตรีมรูปภาพของฉัน": "prefs:root=Photos#PhotoStreamSwitch",
+    "การแชร์อัลบั้ม": "prefs:root=Photos#SharedStreamsSwitch",
+    "ข้อมูลเซลลูลาร์": "prefs:root=Photos&path=CellularDataLinkList",
+    "เล่นวิดีโอโดยอัตโนมัติ": "prefs:root=Photos#VideoAutoplaySwitch",
+    "ดู HDR แบบเต็ม": "prefs:root=Photos#ImageModulationSwitch",
+    "แสดงกิจกรรมวันหยุด": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "ถ่ายโอนไปยัง Mac หรือ PC": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "รายการดาวน์โหลดอัตโนมัติ": "prefs:root=STORE#Automatic%20Downloads",
+    "รายการอัปเดตแอป": "prefs:root=STORE#App%20Updates",
+    "รายการดาวน์โหลดแอป": "prefs:root=STORE&path=App%20Downloads",
+    "การเล่นวิดีโอโดยอัตโนมัติ": "prefs:root=STORE&path=Video%20Autoplay",
+    "จัดอันดับและความเห็นในแอป": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "แสดงการแสดงตัวอย่างข่าว": "prefs:root=NEWS#show_excerpt_mode",
+    "จำกัดข่าวในวันนี้": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "ความเป็นส่วนตัว": "prefs:root=NEWS#Privacy",
+    "รีเซ็ตข้อมูลจำเพาะ": "prefs:root=NEWS#reset_identifier",
+    "กิตติกรรมประกาศ": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_1189": {
+    "โหมดเครื่องบิน": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "เตือนความจำ": {
+    "(root)": "prefs:root=REMINDERS",
+    "ลิสต์เริ่มต้น": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "เตือนความจำ": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "การแจ้งเตือนวันนี้": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "แสดงเป็นเลยกำหนด": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "แบตเตอรี่": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "โหมดประหยัดพลังงาน": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "สุขภาพแบตเตอรี่": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "บลูทูธ": "prefs:root=Bluetooth",
+  "คำสั่งลัด": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "การเชื่อมข้อมูล iCloud": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "เชื่อมข้อมูลลำดับคำสั่งลัด": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "ประกาศทางกฎหมาย": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri และการค้นหา": {
+    "(root)": "prefs:root=SIRI",
+    "อนุญาต Siri ขณะล็อคอยู่": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "ภาษา": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "เสียง Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "เสียงพูดโต้ตอบ": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "ข้อมูลของฉัน": "prefs:root=SIRI&path=MY_INFO",
+    "คำแนะนำในการค้นหา": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "คำแนะนำในการค้นดู": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "คำแนะนำบนหน้าจอล็อค": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "หุ้น": {
+    "(root)": "prefs:root=STOCKS",
+    "ความเป็นส่วนตัว": "prefs:root=STOCKS#Privacy",
+    "รีเซ็ตข้อมูลจำเพาะ": "prefs:root=STOCKS#reset_identifier"
+  },
+  "เซลลูลาร์": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "ตัวเลือกข้อมูลเซลลูลาร์": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "โหมดประหยัดข้อมูล": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "ข้อมูลเซลลูลาร์": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "ใช้ข้อมูลเซลลูลาร์สำหรับการเล่น": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "คุณภาพการเล่น": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "สินค้าที่ซื้อและรายการเช่า": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "การแชร์ภายในพื้นที่": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "ภาพพื้นหลัง": "prefs:root=Wallpaper"
+}

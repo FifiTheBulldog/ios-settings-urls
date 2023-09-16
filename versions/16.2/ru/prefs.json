@@ -1,0 +1,1156 @@
+{
+  "Apple ID": {
+    "(root)": "prefs:root=APPLE_ACCOUNT",
+    "iCloud": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE",
+      "Хранилище iCloud": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP",
+      "iCloud Drive": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity",
+      "Фото": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream",
+      "Почта": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail",
+      "Контакты": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts",
+      "Календарь": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars",
+      "Напоминания": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders",
+      "Safari": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks",
+      "Заметки": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes",
+      "Новости": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News",
+      "Резервная копия": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP",
+      "Здоровье": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health",
+      "Пароли и связка ключей": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync",
+      "Частный узел": "prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY"
+    },
+    "Поделиться геопозицией": {
+      "(root)": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
+      "Найти iPhone": "prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings"
+    },
+    "Имя, номера телефонов, e-mail": "prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
+    "Пароль и безопасность": "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
+    "Оплата и доставка": "prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
+    "Подписки": "prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
+    "Семья": "prefs:root=APPLE_ACCOUNT&path=FAMILY"
+  },
+  "Конфиденциальность и безопасность": {
+    "(root)": "prefs:root=Privacy",
+    "Проверка безопасности": "prefs:root=Privacy&path=SAFETY_CHECK",
+    "Геопозиция": {
+      "(root)": "prefs:root=Privacy&path=LOCATION",
+      "Делиться геопозицией": "prefs:root=Privacy&path=LOCATION/LOCATION_SHARING"
+    },
+    "Контакты": "prefs:root=Privacy&path=CONTACTS",
+    "Календари": "prefs:root=Privacy&path=CALENDARS",
+    "Напоминания": "prefs:root=Privacy&path=REMINDERS",
+    "Фото": "prefs:root=Privacy&path=PHOTOS",
+    "Общий доступ к Bluetooth": "prefs:root=Privacy&path=BT_PERIPHERAL",
+    "Микрофон": "prefs:root=Privacy&path=MICROPHONE",
+    "Распознавание речи": "prefs:root=Privacy&path=SPEECH_RECOGNITION",
+    "Камера": "prefs:root=Privacy&path=CAMERA",
+    "HomeKit": "prefs:root=Privacy&path=WILLOW",
+    "Медиа и Apple Music": "prefs:root=Privacy&path=MEDIALIBRARY",
+    "Аналитика": "prefs:root=Privacy&path=PROBLEM_REPORTING",
+    "Реклама": "prefs:root=Privacy&path=ADVERTISING",
+    "Файлы и папки": "prefs:root=Privacy&path=FILEACCESS",
+    "Отслеживание": "prefs:root=Privacy&path=USER_TRACKING",
+    "Отчет о конфиденциальности приложений": "prefs:root=Privacy&path=PRIVACY_REPORT",
+    "Режим блокировки": "prefs:root=Privacy#LOCKDOWN_MODE",
+    "Здоровье": "prefs:root=Privacy&path=HEALTH"
+  },
+  "Фокусирование": {
+    "(root)": "prefs:root=DO_NOT_DISTURB",
+    "Статус фокусирования": "prefs:root=DO_NOT_DISTURB&path=status"
+  },
+  "Основные": {
+    "(root)": "prefs:root=General",
+    "VPN и управление устройством": "prefs:root=General&path=ManagedConfigurationList",
+    "Картинка в картинке": "prefs:root=General&path=PiP_SPEC",
+    "Трекпад и мышь": "prefs:root=General&path=POINTERS",
+    "NFC": "prefs:root=General&path=NFC_LINK",
+    "VPN": "prefs:root=General&path=VPN",
+    "CarPlay": "prefs:root=General&path=CARPLAY",
+    "Об этом устройстве": {
+      "(root)": "prefs:root=General&path=About",
+      "Сертификаты достоверны, Надежные сертификаты, Достоверные сертификаты, Trusted Certificates, Доверие сертификатам": "prefs:root=General&path=About/CERT_TRUST_SETTINGS"
+    },
+    "Правовая информация": "prefs:root=General&path=LEGAL_AND_REGULATORY",
+    "Обновление ПО": "prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "AirDrop": "prefs:root=General&path=AIRDROP_LINK",
+    "Кнопка «Домой»": "prefs:root=General&path=HOME_BUTTON",
+    "Жесты": "prefs:root=General#Multitasking_Gesture_Switch",
+    "Боковой переключатель": "prefs:root=General#Rotation_Switch_Action_Group",
+    "Обновление контента": "prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
+    "Дата и время": "prefs:root=General&path=DATE_AND_TIME",
+    "ТВ-выход": "prefs:root=General&path=TV_OUT",
+    "Нормативы": "prefs:root=General&path=REGULATORY",
+    "Сброс": {
+      "(root)": "prefs:root=General&path=Reset",
+      "Сбросить все настройки": "prefs:root=General&path=Reset#settingsErase",
+      "Стереть контент и настройки": "prefs:root=General&path=Reset#fullErase",
+      "Сбросить настройки сети": "prefs:root=General&path=Reset#RESET_NETWORK_LABEL",
+      "Удалить все тарифы сотовых данных": "prefs:root=General&path=Reset#cellularErase",
+      "Службы абонента": "prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID",
+      "Сбросить словарь клавиатуры": "prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL",
+      "Сбросить настройки «Домой»": "prefs:root=General&path=Reset#RESET_ICONS_LABEL",
+      "Сбросить геонастройки": "prefs:root=General&path=Reset#RESET_PRIVACY_LABEL"
+    },
+    "Выключить": "prefs:root=General#SHUTDOWN_LABEL",
+    "AirPlay и Handoff": {
+      "(root)": "prefs:root=General&path=CONTINUITY_SPEC",
+      "Handoff": "prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY",
+      "Перенос на HomePod": "prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD",
+      "Авто-AirPlay на ТВ": "prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV",
+      "Функция непрерывности для Камеры": "prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA"
+    },
+    "Словарь": "prefs:root=General&path=DICTIONARY",
+    "Язык и регион": {
+      "(root)": "prefs:root=General&path=INTERNATIONAL",
+      "Другие языки…": "prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE",
+      "Предпочитаемый порядок языков": "prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP",
+      "Добавить язык…": "prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE",
+      "Регион": "prefs:root=General&path=INTERNATIONAL/LOCALE",
+      "Цифры": "prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
+      "Календарь": "prefs:root=General&path=INTERNATIONAL/CALENDAR",
+      "Единицы температуры": "prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT"
+    },
+    "Клавиатура": {
+      "(root)": "prefs:root=General&path=Keyboard",
+      "Клавиатуры": "prefs:root=General&path=Keyboard/KEYBOARDS",
+      "Замена текста": "prefs:root=General&path=Keyboard/USER_DICTIONARY",
+      "Автопрописные": "prefs:root=General&path=Keyboard#KeyboardAutocapitalization",
+      "Автокоррекция": "prefs:root=General&path=Keyboard#KeyboardAutocorrection",
+      "Проверять правописание": "prefs:root=General&path=Keyboard#KeyboardCheckSpelling",
+      "Использование Caps Lock": "prefs:root=General&path=Keyboard#KeyboardCapsLock",
+      "Быстрые команды": "prefs:root=General&path=Keyboard#KeyboardAssistant",
+      "Предиктивный набор": "prefs:root=General&path=Keyboard#KeyboardPrediction",
+      "Смарт-пунктуация": "prefs:root=General&path=Keyboard#SmartTyping",
+      "Разделенная клавиатура": "prefs:root=General&path=Keyboard#RivenKeyboard",
+      "Включить чиркание клавиш": "prefs:root=General&path=Keyboard#GesturesEnabled",
+      "Просмотр символов": "prefs:root=General&path=Keyboard#KeyboardAllowPaddle",
+      "Быстрая клавиша «.»": "prefs:root=General&path=Keyboard#KeyboardPeriodShortcut",
+      "Проведение для набора": "prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled",
+      "Включить Диктовку": "prefs:root=General&path=Keyboard#Dictation",
+      "Автопунктуация": "prefs:root=General&path=Keyboard#AutoPunctuationSetting"
+    },
+    "iPhone/iPad Storage": {
+      "(root)": "prefs:root=General&path=STORAGE_MGMT",
+      "Хранилище": "prefs:root=General&path=STORAGE_MGMT#MANAGE",
+      "Сгружать неиспользуемые": "prefs:root=General&path=STORAGE_MGMT#OFFLOAD"
+    }
+  },
+  "Уведомления": {
+    "(root)": "prefs:root=NOTIFICATIONS_ID",
+    "Доставка по расписанию": "prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID"
+  },
+  "Wallet и Apple Pay": {
+    "(root)": "prefs:root=PASSBOOK",
+    "Apple Cash": "prefs:root=PASSBOOK#Apple%C2%A0Cash",
+    "Платежные карты": "prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP",
+    "Добавить карту": "prefs:root=PASSBOOK#Add%20Card",
+    "Двойное нажатие боковой кнопки": "prefs:root=PASSBOOK#Double-Click%20Side%20Button",
+    "Отслеживание заказа": "prefs:root=PASSBOOK#ORDER_TRACKING"
+  },
+  "Экранное время": {
+    "(root)": "prefs:root=SCREEN_TIME",
+    "See All Activity": {
+      "(root)": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+      "Сегодня": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY",
+      "Неделя": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK"
+    },
+    "В покое": "prefs:root=SCREEN_TIME&path=DOWNTIME",
+    "Лимиты приложений": "prefs:root=SCREEN_TIME&path=APP_LIMITS",
+    "Ограничения общения": "prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
+    "Безопасность общения": "prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY",
+    "Разрешенные всегда": "prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
+    "Контент и конфиденциальность": "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
+    "Родительский контроль": "prefs:root=SCREEN_TIME#FAMILY"
+  },
+  "Универсальный доступ": {
+    "(root)": "prefs:root=ACCESSIBILITY",
+    "Зрение": "prefs:root=ACCESSIBILITY#VISION",
+    "VoiceOver": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+      "VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled",
+      "Скорость речи": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate",
+      "Речь": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech",
+      "Speech": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech",
+        "Голос": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell"
+      },
+      "Детализация": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity",
+      "Verbosity": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity",
+        "Пунктуация": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup",
+        "Заголовки таблиц": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader",
+        "Описания медиаматериалов": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions",
+        "Media Descriptions": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions",
+          "Выкл.": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff",
+          "Речь": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech",
+          "Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille",
+          "Проговаривание текста и Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille"
+        }
+      },
+      "Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille",
+      "Braille": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille",
+        "Вывод": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput",
+        "Output": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput",
+          "Полный Брайль 6 точек": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille",
+          "Полный Брайль 8 точек": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille",
+          "Сокращенный Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille"
+        },
+        "Ввод": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput",
+        "Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput",
+          "Полный Брайль 6 точек": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille",
+          "Полный Брайль 8 точек": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille",
+          "Сокращенный Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille",
+          "Автоматический перевод": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE"
+        },
+        "Шрифт экрана Брайля": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput",
+        "Braille Screen Input": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput",
+          "Полный Брайль 6 точек": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille",
+          "Полный Брайль 8 точек": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille",
+          "Сокращенный Брайль": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille",
+          "Обратное направление точек": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS"
+        },
+        "Таблицы Брайля": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier",
+        "Tables": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier",
+          "Добавить таблицу Брайля…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE"
+        },
+        "Ячейки состояния": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL",
+        "Status Cell": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL",
+          "Положение ячеек состояния": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION",
+          "Слева": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT",
+          "Справа": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT",
+          "Показать общий статус": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral",
+          "Показать статус текста": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle"
+        },
+        "Код Немета для уравнений": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH",
+        "Показ экранной клавиатуры": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD",
+        "Листание при прокрутке": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES",
+        "Перенос слов": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP",
+        "Показ предупреждений": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration",
+        "Без учета длительности аккорда": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout",
+        "Длительность автопродвижения": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance"
+      },
+      "Аудио": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio",
+      "Audio": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio",
+        "Приглушение аудио": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING",
+        "Автовыбор динамика": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER",
+        "Отправка на HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI"
+      },
+      "Команды": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS",
+      "Действия": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities",
+      "Activities": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities",
+        "Программирование": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming",
+        "Добавить действие…": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New"
+      },
+      "Ротор": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor",
+      "Действия ротора": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions",
+      "Rotor Actions": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions",
+        "ПО на экране «Домой»": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps",
+        "Прямое касание в приложениях": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps"
+      },
+      "Ввод текста": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions",
+      "Typing": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions",
+        "Стиль ввода": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE",
+        "Typing Mode": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE",
+          "Обычный ввод": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD"
+        },
+        "Typing Style": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style",
+          "Ввод одним касанием": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING",
+          "Ввод прямым касанием": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH"
+        },
+        "Проговаривание": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE",
+        "Phonetic Feedback": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE",
+          "Выкл.": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF",
+          "Символ и звуки": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY",
+          "Только звуки": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY"
+        },
+        "Озвучивание при вводе": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK",
+        "Клавиши модификации": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS",
+        "Modifier Keys": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS",
+          "Control + Option": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS",
+          "Верхний регистр": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK"
+        },
+        "Время до использования клавиатуры": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT"
+      },
+      "Навигация по фото": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages",
+      "Include Unlabeled Images": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages",
+        "Всегда": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS",
+        "С описаниями": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS",
+        "Никогда": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER"
+      },
+      "Крупный курсор": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle",
+      "Панель субтитров": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel",
+      "Ожидание 2‑го касания": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE",
+      "Double-tap Timeout": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+        "Ожидание 2‑го касания": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Стиль навигации": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle",
+      "Быстрые настройки": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings",
+      "Quick Settings": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings",
+        "Звуки": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds",
+        "Приглушение аудио": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking",
+        "Громкость": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume",
+        "Скорость речи": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate",
+        "Подсказки": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints",
+        "Стиль навигации": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle",
+        "Стиль ввода": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle",
+        "Проведение пальцем для набора": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType",
+        "Действия": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities",
+        "Озвучивание уведомлений": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications",
+        "Показ предупреждений": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts",
+        "Автопродвижение (Брайль)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration",
+        "Ввод Брайля": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput",
+        "Вывод Брайля": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput",
+        "Таблицы Брайля": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables",
+        "Панель субтитров": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel",
+        "Прямое касание": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch",
+        "Направление жеста": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection",
+        "Озвучивание при вводе на физической клавиатуре": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback",
+        "Язык": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language",
+        "Крупный курсор": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor",
+        "Описания медиаматериалов": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions",
+        "Навигация по фото": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages",
+        "Проговаривание": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback",
+        "Изменение высоты тона": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch",
+        "Пунктуация": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation",
+        "Отправка на HDMI": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI",
+        "Озвучивание при вводе на виртуальной клавиатуре": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback",
+        "Подтверждение вслух для ротора": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation",
+        "Описания изображений": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions",
+        "Распознавание экрана": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition"
+      },
+      "Распознавание VoiceOver": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver",
+      "VoiceOver Recognition": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver",
+        "Описания изображений": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS",
+        "Распознавание экрана": "prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION"
+      }
+    },
+    "Увеличение": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
+      "Увеличение": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled",
+      "Следование за фокусом": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus",
+      "Смарт-ввод": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping",
+      "Сочетания клавиш": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts",
+      "Keyboard Shortcuts": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+        "Сочетания клавиш": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts",
+        "Настройка увеличения": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel",
+        "Включение или выключение увеличения": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom",
+        "Перенос окна увеличения": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom",
+        "Изменение окна увеличения": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow",
+        "Включение или выключение области увеличения": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode",
+        "Временное включение или выключение увеличения": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom",
+        "Увеличение колесом прокрутки": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel"
+      },
+      "Контроллер увеличения": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug",
+      "Область увеличения": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode",
+      "Zoom Region": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode",
+        "Весь экран": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen",
+        "Окно": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window"
+      },
+      "Максимальное увеличение": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup",
+      "Фильтр": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter",
+      "Показ при видеоповторе": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring"
+    },
+    "Увеличение текста под указателем": "prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE",
+    "Дисплей и размер текста": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+      "Жирный шрифт": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY",
+      "Увеличенный текст": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT",
+      "Формы кнопок": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES",
+      "Этикетки Вкл./Выкл.": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels",
+      "Понижение прозрачности": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY",
+      "Увеличение контраста": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN",
+      "Дифференциация без цвета": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR",
+      "Смарт-инверсия": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT",
+      "Классическая инверсия": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT",
+      "Светофильтры": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR",
+      "Color Filters": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+        "Светофильтры": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED"
+      },
+      "Понижение точки белого": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT",
+      "Автояркость": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS"
+    },
+    "Движение": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
+      "Уменьшение движения": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION",
+      "Эффекты сообщений": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects",
+      "Автовоспроизведение видео для предпросмотра": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS"
+    },
+    "Устный контент": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
+      "Проговаривание": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE",
+      "Экран вслух": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled",
+      "Речевой контроллер": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController",
+      "Speech Controller": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
+        "Настроить кнопки мыши": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons"
+      },
+      "Выделение содержимого": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight",
+      "Озвучивание при вводе": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback",
+      "Typing Feedback": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
+        "Отзыв по символам": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER",
+        "Символы": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER",
+        "Подсказки символов": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback",
+        "Проговаривание слов": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK",
+        "Автопроговаривание": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS",
+        "Вслух при удержании": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK"
+      },
+      "Голоса": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents",
+      "Язык по умолчанию": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage",
+      "Обнаружение языка": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION",
+      "Скорость речи": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup",
+      "Произношение": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY"
+    },
+    "Аудиодескрипция": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
+      "Аудиодескрипция": "prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING"
+    },
+    "Опорно‑двигательный аппарат": "prefs:root=ACCESSIBILITY#MOBILITY_HEADING",
+    "Касание": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
+      "AssistiveTouch": {
+        "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+        "AssistiveTouch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier",
+        "Меню верхнего уровня": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize",
+        "Customize Top Level Menu": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+          "Коснитесь значка, чтобы изменить:": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell",
+          "Сбросить…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset"
+        },
+        "Настройка действий": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier",
+        "Одно касание": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier",
+        "Двойное касание": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier",
+        "Double-Tap": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier",
+          "Ожидание 2‑го касания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier"
+        },
+        "Долгое нажатие": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier",
+        "Long Press": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier",
+          "Длительность долгого нажатия": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier"
+        },
+        "Собственные жесты": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading",
+        "Создать новый жест…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture",
+        "Непрозрачность в покое": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity",
+        "Указательные устройства": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle",
+        "Устройства": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices",
+        "Devices": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+          "Устройства Bluetooth…": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning"
+        },
+        "Кнопки мыши": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys",
+        "Стиль указателя": {
+          "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+          "Размер": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE",
+          "Визуальные элементы": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE",
+          "Цвет": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR",
+          "SOMETHING IDK": {
+            "(root)": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR",
+            "Настроить кнопки мыши": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons"
+          },
+          "Автоматическое скрытие": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT",
+          "NEEDS_OVERRIDE_1054": {
+            "Автоматическое скрытие": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide"
+          }
+        },
+        "Экранная клавиатура": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard",
+        "Показывать меню всегда": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu",
+        "Управление с автонажатием": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier",
+        "Допустимое перемещение": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier",
+        "Чувствительность перемещения": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed",
+        "Действие при возврате": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier",
+        "Активные углы": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier",
+        "Использование игрового контроллера": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier"
+      },
+      "3D Touch и Тактильное касание": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch",
+      "NEEDS_OVERRIDE_1055": {
+        "3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch",
+        "Чувствительность 3D Touch": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier",
+        "Длительность касания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup",
+        "Быстро": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier",
+        "Медленно": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier",
+        "Тестирование чувствительности 3D Touch и длительности касания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier"
+      },
+      "Адаптация касания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS",
+      "NEEDS_OVERRIDE_1056": {
+        "Адаптация касания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER",
+        "Длительность удержания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration",
+        "Пропуск повтора": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat",
+        "Помощь при касании": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance",
+        "Выкл.": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF",
+        "Точка первого касания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH",
+        "Точка последнего касания": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE"
+      },
+      "Выход из сна касанием": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE",
+      "Выход из сна касанием или смахиванием": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE",
+      "Встряхивание для отмены": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO",
+      "Вибрация": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION",
+      "Запрет завершения вызова кнопкой": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore",
+      "Источник звука": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING",
+      "NEEDS_OVERRIDE_1057": {
+        "Авто": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC",
+        "Гарнитура Bluetooth": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET",
+        "Динамик": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER",
+        "Автоответ на вызовы": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer"
+      }
+    },
+    "Face ID и внимание": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=FACE_ID",
+      "Требование внимания для Face ID": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention",
+      "Распознавание внимания": "prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware",
+      "Тактильные сигналы": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup",
+      "При удачной аутентификации": "prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic"
+    },
+    "Виртуальный контроллер": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
+      "Виртуальный контроллер": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell",
+      "Переключатели": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier",
+      "NEEDS_OVERRIDE_1058": {
+        "Добавить новый…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier",
+        "Устройства Bluetooth…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier"
+      },
+      "Наборы правил": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier",
+      "Метод сканирования": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier",
+      "NEEDS_OVERRIDE_1059": {
+        "Автосканирование": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL",
+        "Сканирование вручную": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL",
+        "Пошаговое сканирование": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL"
+      },
+      "Время": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier",
+      "Скорость сканирования": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier",
+      "NEEDS_OVERRIDE_1060": {
+        "Скорость сканирования": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier"
+      },
+      "Пауза на 1‑м объекте": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier",
+      "NEEDS_OVERRIDE_1061": {
+        "Пауза на 1‑м объекте": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Повтор движения": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier",
+      "NEEDS_OVERRIDE_1062": {
+        "Повтор движения": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Долгое нажатие": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier",
+      "NEEDS_OVERRIDE_1063": {
+        "Долгое нажатие": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Поведение при касании": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier",
+      "NEEDS_OVERRIDE_1064": {
+        "По умолчанию": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault",
+        "Автокасание": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto",
+        "Только касание": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap"
+      },
+      "В фокусе после касания": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier",
+      "NEEDS_OVERRIDE_1065": {
+        "Первый объект": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst",
+        "Текущий объект": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent"
+      },
+      "Клавиатура": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier",
+      "Сканировать ту же клавишу": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier",
+      "Только касание клавиш": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier",
+      "Расширенные варианты": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier",
+      "Стабилизация переключателя": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier",
+      "Длительность удержания": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier",
+      "NEEDS_OVERRIDE_1066": {
+        "Длительность удержания": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Пропуск повтора": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier",
+      "NEEDS_OVERRIDE_1067": {
+        "Пропуск повтора": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Сканирование точек": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier",
+      "Скользящий курсор": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier",
+      "NEEDS_OVERRIDE_1068": {
+        "Режим выбора": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup",
+        "Одиночный": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle",
+        "Уточненный": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined",
+        "Высокоточный": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise",
+        "Скорость скользящего курсора": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed"
+      },
+      "Отслеживание движения головы": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch",
+      "NEEDS_OVERRIDE_1069": {
+        "Отслеживание движения головы": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher"
+      },
+      "Аудио": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier",
+      "Звуковые эффекты": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier",
+      "Речь": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier",
+      "NEEDS_OVERRIDE_1070": {
+        "Голоса": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier",
+        "Скорость речи": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier"
+      },
+      "Пункты меню": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier",
+      "Объекты в группу": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier",
+      "Визуальные элементы": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier",
+      "Крупный курсор": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier",
+      "Сохраненные жесты": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier",
+      "NEEDS_OVERRIDE_1071": {
+        "Создать новый жест…": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture"
+      },
+      "Цвет курсора": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier"
+    },
+    "Управление голосом": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
+      "Настроить Управление голосом": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL",
+      "Язык": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE",
+      "NEEDS_OVERRIDE_1072": {
+        "Английский (США)": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)"
+      },
+      "Настройка команд": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS",
+      "Лексикон": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY",
+      "Отзыв о команде": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE",
+      "Показывать подтверждение": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE",
+      "Воспроизводить звук": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE",
+      "Подсказки": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE",
+      "Непрерывное наложение": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE",
+      "Наложение": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY",
+      "NEEDS_OVERRIDE_1073": {
+        "Нет": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE",
+        "Номера объектов": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS",
+        "Имена объектов": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES",
+        "Нумерованная сетка": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID"
+      },
+      "Распознавание внимания": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION"
+    },
+    "Боковая кнопка": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
+      "Скорость нажатия": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER",
+      "По умолчанию": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT",
+      "Медленно": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW",
+      "Очень медленно": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST",
+      "Нажатие и удерживание для произнесения": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle",
+      "Siri": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri",
+      "Классическое Управление голосом": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl",
+      "Выкл.": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff"
+    },
+    "Пульт Apple TV": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE",
+      "Кнопки направления": "prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures"
+    },
+    "Удаленный экран Apple Watch": "prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN",
+    "Клавиатуры": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=KEYBOARDS",
+      "Полный клавиатурный доступ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS",
+      "NEEDS_OVERRIDE_1074": {
+        "Полный клавиатурный доступ": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch",
+        "Визуальные элементы": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE",
+        "Автоматическое скрытие": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout",
+        "Увеличенное кольцо фокусировки": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled",
+        "Цвет": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor"
+      },
+      "Автоповтор клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT",
+      "NEEDS_OVERRIDE_1075": {
+        "Автоповтор клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled",
+        "Интервал автоповтора клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval",
+        "Задержка до повторного нажатия": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay"
+      },
+      "Залипание клавиш": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS",
+      "NEEDS_OVERRIDE_1076": {
+        "Залипание клавиш": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled",
+        "Переключение — Shift": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle",
+        "Звук": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound"
+      },
+      "Медленные клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS",
+      "NEEDS_OVERRIDE_1077": {
+        "Медленные клавиши": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier"
+      },
+      "Виртуальные клавиатуры": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS",
+      "Строчные буквы": "prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD"
+    },
+    "Слух": "prefs:root=ACCESSIBILITY#HEARING_HEADING",
+    "Слуховые устройства": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
+      "Слуховые устройства MFi": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading",
+      "Bluetooth": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH",
+      "Совместимость аппаратов": "prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE"
+    },
+    "Распознавание звуков": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
+      "Звуки": "prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds"
+    },
+    "RTT/TTY": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=RTT",
+      "Виртуальный TTY": "prefs:root=ACCESSIBILITY&path=RTT#SW_TTY",
+      "Аппаратный TTY": "prefs:root=ACCESSIBILITY&path=RTT#HW_TTY"
+    },
+    "Аудиовизуализация": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+      "Аудио": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID",
+      "Адаптация наушников": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID",
+      "NEEDS_OVERRIDE_1078": {
+        "Адаптация наушников": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID",
+        "Пользовательская аудионастройка": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID"
+      },
+      "Фоновые звуки": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID",
+      "Моно-аудио": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID",
+      "Шумоподавление телефона": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID",
+      "Баланс": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID",
+      "Визуальные элементы": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING",
+      "Вспышка для предупреждений": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH",
+      "NEEDS_OVERRIDE_1079": {
+        "Вспышка без блокировки": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED",
+        "Вспышка в бесшумном режиме": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL"
+      },
+      "Стереобаланс слева-справа": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance",
+      "Звуки при включении и выключении": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound"
+    },
+    "Скрытые субтитры": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
+      "Стиль": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme",
+      "Скрытые субтитры + SDH": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH",
+      "Аудиотранскрипции": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS"
+    },
+    "NEEDS_OVERRIDE_1080": {
+      "Субтитры (бета-версия)": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE",
+      "Субтитры в FaceTime": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS"
+    },
+    "Основные": "prefs:root=ACCESSIBILITY#GENERAL_HEADING",
+    "Гид-доступ": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+      "Гид-доступ": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess",
+      "Настройки код‑пароля": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList",
+      "NEEDS_OVERRIDE_1081": {
+        "Задать код‑пароль гид‑доступа": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton"
+      },
+      "Время": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList",
+      "NEEDS_OVERRIDE_1082": {
+        "Оповещение": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING",
+        "Звук": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+        "Произносить": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE"
+      },
+      "Быстрая команда": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures",
+      "Автоблокировка дисплея": "prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime"
+    },
+    "Особый Универсальный доступ": "prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE",
+    "Siri": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+      "Ввод текста для Siri": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI",
+      "Ответы вслух": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID",
+      "Автоматические голосовые ответы": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID",
+      "Предпочтение беззвучных ответов": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID",
+      "Не говорить в Бесшумном режиме": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID",
+      "Всегда слушать «Привет, Siri»": "prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW"
+    },
+    "Быстрая команда": {
+      "(root)": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
+      "Лупа": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier"
+    },
+    "Настройки по приложениям": "prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE",
+    "Управление устройствами поблизости": "prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES"
+  },
+  "Экран и яркость": {
+    "(root)": "prefs:root=DISPLAY",
+    "Оформление": "prefs:root=DISPLAY#DEVICE_APPEARANCE",
+    "True Tone": "prefs:root=DISPLAY#WHITE_BALANCE",
+    "Night Shift": {
+      "(root)": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
+      "Запланировано": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED",
+      "Включить вручную до завтра": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL",
+      "Температура цвета": "prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE"
+    },
+    "Автоблокировка": "prefs:root=DISPLAY&path=AUTOLOCK",
+    "Поднятие для активации": "prefs:root=DISPLAY#RAISE_TO_WAKE",
+    "Блокировка и разблокировка": "prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC",
+    "Размер текста": "prefs:root=DISPLAY&path=TEXT_SIZE",
+    "Жирный шрифт": "prefs:root=DISPLAY#BOLD_TEXT",
+    "Масштаб дисплея": "prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP",
+    "Вид": "prefs:root=DISPLAY&path=MAGNIFY"
+  },
+  "Уведомление о контакте": "prefs:root=EXPOSURE_NOTIFICATION",
+  "NEEDS_OVERRIDE_1083": {
+    "Значки уведомлений": "prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY",
+    "Недавно загруженные приложения": "prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO"
+  },
+  "Экран «Домой» и многозадачность": {
+    "(root)": "prefs:root=HOME_SCREEN_DOCK",
+    "NEEDS_OVERRIDE_1084": {
+      "Показ библиотеки приложений в Dock": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY"
+    },
+    "Недавние и предложенные приложения в Dock": "prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS"
+  },
+  "Экран «Домой»": {
+    "(root)": "prefs:root=HOME_SCREEN",
+    "Недавно загруженные приложения": "prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO",
+    "Значки уведомлений": "prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY"
+  },
+  "Touch ID и код‑пароль": {
+    "(root)": "prefs:root=PASSCODE",
+    "Выключить код‑пароль": "prefs:root=PASSCODE#PASSCODE_OFF",
+    "Сменить код‑пароль": "prefs:root=PASSCODE#CHANGE_PASSCODE",
+    "Запрос код‑пароля": "prefs:root=PASSCODE&path=PASSCODE_REQ",
+    "Голосовой набор": "prefs:root=PASSCODE#VOICE_DIAL",
+    "Доступ с блокировкой экрана": "prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED",
+    "Ответ сообщением": "prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH",
+    "Управление домом": "prefs:root=PASSCODE#HOME_CONTROL_SWITCH",
+    "Wallet": "prefs:root=PASSCODE#WALLET_SWITCH",
+    "Набор пропущенных": "prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH",
+    "Стирание данных": "prefs:root=PASSCODE#WIPE_DEVICE",
+    "Разблокировка с Apple Watch": "prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP"
+  },
+  "Apple Pencil": {
+    "(root)": "prefs:root=Pencil",
+    "Apple Pencil": "prefs:root=Pencil#PencilTextInput"
+  },
+  "Подкасты": "prefs:root=PODCASTS",
+  "Экстренный вызов — SOS": {
+    "(root)": "prefs:root=EMERGENCY_SOS",
+    "Вызов боковой кнопкой": "prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON",
+    "Автовызов": "prefs:root=EMERGENCY_SOS#AUTO_CALL",
+    "Контакты на случай ЧП": "prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS",
+    "Звук обратного отсчета": "prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH"
+  },
+  "Звуки": {
+    "(root)": "prefs:root=Sounds",
+    "Безопасность наушников": {
+      "(root)": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Адаптеры Lightning": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS",
+      "Уведомления от наушников": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey",
+      "Громкие звуки тише": "prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey"
+    },
+    "Звуковые эффекты": "prefs:root=Sounds&path=SOUND_EFFECTS",
+    "Звонок и предупреждения": "prefs:root=Sounds#RINGER_AND_ALERT_GROUP",
+    "Изменение кнопками": "prefs:root=Sounds#CHANGE_WITH_BUTTONS",
+    "Звуки и рисунки вибраций": "prefs:root=Sounds#SOUNDS_ALERT_GROUP",
+    "Рингтон": "prefs:root=Sounds&path=Ringtone",
+    "Звук сообщения": "prefs:root=Sounds&path=Text_Messages",
+    "Автоответчик": "prefs:root=Sounds&path=Voicemail",
+    "Новая почта": "prefs:root=Sounds&path=NEW_MAIL",
+    "Отправленные": "prefs:root=Sounds&path=SENT_MAIL",
+    "Уведомления в календарях": "prefs:root=Sounds&path=Calendar%20Alarm",
+    "Уведомления": "prefs:root=Sounds&path=Reminder%20Alerts",
+    "AirDrop": "prefs:root=Sounds&path=AIRDROP",
+    "Щелчки клавиатуры": "prefs:root=Sounds#KEYBOARD_SOUND_SWITCH",
+    "Звук блокировки": "prefs:root=Sounds#LOCK_SOUND_SWITCH"
+  },
+  "Погода": "prefs:root=WEATHER",
+  "Компас": {
+    "(root)": "prefs:root=COMPASS",
+    "Применение истинного севера": "prefs:root=COMPASS#USE_TRUE_NORTH"
+  },
+  "Пункт управления": {
+    "(root)": "prefs:root=ControlCenter",
+    "Доступ в приложениях": "prefs:root=ControlCenter#ALLOWED_WITHIN_APPS",
+    "Настроить элем. управления": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
+  },
+  "Разработчик": {
+    "(root)": "prefs:root=DEVELOPER_SETTINGS",
+    "Многоканальная сеть": {
+      "(root)": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
+      "Многоканальная сеть": "prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking"
+    },
+    "Оформление": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup",
+    "Темное оформление": "prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings",
+    "Устройства, с которыми создана пара": "prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup",
+    "Однозначно достоверные компьютеры": "prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS",
+    "Инструменты": "prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup",
+    "Журнал": "prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
+    "Автоматизация интерфейса": "prefs:root=DEVELOPER_SETTINGS#UIAGroup",
+    "Сети": "prefs:root=DEVELOPER_SETTINGS#NLCGroup",
+    "Кондиционер сетевых ссылок": "prefs:root=DEVELOPER_SETTINGS&path=NLC",
+    "Тестирование ПО разработчика iAd": "prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP",
+    "Уровень пополнения": "prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
+    "Выделить урезанные баннеры": "prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS",
+    "Безлимитная презентация рекламы": "prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION",
+    "Тестирование PassKit": "prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING",
+    "Дополнительные журналы": "prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING",
+    "Разрешить HTTP‑службы": "prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES",
+    "Выключить ограничение скорости": "prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING",
+    "Ключ доступа NFC (необязательно)": "prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL",
+    "Тестирование мультимедийных служб": "prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING",
+    "Предложения AirPlay": "prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS",
+    "Сбросить мультимедийные службы": "prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES",
+    "Тестирование News": "prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING",
+    "Сброс локальных данных при след. запуске": "prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH",
+    "Тестирование программной среды медиаплеера": "prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup",
+    "API воспроизводимого контента": "prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings",
+    "Тестирование телепровайдеров": "prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup",
+    "Телепровайдеры": "prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
+    "ClassKit API": "prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings",
+    "Тестирование CoreSpotlight": "prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING",
+    "Переиндексировать все объекты": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS",
+    "Переиндексировать все объекты с идентификаторами": "prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS",
+    "Тестирование Быстрых команд": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING",
+    "Недавние Быстрые команды": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT",
+    "Показ предстоящих медиаданных": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA",
+    "Донорство на заблокированном экране": "prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN",
+    "Принудительная синхронизация Быстрых команд на часы": "prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS",
+    "Тестирование MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA",
+    "Включить MIDI-CI": "prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE"
+  },
+  "Здоровье": "prefs:root=HEALTH",
+  "Рулетка": {
+    "(root)": "prefs:root=MEASURE",
+    "Единицы измерения, Measure Units": "prefs:root=MEASURE#MEASURE_UNITS",
+    "Английские": "prefs:root=MEASURE#Imperial",
+    "Метрические": "prefs:root=MEASURE#Metric"
+  },
+  "Музыка": {
+    "(root)": "prefs:root=MUSIC",
+    "Показ Apple Music": "prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled",
+    "Добавление из плейлиста": "prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch",
+    "Показ рейтинга звездами": "prefs:root=MUSIC#com.apple.Music%3AShowStarRatings",
+    "Синхронизация Медиатеки": "prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled",
+    "Сотовые данные": "prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
+    "Загруженная музыка": "prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink",
+    "Оптимизация хранилища": "prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
+    "Автоматические загрузки": "prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload",
+    "Эквалайзер": "prefs:root=MUSIC&path=com.apple.Music%3AEQ",
+    "Коррекция громкости": "prefs:root=MUSIC#com.apple.Music%3ASoundCheck",
+    "Использование истории": "prefs:root=MUSIC#com.apple.Music%3APrivateListening"
+  },
+  "Заметки": {
+    "(root)": "prefs:root=NOTES",
+    "По умолчанию": "prefs:root=NOTES&path=Default%20Account",
+    "Пароль": "prefs:root=NOTES&path=Password",
+    "Сортировка": "prefs:root=NOTES&path=Sort%20Notes%20By",
+    "Первая строка заметки": "prefs:root=NOTES&path=New%20Notes%20Start%20With",
+    "Отмеченные элементы": "prefs:root=NOTES&path=Sort%20Checked%20Items",
+    "Линии и клетки": "prefs:root=NOTES&path=Lines%20&%20Grids",
+    "Сохранить в Фото": "prefs:root=NOTES#Save%20to%20Photos",
+    "Заметки на заблок. экране": "prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen"
+  },
+  "Сообщения": "prefs:root=MESSAGES",
+  "Перевод": {
+    "(root)": "prefs:root=TRANSLATE",
+    "Режим локального перевода": "prefs:root=TRANSLATE#OnDeviceOnly"
+  },
+  "Телепровайдер": "prefs:root=VIDEO_SUBSCRIBER",
+  "Диктофон": {
+    "(root)": "prefs:root=VOICE_MEMOS",
+    "Очистка удаленных": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
+    "Качество звука": "prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
+    "Геоконтекстные названия": "prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming"
+  },
+  "Камера": {
+    "(root)": "prefs:root=CAMERA",
+    "Форматы": {
+      "(root)": "prefs:root=CAMERA&path=CameraFormatsSettingsList",
+      "Apple ProRaw": "prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl"
+    },
+    "NEEDS_OVERRIDE_1085": {
+      "HDR-видео": "prefs:root=CAMERA&path=Record%20Video#HDR%20Video"
+    },
+    "Сохранение настроек": {
+      "(root)": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
+      "Режим камеры": "prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode"
+    },
+    "Сетка": "prefs:root=CAMERA#CameraGridSwitch",
+    "Сканирование QR‑кодов": "prefs:root=CAMERA#CameraQRBannerSwitch"
+  },
+  "Карты": "prefs:root=MAPS",
+  "FaceTime": "prefs:root=FACETIME",
+  "Контакты": {
+    "(root)": "prefs:root=CONTACTS",
+    "Разрешить доступ приложению «Контакты»": "prefs:root=CONTACTS#Allow%20Contacts%20To%20Access",
+    "Siri и Поиск": "prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
+    "Сортировка": "prefs:root=CONTACTS&path=ContactsSortOrder",
+    "Отображение": "prefs:root=CONTACTS&path=PersonNameOrder",
+    "Краткое имя": {
+      "(root)": "prefs:root=CONTACTS&path=PersonShortName",
+      "Краткое имя": "prefs:root=CONTACTS&path=PersonShortName#Short%20Name",
+      "Предпочитать псевдонимы": "prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames"
+    },
+    "Мои данные": "prefs:root=CONTACTS&path=MeCard",
+    "Импортировать контакты SIM": "prefs:root=CONTACTS#SIMImport"
+  },
+  "Game Center": "prefs:root=GAMECENTER",
+  "Книги": {
+    "(root)": "prefs:root=IBOOKS",
+    "Онлайн‑контент": "prefs:root=IBOOKS#BKAllowOnlineContent",
+    "СИНХРОНИЗАЦИЯ": "prefs:root=IBOOKS#SYNCING",
+    "Читаю сейчас": "prefs:root=IBOOKS#BKLibrary.ReadingNow",
+    "iCloud Drive": "prefs:root=IBOOKS#BCSyncICloudDrive",
+    "ЧТЕНИЕ": "prefs:root=IBOOKS#READING",
+    "Полное выравнивание": "prefs:root=IBOOKS#BKFullJustification",
+    "Автоперенос слов": "prefs:root=IBOOKS#BKAutoHyphenation",
+    "Листание с обоих полей": "prefs:root=IBOOKS#BKLeftTapTurnToNext",
+    "Цели по чтению": "prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey",
+    "Очистить данные целей по чтению": "prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey",
+    "ПОИСК": "prefs:root=IBOOKS#SEARCHING",
+    "Магазин книг": "prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch",
+    "АУДИОКНИГИ": "prefs:root=IBOOKS#AUDIOBOOKS",
+    "Переход вперед": "prefs:root=IBOOKS&path=BKAudioBookSkipForward",
+    "Переход назад": "prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
+    "ВНЕШНИЕ ЭЛЕМЕНТЫ УПРАВЛЕНИЯ": "prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey",
+    "Следующий или предыдущий": "prefs:root=IBOOKS#Next/Previous",
+    "Переход вперед или назад": "prefs:root=IBOOKS#Skip%20Forward/Back",
+    "КОНФИДЕНЦИАЛЬНОСТЬ": "prefs:root=IBOOKS#PRIVACY",
+    "Сброс идентификатора": "prefs:root=IBOOKS#BAResetAnalyticsUserID",
+    "Уведомления": "prefs:root=IBOOKS&path=Acknowledgements"
+  },
+  "Календарь": {
+    "(root)": "prefs:root=CALENDAR",
+    "Фиксация часового пояса": "prefs:root=CALENDAR&path=TimeZoneCityArray",
+    "Другие календари": "prefs:root=CALENDAR&path=Alternate%20Calendars",
+    "Номера недель": "prefs:root=CALENDAR#Week%20Numbers",
+    "Показать отказы участника": "prefs:root=CALENDAR#Show%20Invitee%20Declines",
+    "Синхронизация": "prefs:root=CALENDAR&path=Sync",
+    "Напоминания по умолчанию": "prefs:root=CALENDAR&path=Default%20Alert%20Times",
+    "Начало недели": "prefs:root=CALENDAR&path=com.apple.mobilecal",
+    "Предложения мест": "prefs:root=CALENDAR#Location%20Suggestions"
+  },
+  "Почта": {
+    "(root)": "prefs:root=MAIL",
+    "Учетные записи": {
+      "(root)": "prefs:root=MAIL&path=ACCOUNTS",
+      "Новая учетная запись": "prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT",
+      "Новые данные": "prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA"
+    },
+    "Просмотр": "prefs:root=MAIL&path=Preview",
+    "Этикетки Мне/Копия": "prefs:root=MAIL#Show%20To/Cc%20Labels",
+    "Параметры смахивания": "prefs:root=MAIL&path=Swipe%20Options",
+    "Подтверждение удаления": "prefs:root=MAIL#Ask%20Before%20Deleting",
+    "Загрузка изображений": "prefs:root=MAIL#Load%20Remote%20Images",
+    "Упорядочение по темам": "prefs:root=MAIL#Organize%20by%20Thread",
+    "Сворачивание прочитанных": "prefs:root=MAIL#Collapse%20Read%20Messages",
+    "Последнее письмо сверху": "prefs:root=MAIL#Most%20Recent%20Message%20on%20Top",
+    "Завершение тем": "prefs:root=MAIL#Complete%20Threads",
+    "С выкл. уведомлен.": "prefs:root=MAIL&path=Muted%20Thread%20Action",
+    "Игнорирование заблокированных": "prefs:root=MAIL#Ignore%20Blocked%20Senders",
+    "Заблокированные": "prefs:root=MAIL&path=Blocked",
+    "Всегда копию себе": "prefs:root=MAIL#Always%20Bcc%20Myself",
+    "Отметка адресов": "prefs:root=MAIL&path=Mark%20Addresses",
+    "Уровень цитаты": "prefs:root=MAIL&path=Increase%20Quote%20Level",
+    "Вкл. вложений в ответ": "prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
+    "Подпись": "prefs:root=MAIL&path=Signature"
+  },
+  "Телефон": {
+    "(root)": "prefs:root=Phone",
+    "Мой номер": "prefs:root=Phone&path=My%20Number",
+    "Входящие вызовы": "prefs:root=Phone&path=INCOMING_CALL_STYLE",
+    "Объявлять вызовы": "prefs:root=Phone&path=ANNOUNCE_CALLS",
+    "Сообщения о спаме (SMS/звонки)": "prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING",
+    "Ответ сообщением": "prefs:root=Phone&path=Respond%20with%20Text",
+    "Переадресация": {
+      "(root)": "prefs:root=Phone&path=Call%20Forwarding",
+      "Переадресация": "prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch"
+    },
+    "Ожидание вызова": "prefs:root=Phone&path=Call%20Waiting",
+    "Показ номера": {
+      "(root)": "prefs:root=Phone&path=Show%20My%20Caller%20ID",
+      "NEEDS_OVERRIDE_1086": {
+        "Показ номера": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID"
+      }
+    },
+    "Заглушение неизвестных": "prefs:root=Phone#SILENCE_CALLS",
+    "Заблокированные контакты": "prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST",
+    "Помощь в наборе": "prefs:root=Phone&path=Dial%20Assist"
+  },
+  "Safari": {
+    "(root)": "prefs:root=SAFARI",
+    "Правило блокирования контента": "prefs:root=SAFARI&path=WEB_EXTENSIONS",
+    "Блокировка всплывающих окон": "prefs:root=SAFARI#BLOCK_POPUPS",
+    "Без перекрестного отслеживания": "prefs:root=SAFARI#TRACKER_PROTECTION",
+    "Автозаполнение": "prefs:root=SAFARI&path=AUTO_FILL",
+    "Загрузки": "prefs:root=SAFARI&path=DOWNLOADS"
+  },
+  "Пароли": {
+    "(root)": "prefs:root=PASSWORDS",
+    "Автозаполнение паролей": "prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH"
+  },
+  "Фото": {
+    "(root)": "prefs:root=Photos",
+    "Фото iCloud": "prefs:root=Photos#iCloudPhotosSwitch",
+    "Оптимизация хранилища": "prefs:root=Photos#iCloudOptimizeStorageOption",
+    "Сохранение оригиналов": "prefs:root=Photos#iCloudKeepOriginalsOption",
+    "Мой фотопоток": "prefs:root=Photos#PhotoStreamSwitch",
+    "Общие альбомы": "prefs:root=Photos#SharedStreamsSwitch",
+    "Сотовые данные": "prefs:root=Photos&path=CellularDataLinkList",
+    "Автовоспроизведение видео": "prefs:root=Photos#VideoAutoplaySwitch",
+    "См. полный HDR": "prefs:root=Photos#ImageModulationSwitch",
+    "Праздничные события": "prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH",
+    "Перенос на Mac или ПК": "prefs:root=Photos#TransferGroup"
+  },
+  "App Store": {
+    "(root)": "prefs:root=STORE",
+    "Автоматические загрузки": "prefs:root=STORE#Automatic%20Downloads",
+    "Обновления ПО": "prefs:root=STORE#App%20Updates",
+    "Загрузки приложений": "prefs:root=STORE&path=App%20Downloads",
+    "Автовоспр. видео": "prefs:root=STORE&path=Video%20Autoplay",
+    "Оценки и отзывы": "prefs:root=STORE#In-App%20Ratings%20&%20Reviews"
+  },
+  "News": {
+    "(root)": "prefs:root=NEWS",
+    "Показ предпросмотра статей, Показ предпросмотра историй, Show Story Previews": "prefs:root=NEWS#show_excerpt_mode",
+    "Ограничить статьи в виде «Сегодня», Ограничить истории в виде «Сегодня», Restrict Stories in Today": "prefs:root=NEWS#showStoriesFromFavoritesSpecifierID",
+    "Конфиденциальность": "prefs:root=NEWS#Privacy",
+    "Сброс идентификатора": "prefs:root=NEWS#reset_identifier",
+    "Уведомления": "prefs:root=NEWS&path=Acknowledgements"
+  },
+  "NEEDS_OVERRIDE_1087": {
+    "Авиарежим": "prefs:root=ROOT#AIRPLANE_MODE"
+  },
+  "Напоминания": {
+    "(root)": "prefs:root=REMINDERS",
+    "Список по умолчанию": {
+      "(root)": "prefs:root=REMINDERS&path=DEFAULT_LIST",
+      "Напоминания": "prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID"
+    },
+    "Уведомление на сегодня": "prefs:root=REMINDERS#todayNotificationFireTime",
+    "Учет просрочек": "prefs:root=REMINDERS#showRemindersAsOverdue"
+  },
+  "Аккумулятор": {
+    "(root)": "prefs:root=BATTERY_USAGE",
+    "Режим энергосбережения": "prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE",
+    "Состояние аккумулятора": "prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID"
+  },
+  "WLAN": "prefs:root=WIFI",
+  "Bluetooth": "prefs:root=Bluetooth",
+  "Быстрые команды": {
+    "(root)": "prefs:root=SHORTCUTS",
+    "Синхронизация iCloud": "prefs:root=SHORTCUTS#WFCloudKitSyncEnabled",
+    "Синхронизация порядка": "prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled",
+    "Правовые уведомления": "prefs:root=SHORTCUTS&path=Legal%20Notices"
+  },
+  "Siri и Поиск": {
+    "(root)": "prefs:root=SIRI",
+    "Siri с блокировкой экрана": "prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS",
+    "Язык": "prefs:root=SIRI&path=LANGUAGE_ID",
+    "Голос Siri": "prefs:root=SIRI&path=VOICE_ID",
+    "Аудиоотзыв": "prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
+    "Моя информация": "prefs:root=SIRI&path=MY_INFO",
+    "Предложения в Поиске": "prefs:root=SIRI#Suggestions%20in%20Search",
+    "Предложения в «Найти»": "prefs:root=SIRI#Suggestions%20in%20Look%20Up",
+    "На экране блокировки": "prefs:root=SIRI#Suggestions%20on%20Lock%20Screen"
+  },
+  "Акции": {
+    "(root)": "prefs:root=STOCKS",
+    "Конфиденциальность": "prefs:root=STOCKS#Privacy",
+    "Сброс идентификатора": "prefs:root=STOCKS#reset_identifier"
+  },
+  "Сотовая связь": {
+    "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+    "Параметры": {
+      "(root)": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
+      "Экономия данных": "prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode"
+    },
+    "Сотовые данные": "prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE"
+  },
+  "TV": {
+    "(root)": "prefs:root=TVAPP",
+    "Сотовые данные для воспр.": "prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting",
+    "Качество воспроизведения": "prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup",
+    "Покупки и прокат": "prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
+    "Домашняя коллекция": "prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter"
+  },
+  "Обои": "prefs:root=Wallpaper"
+}

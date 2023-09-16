@@ -1,0 +1,561 @@
+{
+  "Trợ năng": {
+    "(root)": "bridge:root=ACCESSIBILITY",
+    "Nhìn": "bridge:root=ACCESSIBILITY#VISION",
+    "VoiceOver": "bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
+    "Thu phóng": "bridge:root=ACCESSIBILITY&path=ZOOM_TITLE",
+    "Chữ đậm": "bridge:root=ACCESSIBILITY#BoldTextEnabled",
+    "Nhãn Bật/Tắt": "bridge:root=ACCESSIBILITY#OnOffLabelsEnabled",
+    "Màu xám": "bridge:root=ACCESSIBILITY#GrayscaleDisplay",
+    "Giảm độ trong suốt": "bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY",
+    "Giảm chuyển động": "bridge:root=ACCESSIBILITY&path=ReduceMotion",
+    "Taptic Chimes": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+      "Chuông gió": "bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes",
+      "Lịch trình": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule",
+        "Hàng giờ": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly",
+        "30 phút": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes",
+        "15 phút": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes"
+      },
+      "Âm thanh": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds",
+        "Chuông": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells",
+        "Chim": "bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds"
+      }
+    },
+    "Vận động": "bridge:root=ACCESSIBILITY#MotorGroupCell",
+    "Tốc độ bấm nút sườn": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=SideButton",
+      "Tốc độ bấm": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER",
+      "Mặc định": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT",
+      "Chậm": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW",
+      "Chậm nhất": "bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST"
+    },
+    "Thích nghi cảm ứng": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell",
+      "Thích nghi cảm ứng": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER",
+      "Thời gian giữ": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration",
+      "Bỏ qua lặp lại": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat",
+      "Hỗ trợ chạm": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance",
+      "Tắt": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF",
+      "Sử dụng vị trí chạm ban đầu": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH",
+      "Sử dụng vị trí chạm cuối cùng": "bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE"
+    },
+    "HOẠT ĐỘNG XE LĂN": "bridge:root=ACCESSIBILITY#MOBILITY",
+    "Bộ đàm": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup",
+    "Chạm để nói": "bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk",
+    "Nghe": "bridge:root=ACCESSIBILITY#HEARING",
+    "RTT": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=RTT",
+      "RTT": "bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE",
+      "Số chuyển tiếp": "bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL",
+      "Gửi ngay lập tức": "bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL",
+      "Trả lời mặc định": {
+        "(root)": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE",
+        "Trả lời mặc định": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies",
+        "Thêm câu trả lời…": "bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6"
+      }
+    },
+    "Đơn âm sắc": "bridge:root=ACCESSIBILITY#MonoAudioEnabled",
+    "Cân bằng stereo trái-phải": "bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN",
+    "Thông báo tai nghe": "bridge:root=ACCESSIBILITY#HeadphoneNotificationsID",
+    "Thiết bị nghe": "bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID",
+    "Tổ hợp": {
+      "(root)": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID",
+      "Âm lượng micrô": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume",
+      "Chương trình": "bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program"
+    },
+    "Tốc độ thời gian taptic": "bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup",
+    "Phím tắt trợ năng": "bridge:root=ACCESSIBILITY&path=AX_SHORTCUT"
+  },
+  "undefined": {
+    "(root)": "bridge:root=ActiveWatch",
+    "Ghép đôi đồng hồ mới": "bridge:root=ActiveWatch&path=Pair%20New%20Watch"
+  },
+  "Xem ứng dụng": "bridge:root=APP_VIEW_ID",
+  "Cài đặt chung": {
+    "(root)": "bridge:root=GENERAL_LINK",
+    "Giới thiệu": {
+      "(root)": "bridge:root=GENERAL_LINK&path=ABOUT",
+      "Tên": "bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID",
+      "Bảo hành giới hạn": {
+        "(root)": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION",
+        "Bảo hành giới hạn": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty",
+        "CHI TIẾT BẢO HÀNH": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS",
+        "Bảo hành phần cứng": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage",
+        "Hỗ trợ trò chuyện & điện thoại": "bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support"
+      },
+      "Bài hát": "bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID",
+      "Ảnh": "bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID",
+      "Ứng dụng": "bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID",
+      "Dung lượng": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID",
+      "Khả dụng": "bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID",
+      "Phiên bản": "bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID",
+      "Nhà cung cấp": "bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID",
+      "Kiểu máy": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID",
+      "Số Sê ri": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID",
+      "Địa chỉ Wi-Fi": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID",
+      "Bluetooth": "bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID",
+      "IMEI": "bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID",
+      "ICCID": "bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID",
+      "EID": "bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID",
+      "SEID": "bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID",
+      "Pháp lý": "bridge:root=GENERAL_LINK&path=ABOUT/LEGAL",
+      "Xem HD sử dụng Apple Watch ": "bridge:root=GENERAL_LINK&path=ABOUT#MANUAL"
+    },
+    "Cập nhật phần mềm": "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK",
+    "Tự động cài đặt ứng dụng": "bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID",
+    "Chế độ máy bay": "bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID",
+    "Tập trung": {
+      "(root)": "bridge:root=GENERAL_LINK&path=FOCUS_ID",
+      "Phản chiếu iPhone": "bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone"
+    },
+    "Hướng đồng hồ": {
+      "(root)": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION",
+      "Đeo Apple Watch trên": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID",
+      "Cổ tay trái": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID",
+      "Cổ tay phải": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID",
+      "Digital Crown ở bên trái": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID",
+      "Digital Crown ở bên phải": "bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID"
+    },
+    "ID Apple": "bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK",
+    "Bật Đọc chính tả": "bridge:root=GENERAL_LINK#DICTATION_CELL_ID",
+    "Bật Handoff": "bridge:root=GENERAL_LINK#CONTINUITY",
+    "Chế độ đầu giường": "bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID",
+    "Bật ảnh màn hình": "bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID",
+    "Dung lượng": "bridge:root=GENERAL_LINK&path=USAGE_LINK",
+    "Bản ghi chẩn đoán": "bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER",
+    "Sao chép Phân tích đồng hồ": "bridge:root=GENERAL_LINK#LOGS_CELL_ID",
+    "Đặt lại": "bridge:root=GENERAL_LINK&path=RESET",
+    "Tự động khởi chạy khi được nhấn chìm": {
+      "(root)": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH",
+      "Tự chạy ứng dụng âm thanh": "bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA"
+    },
+    "Ngôn ngữ & Vùng": {
+      "(root)": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION",
+      "Phản chiếu iPhone": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID",
+      "Tùy chỉnh": "bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID"
+    },
+    "TRỞ VỀ MẶT ĐỒNG HỒ": {
+      "(root)": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK",
+      "TRỞ VỀ MẶT ĐỒNG HỒ": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID",
+      "Luôn luôn": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS",
+      "Sau 2 phút": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES",
+      "Sau 1 giờ": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR",
+      "ỨNG DỤNG": "bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID"
+    },
+    "Wake Screen": {
+      "(root)": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+      "Đang phát": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA"
+    }
+  },
+  "Màn hình & Độ sáng": {
+    "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS",
+    "Độ sáng": "bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL",
+    "Luôn bật": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID",
+      "Luôn bật": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID",
+      "ĐƯA CỔ TAY XUỐNG": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID",
+      "Hiển thị thông báo": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications",
+        "Hiển thị thông báo": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "ỨNG DỤNG CHO APPLE WATCH": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID"
+      },
+      "Hiển thị ứng dụng": {
+        "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps",
+        "Hiển thị ứng dụng": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP",
+        "ỨNG DỤNG": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID"
+      }
+    },
+    "Cỡ chữ": "bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE",
+    "Chữ đậm": "bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT",
+    "THỨC": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE",
+    "Bật khi đưa cổ tay lên": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID",
+    "Bật khi xoay Crown": "bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID",
+    "Thời gian thức": {
+      "(root)": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration",
+      "KHI CHẠM": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID",
+      "Thức trong 15 giây": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID",
+      "Thức trong 70 giây": "bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID"
+    }
+  },
+  "Âm thanh & Cảm ứng": {
+    "(root)": "bridge:root=SOUNDS_ID",
+    "Cảnh báo âm lượng": "bridge:root=SOUNDS_ID#AUDIO_SLIDER",
+    "Chế độ im lặng": "bridge:root=SOUNDS_ID#audio_mute_switch",
+    "Âm thanh tai nghe": "bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP",
+    "An toàn tai nghe": {
+      "(root)": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING",
+      "Thông báo tai nghe": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey",
+      "Giảm âm thanh lớn": "bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey"
+    },
+    "Cảm ứng": "bridge:root=SOUNDS_ID#Haptics",
+    "Cảnh báo cảm ứng": "bridge:root=SOUNDS_ID#Haptic%20Alerts",
+    "Cảm ứng Crown": "bridge:root=SOUNDS_ID#JACKRABBIT_ID",
+    "Cảm ứng hệ thống": "bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID",
+    "Che để tắt tiếng": "bridge:root=SOUNDS_ID#COVER_TO_MUTE"
+  },
+  "SOS khẩn cấp": "bridge:root=SOS_MODE_ID",
+  "Quyền riêng tư": {
+    "(root)": "bridge:root=PRIVACY_ID",
+    "Nhịp tim": "bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL",
+    "Tần số Hô hấp": "bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL",
+    "Theo dõi thể chất": "bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL",
+    "Đặt lại dữ liệu hiệu chỉnh thể chất": "bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL",
+    "Số đo âm thanh môi trường": "bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID",
+    "Số đo âm thanh tai nghe": {
+      "(root)": "bridge:root=PRIVACY_ID&path=HeadphoneAudio",
+      "Lưu trong Sức khỏe": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP",
+      "Trong 8 ngày": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL",
+      "Đến khi tôi xóa": "bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL"
+    },
+    "Đo lượng ôxi trong máu": "bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID",
+    "Nhiệt độ cổ tay": "bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID"
+  },
+  "Thời gian sử dụng": "bridge:root=SCREEN_TIME_ID",
+  "Nike Run Club": "bridge:root=VICTORY_ROW_ID",
+  "Độ sâu": "bridge:root=com.apple.DepthCompanionSettings",
+  "Nút Tác vụ": "bridge:root=STING_TITLE",
+  "App Store": {
+    "(root)": "bridge:root=com.apple.BridgeAppStoreDaemonSettings",
+    "Tải về tự động": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier",
+    "Tự động cập nhật": "bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates"
+  },
+  "Sức khỏe": "bridge:root=com.apple.BridgeHealthSettings",
+  "Mail & Lịch": {
+    "(root)": "bridge:root=com.apple.BridgeRemoteAccounts",
+    "Tài khoản": "bridge:root=com.apple.BridgeRemoteAccounts#Accounts",
+    "Thêm Tài khoản Google...": "bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT",
+    "Tìm nạp": {
+      "(root)": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch",
+      "Tắt": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off",
+      "Hàng giờ": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly",
+      "30 phút": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min",
+      "15 phút": "bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min"
+    }
+  },
+  "Rửa tay": {
+    "(root)": "bridge:root=com.apple.BrookBridgeSettings",
+    "Cho phép Thông báo": "bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID",
+    "Gửi đến Trung tâm thông báo": "bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Tắt thông báo": "bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID",
+    "Nhóm thông báo": "bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID",
+    "Hẹn giờ rửa tay": "bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID"
+  },
+  "Di động": "bridge:root=CELLULAR_ID",
+  "Tổ hợp": "bridge:root=COMPLICATIONS",
+  "Hoạt động": {
+    "(root)": "bridge:root=com.apple.HealthAppsSettings",
+    "Cập nhật tiến trình": {
+      "(root)": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL",
+      "Không có": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID",
+      "2 giờ một lần": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID",
+      "4 giờ một lần": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID",
+      "6 giờ một lần": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID",
+      "8 giờ một lần": "bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID"
+    },
+    "Thành tích": "bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL",
+    "Tóm tắt hàng tuần": "bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL",
+    "Huấn luyện hàng ngày": "bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL",
+    "Hoàn thành mục tiêu": "bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL",
+    "Thử thách đặc biệt": "bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL",
+    "Thông báo Chia sẻ hoạt động": "bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED"
+  },
+  "Heart Rate": {
+    "(root)": "bridge:root=com.apple.HeartRateSettings",
+    "Tim": "bridge:root=com.apple.HeartRateSettings#1",
+    "Thông báo nhịp tim": "bridge:root=com.apple.HeartRateSettings#2",
+    "Nhịp tim cao": "bridge:root=com.apple.HeartRateSettings#3",
+    "Nhịp tim thấp": "bridge:root=com.apple.HeartRateSettings#4",
+    "Nhịp không đều": "bridge:root=com.apple.HeartRateSettings#5",
+    "Xem ECG đã ghi trong Sức khỏe": "bridge:root=com.apple.HeartRateSettings#6",
+    "ECG": "bridge:root=com.apple.HeartRateSettings#7"
+  },
+  "Tin nhắn": {
+    "(root)": "bridge:root=com.apple.MessagesBridgeSettings",
+    "Phản chiếu iPhone": "bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tùy chỉnh": "bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID",
+    "Trả lời Mặc định": {
+      "(root)": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES",
+      "Trả lời mặc định": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies",
+      "Câu trả lời thông minh": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies",
+      "Thêm câu trả lời…": "bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6"
+    },
+    "Lặp lại Cảnh báo": "bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE",
+    "Tin nhắn Âm thanh": "bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode"
+  },
+  "Chú tâm": {
+    "(root)": "bridge:root=com.apple.MindSettings",
+    "Cho phép Thông báo": "bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID",
+    "Gửi đến Trung tâm thông báo": "bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Tắt thông báo": "bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID",
+    "Lời nhắc chú tâm": "bridge:root=com.apple.MindSettings#MIND_GROUP_ID",
+    "Bắt đầu ngày": "bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER",
+    "Cuối ngày": "bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER",
+    "Thêm lời nhắc…": "bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6",
+    "Tóm tắt hàng tuần": "bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID",
+    "Tắt cho hôm nay": "bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID",
+    "Tần suất hô hấp": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID",
+      "4 nhịp thở/phút": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4",
+      "5 nhịp thở/phút": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5",
+      "6 nhịp thở/phút": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6",
+      "7 nhịp thở/phút": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7",
+      "8 nhịp thở/phút": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8",
+      "9 nhịp thở/phút": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9",
+      "10 nhịp thở/phút": "bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10"
+    },
+    "Cảm ứng": {
+      "(root)": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID",
+      "Không có": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID",
+      "Tối thiểu": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID",
+      "Nổi bật": "bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID"
+    }
+  },
+  "Ngủ": {
+    "(root)": "bridge:root=com.apple.NanoBedtimeBridgeSettings",
+    "Thiết lập Ngủ trong ứng dụng Sức khỏe": "bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID"
+  },
+  "Sách nói": {
+    "(root)": "bridge:root=com.apple.NanoBooks.BridgeSettings",
+    "Đăng nhập": "bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In"
+  },
+  "Lịch": {
+    "(root)": "bridge:root=com.apple.NanoCalendarBridgeSettings",
+    "THÔNG BÁO": "bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Phản chiếu iPhone": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID",
+    "Tùy chỉnh…": "bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID",
+    "LỊCH": "bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID"
+  },
+  "Đồng hồ": {
+    "(root)": "bridge:root=com.apple.NanoClockBridgeSettings",
+    "Thời gian 24 giờ": "bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time",
+    "Chuông gió": "bridge:root=com.apple.NanoClockBridgeSettings#Chimes",
+    "Âm thanh": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds",
+      "Chuông": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells",
+      "Chim": "bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds"
+    },
+    "Đọc thời gian": "bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time",
+    "Điều khiển với Chế độ im lặng": "bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode",
+    "Luôn đọc": "bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak",
+    "Thời gian Taptic": {
+      "(root)": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time",
+      "Thời gian Taptic": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time",
+      "Chữ số": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits",
+      "Súc tích": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse",
+      "Mã Morse": "bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code"
+    },
+    "Cảnh báo Push từ iPhone": "bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone",
+    "Chỉ báo thông báo": "bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator",
+    "Chữ lồng": "bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID",
+    "Thông báo mặt đồng hồ": "bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications",
+    "Tên viết tắt thành phố": "bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations",
+    "Dữ liệu mặt đồng hồ Siri": "bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources"
+  },
+  "Danh bạ": {
+    "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired",
+    "Thứ tự sắp xếp": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder",
+      "Tên, Họ": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0",
+      "Họ, Tên": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1"
+    },
+    "Thứ tự hiển thị": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder",
+      "Tên, Họ": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1",
+      "Họ, Tên": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2"
+    },
+    "Tên viết tắt": {
+      "(root)": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName",
+      "Tên viết tắt": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name",
+      "Tên & Họ viết tắt": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial",
+      "Tên viết tắt & Họ": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name",
+      "Chỉ tên": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only",
+      "Chỉ họ": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only",
+      "Ưu tiên biệt danh": "bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames"
+    }
+  },
+  "Mail": {
+    "(root)": "bridge:root=com.apple.NanoMailBridgeSettings",
+    "Phản chiếu iPhone": "bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tùy chỉnh": "bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID",
+    "Cài đặt Mail": "bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings",
+    "Tài khoản": "bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts",
+    "Bao gồm Mail": "bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail",
+    "Xem trước thư": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview",
+      "Không có": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0",
+      "1 dòng": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1",
+      "2 dòng": "bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2"
+    },
+    "Trả lời mặc định": {
+      "(root)": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies",
+      "Trả lời mặc định": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies",
+      "Thêm câu trả lời…": "bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6"
+    },
+    "Chữ ký": "bridge:root=com.apple.NanoMailBridgeSettings&path=Signature"
+  },
+  "Bản đồ": {
+    "(root)": "bridge:root=com.apple.NanoMapsBridgeSettings",
+    "Cảnh báo rẽ": "bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts",
+    "Lái xe": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving",
+    "Lái xe với CarPlay": "bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay",
+    "Đi bộ": "bridge:root=com.apple.NanoMapsBridgeSettings#Walking",
+    "Đi xe đạp": "bridge:root=com.apple.NanoMapsBridgeSettings#Cycling",
+    "Hiển thị dẫn đường": "bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation",
+    "PT công cộng": "bridge:root=com.apple.NanoMapsBridgeSettings#Transit",
+    "Thông tin bản dựng:": "bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A"
+  },
+  "Nhạc": {
+    "(root)": "bridge:root=com.apple.NanoMusicBridgeSettings",
+    "PLAYLIST & ALBUM": "bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS",
+    "Thêm nhạc…": "bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6"
+  },
+  "Ví & Apple Pay": {
+    "(root)": "bridge:root=com.apple.NanoPassbookBridgeSettings",
+    "Apple Cash": "bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash",
+    "Thêm thẻ": "bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card",
+    "Thông báo": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Phản chiếu iPhone": "bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tùy chỉnh": "bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID"
+  },
+  "Ảnh": {
+    "(root)": "bridge:root=com.apple.NanoPhotosBridgeSettings",
+    "Đồng bộ hóa ảnh": "bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing",
+    "Kỷ niệm": "bridge:root=com.apple.NanoPhotosBridgeSettings#Memories",
+    "Đồng bộ hóa kỷ niệm": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories",
+    "Ảnh nổi bật": "bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos",
+    "Đồng bộ hóa ảnh nổi bật": "bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos",
+    "Album": "bridge:root=com.apple.NanoPhotosBridgeSettings#Album",
+    "Album đồng bộ hóa": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album",
+    "Giới hạn ảnh": "bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit",
+    "Cài đặt thông báo": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID",
+    "Phản chiếu iPhone": "bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID",
+    "Tùy chỉnh": "bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID"
+  },
+  "Tiếng ồn": {
+    "(root)": "bridge:root=com.apple.Noise.settings",
+    "Số đo âm thanh môi trường": "bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID",
+    "Thông báo tiếng ồn": "bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID",
+    "Ngưỡng tiếng ồn": {
+      "(root)": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID",
+      "Tắt": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF",
+      "80 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80",
+      "85 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85",
+      "90 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90",
+      "95 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95",
+      "100 decibel": "bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100"
+    },
+    "Nhóm thông báo": "bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID"
+  },
+  "Ôxi trong máu": "bridge:root=com.apple.OxygenSaturationSettings",
+  "Cài đặt nhà cung cấp": "bridge:root=CARRIER_SETTINGS",
+  "Tắt mật mã": {
+    "(root)": "bridge:root=PASSCODE_ID",
+    "Bật mật mã": "bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID",
+    "Thay đổi mật mã": "bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID",
+    "Mật mã đơn giản": "bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID",
+    "Mở khóa bằng iPhone": "bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID",
+    "Xóa dữ liệu": "bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID",
+    "Phát hiện cổ tay": "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
+  },
+  "Điện thoại": {
+    "(root)": "bridge:root=com.apple.PhoneBridgeSettings",
+    "Cuộc gọi": "bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id",
+    "Nhạc chuông": "bridge:root=com.apple.PhoneBridgeSettings#RINGTONE",
+    "Âm thanh": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND",
+    "Cảm ứng": "bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC"
+  },
+  "Bài tập": {
+    "(root)": "bridge:root=com.apple.SessionTrackerAppSettings",
+    "Chế độ nguồn điện thấp": "bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE",
+    "Hiển thị số liệu mục tiêu": "bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL",
+    "Xem bài tập": "bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID",
+    "Tự động tạm dừng": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID",
+      "Tự động tạm dừng": "bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch"
+    },
+    "Lời nhắc bắt đầu bài tập": "bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL",
+    "Lời nhắc kết thúc bài tập": "bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL",
+    "Nhấn để tạm dừng": "bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL",
+    "Phát hiện thiết bị thể dục": "bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID",
+    "Xem tốc độ/vận tốc": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL",
+      "Hiện tại": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID",
+      "Trung bình": "bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID"
+    },
+    "Playlist bài tập": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID",
+      "Không có": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID",
+      "Playlist": "bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID"
+    },
+    "Phát từ đầu": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID",
+    "Xáo trộn": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID",
+    "Đơn vị đo": {
+      "(root)": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID",
+      "Calo": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID",
+      "Kilôcalo": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID",
+      "Kilôjun": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID",
+      "Yard": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID",
+      "Mét": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID",
+      "Dặm": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID",
+      "Kilômét": "bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID"
+    },
+    "Phản hồi bằng giọng nói": "bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL",
+    "Thời gian đi bộ": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID",
+    "Thêm bài tập mới vào đồng hồ": "bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID"
+  },
+  "Chứng khoán": {
+    "(root)": "bridge:root=com.apple.StocksBridgeSettings",
+    "Tổ hợp mặt đồng hồ hiển thị": "bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows",
+    "Giá hiện tại": "bridge:root=com.apple.StocksBridgeSettings#Current%20Price",
+    "Thay đổi điểm": "bridge:root=com.apple.StocksBridgeSettings#Points%20Change",
+    "Thay đổi phần trăm": "bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change",
+    "GT vốn hóa": "bridge:root=com.apple.StocksBridgeSettings#Market%20Cap",
+    "Mặt đồng hồ Siri hiển thị chào giá cho": "bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For",
+    "Chứng khoán được chọn": {
+      "(root)": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock",
+      "Chứng khoán được chọn": "bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock"
+    }
+  },
+  "Dock": {
+    "(root)": "bridge:root=DOCK",
+    "Sắp xếp Dock": "bridge:root=DOCK#OrderingOptionGroup",
+    "Gần đây": "bridge:root=DOCK#Recents",
+    "Mục ưa thích": "bridge:root=DOCK#Favorites"
+  },
+  "Podcast": "bridge:root=com.apple.private.PodcastsBridgeSettings",
+  "Siri": {
+    "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID",
+    "Hỏi Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID",
+    "Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID",
+    "Đưa lên để nói": "bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID",
+    "Nhấn Digital Crown": "bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID",
+    "Phản hồi bằng giọng nói": {
+      "(root)": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID",
+      "Luôn bật": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID",
+      "Điều khiển với Chế độ im lặng": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID",
+      "Chỉ tai nghe": "bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID"
+    },
+    "Âm lượng giọng nói": "bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID",
+    "Gợi ý của Siri": "bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID"
+  },
+  "Bộ đàm": {
+    "(root)": "bridge:root=com.apple.tincan.settings",
+    "Cho phép Thông báo": "bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID",
+    "Gửi đến Trung tâm thông báo": "bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID",
+    "Tắt thông báo": "bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID",
+    "Nhóm thông báo": "bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID",
+    "Bạn bè": "bridge:root=com.apple.tincan.settings#Friends"
+  },
+  "Thời tiết": {
+    "(root)": "bridge:root=com.apple.weatherbridgesettings",
+    "Thành phố mặc định": {
+      "(root)": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City",
+      "Thành phố mặc định": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City",
+      "Vị trí hiện tại": "bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location"
+    }
+  },
+  "Gửi thông báo đã đọc": "bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS"
+}

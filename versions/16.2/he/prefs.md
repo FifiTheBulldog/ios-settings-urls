@@ -1,0 +1,855 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → ‏iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → ‏iCloud → אחסון ב-iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → ‏iCloud → ‏iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → ‏iCloud → תמונות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → ‏iCloud → דואר: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → ‏iCloud → אנשי קשר: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → ‏iCloud → לוח שנה: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → ‏iCloud → תזכורות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → ‏iCloud → ‏Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → ‏iCloud → הערות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → ‏iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → ‏iCloud → גיבוי: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → ‏iCloud → בריאות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → ‏iCloud → סיסמאות וצרור המפתחות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → ‏iCloud → ממסר פרטי: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → שיתוף המיקום שלי: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → שיתוף המיקום שלי → איתור ה-iPhone שלי: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → שם, מספרי טלפון, דוא״ל: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → סיסמה ואבטחה: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → תשלום ומשלוח: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → מינויים: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → משפחה: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- פרטיות ואבטחה: `prefs:root=Privacy`
+- פרטיות ואבטחה → בדיקת בטיחות: `prefs:root=Privacy&path=SAFETY_CHECK`
+- פרטיות ואבטחה → מיקום: `prefs:root=Privacy&path=LOCATION`
+- פרטיות ואבטחה → מיקום → שיתוף המיקום שלי: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- פרטיות ואבטחה → אנשי קשר: `prefs:root=Privacy&path=CONTACTS`
+- פרטיות ואבטחה → לוחות שנה: `prefs:root=Privacy&path=CALENDARS`
+- פרטיות ואבטחה → תזכורות: `prefs:root=Privacy&path=REMINDERS`
+- פרטיות ואבטחה → תמונות: `prefs:root=Privacy&path=PHOTOS`
+- פרטיות ואבטחה → שיתוף ב-Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- פרטיות ואבטחה → מיקרופון: `prefs:root=Privacy&path=MICROPHONE`
+- פרטיות ואבטחה → זיהוי דיבור: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- פרטיות ואבטחה → מצלמה: `prefs:root=Privacy&path=CAMERA`
+- פרטיות ואבטחה → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- פרטיות ואבטחה → מדיה ו-Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- פרטיות ואבטחה → נתונים: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- פרטיות ואבטחה → פרסום: `prefs:root=Privacy&path=ADVERTISING`
+- פרטיות ואבטחה → קבצים ותיקיות: `prefs:root=Privacy&path=FILEACCESS`
+- פרטיות ואבטחה → מעקב: `prefs:root=Privacy&path=USER_TRACKING`
+- פרטיות ואבטחה → דו״ח פרטיות היישום: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- פרטיות ואבטחה → מצב נעילה: `prefs:root=Privacy#LOCKDOWN_MODE`
+- פרטיות ואבטחה → בריאות: `prefs:root=Privacy&path=HEALTH`
+- ריכוז: `prefs:root=DO_NOT_DISTURB`
+- ריכוז → סטטוס ריכוז: `prefs:root=DO_NOT_DISTURB&path=status`
+- כללי: `prefs:root=General`
+- כללי → ניהול התקנים ו-VPN: `prefs:root=General&path=ManagedConfigurationList`
+- כללי → תמונה בתוך תמונה: `prefs:root=General&path=PiP_SPEC`
+- כללי → משטח המגע ועכבר: `prefs:root=General&path=POINTERS`
+- כללי → NFC: `prefs:root=General&path=NFC_LINK`
+- כללי → ‏VPN: `prefs:root=General&path=VPN`
+- כללי → CarPlay: `prefs:root=General&path=CARPLAY`
+- כללי → מידע: `prefs:root=General&path=About`
+- כללי → מידע → אישורים מהימנים: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- כללי → מידע משפטי ותקנים: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- כללי → עדכוני תוכנה: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- כללי → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- כללי → כפתור ה״בית״: `prefs:root=General&path=HOME_BUTTON`
+- כללי → מחוות: `prefs:root=General#Multitasking_Gesture_Switch`
+- כללי → מתג צד: `prefs:root=General#Rotation_Switch_Action_Group`
+- כללי → עדכון יישומים ברקע: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- כללי → תאריך ושעה: `prefs:root=General&path=DATE_AND_TIME`
+- כללי → יציאת טלוויזיה: `prefs:root=General&path=TV_OUT`
+- כללי → תקנים: `prefs:root=General&path=REGULATORY`
+- כללי → איפוס: `prefs:root=General&path=Reset`
+- כללי → איפוס → אפס את כל ההגדרות: `prefs:root=General&path=Reset#settingsErase`
+- כללי → איפוס → מחק את כל התוכן וההגדרות: `prefs:root=General&path=Reset#fullErase`
+- כללי → איפוס → אפס הגדרות רשת: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- כללי → איפוס → מחק את כל תכניות הנתונים הסלולריות: `prefs:root=General&path=Reset#cellularErase`
+- כללי → איפוס → שירותי מנוי: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- כללי → איפוס → אפס את המילון של המקלדת: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- כללי → איפוס → אפס פריסת אייקונים במסך הבית: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- כללי → איפוס → אפס מיקום ופרטיות: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- כללי → כיבוי: `prefs:root=General#SHUTDOWN_LABEL`
+- כללי → ‏AirPlay ו-Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- כללי → ‏AirPlay ו-Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- כללי → ‏AirPlay ו-Handoff → העברה ל-HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- כללי → ‏AirPlay ו-Handoff → ‏AirPlay אוטומטי לטלוויזיות: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- כללי → ‏AirPlay ו-Handoff → המשכיות במצלמה: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- כללי → מילון: `prefs:root=General&path=DICTIONARY`
+- כללי → שפה ואזור: `prefs:root=General&path=INTERNATIONAL`
+- כללי → שפה ואזור → שפות נוספות…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- כללי → שפה ואזור → סדר שפות מועדף: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- כללי → שפה ואזור → הוספת שפה…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- כללי → שפה ואזור → אזור: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- כללי → שפה ואזור → מספרים: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- כללי → שפה ואזור → לוח שנה: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- כללי → שפה ואזור → יחידת טמפרטורה: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- כללי → מקלדת: `prefs:root=General&path=Keyboard`
+- כללי → מקלדת → מקלדות: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- כללי → מקלדת → החלפת מלל: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- כללי → מקלדת → אותיות גדולות אוטומטיות: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- כללי → מקלדת → תיקון אוטומטי: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- כללי → מקלדת → בדוק איות: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- כללי → מקלדת → אפשר Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- כללי → מקלדת → קיצורים: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- כללי → מקלדת → חיזוי: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- כללי → מקלדת → פיסוק חכם: `prefs:root=General&path=Keyboard#SmartTyping`
+- כללי → מקלדת → פצל את המקלדת: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- כללי → מקלדת → אפשר ״החלקת מקשים״: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- כללי → מקלדת → תצוגה מקדימה של תווים: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- כללי → מקלדת → קיצור ״.״: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- כללי → מקלדת → הקלדה בהחלקה: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- כללי → מקלדת → הפעל הכתבה: `prefs:root=General&path=Keyboard#Dictation`
+- כללי → מקלדת → פיסוק אוטומטי: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- כללי → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- כללי → iPhone/iPad Storage → אחסון: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- כללי → iPhone/iPad Storage → הסר יישומים שאינם בשימוש: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- עדכונים: `prefs:root=NOTIFICATIONS_ID`
+- עדכונים → סיכום מתוזמן: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- ‏Wallet ו-Apple Pay: `prefs:root=PASSBOOK`
+- ‏Wallet ו-Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- ‏Wallet ו-Apple Pay → כרטיסי תשלום: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- ‏Wallet ו-Apple Pay → הוספת כרטיס: `prefs:root=PASSBOOK#Add%20Card`
+- ‏Wallet ו-Apple Pay → לחיצה כפולה על כפתור הצד: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- ‏Wallet ו-Apple Pay → מעקב אחר הזמנות: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- זמן מסך: `prefs:root=SCREEN_TIME`
+- זמן מסך → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- זמן מסך → See All Activity → היום: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- זמן מסך → See All Activity → שבוע: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- זמן מסך → השבתה: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- זמן מסך → הגבלת יישומים: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- זמן מסך → הגבלות תקשורת: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- זמן מסך → בטיחות בתקשורת: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- זמן מסך → אפשר תמיד: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- זמן מסך → הגבלת תוכן ופרטיות: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- זמן מסך → בקרת הורים: `prefs:root=SCREEN_TIME#FAMILY`
+- נגישות: `prefs:root=ACCESSIBILITY`
+- נגישות → ראייה: `prefs:root=ACCESSIBILITY#VISION`
+- נגישות → VoiceOver‏: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- נגישות → VoiceOver‏ → VoiceOver‏: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- נגישות → VoiceOver‏ → קצב הקראה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- נגישות → VoiceOver‏ → דיבור: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- נגישות → VoiceOver‏ → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- נגישות → VoiceOver‏ → Speech → קול: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- נגישות → VoiceOver‏ → רמת פירוט המלל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- נגישות → VoiceOver‏ → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- נגישות → VoiceOver‏ → Verbosity → פיסוק: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- נגישות → VoiceOver‏ → Verbosity → כותרות טבלה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- נגישות → VoiceOver‏ → Verbosity → תיאורי מדיה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- נגישות → VoiceOver‏ → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- נגישות → VoiceOver‏ → Verbosity → Media Descriptions → כבוי: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- נגישות → VoiceOver‏ → Verbosity → Media Descriptions → דיבור: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- נגישות → VoiceOver‏ → Verbosity → Media Descriptions → ברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- נגישות → VoiceOver‏ → Verbosity → Media Descriptions → הקראה וברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- נגישות → VoiceOver‏ → ברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- נגישות → VoiceOver‏ → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- נגישות → VoiceOver‏ → Braille → פלט: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- נגישות → VoiceOver‏ → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- נגישות → VoiceOver‏ → Braille → Output → ברייל רגיל של שש נקודות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- נגישות → VoiceOver‏ → Braille → Output → ברייל רגיל של שמונה נקודות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- נגישות → VoiceOver‏ → Braille → Output → ברייל (דרגה שניה): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- נגישות → VoiceOver‏ → Braille → קלט: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- נגישות → VoiceOver‏ → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- נגישות → VoiceOver‏ → Braille → Input → ברייל רגיל של שש נקודות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- נגישות → VoiceOver‏ → Braille → Input → ברייל רגיל של שמונה נקודות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- נגישות → VoiceOver‏ → Braille → Input → ברייל (דרגה שניה): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- נגישות → VoiceOver‏ → Braille → Input → תרגום אוטומטי: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- נגישות → VoiceOver‏ → Braille → קלט ברייל על המסך: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- נגישות → VoiceOver‏ → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- נגישות → VoiceOver‏ → Braille → Braille Screen Input → ברייל רגיל של שש נקודות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- נגישות → VoiceOver‏ → Braille → Braille Screen Input → ברייל רגיל של שמונה נקודות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- נגישות → VoiceOver‏ → Braille → Braille Screen Input → ברייל (דרגה שניה): `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- נגישות → VoiceOver‏ → Braille → Braille Screen Input → מיקומי נקודה הפוכה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- נגישות → VoiceOver‏ → Braille → טבלאות ברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- נגישות → VoiceOver‏ → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- נגישות → VoiceOver‏ → Braille → Tables → הוסף טבלת ברייל…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- נגישות → VoiceOver‏ → Braille → תאי מצב: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- נגישות → VoiceOver‏ → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- נגישות → VoiceOver‏ → Braille → Status Cell → מיקום תאי מצב: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- נגישות → VoiceOver‏ → Braille → Status Cell → שמאל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- נגישות → VoiceOver‏ → Braille → Status Cell → ימין: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- נגישות → VoiceOver‏ → Braille → Status Cell → הצג מצב כללי: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- נגישות → VoiceOver‏ → Braille → Status Cell → הצג מצב מלל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- נגישות → VoiceOver‏ → Braille → השתמש בכתב נמת׳ למשוואות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- נגישות → VoiceOver‏ → Braille → הצג מקלדת על-גבי המסך: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- נגישות → VoiceOver‏ → Braille → העברת עמודים ע״י גלילה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- נגישות → VoiceOver‏ → Braille → עטיפת מילים: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- נגישות → VoiceOver‏ → Braille → הודעות התראה בברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- נגישות → VoiceOver‏ → Braille → התעלם מאורך המחרוזת: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- נגישות → VoiceOver‏ → Braille → משך התקדמות אוטומטית: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- נגישות → VoiceOver‏ → שמע: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- נגישות → VoiceOver‏ → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- נגישות → VoiceOver‏ → Audio → הנמכה אוטומטית: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- נגישות → VoiceOver‏ → Audio → בחירה אוטומטית של רמקול בשיחה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- נגישות → VoiceOver‏ → Audio → שלח אל HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- נגישות → VoiceOver‏ → פקודות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- נגישות → VoiceOver‏ → פעילויות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- נגישות → VoiceOver‏ → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- נגישות → VoiceOver‏ → Activities → תכנות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- נגישות → VoiceOver‏ → Activities → הוסף פעילות…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- נגישות → VoiceOver‏ → חוגה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- נגישות → VoiceOver‏ → פעולות חוגה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- נגישות → VoiceOver‏ → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- נגישות → VoiceOver‏ → Rotor Actions → עריכת יישומים במסך הבית: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- נגישות → VoiceOver‏ → Rotor Actions → יישומי ״מגע ישיר״: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- נגישות → VoiceOver‏ → הקלדה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- נגישות → VoiceOver‏ → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- נגישות → VoiceOver‏ → Typing → סגנון הקלדה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- נגישות → VoiceOver‏ → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- נגישות → VoiceOver‏ → Typing → Typing Mode → הקלדה רגילה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- נגישות → VoiceOver‏ → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- נגישות → VoiceOver‏ → Typing → Typing Style → הקלדה עיוורת: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- נגישות → VoiceOver‏ → Typing → Typing Style → הקלדה ישירה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- נגישות → VoiceOver‏ → Typing → משוב פונטי: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- נגישות → VoiceOver‏ → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- נגישות → VoiceOver‏ → Typing → Phonetic Feedback → כבוי: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- נגישות → VoiceOver‏ → Typing → Phonetic Feedback → תווים ופונטיקה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- נגישות → VoiceOver‏ → Typing → Phonetic Feedback → כתב פונטי בלבד: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- נגישות → VoiceOver‏ → Typing → משוב בעת הקלדה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- נגישות → VoiceOver‏ → Typing → מקשי צירוף: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- נגישות → VoiceOver‏ → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- נגישות → VoiceOver‏ → Typing → Modifier Keys → ‏Control + ‏Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- נגישות → VoiceOver‏ → Typing → Modifier Keys → Caps Lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- נגישות → VoiceOver‏ → Typing → זמן אינטראקציה עם המקלדת: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- נגישות → VoiceOver‏ → ניווט בתמונות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- נגישות → VoiceOver‏ → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- נגישות → VoiceOver‏ → Include Unlabeled Images → תמיד: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- נגישות → VoiceOver‏ → Include Unlabeled Images → עם תיאורים: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- נגישות → VoiceOver‏ → Include Unlabeled Images → אף פעם: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- נגישות → VoiceOver‏ → סמן גדול: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- נגישות → VoiceOver‏ → לוח כתוביות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- נגישות → VoiceOver‏ → זמן מוקצב להקשה כפולה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- נגישות → VoiceOver‏ → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- נגישות → VoiceOver‏ → Double-tap Timeout → זמן מוקצב להקשה כפולה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- נגישות → VoiceOver‏ → סגנון ניווט: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- נגישות → VoiceOver‏ → הגדרות מהירות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- נגישות → VoiceOver‏ → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- נגישות → VoiceOver‏ → Quick Settings → צלילים: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- נגישות → VoiceOver‏ → Quick Settings → הנמכה אוטומטית: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- נגישות → VoiceOver‏ → Quick Settings → עוצמת שמע: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- נגישות → VoiceOver‏ → Quick Settings → קצב הקראה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- נגישות → VoiceOver‏ → Quick Settings → רמזים: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- נגישות → VoiceOver‏ → Quick Settings → סגנון ניווט: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- נגישות → VoiceOver‏ → Quick Settings → סגנון הקלדה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- נגישות → VoiceOver‏ → Quick Settings → הקלדה בהחלקה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- נגישות → VoiceOver‏ → Quick Settings → פעילויות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- נגישות → VoiceOver‏ → Quick Settings → תמיד הקרא עדכונים: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- נגישות → VoiceOver‏ → Quick Settings → הודעות התראה בברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- נגישות → VoiceOver‏ → Quick Settings → התקדמות אוטומטית בברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- נגישות → VoiceOver‏ → Quick Settings → קלט ברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- נגישות → VoiceOver‏ → Quick Settings → פלט ברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- נגישות → VoiceOver‏ → Quick Settings → טבלאות ברייל: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- נגישות → VoiceOver‏ → Quick Settings → לוח כתוביות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- נגישות → VoiceOver‏ → Quick Settings → מגע ישיר: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- נגישות → VoiceOver‏ → Quick Settings → כיוון מחווה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- נגישות → VoiceOver‏ → Quick Settings → משוב בעת הקלדת חומרה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- נגישות → VoiceOver‏ → Quick Settings → שפה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- נגישות → VoiceOver‏ → Quick Settings → סמן גדול: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- נגישות → VoiceOver‏ → Quick Settings → תיאורי מדיה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- נגישות → VoiceOver‏ → Quick Settings → ניווט בתמונות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- נגישות → VoiceOver‏ → Quick Settings → משוב פונטי: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- נגישות → VoiceOver‏ → Quick Settings → שינויי טון: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- נגישות → VoiceOver‏ → Quick Settings → פיסוק: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- נגישות → VoiceOver‏ → Quick Settings → שלח אל HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- נגישות → VoiceOver‏ → Quick Settings → משוב בעת הקלדת תוכנה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- נגישות → VoiceOver‏ → Quick Settings → הקראת אישור חוגה: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- נגישות → VoiceOver‏ → Quick Settings → תיאורי תמונות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- נגישות → VoiceOver‏ → Quick Settings → זיהוי מסך: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- נגישות → VoiceOver‏ → זיהוי VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- נגישות → VoiceOver‏ → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- נגישות → VoiceOver‏ → VoiceOver Recognition → תיאורי תמונות: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- נגישות → VoiceOver‏ → VoiceOver Recognition → זיהוי מסך: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- נגישות → הגדלה/הקטנה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- נגישות → הגדלה/הקטנה → הגדלה/הקטנה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- נגישות → הגדלה/הקטנה → עקוב אחרי ההתמקדות: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- נגישות → הגדלה/הקטנה → הקלדה חכמה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- נגישות → הגדלה/הקטנה → ‏קיצורי מקלדת: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- נגישות → הגדלה/הקטנה → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- נגישות → הגדלה/הקטנה → Keyboard Shortcuts → ‏קיצורי מקלדת: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- נגישות → הגדלה/הקטנה → Keyboard Shortcuts → התאם/י את רמת ההגדלה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- נגישות → הגדלה/הקטנה → Keyboard Shortcuts → הפעל/י הגדלה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- נגישות → הגדלה/הקטנה → Keyboard Shortcuts → הזז/י את חלון ההגדלה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- נגישות → הגדלה/הקטנה → Keyboard Shortcuts → שנה/י את גודל חלון ההגדלה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- נגישות → הגדלה/הקטנה → Keyboard Shortcuts → החלף/י אזור להגדלה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- נגישות → הגדלה/הקטנה → Keyboard Shortcuts → הפעל/י הגדלה זמנית: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- נגישות → הגדלה/הקטנה → Keyboard Shortcuts → הגדל/י בעזרת גלגל גלילה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- נגישות → הגדלה/הקטנה → פקד ההגדלה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- נגישות → הגדלה/הקטנה → אזור להגדלה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- נגישות → הגדלה/הקטנה → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- נגישות → הגדלה/הקטנה → Zoom Region → הגדלה/הקטנה במסך מלא: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- נגישות → הגדלה/הקטנה → Zoom Region → הגדלת חלון: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- נגישות → הגדלה/הקטנה → רמת הגדלה מירבית: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- נגישות → הגדלה/הקטנה → מסנן הגדלה/הקטנה: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- נגישות → הגדלה/הקטנה → הצגה בזמן שיקוף: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- נגישות → מלל מרחף: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- נגישות → תצוגה וגודל המלל: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- נגישות → תצוגה וגודל המלל → מלל עבה: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- נגישות → תצוגה וגודל המלל → מלל גדול יותר: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- נגישות → תצוגה וגודל המלל → הדגשת כפתורים: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- נגישות → תצוגה וגודל המלל → תוויות פעיל/לא פעיל: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- נגישות → תצוגה וגודל המלל → הקטן שקיפות: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- נגישות → תצוגה וגודל המלל → הגדלת ניגודיות: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- נגישות → תצוגה וגודל המלל → הבחנה ללא צבעים: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- נגישות → תצוגה וגודל המלל → היפוך חכם: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- נגישות → תצוגה וגודל המלל → היפוך קלאסי: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- נגישות → תצוגה וגודל המלל → מסנני צבע: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- נגישות → תצוגה וגודל המלל → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- נגישות → תצוגה וגודל המלל → Color Filters → מסנני צבע: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- נגישות → תצוגה וגודל המלל → הפחתת נקודת הלבן: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- נגישות → תצוגה וגודל המלל → כיוון בהירות אוטומטי: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- נגישות → תנועה: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- נגישות → תנועה → הפחת תזוזות: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- נגישות → תנועה → הפעל אוטומטית אפקטים בהודעות: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- נגישות → תנועה → הפעל אוטומטית תצוגות מקדימות של סרטונים: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- נגישות → הקראת תוכן: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- נגישות → הקראת תוכן → הקראה: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- נגישות → הקראת תוכן → הקרא את המסך: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- נגישות → הקראת תוכן → כלי שליטה באובייקט: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- נגישות → הקראת תוכן → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- נגישות → הקראת תוכן → Speech Controller → התאמה אישית של כפתורי העכבר: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- נגישות → הקראת תוכן → הדגש תוכן: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- נגישות → הקראת תוכן → משוב בעת הקלדה: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- נגישות → הקראת תוכן → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- נגישות → הקראת תוכן → Typing Feedback → משוב על תווים: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- נגישות → הקראת תוכן → Typing Feedback → תווים: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- נגישות → הקראת תוכן → Typing Feedback → רמזים לתווים: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- נגישות → הקראת תוכן → Typing Feedback → הקרא מילים: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- נגישות → הקראת תוכן → Typing Feedback → הקרא מלל אוטומטי: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- נגישות → הקראת תוכן → Typing Feedback → לחץ/י והחזק/י להקראת חיזוי: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- נגישות → הקראת תוכן → קולות: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- נגישות → הקראת תוכן → שפת ברירת-המחדל: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- נגישות → הקראת תוכן → זהה שפות: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- נגישות → הקראת תוכן → קצב הקראה: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- נגישות → הקראת תוכן → אופני הגייה: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- נגישות → תיאורי שמע: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- נגישות → תיאורי שמע → תיאורי שמע: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- נגישות → פיזי ומוטורי: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- נגישות → מגע: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- נגישות → מגע → ‏AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#AIR_TOUCH_TITLE`
+- נגישות → מגע → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- נגישות → מגע → AssistiveTouch → ‏AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- נגישות → מגע → AssistiveTouch → התאם אישית את התפריט הראשי: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- נגישות → מגע → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- נגישות → מגע → AssistiveTouch → Customize Top Level Menu → יש להקיש על אייקון לשינוי:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- נגישות → מגע → AssistiveTouch → Customize Top Level Menu → איפוס…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- נגישות → מגע → AssistiveTouch → פעולות מותאמות אישית: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- נגישות → מגע → AssistiveTouch → הקשה אחת: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- נגישות → מגע → AssistiveTouch → הקשה כפולה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- נגישות → מגע → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- נגישות → מגע → AssistiveTouch → Double-Tap → זמן מוקצב להקשה כפולה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- נגישות → מגע → AssistiveTouch → לחיצה ארוכה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- נגישות → מגע → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- נגישות → מגע → AssistiveTouch → Long Press → משך הלחיצה הארוכה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- נגישות → מגע → AssistiveTouch → מחוות מותאמות אישית: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- נגישות → מגע → AssistiveTouch → צור/י מחווה חדשה…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- נגישות → מגע → AssistiveTouch → אטימות של מצב המתנה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- נגישות → מגע → AssistiveTouch → מכשירי הצבעה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- נגישות → מגע → AssistiveTouch → התקנים: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- נגישות → מגע → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- נגישות → מגע → AssistiveTouch → Devices → התקני Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- נגישות → מגע → AssistiveTouch → מקשי עכבר: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- נגישות → מגע → AssistiveTouch → סגנון המצביע: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- נגישות → מגע → AssistiveTouch → סגנון המצביע → גודל: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- נגישות → מגע → AssistiveTouch → סגנון המצביע → ויזואלי: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- נגישות → מגע → AssistiveTouch → סגנון המצביע → צבע: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- נגישות → מגע → AssistiveTouch → סגנון המצביע → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- נגישות → מגע → AssistiveTouch → סגנון המצביע → SOMETHING IDK → התאמה אישית של כפתורי העכבר: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- נגישות → מגע → AssistiveTouch → סגנון המצביע → הסתרה אוטומטית: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- נגישות → מגע → AssistiveTouch → סגנון המצביע → NEEDS_OVERRIDE_510 → הסתרה אוטומטית: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- נגישות → מגע → AssistiveTouch → הצג מקלדת על-גבי המסך: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- נגישות → מגע → AssistiveTouch → הצג תמיד את התפריט: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- נגישות → מגע → AssistiveTouch → פקד השתהות: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- נגישות → מגע → AssistiveTouch → עמידות לתזוזות: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- נגישות → מגע → AssistiveTouch → רגישות מעקב: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- נגישות → מגע → AssistiveTouch → פעולת נסיגה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- נגישות → מגע → AssistiveTouch → פינות חמות: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- נגישות → מגע → AssistiveTouch → שימוש בשלט המשחק: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- נגישות → מגע → ‏3D ומגע אינטראקטיבי: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- נגישות → מגע → NEEDS_OVERRIDE_511 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- נגישות → מגע → NEEDS_OVERRIDE_511 → רגישות של 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- נגישות → מגע → NEEDS_OVERRIDE_511 → משך זמן המגע: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- נגישות → מגע → NEEDS_OVERRIDE_511 → מהיר: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- נגישות → מגע → NEEDS_OVERRIDE_511 → איטי: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- נגישות → מגע → NEEDS_OVERRIDE_511 → בדיקת רגישות ומשך ההחזקה של 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- נגישות → מגע → התאמות למגע: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- נגישות → מגע → NEEDS_OVERRIDE_512 → התאמות למגע: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- נגישות → מגע → NEEDS_OVERRIDE_512 → משך זמן להחזקה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- נגישות → מגע → NEEDS_OVERRIDE_512 → התעלם מהקשות חוזרות: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- נגישות → מגע → NEEDS_OVERRIDE_512 → מסייע ההקשות: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- נגישות → מגע → NEEDS_OVERRIDE_512 → כבוי: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- נגישות → מגע → NEEDS_OVERRIDE_512 → השתמש במיקום המגע הראשוני: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- נגישות → מגע → NEEDS_OVERRIDE_512 → השתמש במיקום המגע האחרון: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- נגישות → מגע → הקשה להתעוררות: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- נגישות → מגע → הקשה או החלקה להתעוררות: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- נגישות → מגע → ניעור לביטול הפעולה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- נגישות → מגע → רטט: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- נגישות → מגע → מניעת סיום שיחה בנעילה: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- נגישות → מגע → ניתוב השמע בשיחות: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- נגישות → מגע → NEEDS_OVERRIDE_513 → אוטומטי: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- נגישות → מגע → NEEDS_OVERRIDE_513 → אזניית Bluetooth: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- נגישות → מגע → NEEDS_OVERRIDE_513 → רמקול: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- נגישות → מגע → NEEDS_OVERRIDE_513 → מענה שיחות אוטומטי: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- נגישות → ‏Face ID ותשומת לב: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- נגישות → ‏Face ID ותשומת לב → ‏Face ID ידרוש תשומת לב: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- נגישות → ‏Face ID ותשומת לב → מאפיינים שמזהים קשב: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- נגישות → ‏Face ID ותשומת לב → רטט אינטראקטיבי: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- נגישות → ‏Face ID ותשומת לב → רטט אינטראקטיבי לסימון אימות מוצלח: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- נגישות → בקרת מתגים: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- נגישות → בקרת מתגים → בקרת מתגים: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- נגישות → בקרת מתגים → מתגים: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_514 → הוספת מתג חדש…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_514 → התקני Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- נגישות → בקרת מתגים → מתכונים: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- נגישות → בקרת מתגים → סגנון סריקה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_515 → סריקה אוטומטית: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_515 → סריקה ידנית: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_515 → סריקת שלב מתג בודד: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- נגישות → בקרת מתגים → תזמון: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- נגישות → בקרת מתגים → זמן סריקה אוטומטית: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_516 → זמן סריקה אוטומטית: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- נגישות → בקרת מתגים → השתהה בפריט הראשון: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_517 → השתהה בפריט הראשון: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- נגישות → בקרת מתגים → חזרה על מעבר: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_518 → חזרה על מעבר: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- נגישות → בקרת מתגים → לחיצה ארוכה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_519 → לחיצה ארוכה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- נגישות → בקרת מתגים → התנהגות הקשה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_520 → ברירת המחדל: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_520 → הקשה אוטומטית: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_520 → להקיש תמיד: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- נגישות → בקרת מתגים → פריט שבמוקד לאחר ההקשה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_521 → הפריט הראשון: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_521 → הפריט הנוכחי: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- נגישות → בקרת מתגים → מקלדת: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- נגישות → בקרת מתגים → סרוק את אותו מפתח לאחר הקשה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- נגישות → בקרת מתגים → להקיש תמיד על מקשי המקלדת: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- נגישות → בקרת מתגים → ניבויים מורחבים: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- נגישות → בקרת מתגים → ייצוב מתגים: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- נגישות → בקרת מתגים → משך זמן להחזקה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_522 → משך זמן להחזקה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- נגישות → בקרת מתגים → התעלם מהקשות חוזרות: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_523 → התעלם מהקשות חוזרות: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- נגישות → בקרת מתגים → סריקת נקודה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- נגישות → בקרת מתגים → סמן גולש: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_524 → מצב בחירה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_524 → יחיד: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_524 → שיפור דיוק: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_524 → מדויק: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_524 → מהירות סמן גולש: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- נגישות → בקרת מתגים → מעקב אחר הראש: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_525 → מעקב אחר הראש: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- נגישות → בקרת מתגים → שמע: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- נגישות → בקרת מתגים → אפקטים קוליים: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- נגישות → בקרת מתגים → דיבור: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_526 → קולות: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_526 → קצב הקראה: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- נגישות → בקרת מתגים → פריטים בתפריט: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- נגישות → בקרת מתגים → קבץ פריטים: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- נגישות → בקרת מתגים → ויזואלי: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- נגישות → בקרת מתגים → סמן גדול: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- נגישות → בקרת מתגים → מחוות שנשמרו: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- נגישות → בקרת מתגים → NEEDS_OVERRIDE_527 → צור/י מחווה חדשה…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- נגישות → בקרת מתגים → צבע הסמן: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- נגישות → שליטה קולית: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- נגישות → שליטה קולית → הגדרת שליטה קולית: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- נגישות → שליטה קולית → שפה: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- נגישות → שליטה קולית → NEEDS_OVERRIDE_528 → אנגלית (ארה״ב): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- נגישות → שליטה קולית → פקודות בהתאמה אישית: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- נגישות → שליטה קולית → אוצר מילים: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- נגישות → שליטה קולית → משוב לפקודה: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- נגישות → שליטה קולית → הצג אישור: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- נגישות → שליטה קולית → השמע צליל: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- נגישות → שליטה קולית → הצג רמזים: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- נגישות → שליטה קולית → שכבה רציפה: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- נגישות → שליטה קולית → שכבה: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- נגישות → שליטה קולית → NEEDS_OVERRIDE_529 → ללא: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- נגישות → שליטה קולית → NEEDS_OVERRIDE_529 → מספרי פריטים: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- נגישות → שליטה קולית → NEEDS_OVERRIDE_529 → שמות הפריטים: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- נגישות → שליטה קולית → NEEDS_OVERRIDE_529 → רשת משבצות ממוספרת: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- נגישות → שליטה קולית → זיהוי קשב: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- נגישות → כפתור הצד: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- נגישות → כפתור הצד → מהירות לחיצה: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- נגישות → כפתור הצד → ברירת המחדל: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- נגישות → כפתור הצד → איטי: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- נגישות → כפתור הצד → האיטי ביותר: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- נגישות → כפתור הצד → לחץ/י והחזק/י כדי לדבר: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- נגישות → כפתור הצד → ‏Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- נגישות → כפתור הצד → שליטה קולית קלאסית: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- נגישות → כפתור הצד → כבוי: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- נגישות → שלט Apple TV: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- נגישות → שלט Apple TV → כפתורי כיוון: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- נגישות → מסך מרוחק של ה-Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- נגישות → מקלדות: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- נגישות → מקלדות → גישה מלאה מהמקלדת: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- נגישות → מקלדות → NEEDS_OVERRIDE_530 → גישה מלאה מהמקלדת: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- נגישות → מקלדות → NEEDS_OVERRIDE_530 → פריטים חזותיים: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- נגישות → מקלדות → NEEDS_OVERRIDE_530 → הסתרה אוטומטית: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- נגישות → מקלדות → NEEDS_OVERRIDE_530 → טבעת מיקוד גדולה: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- נגישות → מקלדות → NEEDS_OVERRIDE_530 → צבע: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- נגישות → מקלדות → חזרה על מקש: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- נגישות → מקלדות → NEEDS_OVERRIDE_531 → חזרה על מקש: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- נגישות → מקלדות → NEEDS_OVERRIDE_531 → מרווח חזרה על מקש: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- נגישות → מקלדות → NEEDS_OVERRIDE_531 → השהיה עד להקשה חוזרת: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- נגישות → מקלדות → מקשים דביקים: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- נגישות → מקלדות → NEEDS_OVERRIDE_532 → מקשים דביקים: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- נגישות → מקלדות → NEEDS_OVERRIDE_532 → שינוי באמצעות מקש Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- נגישות → מקלדות → NEEDS_OVERRIDE_532 → צליל: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- נגישות → מקלדות → מקשים איטיים: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- נגישות → מקלדות → NEEDS_OVERRIDE_533 → מקשים איטיים: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- נגישות → מקלדות → פריסות מקלדת (תוכנה): `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- נגישות → מקלדות → הצג מקשי אותיות קטנות: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- נגישות → שמיעה: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- נגישות → מכשירי שמיעה: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- נגישות → מכשירי שמיעה → מכשירי שמיעה MFi: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- נגישות → מכשירי שמיעה → Bluetooth‏: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- נגישות → מכשירי שמיעה → תאימות מכשיר שמיעה: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- נגישות → זיהוי צלילים: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- נגישות → זיהוי צלילים → צלילים: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- נגישות → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- נגישות → RTT/TTY → תוכנת TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- נגישות → RTT/TTY → חומרת TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- נגישות → שמיעה וראיה: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- נגישות → שמיעה וראיה → שמע: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- נגישות → שמיעה וראיה → התאמת אוזניות: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- נגישות → שמיעה וראיה → NEEDS_OVERRIDE_534 → התאמת אוזניות: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- נגישות → שמיעה וראיה → NEEDS_OVERRIDE_534 → הגדרות שמע בהתאמה אישית: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- נגישות → שמיעה וראיה → צלילי רקע: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- נגישות → שמיעה וראיה → שמע חד-ערוצי: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- נגישות → שמיעה וראיה → צמצום רעשי טלפון: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- נגישות → שמיעה וראיה → איזון: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- נגישות → שמיעה וראיה → ויזואלי: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- נגישות → שמיעה וראיה → הבהוב LED בעת התראה: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- נגישות → שמיעה וראיה → NEEDS_OVERRIDE_535 → הבהוב במצב לא נעול: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- נגישות → שמיעה וראיה → NEEDS_OVERRIDE_535 → הבהוב במצב שקט: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- נגישות → שמיעה וראיה → מאזן שמאל-ימין: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- נגישות → שמיעה וראיה → צלילי הפעלה וכיבוי: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- נגישות → כתוביות: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- נגישות → כתוביות → סגנון: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- נגישות → כתוביות → כתוביות + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- נגישות → כתוביות → הצג תמלול קולי: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- נגישות → NEEDS_OVERRIDE_536 → כתוביות בזמן אמת (בטא): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- נגישות → NEEDS_OVERRIDE_536 → ״כתוביות בזמן אמת״ ב-FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- נגישות → כללי: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- נגישות → גישה מודרכת: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- נגישות → גישה מודרכת → גישה מודרכת: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- נגישות → גישה מודרכת → הגדרות קוד גישה: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- נגישות → גישה מודרכת → NEEDS_OVERRIDE_537 → הגדר/י קוד ל״גישה מודרכת״: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- נגישות → גישה מודרכת → הגבלות זמן: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- נגישות → גישה מודרכת → NEEDS_OVERRIDE_538 → אזעקה: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- נגישות → גישה מודרכת → NEEDS_OVERRIDE_538 → צליל: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- נגישות → גישה מודרכת → NEEDS_OVERRIDE_538 → הקראה: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- נגישות → גישה מודרכת → קיצור דרך למאפייני נגישות: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- נגישות → גישה מודרכת → הצג נעילה אוטומטית: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- נגישות → מצב ״נגישות״ בהתאמה אישית: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- נגישות → ‏Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- נגישות → ‏Siri → הקלדה ל-Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- נגישות → ‏Siri → תגובות קוליות: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- נגישות → ‏Siri → תגובות קוליות אוטומטיות: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- נגישות → ‏Siri → העדפת תגובות שקטות: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- נגישות → ‏Siri → ללא משוב קולי במצב ״שקט״: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- נגישות → ‏Siri → הקשב תמיד ל״היי Siri״: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- נגישות → קיצור דרך למאפייני נגישות: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- נגישות → קיצור דרך למאפייני נגישות → זכוכית מגדלת: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- נגישות → הגדרות לפי יישום: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- נגישות → שליטה במכשירים סמוכים: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- תצוגה ובהירות: `prefs:root=DISPLAY`
+- תצוגה ובהירות → מראה: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- תצוגה ובהירות → ‏True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- תצוגה ובהירות → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- תצוגה ובהירות → Night Shift → תזמון: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- תצוגה ובהירות → Night Shift → הפעל באופן ידני עד מחר: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- תצוגה ובהירות → Night Shift → טמפרטורת הצבע: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- תצוגה ובהירות → ‏נעילה אוטומטית: `prefs:root=DISPLAY&path=AUTOLOCK`
+- תצוגה ובהירות → יש להרים כדי לצאת ממצב שינה: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- תצוגה ובהירות → נעל / בטל נעילה: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- תצוגה ובהירות → גודל המלל: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- תצוגה ובהירות → מלל עבה: `prefs:root=DISPLAY#BOLD_TEXT`
+- תצוגה ובהירות → הגדלת התצוגה: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- תצוגה ובהירות → תצוגה: `prefs:root=DISPLAY&path=MAGNIFY`
+- עדכוני חשיפה: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_539 → תוויות עדכונים: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_539 → יישומים שהורדו לאחרונה: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- מסך הבית וריבוי משימות: `prefs:root=HOME_SCREEN_DOCK`
+- מסך הבית וריבוי משימות → NEEDS_OVERRIDE_540 → הצג את ספריית היישומים ב-Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- מסך הבית וריבוי משימות → הצג יישומים מומלצים ויישומים אחרונים ב-Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- מסך הבית: `prefs:root=HOME_SCREEN`
+- מסך הבית → יישומים שהורדו לאחרונה: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- מסך הבית → תוויות עדכונים: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- ‏Touch ID וקוד גישה: `prefs:root=PASSCODE`
+- ‏Touch ID וקוד גישה → ביטול קוד הגישה: `prefs:root=PASSCODE#PASSCODE_OFF`
+- ‏Touch ID וקוד גישה → שינוי קוד הגישה: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- ‏Touch ID וקוד גישה → דרוש קוד גישה: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- ‏Touch ID וקוד גישה → חיוג קולי: `prefs:root=PASSCODE#VOICE_DIAL`
+- ‏Touch ID וקוד גישה → אפשר גישה כאשר המכשיר נעול: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- ‏Touch ID וקוד גישה → משוב באמצעות הודעה: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- ‏Touch ID וקוד גישה → בקרת ״הבית שלי״: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- ‏Touch ID וקוד גישה → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- ‏Touch ID וקוד גישה → חזרה לשיחות שלא נענו: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- ‏Touch ID וקוד גישה → מחק נתונים: `prefs:root=PASSCODE#WIPE_DEVICE`
+- ‏Touch ID וקוד גישה → ביטול הנעילה עם Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- ‏Apple Pencil: `prefs:root=Pencil`
+- ‏Apple Pencil → ‏Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- פודקאסטים: `prefs:root=PODCASTS`
+- חירום SOS: `prefs:root=EMERGENCY_SOS`
+- חירום SOS → חיוג בעזרת כפתור הצד: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- חירום SOS → התקשר אוטומטית: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- חירום SOS → אנשי קשר לשעת חירום: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- חירום SOS → צליל ספירה לאחור: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- צלילים: `prefs:root=Sounds`
+- צלילים → שימוש בטוח באוזניות: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- צלילים → שימוש בטוח באוזניות → מתאמי Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- צלילים → שימוש בטוח באוזניות → עדכוני אוזניות: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- צלילים → שימוש בטוח באוזניות → הנמך צלילים חזקים: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- צלילים → אפקטים קוליים: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- צלילים → צלצולים והתראות: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- צלילים → שינוי באמצעות הכפתורים: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- צלילים → צלילים וסוגי רטט: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- צלילים → צלצול: `prefs:root=Sounds&path=Ringtone`
+- צלילים → צליל להודעות: `prefs:root=Sounds&path=Text_Messages`
+- צלילים → הודעה קולית חדשה: `prefs:root=Sounds&path=Voicemail`
+- צלילים → דוא״ל חדש: `prefs:root=Sounds&path=NEW_MAIL`
+- צלילים → דוא״ל שנשלח: `prefs:root=Sounds&path=SENT_MAIL`
+- צלילים → התראות לוח שנה: `prefs:root=Sounds&path=Calendar%20Alarm`
+- צלילים → התראות עבור תזכורות: `prefs:root=Sounds&path=Reminder%20Alerts`
+- צלילים → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- צלילים → הקלדה: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- צלילים → צליל נעילה: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- מזג אוויר: `prefs:root=WEATHER`
+- מצפן: `prefs:root=COMPASS`
+- מצפן → השתמש בצפון אמיתי: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- מרכז הבקרה: `prefs:root=ControlCenter`
+- מרכז הבקרה → גישה מתוך יישומים: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- מרכז הבקרה → התאמה אישית של פקדים: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- מפתחים: `prefs:root=DEVELOPER_SETTINGS`
+- מפתחים → תקשורת מרובת נתיבים: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- מפתחים → תקשורת מרובת נתיבים → תקשורת מרובת נתיבים: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- מפתחים → מראה: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- מפתחים → מראה כהה: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- מפתחים → מכשירים מקושרים: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- מפתחים → נקה מחשבים מהימנים: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- מפתחים → כלים: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- מפתחים → דו״חות: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- מפתחים → ממשק אוטומטי: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- מפתחים → תקשורת: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- מפתחים → מתאם קישור רשת: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- מפתחים → בדיקת יישום של מפתחי iAd: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- מפתחים → קצב מילוי: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- מפתחים → הדגשת באנרים חתוכים: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- מפתחים → הצגת פרסומות ללא הגבלה: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- מפתחים → בדיקת PassKit: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- מפתחים → רשימות נוספות ביומן: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- מפתחים → אפשר שירותי HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- מפתחים → בטל מגבלת קצב: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- מפתחים → קוד גישה NFC אופציונלי: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- מפתחים → בדיקת שירותי מדיה: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- מפתחים → הצעות AirPlay: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- מפתחים → איפוס שירותי מדיה: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- מפתחים → בדיקת News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- מפתחים → איפוס פרטים מקומיים בהפעלה הבאה: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- מפתחים → בדיקת מסגרת נגן המדיה: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- מפתחים → ‏API עם תוכן למשחקים: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- מפתחים → בדיקת ספק טלוויזיה: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- מפתחים → ספקי טלוויזיה: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- מפתחים → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- מפתחים → בדיקת CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- מפתחים → אינדקס מחודש של כל הפריטים: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- מפתחים → אינדקס מחודש של כל הפריטים עם מזהים: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- מפתחים → בדיקת קיצורים: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- מפתחים → הצג קיצורים אחרונים: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- מפתחים → הצג את פריטי המדיה הבאים: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- מפתחים → הצג תרומות במסך הנעילה: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- מפתחים → סנכרון מיידי של קיצורים לשעון: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- מפתחים → בדיקת MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- מפתחים → הפעל MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- בריאות: `prefs:root=HEALTH`
+- מדידה: `prefs:root=MEASURE`
+- מדידה → יחידות מידה: `prefs:root=MEASURE#MEASURE_UNITS`
+- מדידה → אימפריאלי: `prefs:root=MEASURE#Imperial`
+- מדידה → מטרי: `prefs:root=MEASURE#Metric`
+- מוזיקה: `prefs:root=MUSIC`
+- מוזיקה → הצגת Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- מוזיקה → הוסף את השירים מהפלייליסט: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- מוזיקה → הצג דירוג כוכבים: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- מוזיקה → סנכרן את הספריה: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- מוזיקה → נתונים סלולריים: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- מוזיקה → מוזיקה שהורדת: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- מוזיקה → מטב את האחסון: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- מוזיקה → הורדות אוטומטיות: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- מוזיקה → אקולייזר: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- מוזיקה → בדיקת צליל: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- מוזיקה → השתמש ב״היסטוריית האזנה״: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- פתקים: `prefs:root=NOTES`
+- פתקים → חשבון ברירת-מחדל: `prefs:root=NOTES&path=Default%20Account`
+- פתקים → סיסמה: `prefs:root=NOTES&path=Password`
+- פתקים → מיין פתקים לפי: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- פתקים → פתקים חדשים מתחילים ב:: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- פתקים → מיין פריטים שסומנו: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- פתקים → שורות ורשתות: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- פתקים → שמור ב״תמונות״: `prefs:root=NOTES#Save%20to%20Photos`
+- פתקים → גישה ל״פתקים״ ממסך הנעילה: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- הודעות: `prefs:root=MESSAGES`
+- תרגום: `prefs:root=TRANSLATE`
+- תרגום → מצב לא מקוון: `prefs:root=TRANSLATE#OnDeviceOnly`
+- ספק טלוויזיה: `prefs:root=VIDEO_SUBSCRIBER`
+- תזכורות קוליות: `prefs:root=VOICE_MEMOS`
+- תזכורות קוליות → הסר פריטים שנמחקו: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- תזכורות קוליות → איכות שמע: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- תזכורות קוליות → בחירת שם לפי מיקום: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- מצלמה: `prefs:root=CAMERA`
+- מצלמה → פורמטים: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- מצלמה → פורמטים → ‏Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- מצלמה → NEEDS_OVERRIDE_541 → סרט HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- מצלמה → שימור מצב קודם: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- מצלמה → שימור מצב קודם → מצב מצלמה: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- מצלמה → רשת: `prefs:root=CAMERA#CameraGridSwitch`
+- מצלמה → סריקת קודי QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- מפות: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- אנשי קשר: `prefs:root=CONTACTS`
+- אנשי קשר → אפשר ל״אנשי קשר״ לגשת אל: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- אנשי קשר → ‏Siri וחיפוש: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- אנשי קשר → סדר מיון: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- אנשי קשר → סדר הצגה: `prefs:root=CONTACTS&path=PersonNameOrder`
+- אנשי קשר → שם מקוצר: `prefs:root=CONTACTS&path=PersonShortName`
+- אנשי קשר → שם מקוצר → שם מקוצר: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- אנשי קשר → שם מקוצר → השתמש בשמות חיבה: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- אנשי קשר → הפרטים שלי: `prefs:root=CONTACTS&path=MeCard`
+- אנשי קשר → יבא אנשי קשר מה-SIM: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- ספרים: `prefs:root=IBOOKS`
+- ספרים → תוכן מקוון: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- ספרים → מסנכרן: `prefs:root=IBOOKS#SYNCING`
+- ספרים → בקריאה כעת: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- ספרים → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- ספרים → קריאה: `prefs:root=IBOOKS#READING`
+- ספרים → יישור לשני הצדדים: `prefs:root=IBOOKS#BKFullJustification`
+- ספרים → מיקוף אוטומטי: `prefs:root=IBOOKS#BKAutoHyphenation`
+- ספרים → התקדמות משני השוליים: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- ספרים → יעדי קריאה: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- ספרים → נקה נתוני יעדי קריאה: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- ספרים → מחפש: `prefs:root=IBOOKS#SEARCHING`
+- ספרים → חנות הספרים: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- ספרים → ספרי שמע: `prefs:root=IBOOKS#AUDIOBOOKS`
+- ספרים → דלג קדימה: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- ספרים → דלג אחורה: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- ספרים → פקדים חיצוניים: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- ספרים → הבא/הקודם: `prefs:root=IBOOKS#Next/Previous`
+- ספרים → דלג קדימה/אחורה: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- ספרים → פרטיות: `prefs:root=IBOOKS#PRIVACY`
+- ספרים → אפס מזהה: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- ספרים → תודות: `prefs:root=IBOOKS&path=Acknowledgements`
+- לוח שנה: `prefs:root=CALENDAR`
+- לוח שנה → התעלם משעונים מקומיים: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- לוח שנה → לוחות שנה משניים: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- לוח שנה → מספרי שבועות: `prefs:root=CALENDAR#Week%20Numbers`
+- לוח שנה → הצג מוזמנים שדחו את ההזמנה: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- לוח שנה → סנכרן: `prefs:root=CALENDAR&path=Sync`
+- לוח שנה → ברירות-מחדל להתראות: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- לוח שנה → היום הראשון בשבוע: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- לוח שנה → הצעות למקומות: `prefs:root=CALENDAR#Location%20Suggestions`
+- דואר: `prefs:root=MAIL`
+- דואר → חשבונות: `prefs:root=MAIL&path=ACCOUNTS`
+- דואר → חשבונות → הוסף/י חשבון: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- דואר → חשבונות → משיכת נתונים חדשים: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- דואר → תצוגה מקדימה: `prefs:root=MAIL&path=Preview`
+- דואר → הצג תוויות אל/עותק: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- דואר → אפשרויות החלקה: `prefs:root=MAIL&path=Swipe%20Options`
+- דואר → שאל אותי לפני מחיקה: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- דואר → טען תמונות מרוחקות: `prefs:root=MAIL#Load%20Remote%20Images`
+- דואר → סדר לפי שרשור: `prefs:root=MAIL#Organize%20by%20Thread`
+- דואר → קפל הודעות שנקראו: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- דואר → ההודעה החדשה ביותר למעלה: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- דואר → שרשורים מלאים: `prefs:root=MAIL#Complete%20Threads`
+- דואר → הפעולות בשרשור הושתקו: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- דואר → התעלם משולחים חסומים: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- דואר → חסום: `prefs:root=MAIL&path=Blocked`
+- דואר → תמיד שלח לי עותק נסתר: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- דואר → סמן כתובות: `prefs:root=MAIL&path=Mark%20Addresses`
+- דואר → רמת ציטוט גבוהה יותר: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- דואר → כלול קבצים מצורפים בתשובות:: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- דואר → חתימה: `prefs:root=MAIL&path=Signature`
+- טלפון: `prefs:root=Phone`
+- טלפון → המספר שלי: `prefs:root=Phone&path=My%20Number`
+- טלפון → שיחות נכנסות: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- טלפון → הכרז על שיחות: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- טלפון → דיווח הודעות/שיחות: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- טלפון → תגובה בהודעה: `prefs:root=Phone&path=Respond%20with%20Text`
+- טלפון → הפניית שיחות: `prefs:root=Phone&path=Call%20Forwarding`
+- טלפון → הפניית שיחות → הפניית שיחות: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- טלפון → שיחה ממתינה: `prefs:root=Phone&path=Call%20Waiting`
+- טלפון → הצג את המספר שלי: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- טלפון → הצג את המספר שלי → NEEDS_OVERRIDE_542 → הצג את המספר שלי: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- טלפון → השתקת מספרים לא מוכרים: `prefs:root=Phone#SILENCE_CALLS`
+- טלפון → אנשי קשר חסומים: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- טלפון → סיוע בחיוג: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → חוסם תוכן: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → חסום חלונות קופצניים: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → מנע מעקב חוצה-אתרים: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → מילוי אוטומטי: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → הורדות: `prefs:root=SAFARI&path=DOWNLOADS`
+- סיסמאות: `prefs:root=PASSWORDS`
+- סיסמאות → מילוי סיסמאות אוטומטי: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- תמונות: `prefs:root=Photos`
+- תמונות → תמונות iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- תמונות → מטב את האחסון: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- תמונות → הורד ושמור את הקבצים המקוריים: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- תמונות → זרם התמונות שלי: `prefs:root=Photos#PhotoStreamSwitch`
+- תמונות → אלבומים משותפים: `prefs:root=Photos#SharedStreamsSwitch`
+- תמונות → נתונים סלולריים: `prefs:root=Photos&path=CellularDataLinkList`
+- תמונות → הפעלה אוטומטית של סרטונים: `prefs:root=Photos#VideoAutoplaySwitch`
+- תמונות → הצג HDR מלא: `prefs:root=Photos#ImageModulationSwitch`
+- תמונות → הצג אירועי חג: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- תמונות → העבר ל-Mac או ל-PC: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → הורדות אוטומטיות: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → עדכונים ליישומים: `prefs:root=STORE#App%20Updates`
+- App Store → הורדות יישומים: `prefs:root=STORE&path=App%20Downloads`
+- App Store → הפעלת סרטונים אוטומטית: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → דירוגים וביקורות בתוך היישום: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- ‏News: `prefs:root=NEWS`
+- ‏News → תצוגות מקדימות של כתבות: `prefs:root=NEWS#show_excerpt_mode`
+- ‏News → הגבלת כתבות ב״היום״: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- ‏News → פרטיות: `prefs:root=NEWS#Privacy`
+- ‏News → אפס מזהה: `prefs:root=NEWS#reset_identifier`
+- ‏News → תודות: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_543 → מצב טיסה: `prefs:root=ROOT#AIRPLANE_MODE`
+- תזכורות: `prefs:root=REMINDERS`
+- תזכורות → רשימת ברירת-המחדל: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- תזכורות → רשימת ברירת-המחדל → תזכורות: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- תזכורות → עדכון של ״היום״: `prefs:root=REMINDERS#todayNotificationFireTime`
+- תזכורות → הצג כתאריך יעד שחלף: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- סוללה: `prefs:root=BATTERY_USAGE`
+- סוללה → מצב סוללה חלשה: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- סוללה → בריאות הסוללה: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- קיצורים: `prefs:root=SHORTCUTS`
+- קיצורים → סנכרון iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- קיצורים → סנכרן סדר קיצורים: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- קיצורים → מידע משפטי: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- ‏Siri וחיפוש: `prefs:root=SIRI`
+- ‏Siri וחיפוש → אפשר את Siri כאשר המכשיר נעול: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- ‏Siri וחיפוש → שפה: `prefs:root=SIRI&path=LANGUAGE_ID`
+- ‏Siri וחיפוש → הקול של Siri: `prefs:root=SIRI&path=VOICE_ID`
+- ‏Siri וחיפוש → משוב קולי: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- ‏Siri וחיפוש → הפרטים שלי: `prefs:root=SIRI&path=MY_INFO`
+- ‏Siri וחיפוש → הצעות ב״חיפוש״: `prefs:root=SIRI#Suggestions%20in%20Search`
+- ‏Siri וחיפוש → הצעות ב״חיפוש נרחב״: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- ‏Siri וחיפוש → הצעות במסך הנעילה: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- מניות: `prefs:root=STOCKS`
+- מניות → פרטיות: `prefs:root=STOCKS#Privacy`
+- מניות → אפס מזהה: `prefs:root=STOCKS#reset_identifier`
+- סלולרי: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- סלולרי → אפשרויות נתונים סלולריים: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- סלולרי → אפשרויות נתונים סלולריים → מצב צריכת נתונים נמוכה: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- סלולרי → נתונים סלולריים: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- ‏TV: `prefs:root=TVAPP`
+- ‏TV → השתמש בנתונים סלולריים לצפייה: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- ‏TV → איכות הפעלה: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- ‏TV → רכישות והשכרות: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- ‏TV → שיתוף ביתי: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- תמונת רקע: `prefs:root=Wallpaper`

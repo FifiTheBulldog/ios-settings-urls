@@ -1,0 +1,853 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → iCloud Saklama Alanı: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Fotoğraflar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Kişiler: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Takvim: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Anımsatıcılar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Notlar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Yedekleme: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Sağlık: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Parolalar ve Anahtar Zinciri: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Özel Geçiş: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Konumumu Paylaş: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Konumumu Paylaş → iPhone’umu Bul: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Ad, Telefon Numarası ve E-posta: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Parola ve Güvenlik: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Ödeme ve Teslimat: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Abonelikler: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Aile: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Gizlilik ve Güvenlik: `prefs:root=Privacy`
+- Gizlilik ve Güvenlik → Güvenlik Denetimi: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Gizlilik ve Güvenlik → Konum: `prefs:root=Privacy&path=LOCATION`
+- Gizlilik ve Güvenlik → Konum → Konumumu Paylaş: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Gizlilik ve Güvenlik → Kişiler: `prefs:root=Privacy&path=CONTACTS`
+- Gizlilik ve Güvenlik → Takvimler: `prefs:root=Privacy&path=CALENDARS`
+- Gizlilik ve Güvenlik → Anımsatıcılar: `prefs:root=Privacy&path=REMINDERS`
+- Gizlilik ve Güvenlik → Fotoğraflar: `prefs:root=Privacy&path=PHOTOS`
+- Gizlilik ve Güvenlik → Bluetooth Paylaşma: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Gizlilik ve Güvenlik → Mikrofon: `prefs:root=Privacy&path=MICROPHONE`
+- Gizlilik ve Güvenlik → Konuşma Tanıma: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Gizlilik ve Güvenlik → Kamera: `prefs:root=Privacy&path=CAMERA`
+- Gizlilik ve Güvenlik → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Gizlilik ve Güvenlik → Ortamlar ve Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Gizlilik ve Güvenlik → Analiz: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Gizlilik ve Güvenlik → Reklam: `prefs:root=Privacy&path=ADVERTISING`
+- Gizlilik ve Güvenlik → Dosyalar ve Klasörler: `prefs:root=Privacy&path=FILEACCESS`
+- Gizlilik ve Güvenlik → Takip Etme: `prefs:root=Privacy&path=USER_TRACKING`
+- Gizlilik ve Güvenlik → Uygulama Gizlilik Raporu: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Gizlilik ve Güvenlik → Kilit Modu: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Gizlilik ve Güvenlik → Sağlık: `prefs:root=Privacy&path=HEALTH`
+- Odak: `prefs:root=DO_NOT_DISTURB`
+- Odak → Odak Durumu: `prefs:root=DO_NOT_DISTURB&path=status`
+- Genel: `prefs:root=General`
+- Genel → VPN ve Aygıt Yönetimi: `prefs:root=General&path=ManagedConfigurationList`
+- Genel → Resim İçinde Resim: `prefs:root=General&path=PiP_SPEC`
+- Genel → İzleme Dörtgeni ve Fare: `prefs:root=General&path=POINTERS`
+- Genel → NFC: `prefs:root=General&path=NFC_LINK`
+- Genel → VPN: `prefs:root=General&path=VPN`
+- Genel → CarPlay: `prefs:root=General&path=CARPLAY`
+- Genel → Hakkında: `prefs:root=General&path=About`
+- Genel → Hakkında → Güvenilen Sertifikalar: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Genel → Yasal ve Mevzuat: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Genel → Yazılım Güncelleme: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Genel → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Genel → Ana Ekran Düğmesi: `prefs:root=General&path=HOME_BUTTON`
+- Genel → Hareketler: `prefs:root=General#Multitasking_Gesture_Switch`
+- Genel → Yan Düğme: `prefs:root=General#Rotation_Switch_Action_Group`
+- Genel → Arka Planda Uygulama Yenile: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Genel → Tarih ve Saat: `prefs:root=General&path=DATE_AND_TIME`
+- Genel → TV Çıkışı: `prefs:root=General&path=TV_OUT`
+- Genel → Mevzuat: `prefs:root=General&path=REGULATORY`
+- Genel → Sıfırla: `prefs:root=General&path=Reset`
+- Genel → Sıfırla → Tüm Ayarları Sıfırla: `prefs:root=General&path=Reset#settingsErase`
+- Genel → Sıfırla → Tüm İçerikleri ve Ayarları Sil: `prefs:root=General&path=Reset#fullErase`
+- Genel → Sıfırla → Ağ Ayarlarını Sıfırla: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Genel → Sıfırla → Hücresel Veri Planlarını Sil: `prefs:root=General&path=Reset#cellularErase`
+- Genel → Sıfırla → Abone Servisleri: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Genel → Sıfırla → Klavye Sözlüğünü Sıfırla: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Genel → Sıfırla → Ana Ekran Yerleşimini Sıfırla: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Genel → Sıfırla → Konum ve Gizliliği Sıfırla: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Genel → Sistemi Kapat: `prefs:root=General#SHUTDOWN_LABEL`
+- Genel → AirPlay ve Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Genel → AirPlay ve Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Genel → AirPlay ve Handoff → HomePod’a Aktar: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Genel → AirPlay ve Handoff → TV’lere Otomatik AirPlay Yap: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Genel → AirPlay ve Handoff → Süreklilik Kamerası: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Genel → Sözlük: `prefs:root=General&path=DICTIONARY`
+- Genel → Dil ve Bölge: `prefs:root=General&path=INTERNATIONAL`
+- Genel → Dil ve Bölge → Diğer Diller…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Genel → Dil ve Bölge → Tercih Edilen Dil Sırası: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Genel → Dil ve Bölge → Dil Ekle…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Genel → Dil ve Bölge → Bölge: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Genel → Dil ve Bölge → Sayılar: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Genel → Dil ve Bölge → Takvim: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Genel → Dil ve Bölge → Sıcaklık Birimi: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Genel → Klavye: `prefs:root=General&path=Keyboard`
+- Genel → Klavye → Klavyeler: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Genel → Klavye → Metin Değişimi: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Genel → Klavye → Otomatik Büyük Harf: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Genel → Klavye → Otomatik Düzeltme: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Genel → Klavye → Yazım Denetimi Yap: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Genel → Klavye → Büyük Harf Kilidi: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Genel → Klavye → Kestirmeler: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Genel → Klavye → Tahmin: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Genel → Klavye → Akıllı Noktalama: `prefs:root=General&path=Keyboard#SmartTyping`
+- Genel → Klavye → Ayrık Klavye: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Genel → Klavye → Tuş Kaydırmayı Etkinleştir: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Genel → Klavye → Karakter Önizlemesi: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Genel → Klavye → “.” Kestirmesi: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Genel → Klavye → Kaydırarak yazdırın: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Genel → Klavye → Dikte’yi Etkinleştir: `prefs:root=General&path=Keyboard#Dictation`
+- Genel → Klavye → Otomatik Noktalama: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Genel → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Genel → iPhone/iPad Storage → Saklama Alanı: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Genel → iPhone/iPad Storage → Kullanılmayanları Kaldır: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Bildirimler: `prefs:root=NOTIFICATIONS_ID`
+- Bildirimler → Zamanlanmış Özet: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Cüzdan ve Apple Pay: `prefs:root=PASSBOOK`
+- Cüzdan ve Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Cüzdan ve Apple Pay → Ödeme Kartları: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Cüzdan ve Apple Pay → Kart Ekle: `prefs:root=PASSBOOK#Add%20Card`
+- Cüzdan ve Apple Pay → Yan Düğmeye İki Kez Bas: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Cüzdan ve Apple Pay → Sipariş Takibi: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Ekran Süresi: `prefs:root=SCREEN_TIME`
+- Ekran Süresi → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Ekran Süresi → See All Activity → Bugün: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Ekran Süresi → See All Activity → Hafta: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Ekran Süresi → Atıl Süre: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Ekran Süresi → Uygulama Sınırları: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Ekran Süresi → İletişim Sınırları: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Ekran Süresi → İletişim Güvenliği: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Ekran Süresi → Her Zaman İzin Verilen: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Ekran Süresi → İçerik ve Gizlilik Sınırlamaları: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Ekran Süresi → Ebeveyn Denetimleri: `prefs:root=SCREEN_TIME#FAMILY`
+- Erişilebilirlik: `prefs:root=ACCESSIBILITY`
+- Erişilebilirlik → Görme: `prefs:root=ACCESSIBILITY#VISION`
+- Erişilebilirlik → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Erişilebilirlik → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Erişilebilirlik → VoiceOver → Konuşma Hızı: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Erişilebilirlik → VoiceOver → Konuşma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Erişilebilirlik → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Erişilebilirlik → VoiceOver → Speech → Ses: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Erişilebilirlik → VoiceOver → Ayrıntı Düzeyi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Erişilebilirlik → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Erişilebilirlik → VoiceOver → Verbosity → Noktalama: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Erişilebilirlik → VoiceOver → Verbosity → Tablo Başlıkları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Erişilebilirlik → VoiceOver → Verbosity → Ortam Açıklamaları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Erişilebilirlik → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Erişilebilirlik → VoiceOver → Verbosity → Media Descriptions → Kapalı: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Erişilebilirlik → VoiceOver → Verbosity → Media Descriptions → Konuşma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Erişilebilirlik → VoiceOver → Verbosity → Media Descriptions → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Erişilebilirlik → VoiceOver → Verbosity → Media Descriptions → Konuşma ve Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Erişilebilirlik → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Erişilebilirlik → VoiceOver → Braille → Çıkış: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Erişilebilirlik → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Erişilebilirlik → VoiceOver → Braille → Output → Küçültülmemiş 6 Noktalı Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Erişilebilirlik → VoiceOver → Braille → Output → Küçültülmemiş 8 Noktalı Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Erişilebilirlik → VoiceOver → Braille → Output → Küçültülmüş Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Erişilebilirlik → VoiceOver → Braille → Giriş: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Erişilebilirlik → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Erişilebilirlik → VoiceOver → Braille → Input → Küçültülmemiş 6 Noktalı Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Erişilebilirlik → VoiceOver → Braille → Input → Küçültülmemiş 8 Noktalı Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Erişilebilirlik → VoiceOver → Braille → Input → Küçültülmüş Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Erişilebilirlik → VoiceOver → Braille → Input → Otomatik Çeviri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Erişilebilirlik → VoiceOver → Braille → Ekrandan Braille Girişi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Erişilebilirlik → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Erişilebilirlik → VoiceOver → Braille → Braille Screen Input → Küçültülmemiş 6 Noktalı Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Erişilebilirlik → VoiceOver → Braille → Braille Screen Input → Küçültülmemiş 8 Noktalı Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Erişilebilirlik → VoiceOver → Braille → Braille Screen Input → Küçültülmüş Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Erişilebilirlik → VoiceOver → Braille → Braille Screen Input → Ters Nokta Konumları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Erişilebilirlik → VoiceOver → Braille → Braille Tabloları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Erişilebilirlik → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Erişilebilirlik → VoiceOver → Braille → Tables → Braille Tablosu Ekle…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Erişilebilirlik → VoiceOver → Braille → Durum Hücreleri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Erişilebilirlik → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Erişilebilirlik → VoiceOver → Braille → Status Cell → Durum Hücreleri Konumu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Erişilebilirlik → VoiceOver → Braille → Status Cell → Sol: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Erişilebilirlik → VoiceOver → Braille → Status Cell → Sağ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Erişilebilirlik → VoiceOver → Braille → Status Cell → Genel Durumu Göster: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Erişilebilirlik → VoiceOver → Braille → Status Cell → Metin Durumunu Göster: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Erişilebilirlik → VoiceOver → Braille → Denklemlerde Nemeth Kodu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Erişilebilirlik → VoiceOver → Braille → Ekran Klavyesini Göster: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Erişilebilirlik → VoiceOver → Braille → Kaydırırken Sayfaları Çevir: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Erişilebilirlik → VoiceOver → Braille → Sözcük Sarma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Erişilebilirlik → VoiceOver → Braille → Braille Uyarı İletileri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Erişilebilirlik → VoiceOver → Braille → Tuş Süresini Yok Say: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Erişilebilirlik → VoiceOver → Braille → Otomatik İlerleme Süresi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Erişilebilirlik → VoiceOver → Ses: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- Erişilebilirlik → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Erişilebilirlik → VoiceOver → Audio → Ses Zayıflaması: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Erişilebilirlik → VoiceOver → Audio → Aramada Hoparlörü Seç: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Erişilebilirlik → VoiceOver → Audio → HDMI’a Gönder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Erişilebilirlik → VoiceOver → Komutlar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Erişilebilirlik → VoiceOver → Eylemler: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Erişilebilirlik → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Erişilebilirlik → VoiceOver → Activities → Programlama: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Erişilebilirlik → VoiceOver → Activities → Eylem Ekle…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Erişilebilirlik → VoiceOver → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Erişilebilirlik → VoiceOver → Rotor Eylemleri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Erişilebilirlik → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Erişilebilirlik → VoiceOver → Rotor Actions → Uygulamaları Düzenle: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Erişilebilirlik → VoiceOver → Rotor Actions → Doğrudan Dokunma Uygulamaları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Erişilebilirlik → VoiceOver → Yazma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Erişilebilirlik → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Erişilebilirlik → VoiceOver → Typing → Yazma Stili: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Erişilebilirlik → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Erişilebilirlik → VoiceOver → Typing → Typing Mode → Standart Yazma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Erişilebilirlik → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Erişilebilirlik → VoiceOver → Typing → Typing Style → Dokunarak Yazma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Erişilebilirlik → VoiceOver → Typing → Typing Style → Doğrudan Dokunarak Yazma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Erişilebilirlik → VoiceOver → Typing → Fonetik Geri Bildirim: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Erişilebilirlik → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Erişilebilirlik → VoiceOver → Typing → Phonetic Feedback → Kapalı: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Erişilebilirlik → VoiceOver → Typing → Phonetic Feedback → Karakter ve Fonetik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Erişilebilirlik → VoiceOver → Typing → Phonetic Feedback → Sadece Fonetik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Erişilebilirlik → VoiceOver → Typing → Yazma Geri Bildirimi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Erişilebilirlik → VoiceOver → Typing → Niteleme Tuşları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Erişilebilirlik → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Erişilebilirlik → VoiceOver → Typing → Modifier Keys → Kontrol + Option: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Erişilebilirlik → VoiceOver → Typing → Modifier Keys → Büyük Harf Kilidi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Erişilebilirlik → VoiceOver → Typing → Klavye Etkileşimi Süresi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Erişilebilirlik → VoiceOver → Görüntüleri Dolaş: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Erişilebilirlik → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Erişilebilirlik → VoiceOver → Include Unlabeled Images → Her Zaman: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Erişilebilirlik → VoiceOver → Include Unlabeled Images → Açıklamalarla: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Erişilebilirlik → VoiceOver → Include Unlabeled Images → Asla: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Erişilebilirlik → VoiceOver → Büyük İmleç: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Erişilebilirlik → VoiceOver → Altyazı Paneli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Erişilebilirlik → VoiceOver → Çift Dokunma Zaman Aşımı: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Erişilebilirlik → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Erişilebilirlik → VoiceOver → Double-tap Timeout → Çift Dokunma Zaman Aşımı: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Erişilebilirlik → VoiceOver → Dolaşma Stili: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Erişilebilirlik → VoiceOver → Hızlı Ayarlar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Erişilebilirlik → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Erişilebilirlik → VoiceOver → Quick Settings → Sesler: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Erişilebilirlik → VoiceOver → Quick Settings → Ses Zayıflaması: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Erişilebilirlik → VoiceOver → Quick Settings → Ses Yüksekliği: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Erişilebilirlik → VoiceOver → Quick Settings → Konuşma Hızı: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Erişilebilirlik → VoiceOver → Quick Settings → İpuçları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Erişilebilirlik → VoiceOver → Quick Settings → Dolaşma Stili: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Erişilebilirlik → VoiceOver → Quick Settings → Yazma Stili: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Erişilebilirlik → VoiceOver → Quick Settings → Kaydırarak Yazma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Erişilebilirlik → VoiceOver → Quick Settings → Eylemler: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Erişilebilirlik → VoiceOver → Quick Settings → Bildirimleri Daima Seslendir: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Erişilebilirlik → VoiceOver → Quick Settings → Braille Uyarı İletileri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Erişilebilirlik → VoiceOver → Quick Settings → Braille Otomatik İlerleme: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Erişilebilirlik → VoiceOver → Quick Settings → Braille Girişi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Erişilebilirlik → VoiceOver → Quick Settings → Braille Çıkışı: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Erişilebilirlik → VoiceOver → Quick Settings → Braille Tabloları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Erişilebilirlik → VoiceOver → Quick Settings → Altyazı Paneli: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Erişilebilirlik → VoiceOver → Quick Settings → Doğrudan Dokunma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Erişilebilirlik → VoiceOver → Quick Settings → Hareket Yönü: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Erişilebilirlik → VoiceOver → Quick Settings → Donanım Yazma Geri Bildirimi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Erişilebilirlik → VoiceOver → Quick Settings → Dil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Erişilebilirlik → VoiceOver → Quick Settings → Büyük İmleç: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Erişilebilirlik → VoiceOver → Quick Settings → Ortam Açıklamaları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Erişilebilirlik → VoiceOver → Quick Settings → Görüntüleri Dolaş: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Erişilebilirlik → VoiceOver → Quick Settings → Fonetik Geri Bildirim: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Erişilebilirlik → VoiceOver → Quick Settings → Perde Değişimi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Erişilebilirlik → VoiceOver → Quick Settings → Noktalama: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Erişilebilirlik → VoiceOver → Quick Settings → HDMI’a Gönder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Erişilebilirlik → VoiceOver → Quick Settings → Yazılım Yazma Geri Bildirimi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Erişilebilirlik → VoiceOver → Quick Settings → Konuşma Rotoru Doğrulama: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Erişilebilirlik → VoiceOver → Quick Settings → Görüntü Açıklamaları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Erişilebilirlik → VoiceOver → Quick Settings → Ekran Tanıma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Erişilebilirlik → VoiceOver → VoiceOver Tanıması: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Erişilebilirlik → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Erişilebilirlik → VoiceOver → VoiceOver Recognition → Görüntü Açıklamaları: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Erişilebilirlik → VoiceOver → VoiceOver Recognition → Ekran Tanıma: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Erişilebilirlik → Büyütme: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Erişilebilirlik → Büyütme → Büyütme: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Erişilebilirlik → Büyütme → Odağı Takip Et: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Erişilebilirlik → Büyütme → Akıllı Yazma: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Erişilebilirlik → Büyütme → Klavye Kestirmeleri: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Erişilebilirlik → Büyütme → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Erişilebilirlik → Büyütme → Keyboard Shortcuts → Klavye Kestirmeleri: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Erişilebilirlik → Büyütme → Keyboard Shortcuts → Büyütme Düzeyini Ayarla: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Erişilebilirlik → Büyütme → Keyboard Shortcuts → Büyütme’yi Aç/Kapat: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Erişilebilirlik → Büyütme → Keyboard Shortcuts → Büyütme Penceresini Taşı: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Erişilebilirlik → Büyütme → Keyboard Shortcuts → Büyütme Penceresinin Büyüklüğünü Değiştir: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Erişilebilirlik → Büyütme → Keyboard Shortcuts → Büyütülen Bölgeyi Değiştir: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Erişilebilirlik → Büyütme → Keyboard Shortcuts → Büyütmeyi Geçici Olarak Aç/Kapat: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Erişilebilirlik → Büyütme → Keyboard Shortcuts → Kaydırma Tekerleği ile Büyüt: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Erişilebilirlik → Büyütme → Büyütme Denetleyici: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Erişilebilirlik → Büyütme → Büyütme Alanı: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Erişilebilirlik → Büyütme → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Erişilebilirlik → Büyütme → Zoom Region → Tam Ekran Büyütme: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Erişilebilirlik → Büyütme → Zoom Region → Pencere Büyütme: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Erişilebilirlik → Büyütme → Maksimum büyütme düzeyi: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Erişilebilirlik → Büyütme → Büyütme Filtresi: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Erişilebilirlik → Büyütme → Yansıtma Sırasında Göster: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Erişilebilirlik → Metin Üzerinde Tutma: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Erişilebilirlik → Ekran ve Metin Puntosu: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Kalın Metin: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Büyük Metin: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Düğme Şekilleri: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Açık/Kapalı Etiketleri: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Saydamlığı Azalt: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Kontrastı Artır: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Renk Olmadan Farklılaştır: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Akıllı Tersine Çevir: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Klasik Tersine Çevir: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Renk Filtreleri: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Color Filters → Renk Filtreleri: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Beyaz Noktayı Azalt: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Erişilebilirlik → Ekran ve Metin Puntosu → Otomatik Parlaklık: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Erişilebilirlik → Hareket: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Erişilebilirlik → Hareket → Hareketi Azalt: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Erişilebilirlik → Hareket → Mesaj Efektlerini Oto. Oynat: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Erişilebilirlik → Hareket → Video Önizlemelerini Oto. Oynat: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Erişilebilirlik → Seslendirilen İçerik: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Erişilebilirlik → Seslendirilen İçerik → Seçimi Seslendir: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Erişilebilirlik → Seslendirilen İçerik → Ekranı Seslendir: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Erişilebilirlik → Seslendirilen İçerik → Konuşma Denetleyici: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Erişilebilirlik → Seslendirilen İçerik → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Erişilebilirlik → Seslendirilen İçerik → Speech Controller → Fare Düğmelerini Özelleştir: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Erişilebilirlik → Seslendirilen İçerik → İçeriği Vurgula: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Erişilebilirlik → Seslendirilen İçerik → Yazma Geri Bildirimi: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Erişilebilirlik → Seslendirilen İçerik → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Erişilebilirlik → Seslendirilen İçerik → Typing Feedback → Karakter Geri Bildirimi: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Erişilebilirlik → Seslendirilen İçerik → Typing Feedback → Karakterler: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Erişilebilirlik → Seslendirilen İçerik → Typing Feedback → Karakter İpuçları: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Erişilebilirlik → Seslendirilen İçerik → Typing Feedback → Sözcükleri Seslendir: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Erişilebilirlik → Seslendirilen İçerik → Typing Feedback → Otomatik Metni Seslendir: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Erişilebilirlik → Seslendirilen İçerik → Typing Feedback → Tahminler İçin Basılı Tut: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Erişilebilirlik → Seslendirilen İçerik → Sesler: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Erişilebilirlik → Seslendirilen İçerik → Saptanmış Dil: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Erişilebilirlik → Seslendirilen İçerik → Dilleri Algıla: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Erişilebilirlik → Seslendirilen İçerik → Konuşma Hızı: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Erişilebilirlik → Seslendirilen İçerik → Telaffuz: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Erişilebilirlik → Sesli Betimleme: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Erişilebilirlik → Sesli Betimleme → Sesli Betimleme: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Erişilebilirlik → Fiziksel ve Devimsel: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Erişilebilirlik → Dokunma: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Erişilebilirlik → Dokunma → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Erişilebilirlik → Dokunma → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → En Üst Menüyü Özelleştir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Customize Top Level Menu → Değiştirilecek simgeye dokunun:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Customize Top Level Menu → Sıfırla…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Özel Eylemler: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Tek Dokunma: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Çift Dokunma: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Double-Tap → Çift Dokunma Zaman Aşımı: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Uzun Bas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Long Press → Uzun Basma Süresi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Özel Hareketler: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Yeni Hareket Yarat…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Boşken Opaklık: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İmleç Aygıtları: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Aygıtlar: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Devices → Bluetooth Aygıtları…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Fare Tuşları: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İmleç Stili: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İmleç Stili → Büyüklük: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İmleç Stili → Görsel: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İmleç Stili → Renk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İmleç Stili → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İmleç Stili → SOMETHING IDK → Fare Düğmelerini Özelleştir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İmleç Stili → Otomatik Gizle: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İmleç Stili → NEEDS_OVERRIDE_1190 → Otomatik Gizle: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Ekran Klavyesini Göster: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Menüyü Hep Göster: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Duraklamayla Denetim: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Hareket Toleransı: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → İzleme Duyarlılığı: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Geri Çekme Eylemi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Sıcak Köşeler: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Erişilebilirlik → Dokunma → AssistiveTouch → Oyun Kumandası Kullan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Erişilebilirlik → Dokunma → 3D ve Haptic Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1191 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1191 → 3D Touch Duyarlılığı: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1191 → Dokunma Süresi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1191 → Hızlı: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1191 → Yavaş: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1191 → 3D Touch Duyarlılığı ve Dokunma Süresi Testi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Erişilebilirlik → Dokunma → Dokunma Kolaylıkları: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1192 → Dokunma Kolaylıkları: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1192 → Tutma Süresi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1192 → Yinelemeyi Yok Say: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1192 → Dokunma Yardımı: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1192 → Kapalı: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1192 → İlk Dokunma Konumunu Kullan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1192 → Son Dokunma Konumunu Kullan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Erişilebilirlik → Dokunma → Uyandırmak İçin Dokun: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Erişilebilirlik → Dokunma → Uyandırmak İçin Dokun veya Kaydır: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Erişilebilirlik → Dokunma → Geri Almak İçin Salla: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Erişilebilirlik → Dokunma → Titreşim: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Erişilebilirlik → Dokunma → Kilidin Aramayı Bitirmesini Önle: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Erişilebilirlik → Dokunma → Arama Ses Yolu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1193 → Otomatik: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1193 → Bluetooth Mikrofonlu Kulaklık Seti: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1193 → Hoparlör: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Erişilebilirlik → Dokunma → NEEDS_OVERRIDE_1193 → Aramaları Otomatik Yanıtla: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Erişilebilirlik → Face ID ve Dikkat: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Erişilebilirlik → Face ID ve Dikkat → Face ID İçin Dikkat Gereksin: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Erişilebilirlik → Face ID ve Dikkat → Dikkat Farkındalığı Özellikleri: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Erişilebilirlik → Face ID ve Dikkat → Dokunuşlar: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Erişilebilirlik → Face ID ve Dikkat → Başarılı Kimlik Doğrulamada Dokunuş: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Erişilebilirlik → Anahtarla Denetim: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Erişilebilirlik → Anahtarla Denetim → Anahtarla Denetim: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Erişilebilirlik → Anahtarla Denetim → Anahtarlar: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1194 → Yeni Anahtar Ekle…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1194 → Bluetooth Aygıtları…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Tarifler: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Tarama Stili: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1195 → Otomatik Tarama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1195 → Elle Tarama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1195 → Tek Anahtar Adımıyla Tarama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Erişilebilirlik → Anahtarla Denetim → Zamanlama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Otomatik Tarama Süresi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1196 → Otomatik Tarama Süresi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → İlk Öğede Duraklat: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1197 → İlk Öğede Duraklat: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Gitmeyi Yinele: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1198 → Gitmeyi Yinele: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Uzun Bas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1199 → Uzun Bas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Dokunma Davranışı: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1200 → Saptanmış: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1200 → Otomatik Dokunma: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1200 → Her Zaman Dokunma: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Erişilebilirlik → Anahtarla Denetim → Dokunma Odak Öğesi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1201 → İlk Öğe: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1201 → Şu Anki Öğe: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Erişilebilirlik → Anahtarla Denetim → Klavye: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Dokun ve Aynı Tuşu Tara: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Hep Klavye Tuşlarına Dokun: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Genişletilmiş Tahminler: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Anahtar Stabilizasyonu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Tutma Süresi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1202 → Tutma Süresi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Yinelemeyi Yok Say: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1203 → Yinelemeyi Yok Say: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Nokta Tarama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Kayan İmleç: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1204 → Seçim Modu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1204 → Tek: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1204 → Düzeltilmiş: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1204 → Hassas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1204 → Kayan İmleç Hızı: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Erişilebilirlik → Anahtarla Denetim → Kafa İzleme: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1205 → Kafa İzleme: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Erişilebilirlik → Anahtarla Denetim → Ses: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Ses Efektleri: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Konuşma: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1206 → Sesler: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1206 → Konuşma Hızı: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Menü Öğeleri: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Öğeleri Grupla: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Görsel: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Büyük İmleç: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → Kayıtlı Hareketler: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Erişilebilirlik → Anahtarla Denetim → NEEDS_OVERRIDE_1207 → Yeni Hareket Yarat…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Erişilebilirlik → Anahtarla Denetim → İmleç Rengi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Erişilebilirlik → Sesle Denetim: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Erişilebilirlik → Sesle Denetim → Sesle Denetim’i Ayarla: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Erişilebilirlik → Sesle Denetim → Dil: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Erişilebilirlik → Sesle Denetim → NEEDS_OVERRIDE_1208 → İngilizce (ABD): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Erişilebilirlik → Sesle Denetim → Komutları Özelleştir: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Erişilebilirlik → Sesle Denetim → Sözcük Hazinesi: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Erişilebilirlik → Sesle Denetim → Komut Geri Bildirimi: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Erişilebilirlik → Sesle Denetim → Onayı Göster: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Erişilebilirlik → Sesle Denetim → Ses Çal: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Erişilebilirlik → Sesle Denetim → İpuçlarını Göster: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Erişilebilirlik → Sesle Denetim → Sürekli Katman: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Erişilebilirlik → Sesle Denetim → Katman: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Erişilebilirlik → Sesle Denetim → NEEDS_OVERRIDE_1209 → Yok: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Erişilebilirlik → Sesle Denetim → NEEDS_OVERRIDE_1209 → Öğe Numaraları: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Erişilebilirlik → Sesle Denetim → NEEDS_OVERRIDE_1209 → Öğe Adları: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Erişilebilirlik → Sesle Denetim → NEEDS_OVERRIDE_1209 → Numaralı Izgara: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Erişilebilirlik → Sesle Denetim → Dikkat Farkındalığı: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Erişilebilirlik → Yan Düğme: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Erişilebilirlik → Yan Düğme → Tıklama Hızı: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Erişilebilirlik → Yan Düğme → Saptanmış: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Erişilebilirlik → Yan Düğme → Yavaş: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Erişilebilirlik → Yan Düğme → En Yavaş: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Erişilebilirlik → Yan Düğme → Konuşmak için basılı tutun: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Erişilebilirlik → Yan Düğme → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Erişilebilirlik → Yan Düğme → Klasik Sesle Denetim: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Erişilebilirlik → Yan Düğme → Kapalı: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Erişilebilirlik → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Erişilebilirlik → Apple TV Remote → Yön Düğmeleri: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Erişilebilirlik → Apple Watch Kumanda Ekranı: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Erişilebilirlik → Klavyeler: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Erişilebilirlik → Klavyeler → Tam Klavye Erişimi: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1210 → Tam Klavye Erişimi: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1210 → Görseller: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1210 → Otomatik Gizle: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1210 → Büyük Odak Halkası: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1210 → Renk: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Erişilebilirlik → Klavyeler → Tuş Yineleme: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1211 → Tuş Yineleme: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1211 → Tuş Yineleme Aralığı: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1211 → Yineleme Öncesi Gecikme: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Erişilebilirlik → Klavyeler → Yapışkan Tuşlar: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1212 → Yapışkan Tuşlar: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1212 → Shift Tuşu ile Aç/Kapat: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1212 → Ses: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Erişilebilirlik → Klavyeler → Yavaş Tuşlar: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Erişilebilirlik → Klavyeler → NEEDS_OVERRIDE_1213 → Yavaş Tuşlar: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Erişilebilirlik → Klavyeler → Yazılım Klavyeleri: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Erişilebilirlik → Klavyeler → Tuşları Küçük Harf Göster: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Erişilebilirlik → İşitme: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Erişilebilirlik → İşitme Cihazları: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Erişilebilirlik → İşitme Cihazları → MFi İşitme Cihazları: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Erişilebilirlik → İşitme Cihazları → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Erişilebilirlik → İşitme Cihazları → İşitme Cihazı Uyumluluğu: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Erişilebilirlik → Ses Tanıma: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Erişilebilirlik → Ses Tanıma → Sesler: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Erişilebilirlik → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Erişilebilirlik → RTT/TTY → Yazılım TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Erişilebilirlik → RTT/TTY → Donanım TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Erişilebilirlik → Ses ve Görsel: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Erişilebilirlik → Ses ve Görsel → Ses: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Erişilebilirlik → Ses ve Görsel → Kulaklık Kolaylıkları: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Erişilebilirlik → Ses ve Görsel → NEEDS_OVERRIDE_1214 → Kulaklık Kolaylıkları: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Erişilebilirlik → Ses ve Görsel → NEEDS_OVERRIDE_1214 → Özel Ses Ayarları: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Erişilebilirlik → Ses ve Görsel → Arka Plan Sesleri: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Erişilebilirlik → Ses ve Görsel → Mono Ses: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Erişilebilirlik → Ses ve Görsel → Telefonda Gürültü Engelleme: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Erişilebilirlik → Ses ve Görsel → Denge: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Erişilebilirlik → Ses ve Görsel → Görsel: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Erişilebilirlik → Ses ve Görsel → Uyarılar için LED Flaş: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Erişilebilirlik → Ses ve Görsel → NEEDS_OVERRIDE_1215 → Kilitli Değilken Flaş: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Erişilebilirlik → Ses ve Görsel → NEEDS_OVERRIDE_1215 → Sessiz Modda Flaş: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Erişilebilirlik → Ses ve Görsel → Sol-Sağ Stereo Dengesi: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Erişilebilirlik → Ses ve Görsel → Açma ve Kapatma Sesleri: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Erişilebilirlik → Açıklamalı Altyazılar: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Erişilebilirlik → Açıklamalı Altyazılar → Stil: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Erişilebilirlik → Açıklamalı Altyazılar → Açıklamalı Altyazılar: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Erişilebilirlik → Açıklamalı Altyazılar → Sesli Dökümleri Göster: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Erişilebilirlik → NEEDS_OVERRIDE_1216 → Canlı Altyazı (Beta): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Erişilebilirlik → NEEDS_OVERRIDE_1216 → FaceTime’da Canlı Altyazı: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Erişilebilirlik → Genel: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Erişilebilirlik → Denetimli Erişim: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Erişilebilirlik → Denetimli Erişim → Denetimli Erişim: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Erişilebilirlik → Denetimli Erişim → Parola Ayarları: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Erişilebilirlik → Denetimli Erişim → NEEDS_OVERRIDE_1217 → Denetimli Erişim Parolası Ayarla: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Erişilebilirlik → Denetimli Erişim → Süre Sınırları: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Erişilebilirlik → Denetimli Erişim → NEEDS_OVERRIDE_1218 → Alarm: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Erişilebilirlik → Denetimli Erişim → NEEDS_OVERRIDE_1218 → Ses: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Erişilebilirlik → Denetimli Erişim → NEEDS_OVERRIDE_1218 → Seslendir: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Erişilebilirlik → Denetimli Erişim → Erişilebilirlik Kestirmesi: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Erişilebilirlik → Denetimli Erişim → Otomatik Kilidi Görüntüle: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Erişilebilirlik → Özel Erişilebilirlik Modu: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Erişilebilirlik → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Erişilebilirlik → Siri → Siri’ye Yaz: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Erişilebilirlik → Siri → Sesli Yanıtlar: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Erişilebilirlik → Siri → Otomatik Sesli Yanıtlar: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Erişilebilirlik → Siri → Sessiz Yanıtları Tercih Et: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Erişilebilirlik → Siri → Sessiz Modda Seslendirme: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Erişilebilirlik → Siri → Her Zaman “Hey Siri”yi Dinle: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Erişilebilirlik → Erişilebilirlik Kestirmesi: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Erişilebilirlik → Erişilebilirlik Kestirmesi → Büyüteç: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Erişilebilirlik → Uygulamaya Özel Ayarlar: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Erişilebilirlik → Yakındaki Aygıtları Denetle: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Ekran ve Parlaklık: `prefs:root=DISPLAY`
+- Ekran ve Parlaklık → Görünüş: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Ekran ve Parlaklık → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Ekran ve Parlaklık → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Ekran ve Parlaklık → Night Shift → Zamanlanmış: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Ekran ve Parlaklık → Night Shift → Yarına Kadar Açık Bırak: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Ekran ve Parlaklık → Night Shift → Renk Sıcaklığı: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Ekran ve Parlaklık → Otomatik Kilit: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Ekran ve Parlaklık → Uyandırmak İçin Kaldır: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Ekran ve Parlaklık → Kilitle/Kilidi Aç: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Ekran ve Parlaklık → Metin Puntosu: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Ekran ve Parlaklık → Kalın Metin: `prefs:root=DISPLAY#BOLD_TEXT`
+- Ekran ve Parlaklık → Ekran Büyütme: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Ekran ve Parlaklık → Görüntü: `prefs:root=DISPLAY&path=MAGNIFY`
+- Maruz Kalma Bildirimleri: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_1219 → Bildirim İşaretleri: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_1219 → Yeni İndirilen Uygulamalar: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Ana Ekran ve Çoklu Görev: `prefs:root=HOME_SCREEN_DOCK`
+- Ana Ekran ve Çoklu Görev → NEEDS_OVERRIDE_1220 → Uygulama Arşivi’ni Dock’ta Göster: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Ana Ekran ve Çoklu Görev → Önerilen ve Son Kullanılan Uygulamaları Dock’ta Göster: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Ana Ekran: `prefs:root=HOME_SCREEN`
+- Ana Ekran → Yeni İndirilen Uygulamalar: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Ana Ekran → Bildirim İşaretleri: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID ve Parola: `prefs:root=PASSCODE`
+- Touch ID ve Parola → Parolayı Kapat: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID ve Parola → Parolayı Değiştir: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID ve Parola → Parola Gereksin: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID ve Parola → Sesle Arama: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID ve Parola → Kilitliyken Erişime İzin Ver: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID ve Parola → Mesaj ile Yanıtla: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID ve Parola → Ev Denetimi: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID ve Parola → Cüzdan: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID ve Parola → Cevapsız Aramalara Geri Dön: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID ve Parola → Verileri Sil: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID ve Parola → Kilidi Apple Watch ile Aç: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Podcast’ler: `prefs:root=PODCASTS`
+- Acil SOS: `prefs:root=EMERGENCY_SOS`
+- Acil SOS → Yan Düğme ile Ara: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Acil SOS → Otomatik Ara: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Acil SOS → Acil Durum Kişileri: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Acil SOS → Geri Sayım Sesi: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Sesler: `prefs:root=Sounds`
+- Sesler → Kulaklık Güvenliği: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Sesler → Kulaklık Güvenliği → Lightning Adaptörleri: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Sesler → Kulaklık Güvenliği → Kulaklık Bildirimleri: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Sesler → Kulaklık Güvenliği → Yüksek Sesleri Azalt: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Sesler → Ses Efektleri: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Sesler → Zil Sesi ve Uyarılar: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Sesler → Düğmelerle Değiştir: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Sesler → Sesler ve Titreşim Modelleri: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Sesler → Zil Sesi: `prefs:root=Sounds&path=Ringtone`
+- Sesler → SMS Tonu: `prefs:root=Sounds&path=Text_Messages`
+- Sesler → Yeni Sesli Mesaj: `prefs:root=Sounds&path=Voicemail`
+- Sesler → Yeni Posta: `prefs:root=Sounds&path=NEW_MAIL`
+- Sesler → Giden Posta: `prefs:root=Sounds&path=SENT_MAIL`
+- Sesler → Takvim Uyarıları: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Sesler → Anımsatıcı Uyarıları: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Sesler → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Sesler → Klavye Tıklamaları: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Sesler → Kilit Sesi: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Hava Durumu: `prefs:root=WEATHER`
+- Pusula: `prefs:root=COMPASS`
+- Pusula → Coğrafi Kuzeyi Kullan: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Denetim Merkezi: `prefs:root=ControlCenter`
+- Denetim Merkezi → Uygulama İçinden Erişim: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Denetim Merkezi → Denetimleri Özelleştir: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Geliştirici: `prefs:root=DEVELOPER_SETTINGS`
+- Geliştirici → Çok Yollu Ağ: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Geliştirici → Çok Yollu Ağ → Çok Yollu Ağ: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Geliştirici → Görünüş: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Geliştirici → Koyu Görünüş: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Geliştirici → Eşlenmiş Aygıtlar: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Geliştirici → Güvenilen Bilgisayarları Sil: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Geliştirici → Müzik Aletleri: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Geliştirici → Günlük: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Geliştirici → Kullanıcı Arayüzü Otomasyonu: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Geliştirici → Ağ: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Geliştirici → Ağ Bağlantısı Düzeltici: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Geliştirici → iAd Geliştirici Uygulama Testi: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Geliştirici → Doldurma Oranı: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Geliştirici → Kesik Başlıkları Vurgula: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Geliştirici → Sınırsız Reklam Sunumu: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Geliştirici → PassKit Testi: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Geliştirici → Ek Günlük: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Geliştirici → HTTP Servislerine İzin Ver: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Geliştirici → Derecelendirme Sınırlandırmayı Etkisizleştir: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Geliştirici → NFC Geçiş Tuşu İsteğe Bağlı: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Geliştirici → Ortam Servisleri Testi: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Geliştirici → AirPlay Önerileri: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Geliştirici → Ortam Servislerini Sıfırla: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Geliştirici → News Testi: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Geliştirici → Bir Sonraki Başlatmada Yerel Verileri Sıfırla: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Geliştirici → Ortam Oynatıcı Framework Testi: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Geliştirici → Oynatılabilir İçerik API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Geliştirici → TV Sağlayıcı Testi: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Geliştirici → TV Sağlayıcıları: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Geliştirici → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Geliştirici → CoreSpotlight Testi: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Geliştirici → Tüm Öğeleri Yeniden Diz: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Geliştirici → Tanıtıcısı Olan Tüm Öğeleri Yeniden Diz: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Geliştirici → Kestirmeler Testi: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Geliştirici → Son Kullanılan Kestirmeleri Görüntüle: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Geliştirici → Yakında Çıkacak Ortamları Görüntüle: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Geliştirici → Bağışları Kilitli Ekranda Görüntüle: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Geliştirici → Kestirmeleri Watch ile Eşzamanlamaya Zorla: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Geliştirici → MIDI-CI Testi: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Geliştirici → MIDI-CI’yi Etkinleştir: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Sağlık: `prefs:root=HEALTH`
+- Ölçüm: `prefs:root=MEASURE`
+- Ölçüm → Ölçü Birimleri: `prefs:root=MEASURE#MEASURE_UNITS`
+- Ölçüm → İmperial (İngiliz Ölçü Birimi): `prefs:root=MEASURE#Imperial`
+- Ölçüm → Metrik: `prefs:root=MEASURE#Metric`
+- Müzik: `prefs:root=MUSIC`
+- Müzik → Apple Music’i Göster: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Müzik → Liste Parçalarını Ekle: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Müzik → Yıldızlı Puan Düzeyini Göster: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Müzik → Arşiv’i Eşzamanla: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Müzik → Hücresel Veri: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Müzik → İndirilen Müzik: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Müzik → En İyi Saklama: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Müzik → Otomatik İndirmeler: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Müzik → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Müzik → Ses Denetimi: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Müzik → Dinleme Geçmişini Kullan: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Notlar: `prefs:root=NOTES`
+- Notlar → Saptanmış Hesap: `prefs:root=NOTES&path=Default%20Account`
+- Notlar → Parola: `prefs:root=NOTES&path=Password`
+- Notlar → Notları Sırala: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Notlar → Yeni Not Başlangıcı: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Notlar → İşaretlenen Öğeleri Düzenle: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Notlar → Satır ve Izgara Çizgisi: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Notlar → Fotoğraflar’a Kaydet: `prefs:root=NOTES#Save%20to%20Photos`
+- Notlar → Notlara Kilitli Ekrandan Erişim: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Mesajlar: `prefs:root=MESSAGES`
+- Çeviri: `prefs:root=TRANSLATE`
+- Çeviri → Aygıtta Çeviri Modu: `prefs:root=TRANSLATE#OnDeviceOnly`
+- TV Sağlayıcı: `prefs:root=VIDEO_SUBSCRIBER`
+- Sesli Notlar: `prefs:root=VOICE_MEMOS`
+- Sesli Notlar → Silineni Temizle: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Sesli Notlar → Ses Kalitesi: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Sesli Notlar → Konum Tabanlı Adlandırma: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Biçimler: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Biçimler → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → NEEDS_OVERRIDE_1221 → HDR Video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Ayarları Koru: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Ayarları Koru → Kamera Modu: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Izgara: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → QR Kodlarını Tara: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Harita: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Kişiler: `prefs:root=CONTACTS`
+- Kişiler → Kişiler Erişebilsin: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kişiler → Siri ve Arama: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kişiler → Sıralama: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kişiler → Görüntüleme Sırası: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kişiler → Kısa Ad: `prefs:root=CONTACTS&path=PersonShortName`
+- Kişiler → Kısa Ad → Kısa Ad: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kişiler → Kısa Ad → Takma Adları Tercih Et: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kişiler → Bilgilerim: `prefs:root=CONTACTS&path=MeCard`
+- Kişiler → SIM’deki Kişileri Aktar: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Kitaplar: `prefs:root=IBOOKS`
+- Kitaplar → Çevrimiçi İçerik: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Kitaplar → EŞZAMANLAMA: `prefs:root=IBOOKS#SYNCING`
+- Kitaplar → Şu An Okunan: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Kitaplar → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Kitaplar → OKUMA: `prefs:root=IBOOKS#READING`
+- Kitaplar → Tam Yaslama: `prefs:root=IBOOKS#BKFullJustification`
+- Kitaplar → Otomatik Tireleme: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Kitaplar → Her İki Marj ile İlerletme: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Kitaplar → Okuma Hedefleri: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Kitaplar → Okuma Hedefi Verilerini Sil: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Kitaplar → ARAMA: `prefs:root=IBOOKS#SEARCHING`
+- Kitaplar → Kitapçı: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Kitaplar → SESLİ KİTAPLAR: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Kitaplar → İleriye Doğru Atla: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Kitaplar → Geriye Doğru Atla: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Kitaplar → HARİCİ DENETİMLER: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Kitaplar → Sonraki/Önceki: `prefs:root=IBOOKS#Next/Previous`
+- Kitaplar → İleriye/Geriye Atla: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Kitaplar → GİZLİLİK: `prefs:root=IBOOKS#PRIVACY`
+- Kitaplar → Tanıtıcıyı Sıfırla: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Kitaplar → Teşekkürler: `prefs:root=IBOOKS&path=Acknowledgements`
+- Takvim: `prefs:root=CALENDAR`
+- Takvim → Saat Dilimini Geçersiz Kıl: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Takvim → Alternatif Takvimler: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Takvim → Hafta Numaraları: `prefs:root=CALENDAR#Week%20Numbers`
+- Takvim → Reddeden Davetlileri Göster: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Takvim → Eşzamanla: `prefs:root=CALENDAR&path=Sync`
+- Takvim → Saptanmış Uyarı Süresi: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Takvim → Haftanın İlk Günü: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Takvim → Konum Önerileri: `prefs:root=CALENDAR#Location%20Suggestions`
+- Mail: `prefs:root=MAIL`
+- Mail → Hesaplar: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Hesaplar → Hesap Ekle: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Hesaplar → Yeni Verileri Al: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Önizleme: `prefs:root=MAIL&path=Preview`
+- Mail → Kime/Bilgi Etiketlerini Göster: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Kaydırma Seçenekleri: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Silmeden Önce Sor: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Uzaktaki Görüntüleri Yükle: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Konu Grubuna Göre Düzenle: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Okunmuş İleti İçeriğini Gizle: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → En Son İleti En Üstte: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Tam Konu Grupları: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Bildirimi Kapalı Grup: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Engellenenleri Yok Say: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Engellenenler: `prefs:root=MAIL&path=Blocked`
+- Mail → Kendime Gizli Kopya: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Adresleri İşaretle: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Alıntı Düzeyini Artır: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Yanıtlı İlişikleri Dahil Et: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Özel: `prefs:root=MAIL&path=Signature`
+- Telefon: `prefs:root=Phone`
+- Telefon → Numaram: `prefs:root=Phone&path=My%20Number`
+- Telefon → Gelen Aramalar: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Aramaları Duyur: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → SMS/Arama Raporu: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Mesajla Yanıtla: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Arama Yönlendirme: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Arama Yönlendirme → Arama Yönlendirme: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Arama Bekletme: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Numaramı Göster: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Numaramı Göster → NEEDS_OVERRIDE_1222 → Numaramı Göster: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Bilinmeyen Arayanları Sessize Al: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Engellenen Kişiler: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Çevirme Yardımı: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → İçerik Engelleyici: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Pencereleri Engelle: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Siteler Arası Takibi Engelle: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Otomatik Doldur: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → İndirilenler: `prefs:root=SAFARI&path=DOWNLOADS`
+- Parolalar: `prefs:root=PASSWORDS`
+- Parolalar → Parolaları Oto. Doldur: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Fotoğraflar: `prefs:root=Photos`
+- Fotoğraflar → iCloud Fotoğrafları: `prefs:root=Photos#iCloudPhotosSwitch`
+- Fotoğraflar → En İyi Saklama: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Fotoğraflar → İndir ve Özgünleri Tut: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Fotoğraflar → Fotoğraf Yayınım: `prefs:root=Photos#PhotoStreamSwitch`
+- Fotoğraflar → Paylaşılan Albümler: `prefs:root=Photos#SharedStreamsSwitch`
+- Fotoğraflar → Hücresel Veri: `prefs:root=Photos&path=CellularDataLinkList`
+- Fotoğraflar → Videoları Otomatik Oynat: `prefs:root=Photos#VideoAutoplaySwitch`
+- Fotoğraflar → Full HDR Görüntüle: `prefs:root=Photos#ImageModulationSwitch`
+- Fotoğraflar → Tatil Günlerini Göster: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Fotoğraflar → Mac’e veya PC’ye aktarma: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Otomatik İndirmeler: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Güncellemeler: `prefs:root=STORE#App%20Updates`
+- App Store → Uygulama İndirmeleri: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Otomatik Video Oynatma: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Uygulama İçi Puan ve Yorum: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Yazı Önizlemesini Göster: `prefs:root=NEWS#show_excerpt_mode`
+- News → Bugün’de Yazıları Sınırla: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Gizlilik: `prefs:root=NEWS#Privacy`
+- News → Tanıtıcıyı Sıfırla: `prefs:root=NEWS#reset_identifier`
+- News → Teşekkürler: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_1223 → Uçak Modu: `prefs:root=ROOT#AIRPLANE_MODE`
+- Anımsatıcılar: `prefs:root=REMINDERS`
+- Anımsatıcılar → Saptanmış Liste: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Anımsatıcılar → Saptanmış Liste → Anımsatıcılar: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Anımsatıcılar → Bugün Bildirimi: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Anımsatıcılar → Gecikmiş Olarak Göster: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Pil: `prefs:root=BATTERY_USAGE`
+- Pil → Düşük Güç Modu: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Pil → Pil Sağlığı: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Kestirmeler: `prefs:root=SHORTCUTS`
+- Kestirmeler → iCloud Eşzamanlama: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Kestirmeler → Kestirme Sırasını Eşzamanla: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Kestirmeler → Yasal Uyarılar: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri ve Arama: `prefs:root=SIRI`
+- Siri ve Arama → Kilitliyken Siri’ye İzin Ver: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri ve Arama → Dil: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri ve Arama → Siri Sesi: `prefs:root=SIRI&path=VOICE_ID`
+- Siri ve Arama → Sesli Geri Bildirim: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri ve Arama → Bilgilerim: `prefs:root=SIRI&path=MY_INFO`
+- Siri ve Arama → Arama Önerileri: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri ve Arama → Araştır Önerileri: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri ve Arama → Kilitli Ekran Önerileri: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Borsa: `prefs:root=STOCKS`
+- Borsa → Gizlilik: `prefs:root=STOCKS#Privacy`
+- Borsa → Tanıtıcıyı Sıfırla: `prefs:root=STOCKS#reset_identifier`
+- Hücresel: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Hücresel → Seçenekler: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Hücresel → Seçenekler → Düşük Veri Modu: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Hücresel → Hücresel Veri: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → Oynatma için Hücresel Veri: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → Oynatma Kalitesi: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → Satın Alınanlar ve Kiralananlar: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → Ev Paylaşımı: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Duvar Kâğıdı: `prefs:root=Wallpaper`

@@ -1,0 +1,854 @@
+- Apple ID: `prefs:root=APPLE_ACCOUNT`
+- Apple ID → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
+- Apple ID → iCloud → Úložiště na iCloudu: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+- Apple ID → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+- Apple ID → iCloud → Fotky: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream`
+- Apple ID → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ID → iCloud → Kontakty: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts`
+- Apple ID → iCloud → Kalendář: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ID → iCloud → Připomínky: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders`
+- Apple ID → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks`
+- Apple ID → iCloud → Poznámky: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+- Apple ID → iCloud → Zprávy: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News`
+- Apple ID → iCloud → Záloha: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- Apple ID → iCloud → Zdraví: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+- Apple ID → iCloud → Hesla a klíčenka: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
+- Apple ID → iCloud → Soukromý přenos: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+- Apple ID → Sdílet moji polohu: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+- Apple ID → Sdílet moji polohu → Najít iPhone: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ID → Jméno, telefonní čísla, e-mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+- Apple ID → Heslo a zabezpečení: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+- Apple ID → Platby a doručování: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+- Apple ID → Předplatná: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+- Apple ID → Rodina: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
+- Soukromí a zabezpečení: `prefs:root=Privacy`
+- Soukromí a zabezpečení → Bezpečnostní kontrola: `prefs:root=Privacy&path=SAFETY_CHECK`
+- Soukromí a zabezpečení → Poloha: `prefs:root=Privacy&path=LOCATION`
+- Soukromí a zabezpečení → Poloha → Sdílet moji polohu: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
+- Soukromí a zabezpečení → Kontakty: `prefs:root=Privacy&path=CONTACTS`
+- Soukromí a zabezpečení → Kalendáře: `prefs:root=Privacy&path=CALENDARS`
+- Soukromí a zabezpečení → Připomínky: `prefs:root=Privacy&path=REMINDERS`
+- Soukromí a zabezpečení → Fotky: `prefs:root=Privacy&path=PHOTOS`
+- Soukromí a zabezpečení → Bluetooth sdílení: `prefs:root=Privacy&path=BT_PERIPHERAL`
+- Soukromí a zabezpečení → Mikrofon: `prefs:root=Privacy&path=MICROPHONE`
+- Soukromí a zabezpečení → Rozpoznávání řeči: `prefs:root=Privacy&path=SPEECH_RECOGNITION`
+- Soukromí a zabezpečení → Fotoaparát: `prefs:root=Privacy&path=CAMERA`
+- Soukromí a zabezpečení → HomeKit: `prefs:root=Privacy&path=WILLOW`
+- Soukromí a zabezpečení → Média a Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY`
+- Soukromí a zabezpečení → Analýza: `prefs:root=Privacy&path=PROBLEM_REPORTING`
+- Soukromí a zabezpečení → Reklamy: `prefs:root=Privacy&path=ADVERTISING`
+- Soukromí a zabezpečení → Soubory a složky: `prefs:root=Privacy&path=FILEACCESS`
+- Soukromí a zabezpečení → Sledování: `prefs:root=Privacy&path=USER_TRACKING`
+- Soukromí a zabezpečení → Zpráva o soukromí v aplikacích: `prefs:root=Privacy&path=PRIVACY_REPORT`
+- Soukromí a zabezpečení → Režim blokování: `prefs:root=Privacy#LOCKDOWN_MODE`
+- Soukromí a zabezpečení → Zdraví: `prefs:root=Privacy&path=HEALTH`
+- Režim soustředění: `prefs:root=DO_NOT_DISTURB`
+- Režim soustředění → Stav soustředění: `prefs:root=DO_NOT_DISTURB&path=status`
+- Obecné: `prefs:root=General`
+- Obecné → VPN a správa zařízení: `prefs:root=General&path=ManagedConfigurationList`
+- Obecné → Obraz v obrazu: `prefs:root=General&path=PiP_SPEC`
+- Obecné → Trackpad a myš: `prefs:root=General&path=POINTERS`
+- Obecné → NFC: `prefs:root=General&path=NFC_LINK`
+- Obecné → VPN: `prefs:root=General&path=VPN`
+- Obecné → CarPlay: `prefs:root=General&path=CARPLAY`
+- Obecné → Informace: `prefs:root=General&path=About`
+- Obecné → Informace → Důvěryhodné certifikáty: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Obecné → Právní informace a standardy: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Obecné → Aktualizace softwaru: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Obecné → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Obecné → Tlačítko plochy: `prefs:root=General&path=HOME_BUTTON`
+- Obecné → Gesta: `prefs:root=General#Multitasking_Gesture_Switch`
+- Obecné → Postranní přepínač: `prefs:root=General#Rotation_Switch_Action_Group`
+- Obecné → Aktualizace aplikací na pozadí: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Obecné → Datum a čas: `prefs:root=General&path=DATE_AND_TIME`
+- Obecné → TV výstup: `prefs:root=General&path=TV_OUT`
+- Obecné → Standardy: `prefs:root=General&path=REGULATORY`
+- Obecné → Resetovat: `prefs:root=General&path=Reset`
+- Obecné → Resetovat → Obnovit všechna nastavení: `prefs:root=General&path=Reset#settingsErase`
+- Obecné → Resetovat → Smazat data a nastavení: `prefs:root=General&path=Reset#fullErase`
+- Obecné → Resetovat → Obnovit nastavení sítě: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Obecné → Resetovat → Odstranit všechny mobilní datové tarify: `prefs:root=General&path=Reset#cellularErase`
+- Obecné → Resetovat → Odběratelské služby: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Obecné → Resetovat → Obnovit slovník klávesnice: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Obecné → Resetovat → Obnovit uspořádání plochy: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Obecné → Resetovat → Obnovit polohu a soukromí: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Obecné → Vypnout: `prefs:root=General#SHUTDOWN_LABEL`
+- Obecné → AirPlay a Handoff: `prefs:root=General&path=CONTINUITY_SPEC`
+- Obecné → AirPlay a Handoff → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Obecné → AirPlay a Handoff → Předat na HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Obecné → AirPlay a Handoff → Automatické AirPlay na TV: `prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+- Obecné → AirPlay a Handoff → Fotoaparát přes Kontinuitu: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Obecné → Slovník: `prefs:root=General&path=DICTIONARY`
+- Obecné → Jazyk a oblast: `prefs:root=General&path=INTERNATIONAL`
+- Obecné → Jazyk a oblast → Další jazyky…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Obecné → Jazyk a oblast → Preferované pořadí jazyků: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Obecné → Jazyk a oblast → Přidat jazyk…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Obecné → Jazyk a oblast → Oblast: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Obecné → Jazyk a oblast → Čísla: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Obecné → Jazyk a oblast → Kalendář: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Obecné → Jazyk a oblast → Jednotky teploty: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Obecné → Klávesnice: `prefs:root=General&path=Keyboard`
+- Obecné → Klávesnice → Klávesnice: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Obecné → Klávesnice → Náhrada textu: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Obecné → Klávesnice → Auto velká písmena: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Obecné → Klávesnice → Auto korektura: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Obecné → Klávesnice → Zkontrolovat pravopis: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Obecné → Klávesnice → Povolit Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Obecné → Klávesnice → Zkratky: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Obecné → Klávesnice → Predikce: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Obecné → Klávesnice → Chytrá interpunkce: `prefs:root=General&path=Keyboard#SmartTyping`
+- Obecné → Klávesnice → Rozdělená klávesnice: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Obecné → Klávesnice → Zapnout Key Flicks: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Obecné → Klávesnice → Náhledy znaků: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Obecné → Klávesnice → Klávesová zkratka ".": `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Obecné → Klávesnice → Chcete‑li začít psát, přejeďte: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Obecné → Klávesnice → Zapnout diktování: `prefs:root=General&path=Keyboard#Dictation`
+- Obecné → Klávesnice → Automatická interpunkce: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Obecné → iPhone/iPad Storage: `prefs:root=General&path=STORAGE_MGMT`
+- Obecné → iPhone/iPad Storage → Úložiště: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Obecné → iPhone/iPad Storage → Odložit nepoužívané: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Oznámení: `prefs:root=NOTIFICATIONS_ID`
+- Oznámení → Naplánovaný souhrn: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Peněženka a Apple Pay: `prefs:root=PASSBOOK`
+- Peněženka a Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Peněženka a Apple Pay → Platební karty: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Peněženka a Apple Pay → Přidat kartu: `prefs:root=PASSBOOK#Add%20Card`
+- Peněženka a Apple Pay → Dvojí stisknutí postranního tlačítka: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Peněženka a Apple Pay → Sledování objednávek: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Čas u obrazovky: `prefs:root=SCREEN_TIME`
+- Čas u obrazovky → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Čas u obrazovky → See All Activity → Dnes: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Čas u obrazovky → See All Activity → Týden: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Čas u obrazovky → Klidový čas: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Čas u obrazovky → Limity pro aplikace: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Čas u obrazovky → Omezení komunikace: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Čas u obrazovky → Bezpečná komunikace: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Čas u obrazovky → Povoleno vždy: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Čas u obrazovky → Omezení obsahu a soukromí: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Čas u obrazovky → Rodičovský dohled: `prefs:root=SCREEN_TIME#FAMILY`
+- Zpřístupnění: `prefs:root=ACCESSIBILITY`
+- Zpřístupnění → Zrak: `prefs:root=ACCESSIBILITY#VISION`
+- Zpřístupnění → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Zpřístupnění → VoiceOver → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchEnabled`
+- Zpřístupnění → VoiceOver → Rychlost čtení: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRate`
+- Zpřístupnění → VoiceOver → Řeč: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Speech`
+- Zpřístupnění → VoiceOver → Speech: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech`
+- Zpřístupnění → VoiceOver → Speech → Hlas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Speech#DialectCell`
+- Zpřístupnění → VoiceOver → Podrobnost: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Verbosity`
+- Zpřístupnění → VoiceOver → Verbosity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Zpřístupnění → VoiceOver → Verbosity → Interpunkce: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverPunctuationGroup`
+- Zpřístupnění → VoiceOver → Verbosity → Záhlaví tabulek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Zpřístupnění → VoiceOver → Verbosity → Popisy médií: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverMediaDescriptions`
+- Zpřístupnění → VoiceOver → Verbosity → Media Descriptions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Zpřístupnění → VoiceOver → Verbosity → Media Descriptions → Vypnuto: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdOff`
+- Zpřístupnění → VoiceOver → Verbosity → Media Descriptions → Řeč: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeech`
+- Zpřístupnění → VoiceOver → Verbosity → Media Descriptions → Braillovo písmo: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdBraille`
+- Zpřístupnění → VoiceOver → Verbosity → Media Descriptions → Řeč a braillský řádek: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#mdSpeechAndBraille`
+- Zpřístupnění → VoiceOver → Braillovo písmo: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Braille`
+- Zpřístupnění → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Zpřístupnění → VoiceOver → Braille → Výstup: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Zpřístupnění → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Zpřístupnění → VoiceOver → Braille → Output → Šestibodový braillský plnopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#SixDotBraille`
+- Zpřístupnění → VoiceOver → Braille → Output → Osmibodový braillský plnopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#EightDotBraille`
+- Zpřístupnění → VoiceOver → Braille → Output → Zkratkopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#ContractedBraille`
+- Zpřístupnění → VoiceOver → Braille → Vstup: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayInput`
+- Zpřístupnění → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Zpřístupnění → VoiceOver → Braille → Input → Šestibodový braillský plnopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#SixDotBraille`
+- Zpřístupnění → VoiceOver → Braille → Input → Osmibodový braillský plnopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#EightDotBraille`
+- Zpřístupnění → VoiceOver → Braille → Input → Zkratkopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#ContractedBraille`
+- Zpřístupnění → VoiceOver → Braille → Input → Automatický překlad: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#GRADE2_AUTO_TRANSLATE`
+- Zpřístupnění → VoiceOver → Braille → Braillský vstup na displeji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleGesturesInput`
+- Zpřístupnění → VoiceOver → Braille → Braille Screen Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Zpřístupnění → VoiceOver → Braille → Braille Screen Input → Šestibodový braillský plnopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SixDotBraille`
+- Zpřístupnění → VoiceOver → Braille → Braille Screen Input → Osmibodový braillský plnopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#EightDotBraille`
+- Zpřístupnění → VoiceOver → Braille → Braille Screen Input → Zkratkopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#ContractedBraille`
+- Zpřístupnění → VoiceOver → Braille → Braille Screen Input → Prohodit pozice bodů: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Zpřístupnění → VoiceOver → Braille → Braillovy tabulky: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#tableIdentifier`
+- Zpřístupnění → VoiceOver → Braille → Tables: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Zpřístupnění → VoiceOver → Braille → Tables → Přidat Braillovu tabulku…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#ADD_NEW_BRAILLE_LANGUAGE_TITLE`
+- Zpřístupnění → VoiceOver → Braille → Stavové buňky: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#STATUS_CELL`
+- Zpřístupnění → VoiceOver → Braille → Status Cell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Zpřístupnění → VoiceOver → Braille → Status Cell → Pozice stavových buněk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Zpřístupnění → VoiceOver → Braille → Status Cell → Vlevo: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_LEFT`
+- Zpřístupnění → VoiceOver → Braille → Status Cell → Vpravo: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_RIGHT`
+- Zpřístupnění → VoiceOver → Braille → Status Cell → Zobrazit celkový stav: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Zpřístupnění → VoiceOver → Braille → Status Cell → Zobrazit stav textu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Zpřístupnění → VoiceOver → Braille → Nemethovo kódování rovnic: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Zpřístupnění → VoiceOver → Braille → Klávesnice na obrazovce: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Zpřístupnění → VoiceOver → Braille → Při posouvání otočit stránku: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Zpřístupnění → VoiceOver → Braille → Zalamování řádků: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Zpřístupnění → VoiceOver → Braille → Upozornění na řádku: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAlertDisplayDuration`
+- Zpřístupnění → VoiceOver → Braille → Prodleva ignorování akordů: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleDebounceTimeout`
+- Zpřístupnění → VoiceOver → Braille → Prodleva automatického posouvání: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverBrailleAutoAdvance`
+- Zpřístupnění → VoiceOver → Zvuk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Audio`
+- Zpřístupnění → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Zpřístupnění → VoiceOver → Audio → Audioducking: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Zpřístupnění → VoiceOver → Audio → Přepínat na reproduktor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Zpřístupnění → VoiceOver → Audio → Poslat na HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Zpřístupnění → VoiceOver → Příkazy: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CUSTOMIZE_COMMANDS`
+- Zpřístupnění → VoiceOver → Aktivity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#Activities`
+- Zpřístupnění → VoiceOver → Activities: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities`
+- Zpřístupnění → VoiceOver → Activities → Programování: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#Programming`
+- Zpřístupnění → VoiceOver → Activities → Přidat aktivitu…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Activities#New`
+- Zpřístupnění → VoiceOver → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#WebRotor`
+- Zpřístupnění → VoiceOver → Akce na rotoru: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#RotorActions`
+- Zpřístupnění → VoiceOver → Rotor Actions: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Zpřístupnění → VoiceOver → Rotor Actions → Upravit aplikace na ploše: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Zpřístupnění → VoiceOver → Rotor Actions → Aplikace využívající Přímý dotyk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#apps`
+- Zpřístupnění → VoiceOver → Psaní: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#TypingOptions`
+- Zpřístupnění → VoiceOver → Typing: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Zpřístupnění → VoiceOver → Typing → Styl psaní: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_MODE_TITLE`
+- Zpřístupnění → VoiceOver → Typing → Typing Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Zpřístupnění → VoiceOver → Typing → Typing Mode → Standardní psaní: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_STANDARD`
+- Zpřístupnění → VoiceOver → Typing → Typing Style: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style`
+- Zpřístupnění → VoiceOver → Typing → Typing Style → Dotykové psaní: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_TOUCH_TYPING`
+- Zpřístupnění → VoiceOver → Typing → Typing Style → Psaní přímým dotykem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/Typing%20Style#TYPING_MODE_DIRECT_TOUCH`
+- Zpřístupnění → VoiceOver → Typing → Hláskování: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#PHONETICS_TITLE`
+- Zpřístupnění → VoiceOver → Typing → Phonetic Feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Zpřístupnění → VoiceOver → Typing → Phonetic Feedback → Vypnuto: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_OFF`
+- Zpřístupnění → VoiceOver → Typing → Phonetic Feedback → Znaky a hláskování: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_AFTER_DELAY`
+- Zpřístupnění → VoiceOver → Typing → Phonetic Feedback → Pouze hláskování: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_SPEAK_EXCLUSIVELY`
+- Zpřístupnění → VoiceOver → Typing → Odezva psaní: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TYPING_FEEDBACK`
+- Zpřístupnění → VoiceOver → Typing → Modifikační klávesy: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#MODIFIER_KEYS`
+- Zpřístupnění → VoiceOver → Typing → Modifier Keys: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Zpřístupnění → VoiceOver → Typing → Modifier Keys → Ctrl + Alt: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CONTROL_OPTIONS`
+- Zpřístupnění → VoiceOver → Typing → Modifier Keys → Caps lock: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#VO_MODIFIER_KEY_CAPS_LOCK`
+- Zpřístupnění → VoiceOver → Typing → Čas interakce s klávesnicí: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#KEYBOARD_TIMING_TIMEOUT`
+- Zpřístupnění → VoiceOver → Navigovat v obrázcích: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#IncludeUnlabeledImages`
+- Zpřístupnění → VoiceOver → Include Unlabeled Images: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Zpřístupnění → VoiceOver → Include Unlabeled Images → Vždy: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_ALWAYS`
+- Zpřístupnění → VoiceOver → Include Unlabeled Images → S popisy: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_W_DESCRIPTIONS`
+- Zpřístupnění → VoiceOver → Include Unlabeled Images → Nikdy: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#NAV_IMG_NEVER`
+- Zpřístupnění → VoiceOver → Velký kurzor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Zpřístupnění → VoiceOver → Titulkový panel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Zpřístupnění → VoiceOver → Časový limit poklepání: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL_TITLE`
+- Zpřístupnění → VoiceOver → Double-tap Timeout: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Zpřístupnění → VoiceOver → Double-tap Timeout → Časový limit poklepání: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Zpřístupnění → VoiceOver → Styl navigace: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NavigationStyle`
+- Zpřístupnění → VoiceOver → Rychlé nastavení: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#QuickSettings`
+- Zpřístupnění → VoiceOver → Quick Settings: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Zpřístupnění → VoiceOver → Quick Settings → Zvuky: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Sounds`
+- Zpřístupnění → VoiceOver → Quick Settings → Audioducking: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#AudioDucking`
+- Zpřístupnění → VoiceOver → Quick Settings → Hlasitost: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Volume`
+- Zpřístupnění → VoiceOver → Quick Settings → Rychlost čtení: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakingRate`
+- Zpřístupnění → VoiceOver → Quick Settings → Nápovědy: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Hints`
+- Zpřístupnění → VoiceOver → Quick Settings → Styl navigace: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigationStyle`
+- Zpřístupnění → VoiceOver → Quick Settings → Styl psaní: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#TypingStyle`
+- Zpřístupnění → VoiceOver → Quick Settings → Přejet a psát: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SlideToType`
+- Zpřístupnění → VoiceOver → Quick Settings → Aktivity: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Activities`
+- Zpřístupnění → VoiceOver → Quick Settings → Vždy předčítat oznámení: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SpeakNotifications`
+- Zpřístupnění → VoiceOver → Quick Settings → Upozornění na řádku: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAlerts`
+- Zpřístupnění → VoiceOver → Quick Settings → Posouvání braillského řádku: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleAutoAdvanceDuration`
+- Zpřístupnění → VoiceOver → Quick Settings → Braillský vstup: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleInput`
+- Zpřístupnění → VoiceOver → Quick Settings → Braillský výstup: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleOutput`
+- Zpřístupnění → VoiceOver → Quick Settings → Braillovy tabulky: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#BrailleTables`
+- Zpřístupnění → VoiceOver → Quick Settings → Titulkový panel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#CaptionPanel`
+- Zpřístupnění → VoiceOver → Quick Settings → Přímý dotyk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#DirectTouch`
+- Zpřístupnění → VoiceOver → Quick Settings → Směr gesta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#GestureDirection`
+- Zpřístupnění → VoiceOver → Quick Settings → Odezva psaní na HW klávesnici: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#HardwareTypingFeedback`
+- Zpřístupnění → VoiceOver → Quick Settings → Jazyk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Language`
+- Zpřístupnění → VoiceOver → Quick Settings → Velký kurzor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#LargeCursor`
+- Zpřístupnění → VoiceOver → Quick Settings → Popisy médií: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#MediaDescriptions`
+- Zpřístupnění → VoiceOver → Quick Settings → Navigovat v obrázcích: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#NavigateImages`
+- Zpřístupnění → VoiceOver → Quick Settings → Hláskování: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#PhoneticFeedback`
+- Zpřístupnění → VoiceOver → Quick Settings → Změna výšky: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Pitch`
+- Zpřístupnění → VoiceOver → Quick Settings → Interpunkce: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#Punctuation`
+- Zpřístupnění → VoiceOver → Quick Settings → Poslat na HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SendToHDMI`
+- Zpřístupnění → VoiceOver → Quick Settings → Odezva psaní na SW klávesnici: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#SoftwareTypingFeedback`
+- Zpřístupnění → VoiceOver → Quick Settings → Přečíst potvrzení nastavení na rotoru: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#RotorActionConfirmation`
+- Zpřístupnění → VoiceOver → Quick Settings → Popisy obrázků: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ImageDescriptions`
+- Zpřístupnění → VoiceOver → Quick Settings → Rozpoznávání obsahu obrazovky: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#ScreenRecognition`
+- Zpřístupnění → VoiceOver → Inteligentní VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#NeuralVoiceOver`
+- Zpřístupnění → VoiceOver → VoiceOver Recognition: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Zpřístupnění → VoiceOver → VoiceOver Recognition → Popisy obrázků: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_IMAGE_DESCRIPTIONS`
+- Zpřístupnění → VoiceOver → VoiceOver Recognition → Rozpoznávání obsahu obrazovky: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_SCREEN_RECOGNITION`
+- Zpřístupnění → Zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Zpřístupnění → Zvětšení → Zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomTouchEnabled`
+- Zpřístupnění → Zvětšení → Sledovat zaměření: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Zpřístupnění → Zvětšení → Chytré psaní: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Zpřístupnění → Zvětšení → Klávesové zkratky: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomKeyboardShortcuts`
+- Zpřístupnění → Zvětšení → Keyboard Shortcuts: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Zpřístupnění → Zvětšení → Keyboard Shortcuts → Klávesové zkratky: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Zpřístupnění → Zvětšení → Keyboard Shortcuts → Nastavení úrovně zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Zpřístupnění → Zvětšení → Keyboard Shortcuts → Přepnutí zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Zpřístupnění → Zvětšení → Keyboard Shortcuts → Přesouvání okna zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Zpřístupnění → Zvětšení → Keyboard Shortcuts → Změna velikosti okna zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Zpřístupnění → Zvětšení → Keyboard Shortcuts → Přepnutí oblasti zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Zpřístupnění → Zvětšení → Keyboard Shortcuts → Dočasné přepnutí zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Zpřístupnění → Zvětšení → Keyboard Shortcuts → Zvětšování kolečkem myši: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Zpřístupnění → Zvětšení → Ovladač zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomSlug`
+- Zpřístupnění → Zvětšení → Oblast zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomLensMode`
+- Zpřístupnění → Zvětšení → Zoom Region: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Zpřístupnění → Zvětšení → Zoom Region → Celá obrazovka: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Fullscreen`
+- Zpřístupnění → Zvětšení → Zoom Region → V okně: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#Window`
+- Zpřístupnění → Zvětšení → Maximální přiblížení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFactorGroup`
+- Zpřístupnění → Zvětšení → Filtr zvětšení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomFilter`
+- Zpřístupnění → Zvětšení → Zobrazit při zrcadlení: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Zpřístupnění → Text při podržení: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Zpřístupnění → Displej a velikost textu: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Zpřístupnění → Displej a velikost textu → Tučný text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Zpřístupnění → Displej a velikost textu → Větší text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#LARGER_TEXT`
+- Zpřístupnění → Displej a velikost textu → Tvary tlačítek: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Zpřístupnění → Displej a velikost textu → Štítky Zapnuto/Vypnuto: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Zpřístupnění → Displej a velikost textu → Snížit průhlednost: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Zpřístupnění → Displej a velikost textu → Vyšší kontrast: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Zpřístupnění → Displej a velikost textu → Odlišit bez barvy: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Zpřístupnění → Displej a velikost textu → Chytrá inverze: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Zpřístupnění → Displej a velikost textu → Klasická inverze: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Zpřístupnění → Displej a velikost textu → Filtry barev: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DISPLAY_FILTER_COLOR`
+- Zpřístupnění → Displej a velikost textu → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Zpřístupnění → Displej a velikost textu → Color Filters → Filtry barev: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED`
+- Zpřístupnění → Displej a velikost textu → Snížit bílý bod: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Zpřístupnění → Displej a velikost textu → Automatický jas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Zpřístupnění → Pohyb: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Zpřístupnění → Pohyb → Omezit pohyb: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Zpřístupnění → Pohyb → Přehrávat efekty zpráv: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Zpřístupnění → Pohyb → Přehrávat ukázky videí: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Zpřístupnění → Předčítání obsahu: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Zpřístupnění → Předčítání obsahu → Přečíst výběr: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Zpřístupnění → Předčítání obsahu → Předčítat obsah obrazovky: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Zpřístupnění → Předčítání obsahu → Ovladač čtení: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeechController`
+- Zpřístupnění → Předčítání obsahu → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Zpřístupnění → Předčítání obsahu → Speech Controller → Přizpůsobit tlačítka myši: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Zpřístupnění → Předčítání obsahu → Zvýraznit text: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakHighlight`
+- Zpřístupnění → Předčítání obsahu → Odezva psaní: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#TypingFeedback`
+- Zpřístupnění → Předčítání obsahu → Typing Feedback: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Zpřístupnění → Předčítání obsahu → Typing Feedback → Odezva na znaky: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TYPING_FEEDBACK_HEADER`
+- Zpřístupnění → Předčítání obsahu → Typing Feedback → Znaky: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Zpřístupnění → Předčítání obsahu → Typing Feedback → Hláskování znaků: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Zpřístupnění → Předčítání obsahu → Typing Feedback → Číst slova: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Zpřístupnění → Předčítání obsahu → Typing Feedback → Číst autokorektury: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Zpřístupnění → Předčítání obsahu → Typing Feedback → Číst predikce při podržení: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Zpřístupnění → Předčítání obsahu → Hlasy: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakAccents`
+- Zpřístupnění → Předčítání obsahu → Výchozí jazyk: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpokenContentDefaultLanguage`
+- Zpřístupnění → Předčítání obsahu → Rozpoznávat jazyky: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Zpřístupnění → Předčítání obsahu → Rychlost čtení: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRateGroup`
+- Zpřístupnění → Předčítání obsahu → Výslovnosti: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#PRONUNCIATION_DICTIONARY`
+- Zpřístupnění → Zvukové popisy: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Zpřístupnění → Zvukové popisy → Zvukové popisy: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO#DESCRIPTIVE_VIDEO_SETTING`
+- Zpřístupnění → Mobilita a motorika: `prefs:root=ACCESSIBILITY#MOBILITY_HEADING`
+- Zpřístupnění → Dotyk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Zpřístupnění → Dotyk → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Zpřístupnění → Dotyk → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Upravit nejvyšší úroveň nabídky: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchCustomize`
+- Zpřístupnění → Dotyk → AssistiveTouch → Customize Top Level Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Zpřístupnění → Dotyk → AssistiveTouch → Customize Top Level Menu → Klepněte na ikonu, kterou chcete změnit:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Zpřístupnění → Dotyk → AssistiveTouch → Customize Top Level Menu → Resetovat…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#Reset`
+- Zpřístupnění → Dotyk → AssistiveTouch → Vlastní akce: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ActionsGroupSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Klepnutí: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TapSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Poklepání: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DoubleTapSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Double-Tap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Double-Tap → Časový limit poklepání: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Dlouhé stisknutí: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#LongPressSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Long Press: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Long Press → Délka dlouhého stisknutí: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#ASTLongPressDurationSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Vlastní gesta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CustomGestureHeading`
+- Zpřístupnění → Dotyk → AssistiveTouch → Vytvořit nové gesto…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#CreateCustomGesture`
+- Zpřístupnění → Dotyk → AssistiveTouch → Neprůhlednost v nečinnosti: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#IdleOpacity`
+- Zpřístupnění → Dotyk → AssistiveTouch → Polohovací zařízení: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseDevicesHeaderTitle`
+- Zpřístupnění → Dotyk → AssistiveTouch → Zařízení: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseDevices`
+- Zpřístupnění → Dotyk → AssistiveTouch → Devices: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Zpřístupnění → Dotyk → AssistiveTouch → Devices → Bluetooth zařízení…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#BluetoothDevicesScanning`
+- Zpřístupnění → Dotyk → AssistiveTouch → Klávesy myši: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AssistiveTouchMouseKeys`
+- Zpřístupnění → Dotyk → AssistiveTouch → Styl ukazatele: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization`
+- Zpřístupnění → Dotyk → AssistiveTouch → Styl ukazatele → Velikost: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_SIZE_TITLE`
+- Zpřístupnění → Dotyk → AssistiveTouch → Styl ukazatele → Zobrazení: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_VISUAL_APPEARANCE`
+- Zpřístupnění → Dotyk → AssistiveTouch → Styl ukazatele → Barva: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_COLOR`
+- Zpřístupnění → Dotyk → AssistiveTouch → Styl ukazatele → SOMETHING IDK: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR`
+- Zpřístupnění → Dotyk → AssistiveTouch → Styl ukazatele → SOMETHING IDK → Přizpůsobit tlačítka myši: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/MOUSE_POINTER_COLOR#CustomizeMouseButtons`
+- Zpřístupnění → Dotyk → AssistiveTouch → Styl ukazatele → Automaticky skrývat: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization#MOUSE_POINTER_TIMEOUT`
+- Zpřístupnění → Dotyk → AssistiveTouch → Styl ukazatele → NEEDS_OVERRIDE_102 → Automaticky skrývat: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/AMOUSE_POINTER_TIMEOUT#Auto-Hide`
+- Zpřístupnění → Dotyk → AssistiveTouch → Klávesnice na obrazovce: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Zpřístupnění → Dotyk → AssistiveTouch → Vždy zobrazovat nabídku: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Zpřístupnění → Dotyk → AssistiveTouch → Ovládání setrvání: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Tolerance pohybu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellToleranceSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Citlivost ukazatele: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Zpřístupnění → Dotyk → AssistiveTouch → Akce Návratu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellAutorevertSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Aktivní rohy: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellCornersSpecifier`
+- Zpřístupnění → Dotyk → AssistiveTouch → Používat herní ovladač: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Zpřístupnění → Dotyk → 3D a Haptic Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#ForceTouch`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_103 → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMasterSwitch`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_103 → Citlivost gest 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_103 → Délka dotyku: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_103 → Krátká: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_103 → Dlouhá: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchSlowIdentifier`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_103 → Zkouška citlivosti gest 3D Touch a délky dotyku: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Zpřístupnění → Dotyk → Přizpůsobení dotyků: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TOUCH_ACCOMMODATIONS`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_104 → Přizpůsobení dotyků: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_104 → Délka dotyku: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_104 → Ignorovat opakování: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_104 → Asistence při klepnutí: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_104 → Vypnuto: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#OFF`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_104 → Použít místo prvního dotyku: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_TOUCH`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_104 → Použít místo posledního dotyku: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#ACTIVATE_ON_RELEASE`
+- Zpřístupnění → Dotyk → Klepnutí pro probuzení: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Zpřístupnění → Dotyk → Probouzení klepnutím nebo přejetím: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Zpřístupnění → Dotyk → Zpět zatřesením: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Zpřístupnění → Dotyk → Vibrace: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Zpřístupnění → Dotyk → Zabránit ukončení hovoru zamknutím: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Zpřístupnění → Dotyk → Směrování hovorů: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CALL_AUDIO_ROUTING`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_105 → Automaticky: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_AUTOMATIC`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_105 → Náhlavní souprava Bluetooth: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_HEADSET`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_105 → Reproduktor: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING_SPEAKER`
+- Zpřístupnění → Dotyk → NEEDS_OVERRIDE_105 → Automatický příjem: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#callAudioRoutingAutoAnswer`
+- Zpřístupnění → Face ID a pozornost: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Zpřístupnění → Face ID a pozornost → Vyžadovat pro Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Zpřístupnění → Face ID a pozornost → Detekce pozornosti: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Zpřístupnění → Face ID a pozornost → Haptika: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHapticGroup`
+- Zpřístupnění → Face ID a pozornost → Haptika při úspěšném ověření: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Zpřístupnění → Switch Control: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Zpřístupnění → Switch Control → Switch Control: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#EnablingCell`
+- Zpřístupnění → Switch Control → Přepínače: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchesIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_106 → Přidat nový přepínač…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#AddSwitchIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_106 → Bluetooth zařízení…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#BluetoothDevicesIdentifier`
+- Zpřístupnění → Switch Control → Předpisy: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RecipesIdentifier`
+- Zpřístupnění → Switch Control → Způsob hledání: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningStyleIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_107 → Automatické hledání: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#AUTO_SCANNING_LABEL`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_107 → Ruční procházení: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#MANUAL_SCANNING_LABEL`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_107 → Krokové hledání: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#DWELL_SCANNING_LABEL`
+- Zpřístupnění → Switch Control → Časování: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TimingIdentifier`
+- Zpřístupnění → Switch Control → Čas automatického hledání: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanningSpeedIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_108 → Čas automatického hledání: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Zpřístupnění → Switch Control → Počkat na první položce: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#DelayAfterInputIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_109 → Počkat na první položce: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Zpřístupnění → Switch Control → Opakování přesunu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ActionRepeatIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_110 → Opakování přesunu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Zpřístupnění → Switch Control → Dlouhé stisknutí: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#LongPressIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_111 → Dlouhé stisknutí: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Zpřístupnění → Switch Control → Chování klepnutí: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#TapBehaviorIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_112 → Výchozí: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorDefault`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_112 → Automatické: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorAuto`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_112 → Vždy klepnout: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#AlwaysTap`
+- Zpřístupnění → Switch Control → Klepnutí zaměří: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ScanLocationIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_113 → První položka: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapFirst`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_113 → Aktuální položku: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanAfterTapCurrent`
+- Zpřístupnění → Switch Control → Klávesnice: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchKeyboardIdentifier`
+- Zpřístupnění → Switch Control → Po klepnutí stejná klávesa: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Zpřístupnění → Switch Control → Vždy klepat na klávesy: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Zpřístupnění → Switch Control → Rozšířit předvídání: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Zpřístupnění → Switch Control → Stabilizace přepínače: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SwitchStabilityIdentifier`
+- Zpřístupnění → Switch Control → Délka dotyku: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#HoldDurationIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_114 → Délka dotyku: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Zpřístupnění → Switch Control → Ignorovat opakování: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#IgnoreRepeatIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_115 → Ignorovat opakování: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Zpřístupnění → Switch Control → Hledání bodů: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSelectionGroupIdentifier`
+- Zpřístupnění → Switch Control → Klouzavý kurzor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AxisSweepIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_116 → Režim výběru: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_116 → Jednoduchý: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleSingle`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_116 → Zpřesněný: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleRefined`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_116 → Vysoce přesný: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStylePrecise`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_116 → Rychlost klouzavého kurzoru: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Zpřístupnění → Switch Control → Sledování hlavy: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CameraPointPickerSwitch`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_117 → Sledování hlavy: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Zpřístupnění → Switch Control → Zvuk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AudioGroupIdentifier`
+- Zpřístupnění → Switch Control → Zvukové efekty: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Zpřístupnění → Switch Control → Řeč: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SpeechIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_118 → Hlasy: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_118 → Rychlost čtení: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SpeechRateIdentifier`
+- Zpřístupnění → Switch Control → Položky nabídky: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomizeMenuIdentifier`
+- Zpřístupnění → Switch Control → Seskupit položky: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Zpřístupnění → Switch Control → Zobrazení: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#VisualGroupIdentifier`
+- Zpřístupnění → Switch Control → Velký kurzor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Zpřístupnění → Switch Control → Uložená gesta: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CustomGesturesIdentifier`
+- Zpřístupnění → Switch Control → NEEDS_OVERRIDE_119 → Vytvořit nové gesto…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CreateCustomGesture`
+- Zpřístupnění → Switch Control → Barva kurzoru: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorColorIdentifier`
+- Zpřístupnění → Hlasové ovládání: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Zpřístupnění → Hlasové ovládání → Nastavit hlasové ovládání: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Zpřístupnění → Hlasové ovládání → Jazyk: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LANGUAGE`
+- Zpřístupnění → Hlasové ovládání → NEEDS_OVERRIDE_120 → Angličtina (USA): `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#English%20(United%20States)`
+- Zpřístupnění → Hlasové ovládání → Přizpůsobit příkazy: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#CUSTOMIZE_COMMANDS`
+- Zpřístupnění → Hlasové ovládání → Slovník: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#VOCABULARY`
+- Zpřístupnění → Hlasové ovládání → Odezva příkazu: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#UPON_COMMAND_RECOGNITION_TITLE`
+- Zpřístupnění → Hlasové ovládání → Zobrazit potvrzení: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Zpřístupnění → Hlasové ovládání → Přehrát zvuk: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Zpřístupnění → Hlasové ovládání → Zobrazit nápovědu: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Zpřístupnění → Hlasové ovládání → Trvalý překryv: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY_GROUP_TITLE`
+- Zpřístupnění → Hlasové ovládání → Překryv: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ALWAYS_SHOW_OVERLAY`
+- Zpřístupnění → Hlasové ovládání → NEEDS_OVERRIDE_121 → Žádný: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NONE`
+- Zpřístupnění → Hlasové ovládání → NEEDS_OVERRIDE_121 → Čísla položek: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NUMBERS`
+- Zpřístupnění → Hlasové ovládání → NEEDS_OVERRIDE_121 → Názvy položek: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_NAMES`
+- Zpřístupnění → Hlasové ovládání → NEEDS_OVERRIDE_121 → Číslovaná mřížka: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#OVERLAY_GRID`
+- Zpřístupnění → Hlasové ovládání → Detekce pozornosti: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Zpřístupnění → Postranní tlačítko: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Zpřístupnění → Postranní tlačítko → Rychlost stisknutí: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Zpřístupnění → Postranní tlačítko → Výchozí: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_DEFAULT`
+- Zpřístupnění → Postranní tlačítko → Dlouhá: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOW`
+- Zpřístupnění → Postranní tlačítko → Nejdelší: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_CLICK_SPEED_SLOWEST`
+- Zpřístupnění → Postranní tlačítko → Stiskněte a podržte pro: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Zpřístupnění → Postranní tlačítko → Siri: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantSiri`
+- Zpřístupnění → Postranní tlačítko → Klasické hlasové ovládání: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantVoiceControl`
+- Zpřístupnění → Postranní tlačítko → Vypnuto: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantOff`
+- Zpřístupnění → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Zpřístupnění → Apple TV Remote → Směrová tlačítka: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Zpřístupnění → Vzdálená obrazovka Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Zpřístupnění → Klávesnice: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Zpřístupnění → Klávesnice → Plný přístup z klávesnice: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#FULL_KEYBOARD_ACCESS`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_122 → Plný přístup z klávesnice: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_122 → Vizuální prvky: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#APPEARANCE`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_122 → Automaticky skrývat: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingTimeout`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_122 → Velký kroužek zaměření: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingHighVisibilityEnabled`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_122 → Barva: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAFocusRingColor`
+- Zpřístupnění → Klávesnice → Opakování kláves: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#KEY_REPEAT`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_123 → Opakování kláves: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_123 → Interval opakování kláves: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_123 → Prodleva opakování: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Zpřístupnění → Klávesnice → Přilnavé klávesy: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#STICKY_KEYS`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_124 → Přilnavé klávesy: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_124 → Přepnout klávesou Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_124 → Zvuk: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Zpřístupnění → Klávesnice → Pomalé klávesy: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SLOW_KEYS`
+- Zpřístupnění → Klávesnice → NEEDS_OVERRIDE_125 → Pomalé klávesy: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Zpřístupnění → Klávesnice → Softwarové klávesnice: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Zpřístupnění → Klávesnice → Zobrazit malá písmena: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Zpřístupnění → Sluch: `prefs:root=ACCESSIBILITY#HEARING_HEADING`
+- Zpřístupnění → Sluchadla: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Zpřístupnění → Sluchadla → MFi sluchadla: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Zpřístupnění → Sluchadla → Bluetooth: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_BLUETOOTH`
+- Zpřístupnění → Sluchadla → Kompatibilita sluchadel: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Zpřístupnění → Rozpoznávání zvuku: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Zpřístupnění → Rozpoznávání zvuku → Zvuky: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE#Sounds`
+- Zpřístupnění → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Zpřístupnění → RTT/TTY → Softwarové TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Zpřístupnění → RTT/TTY → Hardwarové TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Zpřístupnění → Zvuk a obraz: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Zpřístupnění → Zvuk a obraz → Zvuk: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAudioGroupSpecID`
+- Zpřístupnění → Zvuk a obraz → Přizpůsobení sluchátek: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAEnableSpecID`
+- Zpřístupnění → Zvuk a obraz → NEEDS_OVERRIDE_126 → Přizpůsobení sluchátek: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Zpřístupnění → Zvuk a obraz → NEEDS_OVERRIDE_126 → Vlastní nastavení zvuku: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Zpřístupnění → Zvuk a obraz → Zvuky na pozadí: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXCSEnableSpecID`
+- Zpřístupnění → Zvuk a obraz → Monofonní zvuk: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Zpřístupnění → Zvuk a obraz → Odstraňování šumu v telefonu: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Zpřístupnění → Zvuk a obraz → Vyvážení: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPABalanceSpecID`
+- Zpřístupnění → Zvuk a obraz → Zobrazení: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#VISUAL_HEADING`
+- Zpřístupnění → Zvuk a obraz → Výstrahy bleskem LED: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LED_FLASH`
+- Zpřístupnění → Zvuk a obraz → NEEDS_OVERRIDE_127 → Blikání při odemčení: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Zpřístupnění → Zvuk a obraz → NEEDS_OVERRIDE_127 → Blikání v tichém režimu: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Zpřístupnění → Zvuk a obraz → Stereo vyvážení vlevo‑vpravo: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Zpřístupnění → Zvuk a obraz → Zvuky vypnutí a zapnutí: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Zpřístupnění → Titulky a skryté titulky: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Zpřístupnění → Titulky a skryté titulky → Styl: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#currentTheme`
+- Zpřístupnění → Titulky a skryté titulky → Skryté titulky + neslyšící: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Zpřístupnění → Titulky a skryté titulky → Zobrazovat přepisy zvuku: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Zpřístupnění → NEEDS_OVERRIDE_128 → Živé titulky (beta): `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Zpřístupnění → NEEDS_OVERRIDE_128 → Živé titulky v hovorech FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Zpřístupnění → Obecné: `prefs:root=ACCESSIBILITY#GENERAL_HEADING`
+- Zpřístupnění → Asistovaný přístup: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Zpřístupnění → Asistovaný přístup → Asistovaný přístup: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#EnableGuidedAccess`
+- Zpřístupnění → Asistovaný přístup → Nastavení kódu: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessSecurityLinkList`
+- Zpřístupnění → Asistovaný přístup → NEEDS_OVERRIDE_129 → Kód asistovaného přístupu: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Zpřístupnění → Asistovaný přístup → Časová omezení: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessTimeRestrictionsLinkList`
+- Zpřístupnění → Asistovaný přístup → NEEDS_OVERRIDE_130 → Upozornění: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_HEADING`
+- Zpřístupnění → Asistovaný přístup → NEEDS_OVERRIDE_130 → Zvuk: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Zpřístupnění → Asistovaný přístup → NEEDS_OVERRIDE_130 → Předčítat: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Zpřístupnění → Asistovaný přístup → Zkratka zpřístupnění: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Zpřístupnění → Asistovaný přístup → Zamykání displeje: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessAutoLockTime`
+- Zpřístupnění → Vlastní režim zpřístupnění: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Zpřístupnění → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Zpřístupnění → Siri → Zadávání textu pro Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Zpřístupnění → Siri → Mluvené odpovědi: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_GROUP_ID`
+- Zpřístupnění → Siri → Automatické mluvené odpovědi: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_AUTOMATIC_ID`
+- Zpřístupnění → Siri → Preferovat tiché odpovědi: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_NEVER_ID`
+- Zpřístupnění → Siri → Nepředčítat v tichém režimu: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK_WITH_SWITCH_ID`
+- Zpřístupnění → Siri → Vždy čekat na vyslovení „Hey Siri“: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Zpřístupnění → Zkratka zpřístupnění: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Zpřístupnění → Zkratka zpřístupnění → Lupa: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE#TripleClickMagnifier`
+- Zpřístupnění → Nastavení na úrovni aplikací: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Zpřístupnění → Ovládat zařízení v blízkosti: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Zobrazení a jas: `prefs:root=DISPLAY`
+- Zobrazení a jas → Vzhled: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Zobrazení a jas → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Zobrazení a jas → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Zobrazení a jas → Night Shift → Zapnout podle rozvrhu: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Zobrazení a jas → Night Shift → Ručně zapnout do zítřka: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Zobrazení a jas → Night Shift → Teplota barev: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Zobrazení a jas → Uzamčení: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Zobrazení a jas → Probudit zvednutím: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Zobrazení a jas → Zamknout/odemknout: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Zobrazení a jas → Velikost textu: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Zobrazení a jas → Tučný text: `prefs:root=DISPLAY#BOLD_TEXT`
+- Zobrazení a jas → Nastavení displeje: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Zobrazení a jas → Zobrazení: `prefs:root=DISPLAY&path=MAGNIFY`
+- Kontakty s nákazou: `prefs:root=EXPOSURE_NOTIFICATION`
+- NEEDS_OVERRIDE_131 → Oznamovací odznaky: `prefs:root= HOME_SCREEN_DOCK#BADGES_IN_APP_LIBRARY`
+- NEEDS_OVERRIDE_131 → Nově stažené aplikace: `prefs:root= HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Plocha a multitasking: `prefs:root=HOME_SCREEN_DOCK`
+- Plocha a multitasking → NEEDS_OVERRIDE_132 → Zobrazit knihovnu aplikací v Docku: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Plocha a multitasking → Zobrazit doporučené a poslední aplikace: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Plocha: `prefs:root=HOME_SCREEN`
+- Plocha → Nově stažené aplikace: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Plocha → Oznamovací odznaky: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Touch ID a kódový zámek: `prefs:root=PASSCODE`
+- Touch ID a kódový zámek → Vypnout kódový zámek: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Touch ID a kódový zámek → Změnit kód zámku: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Touch ID a kódový zámek → Požadovat kód: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Touch ID a kódový zámek → Hlasové vytáčení: `prefs:root=PASSCODE#VOICE_DIAL`
+- Touch ID a kódový zámek → Povolit přístup při uzamčení: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Touch ID a kódový zámek → Odpovědět zprávou: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Touch ID a kódový zámek → Ovládání domova: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Touch ID a kódový zámek → Peněženka: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Touch ID a kódový zámek → Zmeškané hovory: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Touch ID a kódový zámek → Smazat data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Touch ID a kódový zámek → Odemykání pomocí Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Podcasty: `prefs:root=PODCASTS`
+- Tíseň SOS: `prefs:root=EMERGENCY_SOS`
+- Tíseň SOS → Volání postranním tlačítkem: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Tíseň SOS → Automaticky zavolat: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Tíseň SOS → Nouzové kontakty: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Tíseň SOS → Zvuk odpočtu: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Zvuk: `prefs:root=Sounds`
+- Zvuk → Bezpečnost sluchátek: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Zvuk → Bezpečnost sluchátek → Lightning adaptéry: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Zvuk → Bezpečnost sluchátek → Oznámení o sluchátkách: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Zvuk → Bezpečnost sluchátek → Tlumit hlasité zvuky: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Zvuk → Zvukové efekty: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Zvuk → Zvonění a výstrahy: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Zvuk → Měnit tlačítky: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Zvuk → Zvuky a vibrace: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Zvuk → Vyzvánění: `prefs:root=Sounds&path=Ringtone`
+- Zvuk → Zvuk SMS: `prefs:root=Sounds&path=Text_Messages`
+- Zvuk → Záznamník: `prefs:root=Sounds&path=Voicemail`
+- Zvuk → Nová pošta: `prefs:root=Sounds&path=NEW_MAIL`
+- Zvuk → Odeslaná pošta: `prefs:root=Sounds&path=SENT_MAIL`
+- Zvuk → Zvuk kalendáře: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Zvuk → Zvuk připomínek: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Zvuk → AirDrop: `prefs:root=Sounds&path=AIRDROP`
+- Zvuk → Klapání klávesnice: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Zvuk → Zvuk zámku: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Počasí: `prefs:root=WEATHER`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Použít geografický sever: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Ovládací centrum: `prefs:root=ControlCenter`
+- Ovládací centrum → Přístup v aplikacích: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Ovládací centrum → Upravit ovládací prvky: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Vývojář: `prefs:root=DEVELOPER_SETTINGS`
+- Vývojář → Vícecestné zasíťování: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Vývojář → Vícecestné zasíťování → Vícecestné zasíťování: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Vývojář → Vzhled: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Vývojář → Tmavý vzhled: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Vývojář → Spárovaná zařízení: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Vývojář → Smazat důvěryhodné počítače: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Vývojář → Nástroje: `prefs:root=DEVELOPER_SETTINGS#DTInstrumentsGroup`
+- Vývojář → Protokolování: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Vývojář → Automatizace rozhraní: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Vývojář → Sítě: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Vývojář → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Vývojář → Testování vývojářské aplikace pro iAd: `prefs:root=DEVELOPER_SETTINGS#AD_DEVELOPER_GROUP`
+- Vývojář → Měření výkonu: `prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE`
+- Vývojář → Zvýraznit oříznuté bannery: `prefs:root=DEVELOPER_SETTINGS#HIGHLIGHT_CLIPPED_BANNERS`
+- Vývojář → Neomezené reklamy: `prefs:root=DEVELOPER_SETTINGS#UNLIMITED_AD_PRESENTATION`
+- Vývojář → Testování PassKitu: `prefs:root=DEVELOPER_SETTINGS#PASSKIT_TESTING`
+- Vývojář → Dodatečné protokolování: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Vývojář → Povolit HTTP služby: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Vývojář → Vypnout omezení rychlosti: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Vývojář → Nepovinný NFC Pass Key: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Vývojář → Testování mediálních služeb: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Vývojář → Návrhy pro AirPlay: `prefs:root=DEVELOPER_SETTINGS&path=D2A_AIRPLAY_SUGGESTIONS`
+- Vývojář → Resetovat mediální služby: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Vývojář → Testování News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Vývojář → Při příštím spuštění resetovat místní data: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Vývojář → Testování Media Player Frameworku: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Vývojář → API přehratelného obsahu: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Vývojář → Testování poskytovatelů TV: `prefs:root=DEVELOPER_SETTINGS#VideoSubscriberAccountSettingsGroup`
+- Vývojář → Poskytovatelé TV: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Vývojář → API ClassKitu: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Vývojář → Testování CoreSpotlightu: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Vývojář → Reindexovat všechny položky: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Vývojář → Reindexovat položky s identifikátory: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Vývojář → Testování zkratek: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Vývojář → Zobrazit nedávno použité zkratky: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Vývojář → Zobrazit nadcházející média: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Vývojář → Zobrazit dodané zkratky na zamknuté obrazovce: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Vývojář → Vynutit synchronizaci zkratek do hodinek: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Vývojář → Testování MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Vývojář → Zapnout MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Zdraví: `prefs:root=HEALTH`
+- Měření: `prefs:root=MEASURE`
+- Měření → Měrné jednotky: `prefs:root=MEASURE#MEASURE_UNITS`
+- Měření → Imperiální: `prefs:root=MEASURE#Imperial`
+- Měření → Metrické: `prefs:root=MEASURE#Metric`
+- Hudba: `prefs:root=MUSIC`
+- Hudba → Zobrazit Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Hudba → Přidávat skladby z playlistů: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Hudba → Zobrazit hodnocení: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Hudba → Synchronizovat knihovnu: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Hudba → Mobilní data: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Hudba → Stažená hudba: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Hudba → Optimalizovat úložiště: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Hudba → Automatická stahování: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Hudba → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Hudba → Vyrovnat hlasitost: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Hudba → Použít historii přehrávání: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Poznámky: `prefs:root=NOTES`
+- Poznámky → Výchozí účet: `prefs:root=NOTES&path=Default%20Account`
+- Poznámky → Heslo: `prefs:root=NOTES&path=Password`
+- Poznámky → Řazení poznámek: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Poznámky → Nové poznámky začínají: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Poznámky → Řadit odškrtnuté položky: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Poznámky → Linky a mřížky: `prefs:root=NOTES&path=Lines%20&%20Grids`
+- Poznámky → Uložit do Fotek: `prefs:root=NOTES#Save%20to%20Photos`
+- Poznámky → Přístup ze zamknuté obrazovky: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Zprávy: `prefs:root=MESSAGES`
+- Přeložit: `prefs:root=TRANSLATE`
+- Přeložit → Samostatný režim: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Poskytovatel TV: `prefs:root=VIDEO_SUBSCRIBER`
+- Diktafon: `prefs:root=VOICE_MEMOS`
+- Diktafon → Odstranit smazané: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Diktafon → Kvalita zvuku: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Diktafon → Polohově závislé názvy: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Fotoaparát: `prefs:root=CAMERA`
+- Fotoaparát → Formáty: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Fotoaparát → Formáty → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Fotoaparát → NEEDS_OVERRIDE_133 → HDR video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Fotoaparát → Zachovat nastavení: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Fotoaparát → Zachovat nastavení → Režim fotoaparátu: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Fotoaparát → Mřížka: `prefs:root=CAMERA#CameraGridSwitch`
+- Fotoaparát → Skenovat QR kódy: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Mapy: `prefs:root=MAPS`
+- FaceTime: `prefs:root=FACETIME`
+- Kontakty: `prefs:root=CONTACTS`
+- Kontakty → Povolit Kontaktům přístup: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakty → Siri a hledání: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakty → Řazení: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakty → Zobrazení: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakty → Krátké jméno: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakty → Krátké jméno → Krátké jméno: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakty → Krátké jméno → Preferovat přezdívky: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakty → Moje info: `prefs:root=CONTACTS&path=MeCard`
+- Kontakty → Importovat kontakty ze SIM: `prefs:root=CONTACTS#SIMImport`
+- Game Center: `prefs:root=GAMECENTER`
+- Knihy: `prefs:root=IBOOKS`
+- Knihy → Online obsah: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Knihy → SYNCHRONIZACE: `prefs:root=IBOOKS#SYNCING`
+- Knihy → Rozečtené: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Knihy → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Knihy → ČETBA: `prefs:root=IBOOKS#READING`
+- Knihy → Oboustranné zarovnání: `prefs:root=IBOOKS#BKFullJustification`
+- Knihy → Automatické dělení slov: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Knihy → Listovat na obou okrajích: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Knihy → Čtenářské cíle: `prefs:root=IBOOKS#BKReadingGoalsUserDefaultsKey`
+- Knihy → Smazat data čtenářských cílů: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Knihy → HLEDÁNÍ: `prefs:root=IBOOKS#SEARCHING`
+- Knihy → Knihkupectví: `prefs:root=IBOOKS#BKExcludeBookStoreResultsInSearch`
+- Knihy → AUDIOKNIHY: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Knihy → Přeskočit vpřed: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Knihy → Přeskočit zpět: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Knihy → EXTERNÍ OVLÁDACÍ PRVKY: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Knihy → Další/předchozí: `prefs:root=IBOOKS#Next/Previous`
+- Knihy → Přeskočit vpřed/zpět: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Knihy → SOUKROMÍ: `prefs:root=IBOOKS#PRIVACY`
+- Knihy → Resetovat identifikátor: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Knihy → Uznání: `prefs:root=IBOOKS&path=Acknowledgements`
+- Kalendář: `prefs:root=CALENDAR`
+- Kalendář → Přepsat časové pásmo: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalendář → Alternativní kalendáře: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalendář → Čísla týdnů: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalendář → Zobrazit odmítnutí pozvaných: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalendář → Synchronizace: `prefs:root=CALENDAR&path=Sync`
+- Kalendář → Výchozí časy upozornění: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalendář → Začátek týdne: `prefs:root=CALENDAR&path=com.apple.mobilecal`
+- Kalendář → Návrhy míst: `prefs:root=CALENDAR#Location%20Suggestions`
+- Pošta: `prefs:root=MAIL`
+- Pošta → Účty: `prefs:root=MAIL&path=ACCOUNTS`
+- Pošta → Účty → Přidat účet: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Pošta → Účty → Vyzvedávání dat: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Pošta → Náhled: `prefs:root=MAIL&path=Preview`
+- Pošta → Zobrazit Pro mě/Kopie: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Pošta → Volby přejetí: `prefs:root=MAIL&path=Swipe%20Options`
+- Pošta → Dotaz před smazáním: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Pošta → Načíst obrázky: `prefs:root=MAIL#Load%20Remote%20Images`
+- Pošta → Uspořádat do vláken: `prefs:root=MAIL#Organize%20by%20Thread`
+- Pošta → Sbalit přečtené zprávy: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Pošta → Nejnovější zprávy nahoře: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Pošta → Úplná vlákna: `prefs:root=MAIL#Complete%20Threads`
+- Pošta → Umlčená: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Pošta → Ignorovat zablokované: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Pošta → Zablokováno: `prefs:root=MAIL&path=Blocked`
+- Pošta → Skrytá kopie sobě: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Pošta → Označit adresy: `prefs:root=MAIL&path=Mark%20Addresses`
+- Pošta → Zvýšit úroveň citace: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Pošta → Přílohy v odpovědích: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Pošta → Podpis: `prefs:root=MAIL&path=Signature`
+- Telefon: `prefs:root=Phone`
+- Telefon → Moje číslo: `prefs:root=Phone&path=My%20Number`
+- Telefon → Příchozí hovory: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Oznámení hovorů: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Oznamování SMS/hovorů: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Odpovědět zprávou: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Přesměrování hovoru: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Přesměrování hovoru → Přesměrování hovoru: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Čekání hovoru: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Zobrazit moje ID volanému: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Zobrazit moje ID volanému → NEEDS_OVERRIDE_134 → Zobrazit moje ID volanému: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Umlčet neznámé volající: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Zablokované kontakty: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Asistované vytáčení: `prefs:root=Phone&path=Dial%20Assist`
+- Safari: `prefs:root=SAFARI`
+- Safari → Blokátor obsahu: `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Safari → Blokovat pop‑upy: `prefs:root=SAFARI#BLOCK_POPUPS`
+- Safari → Nesledovat napříč stránkami: `prefs:root=SAFARI#TRACKER_PROTECTION`
+- Safari → Vyplňování: `prefs:root=SAFARI&path=AUTO_FILL`
+- Safari → Stahování: `prefs:root=SAFARI&path=DOWNLOADS`
+- Hesla: `prefs:root=PASSWORDS`
+- Hesla → Automatické vyplnění hesel: `prefs:root=PASSWORDS#PASSWORD_AUTOFILL_SWITCH`
+- Fotky: `prefs:root=Photos`
+- Fotky → Fotky na iCloudu: `prefs:root=Photos#iCloudPhotosSwitch`
+- Fotky → Optimalizovat úložiště: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Fotky → Stáhnout a ponechat původní: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Fotky → Můj fotostream: `prefs:root=Photos#PhotoStreamSwitch`
+- Fotky → Sdílená alba: `prefs:root=Photos#SharedStreamsSwitch`
+- Fotky → Mobilní data: `prefs:root=Photos&path=CellularDataLinkList`
+- Fotky → Automatické přehrávání videí: `prefs:root=Photos#VideoAutoplaySwitch`
+- Fotky → Zobrazit úplné HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Fotky → Zobrazit svátky: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Fotky → Přenos na Mac nebo PC: `prefs:root=Photos#TransferGroup`
+- App Store: `prefs:root=STORE`
+- App Store → Automatická stahování: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Aktualizace aplikací: `prefs:root=STORE#App%20Updates`
+- App Store → Stahování aplikací: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Automatická videa: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Hodnocení a recenze: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- News: `prefs:root=NEWS`
+- News → Zobrazit náhledy článků: `prefs:root=NEWS#show_excerpt_mode`
+- News → Omezit články v zobrazení Dnes: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Soukromí: `prefs:root=NEWS#Privacy`
+- News → Resetovat identifikátor: `prefs:root=NEWS#reset_identifier`
+- News → Uznání: `prefs:root=NEWS&path=Acknowledgements`
+- NEEDS_OVERRIDE_135 → Letový režim: `prefs:root=ROOT#AIRPLANE_MODE`
+- Připomínky: `prefs:root=REMINDERS`
+- Připomínky → Výchozí seznam: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Připomínky → Výchozí seznam → Připomínky: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Připomínky → Dnešní oznámení: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Připomínky → Zobrazit jako po termínu: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Baterie: `prefs:root=BATTERY_USAGE`
+- Baterie → Režim nízké spotřeby: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Baterie → Kondice baterie: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- WLAN: `prefs:root=WIFI`
+- Bluetooth: `prefs:root=Bluetooth`
+- Zkratky: `prefs:root=SHORTCUTS`
+- Zkratky → Synchronizace přes iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Zkratky → Synchronizovat pořadí: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Zkratky → Právní upozornění: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Siri a hledání: `prefs:root=SIRI`
+- Siri a hledání → Povolit Siri při uzamčení: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri a hledání → Jazyk: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri a hledání → Hlas Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri a hledání → Hlasová odezva: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri a hledání → Moje údaje: `prefs:root=SIRI&path=MY_INFO`
+- Siri a hledání → Návrhy v hledání: `prefs:root=SIRI#Suggestions%20in%20Search`
+- Siri a hledání → Návrhy ve Vyhledávání: `prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+- Siri a hledání → Návrhy na zamčené obrazovce: `prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+- Akcie: `prefs:root=STOCKS`
+- Akcie → Soukromí: `prefs:root=STOCKS#Privacy`
+- Akcie → Resetovat identifikátor: `prefs:root=STOCKS#reset_identifier`
+- Mobilní data: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilní data → Volby dat: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilní data → Volby dat → Režim malého objemu dat: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilní data → Mobilní data: `prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+- TV: `prefs:root=TVAPP`
+- TV → Přehrávat přes mobilní data: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV → Kvalita přehrávání: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV → Nákupy a výpůjčky: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV → Domácí sdílení: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Tapeta: `prefs:root=Wallpaper`
