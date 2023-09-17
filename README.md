@@ -39,7 +39,7 @@ As this list was built primarily for Shortcuts users, all URLs presented here us
 
 If you find any URLs that are not included in this list or don't work for you, issues and/or pull requests are welcomed.
 
-~~I also respond to comments on the original Reddit post.~~ **Update:** As of 2021-02-10, the post is 180 days old and is therefore archived. No further comments can be made there, and as it is approaching the character limit for Reddit posts anyway, I have ceased updating it. All futured edits will only be made in this repository, not on the post.
+~~I also respond to comments on the original Reddit post.~~ **Update:** As of 2021-02-10, the post is 180 days old and is therefore archived. No further comments can be made there, and as it is approaching the character limit for Reddit posts anyway, I have ceased updating it. All future edits will only be made in this repository, not on the post.
 
 You can also DM me on Reddit ([u/FifiTheBulldog](https://www.reddit.com/user/FifiTheBulldog)), mention me on Twitter ([@FifiTheBulldog](https://twitter.com/FifiTheBulldog)), or find me on the r/shortcuts Discord server (@colin273).
 
