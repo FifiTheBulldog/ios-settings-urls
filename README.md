@@ -31,6 +31,7 @@ The URL scheme to open pages in the iOS Settings app seems to be inconsistent ac
 
 - For the Shortcuts app, the only URL scheme that seems to work properly with the paths is `prefs:`.
 - For other apps, such as [Scriptable](https://scriptable.app), the correct scheme is `App-prefs:`. (Note the capital `A`.) **Important:** this actually doesn't seem to work when developing apps in Swift. All you can do by URL is open the main page of the Settings app. You can also open your own app's settings with the [official API](https://developer.apple.com/documentation/uikit/uiapplication/1623042-opensettingsurlstring) for doing so.
+- For some apps, the correct scheme is  `App-prefs:` but then removing the `root=` portion from the listed URL. For example: `App-prefs:APPLE_ACCOUNT`. This scheme can be used to create QR codes that scan and open settings pages directly.
 
 As this list was built primarily for Shortcuts users, all URLs presented here use the `prefs:` URL scheme. When you use the `App-prefs:` scheme, the rest of the URL stays the same; the scheme is the only thing that changes.
 
