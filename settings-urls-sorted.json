@@ -7,6 +7,7 @@
         "Audio/Visual": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
         "Display & Text Size": {
             "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
+            "Color Filters": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
             "Larger Text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Larger%20Text"
         },
         "Guided Access": {

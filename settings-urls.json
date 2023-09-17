@@ -209,7 +209,8 @@
         "Magnifier": "prefs:root=ACCESSIBILITY&path=MAGNIFIER_TITLE",
         "Display & Text Size": {
             "(root)": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
-            "Larger Text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Larger%20Text"
+            "Larger Text": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Larger%20Text",
+            "Color Filters": "prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR"
         },
         "Motion": "prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
         "Spoken Content": {

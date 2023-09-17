@@ -41,7 +41,7 @@ If you find any URLs that are not included in this list or don't work for you, i
 
 ~~I also respond to comments on the original Reddit post.~~ **Update:** As of 2021-02-10, the post is 180 days old and is therefore archived. No further comments can be made there, and as it is approaching the character limit for Reddit posts anyway, I have ceased updating it. All futured edits will only be made in this repository, not on the post.
 
-You can also DM me on Reddit ([u/FifiTheBulldog](https://www.reddit.com/user/FifiTheBulldog)), mention me on Twitter ([@FifiTheBulldog](https://twitter.com/FifiTheBulldog)), or find me on the r/shortcuts Discord server (@FifiTheBulldog#6153).
+You can also DM me on Reddit ([u/FifiTheBulldog](https://www.reddit.com/user/FifiTheBulldog)), mention me on Twitter ([@FifiTheBulldog](https://twitter.com/FifiTheBulldog)), or find me on the r/shortcuts Discord server (@colin273).
 
 New updates to the MacStories list will be added to this list as well.
 
@@ -59,3 +59,4 @@ New updates to the MacStories list will be added to this list as well.
 - [u/Jacopeste](https://www.reddit.com/user/Jacopeste) for Safari → Clear History and Website Data
 - [u/wowanBlya](https://www.reddit.com/user/wowanBlya) for Passwords → [Search Term]
 - [elif-data](https://github.com/elif-data) for Safari → Hide IP Address
+- @rocky5 (on Discord) for Accessibility → Display & Text Size → Color Filters
