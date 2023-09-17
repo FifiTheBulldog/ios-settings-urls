@@ -134,6 +134,7 @@
 - Accessibility → Magnifier: `prefs:root=ACCESSIBILITY&path=MAGNIFIER_TITLE`
 - Accessibility → Display & Text Size → (root): `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
 - Accessibility → Display & Text Size → Larger Text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Larger%20Text`
+- Accessibility → Display & Text Size → Color Filters: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
 - Accessibility → Motion: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
 - Accessibility → Spoken Content → (root): `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
 - Accessibility → Spoken Content → Speech Controller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
