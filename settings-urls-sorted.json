@@ -159,6 +159,7 @@
             "Zoom Filter": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter"
         }
     },
+    "Action Button": "prefs:root=ACTION_BUTTON",
     "App Store": {
         "(root)": "prefs:root=STORE",
         "App Downloads": "prefs:root=STORE&path=App%20Downloads",

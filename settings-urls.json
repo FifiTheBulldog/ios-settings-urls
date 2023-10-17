@@ -146,6 +146,7 @@
         "(root)": "prefs:root=ControlCenter",
         "Customize Controls": "prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS"
     },
+    "Action Button": "prefs:root=ACTION_BUTTON",
     "Display": {
         "(root)": "prefs:root=DISPLAY",
         "Options": "prefs:root=DISPLAY&path=APPEARANCE_OPTIONS",

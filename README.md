@@ -60,3 +60,4 @@ New updates to the MacStories list will be added to this list as well.
 - [u/wowanBlya](https://www.reddit.com/user/wowanBlya) for Passwords → [Search Term]
 - [elif-data](https://github.com/elif-data) for Safari → Hide IP Address
 - @rocky5 (on Discord) for Accessibility → Display & Text Size → Color Filters
+- [Jonathan C](https://github.com/Jono-Chang) for Action Button
