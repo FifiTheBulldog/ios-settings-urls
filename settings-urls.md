@@ -92,6 +92,7 @@
 - General → Reset: `prefs:root=General&path=Reset`
 - Control Center → (root): `prefs:root=ControlCenter`
 - Control Center → Customize Controls: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Action Button: `prefs:root=ACTION_BUTTON`
 - Display → (root): `prefs:root=DISPLAY`
 - Display → Options: `prefs:root=DISPLAY&path=APPEARANCE_OPTIONS`
 - Display → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
