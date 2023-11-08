@@ -44,10 +44,6 @@
 - Sounds → Calendar Alerts: `prefs:root=Sounds&path=Calendar%20Alarm`
 - Sounds → Reminder Alerts: `prefs:root=Sounds&path=Reminder%20Alerts`
 - Sounds → AirDrop: `prefs:root=Sounds&path=AIRDROP`
-- Do Not Disturb → (root): `prefs:root=DO_NOT_DISTURB`
-- Do Not Disturb → Allow Calls From: `prefs:root=DO_NOT_DISTURB&path=Allow%20Calls%20From`
-- Do Not Disturb → Auto-Reply To: `prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY`
-- Do Not Disturb → Auto-Reply: `prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY_MESSAGE`
 - Screen Time → (root): `prefs:root=SCREEN_TIME`
 - Screen Time → Turn On Screen Time: `prefs:root=SCREEN_TIME&path=Turn%20On%20Screen%20Time`
 - Screen Time → See All Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
@@ -318,6 +314,10 @@
 - Messages: `prefs:root=MESSAGES`
 - FaceTime → (root): `prefs:root=FACETIME`
 - FaceTime → Siri & Search: `prefs:root=FACETIME&path=SIRI_AND_SEARCH`
+- Focus (Do Not Disturb) → (root): `prefs:root=DO_NOT_DISTURB`
+- Focus (Do Not Disturb) → Allow Calls From: `prefs:root=DO_NOT_DISTURB&path=Allow%20Calls%20From`
+- Focus (Do Not Disturb) → Auto-Reply To: `prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY`
+- Focus (Do Not Disturb) → Auto-Reply: `prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY_MESSAGE`
 - Safari → (root): `prefs:root=SAFARI`
 - Safari → AutoFill: `prefs:root=SAFARI&path=AUTO_FILL`
 - Safari → Content Blockers: `prefs:root=SAFARI&path=CONTENT_BLOCKERS`
