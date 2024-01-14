@@ -320,6 +320,7 @@
         "Accessibility Shortcut": "prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE"
     },
     "Wallpaper": "prefs:root=Wallpaper",
+    "StandBy": "prefs:root=AMBIENT",
     "Siri": {
         "(root)": [
             "prefs:root=SIRI",

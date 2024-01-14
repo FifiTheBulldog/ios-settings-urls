@@ -44,6 +44,7 @@
             "Typing Feedback": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
             "Voices": "prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents"
         },
+        "StandBy": "prefs:root=AMBIENT",
         "Subtitles & Captioning": "prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
         "Switch Control": {
             "(root)": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
