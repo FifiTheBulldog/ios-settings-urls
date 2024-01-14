@@ -210,6 +210,7 @@
 - Accessibility → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
 - Accessibility → Accessibility Shortcut: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
 - Wallpaper: `prefs:root=Wallpaper`
+- StandBy: `prefs:root=AMBIENT`
 - Siri → (root): `prefs:root=SIRI` or `prefs-siri-shortcuts:root`
 - Siri → Language: `prefs:root=SIRI&path=LANGUAGE_ID`
 - Siri → Voice: `prefs:root=SIRI&path=VOICE_ID`
