@@ -8,6 +8,15 @@
 - iCloud → (root): `prefs:root=CASTLE` or `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
 - iCloud → Keychain: `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync` or `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync`
 - iCloud → iCloud Backup: `prefs:root=CASTLE&path=BACKUP` or `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+- iCloud → iCloud Mail → (root): `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- iCloud → iCloud Mail → Default Email: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- iCloud → iCloud Mail → Addresses: `refs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- iCloud → iCloud Mail → Auto-Reply: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- iCloud → iCloud Mail → iCloud Mail Rules: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- iCloud → iCloud Mail → Mail Forwarding: `refs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- iCloud → iCloud Mail → Mailbox Behaviors: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- iCloud → iCloud Mail → Signing and Encryption: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- iCloud → iCloud Mail → Import Messages: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
 - iCloud → Find My: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
 - iCloud → Family Sharing: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
 - iCloud → Hide My Email: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
