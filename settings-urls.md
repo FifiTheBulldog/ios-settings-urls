@@ -348,6 +348,9 @@
 - Health → (root): `prefs:root=HEALTH`
 - Health → Siri & Search: `prefs:root=HEALTH&path=SIRI_AND_SEARCH`
 - Home: `prefs:root=HOMEKIT`
+- Journal → (root): `prefs:root=JOURNAL`
+- Journal → Journaling Schedule: `prefs:root=JOURNAL&path=journalingSchedule`
+- Journal → Lock Journal `prefs:root=JOURNAL&path=lockJournal`
 - Music → (root): `prefs:root=MUSIC`
 - Music → Cellular Data: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
 - Music → Dolby Atmos: `prefs:root=MUSIC&path=com.apple.Music%3AAtmos`
