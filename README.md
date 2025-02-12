@@ -1,6 +1,8 @@
 # ios-settings-urls
 
-A collection of iOS Settings URLs.
+- [The full list](/settings-urls.md).
+
+A collection of iOS Settings URLs. My take on the great work this forked from. Until further notice, all the pronouns after this point are referring to the author of the repository that this was forked from.
 
 From my post on [r/shortcuts](https://www.reddit.com/r/shortcuts): https://www.reddit.com/r/shortcuts/comments/i9rjbh/an_updated_list_of_settings_urls/
 
@@ -37,7 +39,7 @@ As this list was built primarily for Shortcuts users, all URLs presented here us
 
 ## Contributing
 
-If you find any URLs that are not included in this list or don't work for you, issues and/or pull requests are welcomed.
+If you find any URLs that are not included in this list or don't work for you, issues and/or pull requests are welcomed. When creating issues, please remember to include the device you are using as well as the operating system version. Since the JSON list is generated from the Markdown file, please make any additions to the Markdown file and the changes will propogate to the JSON list.
 
 ~~I also respond to comments on the original Reddit post.~~ **Update:** As of 2021-02-10, the post is 180 days old and is therefore archived. No further comments can be made there, and as it is approaching the character limit for Reddit posts anyway, I have ceased updating it. All future edits will only be made in this repository, not on the post.
 

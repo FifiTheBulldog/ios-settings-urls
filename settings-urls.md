@@ -11,6 +11,7 @@
 - iCloud → Find My: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
 - iCloud → Family Sharing: `prefs:root=APPLE_ACCOUNT&path=FAMILY`
 - iCloud → Hide My Email: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
+- iCloud → Mail → iCloud Mail Rules: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES` (16Pro,iOS18) 
 - Wi-Fi: `prefs:root=WIFI`
 - Bluetooth: `prefs:root=Bluetooth`
 - Cellular → (root): `prefs:root=MOBILE_DATA_SETTINGS_ID`
@@ -166,6 +167,8 @@
 - Accessibility → Switch Control → (root): `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
 - Accessibility → Switch Control → Switches → (root): `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
 - Accessibility → Switch Control → Switches → Bluetooth Devices…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- Accessibility → Switch Control → Recipes → (root): `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier` ([16pro;iOS18.1])
+- Accessibility → Switch Control → Recipes → Launch Recipe: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe` ([16pro;iOS18.1])
 - Accessibility → Switch Control → Scanning Style: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Scanning%20Style`
 - Accessibility → Switch Control → Pause on First Item: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Pause%20on%20First%20Item`
 - Accessibility → Switch Control → Move Repeat: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Move%20Repeat`
@@ -223,7 +226,9 @@
 - Emergency SOS: `prefs:root=EMERGENCY_SOS`
 - Exposure Notifications: `prefs:root=EXPOSURE_NOTIFICATION`
 - Battery → (root): `prefs:root=BATTERY_USAGE`
-- Battery → Battery Health: `prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH`
+- Battery → Battery Health: `prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE` ([16pro;iOS18.1])
+- Battery → Battery Health: `prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH` ([earlier versions])
+- Battery → Charging: `prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER` ([16pro;iOS18.1])
 - Privacy → (root): `prefs:root=Privacy`
 - Privacy → Location Services → (root): `prefs:root=Privacy&path=LOCATION`
 - Privacy → Location Services → Share My Location → (root): `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING`
