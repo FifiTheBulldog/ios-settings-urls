@@ -324,6 +324,7 @@
 - Phone → (root): `prefs:root=Phone`
 - Phone → Respond with Text: `prefs:root=Phone&path=Respond%20with%20Text`
 - Phone → Silence Unknown Callers: `prefs:root=Phone&path=SILENCE_CALLS`
+- Phone → Show My Caller ID: `prefs:root=Phone&path=CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS`
 - Messages: `prefs:root=MESSAGES`
 - FaceTime → (root): `prefs:root=FACETIME`
 - FaceTime → Siri & Search: `prefs:root=FACETIME&path=SIRI_AND_SEARCH`
