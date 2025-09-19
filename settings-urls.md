@@ -394,6 +394,12 @@
 - Game Center → Add Friends: `prefs:root=GAMECENTER&path=Add%20Friends`
 - Game Center → Terms and Conditions: `prefs:root=GAMECENTER&path=Terms%20and%20Conditions`
 - TV Provider: `prefs:root=VIDEO_SUBSCRIBER`
+- Find My → People → (root): `findmy://friends` or `findmy://people`
+- Find My → People → [someone]: `findmy://friend/[Person slug]`
+- Find My → Devices → (root): `findmy://devices`
+- Find My → Items → (root): `findmy://items`
+- Find My → Items → [your item]: `findmy://bypass/item?id=[Your item UUID string]&op=selectItem`
+- Find My → Me → (root): `findmy://me`
 - Developer → (root): `prefs:root=DEVELOPER_SETTINGS`
 - Developer → Instruments/Logging: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
 - Developer → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
