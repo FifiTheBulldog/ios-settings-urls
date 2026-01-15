@@ -88,13 +88,13 @@
 - General → Language & Region → Numbers: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
 - General → Language & Region → Temperature Unit: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
 - General → Dictionary: `prefs:root=General&path=DICTIONARY`
-- General → VPN → (root): `prefs:root=General&path=VPN`
-- General → VPN → [VPN Configuration Name] → (root): `prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]`
-- General → VPN → [VPN Configuration Name] → Delete VPN: `prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]/Delete%20VPN`
-- General → VPN → Add VPN Configuration…: `prefs:root=General&path=VPN/Add%20VPN%20Configuration%E2%80%A6`
-- General → VPN → DNS: `prefs:root=General&path=VPN/DNS`
-- General → Profiles → (root): `prefs:root=General&path=ManagedConfigurationList`
-- General → Profiles → Install Profile: `prefs:root=General&path=ManagedConfigurationList/PurgatoryInstallRequested`
+- General → VPN & Device Management → (root): `prefs:root=General&path=ManagedConfigurationList`
+- General → VPN & Device Management → Install Profile: `prefs:root=General&path=ManagedConfigurationList/PurgatoryInstallRequested`
+- General → VPN & Device Management → DNS: `prefs:root=General&path=ManagedConfigurationList/DNS`
+- General → VPN & Device Management → VPN → (root): `prefs:root=General&path=ManagedConfigurationList/VPN`
+- General → VPN & Device Management → VPN → [VPN Configuration Name] → (root): `prefs:root=General&path=ManagedConfigurationList/VPN/[URL-encoded VPN Configuration Name]`
+- General → VPN & Device Management → VPN → [VPN Configuration Name] → Delete VPN: `prefs:root=General&path=ManagedConfigurationList/VPN/[URL-encoded VPN Configuration Name]/Delete%20VPN`
+- General → VPN & Device Management → VPN → Add VPN Configuration…: `prefs:root=General&path=ManagedConfigurationList/VPN/Add%20VPN%20Configuration%E2%80%A6`
 - General → Legal & Regulatory: `prefs:root=General&path=LEGAL_AND_REGULATORY`
 - General → Reset: `prefs:root=General&path=Reset`
 - Control Center → (root): `prefs:root=ControlCenter`
