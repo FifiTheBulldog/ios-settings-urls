@@ -176,7 +176,8 @@
     "Apple Pencil": "prefs:root=Pencil",
     "Battery": {
         "(root)": "prefs:root=BATTERY_USAGE",
-        "Battery Health": "prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH"
+        "Battery Health": "prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
+        "Charging": "prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER"
     },
     "Bluetooth": "prefs:root=Bluetooth",
     "Books": {
