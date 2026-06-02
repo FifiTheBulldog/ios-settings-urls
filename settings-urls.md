@@ -63,6 +63,7 @@
 - Screen Time → Screen Distance: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
 - Screen Time → Communication Limits: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
 - Screen Time → Content & Privacy Restrictions: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Screen Time → Family → [Child]: `prefs:root=SCREEN_TIME&path=CHILD_[DSID]` (DSID's can be obtained from network requests in browser dev tools. Log into icloud.com, filter url requests by `getFamilyDetails` and look for `familyMembers[].dsid` in the response body)
 - General → (root): `prefs:root=General`
 - General → About → (root): `prefs:root=General&path=About`
 - General → About → SEID: `prefs:root=General&path=About/SEID`
